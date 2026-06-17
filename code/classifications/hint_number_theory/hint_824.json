@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_824",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem": "Find $10110_2\\times10100_2\\div10_2$. Express your answer in base 2.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How do we approach the calculation of $10110_2\\times10100_2\\div10_2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "In base 2, how does each place represent a different power of 2? How does this compare to base 10?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How do we perform division by 2 in base 2? How does this affect each digit in the number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do we find the product of $1011_2$ and $10100_2$? Can we apply any shortcuts or tricks to simplify the multiplication?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we combine the results of division and multiplication to arrive at the final answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other examples where we might use these same concepts and techniques in base 2 calculations?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

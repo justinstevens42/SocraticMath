@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_507",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 2",
+  "problem": "Two cards are dealt from a standard deck of 52 cards.  What is the probability that the first card dealt is a $\\diamondsuit$ and the second card dealt is a $\\spadesuit$?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total number of cards in a standard deck?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many $\\diamondsuit$ cards are there in a standard deck?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "If the first card dealt is a $\\diamondsuit$, how many $\\diamondsuit$ cards are left in the deck?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the likelihood of drawing a $\\spadesuit$ as the second card from the remaining $\\diamondsuit$ cards?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can the order of drawing the cards affect the probability of getting the required suits?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many $\\spadesuit$ cards are in a standard deck?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the probability of getting a $\\spadesuit$ as the second card from the entire deck?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we calculate the probability of both cards being the required suits?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

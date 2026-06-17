@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_860",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem": "Let $n$ equal the number of sides in a regular polygon. For $3\\leq n < 10$, how many values of $n$ result in a regular polygon where the common degree measure of the interior angles is not an integer?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what a regular polygon is and how it differs from an irregular polygon?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we calculate the sum of the interior angles for any polygon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "In the case of a regular polygon, how can we determine the measure of each interior angle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What values of n between 3 and 10 result in a regular polygon with an integer degree measure for each interior angle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "For which value of n does the regular polygon have a non-integer degree measure for each interior angle? How did you arrive at this conclusion?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other characteristics that might result in a regular polygon having a non-integer degree measure for each interior angle?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

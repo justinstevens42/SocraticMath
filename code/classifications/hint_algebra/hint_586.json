@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_586",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem": "Find the common ratio of the infinite geometric series: $$\\frac{5}{6}-\\frac{4}{9}+\\frac{32}{135}-\\dots$$",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you define an infinite geometric series?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you identify the first term and the common ratio in the given series?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the formula for finding the sum of an infinite geometric series?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can you determine if a geometric series is convergent or divergent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "If the series is convergent, what is the formula for finding its sum?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can you determine the common ratio of an infinite geometric series if you know the first term and the sum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can you determine the common ratio of an infinite geometric series if you know two consecutive terms?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you calculate the sum of the given infinite geometric series using the formula for the sum of a convergent series?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

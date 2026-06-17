@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_530",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 2",
+  "problem": "8 people attend a party. During the party everyone shakes hands with everyone else. How many handshakes take place at the party?",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many people attended the party?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Why do we need to find the number of handshakes that took place at the party?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What does \"choosing 2 people to shake hands with each other\" mean in this context?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain what the notation $\\binom{8}{2}$ represents?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why do we use this combination formula to calculate the number of handshakes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain how the formula $\\binom{8}{2}$ relates to counting the number of handshakes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What other scenarios or situations can you think of where we can use the combination formula to count or organize objects?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

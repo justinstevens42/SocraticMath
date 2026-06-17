@@ -1,0 +1,89 @@
+{
+  "problem_id": "hint_899",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem": "How many even natural-number factors does $n = 2^2 \\cdot 3^1 \\cdot 7^2$ have?",
+  "n_questions": 11,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what a natural-number factor is?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What does \"even\" mean in the context of natural-number factors?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we express the prime factorization of $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Using the prime factorization of $n$, can you write out all possible combinations of its factors in the form $2^a\\cdot3^b\\cdot7^c$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many possible values of $a$ are there for factors of $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many possible values of $b$ are there for factors of $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How many possible values of $c$ are there for factors of $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How many total factors of $n$ are there, including both even and odd factors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Using the restriction that the power of 2 must be at least 1 for even factors, how many possible values are there for $a$ for even factors of $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Given the restrictions on the values of $a$, $b$, and $c$ for factors of $n$, how can we use this information to count the total number of even factors of $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "What is the final answer, and how do we know it is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_371",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem": "How many ways are there to put 5 balls in 3 boxes if the balls are not distinguishable but the boxes are?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the difference between the balls being distinguishable and not distinguishable in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Why do we only need to count the number of balls in each box if the balls are indistinguishable?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How many ways are there to arrange the balls in the boxes if all 5 balls are in the same box?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many ways are there to arrange the balls in the boxes if 4 balls are in one box and 1 ball is in another box?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many ways are there to arrange the balls in the boxes if 3 balls are in one box, 2 balls are in another box, and 0 balls are in the remaining box?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Why are there only 3 ways to arrange the balls if there are 3 balls in one box and 1 ball each in the other two boxes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How many ways are there to arrange the balls if there are 2 balls in one box, 2 balls in another box, and 1 ball in the remaining box?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Are there any other arrangements of the balls in the boxes that we haven't accounted for?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "What is the final answer to the problem and how did we arrive at it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

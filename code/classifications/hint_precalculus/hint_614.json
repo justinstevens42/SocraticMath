@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_614",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem": "In triangle $ABC,$ $AC = BC = 7.$  Let $D$ be a point on $\\overline{AB}$ so that $AD = 8$ and $CD = 3.$  Find $BD.$",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given triangle ABC, and what are the lengths of its sides?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How is point D defined, and what is known about its position on side AB?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the Law of Cosines, and how is it used to find angle ADC?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the measure of angle BDC, and how is it related to angle ADC?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the value of x, and how is it related to the lengths of sides BC, BD, and CD?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How is the Law of Cosines used to set up an equation involving x, and what is the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How is this equation solved, and what is the value of x that is obtained?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can this solution be checked and verified, and if so, how?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

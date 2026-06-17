@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_478",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 1",
+  "problem": "In the diagram, the equilateral triangle has a base of $8$ m. What is the perimeter of the triangle? [asy]\nsize(100);\ndraw((0,0)--(8,0)--(4,4*sqrt(3))--cycle);\nlabel(\"8 m\",(4,0),S);\ndraw((4,-.2)--(4,.2));\ndraw((1.8,3.5)--(2.2,3.3));\ndraw((6.3,3.5)--(5.8,3.3));\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe an equilateral triangle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the definition of perimeter?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you identify the length of each side of the given triangle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can you calculate the perimeter of the equilateral triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why can we simply multiply the length of one side by 3 to find the perimeter of the triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other shapes or figures where you can use a similar approach to find their perimeters?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

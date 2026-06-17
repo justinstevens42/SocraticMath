@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_109",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem": "Dave's sister baked $3$ dozen pies of which half contained chocolate, two thirds contained marshmallows, three-fourths contained cayenne, and one-sixths contained salted soy nuts.  What is the largest possible number of pies that had none of these ingredients?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total number of pies that Dave's sister baked?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many pies contained chocolate?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many pies contained marshmallows?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many pies contained cayenne?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many pies contained salted soy nuts?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is it possible for a pie to contain both chocolate and marshmallows? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Based on the information given, what is the maximum number of pies that could have none of these ingredients?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of a scenario where the maximum number of pies without any of these ingredients would be different? Explain your reasoning.",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "If there were 9 pies without any of these ingredients and the rest had at least one of these ingredients, how many pies would contain both marshmallows and cayenne?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

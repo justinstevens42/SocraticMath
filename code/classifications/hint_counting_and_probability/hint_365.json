@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_365",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 1",
+  "problem": "When flipping a fair coin, what is the probability that the first two flips are both heads? Express your answer as a common fraction.",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of probability?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is a fair coin and how does it relate to probability?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How do we calculate the probability of multiple independent events occurring in a row, such as flipping two heads in a row?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why the probability of flipping a head on any given flip is always 1/2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does the concept of independent events play a role in calculating the probability of flipping two heads in a row?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other scenarios in everyday life where the concept of probability and independent events are relevant?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

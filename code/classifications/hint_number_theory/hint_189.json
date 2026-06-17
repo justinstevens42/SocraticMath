@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_189",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem": "For each positive integer $n$, let $n!$ denote the product $1\\cdot 2\\cdot 3\\cdot\\,\\cdots\\,\\cdot (n-1)\\cdot n$.\n\nWhat is the remainder when $9!$ is divided by $11$?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of $n!$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we calculate the remainder when a number is divided by another number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can we use modular arithmetic to simplify the calculation of $9!$ modulo $11$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Is there a pattern in the remainders when smaller factorials are divided by $11$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we use modular arithmetic to simplify the calculation of $n!$ modulo a prime number $p$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other properties of factorials that are useful for number theory problems?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

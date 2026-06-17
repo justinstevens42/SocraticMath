@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_237",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem": "What is the remainder when the sum of the first five primes is divided by the sixth prime?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "f",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what it means to find the remainder when dividing numbers?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How would you approach finding the sum of the first five primes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Why do you think we need to divide the sum by the sixth prime?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What do you think will happen if the sum is evenly divisible by the sixth prime?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the sum of the first five primes? Can you calculate it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you write out the division process of the sum by the sixth prime?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the quotient and remainder when the sum is divided by the sixth prime?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Why is it important to focus on the remainder in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 9,
+      "question": "Can you generalize this problem to finding the remainder when summing any set of numbers divided by a prime?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any other scenarios where finding the remainder might be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

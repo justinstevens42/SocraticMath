@@ -1,0 +1,96 @@
+{
+  "problem_id": "hint_630",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem": "I am playing a walking game with myself.  On move 1, I do nothing, but on move $n$ where $2 \\le n \\le 25$, I take one step forward if $n$ is prime and two steps backwards if the number is composite.  After all 25 moves, I stop and walk back to my original starting point.  How many steps long is my walk back?",
+  "n_questions": 12,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the goal of this walking game?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many moves are there in total?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you list all the prime numbers between 2 and 25?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How many prime numbers are there?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many composite numbers are there?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many steps forward do you take for each prime number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How many steps backwards do you take for each composite number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the total number of steps forward for all the prime numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the total number of steps backwards for all the composite numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the net total of steps forward or backward?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "How many steps away from the starting point are you after 25 moves?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "How many steps do you walk back to reach the original starting point?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

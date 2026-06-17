@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_529",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem": "The slant height of a cone is 13 cm, and the height from the vertex to the center of the base is 12 cm. What is the number of cubic centimeters in the volume of the cone? Express your answer in terms of $\\pi$.",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "f",
+    "r",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How did you determine the slant height and the height of the cone?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Why did you create a right triangle using the slant height, height, and radius of the cone?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How did you use the Pythagorean theorem in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why the radius of the cone is equal to the square root of the difference between the slant height squared and the height squared?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did you calculate the volume of the cone using the formula (1/3)π(5^2)(12)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there any other method you could have used to find the volume of the cone?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other shapes or figures where similar problem-solving approaches or formulas could be used?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

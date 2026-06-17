@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_602",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "A parabola has focus $(3,3)$ and directrix $3x + 7y = 21.$  Express the equation of the parabola in the form\n\\[ax^2 + bxy + cy^2 + dx + ey + f = 0,\\]where $a,$ $b,$ $c,$ $d,$ $e,$ $f$ are integers, $a$ is a positive integer, and $\\gcd(|a|,|b|,|c|,|d|,|e|,|f|) = 1.$",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "e",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the steps you took to derive the equation of the parabola in the form $ax^2 + bxy + cy^2 + dx + ey + f = 0$ using the given focus and directrix?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the significance of the focus and directrix in defining the parabola?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 3,
+      "question": "How did you arrive at the equation $\\sqrt{(x - 3)^2 + (y - 3)^2} = \\frac{|3x + 7y - 21|}{\\sqrt{58}}$? Can you explain the reasoning behind this step?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why did you take the square of both sides of the equation? What does squaring both sides help us achieve?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did you simplify the equation $(x - 3)^2 + (y - 3)^2 = \\frac{(3x + 7y - 21)^2}{58}$ to obtain the expression $49x^2 - 42xy + 9y^2 - 222x - 54y + 603 = 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you verify if the resulting equation satisfies the given requirements: that $a$ is a positive integer, $\\gcd(|a|,|b|,|c|,|d|,|e|,|f|) = 1$, and the equation represents a parabola with the given focus and directrix?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other conceptual or computational approaches to derive the equation of the parabola? What are their advantages or disadvantages compared to the method you used?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

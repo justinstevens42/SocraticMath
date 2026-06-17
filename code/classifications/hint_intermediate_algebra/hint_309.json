@@ -1,0 +1,89 @@
+{
+  "problem_id": "hint_309",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "Let $x,$ $y,$ $z$ be positive real numbers such that\n\\[\\left( \\frac{x}{y} + \\frac{y}{z} + \\frac{z}{x} \\right) + \\left( \\frac{y}{x} + \\frac{z}{y} + \\frac{x}{z} \\right) = 8.\\]Find the minimum value of\n\\[\\left( \\frac{x}{y} + \\frac{y}{z} + \\frac{z}{x} \\right) \\left( \\frac{y}{x} + \\frac{z}{y} + \\frac{x}{z} \\right).\\]",
+  "n_questions": 11,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "b",
+    "e",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given expression and its components in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is our objective in this problem? What are we trying to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What relationships can you identify within the given expression? Are there any patterns or symmetries that stand out?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we simplify or manipulate the given expression using algebraic techniques?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of any properties or theorems that might be applicable in solving this problem?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Can you identify any constraints or limitations on the variables in the expression?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "How can we analyze the expression to determine its minimum value? Can we find any bounds for the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can we use any techniques such as AM-GM inequality or Cauchy-Schwarz inequality to optimize our exploration?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What strategies can we employ to find the minimum value? Are there any specific values or relationships we can substitute to simplify the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can we prove that the minimum value we find is the absolute minimum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "Can you think of any real-world or practical applications where this type of problem might arise?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

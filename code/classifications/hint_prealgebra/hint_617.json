@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_617",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem": "What is the greatest two-digit whole number, the product of whose digits is 8?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what it means for a two-digit whole number to have a product of its digits equal to 8?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the possible combinations of two-digit whole numbers whose digits multiply to 8?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you list all the possible combinations of two-digit whole numbers whose digits multiply to 8?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Based on the list, which of the numbers is the greatest?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why is 81 the greatest two-digit whole number with a product of its digits equal to 8?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other similar problems where you need to find the greatest number with a specific property?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

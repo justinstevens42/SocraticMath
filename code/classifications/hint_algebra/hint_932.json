@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_932",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "For how many integer values of $x$ is $5x^{2}+19x+16 > 20$ not satisfied?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you begin solving the inequality $5x^{2}+19x+16 > 20$? What do you notice about the inequality compared to a regular equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you factorize the quadratic expression $5x^{2}+19x+16$? If so, what are the factors? How can this help you solve the inequality?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Why does factoring the quadratic expression help in this case? What properties or characteristics of the expression make factoring an effective approach?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How would you solve the inequality $5x^{2}+19x+16 > 20$ using the factored form? What steps would you take?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there any other methods you can think of to solve the inequality $5x^{2}+19x+16 > 20$? How are they different from the factoring method?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you generalize the steps and thinking process you used to solve this inequality to other similar types of equations or inequalities?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

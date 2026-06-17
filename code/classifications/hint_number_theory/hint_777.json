@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_777",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem": "What is the greatest 3-digit base 8 positive integer that is divisible by 5?  (Express your answer in base 8.)",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of a base 8 number system?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do we convert a base 10 number to a base 8 number?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the largest 3-digit base 8 number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do we determine if a number is divisible by 5?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the process for finding the greatest 3-digit base 8 number that is divisible by 5?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do we check our solution to ensure it is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can this method be applied to finding the greatest 3-digit base x positive integer that is divisible by n for any base x and divisor n?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

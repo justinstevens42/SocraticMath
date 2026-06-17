@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_862",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "Find all real values of $x$ that satisfy $\\frac{1}{x+1} + \\frac{3}{x+7} \\ge \\frac23.$ (Give your answer in interval notation.)",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the first step in solving this inequality?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What strategies can you use to combine the terms on the left-hand side of the inequality?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can you determine the common denominator in this inequality?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is it important to find the common denominator when solving this inequality?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What does it mean for a rational expression to be less than or equal to zero?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you create a sign table to analyze the sign of the rational expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can you find the intervals where the rational expression is less than or equal to zero?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Why do we need to include the values of x that make the rational expression equal to zero?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you write down the final solution for the inequality in interval notation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

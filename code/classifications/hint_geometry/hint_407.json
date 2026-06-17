@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_407",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem": "Circle $T$ has its center at point $T(-2,6)$. Circle $T$ is reflected across the $y$-axis and then translated 8 units down. What are the coordinates of the image of the center of circle $T$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the center of circle T before any transformations?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What happens to the x-coordinate of the center when we reflect the circle across the y-axis?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you describe the new x-coordinate of the center after reflecting across the y-axis?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What happens to the y-coordinate of the center when we translate the circle down?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we calculate the new y-coordinate of the center after translating down?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you determine the final coordinates of the image of the center of circle T based on the given transformations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

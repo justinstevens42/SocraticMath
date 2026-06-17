@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_420",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem": "Find $\\frac{7}{17} - \\frac{4}{51}$. Reduce your answer to simplest form.",
+  "n_questions": 10,
+  "labels": [
+    "b",
+    "e",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step to subtracting fractions? Can you explain why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you think of any other situations where finding a common denominator is necessary?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 3,
+      "question": "How did you determine that 51 is a multiple of 17? Is there a way to check if two numbers are multiples of each other?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "When simplifying $\\frac{21}{51} - \\frac{4}{51}$, why did you choose to subtract the numerators and keep the denominator the same?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did you simplify $\\frac{21 - 4}{51}$? Is there another way to simplify this expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of a real-life situation where subtracting fractions with a common denominator would be useful?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Are there any shortcuts or strategies that can be used to simplify arithmetic with fractions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "If the fractions had different denominators, how would you approach subtracting them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Is it possible to subtract fractions without finding a common denominator? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any other examples where subtracting fractions would require similar steps or thinking?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_378",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem": "Convert the point $(\\rho,\\theta,\\phi) = \\left( 4, \\frac{5 \\pi}{3}, \\frac{\\pi}{2} \\right)$ in spherical coordinates to rectangular coordinates.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the first step in converting the given spherical coordinates to rectangular coordinates?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the values of $\\rho, \\theta,$ and $\\phi$ in this case, and what do they represent in the spherical coordinate system?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How are the $x, y,$ and $z$ coordinates related to $\\rho, \\theta,$ and $\\phi$ in the conversion process?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain the formula used for calculating $x$ in terms of $\\rho, \\phi,$ and $\\theta$? How does it account for the given values?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Using the given values, what is the calculated value of $x$ in rectangular coordinates?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Similarly, how can we calculate the values of $y$ and $z$ in rectangular coordinates?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Based on the calculations, what are the rectangular coordinates of the point $(\\rho,\\theta,\\phi) = \\left( 4, \\frac{5 \\pi}{3}, \\frac{\\pi}{2} \\right)$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

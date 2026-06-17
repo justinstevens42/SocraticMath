@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_972",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem": "Fifty cards, numbered 1-50, are placed in a box. One card is randomly selected. What is the probability that the number on the card is prime and is a multiple of 7? Express your answer as a common fraction.",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the problem is asking for in your own words?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for a number to be prime?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How many prime numbers are there between 1 and 50?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean for a number to be a multiple of 7?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How many multiples of 7 are there between 1 and 50?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can a number be both prime and a multiple of 7?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "If a number is both prime and a multiple of 7, what would that number be?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the probability of selecting that specific number from the box?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you simplify the probability as a fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

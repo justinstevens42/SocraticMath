@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_69",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem": "Let\n\\[z = \\frac{(-11 + 13i)^3 \\cdot (24 - 7i)^4}{3 + 4i},\\]and let $w = \\frac{\\overline{z}}{z}.$  Compute $|w|.$",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of a complex number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do you multiply two complex numbers together?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the meaning of the complex conjugate of a complex number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can you simplify the expression for $z$ by using the properties of exponents and the fact that $i^2 = -1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why do we take the conjugate of $z$ to compute the value of $w$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the geometric interpretation of the absolute value of a complex number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain why $|w| = 1$ using the definition of $z$ and the properties of the absolute value of complex numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

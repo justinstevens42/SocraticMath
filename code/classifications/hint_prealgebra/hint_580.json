@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_580",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem": "Giselle will combine blue paint, green paint, and white paint in the ratio $3:2:4$, respectively. If she uses $12$ quarts of white paint, how many quarts of green paint should she use?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given ratio of blue paint, green paint, and white paint that Giselle will combine?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we simplify the ratio of white paint to green paint?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What does a ratio of 4:2 simplify to?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "According to the simplified ratio, how much white paint should Giselle use in relation to green paint?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "If Giselle uses 12 quarts of white paint, how many quarts of green paint should she use?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other scenarios where ratios are used to determine quantities?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

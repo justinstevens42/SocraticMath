@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_52",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem": "Point $A$ has coordinates $(x,6)$. When Point $A$ is reflected over the $y$-axis it lands on Point $B$. What is the sum of the four coordinate values of points $A$ and $B$?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the reflection of a point over the y-axis?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How does the y-coordinate of a point change when it is reflected over the y-axis?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "In what direction does the x-coordinate change during a reflection over the y-axis?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What are the coordinates of point A after it is reflected over the y-axis?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why the y-coordinate remains the same after the reflection?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we find the sum of the x and y coordinates of points A and B?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the sum of the x-coordinates of points A and B?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the sum of the y-coordinates of points A and B?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the overall sum of the four coordinate values of points A and B?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

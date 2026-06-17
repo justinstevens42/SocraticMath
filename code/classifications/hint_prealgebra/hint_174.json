@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_174",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem": "Sixty percent of a plane's passengers are women and ten percent of those women are in first class. What is the number of women in first class if the plane is carrying 200 passengers?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What percentage of the plane's passengers are women?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many passengers are there on the plane?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we calculate the number of women passengers on the plane if we know the percentage of female passengers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What percentage of the women passengers are in first class?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we find the number of women in first class if we know the total number of women passengers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you calculate the number of women in first class based on the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

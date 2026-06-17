@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_681",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem": "How many natural-number factors does $\\textit{N}$ have if $\\textit{N} = 2^3 \\cdot 3^2 \\cdot 5^1$?",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what a natural-number factor of N is?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can you determine the prime factorization of N?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Based on the prime factorization of N, what are the possible values for the exponent of 2 in a factor of N?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Based on the prime factorization of N, what are the possible values for the exponent of 3 in a factor of N?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Based on the prime factorization of N, what are the possible values for the exponent of 5 in a factor of N?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many choices are there for the exponent of 2 in a factor of N? How about the exponent of 3 and 5?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Using the choices for the exponents of 2, 3, and 5, how many possible natural-number factors of N are there?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the final answer for the number of natural-number factors of N?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

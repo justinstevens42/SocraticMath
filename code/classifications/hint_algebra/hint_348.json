@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_348",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem": "The roots of the equation $2x^2 - 5x - 4 = 0$ can be written in the form $x = \\frac{m \\pm \\sqrt{n}}{p}$, where $m$, $n$, and $p$ are positive integers with a greatest common divisor of 1. What is the value of $n$?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "e",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what it means for a number to be a root of an equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the roots of the equation $2x^2 - 5x - 4 = 0$? How can we find them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the significance of expressing the roots in the form $x = \\frac{m \\pm \\sqrt{n}}{p}$?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the values of $m$, $n$, and $p$ in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you identify any patterns or relationships between the coefficients of the equation and the values of $m$, $n$, and $p$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How does the requirement of a greatest common divisor of 1 for $m$, $n$, and $p$ impact our solution and understanding of the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other equations where we can express the roots in a similar form?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

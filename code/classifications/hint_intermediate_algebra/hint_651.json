@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_651",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem": "Find the sum of the roots of the equation \\[(2x^3 + x^2 - 8x + 20)(5x^3 - 25x^2 + 19) = 0.\\]",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we find the sum of the roots of the equation $(2x^3 + x^2 - 8x + 20)(5x^3 - 25x^2 + 19) = 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain what Vieta's formulas are and how they can be used to find the sum of the roots of a polynomial equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What are the roots of the equation $2x^3 + x^2 - 8x + 20 = 0$ and how can we find their sum using Vieta's formulas?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What are the roots of the equation $5x^3 - 25x^2 + 19 = 0$ and how can we find their sum using Vieta's formulas?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why is it valid to combine the roots of both equations to find the sum of the roots of the given equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why $ab = 0$ if and only if $a = 0$ or $b = 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Based on the information we have, what is the sum of the roots of the given equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

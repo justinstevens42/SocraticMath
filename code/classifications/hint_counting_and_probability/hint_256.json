@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_256",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem": "What is the second smallest four-digit number in Pascal's triangle?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e",
+    "r",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is Pascal's triangle and how is it constructed?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How are the numbers in each row of Pascal's triangle generated?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain the pattern or rule behind the numbers in Pascal's triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the size of each row in Pascal's triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What are the values in the row that starts with 1, 1000 in Pascal's triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we find the second smallest four-digit number in Pascal's triangle based on the given row?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other rows in Pascal's triangle that contain four-digit numbers? If so, which ones?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Is there a general method or formula for finding any specific number in Pascal's triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "Can you explain the significance or applications of Pascal's triangle and its patterns in mathematics?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of other mathematical concepts or patterns that might have similar properties or constructions as Pascal's triangle?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

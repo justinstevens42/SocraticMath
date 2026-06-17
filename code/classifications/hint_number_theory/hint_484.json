@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_484",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem": "What is the least positive integer that is divisible by three distinct primes?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what it means for a number to be divisible by a prime?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the Fundamental Theorem of Arithmetic and how does it relate to our problem of finding the least positive integer divisible by three distinct primes?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Why did we select the three smallest primes of 2, 3, and 5 in our problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How did we determine that multiplying these three primes yields the least positive integer that is divisible by three primes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Is it possible to have a number that is divisible by more than three primes? If so, how would we approach finding the least positive integer in that case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other related concepts in Number Theory that could be explored using the Socratic questioning method?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

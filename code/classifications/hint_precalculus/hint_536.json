@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_536",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem": "In equilateral triangle $ABC,$ let points $D$ and $E$ trisect $\\overline{BC}$.  Find $\\sin \\angle DAE.$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given triangle and the points D, E, and M? What properties do these points have?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the length of AM in triangle ACM? Can you explain the relationship between the sides of a 30-60-90 triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the Pythagorean theorem in triangle AME to find the length of AE?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why the area of triangle DAE is equal to half the product of DE and AM? What mathematical principle or formula is being used here?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Based on the given information, can you derive an equation for the area of triangle DAE involving the length of AD, AE, and the sine of angle DAE?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use this equation to solve for the sine of angle DAE? What steps would you take?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

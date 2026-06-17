@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_872",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem": "Compute $\\gcd(83^9+1,83^9+83^2+1)$.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain why we want to find the greatest common divisor (gcd) of $83^9+1$ and $83^9+83^2+1$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What can we say about the difference between $83^9+1$ and $83^9+83^2+1$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How does the difference between $83^9+1$ and $83^9+83^2+1$ help us determine the possible common divisors?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What are the prime factors of $83^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why can't $83$ be a divisor of $83^9+1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you determine the gcd of $83^9+1$ and $83^9+83^2+1$ based on the given information? If so, what is the gcd?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other similar problems where finding the gcd using similar reasoning and steps would be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

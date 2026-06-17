@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_864",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem": "Triangles $ABC$ and $ADC$ are isosceles with $AB=BC$ and $AD=DC$. Point $D$ is inside $\\triangle ABC$, $\\angle ABC = 40^\\circ$, and $\\angle ADC = 140^\\circ$.  What is the degree measure of $\\angle\nBAD$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What do we know about the triangles ABC and ADC in terms of their side lengths and angles?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the measure of angle BAD?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What property of isosceles triangles can we use to find the measure of angle BAC?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the measure of angle DAC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What relationship can we establish between angles BAC, DAC, and BAD?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Based on our findings, what is the degree measure of angle BAD in triangle ABCD?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

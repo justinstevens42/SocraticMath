@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_1026",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem": "Find \\[\\left|\\left(3 + \\sqrt{7}i\\right)^3\\right|\\]",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of the absolute value of a complex number? How does it relate to the magnitude or modulus of the complex number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can we simplify the expression $\\left|3 + \\sqrt{7}i\\right|^3$ using the property $|ab| = |a|\\cdot |b|$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the absolute value of the complex number $3 + \\sqrt{7}i$? How can we compute it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How do we raise a complex number to a power? Are there any specific rules or properties involved?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can we simplify $\\left|3 + \\sqrt{7}i\\right|^3$ further using any properties or formulas?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the final result or value of $\\left|3 + \\sqrt{7}i\\right|^3$? Can you provide an explanation or proof for your answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

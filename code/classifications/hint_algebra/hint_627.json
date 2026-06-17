@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_627",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "Krista put 1 cent into her new bank on a Sunday morning.  On Monday she put 2 cents into her bank.  On Tuesday she put 4 cents into her bank, and she continued to double the amount of money she put into her bank each day for two weeks.  On what day of the week did the total amount of money in her bank first exceed $\\$2$?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what pattern is happening with the amount of money Krista is putting into her bank each day?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can you determine the total amount of money in Krista's bank after a certain number of days?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many times does Krista double the amount of money she puts into her bank over a two-week period?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you calculate the total amount of money Krista has in her bank after each day for the two-week period?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "On which day does the total amount of money in Krista's bank first exceed $2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there a general formula or equation that can be used to calculate the total amount of money in Krista's bank after a certain number of days?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other scenarios where a similar pattern or exponential growth occurs?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

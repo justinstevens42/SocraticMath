@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_229",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "Suppose that $a$ and $b$ are nonzero integers such that two of the roots of\n\\[x^3 + ax^2 + bx + 9a\\]coincide, and all three roots are integers.  Find $|ab|.$",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the formula for the given cubic equation, and what are the conditions for the roots of the equation to be integers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain why two of the roots of the cubic equation coincide, and what does this tell us about the coefficient of the squared term and the constant term in the equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How do we express the roots of the cubic equation in terms of the integer values of $r$ and $s,$ and what is the significance of the squared term in the factorized form of the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What are the equations that result from matching coefficients of the expanded factorized form of the cubic equation, and what can we infer about the value of $a$ and $b$ from these equations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we derive a quadratic equation for $r$ from the equation involving $r,$ $s,$ and $a,$ and what is the discriminant of this quadratic equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the relationship between the discriminant and the values of $r$ and $s,$ and how do we use this relationship to find integer values of $r$ and $s$ that satisfy the cubic equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Once we have found integer values of $r$ and $s$ that satisfy the cubic equation, how do we calculate the values of $a$ and $b,$ and what is the final result that we obtain?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

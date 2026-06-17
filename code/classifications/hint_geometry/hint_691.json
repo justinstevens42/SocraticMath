@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_691",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem": "How many integer side lengths are possible to complete a triangle in which the other sides measure 6 units and 3 units?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the Triangle Inequality and how does it relate to this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain why the unknown side length must be less than 9 units and greater than 3 units?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How did you determine that there are 5 possible integer side lengths?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you list the 5 possible integer side lengths?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How would the number of possible integer side lengths change if the other sides measured 8 units and 4 units instead?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other geometric concepts that could be used to solve this problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

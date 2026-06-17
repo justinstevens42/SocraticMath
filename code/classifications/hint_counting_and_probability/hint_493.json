@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_493",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem": "Determine the number of ways to arrange the letters of the word COMBINATION.",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "f",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many total letters are in the word \"COMBINATION\"?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Are there any repeating letters in the word? If so, which ones?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Why do we need to account for the repeating letters when counting the number of arrangements?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What does the expression \"11!\" represent in the formula for the number of arrangements?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What does the expression \"2! \\times 2! \\times 2!\" represent in the formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What property of factorials and permutations allows us to divide by these repeating factorials?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain why we divide the total number of arrangements by the factorials of the counts of the repeating letters?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you calculate the value of the expression $\\dfrac{11!}{2! \\times 2! \\times 2!}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

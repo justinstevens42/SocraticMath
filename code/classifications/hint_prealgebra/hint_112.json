@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_112",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem": "Kim earned scores of 87, 83 and 88 on her first three mathematics examinations. If Kim receives a score of 90 on the fourth exam, then by how much will her average increase?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is Kim's current average score in mathematics after completing three exams?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What score does Kim need on the fourth exam to achieve a certain target average grade?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How do you calculate the average score in mathematics for Kim after she receives a score of 90 on her fourth exam?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "In what ways can Kim improve her average score in mathematics?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How would you calculate the percentage increase in Kim's average score in mathematics after receiving a score of 90 on her fourth exam?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other scenarios where calculating an average score is important in mathematics or other subjects?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

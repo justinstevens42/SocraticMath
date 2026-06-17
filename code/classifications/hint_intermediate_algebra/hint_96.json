@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_96",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem": "The polynomial $f(x)=x^4+ax^3+bx^2+cx+d$ has real coefficients, and $f(2i)=f(2+i)=0$.  What is $a+b+c+d$?",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the polynomial $f(x)$ and what are its roots?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do we know that the conjugates of $2i$ and $2+i$ are also roots of $f(x)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Show the process of factoring $f(x)$ using its roots.",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can we factor $f(x)$ in another way? If so, what is it and why is it equivalent to the previous factorization?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the coefficient of $x^3$ in the factored form of $f(x)$? How does this relate to $a$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What is the sum of the coefficients of $f(x)$? How does this relate to $a+b+c+d$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can we use the same method to find the sum of coefficients for any polynomial given its roots? If so, how? If not, why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the significance of having real coefficients for $f(x)$? How does this restrict the possible roots of $f(x)$?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of an example of a polynomial with non-real coefficients that has real roots?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

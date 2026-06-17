@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_194",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem": "The perimeter of a square with side length $x$ units is equal to the circumference of a circle with radius 2 units. What is the value of $x$? Express your answer as a decimal to the nearest hundredth.",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of perimeter? How is it related to the sides of a square?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the definition of circumference? How is it related to the radius of a circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can you find the value of $x$ if the perimeter of the square is equal to the circumference of the circle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can you express the perimeter of the square in terms of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can you express the circumference of the circle in terms of its radius?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can you use the equation $4x=4\\pi$ to solve for $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Why does setting the perimeter of the square equal to the circumference of the circle help us solve for $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other geometric shapes that have a relationship between their perimeter and a circle's circumference?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

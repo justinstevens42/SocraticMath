@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_615",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 1",
+  "problem": "Find the smallest positive $a$ such that $a$ is a multiple of $4$ and $a$ is a multiple of $14.$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what it means for a number to be a multiple of $4$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What about being a multiple of $14$? How is it related to being a multiple of $4$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Are there any common multiples of $4$ and $14$ that you know of? Can you list a few examples?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the smallest positive number that is a multiple of both $4$ and $14$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Is there a relationship between the multiples of $4$ and $14$ that can help us find the smallest common multiple?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "By listing out the first few multiples of $4$ and $14$, can you determine the smallest positive number that satisfies all the given conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

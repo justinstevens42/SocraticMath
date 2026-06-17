@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_218",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 1",
+  "problem": "Calculate $5\\cdot5! + 4\\cdot4!+4!$.",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "e",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of factorial?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain how the distributive property works?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How do you use the distributive property to simplify the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the significance of the coefficients in front of each factorial term?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "How do you simplify expressions with both multiplication and addition?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other mathematical operations or concepts that involve factorials?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

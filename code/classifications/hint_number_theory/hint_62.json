@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_62",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem": "How many perfect squares are factors of 180?",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you state the prime factorization of 180?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How do you determine the factors of 180?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How do you determine if an integer is a perfect square?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can you use the prime factorization of 180 to find the perfect square factors of 180?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many perfect square factors of 180 are there?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you list the perfect square factors of 180?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other useful observations you can make about the prime factorization of 180 in relation to the perfect square factors of 180?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Can this technique be applied to finding perfect square factors of other numbers? If so, can you give an example?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

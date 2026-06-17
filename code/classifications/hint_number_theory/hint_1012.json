@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_1012",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem": "The positive integers $A,$ $B,$ $A-B,$ and $A+B$ are all prime numbers. The sum of these four primes is\n\n$\\bullet$ A. even\n\n$\\bullet$ B. divisible by $3$\n\n$\\bullet$ C. divisible by $5$\n\n$\\bullet$ D. divisible by $7$\n\n$\\bullet$ E. prime\n\nExpress your answer using a letter, as A, B, C, D, or E.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "e",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information in the problem and what is the desired outcome?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Why must $A-B$ and $A+B$ both be odd or both be even, and how does this knowledge help us in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How do we know that $A$ is the odd prime and $B=2$, and what does this tell us about the values of $A-B$, $A$, $A+2$ and $A+B$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why must $A-2$, $A$, and $A+2$ be consecutive odd primes, and what is the significance of this observation?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "What is the sum of the four primes $2$, $3$, $5$, and $7$? How did we arrive at this sum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is the sum of the four primes even, divisible by $3$, divisible by $5$, divisible by $7$, or prime? How do we know?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can this method be used to solve similar problems in number theory? If so, what types of problems would this be useful for?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

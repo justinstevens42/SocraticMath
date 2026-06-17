@@ -1,0 +1,89 @@
+{
+  "problem_id": "hint_763",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem": "A particular fortune cookie lists four two-digit positive integers as your lucky numbers. The first three are 57, 13, and 72, but you got sauce on the last one and can't read it. If the sum of the digits of all four numbers equals $\\frac{1}{5}$ of the sum of all four numbers, what is the smallest possibility for the fourth lucky number?",
+  "n_questions": 11,
+  "labels": [
+    "r",
+    "b",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the first three lucky numbers listed in the fortune cookie?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the sum of the digits of the first three numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What does the total sum of the digits represent in relation to the sum of the four numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we represent the last lucky number as a two-digit positive integer?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the algebraic expression for the sum of the four numbers in terms of the unknown last number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we represent the sum of the digits of all four numbers using variables and numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What mathematical equation can we form using the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can we simplify the equation obtained?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we determine the value of the tens digit of the last lucky number using the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can we determine the value of the units digit of the last lucky number using the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "What is the smallest possible value for the last lucky number, given the obtained values for the tens and units digits?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

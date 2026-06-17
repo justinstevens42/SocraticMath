@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_673",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem": "Let $x$ be a value such that $8x^2 + 7x - 1 = 0$ and $24x^2+53x-7 = 0.$ What is the value of $x$? Express your answer as a simplified common fraction.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you approach solving the quadratic equation $8x^2 + 7x - 1 = 0$? What would be your first step?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Are you familiar with any methods for solving quadratic equations? Can you list some different methods that can be used?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you choose to use the quadratic formula, can you identify the values of $a$, $b$, and $c$ in the equation $ax^2 + bx + c = 0$? What would be the next steps in applying the quadratic formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why the quadratic formula can be used to solve any quadratic equation? What are the important characteristics of a quadratic equation that make it suitable for using the quadratic formula?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "After applying the quadratic formula to the equation $8x^2 + 7x - 1 = 0$, what solutions did you obtain for $x$? How can you verify that these solutions are correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other types of equations where a similar thought process and steps might be used to solve them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_106",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "Let $p(x)$ be a monic polynomial of degree 4, such that $p(1) = 17,$ $p(2) = 34,$ and $p(3) = 51.$  Find $p(0) + p(4).$",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What information is given in the problem and what is the goal of the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the information about $p(x)$ at $x=1, 2,$ and $3$ to find the value of $p(0) + p(4)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can the polynomial $f(x)$ be defined using the given information?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we express $f(x)$ as a product of linear factors and what does this tell us about the roots of $f(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does $f(x)$ relate to $p(x)$? What can we conclude about the polynomial $p(x)$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we calculate $p(0) + p(4)$ using the expression we found for $p(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final result for $p(0) + p(4)$ and how does it relate to the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

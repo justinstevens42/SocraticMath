@@ -1,0 +1,103 @@
+{
+  "problem_id": "hint_152",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "Two parabolas are the graphs of the equations $y=2x^2-10x-10$ and $y=x^2-4x+6$. Find all points where they intersect. List the points in order of increasing $x$-coordinate, separated by semicolons.",
+  "n_questions": 13,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "b",
+    "e",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what it means for two parabolas to intersect?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean when two curves have the same $y$-coordinates at a point of intersection?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "To find the points of intersection, what do you think we should do first?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How would you go about solving the system of equations formed by setting the two parabolas equal to each other?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of any strategies or methods to solve this type of system?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "If you use the method of substitution to solve the system, what would be the next step?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What would the resulting equation look like when you substitute one parabola's expression for $y$ into the other equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How would you solve this resulting quadratic equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any strategies to factorize or solve the quadratic equation efficiently?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What are the roots or $x$-coordinates of the points of intersection?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 11,
+      "question": "How can we obtain the corresponding $y$-coordinates for each of these $x$-coordinates?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "Can you order the points of intersection in increasing order of their $x$-coordinates?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 13,
+      "question": "How would you separate the points of intersection using semicolons in the final list?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

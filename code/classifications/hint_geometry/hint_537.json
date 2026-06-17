@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_537",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "Two of the altitudes of an acute triangle divide the sides into segments of lengths $5,3,2$ and $x$ units, as shown. What is the value of $x$? [asy]\ndefaultpen(linewidth(0.7)); size(75);\npair A = (0,0);\npair B = (1,0);\npair C = (74/136,119/136);\npair D = foot(B, A, C);\npair E = /*foot(A,B,C)*/ (52*B+(119-52)*C)/(119);\ndraw(A--B--C--cycle);\ndraw(B--D);\ndraw(A--E);\ndraw(rightanglemark(A,D,B,1.2));\ndraw(rightanglemark(A,E,B,1.2));\nlabel(\"$3$\",(C+D)/2,WNW+(0,0.3));\nlabel(\"$5$\",(A+D)/2,NW);\nlabel(\"$2$\",(C+E)/2,E);\nlabel(\"$x$\",(B+E)/2,NE);\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you identify the different parts of the given triangle in the diagram?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How are the two triangles, $\\triangle ACE$ and $\\triangle BCD$, similar to each other? What makes them similar?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How do you express the ratio of $CE$ to $CD$ in terms of the lengths of the sides of $\\triangle ABC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Substituting the given side lengths, what is the ratio of $CE$ to $CD$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can you manipulate the equation involving the ratio of $CE$ to $CD$ to obtain $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the value of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

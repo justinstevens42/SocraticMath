@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_673",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem": "How many distinct prime factors does the sum of the positive divisors of $400$ have?",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How do we find the prime factorization of 400?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain why the sum of divisors of a number can be expressed as the product of two factors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What happens if we have a prime number as the factor of the sum of divisors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you think of any other number for which the sum of divisors has a prime factor? How would you find it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Is there a connection between the number of distinct prime factors of a number and the number of distinct prime factors of the sum of its divisors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use prime factorization to find the number of distinct prime factors of the sum of divisors for any given number of the form $p^m \\cdot q^n$ where $p$ and $q$ are distinct prime numbers and $m$, $n$ are positive integers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What insights can be gained by understanding the number of distinct prime factors of the sum of divisors of a number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

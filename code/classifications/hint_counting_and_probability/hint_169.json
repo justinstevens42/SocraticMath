@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_169",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 2",
+  "problem": "The number of diagonals of a regular polygon is subtracted from the number of sides of the polygon and the result is zero. What is the number of sides of this polygon?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the problem statement?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is a regular polygon? How is it different from an irregular polygon?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the number of diagonals in a regular polygon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How do we subtract the number of diagonals from the number of sides in the polygon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why do we set the equation equal to zero?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain the steps taken to solve the equation for the number of sides?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_209",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem": "Two sectors of a circle of radius $12$ are placed side by side, as shown. Determine the $\\textit{area}$ of figure $ABCD.$ [asy]\ndraw((0,0)--(12,0)..(10.3923,6)..(6,10.3923)--(-6,10.3923)..(-4.3923,4.3923)..(0,0),black+linewidth(1));\ndraw((0,0)--(6,10.3923),black+linewidth(1)+dashed);\nlabel(\"$A$\",(-6,10.3923),NW);\nlabel(\"$B$\",(6,10.3923),NE);\nlabel(\"$C$\",(12,0),SE);\nlabel(\"$D$\",(0,0),SW);\nlabel(\"$60^\\circ$\",(2,1));\nlabel(\"$60^\\circ$\",(4,9.3923));\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the shape of figure ABCD?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the radius of the circle that the sectors are part of?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the measure of angle BAC? What about angle BDC?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the formula for the area of a sector of a circle? How can you use this formula to find the area of each sector in figure ABCD?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can you find the area of the entire figure by using the areas of the individual sectors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other methods you can use to find the area of figure ABCD? How do they compare to using the areas of the sectors?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

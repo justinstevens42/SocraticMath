@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_853",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem": "If $\\tan x+\\tan y=25$ and $\\cot x + \\cot y=30$, what is $\\tan(x+y)$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are some different methods that can be used to solve equations like this?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you choose to use the angle addition formula, how would you apply it to find the value of $\\tan(x+y)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is the equation $\\tan x+\\tan y=25$ equivalent to $\\frac{\\tan x+\\tan y}{\\tan x \\tan y}=30$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did you determine that $\\tan x \\tan y = \\frac{5}{6}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other types of equations where a similar approach could be used to find a solution?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_578",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 1",
+  "problem": "The side lengths of a triangle are 14 cm, 48 cm and 50 cm. How many square centimeters are in the area of the triangle?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "e",
+    "b",
+    "b",
+    "e",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what the first step should be in finding the area of this triangle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine if the set of side lengths is a Pythagorean triple?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the significance of recognizing the set of side lengths as a Pythagorean triple?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 4,
+      "question": "How do we calculate the legs of the right triangle from the side lengths?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What formula can we use to calculate the area of a triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do we apply this formula to find the area of the given triangle?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "If we had not recognized the side lengths as a Pythagorean triple, how else could we have found the area of the triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other types of triangles where we could use similar reasoning and steps to find the area?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

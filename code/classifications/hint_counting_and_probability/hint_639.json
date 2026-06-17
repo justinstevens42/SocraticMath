@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_639",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem": "Regular octagon $ABCDEFGH$ has its center at $J$.  Each of the vertices and the center are to be associated with one of the digits $1$ through $9$, with each digit used once, in such a way that the sums of the numbers on the lines $AJE$, $BJF$, $CJG$, and $DJH$ are all equal.  In how many ways can this be done?\n[asy]\npair A,B,C,D,E,F,G,H,J;\nA=(20,20(2+sqrt(2)));\nB=(20(1+sqrt(2)),20(2+sqrt(2)));\nC=(20(2+sqrt(2)),20(1+sqrt(2)));\nD=(20(2+sqrt(2)),20);\nE=(20(1+sqrt(2)),0);\nF=(20,0);\nG=(0,20);\nH=(0,20(1+sqrt(2)));\nJ=(10(2+sqrt(2)),10(2+sqrt(2)));\ndraw(A--B);\ndraw(B--C);\ndraw(C--D);\ndraw(D--E);\ndraw(E--F);\ndraw(F--G);\ndraw(G--H);\ndraw(H--A);\ndot(A);\ndot(B);\ndot(C);\ndot(D);\ndot(E);\ndot(F);\ndot(G);\ndot(H);\ndot(J);\nlabel(\"$A$\",A,NNW);\nlabel(\"$B$\",B,NNE);\nlabel(\"$C$\",C,ENE);\nlabel(\"$D$\",D,ESE);\nlabel(\"$E$\",E,SSE);\nlabel(\"$F$\",F,SSW);\nlabel(\"$G$\",G,WSW);\nlabel(\"$H$\",H,WNW);\nlabel(\"$J$\",J,SE);\nsize(4cm);\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the common sum of the numbers on each line in the regular octagon?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the fact that the sum of the numbers on the octagon is 45 and $4x = 45 + 3J$ to determine the possible values of $J$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "In the case when $J=1$, what is the sum of each pair of diametrically opposite vertices, and how does this help us in the labeling process?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "After pairing up the numbers in the case when $J=1$, how many ways can we assign the pairs to the vertices, and how many ways can we assign the two numbers in each pair individually?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are the cases when $J=5$ and $J=9$ identical to the case when $J=1$? If so, why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many valid ways are there for labeling the vertices in total?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

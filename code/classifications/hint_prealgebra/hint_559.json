@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_559",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem": "Stan drove 300 miles in 5 hours, 20 minutes. Next, he drove 360 miles in 6 hours, 40 minutes. What was Stan's average speed in miles per hour for the total trip?",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you calculate the total time Stan spent driving for the entire trip?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How would you calculate the total distance Stan traveled during the entire trip?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the definition of average speed? How is it calculated?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can you determine the total average speed for Stan's trip using the information given?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the formula to calculate average speed? Can you apply it to find the answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you convert the time from hours and minutes into a decimal format to simplify the calculation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What would you do next after calculating the total distance and total time?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the final answer to the question: What was Stan's average speed in miles per hour for the total trip?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

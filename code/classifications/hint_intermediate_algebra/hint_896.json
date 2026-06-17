@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_896",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem": "Find the last three digits of $9^{105}.$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you express $9^{105}$ in a different form using algebraic manipulation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the Binomial Theorem to find the last three digits of $9^{105}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Why do we ignore the terms up to $\\binom{105}{102} 10^3$ when finding the last three digits?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do we simplify the expression $-\\binom{105}{103} 10^2 + \\binom{105}{104} 10 - 1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why is the result we obtain from simplifying the expression the last three digits of $9^{105}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other similar problems that involve finding the last few digits of large powers?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

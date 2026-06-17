@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_899",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem": "Find the phase shift of the graph of $y = 2 \\sin \\left( 2x + \\frac{\\pi}{3} \\right).$",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what a phase shift is in the context of trigonometric functions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does the general form $y = a \\sin (bx + c)$ relate to the given equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What does the value of $c$, which is $\\frac{\\pi}{3}$ in this case, represent in the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How does changing the value of $c$ affect the graph of the function?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "In this equation, $2x$ is inside the sine function. What effect does changing $2x$ have on the graph?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "If the original equation is $y = 2 \\sin 2x$, what is the phase shift of this graph?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "By comparing the two equations, what shift is introduced in the new equation $y = 2 \\sin \\left( 2x + \\frac{\\pi}{3} \\right)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can you express the phase shift in terms of $\\pi$ units?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you sketch the graphs of $y = 2 \\sin 2x$ and $y = 2 \\sin \\left( 2x + \\frac{\\pi}{3} \\right)$ to visually compare the phase shift?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

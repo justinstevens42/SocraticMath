@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_100",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "A rectangular band formation is a formation with $m$ band members in each of $r$ rows, where $m$ and $r$ are integers. A particular band has less than 100 band members. The director arranges them in a rectangular formation and finds that he has two members left over. If he increases the number of members in each row by 1 and reduces the number of rows by 2, there are exactly enough places in the new formation for each band member. What is the largest number of members the band could have?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given problem and the scenario involving the rectangular band formation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What information are we given about the band formation, specifically regarding the number of band members, the number of rows, and the number of members in each row?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What can we deduce about the number of band members based on the given information?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we represent the number of band members, rows, and members in each row algebraically?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What equation or expression can we set up to represent the total number of band members?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we represent the new formation, with an increased number of members in each row and a reduced number of rows?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What equation or expression can we set up to represent the total number of band members in the new formation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we solve for the number of band members in the original formation, given that it has to be less than 100 and leaves a remainder of 2 when divided by the number of rows?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we find the largest possible number of members the band could have based on the given conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

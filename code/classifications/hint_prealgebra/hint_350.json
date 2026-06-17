@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_350",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem": "Twenty switches in an office computer network are to be connected so that each switch has a direct connection to exactly three other switches. How many connections will be necessary?",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many switches are in the office computer network?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How many connections does each switch need to have?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the initial calculation for the total number of connections?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Why do we need to divide the initial calculation by 2?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How does each connection correspond to two switches?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the final calculation for the necessary connections?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain why the final calculation gives the correct answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other scenarios where a similar approach would be used to determine the necessary connections?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

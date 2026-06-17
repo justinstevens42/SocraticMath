@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_728",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem": "The domain of the function $f(x) = \\arcsin(\\log_{m}(nx))$ is a closed interval of length $\\frac{1}{2013}$ , where $m$ and $n$ are positive integers and $m>1$. Find the the smallest possible value of $m+n.$",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the domain of the function $f(x) = \\arcsin(\\log_{m}(nx))$? What restrictions are placed on $m$ and $n$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we rewrite the inequality $\\frac{1}{m} \\le nx \\le m$ in terms of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the length of the resulting interval in terms of $m$ and $n$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the given information to set up an equation involving $m$ and $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can we simplify the equation and see any patterns or relationships?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are the possible prime factors of 2013? How can we use this information to find the smallest possible value of $m$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the smallest possible value of $n$ when $m=3$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the smallest possible value of $m+n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

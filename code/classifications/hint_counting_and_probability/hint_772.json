@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_772",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem": "Find the number of five-digit palindromes.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what a five-digit palindrome is? Can you give an example?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many choices are there for the first digit of a five-digit palindrome? Why can't the first digit be 0?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many choices are there for the second and third digits? Why are there 10 choices for each?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why do we multiply the number of choices for each digit together to find the total number of five-digit palindromes?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why each different choice of $a$, $b$, and $c$ creates a distinct five-digit palindrome?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the final count of the number of five-digit palindromes? Can you explain how you arrived at that number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of a similar problem where you can use a similar line of thinking to find the number of possibilities?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

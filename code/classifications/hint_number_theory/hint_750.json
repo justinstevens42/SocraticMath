@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_750",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem": "Given a prime $p$ and an integer $a$, we say that $a$ is a $\\textit{primitive root} \\pmod p$ if the set $\\{a,a^2,a^3,\\ldots,a^{p-1}\\}$ contains exactly one element congruent to each of $1,2,3,\\ldots,p-1\\pmod p$.\n\nFor example, $2$ is a primitive root $\\pmod 5$ because $\\{2,2^2,2^3,2^4\\}\\equiv \\{2,4,3,1\\}\\pmod 5$, and this list contains every residue from $1$ to $4$ exactly once.\n\nHowever, $4$ is not a primitive root $\\pmod 5$ because $\\{4,4^2,4^3,4^4\\}\\equiv\\{4,1,4,1\\}\\pmod 5$, and this list does not contain every residue from $1$ to $4$ exactly once.\n\nWhat is the sum of all integers in the set $\\{1,2,3,4,5,6\\}$ that are primitive roots $\\pmod 7$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "e",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what it means for an integer $a$ to be a primitive root modulo a prime $p$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How do we check if a given integer $a$ is a primitive root modulo $p$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the significance of the set $\\{a, a^2, a^3, \\ldots, a^{p-1}\\}$ in determining if $a$ is a primitive root?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 4,
+      "question": "Why is it necessary for the set $\\{a, a^2, a^3, \\ldots, a^{p-1}\\}$ to contain exactly one element congruent to each residue modulo $p$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you provide an example of an integer that is not a primitive root modulo a prime and explain why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we determine the sum of all integers in a given set that are primitive roots modulo a prime? (referring to the specific example: What is the sum of all integers in the set $\\{1,2,3,4,5,6\\}$ that are primitive roots modulo $7$?)",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

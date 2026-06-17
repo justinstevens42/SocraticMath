@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_826",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "On the Cartesian plane in which each unit is one foot, a dog is tied to a post on the point $(4,3)$ by a $10$ foot rope. What is the greatest distance the dog can be from the origin?",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "r",
+    "e",
+    "b",
+    "b",
+    "b",
+    "f"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the Cartesian plane is and how it is used to represent points?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for the dog to be tied to a post at the point (4,3) on the Cartesian plane?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we visualize the dog being tied to the post using a rope with a length of 10 feet?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean for the dog to be at the greatest distance from the origin?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of a geometric shape that could represent all the possible locations the dog can be when tied with a 10-foot rope at point (4,3)?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "How can you find the distance from the origin to any point on this geometric shape?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How do you determine which point on the geometric shape represents the maximum distance from the origin?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you calculate the coordinates of the point on the geometric shape that represents the greatest distance from the origin in this scenario?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How would the answer change if the length of the rope were different? Can you describe any patterns or relationships you observe?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    }
+  ]
+}

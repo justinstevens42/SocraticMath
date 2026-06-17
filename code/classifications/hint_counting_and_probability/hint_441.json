@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_441",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem": "How many different four-letter arrangements can be formed using the six letters $A, B, C, D, E$ and $F$, if the first letter must be $C$, one of the other letters must be $B$, and no letter can be used more than once in the arrangement?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the given restrictions for the arrangements?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many letters are available to use for the remaining two spots?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How did we determine that there is only 1 way to make the first letter C?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did we determine that there are 3 ways to make one of the other letters B?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How did we arrive at a total of 36 possible arrangements?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How would the solution change if the restrictions were different (e.g. two letters could be used more than once)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any real-life scenarios where counting and probability are relevant?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "How does understanding counting and probability relate to our daily lives?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

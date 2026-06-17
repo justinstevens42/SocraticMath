@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_542",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem": "Evaluate $\\left|{-4+\\frac{7}{6}i}\\right|$.",
+  "n_questions": 10,
+  "labels": [
+    "b",
+    "b",
+    "r",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of the absolute value of a complex number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can we rewrite the given expression as a complex number inside the absolute value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the relationship between the absolute value and the magnitude of a complex number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the magnitude of the complex number (-4 + 7/6i)?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How do we calculate the magnitude of a complex number using its real and imaginary parts?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are the real and imaginary parts of the complex number (-4 + 7/6i)?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can we use the Pythagorean theorem to calculate the magnitude of a complex number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you compute the square of the magnitude of the complex number (-4 + 7/6i)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you calculate the square root of the sum of the squares of the real and imaginary parts of (-4 + 7/6i)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you simplify the expression to find the final value of |{-4+7/6i}|?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

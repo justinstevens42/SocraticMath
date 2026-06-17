@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_670",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem": "Let $C$ be the circle with equation $x^2+12y+57=-y^2-10x$. If $(a,b)$ is the center of $C$ and $r$ is its radius, what is the value of $a+b+r$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "f",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step in finding the center and radius of a circle given its equation? Can you describe the process?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Are there any specific methods you know of that can help determine the center and radius of a circle from its equation? If yes, what are they?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you choose to complete the square, how would you go about doing it in this particular equation? What steps would you take?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Why does completing the square help us find the center and radius of a circle? What characteristics of the equation make this method applicable?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Assuming you have completed the square correctly, what is the equation of the circle in standard form? Can you identify the center and radius from it?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other types of equations where similar thinking and steps might be required to find the center and radius of a circle?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

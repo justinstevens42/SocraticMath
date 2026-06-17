@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_112",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 1",
+  "problem": "Simplify\n\\[\\left( \\frac{1 + i}{1 - i} \\right)^{1000}.\\]",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain how to simplify the expression \\(\\left( \\frac{1 + i}{1 - i} \\right)^{1000}\\) step by step?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the value of \\(\\frac{1 + i}{1 - i}\\)? How did you come to that conclusion?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Why did you raise \\(\\frac{1 + i}{1 - i}\\) to the power of 1000? What mathematical property allows you to do that?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you simplify the expression \\(i^{1000}\\) further? How did you simplify it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the value of \\(i^{1000}\\) when expressed in real number form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there a general pattern or property that allows you to simplify expressions of the form \\((a + bi)^n\\)? If so, can you explain it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_622",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem": "In triangle $ABC$, angle $ACB$ is 50 degrees, and angle $CBA$ is 70 degrees.  Let $D$ be the foot of the perpendicular from $A$ to $BC$, $O$ the center of the circle circumscribed about triangle $ABC$, and $E$ the other end of the diameter which goes through $A$.  Find the angle $DAE$, in degrees.\n\n[asy]\n\nunitsize(1.5 cm);\n\npair A, B, C, D, E, O;\n\nA = dir(90);\n\nB = dir(90 + 100);\n\nC = dir(90 - 140);\n\nD = (A + reflect(B,C)*(A))/2;\n\nE = -A;\n\nO = (0,0);\n\ndraw(Circle(O,1));\n\ndraw(A--B--C--cycle);\n\ndraw(A--D);\n\ndraw(A--E,dashed);\n\nlabel(\"$A$\", A, N);\n\nlabel(\"$B$\", B, W);\n\nlabel(\"$C$\", C, SE);\n\nlabel(\"$D$\", D, SW);\n\nlabel(\"$E$\", E, S);\n\ndot(\"$O$\", O, dir(0));\n\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the relationship between angles $ACB$ and $CBA$ in triangle $ABC$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the foot of the perpendicular from vertex $A$ to side $BC$ called?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the center of the circle circumscribed about triangle $ABC$ called?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the diameter which goes through vertex $A$ called?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is angle $\\angle CAD$ in triangle $ACD$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the measure of angle $\\angle AOC$ in triangle $ACO$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we find the measure of angle $\\angle CAO$ in triangle $ACO$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the relationship between angles $\\angle CAD$ and $\\angle CAO$ in triangle $ACD$ and $ACO$, respectively?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "How can we use the angles we found to find the measure of angle $\\angle DAE$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the final answer for the measure of angle $\\angle DAE$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

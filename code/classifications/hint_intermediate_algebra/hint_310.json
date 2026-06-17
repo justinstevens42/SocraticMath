@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_310",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "A function $f$ is defined for all real numbers and satisfies $f(2+x)=f(2-x)$ and $f(7+x)=f(7-x)$ for all $x.$ If $f(0) = 0,$ what is the least number of roots $f(x)=0$ must have in the interval $-1000\\leq x \\leq 1000$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what the first equation $f(2+x)=f(2-x)$ means in terms of the function $f$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does the second equation $f(7+x)=f(7-x)$ tell you about the function $f$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the given equations to infer the periodicity of the function $f$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Based on the conditions on $f(2+x)$ and $f(2-x)$, can you determine any specific properties of the function $f$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Given that $f(0) = 0$, what can you conclude about the roots of the function $f$ in the interval $-1000\\leq x \\leq 1000$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you provide an example of a function that satisfies all the given conditions and has the minimum number of roots as calculated before?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_421",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem": "In the diagram, each circle is divided into two equal areas and $O$ is the center of the larger circle. The area of the larger circle is $64\\pi.$ What is the total area of the shaded regions? [asy]\nsize(100);\nimport graph;\nfill(Arc((0,0),2,180,360)--cycle,mediumgray);fill(Arc((0,1),1,0,180)--cycle,mediumgray);\ndraw(Circle((0,0),2));\ndraw(Circle((0,1),1));\n\ndot((0,0)); label(\"$O$\",(0,0),N);\ndraw((-2,0)--(2,0)); draw((-1,1)--(1,1));\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the area of the larger circle in the diagram?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How is the larger circle divided into two equal areas?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the total area of the shaded regions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the area of the shaded regions using the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine the radius of the larger circle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the formula for the area of a circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "What is the value of $\\pi$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we find the area of the smaller circle using its radius?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we determine the radius of the smaller circle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can we calculate the total area of the shaded regions using the areas of the two circles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

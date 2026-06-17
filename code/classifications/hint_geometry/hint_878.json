@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_878",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "For the quadrilateral shown, how many different whole numbers could be the length of the diagonal represented by the dashed line?\n\n[asy]\ndraw((0,0)--(5,5)--(12,1)--(7,-8)--cycle,linewidth(0.7));\ndraw((0,0)--(12,1),dashed);\nlabel(\"8\",(2.5,2.5),NW);\nlabel(\"10\",(8.5,3),NE);\nlabel(\"16\",(9.5, -3.5),SE);\nlabel(\"12\",(3.5,-4),SW);\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e",
+    "f"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a quadrilateral? Can you describe its characteristics?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is a diagonal in a quadrilateral? How would you define it?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "In the given figure, what are the lengths of the sides of the quadrilateral?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can you use the triangle inequality theorem to analyze the lengths of the diagonal?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "According to the triangle inequality theorem, what are the conditions for a triangle to be formed by three given side lengths?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Using triangle inequalities, what can you say about the potential length of the diagonal in the given quadrilateral?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the range of possible values for the length of the diagonal in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How many whole numbers fall within this range?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the significance of the dashed line in relation to the quadrilateral?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "Can you identify any patterns or relationships that can help determine the number of possible whole-number lengths for the diagonal in other quadrilaterals?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    }
+  ]
+}

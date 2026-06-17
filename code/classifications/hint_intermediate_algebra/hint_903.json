@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_903",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "The foci of the ellipse $\\frac{x^2}{16} + \\frac{y^2}{b^2} = 1$ and the foci of the hyperbola\n\\[\\frac{x^2}{144} - \\frac{y^2}{81} = \\frac{1}{25}\\]coincide.  Find $b^2.$",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the geometric relationship between the foci of an ellipse and the foci of a hyperbola?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the coordinates of the foci for the hyperbola in terms of its equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Using the given equation of the hyperbola, how can we rewrite it in standard form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What are the values of $a$ and $b$ for the hyperbola, based on its standard form equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we calculate the distance between the center of the hyperbola and its foci? What is the result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Based on the given information about the foci, what can we conclude about the relationship between the foci of the hyperbola and the foci of the ellipse?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can we calculate the value of $b^2$ for the ellipse, given the value of $a^2$ and the distance between the foci?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the final value of $b^2$, based on the calculations from the previous steps?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you explain the meaning and significance of the value $b^2$ for the ellipse in this context?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

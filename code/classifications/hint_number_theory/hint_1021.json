@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_1021",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem": "What is the smallest digit that is never found in the units place of an even number?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you list all the possible digits that could appear in the units place of an even number?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the smallest digit that could appear in the units place of an even number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Is there any digit that can never appear in the units place of an even number? Why or why not?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "If a digit can never appear in the units place of an even number, what is the smallest such digit?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we prove that the smallest digit that can never appear in the units place of an even number is in fact 1?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other interesting patterns or properties of digits in the units place of even numbers that we can explore?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

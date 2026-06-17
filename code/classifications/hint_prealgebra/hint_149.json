@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_149",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem": "A room is 19 feet long and 11 feet wide. Find the ratio of the length of the room to its perimeter. Express your answer in the form $a:b$.",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of the perimeter of a rectangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we calculate the perimeter of a rectangle if we know the length and width?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you calculate the perimeter of the given room based on the information provided?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we express the ratio of the length of the room to its perimeter?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the length of the room and what information can we derive from it?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "How can we express the length and the perimeter of the room in the ratio form of $a:b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you simplify the expression to find the final ratio?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

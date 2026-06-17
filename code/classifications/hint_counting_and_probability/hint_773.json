@@ -1,0 +1,110 @@
+{
+  "problem_id": "hint_773",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem": "There is a machine with 8 toys in it that each cost between 25 cents and 2 dollars, with each toy being 25 cents more expensive than the next most expensive one. Each time Sam presses the big red button on the machine, the machine randomly selects one of the remaining toys and gives Sam the option to buy it. If Sam has enough money, he will buy the toy, the red button will light up again, and he can repeat the process. If Sam has 8 quarters and a ten dollar bill and the machine only accepts quarters, what is the probability that Sam has to get change for the 10 dollar bill before he can buy his favorite toy- the one that costs $\\$1.75$? Express your answer as a common fraction.",
+  "n_questions": 14,
+  "labels": [
+    "b",
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many toys are in the machine?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How much does each toy cost?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the relationship between the cost of each toy?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How many quarters does Sam have?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Does the machine only accept quarters as payment?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What is Sam's favorite toy and how much does it cost?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How many total ways can the 8 toys be dispensed by the machine?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the probability that Sam can buy his favorite toy just using his quarters?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How many ways exist where Sam's favorite toy is the first one dispensed?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How many ways exist where Sam's favorite toy is the second one dispensed and the first toy only costs 25 cents?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "Are there any other scenarios in which Sam can buy his favorite toy without getting change for his ten dollar bill?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 12,
+      "question": "How can we calculate the probability of Sam being able to buy his favorite toy just using his quarters?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 13,
+      "question": "How do we find the probability that Sam will have to get change for the 10 dollar bill before buying his favorite toy?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 14,
+      "question": "What is the final probability that Sam has to get change for the 10 dollar bill before buying his favorite toy?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

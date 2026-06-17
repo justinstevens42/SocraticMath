@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_742",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem": "Find the smallest solution to the equation \\[\\frac{1}{x-2} + \\frac{1}{x-4} = \\frac{3}{x-3}.\\]",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we clear the denominators in this equation? Why is it necessary to do so?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What method can we use to find the common denominator? How do we simplify each term after multiplying by the common denominator?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why we move all the terms to the right-hand side of the equation? What does this step help us accomplish?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How do we simplify the equation after moving all the terms to one side? Can you explain the steps involved in simplifying the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the quadratic formula, and how does it help us solve quadratic equations? How can we apply it to find the solutions of this equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How do we interpret the solutions obtained using the quadratic formula? What do the plus and minus signs represent in the solution?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Based on the solutions obtained, how do we determine the smallest solution to the equation? Can you explain your reasoning?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other types of equations where similar thinking and steps might be useful in solving them?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

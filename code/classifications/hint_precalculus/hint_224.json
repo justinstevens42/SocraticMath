@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_224",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem": "The distance between two vectors is the magnitude of their difference.  Find the value of $t$ for which the vector\n\\[\\bold{v} = \\begin{pmatrix} 2 \\\\ -3 \\\\ -3 \\end{pmatrix} + t \\begin{pmatrix} 7 \\\\ 5 \\\\ -1 \\end{pmatrix}\\]is closest to\n\\[\\bold{a} = \\begin{pmatrix} 4 \\\\ 4 \\\\ 5 \\end{pmatrix}.\\]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what the equation $\\mathbf{v} = \\begin{pmatrix} 2 \\\\ -3 \\\\ -3 \\end{pmatrix} + t \\begin{pmatrix} 7 \\\\ 5 \\\\ -1 \\end{pmatrix}$ represents? What is the meaning of the variable $t$ in this equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can you find the distance between the vectors $\\mathbf{v}$ and $\\mathbf{a}$? What mathematical concept is used to calculate this distance?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the equation of the line represented by $\\mathbf{v}$? How is this line related to the distance between $\\mathbf{v}$ and $\\mathbf{a}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Why does the vector joining $\\mathbf{v}$ and $\\mathbf{a}$ need to be orthogonal to the direction vector of the line? How does this property help in finding the value of $t$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can you write an equation that expresses the orthogonality condition between the vector joining $\\mathbf{v}$ and $\\mathbf{a}$ and the direction vector of the line? Can you simplify this equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "If you simplify the equation from the previous step, how can you solve for the value of $t$? What is the final result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

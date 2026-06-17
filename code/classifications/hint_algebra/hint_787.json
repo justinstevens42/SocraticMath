@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_787",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem": "The value of $\\log_{10}{579}$ is between the consecutive integers $a$ and $b$.  Find $a+b$.",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you define logarithms in general terms?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for a number to be between two consecutive integers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain the relationship between logarithms and exponentiation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Considering the given logarithm, what does $\\log_{10}{579}$ represent in terms of exponentiation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can you determine the values of $a$ and $b$ using the given information and your understanding of logarithms?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any properties of logarithms that could be useful in solving this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Could you estimate the value of $\\log_{10}{579}$ based on your knowledge of the logarithmic scale?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can you ensure that your estimation falls within the range of consecutive integers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What strategies can you apply to narrow down the possible values of $a$ and $b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How would you verify your answer and ensure that $a+b$ corresponds to the correct value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

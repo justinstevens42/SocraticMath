@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_692",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem": "The sum of two numbers is 25 and their product is 126. What is the absolute value of the difference of the two numbers?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you represent the two numbers algebraically?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can we determine the values of the two numbers using only the given information? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "If we let x and y represent the two numbers, can you write an equation that represents the given information?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we solve the equation to find the values of x and y?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Is there more than one way to solve the equation? If so, what are the different methods?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "If we find the values of x and y, how can we calculate the absolute value of their difference?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any similar problems where we would use similar steps and thinking?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

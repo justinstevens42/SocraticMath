@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_592",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem": "A grocer makes a display of cans in which the top row has one can and each lower row has two more cans than the row above it. If the display contains 100 cans, how many rows does it contain?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you begin solving this problem by first identifying the relationship between the number of cans in each row?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you express the relationship between the number of cans in each row using algebraic notation or an equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What would the equation look like if we let \"x\" represent the number of rows and \"y\" represent the number of cans in the top row?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the given information that the display contains 100 cans to solve the equation for \"x\"?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What steps would you take to isolate the variable and solve for \"x\" in the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other mathematical problems or scenarios where a similar approach or thinking process would be helpful in finding a solution?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

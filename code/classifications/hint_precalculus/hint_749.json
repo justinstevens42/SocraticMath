@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_749",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem": "In triangle $ABC,$ $D$ lies on $\\overline{BC}$ extended past $C$ such that $BD:DC = 3:1,$ and $E$ lies on $\\overline{AC}$ such that $AE:EC = 5:3.$  Let $P$ be the intersection of lines $BE$ and $AD.$\n\n[asy]\nunitsize(0.8 cm);\n\npair A, B, C, D, E, F, P;\n\nA = (1,4);\nB = (0,0);\nC = (6,0);\nD = interp(B,C,3/2);\nE = interp(A,C,5/8);\nP = extension(A,D,B,E);\n\ndraw(A--B--C--cycle);\ndraw(A--D--C);\ndraw(B--P);\n\nlabel(\"$A$\", A, N);\nlabel(\"$B$\", B, SW);\nlabel(\"$C$\", C, S);\nlabel(\"$D$\", D, SE);\nlabel(\"$E$\", E, S);\nlabel(\"$P$\", P, NE);\n[/asy]\n\nThen\n\\[\\overrightarrow{P} = x \\overrightarrow{A} + y \\overrightarrow{B} + z \\overrightarrow{C},\\]where $x,$ $y,$ and $z$ are constants such that $x + y + z = 1.$  Enter the ordered triple $(x,y,z).$",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the relationship between $\\triangle ABC$ and $D$ and $E$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we express $\\overrightarrow{D}$ and $\\overrightarrow{E}$ in terms of $\\overrightarrow{A},$ $\\overrightarrow{B},$ and $\\overrightarrow{C}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the relationship between $\\overrightarrow{D}$ and $\\overrightarrow{E}$ in terms of $\\overrightarrow{A},$ $\\overrightarrow{B},$ and $\\overrightarrow{C}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the relationship between $\\overrightarrow{D}$ and $\\overrightarrow{E}$ to obtain $\\overrightarrow{P}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the final expression for $\\overrightarrow{P}$ in terms of $\\overrightarrow{A},$ $\\overrightarrow{B},$ and $\\overrightarrow{C}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we interpret the coefficients $(x,y,z)$ in the final expression for $\\overrightarrow{P}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

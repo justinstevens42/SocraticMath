@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_54",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem": "The bacteria in a lab dish double in number every four hours. If 500 bacteria cells are in the dish now, in how many hours will there be exactly 32,000 bacteria?",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the concept of exponential growth in relation to the doubling of bacteria cells?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we represent the number of bacteria cells at any given time using an algebraic equation or expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What variables can we introduce to represent the time and the number of bacteria cells in the equation or expression?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What would be the initial conditions or starting point in our equation or expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the given information that the bacteria double every four hours to create an equation or expression that represents the growth of the bacteria cells?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What steps can we take to solve the equation or expression and determine the number of hours it would take for the bacteria cells to reach 32,000?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other real-life situations where exponential growth can be observed, and how can algebraic methods be used to model and solve those situations?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "How can we verify our solution and make sure it satisfies the given conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

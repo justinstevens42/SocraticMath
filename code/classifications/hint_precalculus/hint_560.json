@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_560",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem": "Find the equation of the plane which passes through the point $(1,4,-2),$ and which is parallel to the plane $-2x + y - 3z = 7.$  Enter your answer in the form\n\\[Ax + By + Cz + D = 0,\\]where $A,$ $B,$ $C,$ $D$ are integers such that $A > 0$ and $\\gcd(|A|,|B|,|C|,|D|) = 1.$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "f",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the normal vector of the plane passing through the point $(1,4,-2)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the fact that the plane we seek is parallel to the plane $-2x + y - 3z = 7$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Why do we want the coefficient of $x$ to be positive in the equation we seek?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What constraints do we have on the integers $A,$ $B,$ $C,$ and $D$ in the equation we seek?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How did we determine the value of $D$ in the equation we seek?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of a scenario where we might need to find an equation of a plane given a point and a parallel plane?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

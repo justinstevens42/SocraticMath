@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_609",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem": "Find the units digit of $7 \\cdot 17 \\cdot 1977 - 7^3$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you identify the operations involved in the expression $7 \\cdot 17 \\cdot 1977 - 7^3$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the significance of the units digit in this problem? Why is it important to find the units digit of the expression?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can you determine the units digit of the product $7 \\cdot 17 \\cdot 1977$? Are there any patterns or properties that can help in finding the units digit?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the value of $7^3$ and how does it relate to the units digit?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "In subtraction, what happens when the units digits of the minuend and the subtrahend are the same?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the units digit of the difference between the product and the cube?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

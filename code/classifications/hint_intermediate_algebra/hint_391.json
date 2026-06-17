@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_391",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem": "Let $z$ be a complex number such that $|z| = 13.$  Find $z \\times \\overline{z}.$",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a complex number and how is it represented?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the absolute value (modulus) of a complex number and how is it calculated?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How is the conjugate of a complex number defined and what is its significance?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the conjugate to calculate the product of a complex number with its conjugate?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does the formula for $z \\overline{z}$ relate to the absolute value of a complex number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "If $|z| = 5,$ what is the value of $z \\overline{z}$? How did you arrive at your answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we interpret the value of $z \\overline{z}$ geometrically on an Argand diagram?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

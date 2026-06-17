@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_600",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 1",
+  "problem": "If $\\det \\mathbf{A} = 5,$ then find $\\det (\\mathbf{A^3}).$",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of the determinant of a matrix?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does raising a matrix to the power of 3 affect its determinant?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain why the determinant of A raised to the power of 3 is the cube of the determinant of A?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "If the determinant of A is 5, what value does this give us for the determinant of A^3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you provide an example to illustrate the property of determinants when it comes to raising a matrix to a power?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other properties or rules related to determinants that could be useful in solving similar problems?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_764",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem": "What is the remainder when the sum of the first 102 counting numbers is divided by 5250?  (The first counting number is 1.)",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what we mean by the \"remainder\" when one number is divided by another?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the sum of the first 102 counting numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you think of any techniques or formulas that can help us calculate this sum quickly?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean to divide a number by 5250?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you recall any rules or properties of remainders that might be useful in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What steps can we take to find the remainder when dividing the sum of the first 102 counting numbers by 5250?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Is there any way to simplify the process or make it more efficient?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we verify if our answer for the remainder is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Are there any other similar problems that involve finding remainders in division? Can you think of any potential strategies or steps that might be applicable in those problems as well?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

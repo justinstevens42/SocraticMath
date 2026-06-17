@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_87",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem": "A standard deck of 52 cards has 13 ranks (Ace, 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, King) and 4 suits ($\\spadesuit$, $\\heartsuit$, $\\diamondsuit$, and $\\clubsuit$), such that there is exactly one card for any given rank and suit.  Two of the suits ($\\spadesuit$ and $\\clubsuit$) are black and the other two suits ($\\heartsuit$ and $\\diamondsuit$) are red.  The deck is randomly arranged. What is the probability that the top card is the King of $\\diamondsuit$?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total number of cards in a standard deck?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many cards are there for each rank? And how many ranks are there in total?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many suits are there in the deck? Can you name them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Are all the suits equally likely to appear on the top card? Why or why not?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the probability of drawing a card from the suit $\\diamondsuit$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the probability of drawing the King specifically from the suit $\\diamondsuit$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Is there any difference in probability if we consider the top card versus any other card in the deck?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Does the arrangement of the deck affect the probability of drawing a specific card?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other similar probability problems where the same reasoning and steps could be applied?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "How does your understanding of probability relate to real-life situations?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

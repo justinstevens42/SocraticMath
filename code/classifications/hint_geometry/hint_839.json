@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_839",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "Billy is hiking in Colorado. He walks eastward four miles, then turns $60$ degrees northward and walks six miles. How far is he from his starting point? Express your answer in simplest radical form.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in finding the distance Billy is from his starting point?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What shape or figure can we use to represent the path that Billy took?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the length of the eastward segment of Billy's path?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the length of the northward segment of Billy's path?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "If we use the Pythagorean Theorem, what would be the equation we can use to find the distance from his starting point?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we simplify the equation and calculate the final answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

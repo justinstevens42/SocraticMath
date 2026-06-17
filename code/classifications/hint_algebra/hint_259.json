@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_259",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem": "What is the nonnegative difference between the roots for the equation $x^2+30x+180=-36$?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the nonnegative difference between the roots of an equation means?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the roots of the equation $x^2+30x+180=-36$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What methods or techniques do you know for solving quadratic equations?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "If we use the quadratic formula to solve this equation, what values would we substitute into the formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine the difference between the roots once we have found them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What does it mean for the difference between the roots to be nonnegative?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can we determine the nonnegative difference between the roots of the equation $x^2+30x+180=-36$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you explain why the nonnegative difference between the roots is important in this context?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other scenarios in which finding the nonnegative difference between roots would be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

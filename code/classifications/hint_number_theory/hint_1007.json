@@ -1,0 +1,47 @@
+{
+  "problem_id": "hint_1007",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem": "What is the base-ten number represented by the base-eight number 31?",
+  "n_questions": 5,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the base-eight number system is and how it works?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do we convert a base-eight number to a base-ten number? What steps are involved?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "In the base-eight number 31, what do the '3' and '1' represent? How do they contribute to the final base-ten result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why do we multiply the first digit by 8 to the power of 1 and the second digit by 8 to the power of 0? What is the significance of these powers?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of any other examples where you need to convert a number from one base to another? How would you apply the same steps and reasoning?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

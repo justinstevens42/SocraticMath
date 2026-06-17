@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_112",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem": "Suppose $\\cos R = \\frac{4}{9}$ in the diagram below.  What is $QS$?\n\n\n\n[asy]\n\npair Q,R,S;\n\nS = (0,0);\n\nQ = (sqrt(65),0);\n\nR = (sqrt(65),-4);\n\ndraw(S--Q--R--S);\n\ndraw(rightanglemark(S,Q,R,13));\n\nlabel(\"$S$\",S,NW);\n\nlabel(\"$Q$\",Q,NE);\n\nlabel(\"$R$\",R,SE);\n\nlabel(\"$9$\",(R+S)/2,SW);\n\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving for $QS$ in this diagram?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How is $\\cos R$ related to the lengths of $QR$ and $RS$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for $\\cos R$ to equal $\\frac{4}{9}$? How does that relate to the length of $QR$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the Pythagorean Theorem to find the length of $QS$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the equation we can set up using the Pythagorean Theorem to solve for $QS$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain the steps to solve for $QS$ using the equation we set up?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

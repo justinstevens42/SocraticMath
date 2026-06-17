@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_20",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "How many integers are solutions to the equation $$(x-2)^{(25-x^2)}=1?$$",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you simplify the equation $(x-2)^{(25-x^2)}=1$ to a more understandable form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for a number raised to the power of another number to equal 1?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Are there any restrictions on the values that $(x-2)$ and $(25-x^2)$ can take for the equation to hold true?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you identify any particularly simple or special cases of the equation where it is easier to find the solutions?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How does the exponent $(25-x^2)$ affect the potential solutions of the equation? Can you make any observations about it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any specific values of $(x-2)$ that result in non-integer powers? If so, how does it impact the number of integer solutions to the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can you systematically analyze the possible integer solutions, taking into account the impact of both $(x-2)$ and $(25-x^2)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

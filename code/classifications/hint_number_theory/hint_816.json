@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_816",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem": "Express $249_{11}+3AB_{12}$ as a base 10 integer. Here $A$ and $B$ denote the digits whose values are 10 and 11, respectively, in base 12.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given expression and what do the digits A and B represent in base 12?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Could you explain step-by-step how you converted the number \"249\" from base 11 to base 10?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How did you calculate the value of the number \"3AB\" in base 12 and convert it to base 10?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you demonstrate how you added the two converted numbers together to get the final result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Is there any significance or special properties in the numbers \"249\" and \"3AB\" that may affect the final result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What would happen if we changed the base of the numbers in this expression? How would that affect the answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

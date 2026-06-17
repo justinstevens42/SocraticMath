@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_519",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "Points $A$ and $B$ are on parabola $y=4x^2+7x-1$, and the origin is the midpoint of $\\overline{AB}$. Find the square of the length of $\\overline{AB}$.",
+  "n_questions": 10,
+  "labels": [
+    "b",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we find the coordinates of points A and B on the parabola?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What equation represents the fact that the origin is the midpoint of line segment AB?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "If the coordinates of point A are (x₁, y₁) and the coordinates of point B are (x₂, y₂), what is the midpoint formula for finding the coordinates of the midpoint?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Substituting the coordinates of the midpoint and the equation of the parabola into the midpoint formula, can we solve for x₁ and x₂?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Once we have the x-coordinates of points A and B, how can we find the corresponding y-coordinates?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What does the length of line segment AB represent geometrically?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How do we find the length of line segment AB given its coordinates?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the equation for the length of a line segment given its endpoints' coordinates?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we square the length of line segment AB to find the final answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any other situations or problems in which using the midpoint concept would be helpful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_502",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem": "Find the sum $$\\frac{2^1}{4^1 - 1} + \\frac{2^2}{4^2 - 1} + \\frac{2^4}{4^4 - 1} + \\frac{2^8}{4^8 - 1} + \\cdots.$$",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "f",
+    "b",
+    "f",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the pattern in the given expression? How does each term relate to the previous one?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you determine the relationship between the numerator and denominator in each term? How does this relationship help simplify the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Look at the expression and notice the subtraction in the denominator. How does this subtraction affect the terms in the expression?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Can you rewrite each term in a simplified form using the given relationship between the numerator and denominator? How does this simplification assist in finding the sum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What happens when you combine all the simplified terms in the expression? Can you identify any similarities or differences in the terms?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "Based on the telescoping pattern in the sum, what can you conclude about the final sum? How does this relate to the initial expression given?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

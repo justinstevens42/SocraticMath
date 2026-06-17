@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_33",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 1",
+  "problem": "Fully simplify the following expression: $[(2+3+4+5)\\div2] + [(2\\cdot5+8)\\div3]$.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step to simplify the given expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "According to the order of operations, which bracket should we simplify first, and why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the result of simplifying the first bracket?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we simplify the second bracket using the order of operations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the final simplified expression after evaluating both brackets?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there any other way to simplify the given expression without using the order of operations? If so, what is it and how does it compare to the previous method?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

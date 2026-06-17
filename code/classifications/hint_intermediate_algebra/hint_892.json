@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_892",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "Let $a$ and $b$ be real numbers.  Find the maximum value of $a \\cos \\theta + b \\sin \\theta$ in terms of $a$ and $b.$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what the expression $a \\cos \\theta + b \\sin \\theta$ represents intuitively?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How does changing the values of $a$ and $b$ affect the graph of the expression $a \\cos \\theta + b \\sin \\theta$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the relationship between the maximum value of $a \\cos \\theta + b \\sin \\theta$ and the lengths of $a$ and $b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Are there any restrictions on the values of $a$ and $b$ in order for the maximum value to exist?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why we used the Cauchy-Schwarz Inequality to find the maximum value? What is the significance of this inequality in this context?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other similar mathematical expressions where the Cauchy-Schwarz Inequality can be applied to find the maximum value?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

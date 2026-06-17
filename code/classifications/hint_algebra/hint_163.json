@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_163",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem": "The quadratic equation $ax^2+20x+c=0$ has exactly one solution. If $a+c=29$, and $a<c$ find the ordered pair $(a,c)$.",
+  "n_questions": 10,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you determine the value of the discriminant of the quadratic equation $ax^2+20x+c=0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What are the conditions for a quadratic equation to have exactly one solution?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the relationship between the discriminant and the number of solutions of a quadratic equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we express the discriminant in terms of the coefficients $a$, $b$, and $c$ in the quadratic equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "If the quadratic equation has exactly one solution, what can we say about the discriminant?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you write down the expression for the discriminant of the given quadratic equation $ax^2+20x+c=0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we use the given information $a+c=29$ and $a<c$ to find the values of $a$ and $c$ that satisfy the conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What restrictions do we need to consider when solving for $a$ and $c$ given the conditions $a+c=29$ and $a<c$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you find the possible values for $a$ and $c$ that satisfy the conditions, keeping in mind the inequalities $a<c$ and $a+c=29$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the final ordered pair $(a,c)$ that satisfies the given conditions and represents the values of $a$ and $c$ in the quadratic equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

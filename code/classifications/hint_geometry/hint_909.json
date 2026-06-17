@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_909",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem": "In $\\triangle PQR$, point $T$ is on side $QR$ such that $QT=6$ and $TR=10$. What is the ratio of the area of $\\triangle PQT$ to the area of $\\triangle PTR$? [asy]\nsize(6cm);\npair q = (0, 0); pair t = (6, 0); pair r = (16, 0);\npair p = (4, 8);\ndraw(p--q--r--cycle--t);\nlabel(\"$P$\", p, N);\nlabel(\"$Q$\", q, SW);\nlabel(\"$T$\", t, S);\nlabel(\"$R$\", r, SE);\nlabel(\"$6$\", midpoint(q--t), S, fontsize(10));\nlabel(\"$10$\", midpoint(t--r), S, fontsize(10));\n[/asy] Write your answer in the form $x:y$, where $x$ and $y$ are relatively prime positive integers.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "r",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Given that point T is on side QR and QT=6 and TR=10, what can we say about the length of QR?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the area of triangle PQT?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Similarly, how can we find the area of triangle PTR?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How are the altitudes of triangle PQT and triangle PTR related?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the length of the altitude from P to QT?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the lengths of the altitudes and the formula for the area of a triangle to find the desired ratio?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Simplify the ratio of the area of triangle PQT to the area of triangle PTR.",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

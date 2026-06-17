@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_454",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem": "Piravena must make a trip from $A$ to $B$, then from $B$ to $C$, then from $C$ to $A$.  Each of these three parts of the trip is made entirely by bus or entirely by airplane.  The cities form a right-angled triangle as shown, with $C$ a distance of 3000 km from $A$ and with $B$ a distance of 3250 km from $A$. To take a bus, it costs Piravena $\\$0.15$ per kilometer. To take an airplane, it costs her a $\\$100$ booking fee, plus $\\$0.10$ per kilometer. [asy]\n\npair A, B, C;\n\nC=(0,0);\n\nB=(0,1250);\n\nA=(3000,0);\n\ndraw(A--B--C--A);\n\nlabel(\"A\", A, SE);\n\nlabel(\"B\", B, NW);\n\nlabel(\"C\", C, SW);\n\nlabel(\"3000 km\", (A+C)/2, S);\n\nlabel(\"3250 km\", (A+B)/2, NE);\n\ndraw((0,125)--(125,125)--(125,0));\n\n[/asy] Determine the distance she travels for her complete trip.",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the distance Piravena travels for her complete trip using the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the relationship between the sides of the right-angled triangle in this scenario?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the Pythagorean Theorem in this context?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we apply the Pythagorean Theorem to find the length of side BC?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What is the formula for calculating the total distance traveled in this scenario?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you determine the distance traveled for each part of the trip separately?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can you calculate the total distance traveled by adding the distances for each part of the trip?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Are there any other geometric theorems or concepts that could be applied in this scenario?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

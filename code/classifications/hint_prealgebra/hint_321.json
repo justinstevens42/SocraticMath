@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_321",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem": "Each of the ten letters in ``MATHCOUNTS'' is written on its own square tile and placed in a bag. What is the probability that a tile randomly selected from the bag will have a letter on it that is in the word ``TEACH''? Express your answer as a common fraction.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the word provided in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many letters are in the word \"MATHCOUNTS\"?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "From the given letters in \"MATHCOUNTS,\" which ones are also in the word \"TEACH\"?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How many letters are there in \"TEACH\"?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the probability of randomly selecting a tile with a letter from \"TEACH\" out of all the tiles in the bag?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we express this probability as a fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the numerator of the fraction representing the probability?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the denominator of the fraction representing the probability?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can we simplify the fraction representing the probability?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the simplified fraction that represents the probability of selecting a letter from \"TEACH\" out of all the tiles in the bag?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

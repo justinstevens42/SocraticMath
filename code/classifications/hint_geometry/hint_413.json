@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_413",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "A semicircle of diameter 1 sits at the top of a semicircle of diameter 2, as shown. The shaded area inside the smaller semicircle and outside the larger semicircle is called a $\\textit{lune}$. Determine the area of this lune. Express your answer in terms of $\\pi$ and in simplest radical form.\n\n[asy]\nfill((0,2.73)..(1,1.73)--(-1,1.73)..cycle,gray(0.7));\ndraw((0,2.73)..(1,1.73)--(-1,1.73)..cycle,linewidth(0.7));\nfill((0,2)..(2,0)--(-2,0)..cycle,white);\ndraw((0,2)..(2,0)--(-2,0)..cycle,linewidth(0.7));\ndraw((-1,1.73)--(1,1.73),dashed);\nlabel(\"2\",(0,0),S);\nlabel(\"1\",(0,1.73),S);\n[/asy]",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the shape called in the diagram?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the diameter of the smaller semicircle? What about the larger semicircle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the area of the shaded region?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the area of the triangle topped by the smaller semicircle? How did you calculate it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the area of the sector of the larger semicircle? How did you calculate it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do we find the area of the lune? What mathematical operation do we need to perform?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final expression for the area of the lune in terms of $\\pi$ and simplest radical form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

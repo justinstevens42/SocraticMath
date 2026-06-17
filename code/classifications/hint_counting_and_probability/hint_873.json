@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_873",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem": "Ben twice chooses a random integer between 1 and 50, inclusive (and he may choose the same integer both times). What is the probability that at least one of the numbers Ben chooses is a multiple of 3?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking us to find the probability of?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many integers are there between 1 and 50, inclusive?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many multiples of 3 are there between 1 and 50, inclusive?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the probability that the first number Ben chooses is not a multiple of 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the probability that the second number Ben chooses is not a multiple of 3, given that the first number he chose was not a multiple of 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the probability that neither of the numbers Ben chooses is a multiple of 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we use the result from Step 6 to find the probability that at least one of the numbers Ben chooses is a multiple of 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the final probability of at least one of the numbers Ben chooses being a multiple of 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

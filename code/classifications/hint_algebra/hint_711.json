@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_711",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem": "Given that $2x + y = 4$ and $x + 2y = 5$, find $5x^2 + 8xy + 5y^2$.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "f"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you identify any key information or patterns in the given equations?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between the coefficients of x and y in the two equations?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Is there a method you can think of that would allow you to eliminate one of the variables and solve for the other?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can you eliminate one variable in the given equations to make solving for the other easier?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "After eliminating one variable, what will the resulting equation look like?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What steps can you take to solve the resulting equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you substitute the value(s) you found back into the original equations to check if they satisfy them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can you use the values you found to evaluate the expression $5x^2 + 8xy + 5y^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you simplify the expression any further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Are there any other relationships or patterns you notice between the given equations and the expression $5x^2 + 8xy + 5y^2$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    }
+  ]
+}

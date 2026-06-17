@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_381",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem": "Equilateral triangle $ABC$ has been creased and folded so that vertex $A$ now rests at $A'$ on $\\overline{BC}$ as shown.  If $BA' = 1$ and $A'C = 2,$ then find the length of crease $\\overline{PQ}.$\n\n[asy]\nunitsize(1 cm);\n\npair A, Ap, B, C, P, Q;\n\nA = 3*dir(60);\nB = (0,0);\nC = (3,0);\nAp = (1,0);\nP = 8/5*dir(60);\nQ = C + 5/4*dir(120);\n\ndraw(B--C--Q--P--cycle);\ndraw(P--Ap--Q);\ndraw(P--A--Q,dashed);\n\nlabel(\"$A$\", A, N);\nlabel(\"$A'$\", Ap, S);\nlabel(\"$B$\", B, SW);\nlabel(\"$C$\", C, SE);\nlabel(\"$P$\", P, NW);\nlabel(\"$Q$\", Q, NE);\n[/asy]",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information about the triangle $ABC$ in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How was the triangle $ABC$ folded to create the new triangle $A'BC$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the length of segment $BA'$? What is the length of segment $A'C$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Let $P$ and $Q$ be the two points on the triangle $A'BC$ where the triangle was folded. How can you express the length of crease $\\overline{PQ}$ in terms of $BP$ and $CQ$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "According to the Law of Cosines, what is the equation that relates $BP$ and $AP$? What is the equation that relates $CQ$ and $AQ$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "By solving the two equations from question 5, what is the length of $BP$? What is the length of $CQ$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the length of $AP$? What is the length of $AQ$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can you use the Law of Cosines to find the length of $\\overline{PQ}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "By plugging in the values found in question 6 and 7 into the equation from question 8, what is the length of $\\overline{PQ}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

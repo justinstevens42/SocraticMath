@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_363",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem": "Tyler has entered a buffet line in which he chooses one kind of meat, two different vegetables and one dessert.  If the order of food items is not important, how many different meals might he choose?\n\n$\\bullet$  Meat: beef, chicken, pork\n\n$\\bullet$  Vegetables: baked beans, corn, potatoes, tomatoes\n\n$\\bullet$  Dessert: brownies, chocolate cake, chocolate pudding, ice cream",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the problem is asking for in your own words?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean when the order of food items is not important?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How many choices does Tyler have for the meat? Can you explain why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many choices does Tyler have for the dessert? Can you explain why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the concept of combinations and how does it relate to choosing the vegetables?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How many ways can Tyler choose two different vegetables out of the four? Can you explain why it is $\\binom{4}{2}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain why we multiply the number of choices for the meat, vegetables, and dessert to find the total number of different meals Tyler might choose?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other scenarios where the concept of combinations can be applied to count possibilities?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Is there anything else that we need to consider in order to find the total number of different meals Tyler might choose?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you calculate the final answer using the given information and explain your reasoning behind each step?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

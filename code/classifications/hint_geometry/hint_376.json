@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_376",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem": "Three coplanar squares with sides of lengths two, four and six units, respectively, are arranged side-by-side, as shown so that one side of each square lies on line $AB$ and a segment connects the bottom left corner of the smallest square to the upper right corner of the largest square. What is the area of the shaded quadrilateral? [asy] size(150); defaultpen(linewidth(0.9)+fontsize(10));\nfill((2,0)--(6,0)--(6,3)--(2,1)--cycle,gray(0.8));\ndraw(scale(2)*unitsquare);\ndraw(shift(2,0)*scale(4)*unitsquare);\ndraw(shift(6,0)*scale(6)*unitsquare);\ndraw((0,0)--(12,6));\n\nreal d = 1.2; pair d2 = (0.9,0);\npair A = (-d,0), B = (12+d,0); dot(A,linewidth(3)); dot(B,linewidth(3)); label(\"A\",A,(0,-1.5)); label(\"B\",B,(0,-1.5)); draw(A-d2--B+d2,Arrows(4));\nlabel(\"2\",(1,2.7)); label(\"4\",(4,4.7)); label(\"6\",(9,6.7));\n[/asy]",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Why are the three triangles $T_1$, $T_2$, $T_3$ similar?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the base of $T_3$ and how is it related to the side lengths of the squares?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the height-to-base ratio of $T_1$ and $T_2$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Using the height-to-base ratio, how do we find the height of $T_1$ and $T_2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the shape of the shaded region and what are its bases and altitude?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Using the bases and altitude, how do we calculate the area of the shaded region?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can we use a different method to find the area of the shaded region?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How does the area of the shaded region change if the side lengths of the squares are different?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

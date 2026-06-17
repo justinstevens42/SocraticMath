@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_619",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem": "Simplify\n\\[\\frac{\\sin x + \\sin 2x}{1 + \\cos x + \\cos 2x}.\\]",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the initial step you would take to simplify this expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Are you familiar with any trigonometric identities or properties that can help simplify this expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "If we expand the numerator and denominator, what terms can we combine?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we simplify the expression by factoring out common terms?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why the expression simplifies to $\\frac{\\sin x}{\\cos x}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any restrictions on the values of $x$ for which the simplified expression is defined? If so, what are they?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

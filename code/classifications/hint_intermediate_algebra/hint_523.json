@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_523",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem": "If $x = 101$ and $x^3y - 2x^2y + xy = 101000$, what is the value of $y$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step you would take to solve this equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Are there multiple methods you know of that can be used to solve equations like this one? If so, what are they?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you were to factorize the left-hand side of the equation, what factors would you look for and why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is it possible to factorize this equation? What characteristics make it suitable for this method?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What factors did you find, and how do they validate that your solution is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other types of equations where similar thinking and steps may be applicable for solving them?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

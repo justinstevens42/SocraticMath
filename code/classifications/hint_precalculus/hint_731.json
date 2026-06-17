@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_731",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem": "Let $\\mathbf{A}$ be a matrix such that\n\\[\\mathbf{A} \\begin{pmatrix} 5 \\\\ -2 \\end{pmatrix} = \\begin{pmatrix} -15 \\\\ 6 \\end{pmatrix}.\\]Find $\\mathbf{A}^5 \\begin{pmatrix} 5 \\\\ -2 \\end{pmatrix}.$",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given matrix $\\mathbf{A}$ and the vector it operates on?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we find $\\mathbf{A} \\begin{pmatrix} 5 \\\\ -2 \\end{pmatrix}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can we rewrite the vector $\\begin{pmatrix} -15 \\\\ 6 \\end{pmatrix}$ as a scalar multiple of $\\begin{pmatrix} 5 \\\\ -2 \\end{pmatrix}$? What is that scalar?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we write $\\mathbf{A}^2 \\begin{pmatrix} 5 \\\\ -2 \\end{pmatrix}$ in terms of $\\mathbf{A}$ and $\\begin{pmatrix} 5 \\\\ -2 \\end{pmatrix}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we express $\\mathbf{A}^3 \\begin{pmatrix} 5 \\\\ -2 \\end{pmatrix}$ and $\\mathbf{A}^4 \\begin{pmatrix} 5 \\\\ -2 \\end{pmatrix}$ in the same way?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we generalize the pattern to find $\\mathbf{A}^5 \\begin{pmatrix} 5 \\\\ -2 \\end{pmatrix}$?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "What is the final result for $\\mathbf{A}^5 \\begin{pmatrix} 5 \\\\ -2 \\end{pmatrix}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

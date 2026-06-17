@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_474",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem": "Let $x$ be a positive real number.  Find the minimum value of $4x^5 + 5x^{-4}.$",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the approach that was used to find the minimum value of the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How does the AM-GM inequality play a role in this problem? Can you explain its relevance?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What values of $x$ were considered in order to find the minimum value? Why were those values chosen?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How does the inequality in the solution guarantee that the minimum value is achieved?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there any other inequalities or concepts that could be used to solve this problem? Can you explain how they might be applied?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other examples or situations where the AM-GM inequality could be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

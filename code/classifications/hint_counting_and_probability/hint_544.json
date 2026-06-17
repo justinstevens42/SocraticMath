@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_544",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem": "A penny, nickel, dime, and quarter are simultaneously flipped.  What is the expected value of the amount of the coins which come up heads?  Express your answer in cents, rounded to the nearest tenth of a cent.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what is meant by \"expected value\" in this context?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many possible outcomes are there when flipping four coins simultaneously?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What are the potential values that can be obtained for each coin (in cents)?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the probability that a specific coin comes up heads?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why the probability for each coin coming up heads is $\\frac{1}{2}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we calculate the total value when all four coins come up heads?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Why is it appropriate to multiply the probability of each coin coming up heads by its respective value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you simplify the expression: $\\frac{1}{2}(1 + 5 + 10 + 25)$ to find the expected value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Why do we round the answer to the nearest tenth of a cent?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any similar probability problems where we can use the concept of expected value?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

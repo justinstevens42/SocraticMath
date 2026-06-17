@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_50",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 1",
+  "problem": "One of the following 8 figures is randomly chosen. What is the probability that the chosen figure is a triangle? [asy]\nsize(8cm);\npath tri = (0, 0)--(1, 0)--(0.5, Sin(60))--cycle;\npath circ = shift((0.5, 0.5)) * (scale(0.5) * unitcircle);\npath sq = unitsquare;\npair sf = (1.9, 0); // Shift factor\n\ndraw(sq); draw(shift(sf) * tri); draw(shift(2 * sf) * circ); draw(shift(3 * sf) * tri);\n\ndraw(shift(4 * sf) * sq); draw(shift(5 * sf) * circ); draw(shift(6 * sf) * tri); draw(shift(7 * sf) * sq);\n[/asy]",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the concept of probability in this context?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How many total figures are there to choose from?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many of these figures are triangles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you calculate the probability of choosing a triangle figure?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you simplify the probability fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there any other way to represent the probability as a decimal or percentage?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "If we were to choose a figure at random multiple times, would the probability of choosing a triangle always be the same?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of a different scenario where the concept of probability can be applied?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

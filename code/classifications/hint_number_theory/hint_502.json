@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_502",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem": "How many of the 343 smallest positive integers written in base 7 use 4 or 5 (or both) as a digit?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given problem asking? Can you explain it in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we represent the smallest positive integers in base 7? Can you provide some examples?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many digits are there in the base 7 representation of the number 343? What is the relationship between $7^3$ and 343?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Which digits are allowed in the base 7 representation of a number that contains neither 4 nor 5? Can you provide some examples?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What happens if we replace the digit 6 with 4 in the base 7 representation? How does this relate to base 5 representation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How many positive integers are there in base 5 that are less than or equal to 1000?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "If there are 125 positive integers in base 7 that contain no 4's or 5's, what can we conclude about the remaining integers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we determine the number of positive integers in base 7 that include a 4 or a 5?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Based on your analysis, what is the final answer to the original problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

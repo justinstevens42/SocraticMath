@@ -1,0 +1,47 @@
+{
+  "problem_id": "hint_915",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem": "Add $4_6 + 14_6.$ Express your answer in base $6.$",
+  "n_questions": 5,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step in adding two numbers in base 6?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain why a carry-over is necessary when adding $4_6+14_6$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we check if our computed sum is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Are there any other methods we can use to add numbers in base 6?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "Can you generalize the process of adding numbers in different bases?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

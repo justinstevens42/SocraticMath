@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_700",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem": "Ramon sells two enchiladas and three tacos for $\\$$2.50 and he sells three enchiladas and two tacos for $\\$$2.70. Assuming a fixed price per item, what is the cost, in dollars, of three enchiladas and four tacos? Express your answer as a decimal to the nearest hundredth.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you summarize the given information about the cost of enchiladas and tacos?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What unknowns do we need to find in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can we set up a system of equations to represent the given information? If so, what equations would be appropriate?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the cost of one enchilada and one taco using the system of equations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Based on the cost we found in the previous question, how can we determine the cost of three enchiladas and two tacos?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Now that we have the cost of three enchiladas and two tacos, how can we find the cost of three enchiladas and four tacos?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you express the final answer in decimal form to the nearest hundredth?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_645",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "A right triangle with integer leg lengths is called \"cool'' if the number of square units in its area is equal to twice the number of units in the sum of the lengths of its legs. What is the sum of all the different possible areas of cool right triangles?",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what a right triangle is and how it differs from other types of triangles?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How are the leg lengths of a right triangle defined? Can you give an example of a right triangle with integer leg lengths?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for a right triangle to be \"cool\"? Can you restate the given condition in your own words?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you write an equation that represents the given condition mathematically?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How would you approach finding the area of a right triangle? Are there any formulas or methods that can be useful?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How would you approach finding the sum of the lengths of the legs of a right triangle? Can you come up with a formula for it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can you express the given condition using the area and the sum of the lengths of the legs mathematically?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you generate a list of possible areas for cool right triangles? How would you determine if a certain area qualifies as \"cool\"?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can you find all the different possible areas of cool right triangles? What approach or method would you use?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the sum of all the different possible areas of cool right triangles? Can you explain how you arrived at that answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

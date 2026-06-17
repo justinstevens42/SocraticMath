@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_943",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem": "Given that $\\mathbf{a}$ and $\\mathbf{b}$ are nonzero vectors such that $\\|\\mathbf{a} + \\mathbf{b}\\| = \\|\\mathbf{a} - \\mathbf{b}\\|,$ find the angle between $\\mathbf{a}$ and $\\mathbf{b},$ in degrees.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given condition and what does it imply about the vectors $\\mathbf{a}$ and $\\mathbf{b}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the given condition to obtain an equation involving dot product of vectors $\\mathbf{a}$ and $\\mathbf{b}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What can we conclude about the dot product of $\\mathbf{a}$ and $\\mathbf{b}$ from the derived equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the geometric interpretation of the dot product of two vectors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Using the geometric interpretation, what can we say about the angle between $\\mathbf{a}$ and $\\mathbf{b}$ based on the derived equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other ways to determine the angle between two vectors using their properties, and how do they relate to the current problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

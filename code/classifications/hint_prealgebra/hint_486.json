@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_486",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem": "Triangle $ABC$ has side lengths $AB=5$, $BC=6$, and $AC=7$. Two bugs start simultaneously from $A$ and crawl along the perimeter of the triangle in opposite directions at the same speed. They meet at point $D$. What is $BD$?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we find the perimeter of triangle ABC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean when the bugs meet at point D? Can you explain the significance of this point?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Based on the information given, what can we say about the distances each bug crawls?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the length of BD based on the distances each bug crawls?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you provide a step-by-step explanation of how we can find the length of BD using the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other ways to approach this problem? Can you think of any alternative methods to find the length of BD?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

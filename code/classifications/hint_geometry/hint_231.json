@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_231",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 1",
+  "problem": "In the diagram, point $E$ lies on line segment $AB$, and triangles $AED$ and $BEC$ are isosceles. Also, $\\angle DEC$ is twice $\\angle ADE$. What is the measure of $\\angle EBC$ in degrees? [asy]\nimport olympiad;\nimport math;\n\nsize(7cm);\n\n// Draw triangles\npair a = (-2 * Cos(70), 0);\npair b = (1, 0);\npair c = dir(30);\npair d = dir(110);\npair e = (0, 0);\ndraw(a--d--e--cycle);\ndraw(e--b--c--cycle);\n\n// Labels\nlabel(\"$A$\", a, W); label(\"$B$\", b, E);\nlabel(\"$C$\", c, N); label(\"$D$\", d, N);\nlabel(\"$E$\", e, S); label(\"$70^\\circ$\", a, 2 * NE+ 0.5 * E);\n\n// Ticks\nadd(pathticks(a--d, s=2));\nadd(pathticks(d--e, s=2));\nadd(pathticks(e--c, 2, spacing=0.7, s=2));\nadd(pathticks(e--b, 2, spacing=0.7, s=2));\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How do we know that $\\triangle ADE$ is isosceles?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the measure of angle $\\angle AED$? Why?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What can we conclude about the measure of angle $\\angle ADE$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the relationship between angle $\\angle ADE$ and angle $\\angle DEC$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we find the measure of angle $\\angle DEC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the measure of angle $\\angle DEC$? Why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What type of angle is $\\angle CEB$? Why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we find the measure of angle $\\angle EBC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the relationship between angle $\\angle ECB$ and angle $\\angle EBC$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 10,
+      "question": "What is the measure of angle $\\angle EBC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_7",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 1",
+  "problem": "The side lengths of both triangles to the right are given in centimeters. What is the length of segment $AB$?\n\n[asy]\npair A,B,C,D,E,F,G;\n\nA=(0,0);\nB=12*dir(0);\nC=20*dir(120);\nD=8+B;\nE=D+6*dir(0);\nF=D+10*dir(120);\n\ndraw(A--B--C--cycle);\ndraw(D--E--F--cycle);\n\nlabel(\"A\",F,N);\nlabel(\"B\",E+(1.4,0));\nlabel(\"6\",.5*(A+B),S);\nlabel(\"14\",.5*(B+C),NE);\nlabel(\"10\",.5*(A+C),SW);\nlabel(\"\\small{$120^{\\circ}$}\",A,NE);\nlabel(\"3\",.5*(D+E),S);\nlabel(\"5\",.5*(D+F),SW);\nlabel(\"\\tiny{$120^{\\circ}$}\",D+(1.8,0.8));\n\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is SAS Similarity and how does it relate to the given triangles in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we use SAS Similarity to find the length of segment AB?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the ratio of the corresponding side lengths of triangles ABC and DEF?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How does setting up a proportion using the ratios of corresponding side lengths help us find segment AB?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there any other similar triangles that we can find in this diagram?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "What would happen if we changed the angle measure of triangle ABC? Would the length of segment AB change?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

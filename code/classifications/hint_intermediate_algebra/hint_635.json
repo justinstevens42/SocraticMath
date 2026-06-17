@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_635",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "Let $f(x) = x^2 + ax + b$ and $g(x) = x^2 + cx + d$ be two distinct polynomials with real coefficients such that the $x$-coordinate of the vertex of $f$ is a root of $g,$ and the $x$-coordinate of the vertex of $g$ is a root of $f,$ and both $f$ and $g$ have the same minimum value.  If the graphs of the two polynomials intersect at the point $(100,-100),$ what is the value of $a + c$?",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the two given polynomials $f(x)$ and $g(x)$, and what does it mean for each of them to have a vertex?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for the $x$-coordinate of the vertex of $f$ to be a root of $g$, and vice versa?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What information can we glean from the fact that both $f$ and $g$ have the same minimum value?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Based on the symmetry argument mentioned in the problem, what can we say about the distance between the line $x=100$ and each of the vertices of the parabolas?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can we express the $x$-coordinates of the two vertices in terms of $a$ and $c$, using the given formulas for the polynomials?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Combining the above insights, what equation can we write relating $a$ and $c$? What does it imply about their sum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Finally, using the fact that the graphs of $f$ and $g$ intersect at the point $(100,-100)$, can we check that our answer for $a+c$ indeed fits all the given constraints?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

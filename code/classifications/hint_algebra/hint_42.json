@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_42",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem": "Evaluate $(\\sqrt[6]{4})^9$.",
+  "n_questions": 10,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does it mean to evaluate an expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Do you know the order in which operations should be performed?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How would you simplify the expression inside the parentheses?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you rewrite $\\sqrt[6]{4}$ in a different form that might make it easier to work with?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What does it mean to raise something to the power of 9?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Using the properties of exponents, what can you do with $\\left(\\sqrt[6]{4}\\right)^9$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Can you simplify $\\left(\\sqrt[6]{4}\\right)^9$ further? If so, what does it equal?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any restrictions or limitations on the values that can be raised to fractional exponents?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How confident are you in your answer? Can you explain your reasoning and provide a mathematical justification?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any other expressions involving radicals and exponents that would require similar thinking and steps to evaluate?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

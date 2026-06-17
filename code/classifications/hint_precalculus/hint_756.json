@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_756",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 1",
+  "problem": "Compute $\\tan \\left (\\operatorname{arccot} \\frac{4}{7} \\right).$",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you define the trigonometric function $\\cot \\theta$ in terms of the sides of a right triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Given that $\\cot \\theta = \\frac{4}{7}$ in this particular triangle, what does that tell us about the relationship between the lengths of the adjacent and opposite sides?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you determine the value of the angle $\\theta$ using the given information? How would you do that?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "If $\\theta = \\operatorname{arccot} \\frac{4}{7}$, what does that imply about the values of $\\cot \\theta$ and $\\theta$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How would you define the trigonometric function $\\tan \\theta$ in terms of the sides of a right triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Using the values of $\\cot \\theta$ and $\\theta$ that we found earlier, what is the value of $\\tan \\theta$ in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you express your answer for $\\tan \\theta$ in a simplified form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

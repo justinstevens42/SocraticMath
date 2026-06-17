@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_16",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem": "How many distinct, positive factors does $1100$ have?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the first step in finding the number of factors of 1100?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Are there any patterns or relationships that you notice in the prime factorization of 1100?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain why each factor can be written as $2^a \\cdot 5^b \\cdot 11^c$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What are the possible values of $a$, $b$, and $c$? Why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can you determine the number of distinct, positive factors based on the values of $a$, $b$, and $c$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other numbers where a similar approach can be used to find the number of factors?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

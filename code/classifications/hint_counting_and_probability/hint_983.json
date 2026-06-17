@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_983",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 2",
+  "problem": "A bag contains ten balls, some of which are red and the rest of which are yellow. When two balls are drawn at random at the same time, the probability that both balls are red is $\\frac{1}{15}$. How many balls in the bag are red?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we represent the number of red balls in the bag using a variable?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the probability that the first ball drawn is red? How did we get this probability?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the probability that the second ball drawn is red given that the first ball drawn was red? How did we get this probability?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Using these probabilities, how can we set up an equation to solve for the number of red balls in the bag?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we simplify the equation to make it easier to solve?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final value we get for the number of red balls in the bag?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Why is it impossible for the number of red balls to be negative?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "How would the problem change if we drew the balls one at a time with replacement instead of two at a time without replacement?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any real-world situations where this type of probability problem might be applicable?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_206",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem": "Convert the point $(\\rho,\\theta,\\phi) = \\left( 12, \\frac{7 \\pi}{6}, \\frac{\\pi}{3} \\right)$ in spherical coordinates to rectangular coordinates.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the given spherical coordinates?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain what each component of the spherical coordinates represents?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we convert spherical coordinates to rectangular coordinates?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the formula to convert $\\rho$ to $x$, $\\theta$ to $y$, and $\\phi$ to $z$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we calculate $\\sin \\phi$ and $\\cos \\phi$ in this context?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you substitute the given values into the conversion formulas step by step?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What steps are involved in calculating $x$, $y$, and $z$ from $\\rho$, $\\theta$, and $\\phi$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we simplify the trigonometric expressions when calculating $x$ and $y$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the final result of the conversion, and how can you write it in rectangular coordinates using proper notation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you explain the meaning of the resulting rectangular coordinates in the context of the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

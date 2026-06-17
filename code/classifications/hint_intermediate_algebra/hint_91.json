@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_91",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "Suppose $f(x)$ is a rational function such that $3f\\left(\\dfrac{1}{x}\\right)+\\dfrac{2f(x)}{x}=x^2$ for $x\\neq 0$.  Find $f(-2)$.",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a rational function?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you rewrite the given equation to express $f(x)$ in terms of $f\\left(\\frac{1}{x}\\right)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the given equation to eliminate $f\\left(\\frac{1}{x}\\right)$ and solve for $f(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How did we get the system of equations that allowed us to solve for $f(-2)$ and $f\\left(-\\frac{1}{2}\\right)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Is there a way we can check if the values we obtained for $f(-2)$ and $f\\left(-\\frac{1}{2}\\right)$ are correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "If we were given a different rational function and equation, how might we approach solving it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

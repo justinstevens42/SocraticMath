@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_507",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem": "Compute $\\begin{pmatrix} 2 & 0 \\\\ 5 & -3 \\end{pmatrix} \\begin{pmatrix} 8 & -2 \\\\ 1 & 1 \\end{pmatrix}.$",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What exactly are we being asked to do in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we compute the product of two matrices? Can you describe the steps involved?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What are the dimensions of the two matrices in this problem? How does that affect the computation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How do we determine the entries of the resulting matrix? Can you explain the process?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you compute the individual entries of the resulting matrix for this specific problem? Show your work.",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any special properties or rules that we can use to simplify the computation? If so, can you identify and apply them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any real-life applications or scenarios where matrix multiplication is used?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_491",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem": "Choose the largest of the following sums, and express it as a fraction in simplest form:\n$$\\frac{1}{4} + \\frac{1}{5}, \\ \\ \\frac{1}{4} + \\frac{1}{6}, \\ \\ \\frac{1}{4} + \\frac{1}{3}, \\ \\ \\frac{1}{4} + \\frac{1}{8}, \\ \\ \\frac{1}{4} + \\frac{1}{7}$$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you identify a common fraction in all of the given sums?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we compare the relative size of the sums without considering the common fraction?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Which of the fractions $\\frac{1}{5}, \\frac{1}{6}, \\frac{1}{3}, \\frac{1}{8},$ and $\\frac{1}{7}$ is the largest? Why?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we add $\\frac{1}{4}$ and the largest fraction to find the largest sum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can we simplify the sum $\\frac{1}{4}+\\frac{1}{3}$? If so, how?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the final answer expressed as a fraction in simplest form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

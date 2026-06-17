@@ -1,0 +1,89 @@
+{
+  "problem_id": "hint_593",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem": "One line is described by\n\\[\\begin{pmatrix} 2 \\\\ 3 \\\\ 4 \\end{pmatrix} + t \\begin{pmatrix} 1 \\\\ 1 \\\\ -k \\end{pmatrix}.\\]Another line is described by\n\\[\\begin{pmatrix} 1 \\\\ 4 \\\\ 5 \\end{pmatrix} + u \\begin{pmatrix} k \\\\ 2 \\\\ 1 \\end{pmatrix}.\\]If the lines are coplanar (i.e. there is a plane that contains both lines), then find all possible values of $k.$",
+  "n_questions": 11,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the meaning of the given line representations in the context of vectors and parametric equations?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for two lines to be coplanar? How does coplanarity relate to the existence of a plane that contains both lines?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If two lines are coplanar, what should be true about their direction vectors?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Let's assume the direction vectors are proportional. Can you find the relationship between the components of the two vectors by comparing their corresponding entries?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What does the equation $2 = k$ and $-2k = 1$ tell us about the possible values of $k$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What can we conclude when the vectors are found to be non-proportional?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we determine if the lines intersect? What conditions should be satisfied in order for the lines to intersect?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "By equating the representations of both lines, what system of equations can we form to find the values of $t$ and $u$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we derive the equation $t = 2u + 1$ from the system of equations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "By substituting the value of $t$ in terms of $u$ back into the equations, what values can we obtain for $k$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "What are the possible values for $u$ based on the resulting equation? How does this lead us to the possible values for $k$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

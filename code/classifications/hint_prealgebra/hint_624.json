@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_624",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem": "What is the greatest common factor of 252 and 96?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does it mean to find the greatest common factor of two numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can prime factorization help us find the GCF?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you describe the process of prime factorizing 252 and 96?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why do we know that the exponent of 2 in the GCF can be no greater than 2 and the exponent of 3 can be no greater than 1?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How do we determine the GCF using the prime factorizations of the two numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other numbers where finding the GCF would involve similar thinking and steps?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

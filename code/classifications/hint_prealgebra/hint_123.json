@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_123",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem": "What is the measure of an angle, in degrees, if its supplement is six times its complement?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does it mean for two angles to be supplements of each other? And what about complements?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain why the measure of the angle's supplement is $180^\\circ - x$ and its complement is $90^\\circ - x$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How did we come up with the equation $180^\\circ - x = 6(90^\\circ - x)$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the reasoning behind expanding and rearranging the equation to $5x = 360^\\circ$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did we solve the equation $5x = 360^\\circ$ to find the value of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other angle problems where we could apply similar thinking and steps?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

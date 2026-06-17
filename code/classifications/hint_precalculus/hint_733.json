@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_733",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem": "In triangle $ABC,$ $\\sin A = \\frac{3}{5}$ and $\\cos B = \\frac{5}{13}.$  Find $\\cos C.$",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What information do we have about the angles of triangle $ABC$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the given information about $\\sin A$ and $\\cos B$ to find $\\cos A$ and $\\sin B$ respectively?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What are the possible values of $\\cos A$ and $\\sin B$ based on the given ratios?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the trigonometric identities to find $\\sin C$ in terms of $\\sin A$, $\\cos B$, $\\cos A$, and $\\sin B$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Based on the given information, what can we conclude about the sign of $\\sin C$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the trigonometric identities to find $\\cos C$ in terms of $\\cos A$, $\\cos B$, $\\sin A$, and $\\sin B$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Substituting the values for $\\cos A$, $\\cos B$, $\\sin A$, and $\\sin B$ that we know, what is the value of $\\cos C$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

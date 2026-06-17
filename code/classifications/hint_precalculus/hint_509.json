@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_509",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem": "Let $O$ and $H$ be the circumcenter and orthocenter of triangle $ABC$, respectively.  Let $a$, $b$, and $c$ denote the side lengths, and let $R$ denote the circumradius.  Find $OH^2$ if $R = 7$ and $a^2 + b^2 + c^2 = 29$.",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what the circumcenter and orthocenter of a triangle are?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How is the orthocenter related to the circumcenter? What is the geometric relationship between them?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we represent the orthocenter using the vectors of the triangle's vertices?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the formula for the distance squared between two points in terms of vectors?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we express the vector OH (from the origin O to the orthocenter H) in terms of the vectors representing the triangle's vertices?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the dot product of two vectors? Can you compute the dot products involved in the equation for OH^2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we relate the given information about the circumradius, side lengths, and OH^2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you derive an expression for OH^2 in terms of the given information and the circumradius?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Using the given values (R = 7, a^2 + b^2 + c^2 = 29), can you calculate the exact value of OH^2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

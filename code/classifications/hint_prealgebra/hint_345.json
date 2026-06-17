@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_345",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem": "At a meeting with $25$ businessmen, twelve businessmen drank coffee, and ten businessmen drank tea.  Five businessmen drank both coffee and tea.  How many businessmen drank neither coffee nor tea?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the question asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many businessmen drank coffee?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many businessmen drank tea?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Are there any businessmen who drank both coffee and tea?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we account for the businessmen who drank both coffee and tea when finding the total number of businessmen who drank either coffee or tea?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do we find the number of businessmen who drank neither coffee nor tea?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can we use a different method to solve this problem? If so, what would it be?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

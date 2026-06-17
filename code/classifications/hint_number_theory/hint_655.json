@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_655",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem": "A marathon is $26$ miles and $385$ yards. One mile equals $1760$ yards.\n\nLeila has run ten marathons in her life. If the total distance Leila covered in these marathons is $m$ miles and $y$ yards, where $0\\le y<1760$, what is the value of $y$?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total distance Leila covered in ten marathons?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many yards are in one mile?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you convert the total distance Leila covered in ten marathons from miles and yards to just yards?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What does the remaining yards of $y$ represent in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can you break down the remaining yards into miles and yards?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the final value of $y$ and how do you get it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "If Leila wanted to run a total of 1000 miles, how many marathons would she need to complete?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

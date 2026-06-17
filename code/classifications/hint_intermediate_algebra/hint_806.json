@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_806",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "Let $f(x) = x^2-3x$. For what values of $x$ is $f(f(x)) = f(x)$?  Enter all the solutions, separated by commas.",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "b",
+    "f",
+    "b",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you define the function $f(x)$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do we find the values of $x$ that satisfy $f(f(x)) = f(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the given equation equal to after expanding $f(f(x))$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How did we get the equation $(x^2-3x)^2-4(x^2-3x)=0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can we factor the equation $(x^2-3x)^2-4(x^2-3x)=0$? If so, how?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are the solutions to the equation $x(x-3)(x+1)(x-4)=0$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Are there any values of $x$ that make the equation undefined?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any other ways to solve this problem besides factoring? Why or why not?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

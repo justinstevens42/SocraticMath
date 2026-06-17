@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_232",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem": "The hypotenuse of an isosceles right triangle is $4\\sqrt{2}$ units. How many square units are in the area of the triangle?",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is an isosceles right triangle and how is it different from other types of triangles?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How is the length of the hypotenuse related to the lengths of the legs in an isosceles right triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain why the length of each leg is 4 in this particular triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do we calculate the area of a triangle, and what are the measurements needed in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you show step-by-step how we can find the area of the triangle using the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is the given area of 8 square units consistent with the properties of the triangle? How can we confirm our result?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other methods or shortcuts that can be used to find the area of an isosceles right triangle?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

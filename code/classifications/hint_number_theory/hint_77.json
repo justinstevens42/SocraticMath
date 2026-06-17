@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_77",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 1",
+  "problem": "The integer $m$ is between $30$ and $80$ and is a multiple of $6$. When $m$ is divided by $8,$ the remainder is $2$. Similarly, when $m$ is divided by $5,$ the remainder is $2$. What is the value of $m$?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "b",
+    "f",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem statement asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the given conditions or constraints in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we use modular arithmetic to solve this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the Chinese Remainder Theorem and how can we apply it in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How do we use the fact that $m$ is between $30$ and $80$ to narrow down our choices for $m$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do we know that $m = 42$ satisfies all the congruences given in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "Can we generalize this method to solve similar problems involving congruences and modular arithmetic?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

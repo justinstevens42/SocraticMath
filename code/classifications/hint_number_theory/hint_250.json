@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_250",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem": "Add $1_3 + 12_3 + 212_3 + 2121_3.$ Express your answer in base 3.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step in adding numbers in base 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Are there any alternative methods to adding numbers in base 3 that you're aware of?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "If you choose to add using the method described, how do you determine the remainder and quotient for each column?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why can we add numbers in base 3 just like in base 10? What are the similarities and differences between the two processes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain the process of carrying over in base 3? How does it affect the sum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other number systems where similar addition methods are used? How would the process differ?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

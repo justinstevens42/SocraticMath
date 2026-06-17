@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_562",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem": "Find $\\frac{9}{10}+\\frac{5}{6}$. Express your answer as a fraction in simplest form.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "f",
+    "r",
+    "e",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the problem in your own words? What does it ask you to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we approach adding fractions with different denominators? Do you remember any rules or strategies?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the least common multiple (LCM) of 6 and 10? Why is finding the LCM important in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How did you convert $\\frac{9}{10}$ and $\\frac{5}{6}$ to have the same denominator of 30? Can you explain the process?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the significance of finding a common denominator? How does it allow us to add the fractions?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why we multiply the numerators and denominators by certain values when finding the common denominator?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How did you add $\\frac{27}{30}$ and $\\frac{25}{30}$? What steps did you follow?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Why did we simplify the resulting fraction $\\frac{52}{30}$? Can you find any common factors in the numerator and denominator?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What does it mean to express a fraction in simplest form? How did you simplify $\\frac{52}{30}$ to its simplest form $\\frac{26}{15}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any other similar problems involving fractions where you would use similar steps and thinking?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

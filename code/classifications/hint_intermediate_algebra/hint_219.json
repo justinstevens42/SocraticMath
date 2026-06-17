@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_219",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "The graph of the function $y=f(x)$ is shown below. For all $x > 4$, it is true that $f(x) > 0.4$. If $f(x) = \\frac{x^2}{Ax^2 + Bx + C}$, where $A,B,$ and $C$ are integers, then find $A+B+C$. [asy]\nimport graph; size(10.9cm); real lsf=0.5; pen dps=linewidth(0.7)+fontsize(10); defaultpen(dps); pen ds=black; real xmin=-5.29,xmax=5.61,ymin=-2.42,ymax=4.34;\n\nLabel laxis; laxis.p=fontsize(10);\n\nxaxis(\"$x$\",xmin,xmax,defaultpen+black,Ticks(laxis,Step=1.0,Size=2,NoZero),Arrows(6),above=true); yaxis(\"$y$\",ymin,ymax,defaultpen+black,Ticks(laxis,Step=1.0,Size=2,NoZero),Arrows(6),above=true); real f1(real x){return x^2/(2*x^2-2*x-12);} draw(graph(f1,xmin,-2.1),linewidth(1.2),Arrows(4)); draw(graph(f1,-1.84,2.67),linewidth(1.2),Arrows(4)); draw(graph(f1,3.24,xmax),linewidth(1.2),Arrows(4));\nlabel(\"$f$\",(-5.2,1),NE*lsf);\n\n// clip((xmin,ymin)--(xmin,ymax)--(xmax,ymax)--(xmax,ymin)--cycle);\ndraw((-2,-2.2)--(-2,4.2),dashed);\ndraw((3,-2.2)--(3,4.2),dashed);\ndraw((-5,1/2)--(5.5,1/2),dashed);\n[/asy]",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the behavior of the graph for $x > 4$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for a function to be greater than $0.4$ for $x > 4$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What can we infer about the asymptotes of the function based on the graph?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How does the degree of the numerator and denominator of $f$ affect the horizontal asymptote?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine the value of $A$ based on the graph and the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What can we conclude about the denominator of the function based on the value of $A$ and the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the value of $A+B+C$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

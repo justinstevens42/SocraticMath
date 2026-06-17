@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_432",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 1",
+  "problem": "Express the following sum as a common fraction: $$\\frac{1}{1\\cdot 2} + \\frac{1}{2\\cdot 3} + \\frac{1}{3\\cdot 4} + \\frac{1}{4\\cdot 5} + \\dots + \\frac{1}{9\\cdot 10}$$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what you notice about each term in the given sum?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can each term be written in a different form using fractions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What values of A and B do you think will make the equation $\\frac{1}{n (n+1)} = \\frac{A}{n} - \\frac{B}{n+1}$ true?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What will happen when you subtract $\\frac{1}{n+1}$ of each term from $\\frac{1}{n}$ of the next term?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can you simplify the expression after the terms cancel out?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why the final fraction obtained is equivalent to the given sum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

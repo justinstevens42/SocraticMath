@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_107",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem": "What is the smallest positive integer with exactly 10 positive integer divisors?",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you recall how to find the number of positive integer divisors of a given positive integer using prime factorization?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Based on the given information, what are the possible sets of exponents in the prime factorization of a positive integer with exactly 10 positive integer divisors?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the smallest positive integer with the set of exponents $\\{1,4\\}$ in its prime factorization?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the result when we multiply $2^4$ and $3^1$? How does it relate to the problem at hand?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Why do we assign the exponents in decreasing order to the primes?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What is the smallest positive integer with an exponent of 9 in its prime factorization?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we compare the values of $48$ and $512$ to determine the smallest positive integer with exactly 10 positive integer divisors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other similar problems where prime factorization and exponent assignments can be used to find the smallest positive integer?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

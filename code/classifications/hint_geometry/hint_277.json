@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_277",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "In the diagram below, points $A$, $B$, $C$, and $P$ are situated so that $PA=2$, $PB=3$, $PC=4$, and $BC=5$. What is the maximum possible area of $\\triangle ABC$? [asy]\ndefaultpen(linewidth(0.8)); size(150);\npair B = (0,0), C = (5,0), A = (2,3), P = (2.2,2);\ndraw(A--B--C--cycle^^B--P^^C--P^^A--P);\nlabel(\"$A$\",A,N); label(\"$B$\",B,S); label(\"$C$\",C,S); label(\"$P$\",P,S);\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the Pythagorean theorem, and how is it applicable in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do we know that $\\triangle PBC$ is a right triangle with right angle at $P$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain why $[\\triangle PBC]=\\frac{1}{2}(3)(4)$, and how this relates to the altitude $\\overline{PH}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do we find the altitude from $A$ to $\\overline{BC}$, and why is it necessary to maximize this height in order to maximize the area of $\\triangle ABC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we determine where to place point $A$ in order to achieve the maximum height and area?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "If we were given different side lengths for the triangle, would the same approach apply? What aspects of the problem would need to be reconsidered or modified?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

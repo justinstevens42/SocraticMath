@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_797",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem": "Find the domain of the function $f(x) = \\tan(\\arccos(x^2)).$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step in finding the domain of the function $f(x) = \\tan(\\arccos(x^2))$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "In order for $\\arccos(x^2)$ to be defined, what condition must be satisfied for $x$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What values does $\\arccos(x^2)$ give within its domain?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can we always take the tangent of any angle from $\\arccos(x^2)$? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "When does $\\arccos(x^2)$ equal $\\frac{\\pi}{2}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What values of $x$ should be excluded from the domain of $f(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

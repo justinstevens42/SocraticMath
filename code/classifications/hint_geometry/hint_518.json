@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_518",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem": "Compute $\\sin 240^\\circ$.",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the unit circle and how is it related to trigonometry?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the coordinates of point $P$ on the unit circle that is $240^\\circ$ counterclockwise from $(1,0)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How is the altitude from point $P$ to the $x$-axis helpful in determining the value of $\\sin 240^\\circ$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How do we know that triangle $POD$ is a 30-60-90 triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What are the lengths of the sides of triangle $POD$ and how are they related to the coordinates of point $P$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How do we use the lengths of the sides of triangle $POD$ to determine the value of $\\sin 240^\\circ$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other angles on the unit circle that can be used as examples to compute trigonometric functions using similar triangles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

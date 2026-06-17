@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_262",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem": "Let $x$ and $y$ be real numbers such that $\\frac{\\sin x}{\\sin y} = 3$ and $\\frac{\\cos x}{\\cos y} = \\frac12$. Find the value of\n\\[\\frac{\\sin 2x}{\\sin 2y} + \\frac{\\cos 2x}{\\cos 2y}.\\]",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the given equations and what is the expression we want to evaluate?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What trigonometric identity can we use to rewrite $\\sin 2x$ in terms of $\\sin x$ and $\\cos x$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the equation $\\frac{\\sin x}{\\sin y} = 3$ to eliminate $\\sin x$ in the expression we want to evaluate?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "In what form can we rewrite the expression $\\frac{\\sin 2x}{\\sin 2y}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the equation $\\frac{\\cos x}{\\cos y} = \\frac12$ to eliminate $\\cos x$ in the expression we want to evaluate?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What trigonometric identity can we use to rewrite $\\cos 2x$ in terms of $\\sin^2 x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we use the given equations to solve for $\\sin^2 x$ and $\\sin^2 y$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the value of $\\frac{\\cos 2x}{\\cos 2y}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the value of the expression we want to evaluate?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

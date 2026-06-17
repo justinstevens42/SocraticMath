@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_248",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem": "Find all the solutions to\n\\[\\frac{1}{x^2 + 11x - 8} + \\frac{1}{x^2 + 2x - 8} + \\frac{1}{x^2 - 13x - 8} = 0.\\]Enter all the solutions, separated by commas.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step you would take to solve this equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Are there any factors or patterns that you notice in the equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How did you decide to multiply the equation by $(y + 24x)(y + 15x)y$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain how you simplified the equation to $360x^2 + 78xy + 3y^2 = 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What are the possible conditions for $(20x + y) = 0$ and $(6x + y) = 0$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How did you use these conditions to find the solutions for $x$ in the original equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain how the solutions $8, 1, -1,$ and $-8$ are obtained after solving for $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

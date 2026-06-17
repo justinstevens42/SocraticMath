@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_358",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem": "Find the value of $x$ for which the matrix\n\\[\\begin{pmatrix} 1 + x & 7 \\\\ 3 - x & 8 \\end{pmatrix}\\]is not invertible.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "e",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain why a matrix is not invertible if its determinant is 0?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How would you calculate the determinant of the given matrix?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you simplify and solve the equation $(1 + x)(8) - (7)(3 - x) = 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What would be the consequence if the determinant were not equal to 0?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of any other instances where finding the determinant is important in linear algebra?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "How does the concept of invertible matrices relate to the existence of solutions in linear systems of equations?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

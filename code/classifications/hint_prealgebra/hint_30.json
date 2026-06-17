@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_30",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem": "There are four positive integers that are divisors of each number in the list $$36, 72, -12, 114, 96.$$Find the sum of these four positive integers.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step you would take to find the positive factors of each number in the list?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How would you determine if a given number is a factor of another number on the list?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Are there any numbers in the list that cannot be factors of the other numbers? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Based on the given list, which number(s) can be found as factors of each number? Can you explain why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "If we were to find the sum of the four positive integers that are divisors of each number in the list, which numbers would you choose? Why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other similar problems where finding common factors would be helpful? How would you approach those problems?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

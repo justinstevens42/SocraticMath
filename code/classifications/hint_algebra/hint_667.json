@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_667",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "Jose invested $\\$50,\\!000$ for $2$ years at an annual interest rate of $4$ percent compounded yearly. Patricia invested $\\$50,\\!000$ for the same period of time, at the same interest rate, but the interest was compounded quarterly. To the nearest dollar, how much more money did Patricia's investment earn than that of Jose?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the formula for calculating compound interest?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we calculate the interest earned by Jose's investment?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we calculate the interest earned by Patricia's investment?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How is the compounding frequency different between Jose and Patricia's investments?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we find the total amount of money earned by each investment after 2 years?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the difference between Patricia's total amount and Jose's total amount of money earned?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we round the difference to the nearest dollar?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

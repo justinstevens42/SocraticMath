@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_618",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "Let $x$ be a real number such that\n\\[x^2 + 4 \\left( \\frac{x}{x - 2} \\right)^2 = 45.\\]Find all possible values of $y = \\frac{(x - 2)^2 (x + 3)}{2x - 3}.$  Enter all possible values, separated by commas.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step to solve this equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Are there any different methods you know of to solve equations like this?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you choose to factorize, how would you find the appropriate factors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why can this equation be factorized? What characteristics make it suitable for this method?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What are the factors you found, and how do these factors validate your solutions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other types of equations where similar thinking and steps might be used in solving?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

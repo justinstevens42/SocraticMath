@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_578",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem": "The decimal representation of a fraction ends in $0.\\overline{3}$. When the decimal is changed to a common fraction and reduced to lowest terms, what is the denominator of the fraction?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what would be the first step in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "When working with repeating decimals, do you know any techniques or strategies we can use to convert them into common fractions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If we let S be equal to the repeating decimal 0.333..., how can we write 10S in terms of S?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Subtracting the equation 10S = 3.333... from the equation S = 0.333..., what do we get and why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What does the value of S represent in terms of a fraction? Can we simplify it further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "To find the denominator of the fraction, what would be the final answer based on the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

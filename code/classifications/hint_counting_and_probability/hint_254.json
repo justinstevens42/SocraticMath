@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_254",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem": "Ten 6-sided dice are rolled. What is the probability that exactly three of the dice show a 1? Express your answer as a decimal rounded to the nearest thousandth.",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you define probability in the context of this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the total number of possible outcomes when ten 6-sided dice are rolled?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many ways are there to choose exactly three dice to show a 1 out of ten dice?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why each selected dice showing a 1 has a probability of $\\left(\\dfrac{1}{6}\\right)^3$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why is the probability of the remaining seven dice not showing a 1 $\\left(\\dfrac{5}{6}\\right)^7$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are all the outcomes of the three selected dice and the remaining seven dice mutually exclusive?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How do we calculate the total probability of exactly three dice showing a 1 using the previously discussed probabilities and combinations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you simplify the expression $\\dfrac{120\\cdot5^7\\cdot1^3}{6^{10}}$ and round it to the nearest thousandth?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

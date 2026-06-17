@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_886",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "The sum of an infinite geometric series is $27$ times the series that results if the first three terms of the original series are removed. What is the value of the series' common ratio?",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what an infinite geometric series is, and how it differs from a finite geometric series?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How would you calculate the sum of an infinite geometric series?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the relationship between the sum of an infinite geometric series and the series that results when the first three terms are removed?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you write an equation that represents the given information about the sum of the series?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the equation you obtained? How would you solve it to find the common ratio?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any restrictions or conditions on the common ratio that you need to consider in order to find a valid solution?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain why the given equation allows us to find the common ratio of the series?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Have you considered any alternative approaches or methods that could be used to find the common ratio?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the value you obtained for the common ratio, and how can you verify that it satisfies the given condition?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any other scenarios or problems where a similar approach or line of thinking may be applicable?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

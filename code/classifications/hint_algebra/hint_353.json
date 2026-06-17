@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_353",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem": "Evaluate $\\log_{\\sqrt{6}} (216\\sqrt{6})$.",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of a logarithm?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you rewrite the given expression using a different base for the logarithm?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the relationship between the base and the exponent in a logarithmic expression?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we rewrite the given expression in exponential form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the value of $\\sqrt{6}^3$ and how does it relate to the given expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we rewrite the expression $216\\sqrt{6}$ using the base $\\sqrt{6}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you simplify the expression $\\frac{216}{\\sqrt{6}}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we rewrite the simplified expression in logarithmic form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the value of the logarithm with the simplified expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

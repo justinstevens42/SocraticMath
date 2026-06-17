@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_482",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "In triangle $ABC$, $AB = 7$, $AC = 15$, and the length of median $AM$ is 10.  Find the area of triangle $ABC$.",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What do you know about the lengths of the sides and the median in triangle ABC? How can you use this information to find the area?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for two triangles to be congruent? How can you use this congruence to find the area of triangle ABC?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why extending AM to D and creating congruent triangles helps in finding the area?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can you determine the semi-perimeter of triangle ACD?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How does Heron's formula help in finding the area of triangle ACD?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you calculate the area of triangle ACD using Heron's formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How does the area of triangle ACD relate to the area of triangle ABC?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

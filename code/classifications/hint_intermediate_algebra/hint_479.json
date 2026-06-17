@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_479",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "The equation \\[\\frac{x}{x+1} + \\frac{x}{x+2} = kx\\]has exactly two complex roots. Find all possible complex values for $k.$\n\nEnter all the possible values, separated by commas.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are some different methods you know that can be used to solve equations like this?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you choose to multiply both sides of the equation by $(x+1)(x+2)$, what happens to the equation? Why is this step helpful?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why the equation can be rewritten as $0 = kx^3 + (3k-2)x^2 + (2k-3)x$? What characteristic does this show about the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can you find the roots of the equation $0 = x(kx^2 + (3k-2)x + (2k-3))$? What values of $x$ satisfy this equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are the possible values of $k$ that make this equation have exactly two complex roots? How did you arrive at these values?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

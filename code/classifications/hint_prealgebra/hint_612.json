@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_612",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem": "What is the smallest positive perfect square that is divisible by both 2 and 3?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the steps you would take to find the smallest positive perfect square that is divisible by both 2 and 3?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How would you determine if a number is a perfect square?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What are the first few positive perfect squares?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How would you check if these perfect squares are divisible by both 2 and 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why can we strike off some of the perfect squares from our list?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How did you determine that 36 is divisible by 3? Can you explain your reasoning?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Is there any other approach you can think of to find the smallest perfect square divisible by both 2 and 3?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any similarities between this problem and the previous example of solving equations using the Socratic questioning method?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

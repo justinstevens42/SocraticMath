@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_650",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "One angle of a parallelogram is 120 degrees, and two consecutive sides have lengths of 8 inches and 15 inches. What is the area of the parallelogram? Express your answer in simplest radical form.",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a parallelogram and what are its defining properties?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the measure of each angle in a parallelogram and how do we find it if we are given the measure of one angle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How do we determine the length of the sides of a parallelogram and what information do we need in order to do so?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How do we find the area of a parallelogram and what formula do we use to do so?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Given that one angle of the parallelogram is 120 degrees and two consecutive sides have lengths of 8 inches and 15 inches, what is the measure of the other angle between the adjacent sides?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do we use the information about the length of the sides and the angles in order to find the area of the parallelogram?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the process for drawing the altitude from one corner of the parallelogram to the opposite side and how does it help us find the area?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we express the area of the parallelogram in simplest radical form and what does this tell us about the shape of the parallelogram?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

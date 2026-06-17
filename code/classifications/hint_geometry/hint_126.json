@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_126",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "Altitudes $\\overline{AP}$ and $\\overline{BQ}$ of an acute triangle $\\triangle ABC$ intersect at point $H$.  If $HP=5$ while $HQ=2$, then calculate $(BP)(PC)-(AQ)(QC)$. [asy]\nsize(150); defaultpen(linewidth(0.8));\npair B = (0,0), C = (3,0), A = (2,2), P = foot(A,B,C), Q = foot(B,A,C),H = intersectionpoint(B--Q,A--P);\ndraw(A--B--C--cycle);\ndraw(A--P^^B--Q);\nlabel(\"$A$\",A,N); label(\"$B$\",B,W); label(\"$C$\",C,E); label(\"$P$\",P,S); label(\"$Q$\",Q,E); label(\"$H$\",H,NW);\n[/asy]",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of altitude in a triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do we use similar triangles to solve this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain why we have $\\triangle BPH \\sim \\triangle APC$ and $\\triangle AQH \\sim \\triangle BQC$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What do the ratios $\\frac{BP}{5} = \\frac{AH+5}{PC}$ and $\\frac{AQ}{2} = \\frac{BH+2}{QC}$ represent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we find the value of $(BP)(PC) - (AQ)(QC)$ using these ratios?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do we apply the similarity of triangles to get $BH/5 = AH/2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final value of $(BP)(PC) - (AQ)(QC)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

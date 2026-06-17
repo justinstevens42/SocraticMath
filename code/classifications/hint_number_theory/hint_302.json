@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_302",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem": "For how many integers $n$ between 1 and 100 is the greatest common divisor of 15 and $n$ equal to 3?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the condition for the greatest common divisor of 15 and n to be equal to 3?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How do you know that n must be divisible by 3 but not divisible by 5 in order for gcd(15, n) to be equal to 3?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the greatest multiple of 3 that is less than or equal to 100?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How many multiples of 3 are there from 1 to 100?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many multiples of 15 are there from 1 to 100?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do you calculate the number of integers between 1 and 100 that satisfy gcd(15, n) = 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final answer to the problem and how is it obtained?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

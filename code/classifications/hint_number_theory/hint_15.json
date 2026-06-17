@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_15",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 1",
+  "problem": "Abigail, Beatrice, and Carson combine their eggs to sell them at the market. If Abigail has 37 eggs, Beatrice has 49 eggs, and Carson has 14 eggs, and if eggs can only be sold in cartons of 12, how many eggs will be left over if all cartons are sold?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total number of eggs that Abigail, Beatrice, and Carson have combined?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many eggs can be sold in one carton?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the remainder when the sum of the eggs is divided by 12?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the remainder when a number is divided by 12 using congruence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What are the congruences of each individual number mod 12?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How do we sum the congruences and divide by 12?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the sum of the congruences when we add up the congruences of 37, 49, and 14?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the remainder when the sum of the congruences is divided by 12?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How does the remainder relate to the number of eggs left over if all cartons are sold?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

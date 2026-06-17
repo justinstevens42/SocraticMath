@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_199",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "The complete graph of $y=f(x)$, which consists of five line segments, is shown in red below. (On this graph, the distance between grid lines is $1$.)\n\nWhat is the sum of the $x$-coordinates of all points where $f(x) = x+1$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the graph of the function $y=f(x)$ based on the given information?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the equations of the five line segments that make up the graph of $y=f(x)$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the $x$-coordinates of the points where $f(x) = x+1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Are there any restrictions on the values of $x$ for which $f(x) = x+1$? If so, what are they?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many points of intersection between the graph of $y=f(x)$ and the line $y=x+1$ are there?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we find the sum of the $x$-coordinates of all the points of intersection? If so, how?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_7",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem": "If $3p+4q=8$ and $4p+3q=13$, what is $q$ equal to?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step you would take to solve this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Are there any different methods that you know of for solving a system of equations like this one?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you choose to use substitution, how can you isolate one variable in one equation to substitute it into the other equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is it necessary to isolate a variable before substituting it into the other equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "After substituting the variable, what does the resulting equation look like and how would you solve it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other types of equations that might require similar thinking and steps to solve?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

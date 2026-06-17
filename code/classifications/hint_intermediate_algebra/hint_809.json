@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_809",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "Let $A = (1,0),$ $B = (4,3),$ and $C = (p,q)$ be three points on the parabola $y = -x^2 + 6x - 5,$ where $1 \\le p \\le 4.$  Find the largest possible area of triangle $ABC.$",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information in the problem? Can you summarize it briefly?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we represent the points A, B, and C on the coordinate plane?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What equation represents the parabola in the problem? Can you write it down?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "We know that point C lies on the parabola. How can we find the coordinates of point C?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the formula for the area of a triangle given its three vertices?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can we use the Shoelace Theorem to find the area of triangle ABC? How does it work?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "By substituting the coordinates of A, B, and C into the Shoelace Theorem, can you simplify the expression for the area?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we maximize the area of triangle ABC? What values of p should we consider?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can we rewrite the expression for the area in the most simplified form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the maximum area of triangle ABC? Can you calculate it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_283",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem": "A pet store has 15 puppies, 6 kittens, and 8 hamsters. Alice, Bob, and Charlie each want to buy a pet. For variety, they each want a different kind of pet. How many ways can Alice, Bob, and Charlie buy pets and leave the store satisfied?",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the different types of pets available at the store?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How many choices does Alice have for selecting a pet from the available options?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many choices does Bob have, considering that he cannot choose the same type of pet as Alice?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Similarly, how many choices does Charlie have for selecting a pet?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why we multiply the number of choices for each person to find the total number of ways they can select the pets?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "In this scenario, why do we ignore who gets which pet and focus only on the total number of ways they can buy pets?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Can you come up with any other constraints or scenarios where the calculation of total possible ways may differ?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

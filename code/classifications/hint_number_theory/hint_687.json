@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_687",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem": "What is the 200th term of the increasing sequence of positive integers formed by omitting only the perfect squares?",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "f",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of a perfect square?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How would you generate a sequence of positive integers that excludes perfect squares?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you identify any patterns or rules in this sequence?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can you determine the position of a specific number in the sequence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between the position of a number and its value in the sequence?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you find any shortcuts or formulas to determine the nth term directly without listing all the previous terms?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Is there a maximum or limit to how many perfect squares can be omitted before reaching a certain number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other sequences or series where similar principles might apply?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

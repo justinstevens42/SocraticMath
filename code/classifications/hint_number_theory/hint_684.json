@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_684",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem": "Alex is at the candy store buying jellybeans. He wants to buy at least 100 jellybeans. He wants to buy the least amount such that he would have exactly $11$ leftover after dividing the jellybeans evenly among $13$ people. How many jellybeans should Alex buy?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the minimum number of jellybeans that Alex wants to buy?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Why does Alex want to have a remainder of 11 after dividing by 13?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How did we determine that the remainder of 100 divided by 13 is 9?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean when we say Alex should buy \"2 more than 100\" jellybeans?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why the number of jellybeans Alex buys should be 102 based on the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other possible solutions for the number of jellybeans Alex should buy in order to satisfy the given conditions?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

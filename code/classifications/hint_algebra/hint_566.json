@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_566",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem": "What is the value of $y$ in the equation $\\frac{30}{50}=\\sqrt{\\frac{y}{50}}$?",
+  "n_questions": 9,
+  "labels": [
+    "b",
+    "r",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you simplify the equation and express it in a different form to make it easier to solve?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between the fraction $\\frac{30}{50}$ and the square root of $\\frac{y}{50}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can you eliminate the square root in the equation? Are there any properties or operations you can use?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What steps can you take to isolate the variable $y$ on one side of the equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you square both sides of the equation? What precautions should you take when doing so?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are the possible solutions for $y$, and how can you determine which, if any, are correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any restrictions or conditions on the value of $y$ based on the given equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any real-life situations or other mathematical problems where a similar approach can be applied?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "How would the solution change if the equation were modified? Can you generalize your approach to solve related equations?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

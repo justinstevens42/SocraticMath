@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_330",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem": "Compute $\\sin 6^\\circ \\sin 42^\\circ \\sin 66^\\circ \\sin 78^\\circ.$",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the product of $\\sin 6^\\circ$, $\\sin 42^\\circ$, $\\sin 66^\\circ$, and $\\sin 78^\\circ$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the trigonometric identities $\\sin 66^\\circ = \\cos 24^\\circ$ and $\\sin 78^\\circ = \\cos 12^\\circ$ to simplify the product?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the double-angle formula for $\\sin$, and how can we use it to simplify the fraction obtained in the previous step?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the final expression for the product in terms of trigonometric functions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we simplify the product further using the identities $\\sin 2A = 2 \\sin A \\cos A$ and $\\cos 2A = 1 - 2 \\sin^2 A$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we use any other trigonometric identities or formulas to simplify the product even further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we prove that the final expression simplifies to $\\frac{1}{16}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

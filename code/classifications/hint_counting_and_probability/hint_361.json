@@ -1,0 +1,89 @@
+{
+  "problem_id": "hint_361",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem": "Alice and Bob each arrive at a party at a random time between 1:00 and 2:00. If Alice arrives after Bob, what is the probability that Bob arrived before 1:30?",
+  "n_questions": 11,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what the problem is asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we represent the possible arrival times of Alice and Bob?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "If Alice arrives after Bob, what does that mean in terms of their respective arrival times?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why we can represent the possible arrival times as coordinates on a graph?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What does it mean for Bob to arrive before 1:30?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we represent the condition \"Bob arrived before 1:30\" on the graph?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What does it mean for Alice to arrive after Bob in terms of the graph?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "What does the shaded region represent in the context of the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we calculate the probability of Bob arriving before 1:30?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can we calculate the ratio of the area to the left of the line marking 1:30 to the area of the whole shaded region?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "Can you simplify the ratio of the areas to arrive at a probability?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

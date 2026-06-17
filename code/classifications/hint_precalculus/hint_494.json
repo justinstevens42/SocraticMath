@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_494",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem": "Find the value of $x$ between 0 and 180 such that\n\\[\\tan (120^\\circ - x^\\circ) = \\frac{\\sin 120^\\circ - \\sin x^\\circ}{\\cos 120^\\circ - \\cos x^\\circ}.\\]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the equation we are trying to solve? Can you explain it in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we simplify the equation using trigonometric identities?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What does the sum-to-product formula allow us to do with the terms sin 120° and sin x°?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we simplify the expression using the sum-to-product formula for sin 120° - sin x°?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does the sum-to-product formula help us simplify the expression for cos 120° - cos x°?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we rewrite the original equation using the simplified expressions for sin 120° - sin x° and cos 120° - cos x°?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What trigonometric identity can we use to rewrite tan (120° - x°) in terms of cot ((120° + x°) / 2)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we use the identity from question 7 to rewrite tan (120° - x°) as an expression involving the tangent function of a different angle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What equation do we get when we equate the expressions for tan (120° - x°) and tan ((x° - 60°) / 2)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can we solve the equation from question 9 to find the possible values of x?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

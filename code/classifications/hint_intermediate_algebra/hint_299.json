@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_299",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem": "When $p(x) = Ax^5 + Bx^3 + Cx + 4$ is divided by $x - 3,$ the remainder is 11.  Find the remainder when $p(x)$ is divided by $x + 3.$",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "f",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the Remainder Theorem and how is it useful in finding remainders when dividing polynomials?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does the fact that the remainder is 11 when $p(x)$ is divided by $x-3$ help us in solving this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the importance of finding $p(3)$ in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the information $p(3)=11$ to help us find the values of $A$, $B$ and $C$ in the polynomial $p(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why do we evaluate $p(-3)$ when trying to find the remainder of $p(x)$ when divided by $x+3$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the significance of the signs of the coefficients in the polynomial $p(x)$ when finding the remainder of $p(x)$ when divided by $x+3$?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

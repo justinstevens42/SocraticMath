@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_682",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem": "Let $\\mathbf{a},$ $\\mathbf{b},$ $\\mathbf{c}$ be vectors such that $\\|\\mathbf{a}\\| = \\|\\mathbf{b}\\| = 1,$ $\\|\\mathbf{c}\\| = 2,$ and\n\\[\\mathbf{a} \\times (\\mathbf{a} \\times \\mathbf{c}) + \\mathbf{b} = \\mathbf{0}.\\]Find the smallest possible angle between $\\mathbf{a}$ and $\\mathbf{c},$ in degrees.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given problem in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the key pieces of information given in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we express the vector triple product formula for $\\mathbf{u} \\times (\\mathbf{v} \\times \\mathbf{w})$ in terms of dot products?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the vector triple product formula to rewrite the given equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What can we say about the magnitude of $(\\mathbf{a} \\cdot \\mathbf{c}) \\mathbf{a} - \\mathbf{c}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we find the possible values of $\\mathbf{a} \\cdot \\mathbf{c}$ from the equation we derived?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How does the angle between $\\mathbf{a}$ and $\\mathbf{c}$ relate to the dot product $\\mathbf{a} \\cdot \\mathbf{c}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "What is the equation we can set up using the dot product to find the smallest possible angle between $\\mathbf{a}$ and $\\mathbf{c}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What are the possible values of $\\cos \\theta$ and what do they represent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can we determine the smallest possible angle between $\\mathbf{a}$ and $\\mathbf{c}$ from the equation $\\cos \\theta = \\pm \\frac{\\sqrt{3}}{2}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_424",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem": "Let $x,$ $y,$ and $z$ be real numbers such that\n\\[x^3 + y^3 + z^3 - 3xyz = 1.\\]Find the minimum value of $x^2 + y^2 + z^2.$",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "b",
+    "r",
+    "b",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you show the factorization of $x^3 + y^3 + z^3 - 3xyz$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the factorization to express $x^2+y^2+z^2$ in terms of $x+y+z$ and $xy+yz+zx$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the relationship between $x^2+y^2+z^2$ and $xy+yz+zx$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you derive the inequality $x^2+y^2+z^2 \\geq xy+yz+zx$ using the Trivial Inequality?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the condition for $A$ in terms of $x+y+z$, and why must this condition hold in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "How can we express $B$ in terms of $A$, and what is the minimum value of $B$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the minimum value of $x^2+y^2+z^2$, and when does equality occur?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

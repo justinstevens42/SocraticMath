@@ -1,0 +1,89 @@
+{
+  "problem_id": "hint_201",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem": "A fair coin is flipped 7 times.  What is the probability that at least 5 of the flips come up heads?",
+  "n_questions": 11,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain why we need to count the total number of outcomes before discussing the probability of at least 5 heads?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many possibilities are there for each individual coin toss?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How did we determine that the 7 coin tosses have $2^7 = 128$ possible outcomes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "In case 1, why do we choose 5 of the 7 tosses to be heads?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How did we calculate $\\binom{7}{5}$ to be 21?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why in case 2, we have to choose 6 of the tosses to be heads?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you determine how many successful outcomes there are in case 2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Why is there only 1 way to achieve case 3 with 7 heads?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Could you provide an alternative method for calculating the total number of successful outcomes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you explain how we calculated the final probability to be $\\frac{29}{128}$ in this scenario?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "Can you think of any other scenarios where casework may be required when calculating probabilities?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

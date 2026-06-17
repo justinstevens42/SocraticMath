@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_753",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "The four zeros of the polynomial $x^4 + jx^2 + kx + 225$ are distinct real numbers in arithmetic progression.  Compute the value of $j.$",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given polynomial and what do we need to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Let the four roots of the polynomial be in arithmetic progression. Can you express the roots using the variable $a$ and the common difference $d$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "According to Vieta's formulas, what is the relationship between the sum of the roots and the coefficients of the polynomial?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Use the relationship in step 3 to form an equation involving $a$ and $d$. Solve this equation to find the value of $d$ in terms of $a$.",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Substituting the expression for $d$ back into the expression for the roots, what are the four roots in terms of $a$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "The product of the roots is equal to the constant term divided by the leading coefficient. Can you set up an equation using this information and solve for $a$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Now that we know the value of $a$, what are the four distinct roots of the polynomial?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you express the polynomial using these roots?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the value of $j$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

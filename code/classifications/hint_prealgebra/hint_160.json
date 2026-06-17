@@ -1,0 +1,47 @@
+{
+  "problem_id": "hint_160",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem": "What is $\\left(\\dfrac{9819156364}{-24635745744574}\\right)^0$?",
+  "n_questions": 5,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the meaning of the phrase \"raised to the zeroth power\"?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the numerator in the given expression? What about the denominator?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the result of dividing the numerator by the denominator?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How does the property of any nonzero number raised to the zeroth power being 1 apply in this situation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of any other examples where the rule of any nonzero number raised to the zeroth power being 1 could be utilized?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

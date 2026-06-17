@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_468",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem": "Find the smallest positive four-digit number that is divisible by each of the four smallest prime numbers.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "e",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the meaning of \"lcm\" and how is it calculated for a given set of numbers?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Why do we need to find the LCM of the smallest four prime numbers in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you think of any other scenarios where finding the LCM would be useful?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 4,
+      "question": "How did you determine the smallest value of n that satisfies the inequality 210n ≥ 1000?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there any other methods you could use to find the smallest multiple of 210 with four digits?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Can you generalize this problem to finding the smallest positive integer that is divisible by a given set of numbers?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

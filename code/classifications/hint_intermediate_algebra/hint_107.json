@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_107",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "If $a,b,c>0$, find the smallest possible value of\n\\[\\left\\lfloor{\\frac{a+b}{c}}\\right\\rfloor+\\left\\lfloor{\\frac{b+c}{a}}\\right\\rfloor+\\left\\lfloor{\\frac{c+a}{b}}\\right\\rfloor.\\](Note that $\\lfloor{x}\\rfloor$ denotes the greatest integer less than or equal to $x$.)",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given problem asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the floor function and how does it affect the values of the fractions in the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can we simplify the expression before finding the minimum value? If so, how?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How does the inequality involving the floor function help us in finding the minimum value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does the AM-GM inequality come into play in the solution?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we find examples of other problems where using the AM-GM inequality could be helpful in finding a minimum or maximum value?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Why is the minimum value of 4 attainable by setting $(a,b,c)=(6,8,9)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

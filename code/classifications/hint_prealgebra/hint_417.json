@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_417",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem": "How many whole numbers lie in the interval between $\\frac{5}{3}$ and $2\\pi$ ?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "e",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the interval in which we are looking for whole numbers?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you determine the smallest whole number in the interval? How?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the largest whole number in the interval?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the significance of the number $\\frac{5}{3}$ in relation to whole numbers?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "How does the number $2\\pi$ fit into the interval?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many whole numbers are there between the smallest and largest whole numbers in the interval?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you list all the whole numbers that lie in the given interval?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any other types of numbers in the interval that are not whole numbers?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any strategies or techniques that could be applied to similar problems involving intervals and whole numbers?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

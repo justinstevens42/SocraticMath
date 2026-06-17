@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_164",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem": "There exist constants $a$ and $b$ so that\n\\[\\cos^3 \\theta = a \\cos 3 \\theta  + b \\cos \\theta\\]for all angles $\\theta.$  Enter the ordered pair $(a,b).$",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given equation and what are we trying to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the triple angle formulas to simplify the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain how the expression for $\\cos^3 \\theta$ is derived using the triple angle formula?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Why do we have fractions and what do they represent in the simplified equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did we determine the coefficients for $a$ and $b$ in the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you provide a proof or explanation as to why the equation holds true for all values of $\\theta$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any alternative methods or formulas that can be used to solve similar equations involving trigonometric functions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other equations where the same thinking process and steps could be applied?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "How can this understanding of the cosine function be applied to practical problems or real-life situations?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

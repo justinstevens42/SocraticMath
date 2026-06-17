@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_424",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem": "How many three digit numbers are left if we exclude all three digit numbers in which there are exactly two digits the same, but these two digits are not adjacent?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "e",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what it means for two digits to be \"adjacent\" in a three-digit number?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How would you determine if a three-digit number has exactly two digits the same but not adjacent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you list some examples of three-digit numbers where exactly two digits are the same but not adjacent?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you think of any patterns or relationships among these examples?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "Why are numbers of the form $ABA$ ruled out? What makes them invalid?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many choices are there for the first digit A? And for the second digit B? Why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the total number of three-digit numbers? Can you explain how you arrived at this number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How many of these three-digit numbers are not valid based on the given conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we find the count of valid numbers using the numbers of total numbers and invalid numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the final count of three-digit numbers that satisfy the given conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

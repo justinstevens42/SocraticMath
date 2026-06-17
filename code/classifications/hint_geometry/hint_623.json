@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_623",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "Points $A$ and $B$ are selected on the graph of $y = -\\frac{1}{2}x^2$ so that triangle $ABO$ is equilateral. Find the length of one side of triangle $ABO$. [asy]\nsize(150);\ndraw( (-4, -8) -- (-3.4641, -6)-- (-3, -9/2)-- (-5/2, -25/8)-- (-2,-2)-- (-3/2, -9/8) -- (-1, -1/2) -- (-3/4, -9/32) -- (-1/2, -1/8) -- (-1/4, -1/32) -- (0,0) -- (1/4, -1/32) -- (1/2, -1/8) -- (3/4, -9/32) -- (1, -1/2) -- (3/2, -9/8)-- (2,-2)-- (5/2, -25/8)--(3, -9/2)-- (3.4641, -6) -- (4, -8) , Arrows);\ndraw( (-3.4641, -6) -- (0,0) -- (3.4641, -6)--cycle);\n\ndot((-3.4641, -6)); dot((0,0)); dot((3.4641, -6));\nlabel(\"$B$\", (-3.4641, -6), NW); label(\"$A$\", (3.4641, -6), NE);\nlabel(\"$O$\", (0,0), NW);\ndraw( (-6,0) -- (6,0), EndArrow);\nlabel(\"$y$\", (0,5), N); label(\"$x$\", (6,0), E);\ndraw( (0,-7) -- (0,5), EndArrow);\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What can you tell me about the relationship between the coordinates of point A and the equation y = -1/2x^2?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the concept of special right triangles to find the coordinates of point C?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we set up an equation using the coordinates of point A and point C?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the solution to the equation and how does it help us find the length of one side of triangle ABO?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other ways to approach this problem using geometry concepts?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_754",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem": "Complex numbers $a,$ $b,$ $c$ form an equilateral triangle with side length 18 in the complex plane.  If $|a + b + c| = 36,$ find $|ab + ac + bc|.$",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of complex numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you describe how complex numbers are represented in the complex plane?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How do we define the length (magnitude) of a complex number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do we plot an equilateral triangle in the complex plane?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Given complex numbers $a$ and $b$ in the plane, how many complex numbers $c$ can be chosen so that $a,$ $b,$ and $c$ form an equilateral triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you write an equation that captures the relationship between $a,$ $b,$ and either of the possible $c$ complex numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How does the equation simplify to give the relationship between the sums of squares $a^2+b^2+c^2$ and $ab+ac+bc$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we use this simplification to find the value of $|ab+ac+bc|$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we apply this method to find sums of the products between three complex numbers forming a different shape in the plane (e.g. a square)?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

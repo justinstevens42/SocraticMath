@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_976",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "Find all positive values of $c$ so that the inequality $x^2-6x+c<0$ has real solutions for $x$. Express your answer in interval notation.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you begin solving this inequality, given that it involves a quadratic function?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the conditions for a quadratic inequality to have real solutions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the discriminant of a quadratic expression and how does it relate to the nature of its solutions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "In this inequality, how does the discriminant affect the existence of real solutions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you express the range of values for $c$ in terms of the discriminant to ensure that the inequality has real solutions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the interval notation for the range of values you found?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

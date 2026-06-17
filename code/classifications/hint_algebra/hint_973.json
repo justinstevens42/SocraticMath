@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_973",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "If $x$ is a positive number such that \\[\\sqrt{8x}\\cdot\\sqrt{10x}\\cdot\\sqrt{3x}\\cdot\\sqrt{15x}=15,\\]find all possible values for $x$.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step you would take in solving this equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain why we need to find the square root of each term on both sides of the equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we simplify the left-hand side of the equation after taking the square root of each term?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why does taking the square root of a product result in each term being individually square rooted?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What does the equation look like after simplifying the left-hand side using the properties of square roots?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we solve the simplified equation to find the possible values of x?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any restrictions on the possible values of x, considering that it is a positive number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you explain why each of the possible values for x satisfies the given equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other types of equations where a similar approach of simplifying and solving using square roots could be applied?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "In what other mathematical situations might the concept of square roots be important?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

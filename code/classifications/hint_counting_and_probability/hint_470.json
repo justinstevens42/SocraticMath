@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_470",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem": "Max picks two different cards without replacement from a standard 52-card deck. What is the probability that the cards are of different suits?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total number of possible pairs of cards that Max can choose without replacement from a standard 52-card deck?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many suits are there in a standard 52-card deck?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "If Max chooses a card from one suit as the first card, how many cards from the same suit are left in the deck?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many cards from the other three suits are left in the deck after Max chooses the first card?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the probability of choosing a card of a different suit as the second card, given that the first card is already chosen?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How did you determine the numerator and denominator in the probability calculation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you simplify the fraction representing the probability of choosing cards of different suits?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Is it possible for Max to choose two cards of the same suit? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other scenario where the probability of choosing items of different categories can be calculated in a similar way?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

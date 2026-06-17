@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_397",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem": "Let $a$, $b$, $c$ be the three sides of a triangle, and let $\\alpha$, $\\beta$, $\\gamma$ be the angles opposite them. If $a^2+b^2=1989c^2$, find the value of\n\\[\\frac{\\cot \\gamma}{\\cot \\alpha+\\cot \\beta}.\\]",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can we use the Law of Sines and Law of Cosines to relate the sides and angles of the triangle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we simplify the expression $\\frac{\\cot \\gamma}{\\cot \\alpha + \\cot \\beta}$ using trigonometric identities?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How does the equation $a^2 + b^2 = 1989c^2$ help us find the value of the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can we use the Law of Cosines to solve for $a$, $b$, and $c$ in terms of $\\alpha$, $\\beta$, and $\\gamma$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we substitute the values we found for $a$, $b$, and $c$ into the expression to find the value of the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other trigonometric identities or theorems that might be useful in solving this problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

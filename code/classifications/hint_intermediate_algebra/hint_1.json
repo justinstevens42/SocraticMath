@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_1",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "Shown below are rows 1, 2, and 3 of Pascal's triangle.\n\n\\[\n\\begin{array}{ccccccc}\n& & 1 & & 1 & & \\\\\n& 1 & & 2 & & 1 & \\\\\n1 & & 3 & & 3 & & 1\n\\end{array}\n\\]Let $(a_i),$ $(b_i),$ $(c_i)$ be the sequence, from left to right, of elements in the 2005th, 2006th, and 2007th rows, respectively, with the leftmost element occurring at $i = 0.$  Compute\n\\[\\sum_{i = 0}^{2006} \\frac{b_i}{c_i} - \\sum_{i = 0}^{2005} \\frac{a_i}{b_i}.\\]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How are the elements in rows 2005, 2006, and 2007 of Pascal's triangle represented as sequences $(a_i),$ $(b_i),$ $(c_i)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the specific formulas for $a_i,$ $b_i,$ and $c_i$ in terms of $n$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you simplify $\\frac{a_i}{b_i}$ and express it in terms of $n$ and $i$? What does this expression represent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the formula for $\\sum_{i=0}^{n-1} \\frac{a_i}{b_i}$ in terms of $n$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you simplify $\\frac{b_i}{c_i}$ and express it in terms of $n$ and $i$? What does this expression represent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the formula for $\\sum_{i=0}^{n} \\frac{b_i}{c_i}$ in terms of $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the value of $\\sum_{i=0}^{n} \\frac{b_i}{c_i} - \\sum_{i=0}^{n-1} \\frac{a_i}{b_i}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you substitute $n=2006$ into the formula derived in question 6 to compute $\\sum_{i=0}^{2006} \\frac{b_i}{c_i}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you substitute $n=2005$ into the formula derived in question 4 to compute $\\sum_{i=0}^{2005} \\frac{a_i}{b_i}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the final value of $\\sum_{i=0}^{2006} \\frac{b_i}{c_i} - \\sum_{i=0}^{2005} \\frac{a_i}{b_i}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

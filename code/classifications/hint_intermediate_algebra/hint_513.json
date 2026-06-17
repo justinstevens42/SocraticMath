@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_513",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "Let $r$, $s$, and $t$ be the three roots of the equation $$\n8x^3 + 1001x + 2008 = 0.\n$$Find $(r + s)^3 + (s + t)^3 + (t + r)^3.$",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in finding the value of $(r + s)^3 + (s + t)^3 + (t + r)^3$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How does Vieta's formulas relate to finding the sum of the roots of a cubic equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the sum of the three roots in this equation? Can you simplify it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we express $(r + s)^3 + (s + t)^3 + (t + r)^3$ in terms of the roots $r$, $s$, and $t$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What do we know about the relationship between each root and the given equation? How can that information help us simplify $(r + s)^3 + (s + t)^3 + (t + r)^3$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the expression $r^3 = -\\frac{1001}{8}r-251$ to arrive at a simplified form of $(r + s)^3 + (s + t)^3 + (t + r)^3$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final answer to the problem, and how can we interpret it in the context of the given equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

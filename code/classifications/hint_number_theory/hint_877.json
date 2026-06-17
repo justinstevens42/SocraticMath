@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_877",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem": "How many positive divisors do 8400 and 7560 have in common?",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the greatest common divisor (GCD) is and its significance in finding common divisors?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What do you understand by the phrase \"positive divisors\"?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Based on the prime factorization of 7560 and 8400, can you determine their GCD?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many different prime factors are there in the prime factorization of the GCD?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many possible combinations of these prime factors can you form to find the divisors of the GCD?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "For each combination, can you explain how to calculate the corresponding divisor?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How many possible divisors exist for each prime factor combination? Can you explain why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you list all the divisors of the GCD?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can you determine which of these divisors are common divisors of 7560 and 8400?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you calculate the number of positive divisors these numbers have in common based on our findings?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

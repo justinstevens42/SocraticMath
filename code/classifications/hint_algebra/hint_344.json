@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_344",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem": "Find the value of $k$ for which $kx^2 -5x-12 = 0$ has solutions $x=3$ and $ x = -\\frac{4}{3}$.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "e",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step you would take to solve the given equation $kx^2 - 5x - 12 = 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How would you determine the value of $k$ based on the given solutions $x = 3$ and $x = -\\frac{4}{3}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain the significance of the quadratic equation having these specific solutions in terms of the factors or roots of the equation?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 4,
+      "question": "What would be the result if you substitute $x = 3$ and $x = -\\frac{4}{3}$ into the equation $kx^2 - 5x - 12 = 0$? Does it satisfy the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Based on the provided solutions, can you determine any relationship between $k$ and the coefficients of the quadratic equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other possible values of $k$ that can satisfy the equation? If so, what would be the corresponding solutions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

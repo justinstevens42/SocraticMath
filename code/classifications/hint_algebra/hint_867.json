@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_867",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem": "What is the area enclosed by the region defined by the equation $x^2+y^2+10x+24y=0$?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what the first step would be in finding the area enclosed by the region defined by the equation $x^2+y^2+10x+24y=0$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How would you approach solving this equation to find the region's boundaries?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Are there any noticeable patterns or characteristics of the equation that could help you determine the shape of the enclosed region?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What are the steps involved in converting the given equation into a format that is easier to work with for determining the region's boundaries?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Once the equation is in a suitable format, how would you proceed to find the coordinates of the points defining the boundaries of the region?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How would you use these coordinates to calculate the area enclosed by the region?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other equations or mathematical concepts that could parallel the thought process and steps used in determining the area enclosed by this region?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "How could critical thinking be applied to double-check the accuracy of the calculated area?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How might you approach finding the area if the equation was in a different form or included additional variables?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

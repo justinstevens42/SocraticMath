@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_631",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem": "In tetrahedron $ABCD,$\n\\[\\angle ADB = \\angle ADC = \\angle BDC = 90^\\circ.\\]Also, $x = \\sin \\angle CAD$ and $y = \\sin \\angle CBD.$  Express $\\cos \\angle ACB$ in terms of $x$ and $y.$",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "r",
+    "r",
+    "b",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given information and what we need to find in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Do you notice any relationship between the given angles and the variables x and y?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we express the cosine of angle ACB in terms of the lengths of sides AC, BC, and AB?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the Pythagorean theorem to relate the lengths of sides AD, BD, and AB?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can we use the Pythagorean theorem again to relate the lengths of sides AC, CD, and AD?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can we use the Pythagorean theorem one more time to relate the lengths of sides BC, CD, and BD?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can the expression (AC^2 - AD^2) + (BC^2 - BD^2) simplify to 2 * CD^2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What relationship can we observe between the expressions (CD / AC) and x, and (CD / BC) and y?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 9,
+      "question": "How can we rewrite the expression (CD / AC) * (CD / BC) as a product of the given variables x and y?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you now express the cosine of angle ACB solely in terms of x and y?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

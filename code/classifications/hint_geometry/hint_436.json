@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_436",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 1",
+  "problem": "Triangle $ABC$ is isosceles with angle $A$ congruent to angle $B$. The measure of angle $C$ is 30 degrees more than the measure of angle $A$. What is the number of degrees in the measure of angle $C$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How does the fact that triangle ABC is isosceles with angle A congruent to angle B affect the measure of angle C?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we express the measure of angle A in terms of x? And how does that relate to the measure of angle B?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What relationship can we establish between the measures of angles A, B, and C using the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What equation can we set up to find the value of x? And how can we solve it to find the measure of angle C?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other relationships or properties in geometry that can help us find the measure of angle C in similar problems?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

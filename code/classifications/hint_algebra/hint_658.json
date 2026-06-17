@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_658",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem": "If $x$, $y$, and $z$ are positive with $xy=24$, $xz = 48$, and $yz=72$, what is the value of $x+y+z$?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "e",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "f"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what the first step should be in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "In solving equations with multiple variables, what strategies or methods can you think of using?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 3,
+      "question": "If you were to eliminate a variable in this problem, which equation would you choose and why?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the relationship between the three given equations? How can you use this relationship to simplify the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Once you have eliminated one variable, what can you do next to solve for the remaining variables?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can the given equations be rearranged or combined in order to find the values of $x$, $y$, and $z$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the value of $x+y+z$ and how does it relate to the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "If you were given different values for $xy$, $xz$, and $yz$, how would that affect the steps you take to find $x+y+z$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any real-life scenarios where solving equations with multiple variables and using similar reasoning would be useful?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "How would you check the correctness of your solution for $x+y+z$ in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    }
+  ]
+}

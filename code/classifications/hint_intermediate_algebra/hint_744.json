@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_744",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "For an arithmetic sequence $a_1,$ $a_2,$ $a_3,$ $\\dots,$ let\n\\[S_n = a_1 + a_2 + a_3 + \\dots + a_n,\\]and let\n\\[T_n = S_1 + S_2 + S_3 + \\dots + S_n.\\]If you are told the value of $S_{2019},$ then you can uniquely determine the value of $T_n$ for some integer $n.$  What is this integer $n$?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given arithmetic sequence and what do the terms represent?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we express the sum of the first $n$ terms of the sequence, $S_n$, in terms of the first term, $a$, and the common difference, $d$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we express the sum of the first $n$ partial sums, $T_n$, in terms of $a$ and $d$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Given the value of $S_{2019}$, how can we determine the value of $T_n$ for some integer $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Using the formulas we derived for $S_n$ and $T_n$, how can we express $S_{2019}$ in terms of $a$, $d$, and $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the given value of $S_{2019}$ to determine the value of $T_n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the relationship between $3(a + 1009d)$ and the value of $T_n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we use this relationship to determine the value of $T_n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

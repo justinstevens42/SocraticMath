@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_81",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem": "A polynomial with integer coefficients is of the form\n\\[x^3 + a_2 x^2 + a_1 x - 11 = 0.\\]Enter all the possible integer roots of this polynomial, separated by commas.",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "r",
+    "b",
+    "r",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the Integer Root Theorem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the possible integer roots of a polynomial with integer coefficients using the Integer Root Theorem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What are the divisors of 11?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Why do we include negative divisors when determining the possible integer roots using the Integer Root Theorem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How do we use the possible integer roots to solve the polynomial equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we use the Integer Root Theorem for polynomials with coefficients that are not integers? Why or why not?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Are there any limitations to using the Integer Root Theorem to determine the possible integer roots of a polynomial equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

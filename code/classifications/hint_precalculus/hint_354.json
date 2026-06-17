@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_354",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem": "Let $\\mathbf{A} = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$ and $\\mathbf{B} = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$ be two matrices such that $\\mathbf{A} \\mathbf{B} = \\mathbf{B} \\mathbf{A}.$  Assuming $3b \\neq c,$ find $\\frac{a - d}{c - 3b}.$",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What property or condition is given about the matrices A and B that allows us to equate their product in two different orders?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "By expanding the product of matrices, what equation(s) can we derive by comparing the corresponding entries?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What specific equations can we obtain by comparing the entries in the first row?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What specific equations can we obtain by comparing the entries in the second row?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Which equation(s) can we use to relate the variables a, b, c, and d?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What restriction(s) or condition(s) must be satisfied in order for the given equations to hold true?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we solve the system of equations to obtain the relationship between a, b, c, and d?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the value of (a - d)/(c - 3b) when the previous conditions are satisfied?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any other situations or problems where a similar approach can be applied to solve equations involving matrices and variables?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

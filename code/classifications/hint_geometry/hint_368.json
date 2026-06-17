@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_368",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem": "A circular spinner for a game has a radius of 5 cm. The probability of winning on one spin of this spinner is $\\frac{2}{5}$. What is the area, in sq cm, of the WIN sector? Express your answer in terms of $\\pi$.\n\n[asy]import graph;\ndraw(Circle((0,0),25),black);\ndraw((0,0)--(7,18),Arrow);\ndraw((0,0)--(0,25));\ndraw((0,0)--(15,-20));\nlabel(\"WIN\",(10,10),S);\nlabel(\"LOSE\",(-8,-8),N);\ndot((0,0));\n[/asy]",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of probability and how is it related to the area of a section of a circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain why the probability of winning on one spin of the spinner is $\\frac{2}{5}$? What assumptions or calculations did you make to arrive at this answer?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the formula for finding the area of a sector of a circle? How is it related to the central angle of the sector?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the given information about the spinner's radius and the probability of winning to find the area of the WIN sector?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the equation that relates the area of the win sector to the area of the entire circle and the probability of winning? How can we use this equation to find the area of the win sector?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can the same method be used to find the area of the LOSE sector? If not, why not? If so, what changes need to be made to the equations and calculations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How does changing the radius of the spinner affect the area of the win sector? Can you derive a formula or equation to represent this relationship?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What other applications of probability involve circular objects or sectors? Can you think of any real-world examples where knowledge of circle sectors and probability would be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

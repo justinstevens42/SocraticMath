@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_758",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "Given that\n\n\\begin{align*}\n\\frac{1}{x}+\\frac{1}{y}&=3,\\\\\nxy+x+y&=4,\n\\end{align*}\n\ncompute $x^2y+xy^2$.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you identify any patterns or relationships between the given equations?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What do you think would be the most effective way to solve this system of equations? Why?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "If we were to find the value of $x^2y+xy^2$, what steps would you take to approach this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the given equations to simplify or manipulate $x^2y+xy^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Is there a way to express $x^2y+xy^2$ in terms of the given equations or the variables $x$ and $y$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you find a connection between the expressions $x^2y+xy^2$ and $(xy)(x+y)$? How can this help us simplify the problem further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other equations or relationships that could be helpful in solving for $x$ and $y$ simultaneously?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "How can we use the given conditions to eliminate one variable from the equations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Once we have the values of $x$ and $y$, how can we find the value of $x^2y+xy^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any other scenarios or problems where a similar approach or line of thinking could be applied?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_282",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem": "Let $x$ and $y$ be nonzero real numbers. Let $m$ and $M$ be the minimium value and maximum value of\n\\[\\frac{|x + y|}{|x| + |y|},\\]respectively.  Find $M - m.$",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "r",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the minimum and maximum possible values of $\\frac{|x + y|}{|x| + |y|}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What happens when $x$ and $y$ have the same sign? Can you find the corresponding value of $\\frac{|x + y|}{|x| + |y|}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you prove that the minimum value is indeed 0? Similarly, can you prove that the maximum value is indeed 1?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How does the Triangle Inequality come into play in determining the maximum value of $\\frac{|x + y|}{|x| + |y|}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of any other geometric or algebraic interpretation of $\\frac{|x + y|}{|x| + |y|}$ that helps us understand its minimum and maximum values?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Are there any applications of this concept in real-life scenarios? How can understanding this concept be beneficial in problem-solving?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_360",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem": "A number $x$ is equal to $7\\cdot24\\cdot48$. What is the smallest positive integer $y$ such that the product $xy$ is a perfect cube?",
+  "n_questions": 9,
+  "labels": [
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the value of $x$ in the given problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the prime factorization of $7\\cdot24\\cdot48$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What does a number need to be in order to be a perfect cube?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the next multiple of $3$ after the exponent of $2$ in the prime factorization of $7\\cdot24\\cdot48$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What additional exponent is needed for the factor of $3$ in the prime factorization to make it a perfect cube?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What additional exponent is needed for the factor of $7$ in the prime factorization to make it a perfect cube?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the smallest number that meets the requirements for $y$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can you check that the product of $x$ and $y$ is a perfect cube?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other similar problems that could use these same steps to find the smallest number to make the product a perfect cube?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

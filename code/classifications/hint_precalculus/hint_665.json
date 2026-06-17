@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_665",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem": "A line passes through $(2,2,1)$ and $(5,1,-2).$  A point on this line has an $x$-coordinate of 4.  Find the $z$-coordinate of the point.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the direction vector of the line passing through (2,2,1) and (5,1,-2)?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we parameterize the line using the given direction vector and initial point?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If we want to find a point on the line with an x-coordinate of 4, how can we set up an equation to solve for the parameter, t?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the solution for the parameter, t, in the equation 2 + 3t = 4?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the parameter, t, to find the corresponding z-coordinate of the point on the line?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the z-coordinate of the point on the line when the x-coordinate is 4?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

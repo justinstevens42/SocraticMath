@@ -1,0 +1,89 @@
+{
+  "problem_id": "hint_810",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "Find all real numbers $a$ such that the roots of the polynomial\n$$x^3 - 6x^2 + 21x + a$$form an arithmetic progression and are not all real.",
+  "n_questions": 11,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the concept of arithmetic progression and how it applies to the roots of a polynomial?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we represent the roots of the polynomial in terms of a common difference?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What formulas can we use to find the relationships between the roots and the coefficients of the polynomial?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Using Vieta's formulas, what equations can we create based on the given information?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we simplify these equations to solve for the values of $r$ and $d$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the value of $r$ based on the equation $3r=6$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the equation we can create to solve for $d$ using the obtained value of $r$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What are the possible values of $d$ and how do we determine them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Now that we have the values of $r$ and $d$, what are the roots of the cubic polynomial?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can we find the value of $a$ using the roots of the polynomial?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "What is the final value of $a$ and does it satisfy the given conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

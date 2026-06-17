@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_482",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem": "How many positive two-digit integers are multiples of 5 and of 7?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what it means for a number to be a multiple of another number?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine if a number is a multiple of 5?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine if a number is a multiple of 7?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Combining the previous two questions, what kind of number would be a multiple of both 5 and 7?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the least common multiple of 5 and 7?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you find any two-digit multiples of 35? If so, how many?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How did you identify the multiples of 35?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the relationship between multiples of 35 and integers that are multiples of 5 and 7?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "Can you generalize your findings to find the number of positive two-digit integers that are multiples of any two given numbers?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

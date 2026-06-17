@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_303",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem": "What is the 20th digit after the decimal point of the sum of the decimal equivalents for the fractions $\\frac{1}{7}$ and $\\frac{1}{3}$?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the decimal equivalents for $\\frac{1}{7}$ and $\\frac{1}{3}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the repeating block for each decimal equivalent?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the repeating block for the sum of the decimal equivalents?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the sum of the first 6 digits of each decimal equivalent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is the repeating block of the sum the same as the first 6 digits added? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the decimal representation of the sum of the two fractions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How do we determine the 20th digit after the decimal point of the sum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the remainder when 20 is divided by 6?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the 20th digit following the decimal point of the sum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

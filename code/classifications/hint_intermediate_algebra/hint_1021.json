@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_1021",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem": "Let $a,$ $b,$ $c$ be a three-term arithmetic series where all the terms are positive, such that $abc = 64.$  Find the smallest possible value of $b.$",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is an arithmetic sequence and how is it defined?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we express the terms of an arithmetic sequence in terms of its first term and common difference?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "If the terms of an arithmetic sequence are denoted by $a$, $b$, and $c$, how can we express $b$ in terms of $a$ and $c$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the relationship between the product $abc$ and the terms $a$, $b$, and $c$ in an arithmetic sequence?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Given that $abc = 64$, what is the implication for the product of the terms in an arithmetic sequence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use AM-GM inequality to find the smallest possible value of $b$ in an arithmetic sequence where $abc=64$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How do we determine the values of $a$ and $c$ that correspond to the smallest possible value of $b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can this method be generalized to find the smallest term in an arithmetic sequence with a larger number of terms?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

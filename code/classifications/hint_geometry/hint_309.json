@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_309",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 1",
+  "problem": "In regular pentagon $ABCDE$, diagonal $AC$ is drawn, as shown. Given that each interior angle of a regular pentagon measures 108 degrees, what is the measure of angle $CAB$?\n\n[asy]\nsize(4cm,4cm);\ndefaultpen(linewidth(1pt)+fontsize(10pt));\n\npair A,B,C,D,E;\nA = (0,0);\nB = dir(108);\nC = B+dir(39);\nD = C+dir(-39);\nE = (1,0);\n\ndraw(A--B--C--D--E--cycle,linewidth(1));\ndraw(A--C,linewidth(1)+linetype(\"0 4\"));\n\nlabel(\"A\",A,S);\nlabel(\"B\",B,W);\nlabel(\"C\",C,N);\nlabel(\"D\",D,E);\nlabel(\"E\",E,S);\nlabel(\"$108^\\circ$\",B,E);;\n[/asy]",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Are there any properties or relationships in a regular pentagon that might help us find the angle measure of $\\angle CAB$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the fact that the sum of the angles in a triangle is 180 degrees to find the measure of $\\angle CAB$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Why do we assume that $\\angle CAB$ and $\\angle BCA$ have the same measure?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why we set up the equation $180 = 108 + x + x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How did we solve the equation $2x = 72$ to find the measure of $\\angle CAB$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other polygons where we can use similar reasoning and steps to find angle measures?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

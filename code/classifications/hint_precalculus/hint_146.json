@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_146",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem": "A certain regular tetrahedron has three of its vertices at the points $(0,1,2),$ $(4,2,1),$ and $(3,1,5).$  Find the coordinates of the fourth vertex, given that they are also all integers.",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the given coordinates of the three vertices of the tetrahedron?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the side length of the tetrahedron using the given coordinates?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you write out the equations that represent the distances between the fourth vertex and the given vertices?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we simplify the equations and eliminate variables to find a relationship between x and z?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What equation can we construct to relate y to x and z?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we substitute the values of x and z back into the original equations to find the value of y?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you simplify the equation for x and find its possible solutions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we use the value of x to find the corresponding values of y and z?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What are the integer coordinates of the fourth vertex of the tetrahedron?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

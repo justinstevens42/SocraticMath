@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_776",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem": "What multiple of 15 is closest to 2009?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "e",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of a multiple of a number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine if a number is a multiple of 3 or 5?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you think of any other multiples of 15 besides those that are also multiples of 3 and 5?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 4,
+      "question": "How would you find the next multiple of 15 after 2009?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Is there a pattern or shortcut we can use to find the multiple of 15 closest to a given number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "If we wanted to find the multiple of 25 closest to 2009, what changes would we need to make to our approach?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

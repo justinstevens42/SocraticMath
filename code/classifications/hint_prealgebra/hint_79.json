@@ -1,0 +1,47 @@
+{
+  "problem_id": "hint_79",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem": "How many positive integers, including $1,$ are divisors of both $40$ and $72?$",
+  "n_questions": 5,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does it mean for a positive integer to be a divisor of another positive integer?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you list all the positive integers that are factors of $40$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you list all the positive integers that are factors of $72$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Are there any numbers that are common factors of $40$ and $72$? If so, what are they?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many positive integers are common factors of $40$ and $72$, including $1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

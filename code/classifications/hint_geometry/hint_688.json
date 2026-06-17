@@ -1,0 +1,89 @@
+{
+  "problem_id": "hint_688",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "The nine points of this grid are equally spaced horizontally and vertically.  The distance between two neighboring points is 1 unit.  What is the area, in square units, of the region where the two triangles overlap?\n\n[asy]\nsize(80);\ndot((0,0)); dot((0,1));dot((0,2));dot((1,0));dot((1,1));dot((1,2));dot((2,0));dot((2,1));dot((2,2));\ndraw((0,0)--(2,1)--(1,2)--cycle, linewidth(0.6));\ndraw((2,2)--(0,1)--(1,0)--cycle, linewidth(0.6));\n[/asy]",
+  "n_questions": 11,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given grid and the two triangles in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many points are there in the grid and what is the distance between two neighboring points?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the area, in square units, of one of the congruent smaller triangles within the blue triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How many congruent smaller triangles are contained within the hexagonal region of overlap between the two triangles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the formula for the area of a triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we apply the formula for the area of a triangle to compute the area of the isosceles triangle in this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain how to compute the area of one of the isosceles triangles given the labeled points A, B, C, D, E and F?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Why do we subtract the areas of triangles ADE, ABF, and ECF from the area of square ABCD to find the area of triangle AEF?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the formula for the area of a regular hexagon?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 10,
+      "question": "How can we apply this formula to find the area of the hexagonal region of overlap between the two triangles?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 11,
+      "question": "What is the final answer to this problem and how did we arrive at this result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

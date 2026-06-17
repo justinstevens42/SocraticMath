@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_666",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 1",
+  "problem": "Eleven is the fifth prime number. What is the tenth prime number?",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you define what a prime number is?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do you determine if a number is prime or composite?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Using the definition of prime numbers, can you prove that 11 is indeed a prime number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Is it possible to have a formula that generates prime numbers? If so, can you explain how it works?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How many prime numbers are there between 1 and 100? Can you list them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "With the knowledge that 11 is the fifth prime number, can you find a formula to determine the nth prime number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How many prime numbers are there between 10 and 50? Can you list them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the difference between twin primes and cousin primes? Can you provide examples?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "If we know the first 10 prime numbers, can we deduce the next one? If so, can you explain how?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What would happen if 1 was considered a prime number? Would it change any of our current mathematical theorems and concepts related to prime numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_471",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level ?",
+  "problem": "One leg of a right triangle is 12 inches, and the measure of the angle opposite that leg is $30^\\circ$. What is the number of inches in the hypotenuse of the triangle?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you Identify the given information in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What type of triangle is described in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How is the hypotenuse related to the other two sides in a 30-60-90 triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you calculate the length of the hypotenuse using the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the length of the hypotenuse for the given triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why the hypotenuse is twice the length of the leg opposite the 30° angle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

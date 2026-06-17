@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_377",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem": "Given that $z$ is a complex number such that $z+\\frac 1z=2\\cos 3^\\circ$, find $z^{2000}+\\frac 1{z^{2000}}$.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem? What is the given equation and what do we want to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we rewrite the given equation in terms of the complex number $z$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What can we observe about the roots of the equation $z^2 - 2z \\cos 3^\\circ + 1 = 0$? What are the possible values of $z$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we express $z^{2000}$ in terms of trigonometric functions using DeMoivre's Theorem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the value of $\\cos 240^\\circ$ and $\\sin 240^\\circ$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we find $\\frac{1}{z^{2000}}$ using the properties of complex numbers and the given equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "What is the final value of $z^{2000} + \\frac{1}{z^{2000}}$ and what does it signify?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

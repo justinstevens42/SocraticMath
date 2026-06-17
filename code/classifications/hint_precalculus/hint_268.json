@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_268",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem": "For real numbers $t,$ the point\n\\[(x,y) = (\\cos^2 t, \\sin^2 t)\\]is plotted.  All the plotted points lie on what kind of curve?\n\n(A) Line\n(B) Circle\n(C) Parabola\n(D) Ellipse\n(E) Hyperbola\n\nEnter the letter of the correct option.",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the coordinates of the point plotted for a given value of $t$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What relationship does $\\cos^2 t + \\sin^2 t = 1$ represent?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How is the equation $x + y = 1$ related to the equation $\\cos^2 t + \\sin^2 t = 1$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you describe the shape of the curve represented by the equation $x + y = 1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of any values of $t$ that would make the point lie off the curve?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is the curve represented by $x + y = 1$ a line, circle, parabola, ellipse, or hyperbola? Why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What would happen if we changed the equation to $x^2 + y^2 = 1$? How would the graph change?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

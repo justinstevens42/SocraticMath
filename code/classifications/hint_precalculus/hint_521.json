@@ -1,0 +1,47 @@
+{
+  "problem_id": "hint_521",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem": "For a constant $c,$ in spherical coordinates $(\\rho,\\theta,\\phi),$ find the shape described by the equation\n\\[\\theta = c.\\](A) Line\n(B) Circle\n(C) Plane\n(D) Sphere\n(E) Cylinder\n(F) Cone\n\nEnter the letter of the correct option.",
+  "n_questions": 5,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does $\\theta$ represent in spherical coordinates?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the equation we are given and what do we need to find?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Considering that a fixed angle $\\theta = c$ describes a plane, what shape would the equation $\\theta = c$ describe in spherical coordinates?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we obtain all points in the plane described by $\\theta = c$, and what role does $\\rho$ play in this process?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Is it possible to obtain a line, circle, sphere, cylinder, or cone by setting $\\theta$ equal to some constant in spherical coordinates? If not, why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

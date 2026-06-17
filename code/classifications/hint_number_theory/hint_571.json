@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_571",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem": "What is the greatest common divisor of $7979$ and $3713$?",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "b",
+    "e",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you define what the term \"greatest common divisor\" means in this context? What does it represent?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the Euclidean Algorithm? How does it help us find the GCD of two numbers?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the first step in applying the Euclidean Algorithm to find the GCD of 7979 and 3713?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain the logic behind each step of the Euclidean Algorithm as it is applied here?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the significance of the remainder obtained in each step of the algorithm?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "How do we know when we have reached the GCD using the Euclidean Algorithm?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "In this specific case, what is the GCD of 7979 and 3713? How can we conclude that this is the greatest common divisor of the two numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other numbers for which the Euclidean Algorithm could be used to find the GCD? How would the process be similar or different?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

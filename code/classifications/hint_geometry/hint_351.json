@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_351",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "In the figure below, the smaller circle has a radius of two feet and the larger circle has a radius of four feet. What is the total area of the four shaded regions? Express your answer as a decimal to the nearest tenth.\n\n[asy]\nfill((0,0)--(12,0)--(12,-4)--(4,-4)--(4,-2)--(0,-2)--cycle,gray(0.7));\ndraw((0,0)--(12,0),linewidth(1));\ndraw((0,0)--(0,-2),linewidth(1));\ndraw((4,0)--(4,-4),linewidth(1));\ndraw((12,0)--(12,-4),linewidth(1));\ndraw((0.3,0)--(0.3,-0.3)--(0,-0.3));\ndraw((4.3,0)--(4.3,-0.3)--(4,-0.3));\ndraw((11.7,0)--(11.7,-0.3)--(12,-0.3));\nfill(Circle((2,-2),2),white);\nfill(Circle((8,-4),4),white);\ndraw(Circle((2,-2),2));\ndraw(Circle((8,-4),4));\ndot((2,-2));\ndot((8,-4));\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "f"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what is shown in the figure?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the radii of the smaller and the larger circles?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the height and length of the left rectangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the height and length of the right rectangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we find the total area of the shaded region?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why we subtract the areas of the semicircles from the areas of the rectangles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we use the formula for the area of a circle to find the areas of the semicircles?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "How can we simplify the expression for the total area of the shaded region?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Why do we use decimal approximation in the final answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What other geometric concepts or formulas are used in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    }
+  ]
+}

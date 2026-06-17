@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_491",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "The polynomial $f(x)$ satisfies $f(x + 1) - f(x) = 6x + 4.$  Find the leading coefficient of $f(x).$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step to solve this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What methods do you know to solve this type of problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you choose to use the given equation $f(x + 1) - f(x) = 6x + 4$, how would you proceed with finding the leading coefficient of $f(x)$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Why can we add all the equations and get $f(n) - f(0) = 3n^2 + n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did you arrive at the polynomial $f(x) = 3x^2 + x + c$? What property or relation did you use?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other types of problems or equations where a similar thought process and steps can be applied?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_866",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem": "The graph of $y=\\frac{5x^2-9}{3x^2+5x+2}$ has vertical asymptotes at $x = a$ and $x = b$.  Find $a + b$.",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what vertical asymptotes are and how they relate to the graph of a rational function?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the vertical asymptotes of the given function algebraically?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the relationship between the vertical asymptotes and the factors in the denominator of the rational function?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you factor the denominator and identify any common factors that might contribute to the vertical asymptotes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine the values of $a$ and $b$ from the factored form of the denominator?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why the graph of the given function has vertical asymptotes at $x = a$ and $x = b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any restrictions or conditions for the function that might affect the existence of vertical asymptotes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other rational functions where finding the vertical asymptotes would involve a similar thought process and steps?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

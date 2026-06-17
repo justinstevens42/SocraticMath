@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_421",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem": "Ben rolls 5 fair 12-sided dice.  The 12 faces of each die are numbered from 1 to 12. What is the probability that exactly two of the dice show an even number?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem? What is the initial thing you need to determine?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many sides does each die have, and what are the possible outcomes when rolling each die?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the probability of rolling an even number on a 12-sided die? And what is the probability of rolling an odd number on the same die?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How many dice are being rolled in total, and how many of them do you want to show an even number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many ways are there to choose exactly two dice to show even numbers out of the five dice being rolled?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "For each way of choosing two dice, what is the probability that those dice show even numbers and the other dice show odd numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How do you calculate the probability for each choice of two dice showing even numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "After calculating the individual probabilities for each choice of two dice, what is the final probability that exactly two dice show an even number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Is there any other similar scenario where you can apply similar reasoning and steps to solve for the probability?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

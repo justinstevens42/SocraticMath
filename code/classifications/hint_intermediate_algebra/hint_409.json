@@ -1,0 +1,47 @@
+{
+  "problem_id": "hint_409",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem": "What must be the value of the coefficient $c$ in $P(x)=x^3+2x^2+cx+10$, in order for $x-5$ to be a factor of $P$?",
+  "n_questions": 5,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the Factor Theorem and how does it relate to this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain why $P(5) = 0$ is true if $x-5$ is a factor of $P$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How do you solve for $c$ using the information we have from the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Are there any other methods we could use to find the value of $c$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we verify that $x-5$ is indeed a factor of $P$ if we have found a possible value for $c$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

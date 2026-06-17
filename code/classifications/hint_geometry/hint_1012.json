@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_1012",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "A bowling ball cannot weigh more than 16 pounds and must have a diameter of $8 \\frac{1}{2}$ inches. How many square inches are in the surface area of a bowling ball before the finger holes are drilled? Express your answer as a common fraction in terms of $\\pi$.",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the concept of surface area and how it relates to a three-dimensional object like a bowling ball?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the formula for calculating the surface area of a sphere?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the radius of the bowling ball if we are given its diameter of $\\frac{17}{2}$ inches?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the formula for calculating the surface area of the bowling ball using the given radius?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you simplify the expression for the surface area of the bowling ball in terms of $\\pi$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the final result of the surface area calculation before the finger holes are drilled, expressed as a common fraction in terms of $\\pi$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_918",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "On the Cartesian plane, the midpoint between two points $A(a,b)$ and $B(c,d)$ is $M(m,n)$. If $A$ is moved vertically upwards 8 units and horizontally to the right 2 units, and $B$ is moved vertically downwards 2 units and horizontally to the left 10 units, then the new midpoint between $A$ and $B$ is $M'$. What is the distance between $M$ and $M'$?",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How do we define the midpoint between two points on the Cartesian plane?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you express the coordinates of point M in terms of the coordinates of points A and B?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What happens to the x-coordinate of point A if it is moved horizontally to the right by 2 units?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "And what happens to the y-coordinate of point A if it is moved vertically upwards by 8 units?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Similarly, how do the x-coordinate and y-coordinate of point B change if it is moved horizontally to the left by 10 units and vertically downwards by 2 units?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you calculate the new coordinates of point M' after the translations of points A and B?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we find the distance between points M and M' on the Cartesian plane?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What formula or theorem can we apply to find the distance between two points on a Cartesian plane?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

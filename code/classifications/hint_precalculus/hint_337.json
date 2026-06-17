@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_337",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem": "Consider two solid spherical balls, one centered at $\\left( 0, 0, \\frac{21}{2} \\right),$ with radius 6, and the other centered at $(0,0,1)$ with radius $\\frac{9}{2}.$  How many points $(x,y,z)$ with only integer coefficients are there in the intersection of the balls?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given problem in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the equations of the spheres in this problem? Can you write them in standard form?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we approach finding the intersection points of these spheres?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the condition for a lattice point to be in the intersection?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What are the possible values of $z$ that satisfy both inequalities?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are the possible values of $x$ and $y$ that satisfy the revised inequalities based on the value of $z$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you find the points that satisfy both conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How many lattice points satisfy both conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

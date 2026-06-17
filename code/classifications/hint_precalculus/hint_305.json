@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_305",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem": "Let $\\mathbf{a}$ and $\\mathbf{b}$ be vectors, and let $\\mathbf{m}$ be the midpoint of $\\mathbf{a}$ and $\\mathbf{b}.$  Given $\\mathbf{m} = \\begin{pmatrix} 3 \\\\ 7 \\end{pmatrix}$ and $\\mathbf{a} \\cdot \\mathbf{b} = 6,$ find $\\|\\mathbf{a}\\|^2 + \\|\\mathbf{b}\\|^2.$",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the concept of the midpoint and how it applies to vectors?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the information given to find the sum of vectors 𝐚 and 𝐛?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Why do we square the magnitude of a vector in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How does the dot product of vectors relate to their magnitudes?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why we subtract 2 times the dot product from the squared sum of the vectors to find the sum of their magnitudes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other applications or situations where we may need to find the sum of vector magnitudes using the dot product?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

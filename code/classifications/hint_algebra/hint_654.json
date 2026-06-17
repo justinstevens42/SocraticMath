@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_654",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem": "Simplify the fraction by rationalizing the denominator: $$\\frac{4}{\\sqrt{108}+2\\sqrt{12}+2\\sqrt{27}}.$$",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what it means to rationalize the denominator in a fraction?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How would you usually handle a fraction with a radical in the denominator if rationalizing wasn't necessary?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you identify the types of radicals present in the denominator of this fraction?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How would you go about simplifying the expression if the denominator consisted of just one radical?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What are the steps involved in simplifying the given fraction by rationalizing the denominator?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can you determine what factors or expressions need to be multiplied in order to rationalize each radical in the denominator?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Why is it important to rationalize the denominator in this case? What benefit does it bring to the expression?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "What does it mean for a simplified fraction to be in its simplest radical form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other instances where rationalizing the denominator may be necessary or helpful in mathematics?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

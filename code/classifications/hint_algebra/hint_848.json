@@ -1,0 +1,96 @@
+{
+  "problem_id": "hint_848",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem": "There are 12 ordered pairs of integers $(x,y)$ that satisfy $x^2 + y^2 = 25$. What is the greatest possible sum $x+y$?",
+  "n_questions": 12,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we start solving this problem? What do we know about the equation $x^2 + y^2 = 25$ and what can we infer from it?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the possible values for $x$ and $y$ that satisfy the equation $x^2 + y^2 = 25$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine which of these possible values of $x$ and $y$ form ordered pairs of integers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can we find a systematic way to identify all 12 ordered pairs of integers $(x,y)$ that satisfy $x^2 + y^2 = 25$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we find the sum $x+y$ for each of the 12 ordered pairs of integers that satisfy the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there a way to determine the greatest possible sum $x+y$ without explicitly calculating the sum for each of the 12 pairs?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What insights or patterns do we observe when examining all the ordered pairs of integers that satisfy $x^2 + y^2 = 25$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "How can we determine the maximum value of $x+y$ from the observed patterns or insights? Is there a general approach we can use?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can we justify that the maximum sum $x+y$ obtained is indeed the greatest possible sum for the given equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Are there any similar mathematical problems or equations that can be approached using similar reasoning or steps?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "Can we generalize this problem and apply the learned concepts to other equations or situations?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 12,
+      "question": "How can we further deepen our understanding of algebraic concepts and problem-solving strategies through solving and analyzing problems like this?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

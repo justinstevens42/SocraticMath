@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_728",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem": "There are six clearly distinguishable frogs sitting in a row. Two are green, three are red, and one is blue. Green frogs refuse to sit next to the red frogs, for they are highly poisonous. In how many ways can the frogs be arranged?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many frogs are there in total?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How many different colors are there for the frogs?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the restriction for the arrangement of the frogs?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How many different ways can the frogs be grouped by color?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "For each group, how many different ways can the frogs of the same color be arranged?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do we calculate the total number of arrangements taking into account all the possibilities?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

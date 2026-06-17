@@ -1,0 +1,47 @@
+{
+  "problem_id": "hint_557",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem": "Find the number of ordered pairs $(x,y)$ of real numbers such that\n\\[16^{x^2 + y} + 16^{x + y^2} = 1.\\]",
+  "n_questions": 5,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How did we use the AM-GM inequality to obtain our inequality?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How did we use completing the square to further simplify our inequality?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What does the inequality $\\left( x + \\frac{1}{2} \\right)^2 + \\left( y + \\frac{1}{2} \\right)^2 \\le 0$ tell us about the solutions to the original equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why is there only one possible solution?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

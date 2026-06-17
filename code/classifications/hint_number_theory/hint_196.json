@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_196",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem": "What is the greatest common divisor of $1729$ and $1768$?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the greatest common divisor (gcd) means and why it's important in number theory?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How does the Euclidean algorithm work and what is its significance in computing the gcd of two numbers?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Why do we subtract the smaller number from the larger number in each step of the Euclidean algorithm?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What would happen if we reversed the order of the two numbers in the gcd computation using the Euclidean algorithm?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine if a number is divisible by another number without using long division?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Why does checking whether a number is divisible by $13$ using the sum of cubes factorization work?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you provide an example of computing the gcd of two larger numbers using the Euclidean algorithm?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

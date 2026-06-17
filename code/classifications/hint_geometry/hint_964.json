@@ -1,0 +1,89 @@
+{
+  "problem_id": "hint_964",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "A circle with center $O$ has radius $8$ units and circle $P$ has radius $2$ units.  The circles are externally tangent to each other at point $Q$.  Segment $TS$ is the common external tangent to circle $O$ and circle $P$ at points $T$ and $S$, respectively.  What is the length of segment $OS$?  Express your answer in simplest radical form.",
+  "n_questions": 11,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "r",
+    "r",
+    "r",
+    "b",
+    "r",
+    "r",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a circle, and what are its defining properties?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do we define the center of a circle, and what does it tell us about the circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the radius of a circle, and how is it related to the center and points on the circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean for two circles to be externally tangent, and how can we identify the point of tangency?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is a tangent line, and how is it related to a circle and its radius?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What is an external tangent, and how is it different from an internal tangent?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can we find the length of a segment formed by two tangents that meet outside of two circles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the common external tangent to two circles, and how is it related to their radii and centers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "How can we use Pythagorean theorem to find the length of a segment in a right triangle when given the lengths of its legs?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 10,
+      "question": "What is the relationship between the length of the hypotenuse and the lengths of the legs in a right triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 11,
+      "question": "How can we use the information about the circles and the segment to find the length of OS?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

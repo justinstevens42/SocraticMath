@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_1027",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 1",
+  "problem": "What is the sum of the prime numbers less than 10?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "f",
+    "b",
+    "e",
+    "r",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you list all the prime numbers less than 10?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How did you determine that these numbers are prime?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the definition of a prime number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Is there a pattern or rule that you can observe in these prime numbers?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How did you calculate the sum of these prime numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other ways to find the sum of prime numbers less than 10?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Are these methods applicable to finding the sum of prime numbers in general? Why or why not?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "Is there a relationship between the sum of prime numbers and the prime numbers themselves?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "Can you find the sum of prime numbers less than a different number? How would you do that?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

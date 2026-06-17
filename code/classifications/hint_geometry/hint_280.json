@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_280",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem": "Pentagon ABCDE has a vertical line of symmetry. What is the $y$-coordinate of vertex C so that the area of the pentagon is 40 square units? [asy]\nunitsize(2mm);\ndefaultpen(linewidth(.7pt)+fontsize(8pt));\ndotfactor=4;\n\npair A=(0,0), B=(0,4), C=(2,16), D=(4,4), E=(4,0);\npair[] dots={A,B,C,D,E};\n\ndraw(B--C--D--E);\ndot(dots);\n\naxes(Arrows(4));\n\nlabel(\"A(0,0)\",A,SW);\nlabel(\"E(4,0)\",E,SE);\nlabel(\"D(4,4)\",D,NE);\nlabel(\"C\",C,NE);\nlabel(\"B(0,4)\",B,NW);\n[/asy]",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the different components of the pentagon that we can calculate the area of?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we express the area of the pentagon as the sum of the areas of the square and the triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why can we write the area of the square as $4^2$? What does that represent?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we find the area of the triangle if we know the total area of the pentagon and the area of the square?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Using the formula for the area of a triangle, how can we express the area of triangle $BCD$ in terms of the height of the triangle and its base?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we set up an equation to solve for the height of triangle $BCD$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What does the height of triangle $BCD$ represent in terms of the $y$-coordinate of point $C$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we solve the equation $\\frac{1}{2}(4)(h-4)=24$ to find the value of $h$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_136",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "What is the total area, in square units, of the four triangular faces of a right, square-based pyramid that has base edges measuring 6 units and lateral edges measuring 5 units?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given pyramid and its triangular faces?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the area of a triangular face?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What information do we have about the triangle formed by dropping an altitude from the apex to the base?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the length of the altitude?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the formula for calculating the area of a triangle? Can we apply it here?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the base length of each triangular face?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we calculate the area of each triangular face?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How many triangular faces does the pyramid have?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the total area of all the triangular faces?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you explain why the total area is equal to the product of the area of one face and the number of faces?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

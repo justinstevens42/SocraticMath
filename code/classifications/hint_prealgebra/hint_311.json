@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_311",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 1",
+  "problem": "In the diagram, $\\angle PQR = 90^\\circ$.  What is the value of $x$?\n\n[asy]\nsize(100);\ndraw((0,1)--(0,0)--(1,0));\ndraw((0,0)--(.9,.47));\ndraw((0,.1)--(.1,.1)--(.1,0));\nlabel(\"$P$\",(0,1),N); label(\"$Q$\",(0,0),SW); label(\"$R$\",(1,0),E); label(\"$S$\",(.9,.47),NE);\n\nlabel(\"$2x^\\circ$\",(.15,.2)); label(\"$x^\\circ$\",(.32,-.02),N);\n\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "f"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given diagram and the information it provides?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the value of $x$ based on the given diagram?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain why $2x + x = 90$ in this case?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the value of $x$ that satisfies the equation $3x = 90$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why the angle $\\angle PQR$ being $90^\\circ$ is important in solving for $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you identify any other angles in the diagram that are related to $x^\\circ$? If so, how are they related?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    }
+  ]
+}

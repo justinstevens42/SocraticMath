@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_768",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "The vertices $V$ of a centrally symmetric hexagon in the complex plane are given by \\[V=\\left\\{   \\sqrt{2}i,-\\sqrt{2}i, \\frac{1}{\\sqrt{8}}(1+i),\\frac{1}{\\sqrt{8}}(-1+i),\\frac{1}{\\sqrt{8}}(1-i),\\frac{1}{\\sqrt{8}}(-1-i) \\right\\}.\\]For each $j$, $1\\leq j\\leq 12$, an element $z_j$ is chosen from $V$ at random, independently of the other choices. Let $P={\\prod}_{j=1}^{12}z_j$ be the product of the $12$ numbers selected.\n\nThe probability that $P=-1$ can be expressed in the form\n\\[\\frac{a}{p^b},\\]where $a,$ $b,$ $p$ are positive integers, $p$ is prime, and $a$ is not divisible by $p.$  Find $a + b + p.$",
+  "n_questions": 10,
+  "labels": [
+    "b",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "r",
+    "r",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the meaning of a centrally symmetric hexagon in the complex plane? How can we determine whether a hexagon is centrally symmetric or not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How are the vertices of the given hexagon represented in the complex plane? Can you plot these vertices on a complex plane?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for an element, $z_j$, to be chosen from $V$ at random, independently of the other choices? How does this affect the product $P$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the condition for $P$ to be equal to $-1$? How does this condition relate to the magnitudes and arguments of the vertices of $V$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How many magnitude-$\\sqrt{2}$ vertices and magnitude-$\\frac{1}{2}$ vertices are there in the hexagon? What are the possible arguments for each type of vertex?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many ways are there to select magnitude-$\\sqrt{2}$ vertices from the hexagon? How many ways are there to select magnitude-$\\frac{1}{2}$ vertices?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the argument of $P_1$, the product of the magnitude-$\\sqrt{2}$ vertices chosen? How does it relate to the probability of $P$ being equal to $-1$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "What is the argument of $P_2$, the product of the magnitude-$\\frac{1}{2}$ vertices chosen? How does it relate to the probability of $P$ being equal to $-1$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "What are the possible cases that satisfy the condition for $P$ to be equal to $-1$? What is the probability of each case occurring?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 10,
+      "question": "How can we calculate the overall probability of $P$ being equal to $-1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_800",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem": "Equilateral triangle $ABC$ has side length $\\sqrt{111}$. There are four distinct triangles $AD_1E_1$, $AD_1E_2$, $AD_2E_3$, and $AD_2E_4$, each congruent to triangle $ABC$, with $BD_1 = BD_2 = \\sqrt{11}$. Find $\\sum_{k=1}^4(CE_k)^2$.",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is given in the problem statement? Can we identify any relationships or patterns between the given values or elements?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Based on the given information, what properties of triangles can we apply to the problem? How can we use congruence to our advantage?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Let's examine triangle $BAD_1$ and triangle $BAD_2$. Are they congruent? What congruence result can we use to justify this?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the measure of angle $\\theta$? Can we express it in terms of the given values?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "By using the Law of Cosines, we can find expressions for $CE_1^2$, $CE_2^2$, $CE_3^2$, and $CE_4^2$. Can you derive these expressions and explain the steps involved?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we simplify these expressions to eliminate the angle $\\theta$? Is there anything we can notice about the sum of these four expressions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can we use any trigonometric identities or angle properties to simplify the sum of the expressions for $CE_1^2$, $CE_2^2$, $CE_3^2$, and $CE_4^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Finally, what is the value of the sum $\\sum_{k=1}^4(CE_k)^2$? Can you explain the reasoning behind the calculation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

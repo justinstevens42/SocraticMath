@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_127",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem": "The equation $y = -16t^2 + 80t$ describes the height (in feet) of a projectile launched from the ground at 80 feet per second. At what $t$ will the projectile reach 36 feet in height for the first time? Express your answer as a decimal rounded to the nearest tenth.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does the equation $y = -16t^2 + 80t$ represent in this context?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does the variable $t$ represent in the equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How does the coefficient -16 affect the shape of the projectile's path?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How does the coefficient 80 affect the projectile's initial velocity?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine the height of the projectile at a certain time $t$ using the given equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we determine the time at which the projectile reaches a height of 36 feet for the first time?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "By substituting 36 for $y$ in the equation, how can we solve for $t$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any other variables or values we need to consider in this problem?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "How can we express the answer as a decimal rounded to the nearest tenth?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any other real-life situations where this type of equation could be used to solve a problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_77",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 1",
+  "problem": "What is the value of $\\left(\\sqrt{4!\\cdot 3!}\\right)^2$?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we simplify the expression $\\left(\\sqrt{4!\\cdot 3!}\\right)^2$ step by step?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the value of $4!$? And what about $3!$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the product of $4!$ and $3!$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What happens when we take the square root of this product?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we simplify the expression $(\\sqrt{4!\\cdot 3!})^2$ using the values we found?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why the final simplified result is $144$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

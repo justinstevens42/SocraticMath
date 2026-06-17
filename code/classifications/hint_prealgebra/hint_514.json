@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_514",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem": "A rectangular field is half as wide as it is long, and it is completely enclosed by 54 meters of fencing. What is the number of square meters in the area of the field?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we represent the width of the rectangular field in terms of some variable?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What equation can we set up using the given information about the perimeter of the field?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the value of that variable and determine the width of the field?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Once we have found the width, how can we calculate the length of the rectangular field?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What formula can we use to calculate the area of a rectangle, given its width and length?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we use the calculated values of width and length to find the area of the field?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any alternative methods or formulas that we could use to find the area of the field?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we ensure that our calculated answer for the area is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

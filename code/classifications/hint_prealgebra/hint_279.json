@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_279",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem": "Bill buys a stock that decreases by $20\\%$ on the first day, and then  on the second day the stock increases by $30\\%$ of its value at the end of the first day. What was the overall percent increase in Bill's stock over the two days?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the original value of the stock?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How much does the stock decrease by on the first day?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the value of the stock at the end of the first day?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How much does the stock increase by on the second day?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the value of the stock at the end of the second day?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do we calculate the overall percent increase in the stock over the two days?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

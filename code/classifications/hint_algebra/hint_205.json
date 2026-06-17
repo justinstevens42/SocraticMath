@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_205",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem": "The center of the circle with equation $x^2+y^2=8x-6y-20$ is the point $(x,y)$. What is $x+y$?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "f",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you begin solving this problem? What steps come to mind?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain what the equation represents in terms of a circle? How do the components in the equation relate to the circle's properties?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What methods or techniques do you know that can help determine the center of a circle given its equation? How would you apply those methods here?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What are the key features of the given equation that suggest it represents a circle? How do you know it's not an equation of a different conic section?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "If you found the center of the circle, what specific values would be represented by the variables $x$ and $y$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Once you've determined the values of $x$ and $y$ for the center, how would you calculate the sum $x+y$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other related problems or scenarios where finding the center of a circle would involve similar thinking and steps?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

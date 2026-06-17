@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_888",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem": "The line $y = \\frac{3}{2} x - 25$ is parameterized by $(x,y) = (f(t),15t - 7).$  Enter the function $f(t).$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How is the line $y=\\frac{3}{2}x-25$ parameterized by $(x,y)=(f(t),15t-7)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain why we set $y=15t-7$ in the parameterization of the line?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How did we solve for $x$ in the equation $15t-7=\\frac{3}{2}x-25$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the resulting function of $f(t)$ when solving for $x$ in terms of $t$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we verify that our answer for $f(t)$ is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any alternative parameterizations for the same line? If so, how do they differ and which one might be more convenient to use?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

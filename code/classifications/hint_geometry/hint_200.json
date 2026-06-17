@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_200",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem": "Circles of radius 2 and 3 are externally tangent and are circumscribed by a third circle, as shown in the figure. Find the area of the shaded region. Express your answer in terms of $\\pi$.\n\n[asy]\nfill(Circle((-1,0),5),gray(0.7));\nfill(Circle((-3,0),3),white);\nfill(circle((2,0),2),white);\ndot((-3,0));\ndot((2,0));\ndraw(Circle((-1,0),5));\ndraw((-3,0)--(0,0));\ndraw((2,0)--(4,0));\nlabel(\"3\",(-1.5,0),N);\nlabel(\"2\",(3,0),N);\ndraw(Circle((-3,0),3));\ndraw(Circle((2,0),2));\n[/asy]",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given figure in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What do you already know about circles and their properties that might be useful in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can you determine the radius of the larger circle, given the radii of the smaller circles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the relationship between the diameter and radius of a circle? How does this relate to the given information?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you draw any auxiliary lines or shapes to help you visualize and solve the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can you find the area of the shaded region using the information you've gathered?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any alternative methods or formulas you can use to check your answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

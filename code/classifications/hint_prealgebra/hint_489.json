@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_489",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 1",
+  "problem": "At 11:00 a.m. how many degrees are in the smaller angle formed by the minute hand and the hour hand of the clock?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the initial steps involved in finding the angle formed by the minute hand and the hour hand at 11:00 a.m.?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the possible methods or approaches to determine the angle between the two clock hands?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you were to use the method of subtracting the smaller angle from the larger angle, how would you calculate the smaller angle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is it possible to consider the minute hand as a reference point for determining the angle between the two hands?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why the angle formed by the hands at 11:00 a.m. is always a fraction of a full revolution?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can you verify that the angle calculation you obtained (30 degrees) is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of a different time on the clock where the calculated angle would be different? How would you approach determining the angle at that time?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Are there any other situations or scenarios where a similar thinking process and steps might be applied to calculate angles?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

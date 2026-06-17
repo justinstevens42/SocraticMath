@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_605",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem": "A regular polygon has exterior angles each measuring 15 degrees. How many sides does the polygon have?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "r",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you define what a regular polygon is?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the measure of an exterior angle in a regular polygon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "If we use this formula to find the exterior angle in the given polygon, what value do we get?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use this measure to determine how many sides the polygon has?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there any other methods we can use to find the number of sides in a regular polygon?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Can we generalize this formula to find the number of sides in a regular polygon with a different measure for the exterior angle?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

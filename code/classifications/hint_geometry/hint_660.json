@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_660",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "The diagonals of a regular hexagon have two possible lengths. What is the ratio of the shorter length to the longer length? Express your answer as a common fraction in simplest radical form.",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a regular hexagon?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can you find the length of the diagonals of a regular hexagon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many diagonals does a regular hexagon have?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why do the diagonals of a regular hexagon have two possible lengths?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can you determine the ratio of the shorter diagonal length to the longer diagonal length?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the measure of angle $BCA$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Why is $\\angle CBA$ a right angle in triangle $ABC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can you use the fact that triangle $ABC$ is a 30-60-90 triangle to find the ratio of $AB$ to $AC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you generalize this method to find the ratio of the diagonal lengths of a regular polygon with $n$ sides?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

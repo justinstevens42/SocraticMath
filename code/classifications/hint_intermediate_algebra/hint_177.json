@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_177",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "Solve the inequality\n\\[\\dfrac{x+1}{x+2}>\\dfrac{3x+4}{2x+9}.\\]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step to solve this inequality?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are some different methods you know to solve such an inequality?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you choose to find the critical points, how would you determine them in this inequality?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why can we use a sign chart in this inequality? What characteristics make it suitable for this method?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What are the critical points you found, and how do you test the intervals to determine the signs?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other types of inequalities where similar thinking and steps might be needed to solve?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_760",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "Let $S$ be the set of points $(x, y)$ in the Cartesian plane that satisfy\n\\[\\Big|\\big| |x|-2\\big|-1\\Big|+\\Big|\\big| |y|-2\\big|-1\\Big|=1.\\]What is the total length of all the lines that make up $S$?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the given conditions in the equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Based on the given result, what shape does the graph of the equation represent?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the given result to determine the length of one side of the diamond-shaped graph?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How many of these diamonds are present in the first quadrant?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine the total length of all the lines that make up the graph from the length of one side of the diamond?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there a pattern or formula we can use to find the total length in terms of the number of diamonds?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you calculate the final result using the formula or pattern you discovered?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_759",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem": "A right triangle has legs $a$ and $b$ and hypotenuse $c.$  Find the largest possible value of\n\\[\\frac{a + b}{c}.\\]",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what a right triangle is and how its sides and hypotenuse are related?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the objective of this problem? Can you restate it in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Have you encountered the QM-AM inequality before? If not, can you explain what it means in this context?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you identify any assumptions or conditions needed to apply the QM-AM inequality in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Can you derive the inequality $\\sqrt{\\frac{a^2 + b^2}{2}} \\ge \\frac{a + b}{2}$? What steps did you use?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How does knowing that $a^2 + b^2 = c^2$ help in solving this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you justify the statement $\\frac{c}{\\sqrt{2}} \\ge \\frac{a + b}{2}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the largest possible value for $\\frac{a + b}{c}$ according to the inequality derived?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "When does equality occur in the inequality? What does this mean for the right triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any other geometric or algebraic strategies that might be useful for finding the largest possible value of $\\frac{a + b}{c}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

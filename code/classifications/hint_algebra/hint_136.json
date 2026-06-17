@@ -1,0 +1,96 @@
+{
+  "problem_id": "hint_136",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem": "Given that $$(x+y+z)(xy+xz+yz)=25$$and that $$x^2(y+z)+y^2(x+z)+z^2(x+y)=7$$for real numbers $x$, $y$, and $z$, what is the value of $xyz$?",
+  "n_questions": 12,
+  "labels": [
+    "b",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you simplify or expand the given expressions to see if any patterns emerge?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What happens if we expand and combine the two given expressions? Does anything cancel out?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can we rewrite the second expression in terms of the first expression?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What would happen if we divided the combined expression by the first expression? Can we simplify further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there any relationships between the variables (x, y, z) that we can exploit to simplify the expression further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we assume any specific values for the variables to make the equation easier to solve?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Is there any information that we haven't used yet? How can we incorporate it into the problem-solving process?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can we transform the given equations into a system of equations and solve for the variables simultaneously?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Are there any algebraic manipulation techniques we can use to simplify or rearrange the given expressions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can we make any substitutions to simplify the problem further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "How can we relate the value of $xyz$ to the given equations? Is there a direct relationship?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "Is there another approach or method we can try to solve this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

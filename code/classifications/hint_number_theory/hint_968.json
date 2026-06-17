@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_968",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem": "Three different natural numbers $x$, $y$ and $z$ each have exactly three natural-number factors. How many factors does $x^{2}y^{3}z^{4}$ have?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "f",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the formula for finding the total number of positive divisors of a given number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the number of positive factors of a prime number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What are the prime factorizations of numbers in the form of $p^{2}$, where $p$ is a prime number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why $x$, $y$, and $z$ must be in the form of $p^{2}$ in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can we calculate the total number of factors for the expression $x^{2}y^{3}z^{4}$ based on these prime factorizations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other scenarios where a similar approach can be applied to determine the number of factors of an expression?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

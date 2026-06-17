@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_345",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem": "What is the greatest integer less than $-\\frac{15}4$?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "r",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How do you determine the greatest integer less than a given number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain what it means for an integer to be \"less than\" a number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "In this case, what number is $-\\frac{15}4$ closest to without going over?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can you use the concept of the greatest integer function to find the answer?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Are there any other methods you can think of to solve this problem?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Can you generalize the process of finding the greatest integer less than any given number?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

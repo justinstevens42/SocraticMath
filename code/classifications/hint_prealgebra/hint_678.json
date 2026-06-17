@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_678",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem": "Kevin has an elm tree in his yard that is $11\\frac{2}{3}$ feet tall and an oak tree that is $17\\frac{5}{6}$ feet tall. How much taller is the oak tree than the elm tree? Express your answer as a simplified mixed number.",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the height of the elm tree?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the height of the oak tree?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the difference in height between the oak and elm trees?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we express the height of the elm tree as a mixed number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we express the height of the oak tree as a mixed number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the common denominator we need to use to subtract the heights of the trees?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the result of subtracting the height of the elm tree from the height of the oak tree?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we simplify the resulting mixed number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

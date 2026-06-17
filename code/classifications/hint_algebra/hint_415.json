@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_415",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem": "If $64^5 = 32^x$, what is the value of $2^{-x}$?  Express your answer as a common fraction.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can you rewrite $64^5$ and $32^x$ using a common base?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "When two exponential expressions are equal, how can you determine the relationship between their exponents?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What property of exponents can you use to simplify $64^5$ and $32^x$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can you rewrite $2^{-x}$ in terms of a positive exponent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What relationship can you establish between the exponents of $64$, $32$, and $2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can you use this relationship to solve for $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the value of $x$ that you found?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can you express $2^{-x}$ in simplified form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you explain why the value of $2^{-x}$ is a common fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

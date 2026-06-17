@@ -1,0 +1,47 @@
+{
+  "problem_id": "hint_434",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem": "Find the greatest common divisor of $5616$ and $11609$.",
+  "n_questions": 5,
+  "labels": [
+    "f",
+    "r",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the process for finding the greatest common divisor of two numbers using the Euclidean algorithm?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Are there any specific requirements or limitations on the two numbers when using the Euclidean algorithm to find their greatest common divisor?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can we use any other method to find the greatest common divisor of two numbers? If so, what are they and how do they compare to the Euclidean algorithm?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 4,
+      "question": "How can we apply the concept of greatest common divisor in solving real-world problems, such as finding the largest common denominator in simplifying fractions?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "Can the Euclidean algorithm be extended to find the greatest common divisor of more than two numbers? If so, how? If not, what other methods can we use?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

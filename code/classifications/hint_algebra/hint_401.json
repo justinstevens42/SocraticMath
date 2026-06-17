@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_401",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "Marina solved the quadratic equation $9x^2-18x-720=0$ by completing the square. In the process, she came up with the equivalent equation $$(x+r)^2 = s,$$where $r$ and $s$ are constants.\n\nWhat is $s$?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the process Marina used to complete the square in solving the quadratic equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for the equation to be in the form $(x+r)^2 = s$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How does Marina determine the values of $r$ and $s$ in this equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What happens when we expand $(x+r)^2$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we relate the expanded form of $(x+r)^2$ to the original quadratic equation $9x^2-18x-720=0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you derive an expression for $s$ in terms of the coefficients of the quadratic equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any restrictions or conditions on the values of $r$ and $s$ for this method to work?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How does completing the square relate to factoring or using the quadratic formula?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other quadratic equations where completing the square can be a useful method?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

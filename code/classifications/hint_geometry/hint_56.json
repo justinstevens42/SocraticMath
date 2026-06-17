@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_56",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem": "If a triangle has two sides of lengths 5 and 7 units, then how many different integer lengths can the third side be?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem using the given information?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can the triangle inequality help us determine the possible lengths of the third side?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What are the specific inequalities we can write based on the triangle inequality theorem for this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What do these inequalities tell us about the possible values for the length of the third side?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we use these inequalities to find the range of integer lengths for the third side?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the final answer to the question?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

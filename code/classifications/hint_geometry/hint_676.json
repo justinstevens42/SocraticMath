@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_676",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "A cube has edges of length 1 cm and has a dot marked in the centre of the top face.  The cube is sitting on a flat table.  The cube is rolled, without lifting or slipping, in one direction so that at least two of its vertices are always touching the table.  The cube is rolled until the dot is again on the top face.  The length, in centimeters, of the path followed by the dot is $c\\pi$, where $c$ is a constant.  What is $c$?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information in the problem? Can you describe the initial situation and the conditions of the cube rolling?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we convert the three-dimensional problem of the cube rolling into a two-dimensional problem? What geometric shape can we focus on?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the distance traveled by the dot when the cube rolls over edge AB? What is the shape of the path followed by the dot in this segment?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the distance that the dot travels in the second segment of the roll, where the cube rolls until point P touches the table? What is the shape of the path followed by the dot in this segment?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does the distance that the dot travels in the third and fourth segments compare to the distances traveled in the first and second segments? Can you explain why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the total distance traveled by the dot when the cube completes one full roll? How can you find this distance using the distances traveled in each segment?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you simplify the expression for the total distance traveled by the dot? What is the final value of c in the equation $c\\pi$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "problem_id": "hint_494",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "Points $A$, $B$, $C$, and $T$ are in space such that each of $\\overline{TA}$, $\\overline{TB}$, and $\\overline{TC}$ is perpendicular to the other two.  If $TA = TB = 12$ and $TC = 6$, then what is the distance from $T$ to face $ABC$?",
+  "n_questions": 11,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the relationship between points $A$, $B$, $C$, and $T$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What are the lengths of $\\overline{TA}$, $\\overline{TB}$, and $\\overline{TC}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the volume of the pyramid $TABC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we express the volume of the pyramid in terms of the distance from $T$ to face $ABC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can we find the area of triangle $ABC$ using the given information?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we apply the Pythagorean Theorem to find the lengths of $AB$, $AC$, and $BC$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can we determine if triangle $ABC$ is isosceles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we find the length of altitude $\\overline{CM}$ of triangle $ABC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we find the area of triangle $ABC$ using the lengths of $AB$ and $CM$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can we substitute the area of triangle $ABC$ into the equation for the distance $h$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "What is the final result for the distance from $T$ to face $ABC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

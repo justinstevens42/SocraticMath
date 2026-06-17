@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_350",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem": "Let $N$ be the sum of the divisors of $200$. What is the largest prime factor of $N$?",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the prime factorization of 200?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can we calculate the sum of the divisors of 200 using the prime factorization?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain how the expression (1+2+2^2+2^3)(1+5+5^2) represents the sum of divisors?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do we simplify the expression (1+2+2^2+2^3)(1+5+5^2) to calculate N?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the value of N?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do we determine the largest prime factor of N?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Why is the largest prime factor of N equal to 31?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other numbers where we can use a similar approach to find the sum of divisors and their largest prime factor?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_925",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem": "Compute $\\cos 240^\\circ$.",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe how to compute $\\cos 240^\\circ$ using the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How is the point $P$ related to the unit circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What can we say about the properties of triangle $POD$ based on the given diagram?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the coordinates of point $P$ using the given information about the altitude?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there any special properties or angles in triangle $POD$ that we can use to help us compute $\\cos 240^\\circ$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How does the value of $\\cos 240^\\circ$ relate to the lengths of the sides of triangle $POD$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other scenarios where we can apply similar reasoning or steps to compute trigonometric functions of specific angles?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

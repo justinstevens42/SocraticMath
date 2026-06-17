@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_14",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 1",
+  "problem": "Sixteen is 64$\\%$ of what number?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we represent the given problem mathematically?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for sixteen to be 64% of a certain number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we translate the phrase \"64% of what number\" into an algebraic expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What operation(s) do we need to perform to solve this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you write an equation that represents the problem? What does it look like?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What steps can we take to isolate the variable and find the unknown number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Is there a specific algebraic method you would choose to solve this equation? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How would you solve the equation using the chosen method?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How would you determine if your solution is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any other real-life situations where similar mathematical thinking and steps might be needed?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

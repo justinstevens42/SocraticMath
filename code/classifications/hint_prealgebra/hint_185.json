@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_185",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem": "A survey of $120$ teachers determined the following:\n\n$70$ had high blood pressure\n\n$40$ had heart trouble\n\n$20$ had both high blood pressure and heart trouble\n\nWhat percent of the teachers surveyed had neither high blood pressure nor heart trouble?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What was the purpose of the survey and what was the sample size?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many teachers had high blood pressure?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many teachers had heart trouble?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many teachers had both high blood pressure and heart trouble?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many teachers had neither high blood pressure nor heart trouble?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you create a Venn diagram to visually represent the information given?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "If there were 200 teachers surveyed instead of 120, would the percentage of teachers without high blood pressure or heart trouble change?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "If 30 out of the 40 teachers with heart trouble were also overweight, what percentage of the total sample size is overweight and has heart trouble?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

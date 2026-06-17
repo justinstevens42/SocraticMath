@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_36",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem": "Simplify\n\\[\\frac{\\sin{10^\\circ}+\\sin{20^\\circ}}{\\cos{10^\\circ}+\\cos{20^\\circ}}.\\]Enter your answer is a trigonometric function evaluated at an integer, such as \"sin 7\".  (The angle should be positive and as small as possible.)",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we simplify the given expression \\[\\frac{\\sin{10^\\circ}+\\sin{20^\\circ}}{\\cos{10^\\circ}+\\cos{20^\\circ}}\\] using trigonometric identities?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the product-to-sum identity? How can we apply it in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How do we rewrite the expression using the product-to-sum identity?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What can we cancel out in the numerator and denominator after applying the product-to-sum identity?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the final simplified expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What trigonometric function is the simplified expression equivalent to?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the angle in the trigonometric function and why should it be positive and as small as possible?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the final answer in the requested format, using the function mentioned and an integer angle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

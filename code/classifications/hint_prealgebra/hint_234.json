@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_234",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 1",
+  "problem": "One piece of string is 1.5 inches long and another piece of string is 4.5 inches long. What is the average length, in inches, of these two pieces of string?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many pieces of string are we dealing with?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What are the lengths of the two pieces of string?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we calculate the average length of the two pieces of string?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you show me the equation or expression that represents the average length calculation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What values do we substitute into the equation to get the average length?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you simplify the expression and calculate the average length?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

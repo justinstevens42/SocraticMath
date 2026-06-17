@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_443",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem": "In trapezoid $ABCD$, sides $\\overline{AB}$ and $\\overline{CD}$ are parallel, $\\angle A = 2\\angle D$, and $\\angle C = 3\\angle B$.  Find $\\angle B$.",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is given about trapezoid ABCD and what are we trying to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What do we know about the angles of trapezoid ABCD?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the fact that sides AB and CD are parallel to find an equation involving angle B and angle C?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the given information that angle A is twice angle D to find an equation involving angle B and angle D?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we solve the system of equations we obtained in questions 3 and 4 to find the value of angle B?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other properties or theorems that we can use to find the value of angle B in trapezoid ABCD?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How does the fact that angle B is 45 degrees satisfy the given conditions of the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other geometric figures or problems where solving for unknown angles involves similar steps?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

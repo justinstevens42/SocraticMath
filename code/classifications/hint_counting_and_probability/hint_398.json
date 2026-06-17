@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_398",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem": "How many three-digit numbers are composed of three distinct digits such that one digit is the average of the other two?",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the problem is asking for in your own words?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How would you define a three-digit number composed of three distinct digits?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you describe what it means for one digit to be the average of the other two in this context?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How would you identify if a set of three digits can form an increasing arithmetic sequence?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why there are 8 possible sequences with a common difference of 1?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How did you determine that there are 6 possible sequences with a common difference of 2, 4 with a common difference of 3, and 2 with a common difference of 4?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Why did you add up the numbers of sequences for each common difference to find the total number of possible arithmetic sequences?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How did you determine the number of different numbers that can be formed for sets containing 0 and those that do not contain 0?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you explain why there are $4\\cdot4+16\\cdot6=\\boxed{112}$ numbers with the required properties?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any similar problems that might require a similar approach of analyzing arithmetic sequences and distinct digits?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

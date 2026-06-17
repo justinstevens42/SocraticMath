@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_103",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "Let $x,$ $y,$ $z$ be real numbers such that $x + 2y + z = 4.$  Find the maximum value of\n\\[xy + xz + yz.\\]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Is there any equation given in the problem? If yes, what is it and how can we use it to find the maximum value of $xy + xz + yz$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can we rewrite the equation in terms of only two variables? If yes, what are the two variables and how can we use them to find the maximum value?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we maximize the expression $xy + xz + yz$ using the given equation and the information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Is there a way to represent $xy + xz + yz$ geometrically? If yes, what is it and how can we use it to find the maximum value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any constraints on the values of $x,$ $y,$ and $z$ in the problem? If yes, what are they and how can we use them to find the maximum value of $xy + xz + yz$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

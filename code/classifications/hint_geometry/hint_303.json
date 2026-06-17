@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_303",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "A quadrilateral in the plane has vertices $(1, 3)$, $(1, 1)$, $(2, 1)$ and $(2006, 2007)$. How many square units is the area of the quadrilateral?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "r",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the steps involved in finding the area of the given quadrilateral?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we divide the quadrilateral into two triangles? Why is this method helpful in finding the area?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What are the lengths of the sides of triangle $ABC$? How can we calculate the area of this triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What are the lengths of the sides of triangle $ACD$? How can we calculate the area of this triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between the areas of the two triangles and the area of the entire quadrilateral?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other methods or formulas that could be used to find the area of the quadrilateral? How do they compare to the method used here?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "How would the calculation change if the coordinates of the vertices were different? Can you generalize the method to find the area of any quadrilateral given its vertices in the coordinate plane?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

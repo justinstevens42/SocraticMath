@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_922",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem": "The vectors $\\mathbf{a} = \\begin{pmatrix} 3 \\\\ 1 \\\\ -2 \\end{pmatrix}$ and $\\mathbf{b} = \\begin{pmatrix} 0 \\\\ 2 \\\\ -1 \\end{pmatrix}.$  There exist scalars $p,$ $q,$ and $r$ such that\n\\[\\begin{pmatrix} 4 \\\\ 1 \\\\ -4 \\end{pmatrix} = p \\mathbf{a} + q \\mathbf{b} + r (\\mathbf{a} \\times \\mathbf{b}).\\]Find $r.$",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of a vector?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we write vector $\\mathbf{a}$ and vector $\\mathbf{b}$ in component form?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the definition of the cross product of two vectors?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we compute the cross product of vectors $\\mathbf{a}$ and $\\mathbf{b}$, and what is the result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the dot product of two vectors, and how is it related to the angle between the vectors?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What is the formula for expressing a vector in terms of a linear combination of other vectors, and what does it mean geometrically?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How do we find the values of $p$, $q$, and $r$ in the equation $\\begin{pmatrix} 4 \\\\ 1 \\\\ -4 \\end{pmatrix} = p \\mathbf{a} + q \\mathbf{b} + r (\\mathbf{a} \\times \\mathbf{b})$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How do we use the orthogonality of the cross product to simplify the equation involving $p$, $q$, and $r$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the value of $r$ that we obtain from solving the simplified equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

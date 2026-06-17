@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_595",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "If $a$ and $b$ are integers with $a > b$, what is the smallest possible positive value of $\\frac{a+b}{a-b} + \\frac{a-b}{a+b}$?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information in this question?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you simplify the expression $\\frac{a+b}{a-b} + \\frac{a-b}{a+b}$? If yes, what does it simplify to?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Is there any restriction on the values of $a$ and $b$? If so, what are they?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the smallest possible positive value of an expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you find a way to rewrite the expression $\\frac{a+b}{a-b} + \\frac{a-b}{a+b}$ in a simpler form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there a pattern or property in the expression that could help us find the smallest possible value?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "What values can the numerator and denominator take to minimize the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we ensure that the resulting expression is positive?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Is there any relationship between the numerator and denominator that can guide us in finding the minimum value?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any similar situations or problems where the same kind of thinking and steps might be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

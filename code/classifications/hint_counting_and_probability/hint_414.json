@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_414",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem": "Two cards are dealt at random from a standard deck of 52 cards.  What is the probability that the first card is a King and the second card is a $\\heartsuit$?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total number of possible outcomes when two cards are dealt from a standard deck of 52 cards?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Out of the 52 cards, how many of them are kings? And how many of those kings are of the $\\heartsuit$ suit?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the probability of drawing a King as the first card?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "If the first card drawn is a King, what is the probability of drawing a $\\heartsuit$ as the second card?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the probability of drawing a non-$\\heartsuit$ King as the first card?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "If a non-$\\heartsuit$ King is drawn first, what is the probability of drawing a $\\heartsuit$ as the second card?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can we combine the probabilities from cases 4 and 6 to find the overall probability of the first card being a King and the second card being a $\\heartsuit$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

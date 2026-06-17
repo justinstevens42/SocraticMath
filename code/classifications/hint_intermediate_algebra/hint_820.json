@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_820",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem": "Find the roots of $6x^4+19x^3-51x^2+20x$. Enter your answer as a list of numbers separated by commas.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step in solving the equation $6x^4+19x^3-51x^2+20x=0$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How did we know to factor out an $x$ from every term in the polynomial? Can you explain why this step is necessary?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is $g(x)$ and why did we introduce this new function?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How did we determine that there must be a root of $g(x)$ between 0 and 1?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the Rational Root Theorem and how did we apply it in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What led us to try $\\frac{1}{2}$ as a potential root for $g(x)$? How did we determine that it is indeed a root?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How did we determine that $2x-1$ is a factor of $g(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How was the quadratic factor $3x^2+11x-20$ obtained?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How did we find the last two roots of the polynomial from the factors of $3x^2+11x-20$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Finally, what are the roots of the original polynomial $6x^4+19x^3-51x^2+20x$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

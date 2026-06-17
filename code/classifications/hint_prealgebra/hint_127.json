@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_127",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem": "What is $2^{16} \\div 16^2$? Write your answer as an integer.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we simplify $16^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Using the property $(a^b)^c = a^{bc}$, what is $16^2$ equal to?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we rewrite $2^{16} \\div 16^2$ using the simplified value of $16^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "According to the property $a^b \\div a^c = a^{b-c}$, what is $2^{16} \\div 2^8$ equal to?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Simplify the expression $2^{16-8}$.",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the final simplified value of $2^{16} \\div 16^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

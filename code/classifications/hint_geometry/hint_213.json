@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_213",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem": "Suppose that there are two congruent triangles $\\triangle ABC$ and $\\triangle ACD$ such that $AB = AC = AD,$ as shown in the following diagram. If $\\angle BAC = 20^\\circ,$ then what is $\\angle BDC$? [asy]\npair pA, pB, pC, pD;\npA = (0, 0);\npB = pA + dir(240);\npC = pA + dir(260);\npD = pA + dir(280);\ndraw(pA--pB--pC--pA);\ndraw(pA--pC--pD--pA);\nlabel(\"$A$\", pA, N);\nlabel(\"$B$\", pB, SW);\nlabel(\"$C$\", pC, S);\nlabel(\"$D$\", pD, E);\n[/asy]",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step you would take in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What information can we gather from the given diagram?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How do we know that triangle ABC is isosceles?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why angle ACB is equal to angle ABC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine the measure of angle ACD?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Why is triangle BCD also isosceles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How does the measure of angle BCD relate to angles ACB and ACD?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "Can you calculate the measure of angle BDC using the information we gathered?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

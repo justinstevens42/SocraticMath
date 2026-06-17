@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_161",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem": "Compute\n\\[\n\\begin{vmatrix} \\cos 1 & \\cos 2 & \\cos 3 \\\\ \\cos 4 & \\cos 5 & \\cos 6 \\\\ \\cos 7 & \\cos 8 & \\cos 9 \\end{vmatrix}\n.\\]All the angles are in radians.",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the determinant of a matrix represents?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we compute the determinant of this specific matrix?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Why did we use the angle addition formula to relate the entries in each row?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How does the angle addition formula help us simplify the matrix entries?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why did we focus on the third column of the matrix?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why the third column is a linear combination of the first two columns?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How does the fact that the third column is a linear combination of the first two columns affect the determinant?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you explain why the determinant of the given matrix is 0?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

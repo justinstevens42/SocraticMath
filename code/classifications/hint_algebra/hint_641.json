@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_641",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "Suppose that $f(x)=\\frac{1}{2x+b}$. For what value of $b$ does $f^{-1}(x)=\\frac{1-2x}{2x}$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step you should take when finding the inverse of a function?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you recall any specific methods or techniques to find the inverse of a function?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you choose to use the substitution method, how would you proceed to find the inverse in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean for two functions to be inverses of each other? How can you use this information to find the value of $b$ in the given problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the inverse function $f^{-1}(x)$ in this case? Can you explain how you arrived at this result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other types of functions where finding the inverse might require similar reasoning and steps?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

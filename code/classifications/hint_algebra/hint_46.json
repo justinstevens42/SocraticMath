@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_46",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem": "How many $x$-intercepts does the graph of the parabola $x = -2y^2 + y + 1$ have?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "b",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what an $x$-intercept is in relation to a graph?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for a point to be an $x$-intercept?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How do we typically find the $x$-intercept of a graph?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Are there any specific strategies or formulas we can use to find the $x$-intercept of a parabola?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine the number of $x$-intercepts a parabola has based on its equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What information can we gather from the equation $x = -2y^2 + y + 1$ that could help us determine the number of $x$-intercepts?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "What do you notice about the coefficient of the variable $y$ in the equation? How does this impact the graph of the parabola?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "How can we express the equation $x = -2y^2 + y + 1$ in the standard form of a parabola equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "In what form can we analyze the standard form equation to determine the number of $x$-intercepts?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you now determine the number of $x$-intercepts the graph of the parabola has?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

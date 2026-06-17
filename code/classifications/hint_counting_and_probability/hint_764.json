@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_764",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem": "What is the probability that the square root of a randomly selected two-digit whole number is less than eight? Express your answer as a common fraction.",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does it mean for the square root of a number to be less than eight?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the total number of choices for a two-digit positive integer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain why all the integers less than 64 satisfy the condition $\\sqrt{n} < 8$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How did we find the set of integers from 10 to 63 that satisfy $\\sqrt{n} < 8$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the reasoning behind dividing the number of satisfactory integers by the total number of choices to calculate probability?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any alternative methods to solve this probability problem?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "What other concepts or topics might involve similar thinking and steps as we discussed here?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we generalize this approach to solve probability problems with different conditions?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

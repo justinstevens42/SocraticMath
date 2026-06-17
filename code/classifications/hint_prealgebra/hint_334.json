@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_334",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem": "Points $A$, $B$, $C$ and $D$ are midpoints of the sides of the larger square.  If the larger square has area 60, what is the area of the smaller square? [asy]\npair a=(0,1),b=(1,0),c=(0,-1),d=(-1,0);\ndraw((-1,-1)--(-1,1)--(1,1)--(1,-1)--cycle);\ndraw(a--b--c--d--cycle);\nlabel(\"$A$\", a, N);\nlabel(\"$B$\", b, E);\nlabel(\"$C$\", c, S);\nlabel(\"$D$\", d, W);\n[/asy]",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given problem asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How is the larger square divided into smaller triangles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the relationship between the larger square and the smaller square?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the given information to determine the area of the smaller square?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why the area of the smaller square is half of the larger square?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other ways to divide the larger square to find the area of the smaller square?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "How can we check our answer to ensure it is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

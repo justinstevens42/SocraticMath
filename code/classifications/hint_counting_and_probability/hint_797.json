@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_797",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem": "A math conference is presenting a lecture series with six different lecturers. If Dr. Smith's lecture depends on Dr. Jones's lecture, so that Dr. Smith must be scheduled at some time after Dr. Jones, in how many orders can the six lecturers be scheduled?",
+  "n_questions": 9,
+  "labels": [
+    "b",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many different lectures are there in the conference?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Is there any restriction on the scheduling order of the lecturers?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Which lecturer's schedule is dependent on another lecturer's schedule?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can Dr. Smith be scheduled before Dr. Jones?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How many possible orders are there if there are no restrictions on the scheduling of the lecturers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many of these orders would have Dr. Jones's lecture before Dr. Smith's lecture?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we determine the number of ways to schedule the conference considering the dependency between Dr. Smith and Dr. Jones?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the relationship between the unrestricted and restricted scheduling orders?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "How can we calculate the final number of possible scheduling orders for the conference?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "problem_id": "hint_37",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem": "We call a number a mountain number if its middle digit is larger than any other digit.  For example, 284 is a mountain number.  How many 3-digit mountain numbers are there?",
+  "n_questions": 14,
+  "labels": [
+    "r",
+    "b",
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a mountain number? Can you provide an example?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How many digits are in a mountain number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the middle digit of a 3-digit mountain number?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Can the middle digit be the same as any other digit in a mountain number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How many possible choices are there for the middle digit in a 3-digit mountain number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "In Case 1, why do any pair of nonzero digits have a corresponding palindrome mountain number in the form $xyx$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "In Case 2, why are there two corresponding mountain numbers for any group of three nonzero digits?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Why can't $z$ be equal to $x$ in Case 2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How many possible choices are there for $x$, $y$, and $z$ in Case 2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "In Case 3, why do any pair of nonzero digits have a corresponding mountain number in the form $xy0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "How many possible choices are there for $x$ and $y$ in Case 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "What is the total number of 3-digit mountain numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 13,
+      "question": "How did we arrive at the final answer of 240?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 14,
+      "question": "Can you think of other types of numbers that might have certain criteria for their digits?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

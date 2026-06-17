@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_121",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "Two circles of radius 10 cm overlap such that each circle passes through the center of the other, as shown. How long, in cm, is the common chord (dotted segment) of the two circles? Express your answer in simplest radical form.\n\n[asy]\ndraw(Circle((0,0),10),linewidth(1));\ndraw(Circle((10,0),10),linewidth(1));\ndot((0,0));\ndot((10,0));\ndraw((5,8.66)--(5,-8.66),linetype(\"0 4\")+linewidth(1));\n\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step to find the length of the common chord in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How would you determine the length of the common chord using the given information about the circles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain why the triangle formed by connecting the centers of the circles is equilateral?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean for a triangle to be equilateral? How does that help us find the length of the common chord?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How do we find the area of the equilateral triangle using the given radius of the circles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the relationship between the area of the equilateral triangle and the length of the altitude?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can we use the formula for the area of the equilateral triangle to solve for the length of the altitude?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the length of the altitude (height) of the equilateral triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we use this length of the altitude to find the length of the common chord?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you express the length of the common chord in simplest radical form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

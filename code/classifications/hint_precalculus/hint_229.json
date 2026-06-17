@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_229",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem": "Compute\n\\[\\begin{pmatrix} 0 & c & -b \\\\ -c & 0 & a \\\\ b & -a & 0 \\end{pmatrix} \\begin{pmatrix} a^2 & ab & ac \\\\ ab & b^2 & bc \\\\ ac & bc & c^2 \\end{pmatrix}.\\]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given matrix product and how can we represent it in terms of rows and columns?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you describe what the row vectors and the vector $\\mathbf{v}$ represent in this context?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine if two vectors are orthogonal to each other?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Given that the dot product between each row vector and $\\mathbf{v}$ is zero, what does this imply about the resulting matrix product?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why the resulting matrix is the zero matrix?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other scenarios in linear algebra where multiplying two matrices would result in the zero matrix?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_467",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem": "Let $f(x) = 3x + 3$ and $g(x) = 4x + 3.$ What is $f(g(f(2)))$?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what the function $f(x)$ does to the input $x$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "And how about the function $g(x)$? What does it do?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "When we have functions nested inside each other, what does it mean when we write $f(g(f(2)))$? Can you explain the process of evaluating this expression step by step?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the result of applying $f$ to 2? How did you get that?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "After applying $g$ to the previous result, what value do we obtain? Explain the steps involved.",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Finally, when we apply $f$ to the previous result, what is the final output? Show your work.",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you simplify the expression $f(g(f(2)))$ further? If so, what is the simplified form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any other functions that we could use instead of $f(x)$ and $g(x)$? In this case, what would be the result of evaluating $f(g(f(2)))$ using those different functions?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "How does the order in which we apply the functions affect the final result? Would the result be the same if we evaluated $g(f(g(2)))$ instead? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any real-world situations or examples where the idea of nested functions could be useful or applicable?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

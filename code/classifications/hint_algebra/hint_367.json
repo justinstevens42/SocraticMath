@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_367",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem": "Simplify $2(3-i)+i(2+i)$.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step in simplifying the expression $2(3-i)+i(2+i)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we simplify each term within parentheses separately?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can we combine like terms after simplifying within parentheses?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How would you simplify $2(3-i)$? And how about $i(2+i)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the sum of $2(3-i)$ and $i(2+i)$ after simplification?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we simplify the expression further by combining like terms or simplifying imaginary units?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

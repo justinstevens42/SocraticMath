@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_442",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "Points $P$ and $R$ are located at (2, 1) and (12, 15) respectively. Point $M$ is the midpoint of segment $\\overline{PR}$. Segment $\\overline{PR}$ is reflected over the $x$-axis. What is the sum of the coordinates of the image of point $M$ (the midpoint of the reflected segment)?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the process of finding the midpoint of segment PR?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How does reflecting a point over the x-axis affect its coordinates?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How do we determine the coordinates of the image of point M after reflecting segment PR over the x-axis?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the formula to calculate the midpoint of two points?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you apply the formula to find the midpoint of segment PR?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can you use the midpoint of segment PR to find the image of point M after reflecting over the x-axis?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you calculate the coordinates of the image of point M using the information you've gathered?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the sum of the coordinates of the image of point M?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

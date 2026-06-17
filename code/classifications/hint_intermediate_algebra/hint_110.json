@@ -1,0 +1,103 @@
+{
+  "problem_id": "hint_110",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "Let $z$ be a complex number such that\n\\[|z^2 + 4| = |z(z + 2i)|.\\]Find the smallest possible value of $|z + i|.$",
+  "n_questions": 13,
+  "labels": [
+    "r",
+    "e",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you restate the given equation using the properties of complex conjugates?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the significance of $z^2 + 4 = (z + 2i)(z - 2i)$ in solving the equation?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 3,
+      "question": "How can you simplify the given equation by using the expression $z^2 + 4$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain the reasoning behind equating $|z + 2i||z - 2i| = |z||z + 2i|$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "If $|z + 2i| = 0,$ what is the implication for the complex number $z$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can you simplify the equation if $|z + 2i| \\neq 0?$",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the geometric interpretation of $|z - 2i| = |z|$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the locus of points satisfying the condition $|z - 2i| = |z|$ in the complex plane?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the form of the complex number $z$ that satisfies the condition $|z - 2i| = |z|$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can you express $z$ in terms of a real number $x$ to better understand the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "What is the range of possible values for $|z + i|$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "What is the minimum possible value of $|z + i|$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 13,
+      "question": "For which value of $z$ is the minimum possible value of $|z + i|$ attained?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

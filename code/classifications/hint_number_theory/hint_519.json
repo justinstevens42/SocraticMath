@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_519",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 1",
+  "problem": "Find the largest integer less than 74 that leaves a remainder of 3 when divided by 7.",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we express the given problem mathematically using the Division Theorem ($a=bq+r$)?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for a number to leave a remainder of 3 when divided by 7? Can you provide an example?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain why we subtracted 1 after finding the remainder of 4? How does this help us find the largest integer less than 74?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Is it possible to find the largest integer less than 74 that leaves a remainder of 3 when divided by 7 using a different approach? If so, what other methods can we consider?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of any other number theory problems that involve finding the largest integer with a specific remainder? How might we approach those problems?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why the largest integer less than 74 that leaves a remainder of 3 when divided by 7 is 73? How can we verify that our answer is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

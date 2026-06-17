@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_784",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem": "At the grocery store, I bought $4$ different items. I brought $3$ identical bags, and handed them to the cashier. How many ways are there for the cashier to put the items I bought in the $3$ identical bags, assuming he might leave some of the bags empty?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the different cases we can consider when distributing the four items into the three identical bags?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "For the first case where all four items go in the same bag, how many ways are there to do this?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many ways can we choose one item to be in a bag by itself while the other three items go in another bag?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "In the case where two items go in one bag and the other two go in another bag, how many ways can we choose which items go together?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Since the bags are identical, do we need to consider the order in which the items are placed in the bags?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the total number of ways when two items go in one bag and the other two items each go in a different bag?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

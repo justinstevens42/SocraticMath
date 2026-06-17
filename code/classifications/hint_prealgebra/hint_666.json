@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_666",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem": "Marguerite drove 100 miles in 2.4 hours. If Sam drove for 3 hours at the same average rate as Marguerite, how many miles did he drive?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the ratio of distance to time for Marguerite's drive based on the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "If the same ratio applies to Sam, how can we use it to find the distance he drove in 3 hours?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can we use the formula for speed to verify our answer? How would we do so?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What would happen to the distance Sam drove if he traveled at a faster or slower pace than Marguerite?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use this problem to understand the relationship between distance, time, and speed in a proportional setting?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

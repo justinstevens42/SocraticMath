@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_339",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 1",
+  "problem": "Find $\\log_{10} 40 +\\log_{10} 25$.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem using the given logarithm property $\\log x+\\log y=\\log xy$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean when we rewrite $\\log_{10} 40+\\log_{10} 25$ as $\\log_{10}(40\\cdot 25)$? How does this help us simplify the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we rewrite $40 \\cdot 25$ as a power of 10? What does that tell us about the value of $\\log_{10}(40\\cdot 25)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What value of $x$ satisfies the equation $10^x = 1000$? How does this value relate to the expression $\\log_{10} 40+\\log_{10} 25$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why the expression $\\log_{10} 40+\\log_{10} 25$ simplifies to $\\log_{10}(40 \\cdot 25) = \\log 1000$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What does $\\log 1000$ equal? How does this final value relate to the original expression $\\log_{10} 40+\\log_{10} 25$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

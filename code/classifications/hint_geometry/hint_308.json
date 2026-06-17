@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_308",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "A frustum of a right circular cone is formed by cutting a small cone off of the top of a larger cone. If a particular frustum has a lower base radius of 6 inches, an upper base radius of 3 inches, and a height of 4 inches, what is its lateral surface area?  (The lateral surface area of a cone or frustum is the curved surface excluding the base(s).)\n\n[asy]size(200);\nimport three; defaultpen(linewidth(.8)); currentprojection = orthographic(0,-3,0.5); pen dots = linetype(\"0 3\") + linewidth(1);\nreal h = 2.3, ratio = (91-24)/(171-24);\npicture p1, p2; /* p1 is left-hand picture */\ntriple A = (0,0,0), B = (0,0,h); draw(p1,(-1,0,0)..(0,-1,0)..(1,0,0)); draw(p1,(-1,0,0)..(0,1,0)..(1,0,0),dots); draw(p1,(-1,0,0)--B--(1,0,0));\nadd(p1);\n\ntriple vlift = (0,0,0.5);\n\npath3 toparc1 = shift((0,0,h*(1-ratio)))*scale3(ratio)*((-1,0,0)..(0,1,0)..(1,0,0)), toparc2 = shift((0,0,h*(1-ratio)))*scale3(ratio)*((1,0,0)..(0,-1,0)..(-1,0,0));\ndraw(p2,(-1,0,0)..(0,-1,0)..(1,0,0)); draw(p2,(-1,0,0)..(0,1,0)..(1,0,0),dots);\n\ndraw(p2,(-1,0,0)--ratio*(-1,0,0)+(1-ratio)*B^^ratio*(1,0,0)+(1-ratio)*B--(1,0,0));\n\ndraw(p2,shift(vlift)*(ratio*(-1,0,0)+(1-ratio)*B--B--ratio*(1,0,0)+(1-ratio)*B));\n\ndraw(p2,toparc1--toparc2); draw(p2,shift(vlift)*toparc1,dots); draw(p2,shift(vlift)*toparc2);\n\ndraw(p2,shift(vlift)*((1-ratio)*B--B),linewidth(0.7)); dot(p2,shift(vlift)*((1-ratio)*B),linewidth(1.5));\nlabel(p2,\"frustum\",(0,0,h/4));\n\nadd(shift((3.4,0,0))*p2);\n\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a frustum of a cone? How is it formed?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you describe the dimensions of the frustum mentioned in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the slant height of the frustum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why do we need to find the height of the full cone to compute the lateral surface area of the frustum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine the height of the full cone?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "When unrolled, what does the lateral surface area of the full cone look like?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we find the lateral surface area of the full cone using the unrolled shape?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we find the lateral surface area of the small cone that was removed?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the relationship between the lateral surface area of the full cone and the small cone?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 10,
+      "question": "How can we find the lateral surface area of the frustum using the lateral surface areas of the full and small cones?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

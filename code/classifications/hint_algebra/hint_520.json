@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_520",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem": "Find the center of the circle with equation $x^2 - 2x + y^2 - 4y - 28 = 0$.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "e",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you identify the general form of a circle equation and compare it to the given equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the steps involved in completing the square for this equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can completing the square help us find the coordinates of the center of the circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you show the steps you would take to complete the square for this equation and find the coordinates of the center?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Once you have completed the square, what can you conclude about the center of the circle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any particular characteristics or patterns in the coefficients of the equation that can help in identifying the center?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "If you had a different equation representing a circle, would the process of finding the center be similar or different? Explain.",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How does finding the center of a circle relate to understanding the concept of symmetry?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any real-life examples or applications where finding the center of a circle is important?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "What other geometrical properties of a circle can be determined once the center is known?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

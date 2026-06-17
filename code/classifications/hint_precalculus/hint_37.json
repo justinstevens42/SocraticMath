@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_37",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem": "In a polar coordinate system, the midpoint of the line segment whose endpoints are $\\left( 8, \\frac{5 \\pi}{12} \\right)$ and $\\left( 8, -\\frac{3 \\pi}{12} \\right)$ is the point $(r, \\theta).$  Enter $(r, \\theta),$ where $r > 0$ and $0 \\le \\theta < 2 \\pi.$",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we find the midpoint of a line segment in a polar coordinate system?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain how we can represent points in polar coordinates?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What do we know about the points A and B on the circle with radius 8? How does this information help us?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the angle AOM? How does it relate to the angles in the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we calculate the distance OM? What formula or concept can we use?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the angle between the positive x-axis and the line segment OM? How can we find this angle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Using the information we have gathered, can you determine the polar coordinates of point M?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

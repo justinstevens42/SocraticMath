@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_54",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem": "Lyndy conducted a survey of the 300 students in her school. She found that 60 students own dogs, while only 30 students own cats. What percent of the students own cats?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total number of students that Lyndy surveyed?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the total number of students that own pets in this survey?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the difference in the number of students who own dogs and cats?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What information do we need to find the percentage of students that own cats?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can we convert a fraction to a percentage?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What percentage of students in Lyndy's school own cats based on the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What other pieces of information could help us to find the percentage of students that own cats?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you come up with a real-world scenario where knowing the percentage of students that own pets would be useful?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "How might you approach finding the percentage ownership for different types of pets (e.g. hamsters, fish, birds) in Lyndy's school?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

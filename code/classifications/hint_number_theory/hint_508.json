@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_508",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem": "For positive integers $n$, let $f(n)$ return the smallest positive integer $k$ such that $\\frac{1}{k}$ has exactly $n$ digits after the decimal point. How many positive integer divisors does $f(2010)$ have?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking for?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the function f(n) defined as?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Based on the given information, what is the relationship between f(n) and the number of digits after the decimal point of 1/k?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the condition for an integer to be considered as a divisor of f(2010)?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the smallest integer that divides 10^n and leaves a quotient that is not divisible by 10?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Why is k=2^n the smallest integer that satisfies the given condition?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can it be proved that f(n) is always a power of 2? If so, how?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the value of f(2010)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What are the divisors of 2^2010?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 10,
+      "question": "How many positive integer divisors does f(2010) have?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

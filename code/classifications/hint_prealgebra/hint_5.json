@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_5",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem": "In the diagram, square $ABCD$ has sides of length $4,$ and $\\triangle ABE$ is equilateral. Line segments $BE$ and $AC$ intersect at $P.$ Point $Q$ is on $BC$ so that $PQ$ is perpendicular  to $BC$ and $PQ=x.$ [asy]\npair A, B, C, D, E, P, Q;\nA=(0,0);\nB=(4,0);\nC=(4,-4);\nD=(0,-4);\nE=(2,-3.464);\nP=(2.535,-2.535);\nQ=(4,-2.535);\ndraw(A--B--C--D--A--E--B);\ndraw(A--C);\ndraw(P--Q, dashed);\nlabel(\"A\", A, NW);\nlabel(\"B\", B, NE);\nlabel(\"C\", C, SE);\nlabel(\"D\", D, SW);\nlabel(\"E\", E, S);\nlabel(\"P\", P, W);\nlabel(\"Q\", Q, dir(0));\nlabel(\"$x$\", (P+Q)/2, N);\nlabel(\"4\", (A+B)/2, N);\n[/asy] Determine the measure of angle $BPC.$",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What information is given in the diagram?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you identify any special properties of the given shapes (square and equilateral triangle) that might be useful in solving the problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What do you know about the angles in a square? How can this help you find the measure of angle BPC?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How does the fact that AB = BC help in finding the measure of angle BPC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you use any trigonometric relationships to find the measure of angle BPC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How does the fact that PQ is perpendicular to BC assist in finding the measure of angle BPC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you apply any angle relationships (such as supplementary or complementary angles) to find the measure of angle BPC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

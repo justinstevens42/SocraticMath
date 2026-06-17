@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_450",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 1",
+  "problem": "Compute $\\cos 0^\\circ$.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the initial position of the point $(1,0)$ before any rotation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How does rotating a point counterclockwise affect its coordinates?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain why the point $(1,0)$ remains unchanged after a $0^\\circ$ counterclockwise rotation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How does the cosine function relate to the x-coordinate of a point on the unit circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the x-coordinate of the point $(1,0)$ on the unit circle and how does it relate to the cosine of $0^\\circ$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other angles for which the cosine value would be 1? How does your reasoning apply in those cases?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

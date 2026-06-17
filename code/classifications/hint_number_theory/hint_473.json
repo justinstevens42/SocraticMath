@@ -1,0 +1,47 @@
+{
+  "problem_id": "hint_473",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem": "If $a\\equiv 18\\pmod{42}$ and $b\\equiv 73\\pmod{42}$, then for what integer $n$ in the set $\\{100,101,102,\\ldots,140,141\\}$ is it true that $$a-b\\equiv n\\pmod{42}~?$$",
+  "n_questions": 5,
+  "labels": [
+    "r",
+    "b",
+    "r",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does it mean for integers to be congruent modulo a certain number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the given congruences to find the value of $a-b$ modulo 42?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Why do we need to add multiples of 42 to the difference $a-b$ to obtain a value in the range $100\\leq n<142$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Are there any other ways to solve this problem besides using modular arithmetic?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "Can we generalize this problem to find $n$ for any pair of congruent integers $a$ and $b$ modulo a certain number? How would we approach such a problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_266",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 1",
+  "problem": "Given that 10 is the arithmetic mean of the set $\\{6, 13, 18, 4, x\\}$, what is the value of $x$?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of arithmetic mean？",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you identify the 5 numbers in the set provided?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How did you know to add all the numbers and divide by 5 to find the arithmetic mean?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the equation we can write to represent the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the next step in solving the equation after we have simplified it to $41+x=50$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of a scenario where arithmetic mean can be used outside of math class?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

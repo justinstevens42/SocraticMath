@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_192",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem": "What is the 43rd digit after the decimal point in the decimal representation of $\\frac{1}{13}$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the pattern in the decimal representation of $\\frac{1}{13}$? Can you identify any repeating digits or recurring sequence?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the position of a specific digit in the decimal representation? Is there a relationship between the position and the pattern?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If the pattern repeats after every 6 digits, how can we find the digit at position 43? Can we express 43 in terms of the repeating pattern?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many times does the pattern repeat in the first 42 digits? What is the remaining position after those repetitions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Based on the remaining position, which digit from the pattern will be at position 43? How can you justify your choice?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you generalize this approach for finding any digit in the decimal representation of $\\frac{1}{13}$? How would the process change for a different number?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

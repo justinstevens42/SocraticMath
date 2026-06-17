@@ -1,0 +1,96 @@
+{
+  "problem_id": "hint_345",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem": "If two distinct numbers are selected at random from the first seven prime numbers, what is the probability that their sum is an even number? Express your answer as a common fraction.",
+  "n_questions": 12,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does it mean for two numbers to be selected at random from a set?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How many prime numbers are there in the first seven prime numbers set?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many possible pairs of distinct numbers can be formed from seven prime numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine if the sum of two numbers is even or odd?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "In this case, what is the condition for the sum to be odd?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Why is it the only way for the sum to be odd if one of the primes chosen is 2?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How many pairs can be formed where 2 is one of the primes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we calculate the probability of choosing a pair where the sum is not even?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the total number of possible pairs that can be selected?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can we determine the probability that the sum is even?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "What is the relationship between the probability of the sum being even and the probability of the sum being not even?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 12,
+      "question": "What is the final answer to the question: the probability that the sum is an even number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_597",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem": "In Idaho, 472 people were asked what they call soft drinks. The results of the survey are shown in the pie chart. The central angle of the ``Pop'' sector of the graph is $251^\\circ$, to the nearest whole degree. How many of the people surveyed chose ``Pop''? Express your answer as a whole number.\n\n[asy]import graph;\nsize(150);\nreal w = 10pt,linew = 1;\nfilldraw(Arc((0,0),1,0,251)--(0,0)--cycle,gray(.4),black+linewidth(linew));\nfilldraw(Arc((0,0),1,251,280)--(0,0)--cycle,white,black+linewidth(linew));\nfilldraw(Arc((0,0),1,280,350)--(0,0)--cycle,gray(.7),black+linewidth(linew));\nfilldraw(Arc((0,0),1,350,360)--(0,0)--cycle,white,black+linewidth(linew));\nlabel(\"\\textbf{POP}\",expi(2.19),expi(2.19),fontsize(w));\nlabel(\"\\textbf{COKE}\",expi(4.63),expi(4.63),fontsize(w));\nlabel(\"\\textbf{SODA}\",expi(5.50),expi(5.50),fontsize(w));\nlabel(\"\\textbf{OTHER}\",expi(6.20),expi(6.20),fontsize(w));[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many people were surveyed in total?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What information does the central angle of the \"Pop\" sector provide?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you calculate the fraction of the circle that represents \"Pop\" using the central angle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the formula to find the fraction of a circle given its central angle and the total angle of a circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the fraction calculated in the previous question to find the number of people who chose \"Pop\"?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there a need to round the result? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we check if the rounded number is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you explain how you checked if rounding the result to the nearest whole number gave a possible answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Is there any other possible answer that can be obtained by rounding differently?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Why did we use the method of multiplying the fraction by the total number of people surveyed? Are there any alternatives?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_275",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem": "What is the smallest positive integer $a$ such that $a^{-1}$ is undefined $\\pmod{55}$ and $a^{-1}$ is also undefined $\\pmod{66}$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what it means for an integer $a$ to have an inverse modulo $n$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "According to the given information, what must be true for $a$ to have an inverse modulo $55$ and modulo $66$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What property of $a$ allows it to not have an inverse modulo $55$? Why is this true?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What property of $a$ allows it to not have an inverse modulo $66$? Why is this true?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the smallest positive integer $a$ that satisfies both properties? How did you arrive at this answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you verify that this integer does not have an inverse modulo $55$ or modulo $66$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

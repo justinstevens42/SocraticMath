@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_295",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem": "Find $t$ such that $(t,5)$ lies on the line through $(0,3)$ and $(-8,0)$.",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of a line?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the equation of a line given two points on it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the slope of a line passing through two given points?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Using the formula for slope, what is the slope of the line passing through the points (0,3) and (-8,0)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the general form of a linear equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the point-slope form of a line to find the equation of the line passing through (0,3) with the given slope?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Once we have the equation of the line, how can we find the value of t for the point (t,5) lying on the line?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

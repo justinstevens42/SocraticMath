@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_319",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem": "Let $t$ be a parameter that varies over all real numbers.  Any parabola of the form\n\\[y = 3x^2 + tx - 2t\\]passes through a fixed point.  Find this fixed point.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "In what form is the equation of the parabola given?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the parameter $t$ and what does it represent in the equation of the parabola?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How would setting $x = 2$ help us find the fixed point?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "If we set $x = -1$ instead, what would be the equation of the parabola passing through the fixed point?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can we find the fixed point using a different method?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other values of $x$ that we could set to eliminate $t$ and find the fixed point?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

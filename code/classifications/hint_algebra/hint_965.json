@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_965",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem": "If $a$ is three times $b$, $b$ is twice $c$, and $c$ is four times $d$, what is the value of $\\frac{a\\cdot c}{b\\cdot d}$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Are there any different methods you know that can be utilized to solve this type of problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you choose to use substitution, how would you go about replacing the variables with their given values?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is substitution an appropriate method to solve this problem? What characteristics make it suitable in this scenario?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the resulting expression after substituting all the given values? How can you simplify it further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other equations or problems where substitution could be applied in a similar way?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_254",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "Find the domain of the real-valued function $$f(x)=\\sqrt{-10x^2-11x+6}.$$ Give the endpoints in your answer as common fractions, not mixed numbers or decimals.",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the domain of a function represents?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the restrictions on the domain of a square root function like this one?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the domain of this specific function?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the condition that needs to be satisfied for the expression inside the square root to be non-negative?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we solve the inequality $$-10x^2-11x+6 \\geq 0$$ to find the values of x that make the expression inside the square root non-negative?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What methods can we use to solve this quadratic inequality?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "If we solve the inequality, what values of x do we obtain?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we express those values as common fractions instead of mixed numbers or decimals?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other functions with similar considerations about their domain?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

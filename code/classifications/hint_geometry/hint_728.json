@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_728",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "Circle $\\Gamma$ is the incircle of $\\triangle ABC$ and is also the circumcircle of $\\triangle XYZ$.  The point $X$ is on $\\overline{BC}$, point $Y$ is on $\\overline{AB}$, and the point $Z$ is on $\\overline{AC}$.  If $\\angle A=40^\\circ$, $\\angle B=60^\\circ$, and $\\angle C=80^\\circ$, what is the measure of $\\angle AYX$?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the properties of the incircle in a triangle? In what ways is it different from the circumcircle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does knowing the angles of the triangle help us determine the angle measures in smaller triangles formed by the points of contact of the incircle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What can we conclude about triangle XYZ if circle Γ is both its incircle and circumcircle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the angle measure AYX based on the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there any special relationships between the angles in triangle XYZ that can help us find the measure of AYX?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other properties or relationships in geometry that could be helpful in solving this problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

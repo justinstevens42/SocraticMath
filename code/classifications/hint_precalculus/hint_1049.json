@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_1049",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem": "What is the matrix $\\mathbf{M}$ that performs the transformation which sends square $ABCD$ to square $A'B'C'D'$?  (In particular, $A$ goes to $A',$ and so on.)\n\n[asy]\n\nsize(200);\nimport graph;\n\npair Z=(0,0), A=(2,3), B=(-3,2), C=(-4,1), D=(-1,-4);\n\nLabel f; \nf.p=fontsize(6); \nxaxis(-1.5,1.5,Ticks(f, 1.0)); \nyaxis(-0.5,2.5,Ticks(f, 1.0));\n\ndraw((0,0)--(1,0)--(1,1)--(0,1)--(0,0),red);\ndot((0,0)); label(\"$A=A'$\", (0,0), SE);\ndot((1,0)); label(\"$D$\", (1,0), NE);\ndot((1,1)); label(\"$C=D'$\", (1,1), E);\ndot((0,1)); label(\"$B$\", (0,1), NE);\n\ndraw((0,0)--(1,1)--(0,2)--(-1,1)--(0,0), blue);\ndot((0,2)); label(\"$C'$\", (0,2), NE);\ndot((-1,1)); label(\"$B'$\", (-1,1), W);\n\n[/asy]",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "e",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the transformation being applied to square $ABCD$ to obtain square $A'B'C'D'$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you describe the steps to obtain the matrix $\\mathbf{M}$ for the transformation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How does the rotation affect the coordinates of the vertices of square $ABCD$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How does the scaling factor $\\sqrt{2}$ affect the size of the square?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the significance of the entries in the matrix $\\mathbf{M}$?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the matrix $\\mathbf{M}$ to transform other points or shapes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you provide an example of a different transformation and its corresponding matrix?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any limitations to using matrices to represent transformations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

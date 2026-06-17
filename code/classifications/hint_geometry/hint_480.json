@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_480",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "A pyramid with volume 40 cubic inches has a rectangular base. If the length of the base is doubled, the width tripled and the height increased by $50\\%$, what is the volume of the new pyramid, in cubic inches?",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "f",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the formula for the volume of a pyramid?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does changing the dimensions of the base impact the volume of the pyramid?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "If the length of the base is doubled, what happens to the volume of the pyramid? Why?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "If the width of the base is tripled, what happens to the volume of the pyramid? Why?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "If the height of the pyramid is increased by $50\\%$, what happens to the volume of the pyramid? Why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we calculate the new volume of the pyramid using the information given?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you identify a pattern or relationship between the changes in dimensions and the resulting changes in volume?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "Is there a general rule we can derive for calculating the new volume of a pyramid when the dimensions are multiplied by certain factors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other scenarios or shapes where similar thinking and steps would be useful for finding the new volume?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_256",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem": "The product of two 2-digit numbers is $3774$. What is the smaller of the two numbers?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "e",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "When finding the smaller of two numbers whose product is given, what strategies or methods can you think of using?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 3,
+      "question": "If you choose to use prime factorization, what steps would you take to find the smaller number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is prime factorization an effective method for solving this problem? What characteristics make it suitable for this approach?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the prime factorization of 3774? How does this factorization help us determine the smaller number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other similar problems or scenarios where prime factorization would be useful in finding a smaller number?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

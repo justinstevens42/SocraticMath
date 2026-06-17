@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_114",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem": "A number is called a visible factor number if it is divisible by each of its non-zero digits. For example, 102 is divisible by 1 and 2, so it is a visible factor number. How many visible factor numbers are there from 100 through 150, inclusive?",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "e",
+    "r",
+    "e",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what a visible factor number is based on the given definition?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you think of an example of a visible factor number and explain why it fits the definition?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 3,
+      "question": "What is the range of numbers we need to consider for this problem? Can you list all the three-digit numbers in that range?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Let's focus on the numbers with \"1\" as the hundreds digit (case 1). Can you think of a rule that helps us determine if a number with the form \"1TU\" is divisible by its tens and units digits?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "Based on the rule you described in the previous question, what are the possible values for T and U in case 1?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you repeat the process for the other cases (2-6) and find the possible values for T and U in each case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How many numbers did you find in each case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you add up all the numbers you found in each case to find the total number of visible factor numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

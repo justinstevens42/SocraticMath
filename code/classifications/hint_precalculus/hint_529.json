@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_529",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem": "Let $l,$ $m,$ and $n$ be real numbers, and let $A,$ $B,$ $C$ be points such that the midpoint of $\\overline{BC}$ is $(l,0,0),$ the midpoint of $\\overline{AC}$ is $(0,m,0),$ and the midpoint of $\\overline{AB}$ is $(0,0,n).$  Find\n\\[\\frac{AB^2 + AC^2 + BC^2}{l^2 + m^2 + n^2}.\\]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does the midpoint of a line segment represent?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we express the coordinates of the midpoint of line segment BC using variables?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "According to the given information, what are the coordinates of points A, B, and C?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we express the lengths of the line segments AB, AC, and BC using variables?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we express the lengths of the line segments EF, DE, and DF in terms of the corresponding line segments of triangle ABC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What can we conclude about triangle DEF based on its relationship with triangle ABC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we express the lengths of line segments BC, AC, and AB in terms of l, m, and n?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we simplify the expression (4l^2 + 4m^2 + 4n^2)/(l^2 + m^2 + n^2)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Based on the simplification, what is the value of (AB^2 + AC^2 + BC^2)/(l^2 + m^2 + n^2)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How does this value relate to the original problem of finding the ratio (AB^2 + AC^2 + BC^2)/(l^2 + m^2 + n^2)?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

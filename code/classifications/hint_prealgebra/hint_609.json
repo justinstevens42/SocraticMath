@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_609",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem": "A triangle has a side of length 6 cm, a side of length 8 cm and a right angle. What is the shortest possible length of the remaining side of the triangle? Express your answer in centimeters as a decimal to the nearest hundredth.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the given lengths of the sides of the triangle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between the given sides of the triangle and the remaining side?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine whether the remaining side should be a leg or the hypotenuse of the triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the formula we can use to find the length of the remaining side when it is a leg of a right triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we apply the formula to calculate the length of the remaining side in this specific scenario?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we simplify the square root expression to get a decimal approximation for the length of the remaining side? If so, what is the decimal approximation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

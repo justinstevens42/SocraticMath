@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_305",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem": "How many positive integers less than $500$ can be written as the sum of two positive perfect cubes?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the range of positive integers that can possibly be expressed as the sum of two positive perfect cubes?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "According to the given information, what are the possible values for the two cubes being added together?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "By using the chart, how many possible sums are there for each individual cube value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can any of the sums of two cubes be repeated in the chart? If so, under what circumstances?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Is there a systematic way to count the number of different possible sums of two cubes for all values of $a$ and $b$? If so, what is it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can this method of finding the number of sums of two cubes be applied to find the number of sums of cubes for any other range of integers? If so, describe how.",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

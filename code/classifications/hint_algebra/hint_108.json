@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_108",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "Krzysztof solved the quadratic equation $11x^2-44x-99=0$ by completing the square. In the process, he came up with the equivalent equation $$(x+r)^2 = s,$$where $r$ and $s$ are constants.\n\nWhat is $r+s$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step in solving a quadratic equation by completing the square?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How did Krzysztof come up with the equation $(x+r)^2 = s$ in the process of completing the square for the quadratic equation $11x^2-44x-99=0$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the value of $r$ in the equation $(x+r)^2 = s$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why the equation $(x+r)^2 = s$ is equivalent to the original quadratic equation $11x^2-44x-99=0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the value of $s$ in the equation $(x+r)^2 = s$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the sum of $r$ and $s$ in the equation $(x+r)^2 = s$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

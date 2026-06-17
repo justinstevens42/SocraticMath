@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_157",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem": "If $Q = 5+2i$, $E = i$, and $D = 5-2i$, find $Q\\cdot E \\cdot D$.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the complex numbers Q, E, and D represent in this equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does the × symbol represent in the expression Q · E · D?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you describe what the multiplication of complex numbers entails?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do we multiply two complex numbers with real and imaginary parts like Q and E?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you perform the multiplication step-by-step, showing the calculation for Q · E?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Following the previous step, can you perform the multiplication of the result by D?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "After performing the multiplication, what is the final result for Q · E · D?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

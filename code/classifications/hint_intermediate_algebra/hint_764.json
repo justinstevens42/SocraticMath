@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_764",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 1",
+  "problem": "If $f(x) = 4-3x$ and $g(x) = x^2 +1$, find $f(g(\\sqrt{2}))$.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the equation for the function $f(x)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the equation for the function $g(x)$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is $g(\\sqrt{2})$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do you find the value of $f(g(\\sqrt{2}))$ using the given functions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the final value of $f(g(\\sqrt{2}))$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other compositions of functions that we can evaluate using similar methods?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

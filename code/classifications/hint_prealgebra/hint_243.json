@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_243",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem": "The tail of a 1-mile long train exits a tunnel exactly 3 minutes after the front of the train entered the tunnel.  If the train is moving 60 miles per hour, how many miles long is the tunnel?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is given in the problem statement?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How is the train's speed related to the distance it covers in a certain time?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you determine how far the front of the train has moved in the three minutes since it entered the tunnel?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How does the fact that the tail of the train exits the tunnel exactly three minutes after the front of the train entered the tunnel help us determine the length of the tunnel?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What information can we gather from the statement \"the front of the train is 1 mile beyond the end of the tunnel\"?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the information about the front of the train's movement to find the length of the tunnel?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the length of the tunnel based on the information provided?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

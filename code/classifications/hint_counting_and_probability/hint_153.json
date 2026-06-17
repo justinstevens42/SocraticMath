@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_153",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 2",
+  "problem": "A bag has 3 red marbles and 5 white marbles.  Two marbles are drawn from the bag and not replaced.  What is the probability that the first marble is red and the second marble is white?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the sample space for this scenario?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many possible outcomes are there in the sample space?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the probability of drawing a red marble on the first draw?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "After the first marble is drawn, how many marbles are left in the bag and how many of them are white?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the probability of drawing a white marble on the second draw, given that a red marble was drawn first?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do you calculate the probability of both events happening?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of a similar probability problem where you draw without replacement and need to calculate the probability of two specific events happening in sequence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "problem_id": "hint_205",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem": "Three real numbers $a,b,$ and $c$ satisfy the equations $a+b+c=2$, $ab+ac+bc=-7$ and $abc=-14$.  What is the largest of the three numbers?  Express your answer in simplest radical form.",
+  "n_questions": 5,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "According to Vieta's formula, what can we infer about the relationship between the three unknowns $a$, $b$, and $c$, and the coefficients of the cubic equation $x^3-2x^2-7x+14=0$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does factoring the given cubic equation help us in finding the largest of the three numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "After factoring the cubic equation, we find that the roots are $x=2$, $x=\\sqrt{7}$, and $x=-\\sqrt{7}$. How can we determine which of these roots is the largest?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can we verify that the largest root is indeed greater than the other two roots? If so, how?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there any other methods or techniques we could have used to find the largest of the three numbers? If so, what are they and how do they compare to the approach we used here?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

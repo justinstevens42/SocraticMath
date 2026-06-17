@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_689",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem": "The area of a rectangle is 432 square centimeters. What would the new area be if the length of the rectangle was decreased by $10\\%$ and the width of the rectangle was increased by $10\\%$? Express your answer to the nearest whole number.",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the area of the rectangle given in the problem statement?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What happens to the length of the rectangle if it is decreased by $10\\%$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What happens to the width of the rectangle if it is increased by $10\\%$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the new area of the rectangle after the changes are made?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we calculate the new area of the rectangle using the information we have?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Why do we multiply $90\\%$ and $110\\%$ to get the new area?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How do we round our answer to the nearest whole number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any real-world scenarios where understanding the concept of percent change and applying it to calculate new values could come in handy?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

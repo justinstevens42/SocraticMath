@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_497",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "Let $\\triangle ABC$ have side lengths $AB=13$, $AC=14$, and $BC=15$.  There are two circles located inside $\\angle BAC$ which are tangent to rays $\\overline{AB}$, $\\overline{AC}$, and segment $\\overline{BC}$.  Compute the distance between the centers of these two circles.",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What information is given in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What do we know about the incircle and excircle of a triangle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the inradius of triangle ABC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the distance between the centers of the two circles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine the values of AS and AT?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do we know that triangles ASI and ATE are similar right triangles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we use the similar triangles to find the length of AE and AI?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How do we calculate the distance between the centers of the two circles from the lengths of AE and AI?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other applications or examples where these concepts might be helpful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

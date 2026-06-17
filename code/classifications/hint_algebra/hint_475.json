@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_475",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "What is the greatest integer $x$ such that $|6x^2-47x+15|$ is prime?",
+  "n_questions": 10,
+  "labels": [
+    "b",
+    "r",
+    "f",
+    "r",
+    "b",
+    "b",
+    "e",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you approach solving this problem? What steps would you initially take?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "When dealing with absolute value, what are the key considerations or properties to keep in mind?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you identify any restrictions or conditions on $x$ that might affect the outcome?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "If $|6x^2-47x+15|$ is a prime number, what can you deduce about either $6x^2-47x+15$ or $-6x^2+47x-15$? How does this help in finding the greatest integer $x$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Is it possible to factorize $6x^2-47x+15$ or $-6x^2+47x-15$? If so, how can this information be used to determine the greatest integer $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the significance of finding a prime value for $|6x^2-47x+15|$ in relation to the potential values of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other problem scenarios where applying similar reasoning or steps could lead to finding the greatest integer in a particular context?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Are there any connections between this problem and other algebraic concepts or techniques you have learned? How might they be applied here?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How might the graph of the equation $y = |6x^2-47x+15|$ help in solving this problem? How could you leverage its properties?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What additional information or approach would you consider to ensure confidence in your answer when dealing with prime numbers and absolute values?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

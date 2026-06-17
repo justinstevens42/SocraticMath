@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_633",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 2",
+  "problem": "23 people attend a party. Each person shakes hands with at most 22 other people. What is the maximum possible number of handshakes, assuming that any two people can shake hands at most once?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the problem statement in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the maximum number of handshakes that can occur if everyone shakes hands with each other once?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Is it possible for each person to shake hands with more than one person? If not, how does that affect the total number of handshakes?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we calculate the total number of handshakes given the constraints?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of a formula or method to calculate the number of ways to choose two people to form a handshake?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use this formula to solve the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you list any other assumptions or considerations we need to take into account when calculating the maximum number of handshakes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

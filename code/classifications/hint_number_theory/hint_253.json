@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_253",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem": "Find the remainder when $3^{1999}$ is divided by $13$.",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step to solve this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Do you know any different methods that can be used to solve this type of problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "If you choose to use modular arithmetic, how would you determine the appropriate congruence to simplify the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why can we use modular arithmetic in this case? What characteristics make it suitable for this method?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the congruence you found? How does it verify that your solution is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other types of problems where similar thinking and steps might be used to find the solution?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "How would you approach finding the remainder when $3^{1999}$ is divided by a different number, like 17 or 19?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What patterns or insights can you derive from the solution? Is there anything interesting about the remainder in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "problem_id": "hint_72",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "We have that $3 \\cdot f(x) + 4 \\cdot g(x) = h(x)$ where $f(x),$ $g(x),$ and $h(x)$ are all polynomials in $x.$ If the degree of $f(x)$ is $8$ and the degree of $h(x)$ is $9$, then what is the minimum possible degree of $g(x)$?",
+  "n_questions": 12,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "r",
+    "r",
+    "e",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does it mean for a polynomial to have a degree?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does the degree of a polynomial affect its behavior and properties?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "From the given equation, what can you tell about the degree of $g(x)$ in relation to $f(x)$ and $h(x)$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can you use the given equation to determine the possible relationship between the degrees of $f(x)$, $g(x),$ and $h(x)$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you come up with a scenario where the degree of $g(x)$ is less than the minimum possible degree we are searching for? What about a scenario where it is greater?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any restrictions or constraints that might be governing the relationship between the degrees of the polynomials in the equation?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Based on the information given, what is the highest possible degree $g(x)$ can have?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What steps can you take to determine the minimum possible degree of $g(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Are there any strategies or methods you can think of that might help you arrive at a solution more efficiently?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you generalize your findings to solve similar problems involving polynomial degrees?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 11,
+      "question": "How would the solution change if the coefficients of the given equation were different?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "What additional questions or considerations arise from exploring this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

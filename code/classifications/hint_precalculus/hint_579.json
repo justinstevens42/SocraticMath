@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_579",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem": "The quantity\n\\[\\frac{\\tan \\frac{\\pi}{5} + i}{\\tan \\frac{\\pi}{5} - i}\\]is a tenth root of unity.  In other words, it is equal to $\\cos \\frac{2n \\pi}{10} + i \\sin \\frac{2n \\pi}{10}$ for some integer $n$ between 0 and 9 inclusive.  Which value of $n$?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given quantity and what is its relation to tenth roots of unity?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we simplify the given expression using trigonometric identities?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How does the new expression relate to the tenth roots of unity?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the form $e^{i\\theta} = \\cos \\theta + i\\sin \\theta$ to further simplify the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the value of $\\theta$ that corresponds to the simplified expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How does this value of $\\theta$ relate to the possible values of $n$ for the given quantity to be a tenth root of unity?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Which value of $n$ corresponds to the given expression, and why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

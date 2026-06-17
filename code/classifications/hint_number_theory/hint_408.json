@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_408",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem": "Find the integer $n$, $0 \\le n \\le 9$, that satisfies \\[n \\equiv -2187 \\pmod{10}.\\]",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "e",
+    "b",
+    "f",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of \"mod\" in number theory?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does the statement \"n ≡ -2187 (mod 10)\" relate to the concept of modular arithmetic?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What does the notation \"≡\" mean in modular arithmetic?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you give an example of another problem where modular arithmetic can be applied?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "How would you solve this problem if the mod were a different number besides 10?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How does the fact that the solution must be an integer within the range of 0 to 9 affect the solution process in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "What is the significance of finding the integer solution in this problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

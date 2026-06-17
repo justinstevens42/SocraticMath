@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_42",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 2",
+  "problem": "How many different positive, four-digit integers can be formed using the digits 2, 2, 9 and 9?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you list the digits that we are allowed to use when forming these four-digit integers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How many distinct four-digit integers can we form if we don't consider the repeating digits?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many times have we counted each four-digit integer that has repeating digits?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why we divide by 2! twice in our calculation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of another problem involving counting and probability that may require correcting for overcounting?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

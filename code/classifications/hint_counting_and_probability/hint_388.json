@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_388",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem": "A bowl contains 10 jellybeans (four red, one blue and five white). If you pick three jellybeans from the bowl at random and without replacement, what is the probability that exactly two will be red? Express your answer as a common fraction.",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many total sets of three jellybeans can be selected from the bowl?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "If we want exactly two red jellybeans, how many pairs of red jellybeans can we choose from the bowl?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many choices do we have for the third non-red jellybean?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we calculate the probability of exactly two red jellybeans?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the final probability of picking exactly two red jellybeans out of three without replacement?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why we multiply the number of pairs of red jellybeans by the number of choices for the third jellybean?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How does the total number of successful outcomes relate to the total number of possible outcomes?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "Can you express the probability as a simplified fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "problem_id": "hint_666",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "In the figure, circle $O$ has radius 6 units. Chord $CD$ has length 8 units and is parallel to segment $KB$. If $KA$ = 12 units and points $K$, $A$, $O$ and $B$ are collinear, what is the area of triangle $KDC$? Express your answer in simplest radical form. [asy]\ndraw(Circle((0,0),6));\ndot((0,0));\nlabel(\"$O$\",(0,0),S);\nlabel(\"$A$\",(-6,0),SW);\nlabel(\"$B$\",(6,0),SE);\nlabel(\"$K$\",(-18,0),W);\ndraw((-18,0)--(6,0));\nlabel(\"$C$\",(-4,sqrt(20)),NW);\nlabel(\"$D$\",(4,sqrt(20)),NE);\ndraw((-18,0)--(-4,sqrt(20)));\ndraw((-18,0)--(4,sqrt(20)));\ndraw((-4,sqrt(20))--(4,sqrt(20)));\n[/asy]",
+  "n_questions": 5,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What information does the problem provide about the figure? What can we infer about the relationship between chord CD and segment KB?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the length of segment CX? What theorem can we use to calculate it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can we find the length of segment DY? How does it relate to segment CX?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we calculate the area of triangle KDC? What formula should we use and what values do we need?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can we simplify the resulting expression to its simplest radical form? How can we do that?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

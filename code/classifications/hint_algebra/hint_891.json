@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_891",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem": "Expand the product ${3(x+4)(x+5)}$.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step you would take to expand the product ${3(x+4)(x+5)}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How would you distribute the 3 to each term inside the parentheses?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What would be the result of distributing the 3 to the terms $(x+4)$ and $(x+5)$ individually?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you simplify each distributed term by combining like terms?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What would be the final expression after simplifying the distributed terms?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any similar types of products that you can think of where you would use similar steps to expand and simplify?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

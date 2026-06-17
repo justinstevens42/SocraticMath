@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_962",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem": "What is the largest integer that must divide the product of any $4$ consecutive integers?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "f",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking us to find out?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we approach this problem using number theory concepts?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you identify any patterns or relationships among consecutive integers that could help solve this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we prove that the largest integer to divide the product of any 4 consecutive integers is 24?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Have we considered all the possibilities for the product of 4 consecutive integers to ensure that no larger number divides every possible product?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other similar problems in number theory that might also involve finding the largest integer to divide a product of consecutive integers?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

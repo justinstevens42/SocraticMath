@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_218",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem": "If $\\frac{60}{2^3\\cdot5^8}$ is expressed as a decimal, how many non-zero digits are to the right of the decimal point?",
+  "n_questions": 10,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "e",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we rewrite the given fraction in a simplified form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can we express the simplified fraction as a decimal?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the numerator and denominator of the simplified fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the significance of multiplying the numerator and denominator by $2^6$?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "How can we simplify the fraction after multiplying by $2^6$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the final decimal expression of the fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How many non-zero digits are to the right of the decimal point in the final expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can we generalize this method to find the number of non-zero digits in any fraction expressed as a decimal? If yes, how? If not, why not?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Can we express the final decimal as a fraction? If yes, what is the fraction? If not, why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can we apply similar methods to solve problems involving different types of fractions or decimals?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

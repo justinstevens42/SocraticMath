@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_460",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem": "The line $y = 3x - 11$ is parameterized by the form\n\\[\\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} r \\\\ 1 \\end{pmatrix} + t \\begin{pmatrix} 4 \\\\ k \\end{pmatrix}.\\]Enter the ordered pair $(r,k).$",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does it mean for a line to be parameterized?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does the given parameterization express the line in vector form?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What does the vector $\\begin{pmatrix} r \\\\ 1 \\end{pmatrix}$ represent in the parameterization?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How does the parameter $t$ affect the direction of the line?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "By setting $t = 0$, how can we find a point on the line?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Using the point we found in the previous question, what equation can we form to determine the value of $r$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "If we set $t = 1$, what point on the line does it correspond to?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we determine the values of $x$ and $y$ for this point?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "By comparing the coordinates, how can we find the value of $k$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the final ordered pair $(r,k)$ that satisfies the given parameterization?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

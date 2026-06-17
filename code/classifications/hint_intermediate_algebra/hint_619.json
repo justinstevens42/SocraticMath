@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_619",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "Factor $(x^2 + 3x + 2)(x^2 + 7x + 12) + (x^2 + 5x - 6)$ as the product of two non-constant polynomials.",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the initial step to factor the given expression into two non-constant polynomials?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Are there any common factors that can be factored out from each term?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can we factor each quadratic expression $(x^2 + 3x + 2)$ and $(x^2 + 7x + 12)$ further? If so, how?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean to \"factor\" a polynomial? How does it help us understand the expression better?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we combine the factored expressions of $(x^2 + 3x + 2)$ and $(x^2 + 7x + 12)$ with the third term $(x^2 + 5x - 6)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we simplify the expression further? If so, how?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What does the final factored form $(x^2 + 5x + 2)(x^2 + 5x + 9)$ tell us about the original expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any other methods or techniques that can be used to factor the original expression?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_626",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "A piece of cheese is located at $(12,10)$ in a coordinate plane.  A mouse is at $(4,-2)$ and is running  up  the line $y=-5x+18$.  At the point $(a,b)$ the mouse starts getting farther from the cheese rather than closer to it. What is $a + b$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the initial position of the mouse and the cheese in relation to the coordinate plane?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What direction is the mouse running in according to the equation $y = -5x + 18$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "At what point does the mouse start getting farther from the cheese rather than closer to it?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine if the mouse is getting farther from the cheese or closer to it at a given point?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What are the coordinates of the point where the mouse starts getting farther from the cheese?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we calculate the sum of the x and y coordinates at that point?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

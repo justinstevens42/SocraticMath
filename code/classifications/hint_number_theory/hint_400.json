@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_400",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem": "How many more digits does the base-3 representation of $987_{10}$ have than the base-8 representation of $987_{10}$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step to solve this problem of finding the difference between the number of digits in the base-3 and base-8 representations of $987_{10}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the number of digits in the base-3 representation of $987_{10}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the number of digits in the base-8 representation of $987_{10}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the reasoning behind comparing $987_{10}$ to powers of 3 and 8 to find the respective number of digits?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why the base-3 equivalent has 7 digits and the base-8 equivalent has 4 digits?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the difference between the number of digits in the base-3 and base-8 representations of $987_{10}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

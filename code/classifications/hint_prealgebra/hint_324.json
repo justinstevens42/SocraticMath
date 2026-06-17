@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_324",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 1",
+  "problem": "The Quill and Scroll is a stationery shop.  Its stock and sales for May are listed in the table shown. What percent of its sales were not pens or pencils? \\begin{tabular}{|l|c|}\n\\multicolumn{2}{c}{}\\\\\\hline\n\\textbf{Item}&\\textbf{$\\%$~of May Sales}\\\\\\hline\nPens&38\\\\\\hline\nPencils&35\\\\\\hline\nOther&?\\\\\\hline\n\\end{tabular}",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the Quill and Scroll?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you describe the table given? What information does it provide?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What do the percentages in the table represent?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do you find the percent of sales that were not pens or pencils?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why is it important to add up the percentages in the table to equal 100%?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any assumptions we can make about the Quill and Scroll's sales in other months based on this table? If so, what are they?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How could we use this information to make business decisions for the Quill and Scroll?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

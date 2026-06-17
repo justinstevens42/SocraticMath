@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_569",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem": "Express $(4-5i)(-5+5i)$ in the form $a+bi$, where $a$ and $b$ are integers and $i^2 = -1.$",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "b",
+    "f",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you begin by multiplying the expression $(4-5i)(-5+5i)$? What steps would you take?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you identify the format of the expression $a+bi$ and explain its significance in complex numbers?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can you expand the expression $(4-5i)(-5+5i)$ using the distributive property? What are the resulting terms?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can you further simplify the expression by combining like terms?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you identify the real and imaginary parts of the resulting expression?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "Based on the expression $a+bi$, what is the value of $a$ and $b$ in the simplified form of $(4-5i)(-5+5i)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

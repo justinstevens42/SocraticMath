@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_121",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem": "If $x = \\frac34$ and $y = \\frac43$ , find the value of $\\frac12x^6y^7$.",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the value of x and y provided in the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the exponent of x in the expression $\\frac{1}{2}x^6y^7$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the exponent of y in the expression $\\frac{1}{2}x^6y^7$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the result of raising $\\frac{3}{4}$ to the power of 6?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the result of raising $\\frac{4}{3}$ to the power of 7?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the product of the value obtained from question 4 with the value obtained from question 5?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Finally, what is the result of multiplying $\\frac{1}{2}$ by the product obtained from question 6?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

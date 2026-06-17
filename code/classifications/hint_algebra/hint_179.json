@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_179",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "If $\\left\\lfloor n^2/4 \\right\\rfloor - \\lfloor n/2 \\rfloor^2 = 2$, then find all integer values of $n$.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the purpose of the floor function in this equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How does taking the floor of a number affect its value? Can you provide an example?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Why is the expression $\\left\\lfloor n^2/4 \\right\\rfloor - \\lfloor n/2 \\rfloor^2$ equal to 2?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we simplify the expression $\\left\\lfloor n^2/4 \\right\\rfloor - \\lfloor n/2 \\rfloor^2$ further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we represent the variables in terms of a more manageable form? Can we find any patterns?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any restrictions or limitations on the possible values of n that we need to consider?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What are the possible solutions for n that satisfy the equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "Can we verify if our solutions are valid by substituting them back into the original equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Are there any other ways to approach this problem or similar types of equations?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "How can we generalize the process for finding integer values of n in equations of this form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

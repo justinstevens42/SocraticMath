@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_628",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 1",
+  "problem": "When three positive integers are divided by $12$, the remainders are $7,$ $9,$ and $10,$ respectively.\n\nWhen the sum of the three integers is divided by $12$, what is the remainder?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does it mean for the three integers to have remainders of 7, 9, and 10 when divided by 12?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain why we can represent the three integers as congruences modulo 12?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "When we add the three congruences together, what do we get?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we simplify the sum of the congruences using modular arithmetic?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the remainder when 26 is divided by 12?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How does this result help us determine the remainder when the sum of the three integers is divided by 12?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_218",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem": "What is the area of the triangle bounded by the lines $y=x,$ $y=-x,$ and $y=6$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What lines bound the triangle in question?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the coordinates of points $A$ and $B$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How do you find the length of $AB$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How do you find the length of the altitude from $O$ to $AB$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the formula for the area of a triangle, and how do you apply this to $\\triangle OAB$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of a different method for finding the area of $\\triangle OAB$? What are the advantages or disadvantages of this method compared to the previous approach?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

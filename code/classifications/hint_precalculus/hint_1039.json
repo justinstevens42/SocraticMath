@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_1039",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem": "Let $\\mathbf{v} = \\begin{pmatrix} 2 \\\\ 1 \\\\ -1 \\end{pmatrix}$ and $\\mathbf{w} = \\begin{pmatrix} 1 \\\\ 0 \\\\ 3 \\end{pmatrix}.$  The columns of a matrix are $\\mathbf{u},$ $\\mathbf{v},$ and $\\mathbf{w},$ where $\\mathbf{u}$ is a unit vector.  Find the largest possible determinant of the matrix.",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the formula for finding the determinant of a matrix?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does the scalar triple product relate to the determinant of a matrix?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain how to compute the cross product of $\\mathbf{v}$ and $\\mathbf{w}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is $\\mathbf{u}$ a unit vector?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How does the cosine function relate to the angle between two vectors?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Why does maximizing the value of the scalar triple product result in maximizing the determinant of the matrix?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How do we find the maximum value of the scalar triple product?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you describe the vector $\\begin{pmatrix} 3 \\\\ -7 \\\\ -1 \\end{pmatrix}$ and its significance in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 9,
+      "question": "How do we find the direction of the unit vector $\\mathbf{u}$ that maximizes the determinant?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How do we know that the maximum determinant achieved is indeed $\\sqrt{59}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

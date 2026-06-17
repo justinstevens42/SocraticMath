@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_131",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 1",
+  "problem": "Convert the point $\\left( 5, \\frac{3 \\pi}{2} \\right)$ in polar coordinates to rectangular coordinates.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what polar coordinates are?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we convert a point from polar to rectangular coordinates?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the formula for converting a point from polar to rectangular coordinates?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you plug in the given values and simplify the formula for this specific point?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we interpret the resulting rectangular coordinates? What do they represent in relation to the original polar point?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any real-life scenarios where understanding polar and rectangular coordinates would be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

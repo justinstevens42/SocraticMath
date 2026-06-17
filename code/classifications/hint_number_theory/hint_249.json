@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_249",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem": "A palindrome is a number that reads the same forward and backward. What is the smallest 5-digit palindrome in base 2 that can be expressed as a 3-digit palindrome in a different base?  Give your response in base 2.",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what a palindrome is and why it is relevant to this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How many digits are there in a 5-digit palindrome in base 2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you find the smallest 5-digit palindrome in base 2? How did you arrive at your answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the value of the smallest 5-digit palindrome in base 2 when converted to base 10?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we convert a number from base 10 to a different base? Can you explain the process?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you convert the value of the smallest 5-digit palindrome in base 2 to base 3? What is the result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How about converting it to base 4? Is it still a palindrome? If not, how would you modify the number to make it a 3-digit palindrome in base 4?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you recall any other bases that could potentially result in a 3-digit palindrome when the smallest 5-digit palindrome in base 2 is converted?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How would you determine if a number is a palindrome in a different base?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is your final answer to the problem, and why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

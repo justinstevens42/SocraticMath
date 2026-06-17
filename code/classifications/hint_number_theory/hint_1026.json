@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_1026",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem": "Lucy was born on Wednesday, December 1st, 2004. That Wednesday was the first day of her life. Her parents held a party for her on the $1000$th day of her life. On which day of the week was the party?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the problem we are trying to solve in this scenario?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many days are there in a week, and why is that important for determining the day of the party?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "On which day of the week was Lucy born, and why is that significant for solving the problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the days of the week on which Lucy's first, eighth, fifteenth, and 22nd days fell?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the remainder when 1000 is divided by 7, and why is that relevant for finding the day of the party?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why the 1002nd day was a Wednesday, and how does that help us find the day of the party?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What was the day of the week on which Lucy's party was held, and how did we arrive at that conclusion?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_1042",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem": "Evaluate\n\\[\\begin{vmatrix} \\cos \\alpha \\cos \\beta & \\cos \\alpha \\sin \\beta & -\\sin \\alpha \\\\ -\\sin \\beta & \\cos \\beta & 0 \\\\ \\sin \\alpha \\cos \\beta & \\sin \\alpha \\sin \\beta & \\cos \\alpha \\end{vmatrix}.\\]",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe how to evaluate the determinant in the first step?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What method did you use to expand the determinant?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How did you decide which row or column operation to perform first?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Why do the terms involving sine and cosine cancel out in the expansion?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What property of sine and cosine allows us to simplify the determinant to 1?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you provide an example of another determinant that can be simplified in a similar way?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

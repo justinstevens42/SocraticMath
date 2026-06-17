@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_170",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem": "A polynomial of degree four with leading coefficient 1 and integer coefficients has two real zeros, both of which are integers. Which of the following can also be a zero of the polynomial?\n\n(A) $\\frac{1 + i \\sqrt{11}}{2}$\n\n(B) $\\frac{1 + i}{2}$\n\n(C) $\\frac{1}{2} + i$\n\n(D) $1 + \\frac{i}{2}$\n\n(E) $\\frac{1 + i \\sqrt{13}}{2}$",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the leading coefficient of the polynomial given?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the degree of the polynomial?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many real zeros does the polynomial have?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Are the real zeros of the polynomial integers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can the third zero of the polynomial be written in the form $\\frac{1}{2}(-\\alpha \\pm \\sqrt{\\alpha^2-4\\beta})$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are the coefficients $\\alpha$ and $\\beta$ in the expression $(x-r)(x-s)(x^2+\\alpha x + \\beta)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "How do you apply the quadratic formula to find the remaining zeros of the polynomial?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Which answer choices require $\\alpha=-1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the form of the imaginary parts of the remaining zeros for the answer choices that require $\\alpha=-1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Which answer choice(s) satisfy the condition for the imaginary parts of the remaining zeros?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

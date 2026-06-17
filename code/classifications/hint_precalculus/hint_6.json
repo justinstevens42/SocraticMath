@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_6",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem": "Find the area of the triangle with vertices $(-1,4),$ $(7,0),$ and $(11,5).$",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the coordinates of the vertices of the triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you find the vectors $\\mathbf{v}$ and $\\mathbf{w}$ that represent the sides of the triangle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the area of the parallelogram determined by $\\mathbf{v}$ and $\\mathbf{w}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What does the area of the parallelogram represent in relation to the triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Why is the area of the triangle half the area of the parallelogram?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are the lengths of the sides of the parallelogram determined by $\\mathbf{v}$ and $\\mathbf{w}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Can you show how to calculate the area of the parallelogram using the lengths of the sides?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you calculate the area of the parallelogram using the cross product of $\\mathbf{v}$ and $\\mathbf{w}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How do we find the magnitude of the cross product of $\\mathbf{v}$ and $\\mathbf{w}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Finally, can you calculate the area of the triangle using the formula derived from the area of the parallelogram?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_31",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem": "Find the smallest positive integer $x$ which is greater than $1$ and relatively prime to $120$ (recall that relatively prime means that the GCD of $x$ and $120$ is $1$)",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what it means for two numbers to be relatively prime?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the prime factorization of 120?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Based on the prime factorization of 120, which numbers will share a prime factor with 120? Are there any exceptions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the smallest positive integer greater than 1 that does not share a prime factor with 120?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we verify that this number is indeed relatively prime to 120?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other concepts or problems where we may need to find a number that is relatively prime to another number?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

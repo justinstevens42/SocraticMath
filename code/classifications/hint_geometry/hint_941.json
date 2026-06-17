@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_941",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "Triangle $ABC$ has vertices $A(0,8)$, $B(2,0)$, $C(8,0)$.  A vertical line intersects $AC$ at $R$ and $\\overline{BC}$ at $S$, forming triangle $RSC$.  If the area of $\\triangle RSC$ is 12.5, determine the positive difference of the $x$ and $y$ coordinates of point $R$.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How would you identify the slope of line AC? What is the significance of the slope in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What can you tell me about the angles of triangle RSC? How do you know?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Why can we conclude that triangle RSC is right-angled and isosceles?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How did you determine the length of RS and SC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why the area of triangle RSC is half the length of RS squared?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How did you use the given area to find the length of RS?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What are the coordinates of point S? How did you find them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How did you determine the coordinates of point R?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the positive difference between the x and y coordinates of point R?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

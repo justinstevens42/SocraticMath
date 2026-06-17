@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_552",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem": "Find the unit vector $\\mathbf{v},$ lying in the $xz$-plane, which makes an angle of $45^\\circ$ with $\\begin{pmatrix} 2 \\\\ 2 \\\\ -1 \\end{pmatrix},$ and an angle of $60^\\circ$ with $\\begin{pmatrix} 0 \\\\ 1 \\\\ - 1 \\end{pmatrix}.$",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the form of the unit vector $\\mathbf{v}$ in the $xz$-plane?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we express the angle between $\\mathbf{v}$ and $\\begin{pmatrix} 2 \\\\ 2 \\\\ -1 \\end{pmatrix}$ using the dot product?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "By substituting the given information into the dot product equation, what equation can we obtain involving $x$ and $z$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean for $\\mathbf{v}$ to make an angle of $45^\\circ$ with $\\begin{pmatrix} 2 \\\\ 2 \\\\ -1 \\end{pmatrix}$? How does this relate to the dot product equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "By solving the dot product equation, what values do we obtain for $x$ and $z$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we express the angle between $\\mathbf{v}$ and $\\begin{pmatrix} 0 \\\\ 1 \\\\ -1 \\end{pmatrix}$ using the dot product?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "By substituting the given information into the dot product equation, what equation can we obtain involving $z$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What does it mean for $\\mathbf{v}$ to make an angle of $60^\\circ$ with $\\begin{pmatrix} 0 \\\\ 1 \\\\ -1 \\end{pmatrix}$? How does this relate to the dot product equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "By solving the dot product equation, what value do we obtain for $z$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What are the final values of $x$ and $z$? What is the resulting unit vector $\\mathbf{v}$ in the $xz$-plane?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

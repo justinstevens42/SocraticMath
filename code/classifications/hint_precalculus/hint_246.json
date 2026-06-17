@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_246",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 1",
+  "problem": "Find $\\begin{pmatrix} 3 & 0 \\\\ 1 & 2 \\end{pmatrix} + \\begin{pmatrix} -5 & -7 \\\\ 4 & -9 \\end{pmatrix}.$",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "r",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the steps to add two matrices together?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What do you think happens when we add two matrices that have different dimensions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How is the addition of matrices related to the addition of real numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why the sum of two matrices is also a matrix?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of any real-world situations where matrix addition would be useful?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Are there any special properties or rules that apply specifically to the addition of matrices?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

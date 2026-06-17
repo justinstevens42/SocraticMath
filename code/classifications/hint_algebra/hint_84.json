@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_84",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem": "Find $y$ if $\\dfrac{y^2 - 9y + 8}{y-1} + \\dfrac{3y^2 +16y-12 }{3y -2} = -3$.",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you begin solving this equation? What is the first step?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What methods do you know that can be used to solve equations like this?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "If you choose to multiply through by the denominators, how would you proceed? What challenges might you encounter?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why can we multiply through by the denominators? What conditions must be met for this step to be valid?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "After multiplying through the denominators, what expression do you get? How would you simplify or combine like terms?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Once you have simplified the expression, what kind of equation do you have? What would be the next step in solving it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How might you isolate the variable in the equation? What techniques or operations could be used?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "What values of y make the denominators of the equation equal to zero? Are those values permissible solutions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "After solving the equation, how would you verify your solution(s)? Is there any additional step or check you need to perform?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "problem_id": "hint_617",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem": "Find the least positive four-digit solution to the following system of congruences. \\begin{align*}\n7x &\\equiv 21 \\pmod{14} \\\\\n2x+13 &\\equiv 16 \\pmod{9} \\\\\n-2x+1 &\\equiv x \\pmod{25} \\\\\n\\end{align*}",
+  "n_questions": 14,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this system of congruences?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How did you divide the first congruence and why did you divide 14 by the greatest common factor of 7 and 14?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What did you get after dividing the first congruence and why is it equivalent to $x \\equiv 1 \\pmod{2}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Why did you subtract 13 from both sides and multiply both sides by 5 in the second congruence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What did you get after simplifying the second congruence and why is it $x \\equiv 6 \\pmod{9}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why you added $2x$ to both sides and multiplied by 17 in the third congruence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What did you obtain after simplifying the third congruence and why is it $x \\equiv 17 \\pmod{25}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "How did you create the system of congruences after simplifying each individual congruence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What did you find when you checked numbers that are 17 more than a multiple of 25?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How did you determine that 42 is a solution for the second and third congruences but not for the first congruence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "What is the next solution after 42 and why did you add the least common multiple of 25 and 9 to it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "How did you use the Chinese Remainder Theorem to find the general solution of the system?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 13,
+      "question": "What is the general solution of the system and how did you obtain it by using the Chinese Remainder Theorem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 14,
+      "question": "How did you determine that the least four-digit solution is $267 + 450 (2) = 1167$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

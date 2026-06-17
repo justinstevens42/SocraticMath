@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_606",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 1",
+  "problem": "Compute $\\arccos \\frac{\\sqrt{3}}{2}.$  Express your answer in radians.",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of $\\arccos$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you recall any trigonometric identities that involve cosine?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we relate the value $\\frac{\\sqrt{3}}{2}$ to a specific angle in the unit circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you identify any angle in the unit circle that has a cosine value of $\\frac{\\sqrt{3}}{2}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between the angle $\\frac{\\pi}{6}$ and $\\frac{\\sqrt{3}}{2}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we express $\\frac{\\pi}{6}$ in radians?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

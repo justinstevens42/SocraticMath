@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_1005",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "Solve\n\\[(x^3 + 3x^2 \\sqrt{2} + 6x + 2 \\sqrt{2}) + (x + \\sqrt{2}) = 0.\\]Enter all the solutions, separated by commas.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given equation and what is the first step you would take to solve it?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can you rewrite the equation in a form that is easier to work with? What transformation did you perform?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the factorization you obtained and how did you factor out the common factor?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What values of $x$ make the first factor zero? How did you arrive at those solutions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the equation for the quadratic term $(x + \\sqrt{2})^2 + 1 = 0$? How did you represent it as a perfect square trinomial?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are the solutions to the quadratic term equation? How did you solve it using imaginary numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

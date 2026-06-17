@@ -1,0 +1,47 @@
+{
+  "problem_id": "hint_338",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem": "Find the matrix that corresponds to reflecting over the $x$-axis.",
+  "n_questions": 5,
+  "labels": [
+    "f",
+    "r",
+    "e",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what reflecting over the $x$-axis means?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How do you think we can find the matrix that corresponds to reflecting over the $x$-axis?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Are there any other matrices that can also achieve a similar reflection?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 4,
+      "question": "How do we know that the matrix we found actually reflects over the $x$-axis?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of any other transformations where we can find their corresponding matrices using a similar approach?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

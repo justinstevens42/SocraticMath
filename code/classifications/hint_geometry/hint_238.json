@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_238",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 1",
+  "problem": "The area of rectangle $ABCD$ with vertices $A$(0, 0), $B$(0, 4), $C$($x$, 4) and $D$($x$, 0) is 28 square units. If $x > 0$, what is the value of $x$?",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the coordinates of the vertices of the rectangle $ABCD$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do we calculate the area of a rectangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the length of the rectangle $ABCD$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the width of the rectangle $ABCD$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we express the area of the rectangle in terms of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Set up an equation using the area formula and solve for $x$.",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the value of $x$ that satisfies the equation and the condition $x > 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

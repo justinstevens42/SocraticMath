@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_381",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem": "How many positive real solutions are there to $x^{10}+7x^9+14x^8+1729x^7-1379x^6=0$?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step you would take to solve the equation $x^{10}+7x^9+14x^8+1729x^7-1379x^6=0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What are some different methods you know for solving equations like this?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you choose to factorize the equation, how would you find the appropriate factors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is this equation factorizable? What characteristics make it suitable for this method?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What factors did you find, and how do these factors verify that your solution is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other types of equations where similar thinking and steps may be used to solve them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_418",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem": "Find $\\left|\\left(1+i\\right)^6\\right|$.",
+  "n_questions": 9,
+  "labels": [
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the formula for finding the absolute value of a complex number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can we apply this formula to simplify $\\left|\\left(1+i\\right)^6\\right|$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the formula for raising a complex number to a power?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use this formula to simplify $(1+i)^6$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can we simplify $(1+i)^6$ further by expressing it in polar form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How does the modulus of a complex number relate to its polar form?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can we use the polar form of $(1+i)^6$ to find its absolute value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the final result and how can we verify that it is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Are there any other properties of complex numbers that we can use to solve similar problems?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

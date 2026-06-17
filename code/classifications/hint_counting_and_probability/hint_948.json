@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_948",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem": "For a certain weekend, the weatherman predicts that it will rain with a $40\\%$ probability on Saturday and a $50\\%$ probability on Sunday. Assuming these probabilities are independent, what is the probability that it rains over the weekend (that is, on at least one of the days)? Express your answer as a percentage.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the probability that it will rain on Saturday?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the probability that it will rain on Sunday?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Are these two events independent? Why or why not?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do we calculate the probability that it will not rain on a particular day?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we calculate the probability that it will not rain on both Saturday and Sunday?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the probability that it will rain on at least one of the two days?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How do we find this probability using the probabilities of it not raining on each day?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you show the calculation steps to find the probability that it will rain over the weekend?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the final answer, expressed as a percentage?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any other scenarios where we would apply similar reasoning or steps to find the probability?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

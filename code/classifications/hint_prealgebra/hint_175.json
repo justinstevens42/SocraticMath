@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_175",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem": "What is the greatest common divisor of $39$ and $91$?",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "r",
+    "f",
+    "b",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you list the prime factors of 39 and 91?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the definition of a greatest common divisor?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Based on the prime factorizations of 39 and 91, can you identify any common prime factors?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Why is the factor 13 common to both factorizations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why is the exponent of 13 in both factorizations 1?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How does the concept of greatest common divisor relate to finding the factors of two numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other numbers where you can use a similar approach to find the greatest common divisor?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

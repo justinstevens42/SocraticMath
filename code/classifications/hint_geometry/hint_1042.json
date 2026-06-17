@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_1042",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "A circle of radius 1 is tangent to a circle of radius 2. The sides of $\\triangle ABC$ are tangent to the circles as shown, and the sides $\\overline{AB}$ and $\\overline{AC}$ are congruent. What is the area of $\\triangle ABC$?\n\n[asy]\nunitsize(0.7cm);\npair A,B,C;\nA=(0,8);\nB=(-2.8,0);\nC=(2.8,0);\ndraw(A--B--C--cycle,linewidth(0.7));\ndraw(Circle((0,2),2),linewidth(0.7));\ndraw(Circle((0,5),1),linewidth(0.7));\ndraw((0,2)--(2,2));\ndraw((0,5)--(1,5));\nlabel(\"2\",(1,2),N);\nlabel(\"1\",(0.5,5),N);\nlabel(\"$A$\",A,N);\nlabel(\"$B$\",B,SW);\nlabel(\"$C$\",C,SE);\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe how we can find the length of AD in the triangle ADO?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What do we know about the triangles ADO and AD'O'? How can we use that information to find AO?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the lengths of FC and AF?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What are the measures of FC and AF?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we calculate the area of triangle ABC using the lengths BC and AF?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the final answer, and how did you arrive at that result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_277",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem": "Let $\\theta$ be an acute angle, and let\n\\[\\sin \\frac{\\theta}{2} = \\sqrt{\\frac{x - 1}{2x}}.\\]Express $\\tan \\theta$ in terms of $x.$",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given equation and what is our goal in expressing $\\tan \\theta$ in terms of $x$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we relate $\\sin \\frac{\\theta}{2}$ to $\\tan \\theta$ using trigonometric identities or formulas?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What formula can we use to express $\\sin \\frac{\\theta}{2}$ in terms of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we derive an expression for $\\cos \\theta$ using $\\sin \\frac{\\theta}{2}$ and the double-angle formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we express $\\sin \\theta$ using $\\cos \\theta$ and the Pythagorean identity?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we simplify the expression for $\\sin \\theta$ further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final expression for $\\tan \\theta$ in terms of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

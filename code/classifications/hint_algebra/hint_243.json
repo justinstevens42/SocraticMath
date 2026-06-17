@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_243",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem": "If $f(x) = 3-\\!\\sqrt{x}$ and $g(x) = 5x +2x^2$, what is $f(g(-5))$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what the function $g(x)$ represents?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the value of $g(-5)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the value of $f(g(-5))$ if we substitute the value of $g(-5)$ into the function $f(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Is there any simplification we can make for the expression $f(g(-5))$ before evaluating it further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we calculate the square root of a number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Once we obtain the square root value in $f(g(-5))$, how can we determine the final result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

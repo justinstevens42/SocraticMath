@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_762",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem": "Find all angles $\\theta,$ $0 \\le \\theta \\le 2 \\pi,$ with the following property: For all real numbers $x,$ $0 \\le x \\le 1,$\n\\[x^2 \\cos \\theta - x(1 - x) + (1 - x)^2 \\sin \\theta > 0.\\]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given inequality asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can we simplify the expression inside the inequality?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What can we say about the values of $\\sin \\theta$ and $\\cos \\theta$ based on the given inequality?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the values of $\\sin \\theta$ and $\\cos \\theta$ to determine possible values for $\\theta$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can we make any additional simplifications or observations to further narrow down the possible values of $\\theta$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the values of $\\sin \\theta$ and $\\cos \\theta$ to rewrite the expression inside the inequality in a more manageable form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we solve for $x$ in terms of $\\sin \\theta$ and $\\cos \\theta$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What values of $x$ satisfy the inequality $0 \\leq x \\leq 1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we use the values of $x$ to determine additional constraints on $\\theta$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can we verify that the values of $\\theta$ we found satisfy the given inequality?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

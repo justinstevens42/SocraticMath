@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_424",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem": "In this Number Wall, you add the numbers next to each other and write the sum in the block directly above the two numbers. Which number will be the block labeled '$n$'? [asy]\ndraw((0,0)--(8,0)--(8,2)--(0,2)--cycle);\ndraw((2,0)--(2,2));\ndraw((4,0)--(4,2));\ndraw((6,0)--(6,2));\ndraw((1,2)--(7,2)--(7,4)--(1,4)--cycle);\ndraw((3,2)--(3,4));\ndraw((5,2)--(5,4));\ndraw((2,4)--(2,6)--(6,6)--(6,4)--cycle);\ndraw((4,4)--(4,6));\ndraw((3,6)--(3,8)--(5,8)--(5,6));\nlabel(\"$n$\",(1,1));\nlabel(\"4\",(3,1));\nlabel(\"8\",(5,1));\nlabel(\"7\",(7,1));\nlabel(\"15\",(6,3));\nlabel(\"46\",(4,7));\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the purpose of the Number Wall in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How are the blocks filled in the Number Wall?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain the process for finding the value of the block labeled '$n$'?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why do we add the numbers next to each other and write the sum in the block directly above?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What does the equation $(n+16)+27=46$ represent in relation to the Number Wall?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How did you solve the equation $(n+16)+27=46$ to find the value of $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

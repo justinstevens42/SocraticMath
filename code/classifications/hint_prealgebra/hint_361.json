@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_361",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem": "Two identical CDs regularly cost a total of $\\$28.$ What is the cost in dollars of five of these CDs?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How much do two identical CDs cost in total?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the ratio between the cost of 5 CDs and 2 CDs?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we use this ratio to find the cost of 5 CDs?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the cost of 5 CDs based on the given ratio?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you generalize the relationship between the number of CDs and their cost based on this problem?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other scenarios where we can apply a similar approach to find the cost of multiple items?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

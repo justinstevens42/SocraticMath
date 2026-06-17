@@ -1,0 +1,96 @@
+{
+  "problem_id": "hint_206",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem": "Christine must buy at least $45$ fluid ounces of milk at the store. The store only sells milk in $200$ milliliter bottles. If there are $33.8$ fluid ounces in $1$ liter, then what is the smallest number of bottles that Christine could buy?  (You may use a calculator on this problem.)",
+  "n_questions": 12,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you restate the problem in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What information do we have in the problem that could be useful?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we convert the units from fluid ounces to liters?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the conversion factor we need to use, and why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "After converting to liters, what unit do we need to convert to in order to find the number of bottles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How many milliliters are there in one liter?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we determine the number of bottles needed based on the volume of milk required and the volume of each bottle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you explain the steps you would take to calculate the number of bottles needed?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Is there a specific method or strategy you would use to perform the calculations? Why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "Is it possible to round the number of bottles down or up? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "Can you think of any other similar scenarios where unit conversion and calculation of quantities would be necessary?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

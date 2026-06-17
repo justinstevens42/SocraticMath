@@ -1,0 +1,47 @@
+{
+  "problem_id": "hint_849",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem": "What is the base ten equivalent of $12345_{6}$?",
+  "n_questions": 5,
+  "labels": [
+    "f",
+    "b",
+    "e",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain how the base six number $12345_{6}$ is written in expanded form?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How did you determine the value of each digit in the base six number $12345_{6}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the significance of the exponents in the expanded form of $12345_{6}$?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 4,
+      "question": "How did you arrive at the final sum of $1865$ when converting $12345_{6}$ to base ten?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of any other base conversion methods or strategies that could be applied to this problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

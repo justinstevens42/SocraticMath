@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_651",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "A pipe with inside diameter 10'' is to carry water from a reservoir to a small town in an arid land. Neglecting the friction and turbulence of the water against the inside of the pipes, what is the minimum number of 2''-inside-diameter pipes of the same length needed to carry the same volume of water to the arid town?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "f",
+    "r",
+    "b",
+    "f",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you calculate the volume of a 10-inch pipe?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What information do you need to determine the number of 2-inch pipes needed to match the volume of one 10-inch pipe?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the formula for calculating the volume of a 2-inch pipe?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do you compare the volumes of a 10-inch pipe and a 2-inch pipe?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why is it necessary to neglect friction and turbulence in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "What other factors could affect the number of 2-inch pipes needed in this scenario?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

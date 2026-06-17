@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_218",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem": "The diagonal of a square is $\\sqrt{2}$ inches long. How many inches long is the side of the square?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "f",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How do you know that the diagonal of a square breaks up the square into two 45-45-90 triangles?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain why a diagonal of a square is $\\sqrt{2}$ times longer than a side?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Why is it useful to know the relationship between the diagonal and the side length of a square?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How could we use the Pythagorean theorem to confirm the relationship between the diagonal and the side length of a square?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "In this problem, the diagonal of the square is $\\sqrt{2}$ inches long. What can we conclude about the length of each side of the square?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other geometric figures or shapes where the diagonal is related to the side length in a similar way?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

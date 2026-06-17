@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_505",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 1",
+  "problem": "Compute $\\dbinom{8}{4}$.",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "r",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the meaning of $\\dbinom{8}{4}$? How can we interpret this expression in the context of counting and probability?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain the formula for $\\dbinom{n}{k}$ in your own words? How does it relate to combinations and counting?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you break down the calculation of $\\dbinom{8}{4}$ step by step? What is the purpose of each step in the formula $\\dfrac{n!}{k!(n-k)!}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How does the principle of cancellation apply in simplifying the expression $\\dfrac{8!}{4!4!}$? What patterns do you notice in the cancellations?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you express the numerator and denominator of $\\dbinom{8}{4}$ in expanded form? How does this help in simplifying the fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other ways to compute $\\dbinom{8}{4}$? Can you think of alternative methods that could give the same result?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "How can the concept of combinations and $\\dbinom{8}{4}$ be applied to real-life situations? Can you provide examples where counting and probability are involved?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

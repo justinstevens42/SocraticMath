@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_124",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "Let $f(x)$ be a function defined for all positive real numbers satisfying the conditions $f(x) > 0$ for all $x > 0$ and\n\\[f(x - y) = \\sqrt{f(xy) + 2}\\]for all $x > y > 0.$  Determine $f(2009).$",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "r",
+    "f",
+    "b",
+    "e",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we find the value of $f(2009)$ using the given conditions and equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What are the conditions for the function $f(x)$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can we find specific values for $x$ and $y$ that satisfy the given conditions in the equation $f(x - y) = \\sqrt{f(xy) + 2}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the roots of the quadratic equation $t^2 - (\\sqrt{2009^2 + 4 \\cdot 2009}) t + 2009 = 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the significance of the equation $f(2009) = \\sqrt{f(2009) + 2}$?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "What does it mean for $a$ to be a positive solution to the equation $a^2 = a + 2$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How does the factorization of the quadratic equation help us find the value of $a$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you explain why $f(2009)$ equals 2 based on the calculations we have done?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

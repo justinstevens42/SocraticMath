@@ -1,0 +1,89 @@
+{
+  "problem_id": "hint_490",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "Let $C_1$ and $C_2$ be circles defined by $$\n(x-10)^2+y^2=36\n$$and $$\n(x+15)^2+y^2=81,\n$$respectively. What is the length of the shortest line segment $\\overline{PQ}$ that is tangent to $C_1$ at $P$ and to $C_2$ at $Q$?",
+  "n_questions": 11,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the equations of the circles $C_1$ and $C_2$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What are the coordinates of the centers $A$ and $B$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What are the radii of $C_1$ and $C_2$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do we determine whether the tangent line segment $\\overline{PQ}$ is internal or external?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we find the point of intersection $D$ on the line segment $\\overline{AB}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do we determine that the right triangles $\\triangle APD$ and $\\triangle BQD$ are similar?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the ratio of similarity between $\\triangle APD$ and $\\triangle BQD$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How do we find the coordinates of point $D$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How do we find the lengths of $\\overline{PD}$ and $\\overline{QD}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How do we apply the proportions of the triangle similarity to find the lengths of $\\overline{PD}$ and $\\overline{QD}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "What is the length of the tangent line segment $\\overline{PQ}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

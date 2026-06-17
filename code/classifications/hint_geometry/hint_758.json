@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_758",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "One of the five faces of the triangular prism shown here will be used as the base of a new pyramid. The numbers of exterior faces, vertices and edges of the resulting shape (the fusion of the prism and pyramid) are added. What is the maximum value of this sum?\n\n[asy]\ndraw((0,0)--(9,12)--(25,0)--cycle);\ndraw((9,12)--(12,14)--(28,2)--(25,0));\ndraw((12,14)--(3,2)--(0,0),dashed);\ndraw((3,2)--(28,2),dashed);\n[/asy]",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many faces does the original triangular prism have?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How many edges does the original triangular prism have?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many vertices does the original triangular prism have?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "If a new pyramid is added to the prism, how many faces will the resulting shape have?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "If the new pyramid is added to a triangular face, how many new faces, edges, and vertices will be added?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "If the new pyramid is added to a quadrilateral face, how many new faces, edges, and vertices will be added?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Which option, adding to a triangular face or a quadrilateral face, will result in the maximum sum of exterior faces, vertices, and edges?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the maximum sum of exterior faces, vertices, and edges after adding the pyramid to the quadrilateral face?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

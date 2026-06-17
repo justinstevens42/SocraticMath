@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_401",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem": "The ratio of cats to dogs at the pet store is 2:3. There are 14 cats. How many dogs are there at the pet store?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "r",
+    "e",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How is the ratio of cats to dogs expressed in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many cats are given in the problem, and how is this information helpful in solving the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you express the ratio of cats to dogs as a fraction?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can you use the given ratio to find the number of dogs?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between the number of cats and dogs in the pet store based on the given ratio?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Is there any other way to approach this problem in addition to using the given ratio?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "How can you check if your answer is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you create a similar problem involving ratios and apply the same problem-solving approach?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_658",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem": "Let $ S $ be the set of all sides and diagonals of a regular pentagon. A pair of elements of $ S $ are selected at random without replacement. What is the probability that the two chosen segments have the same length?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what \"probability\" means in the context of this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many sides and diagonals are there in a regular pentagon? Are they all of the same length?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "If we select one segment at random, how many segments of the same length are left in the set?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many total segments are left in the set after the first segment is chosen? How many of them have the same length as the first segment?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine the probability that the second segment has the same length as the first segment?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you calculate the probability of selecting two segments with the same length using the information we have discussed?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

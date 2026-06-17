@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_775",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem": "Given that $a$ is an odd multiple of $7767$, find the greatest common divisor of $6a^2+49a+108$ and $2a+9$.",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "f",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain why we need to use the Euclidean Algorithm to find the greatest common divisor in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How did you determine that the closest multiple of $2a+9$ to $6a^2 + 49a + 108$ is $6a^2 + 49a + 99$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you give a step-by-step explanation of how you used the Euclidean Algorithm to find the greatest common divisor?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How did you simplify the expression $6a^2+49a+108-(2a+9)(3a+11)$ to reach the next step?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why is the greatest common divisor of $6a^2+49a+108$ and $2a+9$ the same as the greatest common divisor of $9$ and $2a+9$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Under what condition does $2a+9$ become a multiple of $9$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Is it possible to use a different method to find the greatest common divisor in this problem? If so, what other methods could be used?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other number theory concepts or problems that can be explored using similar reasoning and steps as used in this problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_653",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 1",
+  "problem": "Compute $\\cos \\left( \\arcsin \\frac{2}{3} \\right).$",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of arcsin?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does the given triangle relate to the value of arcsin 2/3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the value of sin(theta) in the given triangle and how is it related to the opposite side and hypotenuse?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the Pythagorean theorem to find the adjacent side of the triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the definition of cosine and how is it related to the adjacent side and hypotenuse?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What is the value of cos(theta) in the given triangle and how does it relate to the length of the adjacent side and hypotenuse?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we use the value of sin(theta) to find the value of cos(theta)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any other trigonometric functions that we can use to find the value of cos(arcsin(2/3))?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can we use similar methods to solve for other trigonometric functions in similar situations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

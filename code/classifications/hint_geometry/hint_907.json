@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_907",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "A triangle has vertices at $(-3,2),(6,-2),(3,5)$. How many square units are in the area of the triangle? Express your answer as a decimal to the nearest tenth.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given triangle by its vertices?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can you find the area of a triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the formula for finding the area of a triangle using the coordinates of its vertices?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the base of the triangle from the given coordinates?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the height of the triangle from the given coordinates?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we find the length of a line segment using the coordinates of its endpoints?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you find the length of all three sides of the given triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you use the length of the sides to find the area of the triangle without using the formula involving the height?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we divide a polygon into triangles to find its area?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of other ways to find the area of the given triangle using the given coordinates?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_768",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 1",
+  "problem": "The sum of the lengths of all the edges of a cube is 60 cm. Find the number of cubic centimeters in the volume of the cube.",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a cube in geometry, and what are its defining characteristics?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How many edges does a cube have, and what is the length of each edge?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the total length of all the edges on a cube, and what is the result for this particular question?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the formula for the volume of a cube, and how does it relate to the length of the edges?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Using the length of the edges we found in question 2, what is the volume of the cube in this problem, and how did we calculate it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we generalize this process to find the volume of any cube, regardless of its dimensions?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "problem_id": "hint_104",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem": "What is $\\left(\\frac{7}{8}\\right)^3 \\cdot \\left(\\frac{7}{8}\\right)^{-3}$?",
+  "n_questions": 5,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "According to the definition, what is the reciprocal of $\\left(\\frac{7}{8}\\right)^3$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does the reciprocal of $\\left(\\frac{7}{8}\\right)^3$ relate to $\\left(\\frac{7}{8}\\right)^{-3}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What do we know about the product of reciprocals?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you simplify the calculation $\\left(\\frac{7}{8}\\right)^3 \\cdot \\left(\\frac{7}{8}\\right)^{-3}$ based on the information we have so far?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the final result of $\\left(\\frac{7}{8}\\right)^3 \\cdot \\left(\\frac{7}{8}\\right)^{-3}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

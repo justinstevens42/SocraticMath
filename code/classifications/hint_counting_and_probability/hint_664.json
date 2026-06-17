@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_664",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem": "Mr. Reader has six different Spiderman comic books, five different Archie comic books and four different Garfield comic books. When stacked, all of the Spiderman comic books are grouped together, all of the Archie comic books are grouped together and all of the Garfield comic books are grouped together. In how many different orders can these 15 comic books be stacked in a pile with the covers facing up and all of them facing the same direction? Express your answer as a whole number.",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What different types of comic books does Mr. Reader have?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many Spiderman comics does Mr. Reader have? How many Archie comics? Garfield comics?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "In how many ways can the Spiderman comics be arranged? How about the Archie and Garfield comics?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How do we calculate the total number of ways to order all the comic books?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What are the possible arrangements of the three groups of comics in the stack?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How many ways can we place the different groups of comics in the stack?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final answer to the problem, and how did we arrive at it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you come up with a similar problem involving different types of items that need to be arranged in a certain way?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

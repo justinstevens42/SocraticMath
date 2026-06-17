@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_699",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 1",
+  "problem": "In the six-digit integer $3A6,\\!792$, what is the largest digit $A$ so that the six-digit integer will be divisible by 3?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain how the divisibility rule for 3 can be applied to this six-digit integer?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for a number to be divisible by 3? Why is it important to consider the sum of its digits in this case?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the sum of the digits of the integer $3A6,792$? Can you break down the process step by step?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What are the possible values of $A$ that make the sum of the digits $A+27$ divisible by 3? How did you determine these values?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why we only consider 0, 3, 6, or 9 as possible values for $A$? What property do these values have that makes the sum $A+27$ divisible by 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the largest digit $A$ that satisfies the divisibility rule? Can you justify your answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_1013",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "In triangle $ABC$, $AX = XY = YB = BC$ and the measure of angle $ABC$ is 120 degrees. What is the number of degrees in the measure of angle $BAC$?\n\n[asy]\npair A,X,Y,B,C;\nX = A + dir(30); Y = X + dir(0); B = Y + dir(60); C = B + dir(-30);\ndraw(B--Y--X--B--C--A--X);\nlabel(\"$A$\",A,W); label(\"$X$\",X,NW); label(\"$Y$\",Y,S); label(\"$B$\",B,N); label(\"$C$\",C,E);\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information about triangle ABC?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What do we want to compute in this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the fact that AX=XY=YB=BC to find angle measures in triangle AXY and triangle XYB?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the fact that angle BXY and angle AXY are supplementary to find angle BXY?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the fact that XY=YB to find angle measures in triangle XYB?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the fact that angles AYX, XYB, and BYC add up to 180 degrees to find angle BYC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we use the fact that YB=BC to find angle measures in triangle YBC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we use the fact that angles XBY and YBC are supplementary to find angle ABC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the equation we need to solve to find the value of the angle we want to compute?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the final answer and how do we obtain it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

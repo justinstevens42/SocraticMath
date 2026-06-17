@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_1011",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem": "If the odds for pulling a prize out of the box are $3:4$, what is the probability of not pulling the prize out of the box? Express your answer as a common fraction.",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the concept of odds in relation to probability?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain what the ratio \"3:4\" represents in terms of the likelihood of pulling a prize out of the box?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "If there are 7 total outcomes when pulling from the box, how many of those outcomes result in pulling a prize?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many of the 7 outcomes do not result in pulling a prize?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we express the probability of not pulling the prize out of the box as a fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you simplify the fraction that represents the probability of not pulling the prize out of the box?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How does the concept of odds relate to the concept of probability?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of other scenarios where odds can be used to determine probabilities?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "What would the probability be if the odds for pulling a prize out of the box were different, such as 2:5 or 5:3? How would that affect the likelihood of not pulling the prize out of the box?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

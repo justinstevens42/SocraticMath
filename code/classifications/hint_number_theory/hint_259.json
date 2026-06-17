@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_259",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem": "If $a$, $b$, and $c$ are digits and $0.abc$ can be expressed as $\\frac{1}{y}$ where $y$ is an integer such that $0<y\\le9$, then what is the largest possible value of $a+b+c$?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking for?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we express the given decimal as a fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What are the possible values of y given the restrictions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How do we eliminate the possibility of y being 1?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why do the remaining possibilities for y have to divide into 1000?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "For each possible value of y, what is the corresponding value of abc?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "For each value of abc, what is the corresponding value of a+b+c?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the largest possible value of a+b+c and how do we obtain it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_242",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem": "The sum of two fractions is $\\frac{11}{12}$ and their product is $\\frac{1}{6}$. What is the lesser of the two fractions? Express your answer as a common fraction.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you write down the equations to represent the given information about the sum and product of the two fractions?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What strategies or methods can we use to solve this problem? Are there any specific methods that come to mind?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If we decide to use the method of substitution, what can we substitute in for one fraction in terms of the other fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we simplify or manipulate the equations to solve for the unknown fractions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "If we find the value of one fraction, how can we determine which one is the lesser fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other similar math problems that you can think of where we might use a similar approach and steps?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

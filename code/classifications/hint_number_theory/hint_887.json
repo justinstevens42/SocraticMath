@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_887",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem": "If 52 cards are dealt to 8 people as evenly as possible, how many people will end up with fewer than 7 cards?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many cards are there in a standard deck?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How many people are there in total?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "If you divide the number of cards by the number of people, what is the quotient? What does this represent in terms of how many cards each person gets?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the remainder when you divide the number of cards by the number of people? What does this represent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many people will receive an extra card? How do you know?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many people will end up with fewer than 7 cards?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

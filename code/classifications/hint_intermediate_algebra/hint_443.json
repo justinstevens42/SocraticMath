@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_443",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "Let\n\\[x^5 - x^2 - x - 1 = p_1(x) p_2(x) \\dotsm p_k(x),\\]where each non-constant polynomial $p_i(x)$ is monic with integer coefficients, and cannot be factored further over the integers.  Compute $p_1(2) + p_2(2) + \\dots + p_k(2).$",
+  "n_questions": 10,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in factoring the expression $x^5 - x^2 - x - 1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What methods do you know for factoring polynomials, especially those with monic and integer coefficients?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "If we try factoring by grouping, which terms could we pair together?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is it not possible to factor $x^3 - x - 1$ further over integers? Are there any integer roots?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine if a polynomial is irreducible?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "If we know that $x^3 - x - 1$ is irreducible, what can we conclude about the factorization of the original expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Based on our factorization, what are the individual polynomials $p_1(x), p_2(x), \\dots, p_k(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What values can we substitute for $x$ in each of the factors to evaluate them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we compute $p_1(2) + p_2(2) + \\dots + p_k(2)$ based on the values we find?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the final result of $p_1(2) + p_2(2) + \\dots + p_k(2)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

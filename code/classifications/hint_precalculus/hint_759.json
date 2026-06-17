@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_759",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem": "Simplify\n\\[\\frac{\\tan 30^\\circ + \\tan 40^\\circ + \\tan 50^\\circ + \\tan 60^\\circ}{\\cos 20^\\circ}.\\]",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the general formula for $\\tan x + \\tan y$ in terms of $\\sin$ and $\\cos$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we simplify the expression $\\frac{\\tan 30^\\circ + \\tan 40^\\circ + \\tan 50^\\circ + \\tan 60^\\circ}{\\cos 20^\\circ}$ using the angle addition formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What specific values should we substitute in the angle addition formula to simplify the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we express $\\tan(60^\\circ + 40^\\circ)$ as a trigonometric function of a single angle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we simplify $\\cos(90^\\circ + 10^\\circ)$ using the product-to-sum formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the final simplified value of the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

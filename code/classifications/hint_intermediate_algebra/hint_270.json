@@ -1,0 +1,110 @@
+{
+  "problem_id": "hint_270",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "Let $G$ be the set of polynomials of the form $$ P(z)=z^n+c_{n-1}z^{n-1}+\\cdots+c_2z^2+c_1z+50, $$where $ c_1,c_2,\\dots, c_{n-1} $ are integers and $P(z)$ has distinct roots of the form $a+ib$ with $a$ and $b$ integers. How many polynomials are in $G$?",
+  "n_questions": 14,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the condition for a polynomial to be in the set $G$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we express a polynomial in $G$ in general form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What are the possible roots of a polynomial in $G$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we factorize a polynomial with distinct roots?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What are the restrictions on the coefficients in the factorization of a polynomial in $G$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How many linear factors can we have in the factorization of a polynomial in $G$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How many quadratic factors can we have in the factorization of a polynomial in $G$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How do the values of $a$ and $b$ in the quadratic factors relate to the roots of the polynomial?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What numbers divide 50 as the constant term of the quadratic factor?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How many basic factors are there for each value of the divisor of 50?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "How many ways can we choose the factors from $B_d$, where $d > 1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "What is the requirement for choosing other factors like $z + 1$ or $z^2 + 1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 13,
+      "question": "How does the constant coefficient affect the inclusion of the factor $z - 1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 14,
+      "question": "What is the total number of polynomials in $G$ based on these choices?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

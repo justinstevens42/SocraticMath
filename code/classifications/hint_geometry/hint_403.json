@@ -1,0 +1,89 @@
+{
+  "problem_id": "hint_403",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "In $\\triangle XYZ$, we have $\\angle X = 90^\\circ$ and $\\tan Z = 7$.  If $YZ = 100$, then what is $XY$?",
+  "n_questions": 11,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information about triangle XYZ?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "In a right triangle, what is the relationship between the tangent of an angle and the side lengths?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the tangent of angle Z to relate XY and XZ?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can we find a numerical value for XZ using the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we write the relationship between XY and XZ using the given information and the value of XZ?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What formula can we use to relate the side lengths of a right triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "By substituting the given values and the value of XZ into the Pythagorean theorem, what equation do we obtain?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we solve the equation to find the value of k?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the final expression for XY in terms of k?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can we find the specific value of XY?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "Do we need to simplify the expression for XY further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

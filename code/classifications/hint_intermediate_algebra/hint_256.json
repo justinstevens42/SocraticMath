@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_256",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "A cubic polynomial $p(x)$ satisfies\n\\[p(n) = \\frac{1}{n^2}\\]for $n = 1, 2, 3,$ and $4.$  Find $p(5).$",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the given conditions about the cubic polynomial $p(x)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we use these conditions to find $p(5)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "The polynomial $q(x)$ is defined as $q(x) = x^2 p(x) - 1$. What is the degree of $q(x)$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the fact that $q(n) = 0$ for $n = 1, 2, 3,$ and $4$ to express $q(x)$ as a product of linear factors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What can we determine about the constant term and leading coefficient of $q(x)$ from the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we determine the specific values of $a$ and $b$ in the expression for $q(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is $q(0)$ and how does it help us determine the value of $b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What does the coefficient of $x$ in $q(x)$ tell us about the value of $a$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we determine the value of $q(5)$ and how does it relate to $p(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

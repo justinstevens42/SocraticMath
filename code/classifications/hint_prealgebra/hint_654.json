@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_654",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem": "How many numbers are in the list $$ 1.5, 5.5, 9.5, 13.5, \\ldots, 41.5, 45.5? $$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we make the list easier to deal with?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What happens when we add 2 to each of the terms in the list? Why do we do this?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "After adding 2 to each term, what do we get? What does this tell us about the list?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What happens if we divide each term by 4? Can you explain why we choose to divide by 4?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "After dividing by 4, what do we get? What does this tell us about the original list?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Based on the transformed list, how many numbers are in the original list?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

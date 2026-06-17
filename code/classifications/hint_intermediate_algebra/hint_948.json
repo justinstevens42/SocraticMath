@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_948",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "For some real numbers $a$ and $b$, the equation $9x^3 + 5ax^2 + 4bx + a = 0$ has three distinct positive roots. If the sum of the base-2 logarithms of the roots is 4, what is the value of $a$?",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "b",
+    "r",
+    "r",
+    "r",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the relationship between the sum of the base-2 logarithms of the roots and the given equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we express the sum of logarithms in terms of the roots of the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for the equation to have three distinct positive roots? How does this information relate to the logarithms of the roots?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you think of a property of logarithms that can help us rewrite the equation in a more useful form?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What does it mean for the product of the roots to be equal to $-\\frac{a}{9}$? How does this relate to the given equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the information about the product of the roots to solve for the value of $a$ in the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other properties of logarithms that might be useful in solving this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_447",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem": "Let $p$ and $q$ be the two distinct solutions to the equation $$(x-3)(x+3) = 21x - 63.$$If $p > q$, what is the value of $p - q$?",
+  "n_questions": 10,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "f"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you simplify the left side of the equation $(x-3)(x+3)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What can you infer about the solutions to the equation based on the given expression $21x - 63$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can you find the values of $p$ and $q$ given that they are the distinct solutions to the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How did you determine that $p$ is greater than $q$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the value of $p - q$ in terms of the solutions $p$ and $q$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Based on the equation, what information can you use to find the difference between the solutions?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "How can you use the given equation to set up an equation that relates $p$ and $q$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What steps can you take to determine the values of $p$ and $q$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can you verify that the values of $p$ and $q$ you find are indeed the solutions to the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Are there any alternative methods or approaches that can be used to find the difference between the solutions $p$ and $q$ in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    }
+  ]
+}

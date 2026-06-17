@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_295",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "Two sectors of a circle of radius $12$ overlap as shown, with $P$ and $R$ as the centers of the respective circles. Determine the area of the shaded region.\n\n[asy]\ndraw((0,0)--(10.3923,-6)--(20.7846,0)--(10.3923,6)--cycle,black+linewidth(1));\nfilldraw((10.3923,6)..(12,0)..(10.3923,-6)--cycle,gray,black+linewidth(1));\nfilldraw((10.3923,6)..(8.7846,0)..(10.3923,-6)--cycle,gray,black+linewidth(1));\nlabel(\"$P$\",(0,0),W);\nlabel(\"$Q$\",(10.3923,6),N);\nlabel(\"$R$\",(20.7846,0),E);\nlabel(\"$S$\",(10.3923,-6),S);\nlabel(\"$60^\\circ$\",(0,0),2E);\nlabel(\"$60^\\circ$\",(20.7846,0),2W);\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the shaded region in the given figure?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the area of the shaded region?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can we divide the shaded region into simpler and familiar shapes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What are the shapes that make up the shaded region?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we find the area of each shape?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are the areas of the individual shapes equal?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the relationship between the radii of the circles and the side length of the equilateral triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "How can we use this relationship to find the area of the equilateral triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What formula can we use to find the area of the sector?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can we calculate the area of the shaded region using the areas of the sector and triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

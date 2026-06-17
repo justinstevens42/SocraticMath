@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_394",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "Find\n\\[\\sum_{N = 1}^{1024} \\lfloor \\log_2 N \\rfloor.\\]",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the symbol $\\lfloor x \\rfloor$ represents in mathematics?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the possible values of $\\lfloor \\log_2 N \\rfloor$ for $1 \\leq N \\leq 1024$? Can you list them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "For a given value of $k$, what are the possible values of $N$ such that $\\lfloor \\log_2 N \\rfloor = k$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many values of $N$ satisfy $\\lfloor \\log_2 N \\rfloor = k$? Can you write this in terms of $k$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you express the sum $\\sum_{N=1}^{1024} \\lfloor \\log_2 N \\rfloor$ using the previous observations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we simplify the expression for the sum by grouping similar terms?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the sum of the terms when $\\lfloor \\log_2 N \\rfloor = 0$? What about when $\\lfloor \\log_2 N \\rfloor = 1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you identify a pattern in the sum of terms for each possible value of $\\lfloor \\log_2 N \\rfloor$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we use this pattern to calculate the sum of the entire series?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

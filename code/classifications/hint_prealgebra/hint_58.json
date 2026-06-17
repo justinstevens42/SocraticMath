@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_58",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem": "What is the sum of the positive odd divisors of $60$?",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the prime factors of 60 and how would you determine them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What are the divisors of 60 and how would you find them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Which of the divisors of 60 are odd and why?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the product of the largest power of 2 that divides 60 and the largest power of 5 that divides 60?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the formula to find the sum of divisors of a number and how can it be applied to find the sum of the odd divisors of 60?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the sum of the odd divisors of 60 and how can you verify that it is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you generalize this process to find the sum of odd divisors of any number?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

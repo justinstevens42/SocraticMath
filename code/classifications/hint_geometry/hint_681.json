@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_681",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 1",
+  "problem": "In the diagram, $RSP$ is a straight line and $\\angle QSP = 80^\\circ$.  What is the measure of $\\angle PQR$, in degrees?\n\n[asy]\ndraw((.48,-.05)--(.48,.05)); draw((.52,-.05)--(.52,.05)); draw((1.48,-.05)--(1.48,.05)); draw((1.52,-.05)--(1.52,.05));\n\ndraw((1.04,.51)--(1.14,.49)); draw((1.03,.47)--(1.13,.45));\ndraw((0,0)--(2,0)--(1.17,.98)--cycle);\nlabel(\"$P$\",(2,0),SE); label(\"$R$\",(0,0),SW); label(\"$Q$\",(1.17,.98),N);\n\nlabel(\"$80^\\circ$\",(1,0),NE);\n\nlabel(\"$S$\",(1,0),S);\ndraw((1,0)--(1.17,.98));\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you identify any known angle measures in the diagram?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What can we infer about the angle measures in triangle RSQ?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the measure of angle RQS?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the measure of angle PQS?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What relationship can we find between angles RQS and PQS?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the final step to determine the measure of angle PQR?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

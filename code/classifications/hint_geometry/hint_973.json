@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_973",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 1",
+  "problem": "For his birthday, Bert gets a box that holds $125$ jellybeans when filled to capacity. A few weeks later, Carrie gets a larger box full of jellybeans. Her box is twice as high, twice as wide and twice as long as Bert's. Approximately, how many jellybeans did Carrie get?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the relationship between the sizes of Bert's box and Carrie's box?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does the volume of Bert's box relate to the volume of Carrie's box?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If Bert's box can hold 125 jellybeans when filled to capacity, how many jellybeans would Carrie's box hold, approximately?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why the volume of Carrie's box is 8 times the volume of Bert's box?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there any assumptions we are making in this problem? Can you think of scenarios where the ratio wouldn't be 8 to 1?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "How could we generalize this problem to other scenarios involving different ratios of dimensions?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_640",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem": "If the price of a stamp is 33 cents, what is the maximum number  of stamps that could be purchased with $\\$32$?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "r",
+    "r",
+    "b",
+    "e",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the maximum number of stamps that can be purchased with $\\$32$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the formula we can use to relate the number of stamps and the cost?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use inequalities to find the maximum number of stamps?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Why do we need to divide the inequality by $33$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Once we have the inequality $n \\le \\frac{3200}{33}$, how can we find the largest integer $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the significance of finding the largest integer $n$?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Why is it important to verify that our answer makes sense in the context of the problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "Can this method of solving problems be applied to other situations involving money and quantities?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

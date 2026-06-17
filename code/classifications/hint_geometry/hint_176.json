@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_176",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "The radius of the inscribed circle is 6 cm. What is the number of centimeters in the length of $\\overline{AB}$? Express your answer in simplest radical form. [asy]\nimport olympiad; import geometry; size(150); defaultpen(linewidth(0.8));\ndraw((sqrt(3),0)--origin--(0,1)--cycle);\nreal r1 = (sqrt(3) - 1)/2;\ndraw(Circle((r1,r1),r1));\nlabel(\"$A$\",(sqrt(3),0),SE);\nlabel(\"$B$\",(0,1),NW);\ndraw(rightanglemark((0,1),origin,(1,0),3));\nlabel(scale(0.8)*\"$60^\\circ$\",(0,0.9),SE);\n[/asy]",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How is the length of AB related to the radius of the inscribed circle and the given information about the right triangles?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do we know that triangles BCO and BFO are congruent?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the measure of angle BOC and how is it related to the given information?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the length of BC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we know that quadrilateral CDEO is a rectangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we find the length of CD?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the total length of BD?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we calculate the length of AB using the properties of a 30-60-90 triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the final answer for the length of AB in simplest radical form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

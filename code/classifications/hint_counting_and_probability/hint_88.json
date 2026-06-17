@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_88",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem": "The Lakers are playing the Celtics in the NBA finals. To win the NBA finals, a team must win 4 games before the other team does. If the Celtics win each game with probability $\\dfrac{2}{3}$ and there are no ties, what is the probability that the Lakers will win the NBA finals but that the contest will need all seven games to be decided? Express your answer as a fraction.",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what it means for the contest to go to all seven games?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Why does the contest need to be tied 3-3 after six games for it to go to the seventh game?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many ways are there to choose which three out of the six games the Lakers win, assuming they tied 3-3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the probability of the Lakers winning the three games we pick and losing the other three, given a win probability of $\\frac{2}{3}$ for each game?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we calculate the overall probability of the contest being tied 3-3 after six games?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the probability of the Lakers winning the seventh game, given that the contest is tied 3-3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we combine the probability of a tied contest after six games and the Lakers winning the seventh game to find the probability of the Lakers winning the NBA finals in all seven games?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Finally, can you calculate the specific fraction representing the probability requested in the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

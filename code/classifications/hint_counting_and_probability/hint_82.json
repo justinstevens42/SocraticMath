@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_82",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 1",
+  "problem": "The probability of rain tomorrow is $\\frac{3}{10}$.  What is the probability that it will not rain tomorrow?  Express your answer as a common fraction.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the probability of rain tomorrow?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How would you go about determining the probability that it won't rain tomorrow?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain what complementary probability is and how it can be used in this situation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the formula for complementary probability?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do you calculate the probability of an event and its complement?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you give another example where you can use complementary probability to find the probability of an event?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

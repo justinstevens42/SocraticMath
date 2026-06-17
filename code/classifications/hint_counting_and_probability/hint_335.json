@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_335",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem": "Bertha has 6 daughters and no sons. Some of her daughters have 6 daughters, and the rest have none. Bertha has a total of 30 daughters and granddaughters, and no great-granddaughters. How many of Bertha's daughters and granddaughters have no daughters?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "f",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking us to find out?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many daughters does Bertha have and how many granddaughters does she have in total?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many of Bertha's daughters have no daughters of their own?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How did we arrive at the conclusion that Bertha has 24 granddaughters?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did we determine that 4 of Bertha's daughters have children who are all granddaughters?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How did we use this information to find the number of women who have no daughters?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any assumptions we are making in this problem? If so, what are they?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "Can we generalize this problem to other scenarios with different numbers of daughters and granddaughters? If so, how would we approach it?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_268",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem": "According to the data shown, how much cheaper, in cents, is the cheaper store's price for Camera $X$ compared to the more expensive? \\begin{tabular}{|l|l|}\n\\hline\n\\textbf{Store}& \\textbf{Sale Price for Camera $X$} \\\\ \\hline\nSuper Savers & $\\$9$~off the list price~$\\$39.96$ \\\\ \\hline\nPenny Wise & $25\\%$~off the list price~$\\$39.96$ \\\\ \\hline\n\\end{tabular}",
+  "n_questions": 9,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we determine the price difference between the two stores for Camera X?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What information do we have about the prices at each store?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we calculate the price at Super Savers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we calculate the price at Penny Wise?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why we subtracted $9 from the list price for Super Savers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How did we calculate the price at Penny Wise using the percentage discount?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the value of the price difference in cents?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you verify the final result by performing the subtraction of the two prices?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Could there be any other methods or approaches to calculate the price difference?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

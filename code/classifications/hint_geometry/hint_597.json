@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_597",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "The image of the point with coordinates $(1,1)$ under the reflection across the line $y=mx+b$ is the point with coordinates $(9,5)$.  Find $m+b$.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what a reflection across a line means?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How does the line of reflection relate to the image of the point after reflection?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What can we say about the slope of the line of reflection based on the given information?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the slope of the segment connecting the point and its image?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why is the slope of the line of reflection equal to the negative reciprocal of the slope of the segment?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we find the midpoint of the segment connecting the point and its image?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Why does the line of reflection go through the midpoint of the segment?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we use the slope-intercept form of a line to find the value of $b$, the y-intercept of the line of reflection?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What equation represents the line of reflection based on the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can we find the value of $m+b$ using the equation of the line of reflection?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

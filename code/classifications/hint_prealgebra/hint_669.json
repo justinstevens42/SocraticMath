@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_669",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem": "Jordan wants to divide his $\\frac{48}{5}$ pounds of chocolate into $4$ piles of equal weight.  If he gives one of these piles to his friend Shaina, how many pounds of chocolate will Shaina get?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the initial expression we need to evaluate to determine how much chocolate Shaina will receive?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How do we divide a fraction by a whole number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Why do we multiply by the reciprocal when dividing fractions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the simplified expression for $\\frac{48}{5} \\cdot \\frac{1}{4}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we simplify $\\frac{48}{4}$ to get $\\frac{1}{5} \\cdot 12$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the final result for how many pounds of chocolate Shaina will receive?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

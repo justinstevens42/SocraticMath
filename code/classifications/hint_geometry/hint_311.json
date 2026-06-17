@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_311",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "In triangle $ABC$, $BC = 20 \\sqrt{3}$ and $\\angle C = 30^\\circ$.  Let the perpendicular bisector of $BC$ intersect $BC$ and $AC$ at $D$ and $E$, respectively.  Find the length of $DE$.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information in this problem and what are we looking to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the perpendicular bisector of BC to find the length of DE?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Why is D the midpoint of BC? How does that help us in finding DE?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "In triangle CED, how are the angles related? How can we use that information to find the length of DE?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can we apply any trigonometric ratios in triangle CED to find the length of DE?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other properties or theorems we can use to find the length of DE?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_441",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem": "If $C=\\frac{5}{9}(F-32)$, what is $F$ when $C=20$?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given equation representing? Can you interpret the meaning of the variables C and F?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain the steps you would take to solve the equation? What is the first step?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Why did we multiply both sides of the equation by 9? What was the purpose of doing that?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How did we simplify the equation after multiplying by 9? Can you explain the steps involved?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What did we do to isolate the variable F? Why did we choose that method?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How did we arrive at the final answer of F = 68? Can you explain the reasoning behind it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of other situations or equations where the same logical steps and techniques might be relevant?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

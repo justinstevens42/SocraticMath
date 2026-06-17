@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_886",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "Chuck the llama is tied to the corner of a $2\\text{ m}$ by $3\\text{ m}$ shed on a $3\\text{ m}$ leash. How much area (in square meters) does Chuck have in which to play if he can go only around the outside of the shed? [asy]\ndraw((0,0)--(15,0)--(15,10)--(0,10)--cycle,black+linewidth(1));\ndraw((15,10)--(27,19),black+linewidth(1));\ndot((27,19));\nlabel(\"Shed\",(7.5,5));\nlabel(\"CHUCK\",(27,19),N);\nlabel(\"2\",(0,0)--(0,10),W);\nlabel(\"3\",(0,0)--(15,0),S);\nlabel(\"3\",(15,10)--(27,19),SE);\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the shape of the area in which Chuck can play?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the total area of the region that Chuck can play in?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the formula for the area of a circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the radius of the larger circle that represents Chuck's maximum reach?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What fraction of a full circle is the region that Chuck can play in when the leash is fully extended?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the formula for the area of a sector of a circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can we calculate the area of the additional region when the leash is extended to the left?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we calculate the area of the additional region when the leash is extended to the bottom?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the relationship between the areas of the different regions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 10,
+      "question": "What is the total area that Chuck has in which to play?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_442",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 1",
+  "problem": "What is the 100th letter in the pattern ABCABCABC...?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "e",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the pattern in this sequence of letters?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you determine any regularity or repetition within the pattern?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many copies of the letters \"ABC\" are there before the 100th letter?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the significance of the number 33 in determining the number of copies of \"ABC\"?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "Why is there an \"A\" after the 33rd repetition of \"ABC\"?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How did you arrive at the conclusion that the 100th letter is \"A\"?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other patterns or sequences that you can think of that follow a similar structure?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_147",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem": "Two different natural numbers are selected from the set $\\ \\allowbreak \\{1, 2, 3, \\ldots, 6\\}$. What is the probability that the greatest common factor of these two numbers is one? Express your answer as a common fraction.",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many ways can we select two different natural numbers from the set {1, 2, 3, 4, 5, 6}?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine if two numbers have a greatest common factor of one?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we count the number of two-element subsets that have a greatest common factor of one?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you identify the subsets that don't have a greatest common factor of one?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the probability of selecting a subset with a greatest common factor of one?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How did you calculate the probability? Can you explain your reasoning?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other scenarios where the concept of greatest common factor can be used?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

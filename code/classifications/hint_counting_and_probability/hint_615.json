@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_615",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem": "How many even three digit numbers are there such that the sum of the  tens and units digits is 10?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step in approaching this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain why there are only four possible endings for the number in question?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How did you arrive at the conclusion that there are nine possible digits for the hundreds digit?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the significance of the sum of the tens and units digits being 10 in this problem?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "Are there any other criteria for the three digit numbers in question aside from their being even and satisfying the given sum condition?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any real-life scenarios where the ability to count and calculate probability would be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

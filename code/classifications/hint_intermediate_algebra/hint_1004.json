@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_1004",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "Find the minimum value of\n\\[\\sqrt{x^2 + (1 - x)^2} + \\sqrt{(1 - x)^2 + (1 + x)^2}\\]over all real numbers $x.$",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the given expression represents geometrically?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we rewrite the expression in terms of the coordinates of the points A, B, and P?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the relationship between the length of AP and the coordinates of point P?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the relationship between the length of BP and the coordinates of point P?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the Triangle Inequality to find a lower bound for AP + BP?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "When does equality occur in the Triangle Inequality, and what does that tell us about the position of point P?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What coordinate satisfies both the equation of the line y = x and the line passing through points A and B?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the minimum value of AP + BP, and how does this relate to the original problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

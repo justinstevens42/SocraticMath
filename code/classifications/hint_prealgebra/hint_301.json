@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_301",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem": "What is the greatest common factor of 68 and 92?",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the purpose of finding the greatest common factor (GCF) of two numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What are the prime factorizations of 68 and 92? Can you identify any common prime factors?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the GCF by examining the prime factorizations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is the number 2 the only common prime factor between 68 and 92?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why can't a prime factor raised to a power greater than 2 be a factor of either 68 or 92?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the common prime factor(s) to find the GCF?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the GCF of 68 and 92 based on their prime factorizations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

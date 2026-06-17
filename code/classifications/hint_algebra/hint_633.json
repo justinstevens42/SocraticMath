@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_633",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem": "Simplify $\\frac{3^4+3^2}{3^3-3}$  . Express your answer as a common fraction.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you start simplifying this expression? Can you identify any patterns or rules that might be helpful in simplifying it?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Are you familiar with any properties or rules of exponents that might be applicable here? How can you use them to simplify the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you simplify each exponent separately before combining them? How does simplifying each exponent individually help in simplifying the entire expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Is there a common factor that can be factored out from the numerator or denominator? How does factoring out common factors simplify the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What can you do with the common factor in the numerator and denominator after factoring it out? How does canceling out the common factor further simplify the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other alternative methods or approaches you can think of that might simplify this expression in a different way? How would you compare the different methods and decide which one to use?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_167",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem": "Find $XY$ in the triangle below.\n\n\n[asy]\nunitsize(1inch);\npair P,Q,R;\nP = (0,0);\nQ= (1,0);\nR = (0,1);\ndraw (P--Q--R--P,linewidth(0.9));\ndraw(rightanglemark(Q,P,R,3));\nlabel(\"$X$\",P,S);\nlabel(\"$Y$\",Q,S);\nlabel(\"$Z$\",R,N);\nlabel(\"$12\\sqrt{2}$\",(Q+R)/2,NE);\nlabel(\"$45^\\circ$\",(0.7,0),N);\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you determine the type of triangle $XYZ$ is?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between the sides of a 45-45-90 triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Using the relationship between the sides of a 45-45-90 triangle, can you solve for $XY$ in terms of the given length $12\\sqrt{2}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can you check that your answer for $XY$ is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there any other methods that can be used to find $XY$, and how do they compare in terms of efficiency and accuracy?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other problems involving 45-45-90 triangles that would require a similar problem-solving approach?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

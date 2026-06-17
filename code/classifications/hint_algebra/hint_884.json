@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_884",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "What is the $x$-coordinate of the point on the $x$-axis that is equidistant from points $A( -2, 0)$ and $B(0,4)$?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe how you would approach finding the $x$-coordinate of the point on the $x$-axis that is equidistant from points $A(-2, 0)$ and $B(0, 4)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Are there any particular strategies or formulas that come to mind when trying to find the distance between two points?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How would you find the distances from point $A$ and point $B$ to a general point $(x, 0)$ on the $x$-axis?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean for a point to be equidistant from two other points?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you set up an equation or a condition that represents the given problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How would you solve the equation or condition you set up in the previous question?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What solution(s) did you find for the equation or condition, and do they make sense in the context of the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any real-life scenarios where finding an equidistant point on the $x$-axis between two given points would be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

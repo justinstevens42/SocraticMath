@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_146",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "There are two values of $a$  for which the equation $4x^2+ax+8x+9=0$ has only one solution for $x$. What is the sum of those values of $a$?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you identify the terms in the equation and their corresponding coefficients?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the sum of the coefficients of the linear term in the equation? How might that be relevant to finding the solutions for $x$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine whether an equation has one solution, no solution, or infinitely many solutions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you identify the quadratic term, the linear term, and the constant term in the equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How might the quadratic term affect the number of solutions for $x$? What properties or characteristics should we consider when examining the quadratic term?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Based on the given equation, what pattern or relationship can you find between the coefficients of the quadratic and linear terms?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we represent the sum of the solutions for $x$ in terms of the equation's coefficients?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we determine when an equation has only one solution for $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Considering the given equation, what condition(s) must be satisfied for it to have exactly one solution?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can we express the sum of the values of $a$ for which the equation has only one solution?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

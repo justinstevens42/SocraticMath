@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_167",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem": "Let $a\\equiv (3^{-1}+5^{-1}+7^{-1})^{-1}\\pmod{11}$. What is the remainder when $a$ is divided by $11$?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the given expression represent in modular arithmetic?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean to find an inverse modulo 11?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you describe the process of finding the inverse of a number modulo 11?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we express the expression $3^{-1}+5^{-1}+7^{-1}$ in terms of modulo 11?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you simplify the expression $(3^{-1}+5^{-1}+7^{-1})^{-1}$ using the explicit method?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there an alternative way to simplify the expression using manipulation? If so, can you describe that method?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we determine the remainder when $a$ is divided by 11?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you explain why the remainder is 10 using the explicit method?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you explain why the remainder is still 10 using the alternative method?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

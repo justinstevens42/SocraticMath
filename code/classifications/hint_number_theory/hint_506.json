@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_506",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem": "The base-10 numbers 217 and 45 are multiplied. The product is then written in base-6. What is the units digit of the base-6 representation?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How is the base-6 representation of a number obtained?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain the concept of the units digit in base-6? What role does it play in representing the number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "In the given problem, what are the remainders when 217 and 45 are divided by 6?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the remainders to determine the units digit of the base-6 representation of the product?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you calculate the product of 217 and 45?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How would you find the units digit of the base-6 representation based on the product and the remainders?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Why does the units digit represent the remainder when a positive integer is divided by 6 in base 6?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of similar problems where the units digit plays a crucial role in determining the base representations of the numbers involved?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_925",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "The circle $2x^2 = -2y^2 + 12x - 4y + 20$ is inscribed inside a square which has a pair of sides parallel to the x-axis. What is the area of the square?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you first describe the equation of the circle in standard form?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the center and radius of the circle from the given equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What do we know about the relationship between a circle and its inscribed square?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the information about the square having sides parallel to the x-axis to find the coordinates of the square's vertices?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between the length of the side of the square and the radius of the inscribed circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we find the length of the side of the square using the radius of the circle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Once we have the length of the side of the square, how can we find the area of the square?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

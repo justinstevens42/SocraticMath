@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_239",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "Simplify $\\sqrt{28x} \\cdot \\sqrt{15x} \\cdot \\sqrt{21x}$. Express your answer in simplest radical form in terms of $x$.\n\nNote: When entering a square root with more than one character, you must use parentheses or brackets.  For example, you should enter $\\sqrt{14}$ as \"sqrt(14)\" or \"sqrt{14}\".",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first thing you should do when simplifying the expression $\\sqrt{28x} \\cdot \\sqrt{15x} \\cdot \\sqrt{21x}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you think of any properties of radicals that can help simplify this expression?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can you use the multiplication rule of radicals to combine the square roots in this expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the product property of radicals and how can it be applied to simplify the given expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you simplify the numbers under the square roots individually? What are the factors of $28$, $15$, and $21$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you simplify the variables under the square roots individually? What does it mean to simplify the variable with a square root?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Combining what you found in questions 5 and 6, how can you simplify the entire expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you write the simplified expression in simplest radical form in terms of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Is there any further simplification that can be done to the expression? If not, what is your final answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

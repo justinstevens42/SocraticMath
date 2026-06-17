@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_215",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem": "How many distinct diagonals of a convex heptagon (7-sided polygon) can be drawn?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what a convex heptagon is?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many vertices does a convex heptagon have?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "From each vertex, how many diagonals can be drawn to other non-adjacent vertices?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "If we draw all possible diagonals from each vertex of a convex heptagon, how many diagonals will we draw in total?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why do we need to divide the total number of diagonals by 2 to find the actual number of distinct diagonals in a convex heptagon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you apply a similar method to find the number of distinct diagonals in other polygons? What are the similarities and differences compared to a heptagon?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

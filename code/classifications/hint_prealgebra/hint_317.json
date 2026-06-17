@@ -1,0 +1,89 @@
+{
+  "problem_id": "hint_317",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem": "The stem and leaf plot represents the heights, in inches, of the players on the Spring Vale Middle School girls' basketball team. What is the mean height of the players on the team? (Note: $5|3$ represents 53 inches.)\n\nHeight of the Players on the Basketball Team (inches)\n\n$4|9$\n\n$5|2\\;3\\;5\\;8\\;8\\;9$\n\n$6|0\\;1\\;1\\;2\\;6\\;8\\;9\\;9$",
+  "n_questions": 11,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the purpose of the stem and leaf plot in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you identify the stem and the leaf in the plot? What do they represent?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many players' heights are represented in each stem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the total number of players' heights from the given plot?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the importance of counting the number of players in each stem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we calculate the sum of the heights based on the stem and leaf plot?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Why do we multiply the number of players in each stem by their respective stem values?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the significance of the units digit in the stem and leaf plot when calculating the sum?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "How do we combine the sum of the stem values with the sum of the units digits to find the total sum of the heights?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can we calculate the mean height of the players using the total sum and the total number of players?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "Can you summarize the steps taken to find the mean height of the players on the team?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

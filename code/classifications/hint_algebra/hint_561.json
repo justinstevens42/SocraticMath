@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_561",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "Factor $36-9x^2$.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the first step to factor the expression $36-9x^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Are you aware of any methods or techniques that can be used to factor this type of expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "If you choose to factor by difference of squares, what would be the square roots of the terms $36$ and $9x^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is this expression suitable for factoring by difference of squares? What characteristics or conditions make it a good fit for this method?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What are the factors you found for the expression $36-9x^2$? How can you verify that your factors are correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other types of expressions that may require similar thinking and steps in order to factor them?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

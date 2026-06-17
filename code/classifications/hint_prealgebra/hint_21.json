@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_21",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem": "Our club has 10 members, and wishes to pick a president, secretary, treasurer, and morale officer.  In how many ways can we choose the officers, if individual members can only hold at most one office?",
+  "n_questions": 10,
+  "labels": [
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many members are in the club?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How many different offices need to be filled?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can the same person hold multiple offices?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How many options are there for selecting a president?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "After a president is selected, how many options are left for selecting a secretary?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "And after a president and secretary are selected, how many options remain for selecting a treasurer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Finally, after a president, secretary, and treasurer are chosen, how many options are there for selecting a morale officer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Why do we multiply the number of options at each step?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other scenarios or problems where a similar process of selecting individuals can be applied?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "Are there any restrictions or additional conditions that might change the number of ways to choose the officers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

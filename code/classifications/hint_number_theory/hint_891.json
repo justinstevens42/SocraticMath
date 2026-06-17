@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_891",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem": "Karlanna places 600 marbles into $m$ total boxes such that each box contains an equal number of marbles.  There is more than one box, and each box contains more than one marble.  For how many values of $m$ can this be done?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for each box to contain an equal number of marbles? How can we express this mathematically?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the relationship between the number of boxes and the number of marbles in each box?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the fact that there are more than one box and each box contains more than one marble to limit the possible values of $m$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why must $m$ be a divisor of 600? Can we find all the divisors of 600 and see which ones satisfy the given conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we determine the number of divisors of 600? What is the formula for finding the number of divisors of a given number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How do we eliminate the cases where $m$ is equal to 1 or 600?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the final answer and how can we check that it is correct? Can we think of any other ways to approach this problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

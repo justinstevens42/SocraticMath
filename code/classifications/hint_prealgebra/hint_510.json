@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_510",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem": "One US dollar is the equivalent of 7 Namibian dollars.  One US dollar is also the equivalent of 6 Chinese yuan. If a painting costs 105 Namibian dollars, how much would it cost in Chinese yuan?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "e",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain how you would approach converting 105 Namibian dollars to Chinese yuan?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between Namibian dollars, US dollars, and Chinese yuan in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can you use the information given about the exchange rates to find the cost of the painting in Chinese yuan?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Why did we convert Namibian dollars to US dollars first? Is there another way we could have approached the problem?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of any potential errors that could occur when converting currencies? How could you avoid those errors?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Is there a general strategy or method you could use to convert currencies in other similar situations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

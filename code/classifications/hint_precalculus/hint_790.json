@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_790",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem": "Let $P$ be the point on line segment $\\overline{AB}$ such that $AP:PB = 2:7.$  Then\n\\[\\overrightarrow{P} = t \\overrightarrow{A} + u \\overrightarrow{B}\\]for some constants $t$ and $u.$  Enter the ordered pair $(t,u).$\n\n[asy]\nunitsize(1 cm);\n\npair A, B, P;\n\nA = (0,0);\nB = (5,1);\nP = interp(A,B,2/9);\n\ndraw(A--B);\n\ndot(\"$A$\", A, S);\ndot(\"$B$\", B, S);\ndot(\"$P$\", P, S);\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what it means for a point $P$ to be on line segment $\\overline{AB}$ such that $AP:PB = 2:7$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we represent the point $\\overrightarrow{P}$ in terms of $\\overrightarrow{A}$ and $\\overrightarrow{B}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "In the equation $\\overrightarrow{P} = t \\overrightarrow{A} + u \\overrightarrow{B}$, what do $t$ and $u$ represent?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "By substituting the given ratio $AP:PB = 2:7$ into the equation, what do we get?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did we isolate $\\overrightarrow{P}$ to find the expression $\\overrightarrow{P} = \\frac{7}{9} \\overrightarrow{A} + \\frac{2}{9} \\overrightarrow{B}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the ordered pair $(t,u)$ that corresponds to the representation of $\\overrightarrow{P}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

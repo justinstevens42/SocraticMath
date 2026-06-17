@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_210",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 1",
+  "problem": "Billy wants to determine the average number of cookies in a package of cookies. He purchases 7 packages of cookies, opens them, and counts the number of cookies in each one. He finds that the packages have 8, 10, 12, 15, 16, 17, and 20 cookies. Based on these observations, what is the average number of cookies in a package?\n\n(Note: the average of a list of numbers is the sum of the numbers divided by how many numbers there are.)",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of finding the average?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we calculate the average number of cookies?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What do we need to know in order to calculate the average?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What information do we have in this scenario?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the numbers of cookies in each package to find the total number of cookies?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the sum of the numbers of cookies in all the packages?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How many packages are there?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we find the average number of cookies using the sum and the number of packages?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you walk me through the steps to calculate the average number of cookies in this scenario?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the final answer? How did you arrive at that answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

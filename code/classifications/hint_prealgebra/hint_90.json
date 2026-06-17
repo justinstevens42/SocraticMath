@@ -1,0 +1,47 @@
+{
+  "problem_id": "hint_90",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem": "Quadrilateral $ABCD$ is a parallelogram.  What is the degree measure of angle $A$? [asy]\nsize(100);\ndraw((0,0)--(5,2)--(6,7)--(1,5)--cycle);\ndraw((5,2)--(7.5,3));\ndraw(Arc((5,2),1,20,80));\nlabel(\"$D$\",(0,0),SW); label(\"$C$\",(5,2),SE); label(\"$B$\",(6,7),NE); label(\"$A$\",(1,5),NW);\n\nlabel(\"$60^\\circ$\",(6.3,2.8), N);\n[/asy]",
+  "n_questions": 5,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what a parallelogram is and what kind of properties it has?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How many angles does a quadrilateral have, and what is the sum of their degree measures?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How do we know that angle DCB measures 60 degrees?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How does the fact that opposite angles in a parallelogram are equal help us to find the degree measure of angle A?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of other theorems or properties that might be useful in solving problems like this involving angles and parallelograms?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

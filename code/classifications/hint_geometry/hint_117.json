@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_117",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem": "A right triangle has a side length of 21 inches and a hypotenuse of 29 inches. A second triangle is similar to the first and has a hypotenuse of 87 inches. What is the length of the shortest side of the second triangle?",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How did we determine the length of the other leg of the original right triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain how the Pythagorean Theorem applies to this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How did we determine that the second triangle is similar to the first?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "In what way(s) do similar triangles differ from congruent triangles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does the ratio of corresponding side lengths in similar triangles help us find the length of the shortest side of the second triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there other methods or formulas that can be used to solve similar triangle problems?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "How would the solution change if the original triangle had a different side length or hypotenuse?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of real-world applications where understanding similar triangles is important?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

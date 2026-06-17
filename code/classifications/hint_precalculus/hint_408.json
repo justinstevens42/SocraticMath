@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_408",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem": "A sphere intersects the $xy$-plane in a circle centered at $(2,4,0)$ with radius 1.  The sphere also intersects the $yz$-plane in a circle centered at $(0,4,-7),$ with radius $r.$  Find $r.$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the equation of the sphere and what is given in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for a sphere to intersect a plane, and how does this relate to the circles mentioned?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the center of the sphere given that it intersects two different planes at two different circles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the relationship between the radius of the sphere and the radii of the two circles of intersection?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "If we choose a point on one of the circles, what kind of triangle is formed with the center of the sphere and a point of intersection with the other circle, and how can we use this to find the radius of the sphere?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we generalize this problem to intersecting a sphere with other planes or finding other properties of spheres?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

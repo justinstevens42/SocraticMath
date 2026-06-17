@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_531",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 1",
+  "problem": "Compute the product of the roots of the equation \\[x^3 - 12x^2 + 48x + 28 = 0.\\]",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we find the roots of the equation $x^3 - 12x^2 + 48x + 28 = 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "According to Vieta's formulas, what does the product of the roots represent?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the leading coefficient of this equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the constant term of this equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the negation of the constant term?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we calculate the product of the roots using Vieta's formulas?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the result of the product of the roots of this equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

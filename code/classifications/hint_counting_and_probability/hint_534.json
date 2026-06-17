@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_534",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem": "A standard deck of 52 cards has 13 ranks (Ace, 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, King) and 4 suits ($\\spadesuit$, $\\heartsuit$, $\\diamondsuit$, and $\\clubsuit$), such that there is exactly one card for any given rank and suit.  Two of the suits ($\\spadesuit$ and $\\clubsuit$) are black and the other two suits ($\\heartsuit$ and $\\diamondsuit$) are red.  The deck is randomly arranged. What is the probability that the top card is red and the second card is black?",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you define probability?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you describe the sample space in this scenario? What are all the possible outcomes?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How many total cards are there in the deck? What does this represent in terms of the sample space?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many ways can we choose a red card as the first card? Why is it 26?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many ways can we choose a black card as the second card, given that the first card is red? Why is it 26 as well?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Why do we multiply the number of ways to choose the red card and the number of ways to choose the black card? What does this multiplication represent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How many ways can we choose any two cards from the deck? Why is it $52 \\times 51$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How does the probability of the desired outcome relate to the number of favorable outcomes and the total number of possible outcomes?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "How can we calculate the probability of the top card being red and the second card being black using the information we have gathered?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you simplify the fraction representing the probability? Does it make sense intuitively?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

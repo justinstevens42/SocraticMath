@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_758",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem": "If $a$ and $b$ are integers such that $x^2 - x - 1$ is a factor of $ax^3 + bx^2 + 1,$ find $b.$",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we determine the other factor of the polynomial $ax^3 + bx^2 + 1$ when we know that $x^2 - x - 1$ is a factor?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for two polynomials to be factors of each other?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What can we say about the coefficients of the other factor based on the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we expand the product $(x^2 - x - 1)(ax - 1)$ and match it to $ax^3 + bx^2 + 1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What do we get when we match the coefficients of like terms?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What values do we find for $a$ and $b$ based on the matched coefficients?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How does the value of $a$ affect the value of $b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can we generalize this method for finding the coefficients of other factors of a polynomial?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

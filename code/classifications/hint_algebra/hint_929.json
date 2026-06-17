@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_929",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem": "Find the coefficient of $x^2$ when $3(x^2 - x^3) +2(x - 2x^2 + 3x^5) -(4x^3 - x^2)$ is simplified.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you identify the terms with $x^2$ in the expression?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What operation do you need to perform in order to combine the like terms?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How would you simplify the expression with the terms containing $x^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the coefficient of $x^2$ after combining the terms?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why the coefficient of $x^2$ is calculated in this way?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you generalize this process for finding the coefficient of $x^2$ in any given expression?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

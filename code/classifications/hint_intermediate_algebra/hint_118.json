@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_118",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "Let $a,$ $b,$ and $c$ be complex numbers such that $|a| = |b| = |c| = 1$ and\n\\[\\frac{a^2}{bc} + \\frac{b^2}{ac} + \\frac{c^2}{ab} = -1.\\]Find all possible values of $|a + b + c|.$\n\nEnter all the possible values, separated by commas.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What do we know about the complex numbers a, b, and c in the equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we express the absolute value of a complex number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What can we conclude about the conjugates of the complex numbers a, b, and c?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What can we say about the complex number z = a + b + c?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can we express the magnitude of z in terms of the given equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we simplify the equation using the expression for |z|?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What happens when we factor the equation further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What potential values of |z| can we derive from the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can we find complex numbers a, b, and c that correspond to these values of |z|?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What are the possible values of |a + b + c|?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_407",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem": "Find the smallest positive angle $x$ that satisfies $\\sin 2x \\sin 3x = \\cos 2x \\cos 3x,$ in degrees.",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given equation we are trying to solve for?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What trigonometric identities can we use to simplify the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the angle addition formula to rewrite the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the resulting equation after using the angle addition formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What must be true for the equation to be equal to 0?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we solve for the smallest positive solution of $\\cos 5x = 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the value of $x$ that satisfies the equation in degrees?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can the same techniques be applied to solve similar trigonometric equations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

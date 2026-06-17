@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_427",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem": "The circles whose equations are $x^2 + y^2 - 4x + 2y - 11 = 0$ and $x^2 + y^2 - 14x + 12y + 60 = 0$ intersect in the points $A$ and $B.$  Compute the slope of $\\overline{AB}.$",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the equation of the first circle and the second circle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the points of intersection between two circles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the equation obtained by subtracting the equations of the two circles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why does this new equation represent the line AB?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Is there any specific reason why we are subtracting the equations of the two circles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we determine the slope of a line given its equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we determine the slope of the line AB using the equation $10x - 10y - 71 = 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

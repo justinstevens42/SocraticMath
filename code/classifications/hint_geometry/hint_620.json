@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_620",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "Let $P$ be a point outside of circle $O.$ A segment is drawn from $P$ such that it is tangent to circle $O$ at point $T.$ Meanwhile, a secant from $P$ intersects $O$ at $A$ and $B,$ such that $PA < PB.$ If $PA = 3$ and $PT = AB - PA,$ then what is $PB$?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "f"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what is given in the problem and what is being asked for?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How would you represent the point $P$ relative to circle $O$ and the tangent point $T$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the relationship between $PT$ and $AB$? How can we represent this relationship algebraically?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the Power of a Point theorem to write an equation involving $PA$, $PB$, and $PT$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you simplify the equation obtained in the previous step and solve for $PB$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any additional constraints or conditions given in the problem that would affect the final answer for $PB$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How does the solution to this geometry problem compare to the Socratic questioning example provided for solving an equation? Can you identify any similarities or differences in the thought processes and steps involved?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    }
+  ]
+}

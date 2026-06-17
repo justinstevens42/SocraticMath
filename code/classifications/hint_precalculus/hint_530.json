@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_530",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem": "A paper equilateral triangle $ABC$ has side length 12. The paper triangle is folded so that vertex $A$ touches a point on side $\\overline{BC}$ a distance 9 from point $B$. Find the square of the length of the line segment along which the triangle is folded.\n\n[asy]\nimport cse5;\nsize(12cm);\npen tpen = defaultpen + 1.337;\nreal a = 39/5.0;\nreal b = 39/7.0;\npair B = MP(\"B\", (0,0), dir(200));\npair A = MP(\"A\", (9,0), dir(-80));\npair C = MP(\"C\", (12,0), dir(-20));\npair K = (6,10.392);\npair M = (a*B+(12-a)*K) / 12;\npair N = (b*C+(12-b)*K) / 12;\ndraw(B--M--N--C--cycle, tpen);\nfill(M--A--N--cycle, mediumgrey);\ndraw(M--A--N--cycle);\npair shift = (-20.13, 0);\npair B1 = MP(\"B\", B+shift, dir(200));\npair A1 = MP(\"A\", K+shift, dir(90));\npair C1 = MP(\"C\", C+shift, dir(-20));\ndraw(A1--B1--C1--cycle, tpen);[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information in the problem? Can you describe the initial conditions and the properties of the triangle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How is the paper triangle folded? Can you explain the folding process and the position of vertex A after folding?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Let x represent the length of BP. How can we express the lengths of PA and PA' in terms of x?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Applying the Law of Cosines to triangle PBA', what equation can we set up to relate x and the lengths of PA and PA'?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you solve the equation from Step 4 to find the value of x? What is the length of PA?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Let y represent the length of CQ. How can we express the lengths of QA and QA' in terms of y?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Applying the Law of Cosines to triangle QCA', what equation can we set up to relate y and the lengths of QA and QA'?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you solve the equation from Step 7 to find the value of y? What is the length of QA?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Now that we know the lengths of PA and QA, how can we find the length of PQ using the Law of Cosines?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you compute the square of PQ to find the final answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_758",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem": "Two distinct numbers are selected simultaneously and at random from the set $\\{1, 2, 3, 4, 5\\}$. What is the probability that the smaller one divides the larger one? Express your answer as a common fraction.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "e",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what is meant by \"selecting two distinct numbers simultaneously and at random\" from a set?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the total number of pairs we can potentially select from the set?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain why the pairs with 1 as an element all work? Are there any other pairs that meet the given condition?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean for the smaller number to divide the larger number? Can you provide an example of a pair that satisfies this condition?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How many pairs out of the total number satisfy the condition of the smaller number dividing the larger number? How did you arrive at that number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why the probability is equal to the number of successful outcomes divided by the total number of possible outcomes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other scenarios or problems where similar counting and probability principles can be applied?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

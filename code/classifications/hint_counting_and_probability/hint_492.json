@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_492",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 1",
+  "problem": "Eighty percent of adults drink coffee and seventy percent drink tea. What is the smallest possible percent of adults who drink both coffee and tea?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we represent the problem mathematically?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean when we say \"eighty percent of adults drink coffee\"?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "And what about when we say \"seventy percent drink tea\"?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What do we know about the total percentage of adults who drink coffee and tea combined?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we find the smallest possible percentage of adults who drink both coffee and tea?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What happens if we add together the percentages of coffee drinkers and tea drinkers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What does it mean if the total percentage obtained is more than 100%?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "What does it mean if the total percentage obtained is exactly 100%?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "How can we account for the overlapping group of adults who drink both coffee and tea?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can we determine the smallest possible percentage of adults who drink both based on the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_44",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "A right square pyramid with base edges of length $8\\sqrt{2}$ units each and slant edges of length 10 units each is cut by a plane that is parallel to its base and 3 units above its base. What is the volume, in cubic units, of the new pyramid that is cut off by this plane? [asy]\nimport three;\nsize(2.5inch);\ncurrentprojection = orthographic(1/2,-1,1/4);\ntriple A = (0,0,6);\ntriple[] base = new triple[4];\nbase[0] = (-4, -4, 0);\n\nbase[1] = (4, -4, 0);\nbase[2] = (4, 4, 0);\nbase[3] = (-4, 4, 0);\ntriple[] mid = new triple[4];\nfor(int i=0; i < 4; ++i)\nmid[i] = (.6*xpart(base[i]) + .4*xpart(A), .6*ypart(base[i]) + .4*ypart(A), .6*zpart(base[i]) + .4*zpart(A));\nfor(int i=0; i < 4; ++i)\n{\ndraw(A--base[i]);\ndraw(base[i]--base[(i+1)%4]);\ndraw(mid[i]--mid[(i+1)%4], dashed);\n}\nlabel(\"$8\\sqrt{2}$ units\", base[0]--base[1]);\nlabel(\"10 units\", base[0]--A, 2*W);\n[/asy]",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we define points A, B, C, D, E, and F based on the given information?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the length of segment CD?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the length of segment AC and segment AB?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between triangles ACD and ABE? How can we use this relationship to find the length of segment BE?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we find the area of the smaller square formed by segment BE?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What formula can we use to find the volume of the pyramid?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we calculate the volume of the new pyramid using the base area and height?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the final volume of the new pyramid?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

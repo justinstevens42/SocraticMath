@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_80",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem": "Of the numbers $\\frac{7}{10}, \\frac{4}{5}$ and $\\frac{3}{4}$, which number is the arithmetic mean of the other two?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what finding the arithmetic mean of two numbers means?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the arithmetic mean of two fractions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the process of putting fractions in a comparable form?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How did we compare the fractions $\\frac{7}{10}$, $\\frac{8}{10}$, and $\\frac{7.5}{10}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why is the middle quantity the arithmetic mean of the other two fractions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Does our answer of $\\frac{3}{4}$ make sense based on the values of $7$ and $8$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other examples where we can apply a similar reasoning to find the arithmetic mean of two quantities?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

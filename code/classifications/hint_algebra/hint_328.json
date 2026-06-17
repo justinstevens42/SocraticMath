@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_328",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 1",
+  "problem": "If $2^8=16^x$, find $x$.",
+  "n_questions": 10,
+  "labels": [
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "f",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you approach the given equation to solve for x?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Are there any properties or rules that you know of that could help you simplify the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Is there a specific method or strategy you would choose to solve this equation? Why?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you rewrite both sides of the equation using the same base in order to simplify it further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the simplified form of $2^8$ and $16^x$? Can you equate the two expressions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can you rewrite $16^x$ using the base 2? Will this representation help you in finding the value of x?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What kind of relationship do you notice between $2^8$ and $16^x$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "By comparing the exponents of 2 in both expressions, can you determine the value of x?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you generalize this approach to solving other exponential equations with different bases?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "How would you verify that your solution for x is correct in the original equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

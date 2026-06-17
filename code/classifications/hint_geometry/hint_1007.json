@@ -1,0 +1,103 @@
+{
+  "problem_id": "hint_1007",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "The field shown has been planted uniformly with wheat. [asy]\ndraw((0,0)--(1/2,sqrt(3)/2)--(3/2,sqrt(3)/2)--(2,0)--(0,0),linewidth(0.8));\nlabel(\"$60^\\circ$\",(0.06,0.1),E);\nlabel(\"$120^\\circ$\",(1/2-0.05,sqrt(3)/2-0.1),E);\nlabel(\"$120^\\circ$\",(3/2+0.05,sqrt(3)/2-0.1),W);\nlabel(\"$60^\\circ$\",(2-0.05,0.1),W);\nlabel(\"100 m\",(1,sqrt(3)/2),N);\nlabel(\"100 m\",(1.75,sqrt(3)/4+0.1),E);\n[/asy] At harvest, the wheat at any point in the field is brought to the nearest point on the field's perimeter. What is the fraction of the crop that is brought to the longest side?",
+  "n_questions": 13,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we determine the region of the trapezoid that is closest to side AD?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What conditions must a point inside the trapezoid meet in order to be closest to side AD?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the midpoint of each side of the trapezoid?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we calculate the lengths of the perpendiculars dropped from points B and C to point P and Q?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why does the region closest to side AD consist of half of triangle ABM, 1/4 of triangle BCM, and half of triangle CDM?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we determine the areas of these triangles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can we use any special properties of the angles in the trapezoid to simplify our calculations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Is there any symmetry in the trapezoid that can help us determine the area of the entire trapezoid?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we determine the area of trapezoid AXYD?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can we calculate the lengths of the perpendiculars dropped from points X and Y to point G and H?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "Can we use any special properties of the angles in triangles AXG and DYH to simplify our calculations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "How can we determine the area of rectangle XGHY?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 13,
+      "question": "What fraction of the crop is brought to side AD?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

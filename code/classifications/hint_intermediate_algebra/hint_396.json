@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_396",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "The hyperbola \\[-x^2+2y^2-10x-16y+1=0\\]has two foci. Find the coordinates of either of them. (Enter your answer as an ordered pair. Enter only one of the foci, not both.)",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the standard form of the equation of a hyperbola?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How do we find the center of a hyperbola given its equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "In the given equation of the hyperbola, how did we complete the square in both variables to find the standard form?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What does the positive/negative coefficient of the $x^2$ and $y^2$ term imply about the orientation of the hyperbola?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the distance from the center of the hyperbola to each focus?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How did we use the distance formula to find the coordinates of the two foci of the hyperbola?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Which coordinate of the two foci did we find, and why is only one coordinate needed for the answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "problem_id": "hint_696",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 1",
+  "problem": "Simplify $\\frac{36}{54}$.",
+  "n_questions": 5,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what is meant by simplifying a fraction?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What factors can we look for in both the numerator and denominator to simplify a fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How would you approach simplifying a fraction with larger numbers, like 128/192?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Are there any common mistakes to avoid when simplifying fractions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why simplifying fractions is important in math and everyday life? Examples?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

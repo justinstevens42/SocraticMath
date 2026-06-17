@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_875",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem": "As $p$ ranges over the primes greater than $5$, how many different remainders can $p^2$ leave upon division by $120$?",
+  "n_questions": 10,
+  "labels": [
+    "b",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we determine the remainders that $p^2$ can leave upon division by $120$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the prime factorization of $120$? How can we use this information to simplify the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How does the Chinese Remainder Theorem help us in this problem? Can you explain its role in evaluating the possible remainders?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Given that $p$ must be odd, what can we say about the form of $p^2$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we express $p^2$ in terms of its congruence modulo $8$? What conclusion can we draw from this congruence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we express $p^2$ in terms of its congruence modulo $3$? Can you explain how we arrive at this conclusion?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What can we say about the congruence of $p^2$ modulo $5$? How does this help us in our analysis?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we combine the congruences modulo $8$, $3$, and $5$ to determine the possible remainders of $p^2$ modulo $120$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can we solve the congruences to find the exact remainders that $p^2$ can leave upon division by $120$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How many different remainders are there, and what are they?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

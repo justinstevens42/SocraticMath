@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_352",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem": "Rodney uses the following clues to try to guess a secret number:\n\\begin{tabular}{ c }\nIt is a two-digit integer.\\\\\nThe tens digit is odd.\\\\\nThe units digit is even.\\\\\nThe number is greater than 65.\n\\end{tabular}If Rodney guesses a number that has each of these properties, what is the probability that Rodney will guess the correct number? Express your answer as a common fraction.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the given clues provided to Rodney in order to guess the secret number?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "According to the clues, what are the possible properties of the secret number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How many digits does the secret number have?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many choices does Rodney have for the tens digit of the secret number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many choices does Rodney have for the units digit of the secret number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you find all the possible two-digit integers that meet the given properties?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the total number of possible integers that Rodney can choose from?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "If Rodney randomly guesses a number, what is the probability that he will guess the correct number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we express this probability as a fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you provide the correct probability as a simplified fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_91",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem": "For some positive integer $k$, when 60 is divided by $k^2$, the remainder is 6. What is the remainder when 100 is divided by $k$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What do we know about the remainder when 60 is divided by $k^2$ in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you list some possible perfect squares that are greater than 6 and less than 60?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What property of the perfect squares helps us determine which one is the correct value for $k$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we set up the equation to find the value of $k$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you find the prime factorization of 54 and explain why $k^2$ must be equal to $3^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do we find the remainder when 100 is divided by $k$ using the value we found for $k$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

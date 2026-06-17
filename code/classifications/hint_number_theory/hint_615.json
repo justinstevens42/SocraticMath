@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_615",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem": "What is the value of $25_{10}+36_{10}$ in base 3?",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we determine the value of $25_{10}+36_{10}$ in base 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the first step in adding these two numbers in base 10?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the largest power of 3 that is less than or equal to 61?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do we find the digit in the place of this power in base 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why do we subtract the multiple of this power from 61?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do we determine the digit for the next lower power of 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final value of $25_{10}+36_{10}$ in base 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

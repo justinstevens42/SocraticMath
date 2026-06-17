@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_411",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem": "What is the positive difference between the sum of the first 20 positive even integers and the sum of the first 15 positive odd integers?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "f",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Could you express the sum of the first 20 positive even integers? How about the sum of the first 15 positive odd integers?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the difference between these two sums?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Is it possible to rewrite the sum of the first 20 positive even integers and the sum of the first 15 positive odd integers using mathematical notation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can you calculate the sum of the first 20 positive even integers? And how about the sum of the first 15 positive odd integers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you identify any patterns or formulas that could help simplify the calculations of these sums?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other approaches or methods you can think of to find the positive difference between these two sums?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "What could be done to verify the accuracy of the calculated positive difference?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

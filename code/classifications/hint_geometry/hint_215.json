@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_215",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem": "An 8-foot by 10-foot floor is tiled with square tiles of size 1 foot by 1 foot. Each tile has a pattern consisting of four white quarter circles of radius 1/2 foot centered at each corner of the tile. The remaining portion of the tile is shaded. How many square feet of the floor are shaded?\n[asy]\nfill((5,5)--(5,-5)--(-5,-5)--(-5,5)--cycle,gray(0.7));\nfill(Circle((-5,5),5),white);\nfill(Circle((5,5),5),white);\nfill(Circle((-5,-5),5),white);\nfill(Circle((5,-5),5),white);\ndraw((-5,5)--(-5,-5)--(5,-5)--(5,5)--cycle);\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you describe the pattern on each tile in your own words?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we calculate the area of each quarter circle in terms of feet squared?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Taking into account the pattern on each tile, what is the area of the shaded portion of each tile in terms of feet squared?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the area of one shaded tile to find the total shaded area of the floor?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the total shaded area of the floor in terms of feet squared?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

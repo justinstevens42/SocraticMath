@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_825",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "Let $x$ and $y$ be real numbers such that\n\\[4x^2 + 8xy + 5y^2 = 1.\\]Let $m$ and $M$ be the minimum and maximum values of $2x^2 + 3xy + 2y^2,$ respectively.  Find the product $mM.$",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given equation and what are the unknown variables?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you rewrite the given equation in a different form to simplify it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What methods do you know for finding the minimum and maximum values of a quadratic expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we rewrite the quadratic expression $2x^2 + 3xy + 2y^2$ in terms of $k$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you find the conditions for $k$ so that the quadratic equation has real solutions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the discriminant of the quadratic equation in terms of $k$? What does it tell us about the solutions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we find the interval for $k$ that satisfies the condition for real solutions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "By substituting a value of $k$ from the interval, can you find the corresponding solutions for $x$ and $y$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What values of $k$ give the minimum and maximum values for $2x^2 + 3xy + 2y^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the product of the minimum and maximum values?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

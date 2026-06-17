@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_569",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem": "What is the domain of the function $f(x)=\\log_2(\\log_3(\\log_4x))$?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what is the definition of a logarithmic function?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do we determine the domain of a logarithmic function?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the composition of logarithmic functions, and how do we simplify them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you walk me through the process of simplifying the given function, $\\log_2(\\log_3(\\log_4x))$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we determine if a logarithmic expression is greater or less than another expression, and how does that relate to the domain of the function?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain how we can use the concept of inverse functions to determine the domain of the given function?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

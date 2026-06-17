@@ -1,0 +1,96 @@
+{
+  "problem_id": "hint_663",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem": "Suppose that $A$, $B$, and $C$ are non-zero distinct digits less than $6$, and suppose we have ${AB_6}+{C_6}={C}0_6$ and ${AB_6}+{BA_6}={CC_6}$. Find the three-digit number ${ABC}$. (Interpret $AB_6$ as a base-6 number with digits $A$ and $B$, not as $A$ times $B$. The other expressions should be interpreted in this way as well).",
+  "n_questions": 12,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How are the base-6 numbers represented in the equations?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can we determine any restrictions on the values of A, B, and C from the given conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we write the first condition as a mathematical equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What can we deduce from the first condition about carrying in the addition?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we express the carrying in the second condition as a mathematical equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What equations can we set up based on the given conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we solve the system of equations to find the values of A, B, and C?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the value of B when we subtract the third equation from the second equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can we determine the value of C using the second equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "What value does A have when we plug in B=1 into the third equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "What is the final three-digit number ABC that satisfies all the given conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

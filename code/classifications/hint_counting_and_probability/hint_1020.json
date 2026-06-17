@@ -1,0 +1,110 @@
+{
+  "problem_id": "hint_1020",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem": "There are 5 yellow pegs, 4 red pegs, 3 green pegs, 2 blue pegs, and 1 orange peg to be placed on a triangular peg board. In how many ways can the pegs be placed so that no (horizontal) row or (vertical) column contains two or more pegs of the same color?  (Any two pegs of the same color are indistinguishable.)\n\n[asy]\ndraw((0,0)--(5.5,0)--(0,5.5)--cycle);\nfor (int i=0; i<5; ++i) {\ndot((0.5,i+0.5));\n}\nfor (int i=0; i<4; ++i) {\ndot((1.5,i+0.5));\n}\nfor (int i=0; i<3; ++i) {\ndot((2.5,i+0.5));\n}\nfor (int i=0; i<2; ++i) {\ndot((3.5, i+0.5));\n}\ndot((4.5,0.5));\n[/asy]",
+  "n_questions": 14,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total number of pegs that need to be placed on the triangular pegboard?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many different colors of pegs are there?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many rows and columns are there on the pegboard?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "In order to satisfy the condition of no two pegs of the same color in the same row or column, how many yellow pegs should be in each row and column? Why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What can we say about the position of the yellow pegs in each row? Can we determine the position of the yellow pegs in each row?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How many yellow pegs should be placed in total?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "After placing the yellow pegs, how many rows are left?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How many red pegs should be placed in each of the remaining rows to satisfy the condition? Why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How many possible arrangements are there for placing the red pegs in the remaining rows?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Are there any other colors of pegs that need to be placed in specific positions?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 11,
+      "question": "After determining the positions of the yellow and red pegs, how many rows are left now?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "How many pegs of each color are left to be placed in the remaining rows?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 13,
+      "question": "Can we determine the position of the remaining pegs in each row?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 14,
+      "question": "How many possible arrangements are there for placing the remaining pegs?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

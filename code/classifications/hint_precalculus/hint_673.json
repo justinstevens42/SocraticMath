@@ -1,0 +1,117 @@
+{
+  "problem_id": "hint_673",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem": "The perpendicular bisectors of the sides of triangle $ABC$ meet its circumcircle at points $A',$ $B',$ and $C',$ as shown.  If the perimeter of triangle $ABC$ is 35 and the radius of the circumcircle is 8, then find the area of hexagon $AB'CA'BC'.$\n\n[asy]\nunitsize(2 cm);\n\npair A, B, C, Ap, Bp, Cp, O;\n\nO = (0,0);\nA = dir(210);\nB = dir(60);\nC = dir(330);\nAp = dir(15);\nBp = dir(270);\nCp = dir(135);\n\ndraw(Circle(O,1));\ndraw(A--B--C--cycle);\ndraw((B + C)/2--Ap);\ndraw((A + C)/2--Bp);\ndraw((A + B)/2--Cp);\n\nlabel(\"$A$\", A, A);\nlabel(\"$B$\", B, B);\nlabel(\"$C$\", C, C);\nlabel(\"$A'$\", Ap, Ap);\nlabel(\"$B'$\", Bp, Bp);\nlabel(\"$C'$\", Cp, Cp);\n[/asy]",
+  "n_questions": 15,
+  "labels": [
+    "b",
+    "f",
+    "f",
+    "b",
+    "e",
+    "r",
+    "b",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we find the area of hexagon $AB'CA'BC'$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you identify any special properties or relationships within the given diagram that could help us solve this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What do the points $A',$ $B',$ and $C'$ represent? What role do they play in the given diagram?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the lengths of the sides of triangle $ABC$ using the information given?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the significance of the circumcircle and circumradius in this problem?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "How can we relate the perimeter of triangle $ABC$ to the lengths of its sides?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can we express the area of $AB'CA'BC'$ in terms of the lengths of the sides of triangle $ABC$ and the circumradius?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we determine the lengths of the sides of triangle $ABC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can we use any additional information or properties of triangles to solve this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 10,
+      "question": "What properties of the perpendicular bisectors and circumcircle can we utilize to find the area of hexagon $AB'CA'BC'$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 11,
+      "question": "Are there any geometric or algebraic relationships that we can establish between the lengths of the sides of triangle $ABC$ and the circumradius?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "Can we apply any known formulas or theorems from geometry to assist in our solution process?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 13,
+      "question": "How can we express the perimeter of triangle $ABC$ in terms of the lengths of its sides?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 14,
+      "question": "Can we use the formula for the area of a triangle to find the area of hexagon $AB'CA'BC'$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 15,
+      "question": "How can we simplify the expression for the area of hexagon $AB'CA'BC'$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

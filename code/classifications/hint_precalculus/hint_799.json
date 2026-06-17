@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_799",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem": "Find the curve defined by the equation\n\\[r = \\frac{1}{1 - \\cos \\theta}.\\](A) Line\n(B) Circle\n(C) Parabola\n(D) Ellipse\n(E) Hyperbola\n\nEnter the letter of the correct option.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the equation we are given?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you rewrite $\\frac{1}{1 - \\cos \\theta}$ in terms of $x$ and $y$ using the equation $r = \\sqrt{x^2+y^2}$ and polar coordinates?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How does transforming the equation help us determine the shape of the curve?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What kind of curve do we get after simplifying the equation derived from step 2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we know that the resulting curve is a parabola?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we determine any specific properties of the parabola (e.g. vertex, focus, directrix) from the equation $y^2 = 2x + 1$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

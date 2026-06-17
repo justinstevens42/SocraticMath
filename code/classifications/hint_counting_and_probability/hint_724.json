@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_724",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem": "There are 3 math teams in the area, with 5, 7, and 8 students respectively. Each team has two co-captains. If I randomly select a team, and then randomly select two members of that team to give a copy of $\\emph{Introduction to Geometry}$, what is the probability that both of the people who receive books are co-captains?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the main objective of this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many math teams are there in the area, and how many students are on each team?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many co-captains does each team have?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "If you randomly select a team, what is the probability of selecting each team?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Once you have selected a team, how many different pairs of students can you choose to give books to?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Out of all the possible pairs, how many of them consist of the two co-captains?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Once you have selected a team, what is the probability of giving books to the co-captains?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we express the probability of selecting a team, selecting two co-captains, and then giving books to them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we calculate the probability for each team and then combine them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the final probability that both people who receive books are co-captains?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

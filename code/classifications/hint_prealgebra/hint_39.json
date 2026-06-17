@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_39",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem": "In pentagon $MATHS$, $\\angle M \\cong \\angle T \\cong \\angle H$ and $\\angle A$ is supplementary to $\\angle S$. How many degrees are in the measure of $\\angle H$?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is given in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many degrees are in the sum of the angle measures in a pentagon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What relationship is given between $\\angle M$ and $\\angle H$ in the pentagon?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we represent $\\angle A$ in terms of its relationship with $\\angle S$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the equation that represents the sum of all the angle measures in the pentagon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we simplify the equation by using the given relationships between the angles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we find the value of $\\angle H$ from the simplified equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What steps did you take to solve for $\\angle H$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other types of polygons where a similar approach can be used to find angle measures?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

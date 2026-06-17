@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_663",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem": "Find the greatest common divisor of 12 and 20.",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "f",
+    "f",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of the greatest common divisor (GCD)?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you identify the prime factorization of 12 and 20?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What do you notice about the common factors between 12 and 20?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can you determine the GCD from the prime factorization of the numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why is it important to consider the highest power of common prime factors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other examples where finding the GCD would be useful?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "How would you verify that the GCD you found is indeed correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

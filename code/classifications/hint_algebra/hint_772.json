@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_772",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "Richard is building a rectangular backyard from 360 feet of fencing. The fencing must cover three sides of the backyard (the fourth side is bordered by Richard's house). What is the maximum area of this backyard?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are some different approaches you know of for maximizing the area of a rectangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you were to use the formula for the area of a rectangle, how would you express one side of the rectangle in terms of the other side?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why can we assume that the three sides of the backyard are equal in length?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the formula for calculating the area of a rectangle using its length and width?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we express the area of the backyard in terms of one of the sides?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we express the perimeter of the backyard in terms of one of the sides?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other similar geometry problems where you would need to maximize an area given certain constraints?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "What is the relationship between having more fencing and the potential area of the rectangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 10,
+      "question": "How can you determine if a rectangle is maximizing its area given a fixed amount of fencing?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

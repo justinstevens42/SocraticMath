@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_705",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 1",
+  "problem": "If $g(x) = 3x + 7$ and $f(x) = 5x - 9$, what is the value of $f(g(8))$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what $f(g(8))$ means in terms of function composition?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the value of $g(8)$? How did you arrive at this value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Now that we have the value of $g(8)$, what is the value of $f(g(8))$? How can you calculate it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you substitute the value of $g(8)$ into the expression for $f(x)$? What does it look like after substitution?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How would you simplify the expression $f(g(8))$ to find the final value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there any other way to approach this problem? Can you think of another method or strategy to find the value of $f(g(8))$?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

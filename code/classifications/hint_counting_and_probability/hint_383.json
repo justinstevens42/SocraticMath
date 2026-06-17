@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_383",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 1",
+  "problem": "Compute $\\dbinom{15}{3}$.",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "e",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of $\\dbinom{15}{3}$ and what does it represent in counting and probability?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you think of a real-life situation where selecting 3 items out of 15 is applicable?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 3,
+      "question": "How many different ways can you select 3 items out of 15?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "If the order of selection does not matter, what mathematical concept do we use to calculate the number of combinations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain the formula used to calculate combinations and how it relates to factorials?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do you simplify $\\frac{15!}{12!3!}$ using factorials?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Why do we use factorials in the formula for combinations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How does the denominator of the fraction $\\frac{15!}{12!3!}$ help account for overcounting?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of another situation where the formula for combinations would apply?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "What other counting principles or formulas do you think are important to know in understanding counting and probability?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

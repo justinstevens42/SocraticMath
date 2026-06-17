@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_166",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem": "Compute $\\tan 3825^\\circ$.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Describe the first step in solving this problem.",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does rotating $360^\\circ$ mean in this context? How does that relate to rotating $3825^\\circ$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the value of $\\tan 225^\\circ$? How did you obtain this value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is triangle $POD$ a 45-45-90 triangle? How does this help in finding the coordinates of point $P$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did you calculate the coordinates of point $P$ as $\\left(-\\frac{\\sqrt{2}}{2}, -\\frac{\\sqrt{2}}{2}\\right)$? Can you explain the steps involved?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How did you use the coordinates of point $P$ to find the value of $\\tan 225^\\circ$? Can you explain the reasoning behind this calculation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other angles that can be simplified in a similar way? If so, what would be the approach to finding their tangent values?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

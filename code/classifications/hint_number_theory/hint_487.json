@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_487",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem": "If $4x\\equiv 8\\pmod{20}$ and $3x\\equiv 16\\pmod{20}$, then what is the remainder when $x^2$ is divided by $20$?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is modular arithmetic and why is it useful in number theory?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do we solve linear congruences like $4x\\equiv 8\\pmod{20}$ and $3x\\equiv 16\\pmod{20}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "If $x$ satisfies both of the congruences in question 2, what can we say about $x$ modulo 20?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do we find the remainder when $x^2$ is divided by 20, given the information above?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there any other methods or shortcuts to solve the problem of finding remainders of squares modulo a certain number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other examples where modular arithmetic and solving linear congruences can be useful in number theory?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

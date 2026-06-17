@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_668",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem": "On the game show $\\text{\\emph{Wheel of Fraction}}$, you see the following spinner. Given that each region is the same area, what is the probability that you will earn exactly $\\$1700$ in your first three spins? Express your answer as a common fraction. [asy]\nimport olympiad; import geometry; import graph; size(150); defaultpen(linewidth(0.8));\ndraw(unitcircle);\nstring[] labels = {\"Bankrupt\",\"$\\$1000$\",\"$\\$300$\",\"$\\$5000$\",\"$\\$400$\"};\nfor(int i = 0; i < 5; ++i){\n\ndraw(origin--dir(72*i));\n\nlabel(labels[i],0.6*dir(36 + 72*i));\n}\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the objective of the game show \"Wheel of Fraction\"?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the total number of possibilities for three spins?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What are the different values that can be earned through a spin on the wheel?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How did we determine that the only way to earn exactly $ \\$ 1700$ in three spins is through landing on a $ \\$ 300$, a $ \\$ 400$, and a $ \\$ 1000$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many ways are there to earn $ \\$ 1700$ through three spins?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How did we arrive at the answer of $\\frac{6}{125}$ for the probability of earning $ \\$ 1700$ in three spins?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

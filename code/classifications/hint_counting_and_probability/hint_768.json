@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_768",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem": "If I choose four cards from a standard $52$-card deck, with replacement, what is the probability that I will end up with one card from each suit?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the probability of drawing one card from each of the four suits in a standard 52-card deck with replacement?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How does the fact that the cards are replaced affect the probability of drawing one card from each suit?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the probability of drawing a card from a specific suit on any given draw?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Why does it not matter what suit the first card drawn represents?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How do the probabilities of the second, third, and fourth draws depend on the outcomes of the previous draws?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How does the multiplication principle apply to calculating the overall probability of drawing one card from each suit?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can this probability be calculated in a different way, such as using combinations or permutations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How would the answer change if the cards were not replaced after each draw?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Are there any similar problems involving the concept of drawing cards from a deck that can be solved using similar methods?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

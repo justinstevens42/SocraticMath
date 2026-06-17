@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_436",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem": "The landlord of an apartment building needs to purchase enough digits to label all of the apartments from 100 through 125 on the first floor and 200 through 225 on the second floor. The digits can only be purchased in a package that contains one of each digit 0 through 9. How many packages must the landlord purchase?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "e",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you summarize the problem in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the main question or goal of this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What information do we know about the apartments on the first and second floors?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How many digits are needed to label the apartments on the first floor? And on the second floor?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What do we know about the available packages of digits?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the significance of 1 and 2 being used at least once in half of the apartments?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Why do we only need to consider the number of 1s for the packages needed?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "How many ones are used for the apartments from 100 to 125?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Are there any similarities or patterns in the number of ones used for the apartments from 100 to 125 and from 200 to 225?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can we calculate the total number of packages needed based on the number of ones used?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

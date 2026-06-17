@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_679",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "A line with slope of $-2$ intersects the positive $x$-axis at $A$ and the positive $y$-axis at $B$. A second line intersects the $x$-axis at $C(8,0)$ and the $y$-axis at $D$. The lines intersect at $E(4,4)$. What is the area of the shaded quadrilateral $OBEC$? [asy]\ndraw((0,-1)--(0,13));\ndraw((-1,0)--(10,0));\n\nfill((0,0)--(0,8)--(8,0)--cycle,gray);\nfill((0,0)--(0,12)--(6,0)--cycle,gray);\ndraw((0,0)--(0,12)--(6,0)--cycle,linewidth(1));\ndraw((0,0)--(0,8)--(8,0)--cycle,linewidth(1));\nlabel(\"O\",(0,0),SE);\nlabel(\"A\",(6,0),S);\nlabel(\"C(8,0)\",(9.5,0),S);\nlabel(\"E(4,4)\",(4,4),NE);\nlabel(\"B\",(0,12),W);\nlabel(\"D\",(0,8),W);\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the overall shape of the shaded quadrilateral OBEC?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What information do we have about the lines and points involved in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the coordinates of point X and point Y?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why do we create a square with points O and E as opposite corners in this problem? What relationship does it have with the shaded quadrilateral?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What are the equations of the lines represented by OC and OB? How can we use these equations to find the coordinates of point B?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we calculate the area of the square formed by points O, E, X, and Y? What is the formula for finding the area of a square?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we calculate the area of triangle XCE? What is the formula for finding the area of a right triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we calculate the area of triangle YEB? What is the formula for finding the area of a right triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How do we find the total area of the shaded quadrilateral OBEC by combining the areas of the square and the two triangles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Are there any alternative methods or strategies to solving this problem? Can you think of any shortcuts or patterns that can help determine the area?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

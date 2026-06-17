@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_95",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem": "The set of vectors $\\mathbf{v}$ such that\n\\[\\operatorname{proj}_{\\begin{pmatrix} 5 \\\\ 2 \\end{pmatrix}} \\mathbf{v} = \\begin{pmatrix} -\\frac{5}{2} \\\\ -1 \\end{pmatrix}\\]lie on a line.  Enter the equation of this line in the form \"$y = mx + b$\".",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "b",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the two given vectors in the problem, and how are they related to each other?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the formula for the projection of a vector onto another vector, and how is it derived?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Applying the formula for projection, what is the scalar projection of vector $\\mathbf{v}$ onto the vector $\\begin{pmatrix} 5 \\\\ 2 \\end{pmatrix}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Simplifying the projection, what is the resulting equation involving $x$ and $y$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we write this equation in the form \"$y = mx + b$,\" where $m$ is the slope and $b$ is the y-intercept?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What does it mean for the set of vectors $\\mathbf{v}$ to lie on a line, and how does this relate to the equation we derived?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other ways to derive the equation of the line in question, and how do they compare to the projection method used here?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

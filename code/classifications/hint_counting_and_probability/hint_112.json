@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_112",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem": "What is the sum of all integer values $n$ for which $\\binom{26}{13}+\\binom{26}{n}=\\binom{27}{14}$?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "According to Pascal's identity, what is the relationship between the values of $\\binom{n-1}{k-1}$, $\\binom{n-1}{k}$, and $\\binom{n}{k}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can we apply Pascal's identity to the equation $\\binom{26}{13}+\\binom{26}{n}=\\binom{27}{14}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "By applying Pascal's identity, what is the new equation we obtain?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we simplify the new equation to solve for the value of $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What values of $n$ satisfy the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we calculate the sum of all the integer values of $n$ that satisfy the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

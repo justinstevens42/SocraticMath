@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_234",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "Let $x,$ $y,$ and $z$ be positive real numbers such that $xyz = 32.$  Find the minimum value of\n\\[x^2 + 4xy + 4y^2 + 2z^2.\\]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "e",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Are there any known methods or strategies that can be used to solve this type of problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "If we rewrite the expression $x^2 + 4xy + 4y^2$ as $(x + 2y)^2$, what does this allow us to do?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the AM-GM inequality to minimize the expression $x^2 + 4xy + 4y^2 + 2z^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does the condition $xyz = 32$ affect the application of the AM-GM inequality in this problem?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "How can we rewrite the expression $8xy + 2z^2$ in a form that allows us to apply the AM-GM inequality more effectively?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you apply the AM-GM inequality to minimize the expression $8xy + 2z^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the minimum value of $x^2 + 4xy + 4y^2 + 2z^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What values of $x$, $y$, and $z$ achieve this minimum value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of other types of problems where similar thinking and steps may be useful in finding the minimum or maximum value?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_428",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem": "In Morse code, each symbol is represented by a sequence of dashes and dots. How many distinct symbols can be represented using sequences of 1, 2, 3, or 4 total dots and/or dashes?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is Morse code, and how is each symbol represented in it?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many cases are needed to count the total distinct symbols that can be represented using 1 to 4 total dots and/or dashes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "In Case I, what are the two possibilities for a single dot or dash?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "In Case II, how many distinct sequences can be formed using 2 dots or dashes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many sequences can be formed using 3 dots or dashes in Case III, and what is the reasoning behind this number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "In Case IV, why are there 16 distinct sequences that can be formed using 4 dots or dashes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we use the results obtained from each case to find the total number of distinct symbols that can be represented by Morse code?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

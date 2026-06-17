@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_925",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem": "A zealous geologist is sponsoring a contest in which entrants have to guess the age of a shiny rock. He offers these clues: the age of the rock is formed from the six digits 2, 2, 2, 3, 7, and 9, and the rock's age begins with an odd digit.\n\nHow many possibilities are there for the rock's age?",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given problem? What are the clues provided by the geologist?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How many odd digits are there to choose from to begin the rock's age?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many ways can the remaining five digits be arranged?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why do we need to divide by 3! (the number of ways to arrange the three 2s)?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the final number of possibilities for the rock's age?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any similar situations where you would need to consider repeating digits in counting arrangements?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "How would the answer change if the rock's age had to end with an odd digit instead of beginning with one?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

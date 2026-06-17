@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_375",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem": "How many even divisors does $7!$ have?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the prime factorization of $7!$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How do we count the number of even divisors of $7!$ using the fundamental theorem of arithmetic?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If an even divisor $r$ of $7!$ has prime factorization $2^a3^b5^c7^d$, what are the possible values of $a$, $b$, $c$, and $d$? Why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many possible combinations of $a$, $b$, $c$, and $d$ are there, given the restrictions we found in the previous question?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the possible values of $a$, $b$, $c$, and $d$ to find the possible values of $r$ that divide $7!$ evenly?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Using the options we found for $r$, can we verify that there are actually 48 even divisors of $7!$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

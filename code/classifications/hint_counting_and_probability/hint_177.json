@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_177",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem": "Each face of a cube is painted either  red or blue, each with probability 1/2. The color of each face is determined independently.  What is the probability that the painted cube can be placed on a horizontal surface so that the four vertical faces are all the same color?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total number of possible arrangements of colors on the faces of the cube?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many arrangements would have all six faces of the same color?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many arrangements would have exactly five faces of the same color?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why each of these cases would allow the cube to be placed so that the four vertical faces are the same color?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there any other arrangements that could also satisfy the condition of having the four vertical faces the same color? If so, can you describe them?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Based on the total number of suitable arrangements and the total number of possible arrangements, what is the probability that the painted cube can be placed as described?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

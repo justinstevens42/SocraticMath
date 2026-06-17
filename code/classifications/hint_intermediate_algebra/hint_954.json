@@ -1,0 +1,47 @@
+{
+  "problem_id": "hint_954",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 1",
+  "problem": "Let $f(x)$ be an odd function.  Is $f(f(x))$ even, odd, or neither?\n\nEnter \"odd\", \"even\", or \"neither\".",
+  "n_questions": 5,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is an odd function?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine whether $f(f(x))$ is even, odd, or neither?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Using the given information, can we determine anything about the composition $f(g(x))$ for two odd functions $f(x)$ and $g(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Are there any other properties or characteristics of odd functions that could help us further understand why $f(f(x))$ is odd?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of any examples of odd functions and their compositions that could help illustrate this concept?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_713",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem": "At a party, each man danced with exactly three women and each woman danced with exactly two men. Twelve men attended the party. How many women attended the party?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many men attended the party?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How many pairs of men and women danced together at the party?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many partners did each woman have at the party?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the total number of pairs of men and women who danced together?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between the total number of pairs and the number of women who attended?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we determine the number of women who attended the party using the information given?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

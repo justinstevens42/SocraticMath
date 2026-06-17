@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_69",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem": "Let $ABCD$ be a tetrahedron such that edges $AB$, $AC$, and $AD$ are mutually perpendicular. Let the areas of triangles $ABC$, $ACD$, and $ADB$ be denoted by $x$, $y$, and $z$, respectively. In terms of $x$, $y$, and $z$, find the area of triangle $BCD$.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "b",
+    "f"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information about the tetrahedron $ABCD$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain why the distance between the origin and the plane $BCD$ is equal to $bcd/(2\\sqrt{x^2+y^2+z^2})$, expressing your reasoning in detail?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How could you express the area $K$ of triangle $BCD$ using vectors $\\overrightarrow{BC}$ and $\\overrightarrow{BD}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the length of the cross product of vectors $\\overrightarrow{BC}$ and $\\overrightarrow{BD}$, and how does this length relate to the area $K$ of triangle $BCD$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you write an equation to relate $K$ to $x$, $y$, and $z$, and solve for $K$ in terms of these variables?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Do you see any similarities or differences with finding areas of triangles in two-dimensional space, and how might you generalize these ideas to higher dimensions?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    }
+  ]
+}

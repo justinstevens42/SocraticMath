@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_306",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "The angles of quadrilateral $ABCD$ satisfy  $\\angle A = 2\\angle B =\n3\\angle C = 4\\angle D$.  What is the degree measure of $\\angle A$, rounded to the nearest whole number?",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the relationship between the angles of quadrilateral $ABCD$ based on the given information?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we express the degree measure of angle A in terms of an unknown variable?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we express the degree measures of angles B, C, and D in terms of the same variable?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the sum of the degree measures of all four angles in the quadrilateral?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can we create an equation using the sum of the angles and solve for the unknown variable?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the equation to determine the degree measure of angle A?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the value of the unknown variable, and what does it represent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Finally, what is the rounded degree measure of angle A?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

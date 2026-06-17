@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_973",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem": "The matrix $\\mathbf{A} = \\begin{pmatrix} 2 & 3 \\\\ 5 & d \\end{pmatrix}$ satisfies\n\\[\\mathbf{A}^{-1} = k \\mathbf{A}\\]for some constant $k.$  Enter the ordered pair $(d,k).$",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given matrix $\\mathbf{A}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the condition given about the matrix $\\mathbf{A}$ and its inverse $\\mathbf{A}^{-1}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the formula for finding the inverse of a $2 \\times 2$ matrix?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we compare the entries of $\\mathbf{A}^{-1}$ with that of $k \\mathbf{A}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "If $k=0,$ what would be the result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we eliminate $k$ from the set of equations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the value of $d$ that we obtain after elimination?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the value of $k$ that we obtain after solving for the equations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we confirm that $(d,k) = \\left( -2, \\frac{1}{19} \\right)$ satisfies the equation $\\mathbf{A}^{-1} = k \\mathbf{A}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

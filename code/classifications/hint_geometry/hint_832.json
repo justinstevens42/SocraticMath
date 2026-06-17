@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_832",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "Quadrilateral $ABCD$ is inscribed in a circle with segment $AC$ a diameter of the circle. If $m\\angle DAC = 30^\\circ$ and $m\\angle BAC = 45^\\circ$, the ratio of the area of $ABCD$ to the area of the circle can be expressed as a common fraction in simplest radical form in terms of $\\pi$ as $\\frac{a+\\sqrt{b}}{c\\pi}$, where $a,$ $b,$ and $c$ are positive integers. What is the value of $a + b + c$?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information in the problem? Can you summarize it in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the significance of segment AC being a diameter of the circle? How does it relate to the angles in quadrilateral ABCD?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you determine the measures of angles D and B in quadrilateral ABCD? How do they relate to the measurements of arcs ADC and ABC?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Using the given angles and the properties of special right triangles, how can you find the lengths of segments CD, AD, AB, and BC in terms of the radius r?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What are the areas of triangles ADC and ABC? How can you calculate them using the length ratios of the sides in the special right triangles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the total area of quadrilateral ABCD? How can you express it in terms of the radius r and the square roots?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the area of the circle? How can you express it in terms of the radius r and the constant pi?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the ratio of the area of ABCD to the area of the circle? Can you simplify it to a common fraction in simplest radical form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What are the values of a, b, and c in the given expression? What is their sum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

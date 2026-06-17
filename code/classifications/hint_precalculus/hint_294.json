@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_294",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem": "Find the number of ordered pairs $(a,b)$ of complex numbers such that\n\\[a^3 b^5 = a^7 b^2 = 1.\\]",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for both $a^3 b^5$ and $a^7 b^2$ to equal 1?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the first equation to obtain a relationship between $a$ and $b$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean for $a^{29}$ to equal 1?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the second equation to obtain a relationship between $a$ and $b$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why the solutions $(a,b)$ are of the form $(\\omega, \\omega^{11})$, where $\\omega$ is a 29th root of unity?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we find the number of 29th roots of unity?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How many solutions are there for $(a,b)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

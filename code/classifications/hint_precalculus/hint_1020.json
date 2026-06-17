@@ -1,0 +1,40 @@
+{
+  "problem_id": "hint_1020",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem": "Find the matrix $\\mathbf{M}$ that triples the second row of a matrix.  In other words,\n\\[\\mathbf{M} \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} = \\begin{pmatrix} a & b \\\\ 3c & 3d \\end{pmatrix}.\\]If no such matrix $\\mathbf{M}$ exists, then enter the zero matrix.",
+  "n_questions": 4,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "$pa + qc = a$",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "$pb + qd = b$",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "$ra + sc = 3c$",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "$rb + sd = 3d$",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

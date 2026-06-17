@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_487",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem": "Let $O$ and $H$ denote the circumcenter and orthocenter of triangle $ABC,$ respectively.  If $AO = AH,$ then enter all possible values of $\\angle A$ (in degrees), separated by commas.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the meaning of circumcenter and orthocenter in a triangle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the vector equation for the orthocenter in terms of the triangle's vertices?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the relationship between the vector representing the orthocenter and the vectors representing the vertices of the triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we express the length squared of the line segment from the vertex A to the orthocenter using vector notation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we equate the length squared of the line segment from the vertex A to the circumcenter with the length squared of the line segment from the vertex A to the orthocenter?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the relationship between the radius of the circumcircle and the side length of the triangle when AO = AH?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Can you express the side length of the triangle in terms of the circumradius using the Extended Law of Sines?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What does the equation a^2 = 3R^2 tell us about the relationship between the side length of the triangle and the circumradius?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "How can the value of sin A be determined when we know that a = 2R sin A?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What are the possible values of angle A in degrees when sin A = sqrt(3)/2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

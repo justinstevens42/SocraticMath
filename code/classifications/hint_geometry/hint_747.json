@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_747",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "In a triangle with integer side lengths, one side is three times as long as a second  side, and the length of the third side is 15. What is the greatest possible perimeter of the triangle?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe how to approach this problem? What is the first step you would take?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How would you use the Triangle Inequality to help solve this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What does the Triangle Inequality state? Why is it important in this context?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How did you determine the maximum value for the smallest side length, given the information provided?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why did you choose to set the lengths of the sides as $x$, $3x$, and 15? Is there any particular reason for this choice?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other constraints or conditions that could affect the maximum perimeter of the triangle? How would you consider them in your problem-solving process?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Can you generalize your approach to solve similar problems involving triangles with different side length ratios or restrictions?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

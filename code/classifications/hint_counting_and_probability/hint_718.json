@@ -1,0 +1,96 @@
+{
+  "problem_id": "hint_718",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem": "Three cards are dealt at random from a standard deck of 52 cards.  What is the probability that the first card is a 4, the second card is a $\\clubsuit$, and the third card is a 2?",
+  "n_questions": 12,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem we are trying to solve?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many cards are in a standard deck, and what are the suits?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What are the four exclusive cases we need to consider?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain how we calculate the probability for the first card being a 4, given that it's not a $\\clubsuit$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many $\\clubsuit$s are there in the deck, and how many of them are left if the first card is not a $\\clubsuit$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain how we calculate the probability for the second card being a $\\clubsuit$, given that it's not a 2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How many 2s are there in the deck, and how many of them are left if the first two cards don't include a 2$\\clubsuit$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you explain how we calculate the probability for the third card being a 2, given the first two conditions have been met?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you explain how we calculate the probability for Case 2, in which the second card is the 2$\\clubsuit$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you explain how we calculate the probability for Case 3, in which the first card is the 4$\\clubsuit$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "Can you explain how we calculate the probability for Case 4, in which the first two cards contain both the 4$\\clubsuit$ and the 2$\\clubsuit$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "Can you explain how we combine the probabilities from the four exclusive cases to get the overall probability?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

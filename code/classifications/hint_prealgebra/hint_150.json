@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_150",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem": "The product of three consecutive integers is 210. What is their sum?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking us to find in this scenario?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we break down the problem into smaller and more manageable parts?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you provide an example of three consecutive integers, and what their product would be?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the prime factorization of 210? Why is this important?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did we use the prime factorization to solve the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is it possible to use a different method to solve this problem, such as guess and check or algebraic manipulation? How might those methods differ in approach and accuracy?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

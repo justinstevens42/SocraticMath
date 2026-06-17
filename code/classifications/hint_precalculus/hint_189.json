@@ -1,0 +1,47 @@
+{
+  "problem_id": "hint_189",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem": "If the six solutions of $x^6=-64$ are written in the form $a+bi$, where $a$ and $b$ are real, find the product of those solutions with $a>0.$",
+  "n_questions": 5,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain why we can write $-64$ as $2^6 \\operatorname{cis} 180^\\circ$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How did we determine that the solutions to $x^6 = 2^6 \\operatorname{cis} 180^\\circ$ have the form $x = 2 \\operatorname{cis} (30^\\circ + 60^\\circ k)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for the real part of a complex number to be positive?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we identify the solutions to $x^6 = 2^6 \\operatorname{cis} 180^\\circ$ where the real part is positive?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you calculate the product of the solutions $2 \\operatorname{cis} 30^\\circ$ and $2 \\operatorname{cis} 330^\\circ$? What do you notice about the result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

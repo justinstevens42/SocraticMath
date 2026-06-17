@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_603",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem": "The number of students in Teresa's graduating class is more than 50 and fewer than 100 and is 1 less than a multiple of 3, 2 less than a multiple of 4, and 3 less than a multiple of 5. How many students are in Teresa's graduating class?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How did we use the given information to set up congruences for $a$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Why did we use the Chinese Remainder Theorem to find a congruence for $a$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How did we use the congruence for $a$ to determine the form of possible solutions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why is $a=62$ the only solution in the given range?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "If we changed the given range of possible values for $a$, how would the solution change?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

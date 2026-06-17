@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_575",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem": "Let $x$ and $y$ be distinct real numbers such that\n\\[\n\\begin{vmatrix} 1 & 4 & 9 \\\\ 3 & x & y \\\\ 3 & y & x \\end{vmatrix}\n= 0.\\]Find $x + y.$",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "b",
+    "r",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the determinant of a matrix and how is it calculated?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we expand the given determinant using the properties of determinants?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain the steps involved in expanding the determinant and show the intermediate calculations?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Why does the determinant of the matrix equal zero in this case?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we factorize the expanded determinant expression and what does each factor represent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What does it mean for the determinant to be zero? How does that relate to the variables x and y?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How do we determine the values of x and y from the factors of the expanded determinant?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Why do we conclude that x + y = 39?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other matrices or determinant problems where similar reasoning and steps might be applied?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

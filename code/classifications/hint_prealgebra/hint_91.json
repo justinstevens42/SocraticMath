@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_91",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem": "How many degrees are in each interior angle of a regular hexagon?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you define what a regular hexagon is and what its characteristics are?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How many total degrees are in the interior angles of any polygon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain how to find the sum of the angle measures in a hexagon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why are all of the interior angles of a regular hexagon congruent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Using the formula for the sum of angle measures in a polygon and what we know about regular hexagons, how can we determine the measure of each interior angle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you apply this same method to find the measure of each interior angle in a regular octagon or decagon?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

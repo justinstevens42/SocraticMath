@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_15",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem": "Find the least positive integer $n$ such that $$\\frac 1{\\sin 45^\\circ\\sin 46^\\circ}+\\frac 1{\\sin 47^\\circ\\sin 48^\\circ}+\\cdots+\\frac 1{\\sin 133^\\circ\\sin 134^\\circ}=\\frac 1{\\sin n^\\circ}.$$",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given expression in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we evaluate each term of the given expression using the angle subtraction formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can we simplify each term further using trigonometric identities?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we rewrite the given expression in terms of cotangent functions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we evaluate the sum of cotangent functions using telescoping series?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the final expression we get after simplification and how can we use it to find the value of n?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other problem where the angle subtraction formula and telescoping series can be used to simplify the expression and find the solution?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

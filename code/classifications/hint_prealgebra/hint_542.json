@@ -1,0 +1,47 @@
+{
+  "problem_id": "hint_542",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem": "One interior angle of a convex polygon is 160 degrees. The rest of the interior angles of the polygon are each 112 degrees. How many sides does the polygon have?",
+  "n_questions": 5,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you define what is meant by a convex polygon?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain why the sum of interior angles in a polygon with x sides is equal to 180(x-2)?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How do we use the given information and equations to solve for the number of sides in the polygon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What are some real-world scenarios where it might be important to determine the number of sides in a polygon or calculate its interior angles?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of any other mathematical concepts that are related to polygons, and how they might be used in solving similar problems?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

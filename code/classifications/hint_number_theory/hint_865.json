@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_865",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem": "How many four-digit numbers whose digits add up to $9$ are divisible by $11$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what it means for a four-digit number to be divisible by 11?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we check if a number is divisible by 11 based on its digits?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What are the possible values of $a+c$ and $b+d$ if the digits of $\\underline{a}\\underline{b}\\underline{c}\\underline{d}$ add up to 9 and $(a+c)-(b+d) = 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How did we use the fact that $(a+c)-(b+d) = 0$ to conclude that $a+c$ and $b+d$ have the same parity?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why can't $a+b+c+d$ be equal to 9 if $(a+c)-(b+d) = 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of another example where the parity of two numbers is important in solving a problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

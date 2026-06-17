@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_664",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem": "The diagonals of a rhombus are $10$ inches and $24$ inches. What is the perimeter of the rhombus, in inches?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we find the length of the side of the rhombus?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Why are the diagonals of a rhombus perpendicular bisectors of each other?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the Pythagorean theorem to find the length of the side of the rhombus?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What formula can we use to calculate the perimeter of a rhombus?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the length of each side of the rhombus?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the side length to find the perimeter of the rhombus?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

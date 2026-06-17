@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_703",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem": "What is the sum of all of the two-digit primes that are greater than 12 but less than 99 and are still prime when their two digits are interchanged?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we determine if a two-digit number is a prime number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What are the possible units digits of a two-digit prime number, and why do we need to consider these numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What are the possible tens digits for the prime numbers that satisfy the condition in the question?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine if a two-digit prime number is still prime when its digits are interchanged?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What are the two-digit prime numbers that satisfy the given conditions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What is the sum of these two-digit prime numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

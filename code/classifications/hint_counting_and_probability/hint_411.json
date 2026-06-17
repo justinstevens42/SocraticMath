@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_411",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem": "The Happy Valley Kennel has 4 chickens, 2 dogs, and 5 cats.  (Some people in Happy Valley like to keep chickens as pets!)  In how many ways can the 11 animals be placed in a row of 11 cages, such that all of the animals of each type are in adjacent cages?  (Two animals of the same species are considered distinguishable.)",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "r",
+    "r",
+    "b",
+    "e",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking for?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many groups of animals are there?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Would it make a difference if the animals of the same species were not considered distinguishable?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you describe how the problem can be broken down into smaller sub-problems?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Why do we first order the groups of animals before arranging the animals within each group?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Would it be necessary to use the multiplication principle to solve this problem? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other scenarios where the multiplication principle would be useful?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "What is the final answer to the problem and how is it obtained?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Is there a way to check if the answer is reasonable or not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

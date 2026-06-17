@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_59",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem": "An 8.5-meter ladder is leaning against a vertical wall. How many meters is its base from the wall if the ladder reaches 7.5 meters up the wall?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking you to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the given information?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can you use the given information to set up a right triangle with the ladder as the hypotenuse?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can you use the given ratio and the Pythagorean triple to find the length of the other leg of the right triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can you solve for the length of the other leg using the ratio equation $x/8.5 = 8/17$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you check your answer by verifying that the Pythagorean theorem is satisfied for the right triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

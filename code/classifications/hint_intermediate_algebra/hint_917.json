@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_917",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "Find the number of ordered pairs of integers $(a,b)$ with $1 \\leq a \\leq 100$ and $b \\geq 0$ such that the polynomial $x^2+ax+b$ can be factored into the product of two (not necessarily distinct) linear factors with integer coefficients.",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does it mean for a quadratic polynomial to be factored into the product of two linear factors?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain why the leading coefficient of the quadratic polynomial must be 1 for this factorization to be possible?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What are Vieta's formulas, and how are they relevant to this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do we use Vieta's formulas to express the sum and product of the roots of the quadratic polynomial in terms of its coefficients?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Given that both roots of the quadratic polynomial are negative or zero, how does that help us determine the possible values for the pair of roots?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Keeping in mind that the order of the roots does not matter, how many distinct polynomials can be obtained for a given value of $a$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain why the number of these polynomials can be expressed as the sum of rounded up values for each possible value of $a$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you calculate the final answer using the provided formula and explain your steps?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

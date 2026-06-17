@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_108",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem": "On this 5 by 5 grid of points, what fraction of the larger square's area is inside the shaded square? Express your answer as a common fraction.\n\n[asy]\nfill((2,2)--(3,3)--(2,4)--(1,3)--cycle,gray(0.7));\ndot((0,0));\ndot((0,1));\ndot((0,2));\ndot((0,3));\ndot((0,4));\ndot((1,0));\ndot((1,1));\ndot((1,2));\ndot((1,3));\ndot((1,4));\ndot((2,0));\ndot((2,1));\ndot((2,2));\ndot((2,3));\ndot((2,4));\ndot((3,0));\ndot((3,1));\ndot((3,2));\ndot((3,3));\ndot((3,4));\ndot((4,0));\ndot((4,1));\ndot((4,2));\ndot((4,3));\ndot((4,4));\ndraw((0,0)--(4,0)--(4,4)--(0,4)--cycle);\ndraw((2,2)--(3,3)--(2,4)--(1,3)--cycle);\n[/asy]",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the steps you would take to find the area of the shaded square in terms of the larger square?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can you determine the area of one of the smaller squares within the grid?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What relationship exists between the side length of the shaded square and the diagonal of a smaller square?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you calculate the area of the shaded square using the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the total area of the entire grid?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can you express the ratio of the area of the shaded square to the total area of the grid as a fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the simplified form of the fraction representing the ratio of areas?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

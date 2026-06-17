@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_951",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "In the figure below, $ABCD$ is a square piece of paper 6 cm on each side. Corner $C$ is folded over so that it coincides with $E$, the midpoint of $\\overline{AD}$. If $\\overline{GF}$ represents the crease created by the fold such that $F$ is on $CD,$ what is the length of $\\overline{FD}$? Express your answer as a common fraction. [asy]\nimport geometry;\nsize(150);\npair A = (0,0), B = (0,1), C = (1,1), D = (1,0);\npath square = A--B--C--D--cycle;\ndraw(square);\nlabel(\"A\",A,SW); label(\"B\",B,NW); label(\"C\",C,NE); label(\"D\",D,SE);\npair E = midpoint(A--D);\nline CE = line(C,E);\npair X = midpoint(C--E); line FG = perpendicular(X,CE);\n\npair[] intwithsquare = intersectionpoints(FG,square);\npair G = intwithsquare[0];\npair F = intwithsquare[1];\ndraw(F--G,dashed);\nlabel(\"F\",F,E);\nlabel(\"G\",G,W);\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How is the folding of the paper represented in the given figure?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does the fold line represent in the figure?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the length of the line segment EF after folding?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the length of segment FD?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why is triangle FDE a right triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the length of segment ED and how is it related to triangle FDE?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can we use the Pythagorean theorem to solve for x in the given equation $(6-x)^2 = x^2 + 3^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the final value of x that we solve for?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the length of segment FD in terms of x?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the numerical value of segment FD when x is substituted into the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

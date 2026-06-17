@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_631",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "If $x^2+bx+9$ has two non-real roots, find all real possible values of $b$. Express your answer in interval notation.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What methods do you know for finding the roots of a quadratic equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "If you were to use the quadratic formula, what would be the discriminant in this case?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How does the value of the discriminant relate to the nature of the roots?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What are the conditions for the roots of a quadratic equation to be non-real?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What would be the possible values of \"b\" if the quadratic equation has two non-real roots?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can you express the set of possible values of \"b\" in interval notation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

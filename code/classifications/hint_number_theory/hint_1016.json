@@ -1,0 +1,47 @@
+{
+  "problem_id": "hint_1016",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem": "What is the largest $4$ digit integer congruent to $15 \\pmod{22}?$",
+  "n_questions": 5,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you define what it means for two integers to be congruent modulo a certain number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we use this definition to approach the problem of finding the largest $4$ digit integer congruent to $15$ modulo $22$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the largest possible value we can give to $n$ in the equation $22n+15<10000$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the value we found for $n$ to determine the largest $4$ digit integer congruent to $15$ modulo $22$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of other examples where the concept of congruence modulo a number can be applied? How can we approach those problems using similar methods?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

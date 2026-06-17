@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_214",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem": "Set $B = \\{55, 57, 58, 59, 61\\}.$  Which number in set B has the smallest prime factor?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you identify the smallest prime factor of the numbers in set B?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can you determine if a number is prime or composite? Can you apply that process to the numbers in set B?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the relationship between even numbers and their prime factors? How does that relate to finding the smallest prime factor in set B?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you analyze each number in set B and identify the prime factors of each? Which number has the smallest prime factor?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Is there any specific method or strategy you can use to find the smallest prime factor of a given number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other sets or collections of numbers where finding the smallest prime factor would be a relevant question or problem to explore?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

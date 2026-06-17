@@ -1,0 +1,89 @@
+{
+  "problem_id": "hint_761",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "A polynomial product of the form\n\\[(1 - z)^{b_1} (1 - z^2)^{b_2} (1 - z^3)^{b_3} (1 - z^4)^{b_4} (1 - z^5)^{b_5} \\dotsm (1 - z^{32})^{b_{32}},\\]where the $b_k$ are positive integers, has the surprising property that if we multiply it out and discard all terms involving $z$ to a power larger than 32, what is left is just $1 - 2z.$  Determine $b_{32}.$\n\nYou can enter your answer using exponential notation.",
+  "n_questions": 11,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given polynomial and what does it look like when written out in expanded form?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean to \"discard all terms involving $z$ to a power larger than 32\" and what is the resulting polynomial equal to?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Based on the given information, what can we say about the product of $g(z)$ and $g(-z)$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the information about $g(z)g(-z)$ to find a new polynomial, $g_1(z)$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What can we say about the product of $g_1(z)$ and $g_1(-z)$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the information about $g_1(z)g_1(-z)$ to find a new polynomial, $g_2(z)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What can we say about the product of $g_2(z)$ and $g_2(-z)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we use the information about $g_2(z)g_2(-z)$ to find a new polynomial, $g_3(z)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What can we say about the polynomial $g_3(z)$ and how does it relate to the original polynomial $g(z)$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 10,
+      "question": "How can we use the information about $g_3(z)$ to find the value of $b_{32}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "What is the final answer for $b_{32}$ and how can we check that it satisfies the given condition?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

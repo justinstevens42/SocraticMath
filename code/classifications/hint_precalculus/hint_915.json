@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_915",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem": "Find the maximum $y$-coordinate of a point on the graph of $r = \\sin 2 \\theta.$",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the equation we are trying to find the maximum $y$-coordinate for?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we express $y$ in terms of $\\theta$ using the given equation $r = \\sin 2\\theta$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can we simplify the expression for $y$ by using trigonometric identities? If so, what is the simplified expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "By setting $k = \\cos \\theta$, how can we express $y$ in terms of $k$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the equation for $y^2$ in terms of $k$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we apply the AM-GM inequality to find the maximum value of $y^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the maximum value of $y^2$, and how does that relate to the maximum $y$-coordinate?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What value of $k$ leads to the maximum $y$-coordinate, and how does it relate to the maximum value of $y^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the maximum $y$-coordinate for the graph of $r = \\sin 2 \\theta$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

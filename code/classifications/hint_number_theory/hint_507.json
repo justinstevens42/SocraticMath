@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_507",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 1",
+  "problem": "What is the greatest possible number of digits in the product of a 4-digit whole number and a 3-digit whole number?",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what a 4-digit whole number is? What about a 3-digit whole number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How would you go about finding the product of a 4-digit whole number and a 3-digit whole number?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the largest possible value for a 4-digit whole number? And for a 3-digit whole number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you multiply these two values together and determine the number of digits in the product?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Is there a relationship between the number of digits in a product and the number of digits in the individual factors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the formula for finding the number of digits in a whole number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Using that formula, can you calculate the number of digits in the product we are interested in?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other scenarios where you would need to consider the number of digits in a product?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

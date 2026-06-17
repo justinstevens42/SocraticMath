@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_46",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem": "Given that $\\binom{17}{10}=19448$, $\\binom{17}{11}=12376$ and $\\binom{19}{12}=50388$, find $\\binom{18}{12}$.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "e",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given relationship between binomial coefficients that we can use to solve this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we express $\\binom{18}{12}$ in terms of other known binomial coefficients?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Using Pascal's identity, what is the relationship between $\\binom{18}{12}$ and $\\binom{17}{12}$, as well as $\\binom{17}{11}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Based on the given values, what are the specific values of $\\binom{17}{12}$ and $\\binom{17}{11}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the equation we can form using the relationships we've discovered?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "How can we solve this equation to find the value of $\\binom{18}{12}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final answer for $\\binom{18}{12}$ based on our calculations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

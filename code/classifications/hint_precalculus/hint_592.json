@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_592",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem": "Lines $l_1^{}$ and $l_2^{}$ both pass through the origin and make first-quadrant angles of $\\frac{\\pi}{70}$ and $\\frac{\\pi}{54}$ radians, respectively, with the positive $x$-axis. For any line  $l$, the transformation $R(l)$ produces another line as follows: $l$ is reflected in $l_1$, and the resulting line is reflected in $l_2$. Let $R^{(1)}(l)=R(l)$ and $R^{(n)}(l)=R\\left(R^{(n-1)}(l)\\right)$. Given that $l$ is the line $y=\\frac{19}{92}x$, find the smallest positive integer $m$ for which $R^{(m)}(l)=l$.",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the relationship between lines $l_1$ and $l_2$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do the angles $\\frac{\\pi}{70}$ and $\\frac{\\pi}{54}$ relate to lines $l_1$ and $l_2$? What do these angles represent?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for a line to be reflected in another line?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Given the line $l: y = \\frac{19}{92}x$, how would you reflect it in line $l_1$? What is the equation of the reflected line, $l'$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How would you reflect line $l'$ in line $l_2$? What is the resulting equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the general formula for $R^{(n)}(l)$, the reflection of a line $l$ in lines $l_1$ and $l_2$ repeated $n$ times?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "For what values of $n$ does $R^{(n)}(l)$ coincide with the original line $l$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we determine the smallest positive integer value of $n$ for which $R^{(n)}(l)$ coincides with line $l$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

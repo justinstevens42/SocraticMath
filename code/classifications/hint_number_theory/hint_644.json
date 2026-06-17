@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_644",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem": "Compute the multiplicative inverse of $201$ modulo $299$. Express your answer as an integer from $0$ to $298$.",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we find the multiplicative inverse of a number modulo another number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the definition of the multiplicative inverse modulo a number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can we use any number as the multiplicative inverse modulo another number, or are there certain conditions that need to be satisfied?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we simplify the given congruence to make it easier to find the inverse?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why did we choose to write $603$ as $201 \\cdot 3$ in the congruence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What steps did we take to find the value of $a$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other numbers or congruences where we can apply similar steps to find the multiplicative inverse modulo a given number?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "How can we verify that our answer is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

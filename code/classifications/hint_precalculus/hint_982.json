@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_982",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem": "Find the phase shift of the graph of $y = \\sin (3x - \\pi).$",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does the term \"phase shift\" mean in relation to a function?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does the function $y = \\sin (3x - \\pi)$ differ from the standard form $y = \\sin 3x$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "In what direction does the graph of $y = \\sin 3x$ shift when we subtract $\\pi$ from the argument?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you visualize the graph of $y = \\sin (3x - \\pi)$ and describe how it compares to the graph of $y = \\sin 3x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does the phase shift affect the period and the shape of the sine function?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "If we were to shift the graph of $y = \\sin 3x$ in the opposite direction, what would be the phase shift in that case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

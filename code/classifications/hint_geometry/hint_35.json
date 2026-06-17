@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_35",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "A right circular cone is inscribed in a right prism as shown. What is the ratio of the volume of the cone to the volume of the prism? Express your answer as a common fraction in terms of $\\pi$. [asy]\nimport three; import graph3;\ndefaultpen(linewidth(0.8));\nsize(200);\ndraw((0,0,0)--(1,0,0)--(1,1,0)--(0,1,0)--cycle);\ndraw((0,0,1)--(1,0,1)--(1,1,1)--(0,1,1)--cycle);\ndraw((0,0,0)--(0,0,1)); draw((1,0,0)--(1,0,1)); draw((1,1,0)--(1,1,1)); draw((0,1,0)--(0,1,1));\ndraw(Circle((0.5,0.5,0),0.5),dashed);\ndraw((0.5,0.5,1)--(0.5,0,0),dashed); draw((0.5,0.5,1)--(0.5,1,0),dashed); draw((0.5,0.5,1)--(1,0.5,0),dashed); draw((0.5,0.5,1)--(0,0.5,0),dashed);\n[/asy]",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given figure and state any given information or assumptions?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What shape is the base of the prism? How is it related to the cone?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If the radius of the cone's base is denoted as $r$, what is the side length of the square base of the prism?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we express the volume of the cone in terms of $r$ and $h$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we express the volume of the prism in terms of $r$ and $h$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the ratio of the volume of the cone to the volume of the prism?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we simplify this ratio using the expressions we derived for the volumes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the final expression for the ratio of the volumes? Can you give the answer as a simplified fraction in terms of $\\pi$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

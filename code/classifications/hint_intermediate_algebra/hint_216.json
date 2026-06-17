@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_216",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "Find the number of real solutions to\n\\[(x^{2006} + 1)(x^{2004} + x^{2002} + x^{2000} + \\dots + x^2 + 1) = 2006x^{2005}.\\]",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What different methods do you know that can be used to solve equations like this one?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "If you were to use algebraic manipulation to solve this equation, what would be the best way to start?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Why is it important to consider the restrictions on the value of $x$ in this equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we simplify the equation using the properties of exponents?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What technique did we use to show that the expression on the left-hand side of the equation is greater than or equal to 2006?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Based on our analysis, what can we conclude about the number of real solutions to this equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other types of equations where a similar approach and steps would be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

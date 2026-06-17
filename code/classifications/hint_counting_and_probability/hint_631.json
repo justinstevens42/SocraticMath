@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_631",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 2",
+  "problem": "A board game spinner is divided into four regions labeled $A$, $B$, $C$, and $D$.  The probability of the arrow stopping on region $A$ is $\\frac{3}{8}$, the probability of it stopping in $B$ is $\\frac{1}{4}$, and the probability of it stopping in region $C$ is equal to the probability of it stopping in region $D$. What is the probability of the arrow stopping in region $C$?  Express your answer as a common fraction.",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total number of regions on the board game spinner?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the probabilities of the arrow stopping in regions $A$, $B$, $C$, and $D$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we express the total probability of the arrow landing in these four regions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you write an equation to represent the total probability?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we simplify the equation by combining like terms?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What does the simplified equation tell us about the total probability?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What value does $x$ represent in the equation, and what is the significance of this value?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "How can we solve the equation to find the value of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the final answer to the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

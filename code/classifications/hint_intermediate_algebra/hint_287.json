@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_287",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem": "Let $x$ and $y$ be positive real numbers such that $x + y = 10.$  Find the minimum value of $\\frac{1}{x} + \\frac{1}{y}.$",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we start solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Do you know any inequalities that involve the sum and product of numbers?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you recall the name of an inequality that relates the arithmetic mean and the harmonic mean?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we apply the AM-HM inequality to this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the minimum value we can find using the AM-HM inequality?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "When does equality occur in the AM-HM inequality?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What values of $x$ and $y$ satisfy the given condition of $x + y = 10$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we find the minimum value of $\\frac{1}{x} + \\frac{1}{y}$ using the values of $x$ and $y$ that satisfy the given condition?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other problems or situations where we can use similar thinking and steps to solve them?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

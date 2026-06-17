@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_601",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem": "John has 6 green marbles and 4 purple marbles. He chooses a marble at random, writes down its color, and then puts the marble back.  He performs this process 5 times. What is the probability that he chooses exactly two green marbles?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total number of marbles that John has?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many green marbles does John have? How many purple marbles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "When John chooses a marble, does he put it back or keep it?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How many marbles does John choose in total?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What does it mean for John to choose \"exactly two green marbles\"?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How many ways can John choose which two of the marbles are green? Why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "For a specific choice of two green marbles, what is the probability of that choice happening?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we calculate the probability for any of the 10 choices?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the probability for each individual choice?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How do we find the overall probability of John choosing exactly two green marbles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

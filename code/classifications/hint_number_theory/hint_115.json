@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_115",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 1",
+  "problem": "What is the remainder when (99)(101) is divided by 9?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "e",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the process of dividing (99)(101) by 9?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain why we can rewrite (99)(101) as 11*101?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How do we know that 11*101 is divisible by 9 and has no remainder?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Is there another way to determine if a number is divisible by 9? If so, how?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "What is the sum of the digits in 9999, and how does that relate to divisibility by 9?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other numbers or expressions that can be approached in a similar way to find the remainder when divided by 9?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_185",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 1",
+  "problem": "Compute $\\tan 60^\\circ$.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what the unit circle is and how it relates to angles and trigonometric functions?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How do the coordinates of point $P$ on the unit circle help us find the value of $\\tan 60^\\circ$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the relationship between $\\tan$, $\\sin$, and $\\cos$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why triangle $POD$ is a 30-60-90 triangle and how that helps us find the coordinates of $P$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the Pythagorean theorem to find the lengths of the sides of triangle $POD$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the values of $\\sin 60^\\circ$ and $\\cos 60^\\circ$ to find $\\tan 60^\\circ$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of other applications of the unit circle and trigonometric functions in mathematics and other fields?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

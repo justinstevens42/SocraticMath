@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_1055",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "A square with sides 6 inches is shown. If $P$ is a point such that the segment $\\overline{PA}$, $\\overline{PB}$, $\\overline{PC}$ are equal in length, and segment $\\overline{PC}$ is perpendicular to segment $\\overline{FD}$, what is the area, in square inches, of triangle $APB$? [asy]\npair A, B, C, D, F, P;\nA = (0,0); B= (2,0); C = (1,2); D = (2,2); F = (0,2); P = (1,1);\ndraw(A--B--D--F--cycle);\ndraw(C--P); draw(P--A); draw(P--B);\nlabel(\"$A$\",A,SW); label(\"$B$\",B,SE);label(\"$C$\",C,N);label(\"$D$\",D,NE);label(\"$P$\",P,NW);label(\"$F$\",F,NW);\nlabel(\"$6''$\",(1,0),S);\n\n[/asy]",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is given in the problem statement?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What can we deduce from the given information?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the length of segment $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why do we extend line segment $\\overline{CP}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How do we know that $\\triangle AEP$ is a right triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do we apply the Pythagorean Theorem to solve for $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What are the dimensions of $\\triangle APB$ after finding the value of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How do we calculate the area of $\\triangle APB$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any similar problems where we can use the same approach and steps?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

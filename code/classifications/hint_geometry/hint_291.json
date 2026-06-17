@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_291",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem": "The isosceles trapezoid shown has side lengths as labeled. How long is segment AC? [asy]\nunitsize(1.5mm);\ndefaultpen(linewidth(.7pt)+fontsize(10pt));\ndotfactor=3;\n\npair A=(0,0), B=(21,0), C=(15,8), D=(6,8);\npair[] dots={A,B,C,D};\n\ndraw(A--B--C--D--cycle);\ndot(dots);\nlabel(\"A\",A,SW);\nlabel(\"B\",B,SE);\nlabel(\"C\",C,NE);\nlabel(\"D\",D,NW);\nlabel(\"9\",midpoint(C--D),N);\nlabel(\"10\",midpoint(D--A),NW);\nlabel(\"21\",midpoint(A--B),S);\nlabel(\"10\",midpoint(B--C),NE);\n[/asy]",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given figure and its components?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the properties of an isosceles trapezoid?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the lengths of segments AE and AF?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the relationship between segment EF and segment CD?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Apply the Pythagorean theorem to find the lengths of segments CE and DF.",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we calculate the length of segment AC using the lengths of segments CE and AE?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final answer for the length of segment AC in this specific isosceles trapezoid?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

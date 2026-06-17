@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_560",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem": "The bottoms of two vertical poles are 12 feet apart and are on a region of flat ground. One pole is 6 feet tall and the other is 15 feet tall. How long, in feet, is a wire stretched from the top of one pole to the top of the other pole?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "r",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the situation in terms of a geometric shape or shapes?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the distance between the bottoms of the poles? How tall are the poles?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we split the shape into smaller, more manageable pieces?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What kind of triangle do we have at the top of the shape?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the length of the horizontal leg of the right triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the height difference between the poles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we use the Pythagorean Theorem to find the length of the wire?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "Are there any other ways to find the length of the wire?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other real-life situations where the Pythagorean Theorem might be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_395",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem": "By what common fraction does $0.\\overline{81}$ exceed $0.81$?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "e",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain how we can convert the repeating decimal $0.\\overline{81}$ into a fraction using the trick mentioned?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Why do we set $x=0.\\overline{81}$ and multiply it by 100 in the subtraction step? What purpose does it serve?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How do we subtract $x=0.\\overline{81}$ from $100x=81.\\overline{81}$ in the given context? What is the significance of this subtraction?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean when we say that $0.\\overline{81}$ exceeds $0.81$ by a certain common fraction? Can you provide a general definition for this concept?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we simplify the fraction $\\frac{81}{99}$? Are there any common factors we can cancel out?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain the additional observation made in the solution regarding the subtraction of $0.81$ from $0.\\overline{81}$? How does it help us simplify the calculation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Could there be alternative methods to convert $0.\\overline{81}$ into a fraction? What factors would you consider in choosing which method to use?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

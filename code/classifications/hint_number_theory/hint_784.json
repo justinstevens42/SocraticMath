@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_784",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem": "What is the least positive integer that has a remainder of 0 when divided by 2, a remainder of 1 when divided by 3, and a remainder of 2 when divided by 4?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what it means for a number to have a remainder when divided by another number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the given remainders to set up congruence equations for the unknown number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Let's focus on the congruence equation $a \\equiv 1 \\pmod 3$. Can you find the first few positive solutions that satisfy this congruence?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Now let's consider the congruence equation $a \\equiv 2 \\pmod 4$. Can you find the first few positive solutions that satisfy this congruence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Do any of the solutions from the previous step satisfy both congruences simultaneously?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the least positive integer that satisfies both congruences?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

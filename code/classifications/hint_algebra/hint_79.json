@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_79",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem": "Express $(5-4i)-2(3+6i)$ as a complex number.",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step you would take to express $(5-4i)-2(3+6i)$ as a complex number?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain the concept of complex numbers and how they are added or subtracted?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How would you distribute the -2 to simplify the expression $(5-4i)-2(3+6i)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "After distributing the -2, what are the simplified terms in the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How would you combine like terms to simplify the expression further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the final result when you combine the simplified terms in $(5-4i)-2(3+6i)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain why the expression $(5-4i)-2(3+6i)$ represents a complex number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any other ways to represent or write the complex number obtained from this expression?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

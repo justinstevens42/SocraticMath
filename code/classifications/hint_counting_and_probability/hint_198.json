@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_198",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem": "An unfair coin lands on heads with probability $\\frac34$ and tails with probability $\\frac14$.  A heads flip gains $\\$3$, but a tails flip loses $\\$8$.  What is the expected worth of a coin flip? Express your answer as a decimal rounded to the nearest hundredth.",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of \"expected worth\" in the context of probability?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do we calculate the expected worth of an event? Can you explain step-by-step?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What are the possible outcomes of flipping the coin in this scenario?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What are the probabilities associated with each outcome?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How do we assign a value to each outcome in order to calculate the expected worth?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you calculate the expected worth based on the given probabilities and values?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain why we multiply the outcomes by their respective probabilities?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How do we interpret the final expected worth value in this context?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you explain why the expected worth in this case is positive or negative?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any real-life scenarios where understanding expected worth would be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

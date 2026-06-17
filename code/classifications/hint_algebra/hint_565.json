@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_565",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "What is the sum of all values of $k$ such that the equation $2x^2-kx+8=0$ has two distinct integer solutions?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step you would take to solve this equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "When solving equations with distinct integer solutions, what are some possible methods you could use?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you choose to factorize the equation, how would you determine the appropriate factors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What makes this equation suitable for factorization? Are there any characteristics that indicate this method should be used?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What are the factors you found, and how do they validate that the solutions are correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other types of equations where similar thinking and steps may be applied in solving them?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

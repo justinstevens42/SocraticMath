@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_176",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 1",
+  "problem": "Compute $\\arcsin 0.$  Express your answer in radians.",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of the arcsine function?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the range of the arcsine function?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for $\\arcsin 0$ to be in radians?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you recall any trigonometric identity that involves the sine function?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we use that trigonometric identity to find the value of $\\arcsin 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why $\\arcsin 0 = 0$ using the trigonometric identity you mentioned earlier?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

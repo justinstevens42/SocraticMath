@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_656",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem": "Two integers are relatively prime if they have no common factors other than 1 or -1. What is the probability that a positive integer less than or equal to 30 is relatively prime to 30? Express your answer as a common fraction.",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you define \"relatively prime\" in your own words?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you provide an example of two integers that are relatively prime?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What are the possible common factors of a number and 30?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we identify the integers that are not relatively prime to 30?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why prime divisors play a role in determining the number of relatively prime integers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there a formula or pattern that can be used to determine the number of relatively prime integers to a given number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

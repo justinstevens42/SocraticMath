@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_524",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem": "The hyperbola given by the equation \\[\\frac{x^2}{100} - \\frac{y^2}{64} = 1\\]has asymptotes $y = \\pm mx,$ where $m$ is positive. Find $m.$",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "f",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the equation of the hyperbola given in the problem? Can you identify the parts of the equation and their meanings?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How do you find the equation of the asymptotes of a hyperbola? What criteria need to be met for a line to be an asymptote?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for two lines to be asymptotes? How do they relate to the shape of the hyperbola?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What steps can you take to find the equation of the asymptotes in this specific problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Given the equation \\[\\frac{x^2}{100} - \\frac{y^2}{64} = 0,\\] how can you isolate $y$ and rewrite the equation so that it represents the equation of the asymptotes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you identify any similarities or patterns between the equation of the hyperbola and the equation of the asymptotes?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "What are the slopes of the asymptotes in terms of $m$? How can you determine the value of $m$ based on the given equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_22",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem": "Which of the following statements are true?\n\nA.  3 is a factor of 18.\n\nB.  17 is a divisor of 187 but not of 52.\n\nC.  24 is neither a divisor of 72 nor 67.\n\nD.  13 is a divisor of 26 but not of 52.\n\nE.  8 is a factor of 160.\n\nWrite your answer with the letters in alphabetical order, separated by commas.  For example, if you think all five are true, you should type \"A,B,C,D,E\" (without the quotes).",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what it means for a number to be a factor of another number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine if a number is a divisor of another number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Let's examine statement A. Can you find a number that, when multiplied by 3, results in 18? Does this satisfy the definition of a factor?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Now let's consider statement B. Can you find all the divisors of 187 and 52? Do any common divisors exist between the two numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Regarding statement C, can you find a number that evenly divides both 72 and 67? Is 24 a divisor of 72?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Let's explore statement D. Can you determine if 13 is a divisor of 26 and 52? If so, does it satisfy the given condition?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Finally, let's analyze statement E. Can you find all the factor pairs of 160? Does 8 have any pairs?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

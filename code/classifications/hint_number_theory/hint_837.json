@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_837",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem": "The time right now is exactly midnight. What time will it be in 1234 minutes?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "e",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many minutes are there in an hour?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "When we divide 1234 by 60, what is the quotient and remainder?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we interpret the quotient and remainder when we calculate time?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the significance of the quotient and remainder when determining the time?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "How can we express the time in 1234 minutes using the quotient and remainder?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there any other way to calculate the time in 1234 minutes? If so, what would be the steps involved?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

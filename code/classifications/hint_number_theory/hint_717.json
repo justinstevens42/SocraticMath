@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_717",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem": "A bag of grapes is to be distributed evenly to 5 kids in a class, and the grapes that are left over will be thrown out. If each student receives the greatest possible number of grapes, what is the greatest possible number of grapes that could be thrown out?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking for?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Is there a specific formula or method that we can use to solve this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "If we give each student the greatest possible number of grapes, how many grapes will each student receive?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Are there any remaining grapes after distributing the grapes equally among the students?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "If there are remaining grapes, can we give them out in a way that each student still gets the same number and no grapes are wasted?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What happens if we cannot distribute the remaining grapes equally among the students without any waste?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the maximum number of grapes that can be thrown out?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

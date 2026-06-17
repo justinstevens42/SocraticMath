@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_384",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem": "Find the matrix $\\mathbf{M}$ such that\n\\[\\mathbf{M} \\begin{pmatrix} 1 & -4 \\\\ 3 & -2 \\end{pmatrix} = \\begin{pmatrix} -16 & -6 \\\\ 7 & 2 \\end{pmatrix}.\\]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "e",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the purpose of finding the matrix $\\mathbf{M}$ in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How would you describe the given matrix $\\begin{pmatrix} 1 & -4 \\\\ 3 & -2 \\end{pmatrix}$ in terms of its dimensions and entries?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain the concept of matrix multiplication and how it is used in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the significance of finding the inverse of $\\begin{pmatrix} 1 & -4 \\\\ 3 & -2 \\end{pmatrix}$?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "How can you calculate the inverse of a $2 \\times 2$ matrix and what formula are you using?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain the steps involved in calculating the inverse matrix and why they are important?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Why is it necessary to multiply the given matrix by its inverse in order to find $\\mathbf{M}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How does multiplying matrices on the right help us find the desired matrix?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you verify the result by multiplying $\\begin{pmatrix} 5 & -7 \\\\ -2 & 3 \\end{pmatrix}$ with the given matrix and confirming if it matches the result $\\begin{pmatrix} -16 & -6 \\\\ 7 & 2 \\end{pmatrix}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any other situations or problems where finding the inverse of a matrix and matrix multiplication are relevant?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_239",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem": "What's the coefficient of the $x^2y^4$ term in the expansion of $(x+y)^6$?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "r",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the Binomial Theorem? Can you explain it in your own words?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do we use the Binomial Theorem to find the term with a specific degree in a binomial expansion?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the general formula for finding the coefficient of a specific term in a binomial expansion?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain the concept of \"n choose k\" and how it relates to binomial coefficients?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we apply the Binomial Theorem to solve problems involving counting, probability, and combinatorics?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any real-life situations in which the Binomial Theorem might be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

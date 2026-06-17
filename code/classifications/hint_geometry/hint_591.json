@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_591",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "Points $A$, $B$, $Q$, $D$, and $C$ lie on the circle shown and the measures of arcs $BQ$ and $QD$ are $42^\\circ$ and $38^\\circ$, respectively.  Find the sum of the measures of angles $P$ and $Q$, in degrees.\n\n[asy]\nimport graph;\n\nunitsize(2 cm);\n\npair A, B, C, D, P, Q;\n\nA = dir(160);\nB = dir(45);\nC = dir(190);\nD = dir(-30);\nP = extension(A,B,C,D);\nQ = dir(0);\n\ndraw(Circle((0,0),1));\ndraw(B--P--D);\ndraw(A--Q--C);\n\nlabel(\"$A$\", A, NW);\nlabel(\"$B$\", B, NE);\nlabel(\"$C$\", C, SW);\nlabel(\"$D$\", D, SE);\nlabel(\"$P$\", P, W);\nlabel(\"$Q$\", Q, E);\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the relationship between angles P and Q and the measure of arcs BQ and QD?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the measure of arcs BQ and QD to find the measure of angles P and Q?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What do we know about the measure of arc AC?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the measure of arc AC to find the measure of angle Q?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the measure of arc BD to find the measure of angle P?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the formula for finding the measure of an angle in terms of arcs?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain why we divide the measure of arc BD by 2 to find the measure of angle P and Q?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "If the measure of arc BQ was 50° instead of 42°, how would the measures of angles P and Q be affected?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Are there any other properties or relationships in the given diagram that can help us find the measure of angles P and Q?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any real-life scenarios or applications where understanding the relationship between angles and arcs in a circle would be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

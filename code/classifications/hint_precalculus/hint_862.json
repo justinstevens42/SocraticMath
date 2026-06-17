@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_862",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem": "A projectile is fired with an initial velocity of $v$ at an angle of $\\theta$ from the ground.  Then its trajectory can modeled by the parametric equations\n\\begin{align*}\nx &= vt \\cos \\theta, \\\\\ny &= vt \\sin \\theta - \\frac{1}{2} gt^2,\n\\end{align*}where $t$ denotes time and $g$ denotes acceleration due to gravity, forming a parabolic arch.\n\nSuppose $v$ is held constant, but $\\theta$ is allowed to vary, over $0^\\circ \\le \\theta \\le 180^\\circ.$  The highest point of each parabolic arch is plotted.  (Several examples are shown below.)  As $\\theta$ varies, the highest points of the arches trace a closed curve.  The area of this closed curve can be expressed in the form\n\\[c \\cdot \\frac{v^4}{g^2}.\\]Find $c.$\n\n[asy]\nunitsize (5 cm);\n\nreal g, t, theta, v;\npath arch;\n\ng = 1;\nv = 1;\n\ntheta = 80;\narch = (0,0);\n\nfor (t = 0; t <= 2*v*Sin(theta)/g; t = t + 0.01) {\n  arch = arch--(v*t*Cos(theta),v*t*Sin(theta) - 1/2*g*t^2);\n}\n\ndraw(arch);\nt = v*Sin(theta)/g;\ndot((v*t*Cos(theta),v*t*Sin(theta) - 1/2*g*t^2),red);\n\ntheta = 40;\narch = (0,0);\n\nfor (t = 0; t <= 2*v*Sin(theta)/g; t = t + 0.01) {\n  arch = arch--(v*t*Cos(theta),v*t*Sin(theta) - 1/2*g*t^2);\n}\n\ndraw(arch);\nt = v*Sin(theta)/g;\ndot((v*t*Cos(theta),v*t*Sin(theta) - 1/2*g*t^2),red);\n\ntheta = 110;\narch = (0,0);\n\nfor (t = 0; t <= 2*v*Sin(theta)/g; t = t + 0.01) {\n  arch = arch--(v*t*Cos(theta),v*t*Sin(theta) - 1/2*g*t^2);\n}\n\ndraw(arch);\nt = v*Sin(theta)/g;\ndot((v*t*Cos(theta),v*t*Sin(theta) - 1/2*g*t^2),red);\n\ndraw((-0.8,0)--(1.2,0));\n\ndot((0,0));\n[/asy]",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the parametric equations for the projectile's trajectory? Can you explain how they relate to the initial velocity, angle, and time?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the time at which the projectile will land? What does this tell us about the highest point of the arch?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What are the expressions for the coordinates of the highest point of the arch in terms of velocity, angle, and acceleration due to gravity? How do we derive these expressions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we express the highest point of the arch in terms of a specific angle (such as $\\theta$)? What do these expressions represent geometrically?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What shape do the highest points of the arches trace as $\\theta$ varies? Can you explain why it is this shape?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we find the semi-axes of the traced shape? What do these represent in relation to the projectile's initial velocity and acceleration due to gravity?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the equation that describes the traced shape? Can you explain how it relates to the semi-axes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the area of the traced shape in terms of velocity and acceleration due to gravity? How can we calculate this area?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the value of $c$ in the expression $\\frac{\\pi}{8} \\cdot \\frac{v^4}{g^2}$? Can you explain how it corresponds to the traced shape?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

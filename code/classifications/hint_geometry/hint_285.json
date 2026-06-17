@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_285",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem": "The endpoints of a diameter of circle $M$ are $(-1,-4)$ and $(-7,6)$. What are the coordinates of the center of circle $M$? Express your answer as an ordered pair.",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of a diameter of a circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the midpoint of a line segment?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you find the midpoint of the line segment with endpoints $(-1,-4)$ and $(-7,6)$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How does finding the midpoint of the diameter help us find the center of the circle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between the center of a circle and its diameter?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Using the coordinates of the center and one of the endpoints of the diameter, can you find the radius of the circle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Is there any other information we need to find the equation of the circle? If so, what is it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we check that the coordinates of the center we found are correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

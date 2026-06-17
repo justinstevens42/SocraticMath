@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_32",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 2",
+  "problem": "A palindrome is a number that reads the same forwards and backwards, such as 3003. How many positive four-digit integers are palindromes?",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "e",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you define what a palindrome is in relation to four-digit integers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How would you approach constructing a palindrome using the thousands and hundreds digits?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many options do you have for choosing the thousands digit? And how many options do you have for choosing the hundreds digit?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why do you multiply the number of choices for the thousands digit by the number of choices for the hundreds digit?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why the total number of four-digit palindromes is equal to the product of the number of choices for the thousands digit and the number of choices for the hundreds digit?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other situations where this kind of counting technique might be useful?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Is there a general formula or rule that can be applied to calculate the number of palindromes for any given number of digits?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Is it possible to have palindromes with a different number of digits? If so, how would the counting method change?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How would the scenario differ if negative integers were also considered?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

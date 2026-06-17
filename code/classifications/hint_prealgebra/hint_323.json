@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_323",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem": "Simplify $(2-3z) - (3+4z)$.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "b",
+    "b",
+    "f"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step in simplifying the expression $(2-3z) - (3+4z)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain why we distribute the negative sign in this expression?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How did you combine the like terms in the expression after distributing?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the simplified form of $(2-3z) - (3+4z)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of any other expressions where we might use a similar process to simplify them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "If there were additional terms in the expression, would the simplification process remain the same?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    }
+  ]
+}

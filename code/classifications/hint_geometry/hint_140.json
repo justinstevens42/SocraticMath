@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_140",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "Two identical rectangular crates are packed with cylindrical pipes, using different methods. Each pipe has diameter $10\\text{ cm}.$ A side view of the first four rows of each of the two different methods of packing is shown below.\n\n[asy]\ndraw(circle((1,1),1),black+linewidth(1));\ndraw(circle((3,1),1),black+linewidth(1));\ndraw(circle((5,1),1),black+linewidth(1));\ndraw(circle((7,1),1),black+linewidth(1));\ndraw(circle((9,1),1),black+linewidth(1));\ndraw(circle((11,1),1),black+linewidth(1));\ndraw(circle((13,1),1),black+linewidth(1));\ndraw(circle((15,1),1),black+linewidth(1));\ndraw(circle((17,1),1),black+linewidth(1));\ndraw(circle((19,1),1),black+linewidth(1));\ndraw(circle((1,3),1),black+linewidth(1));\ndraw(circle((3,3),1),black+linewidth(1));\ndraw(circle((5,3),1),black+linewidth(1));\ndraw(circle((7,3),1),black+linewidth(1));\ndraw(circle((9,3),1),black+linewidth(1));\ndraw(circle((11,3),1),black+linewidth(1));\ndraw(circle((13,3),1),black+linewidth(1));\ndraw(circle((15,3),1),black+linewidth(1));\ndraw(circle((17,3),1),black+linewidth(1));\ndraw(circle((19,3),1),black+linewidth(1));\ndraw(circle((1,5),1),black+linewidth(1));\ndraw(circle((3,5),1),black+linewidth(1));\ndraw(circle((5,5),1),black+linewidth(1));\ndraw(circle((7,5),1),black+linewidth(1));\ndraw(circle((9,5),1),black+linewidth(1));\ndraw(circle((11,5),1),black+linewidth(1));\ndraw(circle((13,5),1),black+linewidth(1));\ndraw(circle((15,5),1),black+linewidth(1));\ndraw(circle((17,5),1),black+linewidth(1));\ndraw(circle((19,5),1),black+linewidth(1));\ndraw(circle((1,7),1),black+linewidth(1));\ndraw(circle((3,7),1),black+linewidth(1));\ndraw(circle((5,7),1),black+linewidth(1));\ndraw(circle((7,7),1),black+linewidth(1));\ndraw(circle((9,7),1),black+linewidth(1));\ndraw(circle((11,7),1),black+linewidth(1));\ndraw(circle((13,7),1),black+linewidth(1));\ndraw(circle((15,7),1),black+linewidth(1));\ndraw(circle((17,7),1),black+linewidth(1));\ndraw(circle((19,7),1),black+linewidth(1));\ndraw((0,15)--(0,0)--(20,0)--(20,15),black+linewidth(1));\ndot((10,9));\ndot((10,11));\ndot((10,13));\nlabel(\"Crate A\",(10,0),S);\n[/asy]\n\n[asy]\ndraw(circle((1,1),1),black+linewidth(1));\ndraw(circle((3,1),1),black+linewidth(1));\ndraw(circle((5,1),1),black+linewidth(1));\ndraw(circle((7,1),1),black+linewidth(1));\ndraw(circle((9,1),1),black+linewidth(1));\ndraw(circle((11,1),1),black+linewidth(1));\ndraw(circle((13,1),1),black+linewidth(1));\ndraw(circle((15,1),1),black+linewidth(1));\ndraw(circle((17,1),1),black+linewidth(1));\ndraw(circle((19,1),1),black+linewidth(1));\ndraw(circle((2,2.75),1),black+linewidth(1));\ndraw(circle((4,2.75),1),black+linewidth(1));\ndraw(circle((6,2.75),1),black+linewidth(1));\ndraw(circle((8,2.75),1),black+linewidth(1));\ndraw(circle((10,2.75),1),black+linewidth(1));\ndraw(circle((12,2.75),1),black+linewidth(1));\ndraw(circle((14,2.75),1),black+linewidth(1));\ndraw(circle((16,2.75),1),black+linewidth(1));\ndraw(circle((18,2.75),1),black+linewidth(1));\ndraw(circle((1,4.5),1),black+linewidth(1));\ndraw(circle((3,4.5),1),black+linewidth(1));\ndraw(circle((5,4.5),1),black+linewidth(1));\ndraw(circle((7,4.5),1),black+linewidth(1));\ndraw(circle((9,4.5),1),black+linewidth(1));\ndraw(circle((11,4.5),1),black+linewidth(1));\ndraw(circle((13,4.5),1),black+linewidth(1));\ndraw(circle((15,4.5),1),black+linewidth(1));\ndraw(circle((17,4.5),1),black+linewidth(1));\ndraw(circle((19,4.5),1),black+linewidth(1));\ndraw(circle((2,6.25),1),black+linewidth(1));\ndraw(circle((4,6.25),1),black+linewidth(1));\ndraw(circle((6,6.25),1),black+linewidth(1));\ndraw(circle((8,6.25),1),black+linewidth(1));\ndraw(circle((10,6.25),1),black+linewidth(1));\ndraw(circle((12,6.25),1),black+linewidth(1));\ndraw(circle((14,6.25),1),black+linewidth(1));\ndraw(circle((16,6.25),1),black+linewidth(1));\ndraw(circle((18,6.25),1),black+linewidth(1));\ndraw((0,15)--(0,0)--(20,0)--(20,15),black+linewidth(1));\ndot((10,9));\ndot((10,11));\ndot((10,13));\nlabel(\"Crate B\",(10,0),S);\n[/asy]\n\nThree pipes from Crate $B$ are shown.  Determine the height, $h,$ of this pile of $3$ pipes.\n\n[asy]\ndraw(circle((10,10),10),black+linewidth(1));\ndraw(circle((30,10),10),black+linewidth(1));\ndraw(circle((20,27.5),10),black+linewidth(1));\ndraw((50,0)--(50,37.5),black+linewidth(1));\ndraw((49,0)--(51,0),black+linewidth(1));\ndraw((49,37.5)--(51,37.5),black+linewidth(1));\nlabel(\"$h$\",(50,0)--(50,37.5),E);\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How are the two crates packed differently?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the shape of the individual pipes that are being packed?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How are the heights of the two piles of pipes different?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the height of the pile in Crate B?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you describe any patterns or relationships between the circles in the packing and the sides of the equilateral triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What properties of the equilateral triangle can we use to find the height of the pile?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can we find the length of the line segment from the bottom of the pile to the base of the triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we find the length of the equilateral triangle's base?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you calculate the height of the equilateral triangle using the length of its base?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you add up all the different lengths to find the height of the pile in Crate B?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_315",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem": "Find the $y$-intercept point of the line $3x+5y=20$.  Provide your answer as an ordered pair.",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you define what the y-intercept represents in the context of a linear equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What do you understand by the term \"y-intercept point\"?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How would you determine the y-intercept of a given equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What steps would you take to find the y-intercept point of the equation 3x+5y=20?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Could you explain the reasoning behind the steps you mentioned in the previous question?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "If you substitute the x-value with zero in the equation, what would be the value of y? How does this relate to the y-intercept point?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Could you write down the equation in slope-intercept form, and explain how it relates to the y-intercept?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How does recognizing the slope and y-intercept help in determining the location of the y-intercept point?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you provide the ordered pair that represents the y-intercept of the line 3x+5y=20?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

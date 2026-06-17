@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_884",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem": "In right triangle $ABC$ with $\\angle A = 90^\\circ$, we have $AB =16$ and $BC = 24$.  Find $\\sin A$.",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you define a right triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between the angles in a right triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the definition of $\\sin A$ in a right triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the value of $\\sin A$ in this specific right triangle given the side lengths?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why $\\sin A = \\sin 90^\\circ = 1$ in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other ways to find the value of $\\sin A$ in a right triangle? If so, how would you approach it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

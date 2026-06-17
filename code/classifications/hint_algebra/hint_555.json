@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_555",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "Given that the point $(4,7)$ is on the graph of $y=f(x)$, there is one point that must be on the graph of $2y=3f(4x)+5$. What is the sum of the coordinates of that point?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain how the given point being on the graph of $y=f(x)$ relates to the graph of $2y=3f(4x)+5$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for a point to be on the graph of a function? How does this information help us in finding the point on the graph of $2y=3f(4x)+5$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What does substituting $(4,7)$ into $y=f(x)$ tell us about the value of $f(4)$? How does this relate to the equation $2y=3f(4x)+5$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What steps would you take to find the value of $f(4)$ and then determine the coordinates of the point on the graph of $2y=3f(4x)+5$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you determine the value of $f(4)$ by using the given point and any other information given in the problem? How would you do this?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Once you have the value of $f(4)$, how can you use it to find the coordinates of the point on the graph of $2y=3f(4x)+5$? What mathematical operations would you use?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Now that you have the coordinates of the point on the graph of $2y=3f(4x)+5$, what is the sum of these coordinates?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

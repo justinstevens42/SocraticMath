@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_161",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem": "Ryan has 3 red lava lamps and 3 blue lava lamps. He arranges them in a row on a shelf randomly, and then randomly turns 3 of them on. What is the probability that the leftmost lamp is blue and off, and the rightmost lamp is red and on?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total number of lava lamps that Ryan has?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many ways can Ryan arrange the six lava lamps on the shelf?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the total number of ways that Ryan can turn on 3 lamps out of 6?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the probability that the leftmost lamp is blue and off?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the probability that the rightmost lamp is red and on?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the probability that both events in question 4 and 5 happen simultaneously?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How did we calculate the total number of ways to arrange and turn on the bulbs?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How did we calculate the number of ways that satisfy both conditions in question 4 and 5?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What other methods could we use to solve this problem?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "Can we generalize this problem to different numbers of lamps and different conditions?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

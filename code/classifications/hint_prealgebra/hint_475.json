@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_475",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem": "What is the value of $x$ if \\begin{align*}x &= y+5,\\\\\ny &= z+10,\\\\\nz &= w+20,\\\\\n\\text{and }\\qquad w &= 80?\n\\end{align*}",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the value of $w$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you find the value of $z$ using the given equations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the value of $y$ using the information provided?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What does the equation $x = y + 5$ represent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine the value of $x$ in terms of $w$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there a specific order in which we should solve the equations? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Is there a way to check if our solution for $x$ is correct? If so, how?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other scenario where a similar problem-solving approach can be utilized?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

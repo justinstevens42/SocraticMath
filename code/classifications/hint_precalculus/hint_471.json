@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_471",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem": "Let $x,$ $y,$ and $z$ be angles such that\n\\begin{align*}\n\\cos x &= \\tan y, \\\\\n\\cos y &= \\tan z, \\\\\n\\cos z &= \\tan x.\n\\end{align*}Find the largest possible value of $\\sin x.$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given relationship between the angles x, y, and z?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "According to the given information, what can we say about the values of cos x, cos y, and cos z in terms of tan y, tan z, and tan x respectively?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "By substituting the given expressions for cos x, cos y, and cos z into the trigonometric identity $\\sin^2 \\theta + \\cos^2 \\theta = 1$, can we derive any additional trigonometric relationships?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "From the derived relationship(s), can we solve for any of the unknowns (x, y, or z)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Is there a way to eliminate the unknowns and express the derived relationship(s) in terms of only one variable?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we find the largest possible value of sin x based on the derived relationship(s) and any constraints that may exist?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

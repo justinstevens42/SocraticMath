@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_88",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem": "A jar contains quarters (worth $\\$0.25$ each), nickels (worth $\\$0.05$ each) and pennies (worth $\\$0.01$ each). The value of the quarters is $\\$10.00.$ The value of the nickels is $\\$10.00.$ The value of the pennies is $\\$10.00.$ If Judith randomly chooses one coin from the jar, what is the probability that it is a quarter?",
+  "n_questions": 9,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total value of the quarters in the jar?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How many quarters are there in the jar?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the total value of the nickels in the jar?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many nickels are there in the jar?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the total value of the pennies in the jar?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many pennies are there in the jar?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the total number of coins in the jar?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How many quarters are there compared to the total number of coins?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the probability of choosing a quarter from the jar?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

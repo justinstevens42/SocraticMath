@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_71",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "Let $x$ and $y$ be real numbers, $y > x > 0,$ such that\n\\[\\frac{x}{y} + \\frac{y}{x} = 6.\\]Find the value of \\[\\frac{x + y}{x - y}.\\]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "e",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what the given equation represents and what we're trying to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for two real numbers to have their sum being equal to 6 times their product?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you think of any possible approaches to solve this equation?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 4,
+      "question": "If we let $a = \\frac{x + y}{x - y}$, what does $a$ represent geometrically or algebraically?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we express $a^2$ in terms of $x$ and $y$ using the given equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What does finding the value of $a$ tell us about the relationship between $x$ and $y$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Is there a specific range for $a$ based on the given conditions ($y > x > 0$)? If so, what is it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Is there a connection between the value of $a$ and the shape of the curve given by the equation $\\frac{x}{y} + \\frac{y}{x} = 6$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we use $a$ to find the value of $\\frac{x + y}{x - y}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Are there any other similar problems or situations where we might encounter a similar approach or line of thinking?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

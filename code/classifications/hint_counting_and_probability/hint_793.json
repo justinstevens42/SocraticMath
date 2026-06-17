@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_793",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem": "Dr. Math's four-digit house number $ABCD$ contains no zeroes and can be split into two different two-digit primes ``$AB$'' and ``$CD$'' where the digits $A$, $B$, $C$ and $D$ are not necessarily distinct. If each of the two-digit primes is less than 40, how many such house numbers are possible?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the restrictions on Dr. Math's house number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for the two-digit primes to be \"different\"?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How many two-digit primes are there less than 40?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many options are there for the first two-digit prime, AB?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "If AB is fixed, how many options are there for the second two-digit prime, CD?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we use multiplication to find the total number of possible house numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any additional restrictions that we need to consider?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How could we check our answer to make sure it is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

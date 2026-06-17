@@ -1,0 +1,96 @@
+{
+  "problem_id": "hint_611",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "The base of a triangular piece of paper $ABC$ is $12\\text{ cm}$ long. The paper is folded down over the base, with the crease $DE$ parallel to the base of the paper. The area of the triangle that projects below the base is $16\\%$ that of the area of the triangle $ABC.$ What is the length of $DE,$ in cm?\n\n[asy]\ndraw((0,0)--(12,0)--(9.36,3.3)--(1.32,3.3)--cycle,black+linewidth(1));\ndraw((1.32,3.3)--(4,-3.4)--(9.36,3.3),black+linewidth(1));\ndraw((1.32,3.3)--(4,10)--(9.36,3.3),black+linewidth(1)+dashed);\ndraw((0,-5)--(4,-5),black+linewidth(1));\ndraw((8,-5)--(12,-5),black+linewidth(1));\ndraw((0,-4.75)--(0,-5.25),black+linewidth(1));\ndraw((12,-4.75)--(12,-5.25),black+linewidth(1));\nlabel(\"12 cm\",(6,-5));\nlabel(\"$A$\",(0,0),SW);\nlabel(\"$D$\",(1.32,3.3),NW);\nlabel(\"$C$\",(4,10),N);\nlabel(\"$E$\",(9.36,3.3),NE);\nlabel(\"$B$\",(12,0),SE);\n[/asy]",
+  "n_questions": 12,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "e",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the process of folding the triangular piece of paper along the crease line DE?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between the area of triangle XYZ and the area of triangle ABC?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the similarity of triangle XYZ to triangle ACB?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the significance of the angle XYZ in terms of the folding process and the similarity of the triangles?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "How can we define the length of the sides of triangle XYZ in relation to the length of the sides of triangle ACB?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we find the length of CP in terms of the length of ZP and PQ?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How does the length of ZP relate to the length of CP, considering the similarity of the triangles?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "What is the length of PQ in terms of the length of CP?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Using the lengths determined in the previous questions, how can we find the length of CQ?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How does the length of CQ relate to the length of CP and PQ?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 11,
+      "question": "Based on the similarity of the triangles and the lengths determined, what is the length of DE in terms of the length of AB?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "What is the final length of DE?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

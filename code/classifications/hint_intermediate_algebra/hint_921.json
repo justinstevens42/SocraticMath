@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_921",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "Find the shortest distance between the point $(6,12)$ and the parabola given by the equation $x = \\frac{y^2}{2}.$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the equation of the tangent to the parabola at $P$? What form does it take?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the shortest distance between the point $(6,12)$ and the parabola?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How does the geometric relationship between the line connecting $P$ and $(6,12)$ inform us about the slope of the tangent at $P$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the slope of the tangent at $P$ to solve for $a$, the $y$-coordinate of $P$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What method can we use to find the values of $a$ that give us the shortest distance between $(6,12)$ and the parabola?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why one of the factors of the cubic equation we found doesn't give us a valid solution for $a$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

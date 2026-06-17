@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_241",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "A regular hexagon is inscribed in a circle and another regular hexagon is circumscribed about the same circle. What is the ratio of the area of the larger hexagon to the area of the smaller hexagon? Express your answer as a common fraction.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How is the triangle formed in the diagram related to the regular hexagon and the circle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the angles of the triangle formed in the diagram? How do we know it is a 30-60-90 right triangle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What are the lengths of the sides of the triangle in terms of the radius of the circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How are the dimensions of the larger hexagon related to the dimensions of the smaller hexagon?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine the ratio of the areas of the larger hexagon to the smaller hexagon using the dimensions of the triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Based on the given information, what is the ratio of the area of the larger hexagon to the area of the smaller hexagon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

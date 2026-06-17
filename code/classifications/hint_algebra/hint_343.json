@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_343",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem": "Find the perimeter of a triangle with points $A(1,2)$, $B(1,8)$, and $C(5,5)$ on a Cartesian coordinate plane.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in finding the perimeter of a triangle with these given points?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Are you familiar with the formula for calculating the distance between two points? If so, how can you apply it to find the lengths of the sides of the triangle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What are the coordinates of point A? How can you calculate the distance between points A and B?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What are the coordinates of point B? How can you calculate the distance between points B and C?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What are the coordinates of point C? How can you calculate the distance between points C and A?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can you add the lengths of the three sides of the triangle to find the perimeter?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other situations where finding the perimeter of a figure might require similar steps and calculations?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

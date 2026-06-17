@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_681",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem": "What is the diameter in centimeters of a circle whose area is $100\\pi \\text{cm}^2$?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How do we find the diameter of a circle given its area?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the formula for calculating the area of a circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the formula to solve for the radius of the circle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Once we have the radius, how can we calculate the diameter?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there other ways to find the diameter of a circle given its area?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any practical applications where knowing how to find the diameter of a circle would be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

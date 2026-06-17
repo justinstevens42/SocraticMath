@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_28",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem": "The numbers 60, 221, and 229 are the legs and hypotenuse of a right triangle.  Find the multiplicative inverse to 450 modulo 3599.  (Express your answer as an integer $n$ with $0\\leq n<3599$.)",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the problem and the given information in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How did you notice that the numbers 60, 221, and 229 are related to a right triangle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How does the Pythagorean Theorem come into play in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain the process of using the difference of squares factorization?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why do we take the modulo of 3599 in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How did you determine that the multiplicative inverse of 450 modulo 3599 is 8?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other applications or contexts where the concept of multiplicative inverses modulo a number is useful?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other number theory problems that require a similar understanding of modulo and multiplicative inverses?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

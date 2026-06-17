@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_191",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem": "What is the tenth term in the geometric sequence $9,3,1,\\frac 13, \\ldots$?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what a geometric sequence is?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the common ratio between consecutive terms in this sequence?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How would you determine the value of the tenth term in the sequence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Are there any patterns or formulas that can help us find the value of any term in a geometric sequence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you compute the value of the tenth term using the common ratio and the first term? If so, what is it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there a way to check if your answer is correct? How would you verify that the value you obtained for the tenth term is accurate?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you generalize this process to find the nth term in any geometric sequence? How would you determine its value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any other methods or techniques that could be used to find the tenth term in a geometric sequence?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Are there any special properties or characteristics of geometric sequences that could be helpful in solving this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any real-life situations or applications where knowledge of geometric sequences might be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

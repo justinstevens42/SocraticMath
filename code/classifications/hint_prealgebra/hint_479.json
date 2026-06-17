@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_479",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem": "Triangle $ABC$ has sides of $6$ units, $8$ units, and $10$ units. The width of a rectangle, whose area is equal to the area of the triangle, is $4$ units. What is the perimeter of this rectangle, in units?",
+  "n_questions": 9,
+  "labels": [
+    "b",
+    "f",
+    "r",
+    "r",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we determine if triangle ABC is a right triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Are the sides of triangle ABC in any recognizable pattern?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the formula for finding the area of a right triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the formula to find the area of triangle ABC?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "If the area of the rectangle is 24 square units, what is the formula for finding the area of a rectangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we find the length of the rectangle if we know its area and width?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the formula for finding the perimeter of a rectangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "How can we calculate the perimeter of the rectangle using the length and width?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the final perimeter of the rectangle, based on our calculations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

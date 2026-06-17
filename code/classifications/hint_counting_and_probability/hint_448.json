@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_448",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem": "Compute \\[\\frac{(N-1)!(N)}{(N+1)!}.\\]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the expression \\[\\frac{(N-1)!(N)}{(N+1)!}\\] represents in terms of counting and probability?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How does the factorial function relate to counting? Can you give an example?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean to cancel out a factorial term in the numerator and denominator? How does it affect the expression?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Why are we able to rewrite $(N+1)!$ as $(N!)(N+1)$? Is there a general rule for this kind of rewriting?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How does canceling out the $N!$ terms simplify the expression? Can you explain why we are left with $\\frac{1}{N+1}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any insights you can gather from the simplified expression $\\frac{1}{N+1}$? Can you think of any connections to probability or counting in this context?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

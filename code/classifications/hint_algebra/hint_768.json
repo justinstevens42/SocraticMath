@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_768",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem": "If Alex gives Bob a penny, Bob will have three times as many pennies as Alex has. If Bob gives Alex a penny, Bob will have twice as many pennies as Alex has. How many pennies does Bob currently have?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you summarize the given information in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between the number of pennies Alex has and the number of pennies Bob has after a transaction?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If we let x represent the number of pennies Alex has, can you write an equation to represent the given situation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the relationship between the number of pennies Bob has and the number of pennies Alex has after a different transaction?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you write a second equation to represent the second scenario?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we solve this system of equations to find the value of x (the number of pennies Alex has)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "If we find the value of x, how can we calculate the number of pennies Bob currently has?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other scenarios involving transactions like this that may require similar thinking and steps to solve?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

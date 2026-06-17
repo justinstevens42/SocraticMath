@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_116",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem": "What is the product of all the positive integer divisors of 12?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you list out all the divisors of 12?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can you pair up the divisors of 12 such that their product is equal to 12?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the total number of divisors of 12, and how did you arrive at this number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why the product of all the divisors of 12 is equal to $12^{(n/2)}$, where n is the total number of divisors of 12?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you apply this same reasoning to find the product of all the positive integer divisors of any other number?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "What other interesting properties do divisors of numbers have?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

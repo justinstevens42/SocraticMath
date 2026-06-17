@@ -1,0 +1,47 @@
+{
+  "problem_id": "hint_825",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem": "Let $z_1,$ $z_2,$ $\\dots,$ $z_{20}$ be the twenty (complex) roots of the equation\n\\[z^{20} - 4z^{19} + 9z^{18} - 16z^{17} + \\dots + 441 = 0.\\]Calculate $\\cot \\left( \\sum_{k = 1}^{20} \\operatorname{arccot} z_k \\right).$  Note that the addition formula for cotangent is still valid when working with complex numbers.",
+  "n_questions": 5,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the addition formula for tangent? How is it related to the cotangent function?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the formula for $\\cot(a+b+c)$? How can we use it to derive a formula for $\\cot(a_1+a_2+ \\dots +a_n)$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we express the sum $s_k$ of the products of $\\cot(a_i)$, taken $k$ at a time?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we apply Vieta's formulas to the expression for $\\cot(a_1+a_2+ \\dots +a_{20})$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the final value of $\\cot(a_1+a_2+ \\dots +a_{20})$? How was it obtained?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

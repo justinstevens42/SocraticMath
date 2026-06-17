@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_872",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 1",
+  "problem": "$B$ and $C$ trisect $\\overline{AD}$ and $M$ is the midpoint of $\\overline{AD}$. $MC = 8$. How many units are in the length of $\\overline{AD}$?",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does it mean for $B$ and $C$ to trisect $\\overline{AD}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "If $M$ is the midpoint of $\\overline{AD}$ and $MC = 8$, what can we conclude about the lengths of $\\overline{BM}$ and $\\overline{CM}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the relationship between $\\overline{BM}$ and $\\overline{DC}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we relate the lengths of $\\overline{BM}$, $\\overline{DC}$, and $\\overline{AD}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Given that $\\overline{BC}$ is 16 units long, can we determine the lengths of $\\overline{BM}$, $\\overline{DC}$, and $\\overline{AD}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How does the fact that $B$ and $C$ trisect $\\overline{AD}$ help us find the length of $\\overline{AD}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other geometric principles or concepts we can apply to solve this problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

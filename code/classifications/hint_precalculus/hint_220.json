@@ -1,0 +1,47 @@
+{
+  "problem_id": "hint_220",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem": "If $\\sec x + \\tan x = \\frac{5}{2},$ then find $\\sec x - \\tan x.$",
+  "n_questions": 5,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given equation and what are we asked to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "In what form should we express the value of $\\sec x - \\tan x$ in order to use the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the identity $(\\sec x + \\tan x)(\\sec x - \\tan x) = 1$ to solve the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the value of $\\sec x + \\tan x$ given in the problem, and how can we use it to find the value of $\\sec x - \\tan x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can we use any other trigonometric identities or concepts to check our answer or further understand the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

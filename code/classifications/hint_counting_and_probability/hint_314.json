@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_314",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem": "Allen and Bethany each arrive at a party at a random time between 1:00 and 2:00.  Each stays for 15 minutes, then leaves.  What is the probability that Allen and Bethany see each other at the party?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "b",
+    "e",
+    "f",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe how we can think of the problem geometrically using the axes and the shaded region?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does the shaded region represent in terms of the times Allen and Bethany arrive at the party?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we calculate the probability of Allen and Bethany seeing each other at the party using the areas of the shaded and unshaded regions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why do we subtract the areas of the two unshaded triangles from the area of the entire square?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How did we determine the dimensions of the triangles and the square in terms of time units?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other scenarios or examples where we can use similar geometric reasoning to calculate probabilities?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "What assumptions are we making about the arrival times of Allen and Bethany in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "Is this the only method to calculate the probability? Can you think of any alternative approaches?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

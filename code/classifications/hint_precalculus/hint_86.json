@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_86",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem": "Find the matrix $\\mathbf{M}$ such that\n\\[\\mathbf{M} \\mathbf{v} = -5 \\mathbf{v}\\]for all vectors $\\mathbf{v}.$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in finding the matrix $\\mathbf{M}$ that satisfies $\\mathbf{M} \\mathbf{v} = -5 \\mathbf{v}$ for all vectors $\\mathbf{v}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for a matrix to act on a vector? How does this relate to the equation $\\mathbf{M} \\mathbf{v} = -5 \\mathbf{v}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain why we choose $\\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix}$ and $\\begin{pmatrix} 0 \\\\ 1 \\end{pmatrix}$ as the vectors to analyze? How are these vectors related to the columns of matrix $\\mathbf{M}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Based on the given information, what can we conclude about the first column of matrix $\\mathbf{M}$? And what about the second column of matrix $\\mathbf{M}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do you determine the entries of the first column and the second column of matrix $\\mathbf{M}$ using the given equation and the vectors $\\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix}$ and $\\begin{pmatrix} 0 \\\\ 1 \\end{pmatrix}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other properties or characteristics that this matrix $\\mathbf{M}$ should have in order to satisfy $\\mathbf{M} \\mathbf{v} = -5 \\mathbf{v}$ for all vectors $\\mathbf{v}$?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

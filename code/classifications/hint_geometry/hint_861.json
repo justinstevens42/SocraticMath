@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_861",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "Medians are drawn from point $A$ and point $B$ in this right triangle to divide segments $\\overline{BC}$ and $\\overline{AC}$ in half, respectively. The lengths of the medians are 6 and $2\\sqrt{11}$ units, respectively. How many units are in the length of segment $\\overline{AB}$?\n\n[asy]\ndraw((0,0)--(7,0)--(0,4)--(0,0)--cycle,linewidth(2));\ndraw((0,1/2)--(1/2,1/2)--(1/2,0),linewidth(1));\n\nlabel(\"$A$\",(0,4),NW);\nlabel(\"$B$\",(7,0),E);\nlabel(\"$C$\",(0,0),SW);\n[/asy]",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "b",
+    "r",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a median in a triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How many medians does a triangle have and where do they intersect?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How does drawing medians affect the sides of a triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use medians to find the length of segment AB in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "What information do we know about the medians in this triangle? How can we use it to form equations?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "How do we solve the system of equations obtained by using the lengths of the medians?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can this method of using medians to solve for a side length be applied to other types of triangles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we verify that our answer for the length of segment AB is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

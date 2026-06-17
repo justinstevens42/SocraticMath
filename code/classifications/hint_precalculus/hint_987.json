@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_987",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem": "Find the number of real solutions of the equation\n\\[\\frac{x}{100} = \\sin x.\\]",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the interval in which all solutions of the equation $\\frac{x}{100} = \\sin x$ lie?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How does the graph of $y = \\sin x$ relate to the line $y = \\frac{x}{100}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "At what value of $x$ is the last crest of the sine function that intersects the line $y = \\frac{x}{100}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why do we only consider the values of $x$ up to $100$ in this equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many times do the graphs of $y = \\frac{x}{100}$ and $y = \\sin x$ intersect on the interval $[0, 2 \\pi]$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any solutions to the equation $\\frac{x}{100} = \\sin x$ outside the interval $[-100, 100]$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we find the total number of solutions to the equation $\\frac{x}{100} = \\sin x$ in the interval $[-100, 100]$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

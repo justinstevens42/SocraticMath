@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_712",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "What is the $y$-coordinate of the point on the $y$-axis that is equidistant from points $A( -2, 0)$ and $B(-1,4)$?",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does it mean for a point to be equidistant from two other points?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the distance between two points on a coordinate plane?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you find the equation of the line containing the two given points, $A$ and $B$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the $y$-coordinate of a point on the $y$-axis?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the formula for the distance between a point and a line?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use this formula to find the $y$-coordinate of the point we're looking for?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other scenarios where finding the distance between points is useful in solving a problem?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "How would the method of finding the equidistant point change if the given points were in a different quadrant or on different axes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_385",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem": "What is the volume in cubic inches of a right, rectangular prism with side, front and bottom faces having an area 15 square inches, 10 square inches and 6 square inches, respectively?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the given dimensions of the right rectangular prism?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How do we find the volume of a right rectangular prism?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How do the given area measurements of the adjacent faces relate to the dimensions of the prism?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use these area measurements to find the dimensions of the prism?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the dimensions of the prism to find the volume?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other methods we can use to find the volume of the prism?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "How would changing the dimensions of the faces affect the volume of the prism?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can we generalize our method for finding the volume of a right rectangular prism to other types of prisms?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

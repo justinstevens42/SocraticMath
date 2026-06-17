@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_258",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem": "Convert $e^{11 \\pi i/2}$ to rectangular form.",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of the complex number in polar form, $e^{11 \\pi i/2}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can you convert a complex number from polar form to rectangular form?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the formula for converting a complex number from polar form to rectangular form?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can you express $\\cos\\left(\\frac{11\\pi}{2}\\right)$ and $\\sin\\left(\\frac{11\\pi}{2}\\right)$ in terms of normal trigonometric values?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "By substituting these values into the formula, what is the rectangular form of $e^{11\\pi i/2}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other complex numbers in polar form that can be converted to rectangular form using similar steps?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

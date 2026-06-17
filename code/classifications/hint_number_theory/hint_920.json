@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_920",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem": "Express $213_{8}-142_{7}$ as a base 10 integer.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the first step in converting $213_8$ to base 10? Can you explain the process in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the different methods you know of for converting numbers from one base to another? Are there any specific methods you would consider using for these numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you choose to convert using the method of expanding each digit, what values should you multiply each digit by to get the base 10 equivalent? How can you determine these values?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why we can convert numbers to base 10 by considering the place values and multiplying each digit by the corresponding power of the base? What makes this method effective?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the base 10 equivalent of $213_8$ and $142_7$ using the method you have chosen? How can you verify this by summing the corresponding place value products?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other numbers in different bases that might require a similar thought process and steps to convert them to base 10?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

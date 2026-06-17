@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_338",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "Let $f(x)=|2\\{x\\}-1|$ where $\\{x\\}$ denotes the fractional part of $x$. The number $n$ is the smallest positive integer such that the equation \\[nf(xf(x))=x\\]has at least $2012$ real solutions. What is $n$?\n\nNote: the fractional part of $x$ is a real number $y=\\{x\\}$ such that $0\\le y<1$ and $x-y$ is an integer.",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of the fractional part of a number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you identify the range of the function $f(x)$ based on the graph provided?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Suppose we have $nf(xf(x)) = x$. What can we say about the possible values of $x$ and $nf(xf(x))$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Let $a$ be an integer such that $0 \\leq a < n$. What is the relationship between $f(x)$ and $f(y)$ if $a \\leq x < y < a + \\frac{1}{2}$? What is the relationship between $f(x)$ and $f(y)$ if $a + \\frac{1}{2} \\leq x < y < a$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Based on the relationships found in question 4, what can you say about the values taken by the function $f(g(x))$ for $g(x) = xf(x)$ on the interval $[a, a+\\frac{1}{2})$ and $(a+\\frac{1}{2}, a]$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many times does the line $y = \\frac{x}{n}$ intersect the graph of $f(g(x))$ on each of the intervals $[a, a+\\frac{1}{2})$ and $(a+\\frac{1}{2}, a]$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the total number of intersections of the line $y = \\frac{x}{n}$ with the graph of $f(g(x))$ for $x \\in [0, n]$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we use the total number of intersections to determine the value of $n$? What is the smallest positive integer $n$ that satisfies the condition that the number of intersections is at least $2012$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

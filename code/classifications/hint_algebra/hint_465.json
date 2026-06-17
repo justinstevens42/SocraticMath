@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_465",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem": "Kyle knows that $4 = 2^{5r+1}$. What is the value of $r$? Express your answer as a common fraction.",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you approach this problem and what is the first step you would take?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What do you know about exponential notation and how can it be used to solve this equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you identify any patterns or properties of exponents that could help simplify the equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean for two expressions with exponents to be equal? How does that knowledge apply to this equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can you rewrite the equation in a way that isolates $r$ on one side?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What steps can you take to solve for $r$ after isolating it? Are there any simplifications or algebraic manipulations you can perform?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can you use the concept of logarithms to solve this equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other strategies or approaches that could be used to solve similar equations involving exponents?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

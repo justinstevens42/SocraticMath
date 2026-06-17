@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_270",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem": "In triangle $VWX$ shown, $VX = \\sqrt{13}$ and $VW = 3$. What is $\\tan V$?\n\n[asy]\npair V,W,X;\nW = (0,0);\nV = (0,3);\nX = (2,0);\ndraw(V--W--X--V);\ndraw(rightanglemark(V,W,X,7));\nlabel(\"$W$\",W,SW);\nlabel(\"$V$\",V,NW);\nlabel(\"$X$\",X,SE);\nlabel(\"$3$\",(V+W)/2,NW);\nlabel(\"$\\sqrt{13}$\",(V+X)/2,NE);\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What type of triangle is triangle VWX?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between the tangent of angle V and the side opposite angle V?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the length of side WX?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What theorem can we use to find the length of side WX in terms of VX and VW?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the formula for the Pythagorean Theorem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we apply the Pythagorean Theorem to triangle VWX to find the length of side WX?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "What is the value of WX?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can we simplify the value of WX?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we find the tangent of angle V using the lengths of WX and VW?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the final value of tan V in triangle VWX?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

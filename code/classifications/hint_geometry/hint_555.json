@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_555",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem": "In the diagram below, we have $AB = 24$ and $\\angle ADB =90^\\circ$.  If $\\sin A = \\frac23$ and $\\sin C = \\frac13$, then what is $DC$?\n\n\n[asy]\npair A,B,C,D;\nA = (0,0);\nB = (8*sqrt(5),16);\nD = (8*sqrt(5),0);\nC = (8*sqrt(5) + 32*sqrt(2),0);\ndraw(D--B--A--C--B);\nlabel(\"$A$\",A,SW);\nlabel(\"$B$\",B,N);\nlabel(\"$C$\",C,SE);\nlabel(\"$D$\",D,S);\ndraw(rightanglemark(B,D,A,63));\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information in the diagram?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the given information to determine the length of BD?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What trigonometric ratio can we use to relate the length of BD to angle A?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the trigonometric ratio to find the length of BD?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the length of BD to find the length of BC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What trigonometric ratio can we use to relate the length of BC to angle C?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we use the trigonometric ratio to find the length of BC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What theorem can we use to find the length of CD?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "What calculations do we need to perform to find the length of CD?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the final result for the length of CD?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

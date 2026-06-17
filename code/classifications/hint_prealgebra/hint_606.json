@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_606",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem": "An equilateral triangle has sides of length 2 units. A second equilateral triangle is formed having sides that are $150\\%$ of the length of the sides of the first triangle. A third equilateral triangle is formed having sides that are $150\\%$ of the length of the sides of the second triangle. The process is continued until four equilateral triangles exist. What will be the percent increase in the perimeter from the first triangle to the fourth triangle? Express your answer to the nearest tenth.",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the process of forming the second equilateral triangle based on the information given?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain why the side length of each successive equilateral triangle is $150\\%$ of the previous triangle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How would you calculate the side length of the fourth equilateral triangle using the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean for the fourth triangle to have a side length that is $337.5\\%$ of the original side length?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How does the increase in side length affect the perimeter of the triangles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you calculate the percent increase in the perimeter from the first triangle to the fourth triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other approaches or methods you can think of to solve this problem?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any real-life situations where understanding percent increase in length or perimeter can be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

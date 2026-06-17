@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_777",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 1",
+  "problem": "Compute\n\\[\\begin{vmatrix} -5 & 3 \\\\ 4 & -4 \\end{vmatrix}.\\]",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what a determinant is and how it is calculated for a 2x2 matrix?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What are the entries of the given matrix, and how do they relate to the determinant calculation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Why do we multiply the diagonal elements and subtract the product of the off-diagonal elements in the determinant formula?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why adding or subtracting the products of the diagonal and off-diagonal elements in the determinant formula gives us the correct answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does the order of the entries in the determinant formula affect the final result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you generalize the determinant calculation for a 2x2 matrix to larger matrices? How does the process change?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Are there any special properties or patterns in the entries of the given matrix that could simplify the determinant calculation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any real-world applications or examples where computing the determinant is useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

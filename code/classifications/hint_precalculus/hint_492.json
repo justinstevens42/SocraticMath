@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_492",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem": "Given that $\\theta$ and $\\phi$ are acute angles such that $\\tan \\theta = \\frac{1}{7}$ and $\\sin \\phi = \\frac{1}{\\sqrt{10}},$ find $\\theta + 2 \\phi,$ measured in radians.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information in this problem, and what is the unknown that we are trying to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you derive an equation using the given information that would help us find the unknown?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can you use the trigonometric identities and definitions to simplify the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the value of $\\cos \\phi$ and how did you derive it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the value of $\\tan 2 \\phi$ and how did you calculate it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the final equation that relates $\\theta$ and $\\phi$, and how did you derive it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Why is $\\theta + 2\\phi$ the angle we are looking for, and how can we be sure that it is acute?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we use the final equation to find the value of $\\theta + 2\\phi$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you check that the value you obtained for $\\theta + 2\\phi$ satisfies the given conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of other problems that involve trigonometric identities and equations, and how can you use a similar approach to solve them?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

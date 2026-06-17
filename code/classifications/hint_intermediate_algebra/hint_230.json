@@ -1,0 +1,103 @@
+{
+  "problem_id": "hint_230",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "Consider the triangular array of numbers with 0, 1, 2, 3, $\\dots$ along the sides and interior numbers obtained by adding the two adjacent numbers in the previous row.  Rows 1 through 6 are shown.\n\n\\[\n\\begin{array}{ccccccccccc}\n& & & & & 0 & & & & & \\\\\n& & & & 1 & & 1 & & & & \\\\\n& & & 2 & & 2 & & 2 & & & \\\\\n& & 3 & & 4 & & 4 & & 3 & & \\\\\n& 4 & & 7 & & 8 & & 7 & & 4 & \\\\\n5 & & 11 & & 15 & & 15 & & 11 & & 5\n\\end{array}\n\\]Find the sum of the numbers in the 100th row.  Your answer should use exponential notation, in simplest form.",
+  "n_questions": 13,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "r",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the pattern used to generate the numbers in each row of the triangular array?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we represent the sum of the numbers in the nth row as a function?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What do we get if we make a copy of every number in the nth row and send each copy to the n+1th row?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How does this process affect the sum of the numbers in the n+1th row compared to the nth row?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we express the sum of the numbers in the n+1th row in terms of the sum of the numbers in the nth row?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use this relationship between the sums of consecutive rows to find the sum of the numbers in the 100th row?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "What is the formula for the sum of the numbers in the nth row in terms of n?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we prove this formula using mathematical induction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you generalize this formula for finding the sum of the numbers in any row of the triangular array?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 10,
+      "question": "How does the sum of the numbers in each row change as we move from row to row?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "Is there a relationship between the sum of the numbers in each row and the powers of 2?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 12,
+      "question": "How does the sum of the numbers in the 100th row relate to the powers of 2?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 13,
+      "question": "Can you explain why the sum of the numbers in the 100th row is equal to 2^100 - 2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

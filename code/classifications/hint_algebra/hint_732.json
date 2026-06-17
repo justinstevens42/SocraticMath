@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_732",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "Let $f(x) = 3x^2-2$ and $g(f(x)) = x^2 + x +1$.  Find the sum of all possible values of $g(25)$.",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given function $f(x)$? Can you describe it in simple terms?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "If we substitute $f(x)$ into $g(f(x))$, what does the resulting expression look like?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "In the expression $g(f(x))$, what is the purpose of function $g$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What will the function $g(f(x))$ become if we substitute $3x^2-2$ into it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you simplify the expression $x^2+x+1$ obtained after substituting $f(x)$ into $g$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the value of $g(25)$? How can we find it by substituting $x = 25$ into the simplified expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other values of $x$ that you could substitute into the simplified expression to find their corresponding $g(x)$ values?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What are the possible values of $g(25)$? Can we find the sum of these values?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

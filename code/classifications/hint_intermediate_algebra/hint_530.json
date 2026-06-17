@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_530",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem": "If $x^2 + 2x + 5$ is a factor of $x^4 + Px^2 + Q,$ find $P + Q.$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given factor of $x^4 + Px^2 + Q,$ and what is its expanded form?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we solve for the coefficients $b$ and $c$ by expanding the given factor and matching coefficients?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What equation do we get when we match the coefficients of $x^3$ in the expanded form and the given form of $x^4 + Px^2 + Q,$ and how does this help us solve for $b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What equation do we get when we match the coefficients of $x^2$ in both forms of $x^4 + Px^2 + Q,$ and how does this help us solve for $c$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Once we have found the values of $b$ and $c,$ how can we use them to solve for $P$ and $Q$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the final answer, and how does it relate to the original problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

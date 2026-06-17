@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_295",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem": "What is the remainder when $99^{36}$ is divided by 100?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "f",
+    "e",
+    "e",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the concept of modulo arithmetic and its relevance to this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How did you notice the relationship between 99 and 100-1? Can you explain why this observation is useful in finding the remainder?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Why does $99^{36} \\equiv (-1)^{36} \\equiv 1 \\pmod{100}$ hold true? What is the significance of raising $-1$ to an even power?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 4,
+      "question": "Are there any other numbers you could have used instead of 99 to find the remainder when divided by 100?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "Is there a general rule or formula that can be applied to find the remainder when any number is raised to a power and divided by another number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of a similar problem or situation where modulo arithmetic can be applied to find a remainder?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

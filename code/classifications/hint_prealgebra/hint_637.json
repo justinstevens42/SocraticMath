@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_637",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem": "Find $1-0.\\overline{9}.$",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "b",
+    "e",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the value of $0.\\overline{9}$ expressed as a fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How do we convert $0.\\overline{9}$ to fraction form using algebraic manipulation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the relationship between $0.\\overline{9}$ and $1$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do we determine the value of $1-0.\\overline{9}$ using the previous observations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of other examples where expressing repeating decimals as fractions can be useful in problem solving?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "How does this process relate to the concept of limits and convergence in calculus?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

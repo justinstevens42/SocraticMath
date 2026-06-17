@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_720",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem": "Winnie has 45 cherry lollipops, 116 wintergreen lollipops, 4 grape lollipops, and 229 shrimp cocktail lollipops.  With no regard to flavor, Winnie gives each of her 11 nearest and dearest friends some lollipops.  Each friend gets the same number of lollipops and she hands out as many lollipops as possible.  How many lollipops does Winnie end up keeping for herself?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "e",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total number of lollipops that Winnie has?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many friends does Winnie have?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine how many lollipops each friend gets?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the significance of dividing the total number of lollipops by 11?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "How can we calculate the remainder when 45, 116, 4, and 229 are divided by 11?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain the steps to compute the remainder for each individual number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How do we combine the individual remainders to find the remainder of the total number of lollipops?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the final answer to the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

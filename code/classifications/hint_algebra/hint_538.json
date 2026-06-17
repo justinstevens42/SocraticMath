@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_538",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem": "The nonzero roots of the equation $x^2 + 6x + k = 0$ are in the ratio $2:1$. What is the value of $k$?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the ratio of the roots based on the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "If the roots are in a 2:1 ratio, what can we say about the sum and product of the roots?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the sum and product of the roots to find the value of k?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What values would the roots of the equation take if the ratio is 2:1?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we express the sum and product of the roots in terms of k?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What condition must the sum and product of the roots satisfy in order for the ratio to be 2:1?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we use this condition to find the value of k?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any similar equations where the roots are in a specific ratio? How would you approach solving those equations?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "What other algebraic techniques could be used to solve this equation if the ratio of the roots were different?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

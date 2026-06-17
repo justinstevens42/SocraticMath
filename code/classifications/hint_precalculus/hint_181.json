@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_181",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem": "Find the maximum value of $\\cos x + 2 \\sin x,$ over all angles $x.$",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of a maximum value?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Is there a maximum value for any function? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you determine the maximum value of $\\sqrt{5} \\sin (x + \\theta)$ without graphing the function?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How does the angle addition formula help us simplify $\\cos x + 2\\sin x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does the maximum value of $\\sqrt{5} \\sin (x+\\theta)$ relate to the angles $\\theta,$ $\\frac{2}{\\sqrt{5}},$ and $\\frac{1}{\\sqrt{5}}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other trigonometric functions or identities that could be used to find the maximum value of $\\cos x + 2 \\sin x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

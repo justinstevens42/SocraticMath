@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_755",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem": "There is only one set of five prime numbers that form an arithmetic sequence with a common difference of 6.  What is the sum of those five prime numbers?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "e",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How do we know that there is only one set of five prime numbers that form an arithmetic sequence with a common difference of 6?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Why is it important to find prime numbers specifically? Are there any properties or characteristics of prime numbers that could help us in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the significance of the common difference being 6? Are there any patterns or relationships between prime numbers that could be relevant here?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the starting point of the arithmetic sequence? Are there any restrictions or considerations for the starting number in order for all five numbers to be prime?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we generate an arithmetic sequence that meets the given criteria? Can you come up with a systematic approach to finding the prime numbers in the sequence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we verify that the generated sequence indeed consists of five prime numbers? Is there a way to check the primality of each number efficiently?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the sum of the five prime numbers in the arithmetic sequence? Can you explain the reasoning behind computing the sum in this specific way?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

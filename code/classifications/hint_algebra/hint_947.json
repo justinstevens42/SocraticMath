@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_947",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "Suppose $f$ and $g$ are polynomials, and that $h(x)=f(g(x))+g(x)$.  Find the degree of $g(x)$ given that the degree of $h(x)$ is $6$ and the degree of $f(x)$ is $2$.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the general structure of the polynomial expression $h(x)=f(g(x))+g(x)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Based on the given information, what is the highest power of $x$ that could appear in the expression $f(g(x))$? Why?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the degree of $g(x)$ given the degrees of $h(x)$ and $f(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why the degree of a polynomial is related to the highest power of the variable that appears in it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does adding two polynomials affect the degrees of the polynomials involved?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any specific examples of $(f(x), g(x))$ where $h(x)$ has degree $6$ and $f(x)$ has degree $2$? What is the degree of $g(x)$ in those examples?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_835",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 1",
+  "problem": "Let $r=3^s-s$ and $s=2^n+1$. What is the value of $r$ when $n=2$?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you define the variables in this problem and what are their given values?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between the variables $r$, $s$, and $n$ in the given equations?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you rewrite the equation for $r$ using the given values of $s$ and $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the value of $r$ when $n=2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did you determine the value of $r$? Can you explain the steps you took in evaluating it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any patterns or relationships you notice between the values of $r$ and $n$ in this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_76",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem": "Seven people arrive to dinner, but the circular table only seats six.  If two seatings such that one is a rotation of the other are considered the same, then in how many different ways can we choose six people and seat them at the table?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem statement asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many people are there in total and how many seats are available at the circular table?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Why is it important to consider the number of seatings that are considered the same?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How many ways are there to choose six people from the seven and seat them at the table?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the reasoning behind the formula used to calculate the number of ways to seat the six people without considering rotation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many times is each seating counted in this formula, and why is that a problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we adjust the formula to account for rotational symmetry and avoid double-counting?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How many possible groups of 6 people can be chosen from the 7 people?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the final answer to the problem, and how was it obtained?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_257",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem": "Steve guesses randomly on a 15-question multiple choice test in which each problem has two choices, a correct one and an incorrect one. What is the probability that he gets at least half of the questions correct? Express your answer as a common fraction.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total number of possible outcomes for Steve's guesses on the 15-question test?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many questions does Steve need to get correct in order to have at least half of them correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the probability of getting exactly half of the questions correct?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How many different combinations of correct and incorrect answers are there that result in Steve getting more than half of the questions correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you calculate the probability of getting more than half of the questions correct using the combinations calculated in the previous question?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other methods or strategies that Steve can use to improve his chances of getting at least half of the questions correct?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Is the probability of getting more than half of the questions correct the same as the probability of getting less than half correct? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

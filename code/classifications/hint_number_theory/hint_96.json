@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_96",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem": "What is the remainder when $13^{51}$ is divided by 5?",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "r",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step you would take to find the remainder when $13^{51}$ is divided by 5?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What are some different methods you know of that can be used to find remainders when dealing with exponents?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you consider the expression $(10 + 3)^{51}$, can you explain why terms involving 10 would be 0 modulo 5?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Why do we only need to consider $3^{51} \\pmod{5}$ after considering the expression $(10 + 3)^{51}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you observe any patterns in the powers of 3 modulo 5? Is there a repeating pattern?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "Based on the pattern you discovered, what is the value of $3^{51} \\pmod{5}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How does this value help us find the remainder when $13^{51}$ is divided by 5?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

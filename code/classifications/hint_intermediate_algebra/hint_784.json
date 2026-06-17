@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_784",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "Compute\n\\[\\frac{(10^4+324)(22^4+324)(34^4+324)(46^4+324)(58^4+324)}{(4^4+324)(16^4+324)(28^4+324)(40^4+324)(52^4+324)}.\\]",
+  "n_questions": 10,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "r",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we express each term in the given expression in a factored form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain the steps taken to factor the expression $x^4 + 324$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Why did we choose to factorize the terms in this way? What advantages does this factorization bring?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What happens to the terms when we cancel out common factors in the numerator and denominator of the given expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you identify any patterns in the cancelation of terms? How does it simplify the expression?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "How can we simplify the expression $\\frac{58 \\cdot 64 + 18}{4 \\cdot (-2) + 18}$ further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Do you recognize any special properties or identities involved in the factorization, such as the Sophie Germain identity?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other similar expressions where factoring can be used to simplify the computation process?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can the concept of factoring in this problem be applied to other algebraic problems or equations?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 10,
+      "question": "Why is it important to understand the process of factoring and simplifying expressions in algebra?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

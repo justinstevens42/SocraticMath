@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_852",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "Let $f(x) = \\frac{3}{9^x + 3}.$  Find\n\\[f \\left( \\frac{1}{1001} \\right) + f \\left( \\frac{2}{1001} \\right) + f \\left( \\frac{3}{1001} \\right) + \\dots + f \\left( \\frac{1000}{1001} \\right).\\]",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "f",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe how to find $f(x)$ for a given value of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between $f(x)$ and $f(1-x)$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we use this relationship to simplify the given expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What can we observe about the sum of each pair of terms in the given expression?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How many pairs are there in total? What does this tell us about the final sum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other functions that have a similar relationship between $x$ and $1-x$? How would this affect the sum of their values?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

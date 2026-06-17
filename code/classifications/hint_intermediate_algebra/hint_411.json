@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_411",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "If $x^2 + \\frac{1}{x^2} = A,$ and $x - \\frac{1}{x} = B,$ where $A$ and $B$ are positive numbers, find the minimum possible numerical value for $\\frac{A}{B}.$",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given equations and what we are trying to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between $A$ and $B$ in the given equations?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we express $B$ in terms of $A$ using the given equations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you simplify the expression $\\frac{A}{B}$ using the relationship derived in question 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there any constraints on the values of $A$ and $B$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Based on the simplified expression, what would be the minimum numerical value of $\\frac{A}{B}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we apply the AM-GM inequality to find the minimum value of $\\frac{A}{B}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you explain why the minimum value occurs when $x - \\frac{1}{x} = \\sqrt{2}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you calculate the numerical value of $\\frac{A}{B}$ when $x - \\frac{1}{x} = \\sqrt{2}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How does this minimum value relate to the given problem? Can you draw any conclusions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

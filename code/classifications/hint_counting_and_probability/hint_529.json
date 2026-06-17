@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_529",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 2",
+  "problem": "This pattern is made from toothpicks. If the pattern is continued by adding two toothpicks to the previous stage, how many toothpicks are used to create the figure for the $15^{th}$ stage?\n\n[asy]draw((0,0)--(7.5,13)--(-7.5,13)--cycle);\ndraw((0,0)--(-15,0)--(-7.5,13)--cycle);\nlabel(\"stage 2\",(-4,0),S);\ndraw((-23,0)--(-30.5,13)--(-38,0)--cycle);\nlabel(\"stage 1\",(-30,0),S);\ndraw((12,0)--(19.5,13)--(27,0)--cycle);\ndraw((19.5,13)--(34.5,13)--(27,0)--cycle);\ndraw((34.5,13)--(27,0)--(42,0)--cycle);\nlabel(\"stage 3\",(27,0),S);\n[/asy]",
+  "n_questions": 9,
+  "labels": [
+    "b",
+    "b",
+    "r",
+    "r",
+    "e",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many toothpicks are used in the first stage of the pattern?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How many additional toothpicks are added to each stage after the first stage?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the total number of toothpicks used in the 15th stage?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain the pattern of adding toothpicks to each stage? Why is it important to add 2 toothpicks in each stage?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Are there any other patterns or sequences that can help us determine the number of toothpicks used in each stage?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Is there a mathematical formula or equation that can be used to calculate the total number of toothpicks used in any given stage?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can you check if your answer for the 15th stage is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you generalize the relationship between the stage number and the number of toothpicks used?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "How would the pattern change if we added more toothpicks in each stage? Can you predict the number of toothpicks in the 15th stage in that case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

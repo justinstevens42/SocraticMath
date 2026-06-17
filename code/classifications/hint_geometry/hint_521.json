@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_521",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem": "Compute $\\cos 210^\\circ$.",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe how we can compute $\\cos 210^\\circ$ using the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "In this problem, what is the relationship between the angle $210^\\circ$ and the point $P$ on the unit circle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the coordinates of point $P$ using the given angle and the point $(1,0)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How do we know that triangle $POD$ is a 30-60-90 triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What are the lengths of the sides $DO$ and $DP$ in triangle $POD$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How do these lengths help us determine the coordinates of point $P$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Now that we have the coordinates of point $P$, how can we compute $\\cos 210^\\circ$ using those coordinates?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the final value of $\\cos 210^\\circ$ based on our calculations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

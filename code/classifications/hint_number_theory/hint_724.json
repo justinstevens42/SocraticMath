@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_724",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem": "$A, B, C$ and $D$ are distinct positive integers such that the product $AB = 60$,  the product $CD = 60$ and $A - B = C + D$ .  What is the value of $A$?",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we represent the relationship between the values A, B, C, and D using equations?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What do we know about the product AB and the product CD?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the factors of 60? Can you list all the pairs that multiply to give 60?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "For each pair of factors, can you calculate the sum and difference? Can you record these values in a table?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Looking at the table, do you notice any pattern or relationship between the sum and difference columns?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "Is there a pair of factors that have the same value for both sum and difference? If so, what is that value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Given that A - B = C + D, can we match the values in the sum and difference columns to find the values of A, B, C, and D?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What are the possible pairs of (A, B) and (C, D) that satisfy the equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "Finally, what is the value of A that satisfies the given conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

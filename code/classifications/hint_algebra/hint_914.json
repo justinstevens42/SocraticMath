@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_914",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem": "The sum of three numbers $x$ ,$y$, $z$ is 165. When the smallest number $x$ is multiplied by 7, the result is $n$. The value $n$ is obtained by subtracting 9 from the largest number $y$. This number $n$ also results by adding 9 to the third number $z$. What is the product of the three numbers?",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you represent the sum of three numbers, x, y, and z, using an algebraic expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you write an equation that represents the given information about the sum of the three numbers?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for the smallest number, x, to be multiplied by 7? How can you express this mathematically?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "By subtracting 9 from the largest number, y, we obtain the value n. Can you write an equation that represents this information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Another way to obtain the value n is by adding 9 to the third number, z. How can this be expressed algebraically?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you write an equation that represents the relationship between n and the sum of the three numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "What mathematical steps would you take to solve this system of equations and find the values of x, y, and z?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How would you use the values of x, y, and z to find the product of the three numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

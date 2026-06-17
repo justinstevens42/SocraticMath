@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_299",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem": "If $x@y=xy-2x$, what is the value of $(7@4)-(4@7)$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How is the operation \"@\" defined in this problem? Can you describe it in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the value of $x@y$ if $x=7$ and $y=4$? Can you evaluate it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the value of $x@y$ if $x=4$ and $y=7$? Can you evaluate it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we find $(7@4)-(4@7)$? What are the steps involved?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you simplify $(7@4)-(4@7)$ by substituting the values of $x@y$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the final result of $(7@4)-(4@7)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

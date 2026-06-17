@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_281",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem": "A church rings its bells every 15 minutes, the school rings its bells every 20 minutes and the day care center rings its bells every 25 minutes. If they all ring their bells at noon on the same day, at what time will they next all ring their bells together?  (Answer in the form AB:CD without am or pm, such as 08:00)",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the problem statement in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What information do we have about the time intervals at which each institution rings their bells?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine when they will next all ring their bells together?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the concept of the Least Common Multiple (LCM)? How does it relate to finding the time when all three bells will ring together?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you identify the prime factors of 15, 20, and 25? How can we use these prime factors to find the LCM?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "Why do we multiply the prime factors together to find the LCM?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you find the LCM of 15, 20, and 25? How did you arrive at your answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "After finding the LCM, how can we determine the time when all three bells will ring together?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you convert the time from minutes to the conventional hour:minute format?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Are there any other scenarios or real-world situations where finding the LCM could be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

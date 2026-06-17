@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_502",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem": "What is the sum of the positive integer divisors of 23?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How do you define a positive integer divisor?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can a prime number have more than two positive integer divisors?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Why does the fact that 23 is a prime number limit its positive integer divisors?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do you find the sum of positive integer divisors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Is it possible for a number to have a sum of positive integer divisors greater than itself?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How does the sum of positive integer divisors relate to the prime factorization of a number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

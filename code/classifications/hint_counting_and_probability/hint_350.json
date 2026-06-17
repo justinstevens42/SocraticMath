@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_350",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem": "How many three-digit whole numbers have no 7's and no 9's as digits?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the specific requirement for a number to be included in the count of three-digit whole numbers with no 7's and no 9's as digits?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many choices are there for the hundreds digit of a three-digit number? Why is this number reduced to 7 in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many choices are there for the units and the tens digit of a three-digit number in this case? Why is it 8 for both digits?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How do you calculate the total number of three-digit whole numbers with no 7's and no 9's as digits by multiplying the choices for each digit?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there any other similar cases where you need to count the number of whole numbers with certain conditions? Can you provide some examples?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "How can you verify that the final answer, 448, is correct? Is there any other way to approach this problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

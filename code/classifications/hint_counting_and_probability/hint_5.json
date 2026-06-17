@@ -1,0 +1,89 @@
+{
+  "problem_id": "hint_5",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem": "John draws a regular five pointed star in the sand, and at each of the 5 outward-pointing points and 5 inward-pointing points he places one of ten different sea shells. How many ways can he place the shells, if reflections and rotations of an arrangement are considered equivalent?",
+  "n_questions": 11,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many different shells does John have to choose from?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain what is meant by a regular five pointed star?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many outward-pointing points are there on the star?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many inward-pointing points are there on the star?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you describe the process of placing the shells on the points of the star?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Are reflected arrangements considered equivalent? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are rotated arrangements considered equivalent? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How many total arrangements are there if we don't consider reflections or rotations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How many equivalent arrangements are there for each reflected or rotated arrangement?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How do we correct for the symmetries to find the distinct arrangements?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "Can you calculate the number of distinct arrangements?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

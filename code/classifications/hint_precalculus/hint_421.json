@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_421",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem": "A circle centered at $O$ has radius 1 and contains the point $A$. Segment $AB$ is tangent to the circle at $A$ and $\\angle\nAOB=\\theta$. If point $C$ lies on $\\overline{OA}$ and $\\overline{BC}$ bisects $\\angle ABO$, then express $OC$ in terms of $s$ and $c,$ where $s = \\sin \\theta$ and $c = \\cos \\theta.$\n\n[asy]\npair A,B,C,O;\nO=(0,0);\nA=(1,0);\nC=(0.6,0);\nB=(1,2);\nlabel(\"$\\theta$\",(0.1,0),NE);\nlabel(\"$O$\",O,S);\nlabel(\"$C$\",C,S);\nlabel(\"$A$\",A,E);\nlabel(\"$B$\",B,E);\ndraw(A--O--B--cycle,linewidth(0.7));\ndraw(C--B,linewidth(0.7));\ndraw(Circle(O,1),linewidth(0.7));\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the relationship between angle AOB and the tangent line AB? How does this relationship help us in solving the problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we express OC in terms of s (sin θ) and c (cos θ)? What trigonometric identities can we use to help us simplify the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Why do we consider angle CBO to be equal to angle ABC? How does this help us in finding the value of OC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "In triangle BCO, what trigonometric ratio relates the lengths of sides BC, OC, and the angle θ? How can we use this ratio to find OC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can we eliminate the variable BC from the equation for OC? How does the relationship between OC and α (angle CBO) help us in doing this?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Are there any special cases or restrictions on the values of θ that we need to consider in order for OC to be well-defined?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

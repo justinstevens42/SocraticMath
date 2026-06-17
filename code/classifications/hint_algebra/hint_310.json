@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_310",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem": "Point $A$ is at $(0, 0)$ and point $B$ is on the line $y = 4$. The slope of segment $AB$ is $\\frac{2}{3}$. What is the sum of the $x$- and $y$-coordinates of point $B$?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step to find the sum of the x- and y-coordinates of point B?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the slope of segment AB, and how does it relate to the coordinates of point B?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the equation of the line passing through point A and B?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "If the equation of the line is y = mx + b, what values can we determine from the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we find the x-coordinate of point B using the slope and the equation of the line?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Once we have the x-coordinate, how can we find the y-coordinate of point B using the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other scenarios where finding the sum of x- and y-coordinates can be approached in a similar way?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

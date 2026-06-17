@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_82",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem": "When $1 - i \\sqrt{3}$ is converted to the exponential form $re^{i \\theta}$, what is $\\theta$?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what converting a complex number to exponential form means?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How would you express the complex number $1-i\\sqrt{3}$ in polar form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the modulus, or absolute value, of this complex number in polar form?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can you find the argument, or angle in polar form, of this complex number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Is the argument of $1-i\\sqrt{3}$ unique? If not, what other values could it be?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Why do we use the exponential form or polar form to represent complex numbers? Can you think of any advantages or disadvantages to these forms?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Can you apply the process of converting to polar form to other complex numbers? Can you think of any situations where it might be particularly useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

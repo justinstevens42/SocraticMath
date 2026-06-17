@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_313",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem": "Point $D$ is on side $AC$ of triangle $ABC$, $\\angle ABD=15^{\\circ}$ and  $\\angle DBC=50^{\\circ}$. What is the measure of angle $BAD$, in degrees?\n\n[asy]draw((-43,0)--(43,0)--(43,40)--cycle);\ndraw((-4,0)--(43,40));\ndraw((39,4)--(39,0));\ndraw((39,4)--(43,4));\ndraw((-1,36)--(22.5,26),Arrow);\nlabel(\"$15^{\\circ}$\",(-1,36),W);\nlabel(\"$50^{\\circ}$\",(36,30),S);\nlabel(\"D\",(-4,0),S);\nlabel(\"A\",(-43,0),W);\nlabel(\"B\",(43,40),N);\nlabel(\"C\",(43,0),E);\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we find the measure of angle BAD in triangle ABC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What information do we need to solve this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the relationship between angles ABD and BAD in triangle ABD?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can we use any properties of triangles to solve this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What does angle A of triangle ABC represent in terms of the other angles? How can we use this information in our calculations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What strategies can we use to find the measure of angle BAD in this triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

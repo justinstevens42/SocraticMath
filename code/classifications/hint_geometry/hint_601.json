@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_601",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem": "In rectangle $ABCD$, side $AB$ measures $6$ units and side $BC$ measures $3$ units, as shown. Points $F$ and $G$ are on side $CD$ with segment $DF$ measuring $1$ unit and segment $GC$ measuring $2$ units, and lines $AF$ and $BG$ intersect at $E$. What is the area of triangle $AEB$? [asy]\ndraw((0,0)--(6,0)--(6,3)--(0,3)--cycle);\ndraw((0,0)--(2,6)--(6,0)--cycle);\ndot((0,0));\ndot((6,0));\ndot((6,3));\ndot((0,3));\ndot((1,3));\ndot((4,3));\ndot((2,6));\nlabel(\"A\",(0,0),SW);\nlabel(\"B\",(6,0),SE);\nlabel(\"C\",(6,3),NE);\nlabel(\"D\",(0,3),NW);\nlabel(\"E\",(2,6),N);\nlabel(\"F\",(1,3),SE);\nlabel(\"G\",(4,3),SW);\nlabel(\"6\",(3,0),S);\nlabel(\"1\",(0.5,3),N);\nlabel(\"2\",(5,3),N);\nlabel(\"3\",(6,1.5),E);\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in finding the length of line segment $FG$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How did you determine that angles $\\angle EFG$ and $\\angle EAB$ are congruent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain why triangles $\\triangle FEG$ and $\\triangle AEB$ are similar using angle-angle similarity?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Why is the ratio of the altitudes of $\\triangle FEG$ and $\\triangle AEB$ equal to the ratio of their bases?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did you determine that the height of the rectangle $ABCD$ is half of the altitude of $\\triangle AEB$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the formula for finding the area of a triangle? How did you apply it to find the area of $\\triangle AEB$ in this case?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

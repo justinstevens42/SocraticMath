@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_629",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem": "A line is parameterized by a parameter $t,$ so that the vector on the line at $t = -1$ is $\\begin{pmatrix} 1 \\\\ 3 \\\\ 8 \\end{pmatrix},$ and the vector on the line at $t = 2$ is $\\begin{pmatrix} 0 \\\\ -2 \\\\ -4 \\end{pmatrix}.$  Find the vector on the line at $t = 3.$",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the equation of the line in vector form using the parameter $t$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What information does the given parameterization provide about the line at $t = -1$ and $t = 2$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we use this information to find the vectors $\\mathbf{a}$ and $\\mathbf{d}$ that define the line?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you set up a system of equations using the given information to solve for $\\mathbf{a}$ and $\\mathbf{d}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What values do you find for $\\mathbf{a}$ and $\\mathbf{d}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use these values to express the equation of the line?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the vector on the line at $t = 3$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

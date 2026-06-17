@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_902",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "The cubic polynomial $p(x)$ satisfies $p(2) = 1,$ $p(7) = 19,$ $p(15) = 11,$ and $p(20) = 29.$  Find\n\\[p(1) + p(2) + p(3) + \\dots + p(21).\\]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "r",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information about the cubic polynomial $p(x)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we utilize the information about $p(2),$ $p(7),$ $p(15),$ and $p(20)$ to determine other values of $p(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for the given points to form a parallelogram?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we represent the cubic polynomial using a new function $f(x)$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between $f(x)$ and $p(x)$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Why did we choose the function $g(x) = -f(-x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How did we apply the Identity Theorem to show that $f(x)$ and $g(x)$ are the same polynomial?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "Why did we come up with the equation $p(11 - x) + p(x + 11) = 30$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we use this equation to find the sum $S = p(1) + p(2) + p(3) + \\dots + p(21)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What can we conclude about the value of $S$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

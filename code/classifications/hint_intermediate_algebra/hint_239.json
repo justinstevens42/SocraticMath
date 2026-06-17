@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_239",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "Find the area of the region described by $x \\ge 0,$ $y \\ge 0,$ and\n\\[100 \\{x\\} \\ge \\lfloor x \\rfloor + \\lfloor y \\rfloor.\\]Note: For a real number $x,$ $\\{x\\} = x - \\lfloor x \\rfloor$ denotes the fractional part of $x.$  For example, $\\{2.7\\} = 0.7.$",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "b",
+    "e",
+    "b",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of the fractional part of a real number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we express a real number $x$ in terms of its integer part $n$ and fractional part $\\{x\\}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the range of values for $\\{x\\}$ if $0 \\leq x < 1$? What about if $1 \\leq x < 2$? Generalize for the other intervals.",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 4,
+      "question": "How can we rewrite the inequality given in terms of $n$ and $\\{x\\}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does the inequality in step 4 relate to the floor function $\\lfloor \\cdot \\rfloor$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What is the range of possible values for $\\lfloor y \\rfloor$ given a fixed value of $n$ and $\\{x\\}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we visualize the region described by the inequalities $x \\geq 0$, $y \\geq 0$, and $100\\{x\\} \\geq \\lfloor x \\rfloor + \\lfloor y \\rfloor$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What are the dimensions of the rectangles formed by each interval of $x$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "How can we calculate the area of each rectangle and sum them up to find the total area of the region?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can we simplify the expression $\\frac{1}{200} \\sum_{k=1}^{100} k(k+1)$ using a formula? If so, what is the formula and how can we apply it? Alternatively, can we use a telescoping sum to simplify the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

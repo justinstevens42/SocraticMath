@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_946",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "Mark borrows $10$ dollars from Emily with a simple interest rate of $15\\%$ everyday. What is the least integer number of days after which Mark will have to pay her back at least twice as much as he borrowed?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the concept of simple interest in this scenario and how it relates to borrowing money?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What formula can we use to calculate the amount of interest Mark will have to pay after a certain number of days?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we express the total amount Mark will have to pay back after a given number of days, taking both the borrowed amount and the interest into account?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the least integer number of days that Mark will have to wait in order to pay Emily back at least twice as much as he borrowed?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we determine if the amount Mark has to pay after a certain number of days is at least twice as much as the amount he borrowed?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other scenarios or situations where the concept of simple interest would be applicable?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

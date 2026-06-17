@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_384",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem": "A function $f$ is defined recursively by $f(1)=f(2)=1$ and \\[f(n)=f(n-1)-f(n-2)+n\\]for all integers $n \\geq 3$. What is $f(2018)$?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "f",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what the function $f$ represents and how it is defined recursively?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Why is it helpful to define a new function $g(n)$ as $f(n) - n$? What does this new function represent?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "By substituting the recursive definition of $f(n)$ into $g(n)$, can you derive a simplified expression for $g(n)$ in terms of $g(n-1)$ and $g(n-2)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you find the initial values of $g(1)$ and $g(2)$? How do these values relate to the initial values of $f(1)$ and $f(2)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "By using the recursive relation for $g(n)$ and the initial values of $g(1)$ and $g(2)$, can you find a few more terms of the sequence $g(n)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Do you notice any patterns or recurring values in the sequence $g(n)$? If so, what is the period of this pattern?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "How can you determine the value of $g(2018)$ based on the periodicity of the sequence? Use this to find the value of $f(2018)$.",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

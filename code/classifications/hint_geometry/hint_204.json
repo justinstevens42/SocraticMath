@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_204",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem": "A figure is constructed from unit cubes.  Each cube shares at least one face with another cube.   What is the minimum number of cubes needed to build a figure with the front and side views shown? [asy]\n/* AMC8 2003 #15 Problem */\ndraw((0,0)--(2,0)--(2,1)--(1,1)--(1,2)--(0,2)--cycle);\ndraw((0,1)--(1,1)--(1,0));\ndraw((4,0)--(6,0)--(6,2)--(5,2)--(5,1)--(4,1)--cycle);\ndraw((5,0)--(5,1)--(6,1));\nlabel(scale(0.8)*\"FRONT\", (1, 0), S);\nlabel(scale(0.8)*\"SIDE\", (5,0), S);\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "f",
+    "f",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the figure shown in the front and side views? How many cubes are visible in each view?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How many cubes are needed to construct a figure with the given front and side views? What is the minimum number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the minimum number of cubes required? What information from the front and side views can we use to make this determination?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Can you identify any common features or patterns in the configurations shown? How do these features contribute to the number of cubes needed?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Are there any other possible configurations of cubes that satisfy the given front and side views? How could we determine if they would require fewer or more cubes?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other perspective or viewpoint from which we could analyze the construction of the figure? How might this alternative perspective change our understanding of the minimum number of cubes needed?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

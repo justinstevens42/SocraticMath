@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_278",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem": "A right triangle with legs $10$ and $8$ is similar to another right triangle with corresponding legs $x$ and $5$, respectively. What is the value of $x$? Express your answer as a decimal to the nearest hundredth.",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "b",
+    "e",
+    "r",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of geometric similarity?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do we determine if two figures are similar?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the significance of corresponding sides and angles in similar figures?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 4,
+      "question": "How does the concept of similarity relate to solving geometric problems?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can a triangle be similar to another triangle with different side lengths? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do we use proportional reasoning to solve problems involving similar figures?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "In this particular problem, what are the given measures of the triangles?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "How can we set up and solve an equation to find the length of $x$ in terms of the given measures?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Why do we express the final answer as a decimal to the nearest hundredth?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can this concept of similarity be extended to other shapes, such as circles or polygons? How?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

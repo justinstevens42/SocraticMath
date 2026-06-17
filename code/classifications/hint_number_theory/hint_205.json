@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_205",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem": "If the least common multiple of $A$ and $B$ is $120$, and the ratio of $A$ to $B$ is $3:4$, then what is their greatest common divisor?",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "f",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of the least common multiple (LCM) of two integers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we express the ratio of $A$ to $B$ as a fraction? What does this fraction imply?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What can we say about the greatest common divisor (GCD) of $A$ and $B$ if their ratio is known?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we express $A$ and $B$ in terms of their greatest common divisor $k$ if their ratio is known to be $3:4$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why is $k$ the greatest common divisor of $A$ and $B$ if their ratio is $3:4$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the given information about the LCM of $A$ and $B$ to solve for the value of $k$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the equation that relates the LCM and the GCD of two integers? How can we use it to solve the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Why is it important to reduce the fraction $A/B$ to lowest terms in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of other examples where the GCD and LCM of two integers are used in problem solving?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

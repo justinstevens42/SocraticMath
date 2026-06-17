@@ -1,0 +1,89 @@
+{
+  "problem_id": "hint_824",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem": "I have a drawer with 6 forks, 6 spoons, and 6 knives in it. If I reach in and randomly remove three pieces of silverware, what is the probability that I get one fork, one spoon, and one knife?",
+  "n_questions": 11,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total number of pieces of silverware in the drawer?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many pieces of silverware do we need to randomly remove?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the total number of ways to choose 3 pieces of silverware out of 18?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How many ways can we choose one fork out of the 6 available forks?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many ways can we choose one spoon out of the 6 available spoons?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many ways can we choose one knife out of the 6 available knives?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we find the total number of ways to choose one fork, one spoon, and one knife?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the numerator of the probability fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we express the probability of choosing one fork, one spoon, and one knife?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can we simplify the fraction to its lowest terms?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "What is the final probability that we get one fork, one spoon, and one knife when randomly removing 3 pieces of silverware?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

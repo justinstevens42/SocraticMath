@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_86",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "A solid right prism $ABCDEF$ has a height of $16,$ as shown. Also, its bases are equilateral triangles with side length $12.$ Points $X,$ $Y,$ and $Z$ are the midpoints of edges $AC,$ $BC,$ and $DC,$ respectively. A part of the prism above is sliced off with a straight cut through points $X,$ $Y,$ and $Z.$ Determine the surface area of solid $CXYZ,$ the part that was sliced off.  [asy]\npair A, B, C, D, E, F, X, Y, Z;\nA=(0,0);\nB=(12,0);\nC=(6,-6);\nD=(6,-22);\nE=(0,-16);\nF=(12,-16);\nX=(A+C)/2;\nY=(B+C)/2;\nZ=(C+D)/2;\ndraw(A--B--C--A--E--D--F--B--C--D);\ndraw(X--Y--Z--X, dashed);\nlabel(\"$A$\", A, NW);\nlabel(\"$B$\", B, NE);\nlabel(\"$C$\", C, N);\nlabel(\"$D$\", D, S);\nlabel(\"$E$\", E, SW);\nlabel(\"$F$\", F, SE);\nlabel(\"$X$\", X, SW);\nlabel(\"$Y$\", Y, SE);\nlabel(\"$Z$\", Z, SE);\nlabel(\"12\", (A+B)/2, dir(90));\nlabel(\"16\", (B+F)/2, dir(0));\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the dimensions and shape of each triangular face of solid $CXYZ$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we calculate the area of $\\triangle CZX$ and $\\triangle CZY$? What formula can we use?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain the geometric properties of $\\triangle CXY$ and how we can determine its area?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the length of $CM$ in $\\triangle CXY$? How does it relate to the side lengths of $\\triangle CXY$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we calculate the area of $\\triangle CXY$ using its side length and the length of $CM$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the shape and dimensions of $\\triangle XYZ$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we find the length of $ZM$ in $\\triangle XYZ$ using the Pythagorean theorem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "How can we calculate the area of $\\triangle XYZ$ using its side lengths and the length of $ZM$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you express the total surface area of solid $CXYZ$ using the areas we calculated for each triangular face?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the final numerical value of the surface area of solid $CXYZ$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

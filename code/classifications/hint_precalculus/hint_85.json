@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_85",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem": "Find the range of\n\\[f(A)=\\frac{\\sin A(3\\cos^{2}A+\\cos^{4}A+3\\sin^{2}A+\\sin^{2}A\\cos^{2}A)}{\\tan A (\\sec A-\\sin A\\tan A)}\\]if $A\\neq \\dfrac{n\\pi}{2}$ for any integer $n.$  Enter your answer using interval notation.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the function $f(A)$ representing? Can you explain its structure and its components?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "If we look at the numerator of $f(A)$, can you identify any patterns or factors that can be simplified?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we write the denominator of $f(A)$ using trigonometric identities?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Simplify the expression $\\frac{\\sin A}{\\tan A}$ using trigonometric identities.",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you express the denominator of $f(A)$ solely in terms of $\\sin A$ and $\\cos A$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the final expression for $f(A)$ after simplifying the numerator and denominator?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the range of $\\cos^2 A$? Why are $0$ and $1$ excluded from the range?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Based on the range of $\\cos^2 A$, what is the possible range of $f(A)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we express the range of $f(A)$ using interval notation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What restrictions do we need to consider when determining the range of $f(A)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

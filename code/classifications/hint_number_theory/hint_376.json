@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_376",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem": "Express $\\frac{37}{80}$ as a terminating decimal.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "b",
+    "f",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we express a decimal as terminating or non-terminating?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the form of a terminating decimal? Can we write any decimal in this form?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we rewrite our fraction with a denominator of $10^b$? Why do we choose this denominator?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can we simplify the fraction $\\frac{37}{80}$ before rewriting it as a terminating decimal?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we know that our resulting decimal terminates? Is there a pattern that we can observe?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "What other fractions can we rewrite as terminating decimals using a similar method? How can we check if they are correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

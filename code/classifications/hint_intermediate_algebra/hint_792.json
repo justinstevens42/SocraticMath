@@ -1,0 +1,47 @@
+{
+  "problem_id": "hint_792",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "A circle passes through the point $(0,1),$ and is tangent to the parabola $y = x^2$ at $(2,4).$  Find the center of the circle.\n\n[asy]\nunitsize(0.4 cm);\n\nreal parab (real x) {\n  return(x^2);\n}\n\ndraw(graph(parab,-3.5,3.5));\ndraw(Circle((-16/5,53/10),13*sqrt(17)/10));\n\ndot((0,1));\ndot(\"$(2,4)$\", (2,4), E);\n[/asy]",
+  "n_questions": 5,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the equation of the tangent line to the parabola $y = x^2$ at the point $(2,4)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How do we determine the slope of the line joining the center of the circle and the point $(2,4)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the equation of the perpendicular bisector of the line segment joining $(2,4)$ and $(0,1)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why does the center of the circle have to lie on the perpendicular bisector of the line segment joining $(2,4)$ and $(0,1)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we use the equations from questions 2 and 3 to find the coordinates of the center of the circle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

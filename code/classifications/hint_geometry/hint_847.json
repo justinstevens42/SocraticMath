@@ -1,0 +1,47 @@
+{
+  "problem_id": "hint_847",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem": "In the triangle shown, what is the positive difference between the greatest and least possible integral values of $x$?\n\n[asy]\n\ndefaultpen(linewidth(0.7));\npair a,b,c;\nb = (1,2); c = (3,0);\ndraw(a--b--c--a);\nlabel(\"$x$\",a--b,dir(135)); label(\"5\",b--c,dir(45)); label(\"6\",c--a,S);\n[/asy]",
+  "n_questions": 5,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the given side lengths in the triangle diagram?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What do we know about the relationship between the lengths of the sides in a triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the smallest possible value for $x$ in this triangle? How did you determine this?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the largest possible value for $x$ in this triangle? How did you determine this?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the positive difference between the smallest and largest integral values of $x$ in this triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

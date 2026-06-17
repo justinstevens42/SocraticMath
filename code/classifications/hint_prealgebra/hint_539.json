@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_539",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem": "In right triangle $PQR$, we have $\\angle Q = \\angle R$ and $PR = 6\\sqrt{2}$.  What is the area of $\\triangle PQR$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What do we know about the angles in right triangle $PQR$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can we determine the length of any other side of the triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How do we know that the area of the triangle is equal to half the product of its base and height?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do we find the length of the base and height in terms of $PR$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can we simplify the expression for the area of the triangle using the given value of $PR$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do we know that the area of the triangle is equal to $\\boxed{36}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

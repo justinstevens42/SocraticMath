@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_512",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem": "A two-digit integer $AB$ equals $\\frac{1}{9}$ of the three-digit integer $AAB$, where $A$ and $B$ represent distinct digits from 1 to 9. What is the smallest possible value of the three-digit integer $AAB$?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain how we can rewrite the two-digit integer $AB$ and the three-digit integer $AAB$ using algebraic expressions?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What equation can we set up using the information given in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Why do we set $AAB$ equal to $9 \\cdot AB$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we simplify the equation $100A+10A+B=9(10A+B)$? What steps can we take?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What relationship do we find between $A$ and $B$ from the simplified equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are the smallest possible values for $A$ and $B$ that satisfy the equation $5A=2B$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we find the value of $AAB$ using the values of $A$ and $B$ found in the previous question?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

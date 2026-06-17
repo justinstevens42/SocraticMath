@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_806",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 1",
+  "problem": "The sum of two numbers is $19$ and their difference is $5$. What is their product?",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the two unknown numbers that we need to find?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you represent the two numbers mathematically? What equations can you write to represent the given information?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can you use the information about the sum of the two numbers to write an equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can you use the information about the difference of the two numbers to write another equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Is there a method you know that can be used to solve the system of equations you just wrote?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you solve the system of equations to find the values of the two unknown numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can you find the product of the two numbers once you have their values?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other real-world situations where similar equations and problem-solving strategies can be applied?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Can you generalize the steps you took to solve this problem to solve similar problems involving the sum, difference, and product of numbers?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "What insights have you gained about algebraic problem-solving from this exercise?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

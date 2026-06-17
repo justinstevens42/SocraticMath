@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_239",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem": "The line $y = \\frac{1}{2} x + 4$ is paramterized by the form\n\\[\\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} -7 \\\\ s \\end{pmatrix} + t \\begin{pmatrix} l \\\\ -5 \\end{pmatrix}.\\]Enter the ordered pair $(s,l).$",
+  "n_questions": 9,
+  "labels": [
+    "b",
+    "r",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given line's equation in slope-intercept form? How can we rewrite it in vector form and parametric form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for a line to be parameterized? How does the given parameterization represent the line?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "When we take t = 0, what do we notice about the resulting vector? How does this relate to the line?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean for a vector to lie on a line? How can we use this information to find the value of s in the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What happens when we take t = 1? How does this new vector relate to the line?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the given parameterization to find the values of x and y in terms of l and s?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "By substituting these values into the equation of the line, how can we solve for the value of l?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the significance of the found value of l? How does it relate to the line's parameterization?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Finally, what are the values of (s, l) that satisfy the given parameterization? Provide the ordered pair.",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_716",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 2",
+  "problem": "From a group of six students, how many different four-student committees can be chosen?",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you define what a \"committee\" is in the context of this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How many total students are there to choose from?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What does the symbol $\\binom{n}{k}$ represent in the equation given?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why we use this formula to solve for the number of possible committees?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there any restrictions or criteria for forming a committee, such as gender balance or selecting specific individuals?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How does the number of possible committees change if we only choose three students instead of four?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How does the concept of permutations relate to the calculation of possible committees?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "If a committee needs a president, how many different committees with a president can be chosen from the group of six students?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

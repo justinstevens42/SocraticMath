@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_71",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "How many different isosceles triangles have integer side lengths and perimeter 23?",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is an isosceles triangle? Can you describe its characteristics?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for the side lengths of a triangle to be integers? How does that affect the problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the perimeter of a triangle? Can you relate it to the side lengths of an isosceles triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How many equal side lengths does an isosceles triangle have? How does that relate to the given information of a perimeter of 23?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why does the sum of the two equal side lengths have to be even?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What can you conclude about the length of the base of the isosceles triangle based on the given information of a perimeter of 23?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Why is the length of the base less than half of 23?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can you use these constraints to determine the possible values for the side lengths of the isosceles triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you list all the different possible side length combinations that satisfy the constraints? How would you verify the validity of each combination?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any other similar problems involving isosceles triangles and integer side lengths that might require a similar thought process and steps to solve?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_77",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "A circle centered at $A$ with a radius of $1$ and a circle centered at $B$ with a radius of $4$ are externally tangent. A third circle is tangent to the first two and to one of their common external tangents as shown. What is the radius of the third circle? [asy]\ndraw((-3,0)--(7.5,0));\ndraw(Circle((-1,1),1),linewidth(0.7));\ndraw(Circle((3,4),4),linewidth(0.7));\ndraw(Circle((0.33,0.44),0.44),linewidth(0.7));\ndot((-1,1));\ndot((3,4));\ndraw((-1,1)--(-2,1));\ndraw((3,4)--(7,4));\nlabel(\"$A$\",(-1,1),E);\nlabel(\"$B$\",(3,4),W);\nlabel(\"1\",(-1.5,1),N);\nlabel(\"4\",(5,4),N);\n[/asy]",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you describe the position of the third circle in relation to the first two circles?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What do you notice about the points of tangency between the circles and their common external tangent?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can you use the information about right triangle ABC to find the length of AC?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can you express the length of DE in terms of x?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can you express the length of FD in terms of x?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What relationship can you find between the lengths DE, FD, and AC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can you use the relationship between DE, FD, and AC to find the value of x?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the final solution for the radius of the third circle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_278",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem": "The projection of $\\begin{pmatrix} 0 \\\\ 3 \\\\ z \\end{pmatrix}$ onto $\\begin{pmatrix} -3 \\\\ 5 \\\\ -1 \\end{pmatrix}$ is\n\\[\\frac{12}{35} \\begin{pmatrix} -3 \\\\ 5 \\\\ -1 \\end{pmatrix}.\\]Find $z.$",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "e",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of projection and how is it calculated?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do we determine the projection of a vector onto another vector?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain the significance of the dot product in calculating the projection?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 4,
+      "question": "What is the geometric interpretation of the projection in terms of angles and distances?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does the direction of the projection change if we change the direction of the vector we are projecting onto?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you provide an example of a real-life situation in which the concept of projection would be useful to understand?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

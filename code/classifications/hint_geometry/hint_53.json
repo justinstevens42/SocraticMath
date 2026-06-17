@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_53",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "A right circular cone is sliced into four pieces by planes parallel to its base, as shown in the figure. All of these pieces have the same height. What is the ratio of the volume of the second-largest piece to the volume of the largest piece? Express your answer as a common fraction.\n[asy]\nsize(150);\npair A, B, C, D, E, F, G, H, I, w, x, y, z;\nA=(0,0);\nB=(.25,.75);\nC=(.5,1.5);\nD=(.75,2.25);\nE=(1,3);\nF=(1.25,2.25);\nG=(1.5,1.5);\nH=(1.75,.75);\nI=(2,0);\nw=(A+I)/2;\nx=(B+H)/2;\ny=(C+G)/2;\nz=(D+F)/2;\ndraw(ellipse(w, 1, .25));\ndraw(ellipse(x, .75, .1875));\ndraw(ellipse(y, .5, .125));\ndraw(ellipse(z, .25, .0625));\ndraw(A--E--I);\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the relationship between the four pieces and the original cone?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What similarities do you notice between the four cones?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How does the height of each cone relate to the height of the original cone?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How does the radius of each cone relate to the radius of the original cone?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What formula can we use to calculate the volume of a cone?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we apply the volume formula to find the volumes of cone B, C, and D?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we find the volume of the second-largest piece?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the volume of the largest piece?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we calculate the ratio between the volumes of the second-largest piece and the largest piece?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the final ratio expressed as a fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

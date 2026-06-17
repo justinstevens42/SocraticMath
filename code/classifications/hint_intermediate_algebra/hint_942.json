@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_942",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "Solve the inequality\n\\[2 - \\frac{1}{2x + 3} < 4.\\]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "e",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step you should take when solving this inequality?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How did the given inequality get converted to the equivalent form $\\frac{4x+7}{2x+3}>0$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the significance of finding the critical points $x=-\\frac{7}{4}$ and $x=-\\frac{3}{2}$?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 4,
+      "question": "Why does the inequality hold true for values of $x$ less than $-\\frac{7}{4}$ or greater than $-\\frac{3}{2}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "In the solution interval $x \\in \\left(-\\infty,-\\frac{7}{4}\\right) \\cup \\left(-\\frac{3}{2},\\infty\\right),$ how did you determine which intervals satisfy the inequality and which ones don't?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other types of inequalities where we can use this same type of analysis to determine the solution interval?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

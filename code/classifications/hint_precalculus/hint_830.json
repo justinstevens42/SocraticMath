@@ -1,0 +1,89 @@
+{
+  "problem_id": "hint_830",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem": "Let $A$ and $B$ be the endpoints of a semicircular arc of radius $2$. The arc is divided into seven congruent arcs by six equally spaced points $C_1$, $C_2$, $\\dots$, $C_6$. All chords of the form $\\overline {AC_i}$ or $\\overline {BC_i}$ are drawn. Find the product of the lengths of these twelve chords.",
+  "n_questions": 11,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given semicircular arc and its endpoints?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many congruent arcs is the semicircular arc divided into?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we represent the endpoints and the points $C_k$ using complex numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the formula for the length of a chord between endpoint $A$ and point $C_k$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can we simplify the length of $AC_k$ using the properties of complex numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What is the formula for the length of a chord between endpoint $B$ and point $C_k$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we simplify the length of $BC_k$ using the properties of complex numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we express the product of the lengths of all twelve chords in terms of complex numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What can we conclude about the roots of the equation $z^{14} - 1 = 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How does the equation $z^{14} - 1 = 0$ help us simplify the product of the lengths of the chords?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "What is the value of the product of the lengths of all twelve chords?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

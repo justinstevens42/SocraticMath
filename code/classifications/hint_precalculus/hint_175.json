@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_175",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem": "Right triangle $ABC$ (hypotenuse $\\overline{AB}$) is inscribed in equilateral triangle $PQR,$ as shown.  If $PC = 3$ and $BP = CQ = 2,$ compute  $AQ.$\n\n[asy]\nunitsize(0.8 cm);\n\npair A, B, C, P, Q, R;\n\nP = (0,0);\nQ = (5,0);\nR = 5*dir(60);\nA = Q + 8/5*dir(120);\nB = 2*dir(60);\nC = (3,0);\n\ndraw(A--B--C--cycle);\ndraw(P--Q--R--cycle);\ndraw(rightanglemark(A,C,B,10));\n\nlabel(\"$A$\", A, NE);\nlabel(\"$B$\", B, NW);\nlabel(\"$C$\", C, S);\nlabel(\"$P$\", P, SW);\nlabel(\"$Q$\", Q, SE);\nlabel(\"$R$\", R, N);\nlabel(\"$2$\", (C + Q)/2, S);\nlabel(\"$3$\", (C + P)/2, S);\nlabel(\"$2$\", (B + P)/2, NW);\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is given in the problem? Can you describe the given information and draw it on the diagram?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we calculate the length of side BC using the given information? Can you explain and apply the Law of Cosines to triangle BCP?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the equation that represents the length of side AC in terms of x? Can you explain and apply the Law of Cosines to triangle ACQ?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you find the equation that represents the length of side AB in terms of x? Can you explain and apply the Law of Cosines to triangle ABR?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "According to the Pythagorean Theorem, what relationship should hold between the squares of the lengths of sides BC, AC, and AB? Can you set up and solve the equation that satisfies this relationship?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "After solving the equation, what is the value of x? How does this value correspond to the length AQ?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

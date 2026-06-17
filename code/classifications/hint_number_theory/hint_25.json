@@ -1,0 +1,47 @@
+{
+  "problem_id": "hint_25",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem": "Name the greatest whole number less than $100$ that has an odd number of positive factors.",
+  "n_questions": 5,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you define what it means for a number to have a \"positive factor\"?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do we count the number of positive factors a given number has?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Are there any patterns or rules we can use to quickly determine if a number has an odd or even number of factors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you prove the claim that a number has an odd number of positive factors if and only if it is a perfect square?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we use this claim to find the greatest whole number less than 100 that has an odd number of positive factors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

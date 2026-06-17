@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_366",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem": "In right triangle $MNO$, $\\tan{M}=\\frac{5}{4}$, $OM=8$, and $\\angle O = 90^\\circ$.  Find $MN$.  Express your answer in simplest radical form.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between $\\tan M$ and the sides of a right triangle? How can we use this relationship to find the length of $NO$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What can we conclude about the lengths of the sides of the triangle based on the given information? How can we express this relationship mathematically?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the Pythagorean Theorem to find the length of $MN$? Can you explain the steps involved?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the simplified radical form of $\\sqrt{164}$? How did you determine that?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other geometric concepts or theorems that might be applicable in solving similar problems?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

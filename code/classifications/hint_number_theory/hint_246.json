@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_246",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem": "For how many integers $n$ between 1 and 11 (inclusive) is $\\frac{n}{12}$ a repeating decimal?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you determine whether $\\frac{n}{12}$ is a repeating decimal for all integers $n$ between 1 and 11 (inclusive)?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the prime factors of 12 and how do they relate to the decimal representation of $\\frac{n}{12}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "According to the information given about simplified fractions, under what conditions does a fraction have a terminating decimal representation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can you apply the concept of cancelling out factors to determine whether $\\frac{n}{12}$ is a repeating decimal?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How many integers between 1 and 11 are divisible by 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Based on the factors of 12 and the condition for terminating decimal representation, how many integers between 1 and 11 will result in a repeating decimal when divided by 12?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

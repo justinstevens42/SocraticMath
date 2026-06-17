@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_839",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem": "Define a $\\it{good\\ word}$ as a sequence of letters that consists only of the letters $A$, $B$, and $C$ --- some of these letters may not appear in the sequence --- and in which $A$ is never immediately followed by $B$, $B$ is never immediately followed by $C$, and $C$ is never immediately followed by $A$. How many seven-letter good words are there?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what is meant by a \"good word\" in this context?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many choices are there for the first letter of a seven-letter good word? Why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Why are there only two choices for each subsequent letter in the word?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we express the total number of n-letter good words using the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you substitute n=7 into the expression to calculate the number of seven-letter good words?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why multiplying 3 by 2^6 gives us the total number of seven-letter good words?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any restrictions or conditions that need to be satisfied for a word to be considered \"good\"?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other scenarios or examples where a similar counting and probability approach could be applied?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "How would the calculation change if the word length was different? Can you generalize the formula?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "What insights can we gain from analyzing and understanding the concept of \"good words\" in this context?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_179",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem": "When the greatest common divisor and least common multiple of two integers are multiplied, their product is 200. How many different values could be the greatest common divisor of the two integers?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the formula connecting the greatest common divisor and least common multiple of two integers?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Given that the product of the greatest common divisor and least common multiple of two integers is 200, what are the possible pairs of exponents for the prime factors 2 and 5 in the prime factorization of the two integers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the possible pairs of exponents for the prime factors 2 and 5 to determine the possible values of the greatest common divisor of the two integers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What are the possible values of the greatest common divisor in this case, and how did we obtain these values?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can we find an example of two integers with each of the possible greatest common divisors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How does this problem relate to other concepts in number theory, such as prime factorization and divisibility?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

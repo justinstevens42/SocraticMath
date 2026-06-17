@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_567",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem": "What is the value of $a^3 + b^3$ given that $a+b=10$ and $ab=17$?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving the equation $a^3 + b^3$ given that $a+b=10$ and $ab=17$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can you rewrite $a^3 + b^3$ using the sum of cubes formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the value of $(a+b)^2$ given that $a+b=10$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can you find the value of $ab$ in terms of $a$ and $b$ using the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the expression for $a^3 + b^3$ in terms of $a+b$ and $ab$ using the sum of cubes formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you simplify the expression $10(10^2-3\\cdot17)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final value of $a^3 + b^3$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

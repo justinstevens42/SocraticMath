@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_567",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem": "Compute the distance between the parallel lines given by\n\\[\\begin{pmatrix} 2 \\\\ -3 \\end{pmatrix} + t \\begin{pmatrix} 1 \\\\ -7 \\end{pmatrix}\\]and\n\\[\\begin{pmatrix} 1 \\\\ -5 \\end{pmatrix} + s \\begin{pmatrix} 1 \\\\ -7 \\end{pmatrix}.\\]",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of the distance between two parallel lines in $\\mathbb{R}^2$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we use vectors to find the distance between two parallel lines?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "In the given problem, what are the equations of the two parallel lines in vector form?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the vector $\\bold{v}$ that joins a point on one line to a point on the other line?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How do we find the projection $\\bold{p}$ of $\\bold{v}$ onto the direction vector $\\bold{d}$ of the lines?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the formula for the distance between two parallel lines using the projection?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the vector $\\bold{c}$ that connects a point on one line to the point on the other line that is closest to it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How do we use $\\bold{c}$ to find the distance between the two parallel lines in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 9,
+      "question": "Can we use a similar method, involving projections and orthogonal vectors, to find the distance between two non-parallel lines in $\\mathbb{R}^3$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How does the distance between two parallel lines change when one of the lines is shifted?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

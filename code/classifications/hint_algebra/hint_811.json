@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_811",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 1",
+  "problem": "The sequence $2, 7, 12, a, b, 27$ is arithmetic. What is the value of $a + b$?",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you define what an arithmetic sequence is? How can you identify if a sequence is arithmetic?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What information can you gather from the given sequence $2, 7, 12, a, b, 27$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can you determine the common difference in an arithmetic sequence? Is there a formula or method you can use?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Based on the given initial terms, can you find the common difference in the sequence? How?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Assuming the common difference is constant, can you derive the values of $a$ and $b$ in terms of the common difference?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there any relationship between the position of a term in the sequence and its value? Can you establish any formulas or patterns?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can you use the known terms and the derived formulas to find the values of $a$ and $b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Once you have the values of $a$ and $b$, what is the sum of $a + b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

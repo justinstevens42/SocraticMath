@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_981",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem": "If\n\\[\\sin x + \\cos x + \\tan x + \\cot x + \\sec x + \\csc x = 7,\\]then find $\\sin 2x.$",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "f",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step to solving the equation $\\sin x + \\cos x + \\tan x + \\cot x + \\sec x + \\csc x = 7$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can we express all of the trigonometric functions in terms of $\\sin x$ and $\\cos x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we simplify the equation using the identities $\\tan x = \\frac{\\sin x}{\\cos x}$ and $\\cot x = \\frac{\\cos x}{\\sin x}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What can we replace $\\tan x + \\frac{1}{\\tan x}$ and $\\sec x + \\frac{1}{\\sec x}$ with in terms of $\\sin x$ and $\\cos x$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we combine like terms and simplify the equation further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What factorization can we make on the resulting equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we use the factorization to solve for $\\sin 2x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What are the possible solutions for $\\sin 2x$ and why do we have to discard one of them?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "What is the final solution for $\\sin 2x$ in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of other trigonometric equations that can be solved using similar techniques as in this problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

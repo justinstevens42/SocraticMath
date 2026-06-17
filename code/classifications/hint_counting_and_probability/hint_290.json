@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_290",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem": "The Grammar club has 20 members: 10 boys and 10 girls.  A 4-person committee is chosen at random.  What is the probability that the committee has at least 1 boy and at least 1 girl?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem we are trying to solve in this scenario?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is a committee and why are we selecting one at random?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What does \"at least 1 boy and at least 1 girl\" mean? Can you rephrase it in a different way?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How did we calculate the number of ways to choose a committee of all boys or all girls? Is this number important for finding the probability we are looking for?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did we calculate the total number of committees? What concept does this calculation represent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the formula we can use to calculate the probability of an event? How can we apply it to this scenario?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final probability that we calculated? How does it answer the original question?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "problem_id": "hint_28",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem": "If two distinct members of the set $\\{ 3, 7, 21, 27, 35, 42, 51 \\}$ are randomly selected and multiplied, what is the probability that the product is a multiple of 63? Express your answer as a common fraction.",
+  "n_questions": 11,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given problem and what is it asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain the concept of probability in your own words?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for a product to be a multiple of 63?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine if a product is a multiple of 63? What factors are necessary?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many distinct members are there in the given set?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many ways can we choose two numbers from the given set?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How many multiples of 7 are there in the given set? How many of them are also multiples of 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How many pairings can we make using the multiples of 7 that satisfy the conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other ways to achieve a product that is a multiple of 63 with the given set?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "How do we calculate the probability of selecting a pair of numbers that satisfy the given condition?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "What is the probability, expressed as a fraction, that the product of the two selected numbers is a multiple of 63?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

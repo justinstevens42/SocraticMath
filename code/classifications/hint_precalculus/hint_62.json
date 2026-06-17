@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_62",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem": "If\n\\[\\frac{\\sin^4 \\theta}{a} + \\frac{\\cos^4 \\theta}{b} = \\frac{1}{a + b},\\]then find the value of\n\\[\\frac{\\sin^8 \\theta}{a^3} + \\frac{\\cos^8 \\theta}{b^3}\\]in terms of $a$ and $b.$",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given equation and what are the variables involved?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we simplify the equation in terms of trigonometric identities?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What substitution can we make to transform the equation into a more manageable form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How do we express $\\sin^2 \\theta$ and $\\cos^2 \\theta$ in terms of $x$ and $y$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Substituting the expressions for $x$ and $y$ into the equation, can we simplify it further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we factorize the resulting expression and what does it reveal about the values of $x$ and $y$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "By substituting the values back into the original equation, what is the relationship between $\\frac{\\sin^8 \\theta}{a^3} + \\frac{\\cos^8 \\theta}{b^3}$ and $(a + b)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

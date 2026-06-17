@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_675",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem": "The sum of two positive integers $a$ and $b$ is 1001.  What is the largest possible value of $\\gcd(a,b)$?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you restate the problem in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for two positive integers to have a greatest common divisor (GCD)?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Considering that the sum of $a$ and $b$ is 1001, what range of possible values can the GCD have?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the possible divisors of 1001?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Is it possible for the GCD to be equal to 1001? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the largest divisor of 1001 that is less than 1001 itself?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "If $a$ is equal to this largest divisor, what would $b$ be?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we verify that the GCD of $a$ and $b$ is indeed 143?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

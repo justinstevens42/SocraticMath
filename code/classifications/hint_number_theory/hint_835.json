@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_835",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem": "Suppose that $b$ is a positive integer greater than or equal to $2.$ When $197$ is converted to base $b$, the resulting representation has $4$ digits. What is the number of possible values for $b$?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given problem asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the significance of choosing a base, and how does it relate to the problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How do we convert a number into a different base?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you describe the process of converting $197_{10}$ to base $b$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What conditions need to be satisfied in order for the resulting representation to have $4$ digits?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What is the relationship between the exponent of the base and the number of digits in the representation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can we determine the possible values for $b$ based on the given conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you explain how the inequality $b^3 \\leq 197_{10} < b^4$ helps us find the range of possible values for $b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Why do we consider the range from $4$ to $5$ for $b$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 10,
+      "question": "How many values of $b$ satisfy the given conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

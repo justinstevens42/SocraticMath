@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_220",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 1",
+  "problem": "Compute $\\dbinom{505}{505}$.",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "e",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does the symbol $\\dbinom{n}{k}$ represent?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How do you calculate $\\dbinom{n}{k}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the value of $\\dbinom{n}{0}$ and why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you provide an example of how to apply $\\dbinom{n}{k}$ in a real-world scenario?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between $\\dbinom{n}{k}$ and permutations?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What is the difference between combinations with replacement and without replacement?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How would you calculate the probability of selecting a certain number of items from a larger set without replacement using combinations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How do you use combinations to find the total number of possible outcomes for a multiple-choice test with a specific number of questions and answer choices?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other math or science concepts that involve combinations or permutations?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

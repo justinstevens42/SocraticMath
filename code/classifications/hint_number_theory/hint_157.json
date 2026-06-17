@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_157",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem": "How many even perfect square factors does $2^4 \\cdot 7^9$ have?",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the prime factorization of $2^4 \\cdot 7^9$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What are the possible values for the exponents in the prime factorization of a factor of $2^4 \\cdot 7^9$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What are the conditions for a positive integer to be a factor of $2^4 \\cdot 7^9$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine if a positive integer is a perfect square based on its prime factorization?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine if a positive integer is even based on its prime factorization?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are the possible values for $a$ and $b$ that satisfy the conditions for a factor to be an even perfect square factor?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How many choices do we have for the value of $a$? And for the value of $b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we calculate the total number of even perfect square factors using the number of choices for $a$ and $b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_504",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem": "Luna writes down all the five-digit numbers that contain each of the digits 1, 2, 3, 4 and 5 exactly once.  What is the smallest number in Luna's list that is divisible by 6?",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "r",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the digits in Luna's list?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How many numbers are in Luna's list?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "According to what rule is a number divisible by 6?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Explain how we know that each number in Luna's list is divisible by 3.",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you determine which number in Luna's list is the smallest number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Using the rule for divisibility by 2, can you eliminate any numbers from Luna's list?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "What is the smallest number that remains after eliminating numbers using the rule for divisibility by 2?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "How do you know that the smallest remaining number is divisible by 6?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_474",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem": "What is the smallest positive integer $n$ such that all the roots of $z^4 - z^2 + 1 = 0$ are $n^{\\text{th}}$ roots of unity?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "f",
+    "e",
+    "b",
+    "b",
+    "r",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first steps you would take to solve this problem? What techniques or concepts come to mind?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for a complex number to be an $n$th root of unity? How does this concept relate to the given equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we manipulate the given equation, $z^4 - z^2 + 1 = 0$, to express it in a different form that might help us find the roots?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How does multiplying the original equation by $z^2 + 1$ give us $z^6 + 1 = 0$? What do you notice about this new equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "By multiplying $z^6 + 1 = 0$ by another equation and simplifying, we arrive at $z^{12} - 1 = 0$. Can you explain the significance of this equation in relation to the original problem?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "How can we factor $z^{12} - 1 = 0$ to better understand the roots? What information does this factorization provide about the values of $z$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "From the factorization, we find that the roots of $z^4 - z^2 + 1 = 0$ are the remaining four $12$th roots of unity. Can you identify these roots?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is a primitive $12$th root of unity? How does this term apply to the roots we found?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "By definition, a primitive $12$th root of unity satisfies $(e^{2 \\pi i/12})^n = 1$. What is the smallest positive integer $n$ that satisfies this equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 10,
+      "question": "Based on your understanding of the question and the concepts explored, what is the smallest possible value of $n$ in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

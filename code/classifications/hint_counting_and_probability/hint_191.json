@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_191",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem": "2 diagonals of a regular heptagon (a 7-sided polygon) are chosen.  What is the probability that they intersect inside the heptagon?",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what a regular heptagon is? What are its properties?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How many diagonals does a regular heptagon have? Can you describe a diagonal of a regular heptagon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many pairs of points can be formed using the vertices of a heptagon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many pairs of diagonals can be formed from the diagonals of a heptagon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why are there 14 diagonals in a heptagon? Can you explain the reasoning behind this?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many sets of four points on the heptagon determine intersecting diagonals? Why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you determine the number of these sets using combinations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the total number of pairs of diagonals in the heptagon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can you calculate the probability of randomly choosing a pair of diagonals that intersect inside the heptagon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you simplify the fraction to find the final probability?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

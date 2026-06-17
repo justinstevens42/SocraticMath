@@ -1,0 +1,96 @@
+{
+  "problem_id": "hint_870",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "A unit cube is cut twice to form three triangular prisms, two of which are congruent, as shown in Figure 1. The cube is then cut in the same manner along the dashed lines shown in Figure 2. This creates nine pieces. What is the volume of the piece that contains vertex $W$?\n\n[asy]\npath a=(0,0)--(10,0)--(10,10)--(0,10)--cycle;\npath b = (0,10)--(6,16)--(16,16)--(16,6)--(10,0);\npath c= (10,10)--(16,16);\npath d= (0,0)--(3,13)--(13,13)--(10,0);\npath e= (13,13)--(16,6);\ndraw(a,linewidth(0.7));\ndraw(b,linewidth(0.7));\ndraw(c,linewidth(0.7));\ndraw(d,linewidth(0.7));\ndraw(e,linewidth(0.7));\ndraw(shift((20,0))*a,linewidth(0.7));\ndraw(shift((20,0))*b,linewidth(0.7));\ndraw(shift((20,0))*c,linewidth(0.7));\ndraw(shift((20,0))*d,linewidth(0.7));\ndraw(shift((20,0))*e,linewidth(0.7));\ndraw((20,0)--(25,10)--(30,0),dashed);\ndraw((25,10)--(31,16)--(36,6),dashed);\ndraw((15,0)--(10,10),Arrow);\ndraw((15.5,0)--(30,10),Arrow);\nlabel(\"$W$\",(15.2,0),S);\nlabel(\"Figure 1\",(5,0),S);\nlabel(\"Figure 2\",(25,0),S);\n[/asy]",
+  "n_questions": 12,
+  "labels": [
+    "r",
+    "b",
+    "r",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the different shapes formed when the cube is cut?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How many triangular prisms are created when the cube is cut?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Are any of the triangular prisms congruent to each other?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How many pieces are created when the cube is cut along the dashed lines in Figure 2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Which piece contains vertex W?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What are the vertices of the pyramid containing vertex W?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "What is the shape of the base of the pyramid?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the length of the sides of the base of the pyramid?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the altitude of the pyramid?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can we calculate the volume of the pyramid?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "What is the formula for calculating the volume of a pyramid?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "By substituting the values into the volume formula, what is the volume of the pyramid containing vertex W?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

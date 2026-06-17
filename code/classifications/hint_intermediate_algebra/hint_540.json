@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_540",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "Factor completely over the set of polynomials with integer coefficients:\n\\[4(x + 5)(x + 6)(x + 10)(x + 12) - 3x^2.\\]",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in factoring this expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What methods do you know for factoring polynomials?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "If we consider the expression $x^2 + 16x + 60$, how can we factor it further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is factoring $(x^2 + 17x + 60)$ and $(x^2 + 16x + 60)$ useful in factoring the original expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What factors did you obtain for $(x^2 + 17x + 60)$ and $(x^2 + 16x + 60)$, and how can you use them to verify your final answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other types of polynomials that might require similar thinking and steps to factor?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

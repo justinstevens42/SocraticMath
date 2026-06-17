@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_398",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem": "Rounded to 2 decimal places, what is $\\frac{7}{9}$?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the concept of rounding to two decimal places?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do you convert a fraction into a decimal?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the decimal representation of 7 divided by 9?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How would you round the decimal 0.7777... to two decimal places?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain what the notation 0.78 means when rounded to two decimal places?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other examples where you would need to round a decimal to two decimal places? Can you provide some examples?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

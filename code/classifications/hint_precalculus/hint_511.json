@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_511",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem": "In three-dimensional space, find the number of lattice points that have a distance of 3 from the origin.\n\nNote: A point is a lattice point if all its coordinates are integers.",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what a lattice point is?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How would you approach finding the number of lattice points that are a distance of 3 from the origin in three-dimensional space?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What are the possible values that each coordinate of the point can take?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the valid combinations of coordinates that satisfy the distance condition?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "If there are two 0s and one 3, how many ways can we arrange them? Can you explain why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What about if there is one 1 and two 2s? How many ways can we arrange them? Can you explain why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How many lattice points do we have in total if we consider both cases?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other scenarios or problems where similar reasoning and steps might be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

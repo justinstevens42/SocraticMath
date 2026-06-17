@@ -1,0 +1,96 @@
+{
+  "problem_id": "hint_418",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "The value of the expression  \\[(3^{1001}+4^{1002})^2-(3^{1001}-4^{1002})^2\\]is $k\\cdot12^{1001}$ for some positive integer $k$. What is $k$?",
+  "n_questions": 12,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "b",
+    "f",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in simplifying this expression?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What rules or properties of exponents might be helpful in simplifying this expression?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you expand the squared binomials, what do you notice about the resulting terms?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can you simplify the expression further by combining like terms?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you identify any patterns or common factors in the resulting terms?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "How can you factor out those common factors and rewrite the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What are the resulting factors after factoring out the common factors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What do you notice about those factors?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 9,
+      "question": "How can you further simplify the expression using the difference of squares property?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the final form of the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "Can you identify any specific terms in the simplified expression that allow us to determine the value of $k$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "What is the value of $k$ and why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

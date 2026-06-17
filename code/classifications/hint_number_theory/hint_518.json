@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_518",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem": "Find the sum of $111_4+323_4+132_4$. Express your answer in base $4$.",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step in finding the sum of $111_4+323_4+132_4$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How do we carry over the values when adding numbers in base 4?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain the process of adding $1_4+3_4+2_4$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why do we need to carry over the value of $1$ in the second column?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the sum of $1_4+1_4+2_4+3_4$ after carrying over the value of $1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do we find the sum of $1_4+1_4+3_4+1_4$ in the leftmost column?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you show the addition of $111_4+323_4+132_4$ in column format as shown in the example?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the final result of $111_4+323_4+132_4$ in base 4?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

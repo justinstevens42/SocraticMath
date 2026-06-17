@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_762",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "Triangle $ABC$ has vertices $A(0, 8)$, $B(2, 0)$, $C(8, 0)$.  A horizontal line with equation $y=t$ intersects line segment $ \\overline{AB} $ at $T$ and line segment $ \\overline{AC} $ at $U$, forming $\\triangle ATU$ with area 13.5.  Compute $t$.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How did you determine the equations of the lines through points A and B, and points A and C?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How did you find the coordinates of point T and point U?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How did you determine that line segment TU is horizontal?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did you calculate the length of line segment TU and the distance from line segment TU to point A?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How did you determine the area of triangle ATU in terms of t?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How did you set up and solve the equation to find the value of t?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

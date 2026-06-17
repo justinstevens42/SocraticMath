@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_537",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "A circle rests in the interior of the parabola with equation $y = x^2,$ so that it is tangent to the parabola at two points.  How much higher is the center of the circle than the points of tangency?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given problem in your own words? What do you need to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What do you notice about the relationship between the circle and the parabola?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Why did we choose to use the point $(a, a^2)$ as one of the points of tangency? How can we determine the other point of tangency?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why did we assume that the center of the circle lies on the $y$-axis?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What do we know about the equation of a circle? How can we use that to write the equation for this specific circle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we express the equation of the parabola in terms of $x$ and $y$? How can we use this information to further simplify the equation of the circle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What makes the equation of the circle a quartic equation? How did we determine the double roots of this equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we use the information about the points of tangency to find the values of $a$ and $b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we derive the difference in $y$-coordinates between the center of the circle and one of the points of tangency?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the final answer to the problem? What does it mean in the context of the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

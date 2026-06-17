@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_410",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "Circles $A,B$, and $C$ are externally tangent to each other and internally tangent to circle $D$. Circles $B$ and $C$ are congruent. Circle $A$ has radius 1 and passes through the center of $D$. What is the radius of circle $B$?\n\n[asy]unitsize(1cm);\npair A,B,C,D;\nA=(-1,0);\nB=(0.66,0.88);\nC=(0.66,-0.88);\nD=(0,0);\ndraw(Circle(A,1),linewidth(0.7));\ndraw(Circle(B,0.88),linewidth(0.7));\ndraw(Circle(C,0.88),linewidth(0.7));\ndraw(Circle(D,2),linewidth(0.7));\nlabel(\"$A$\",A,A);\nlabel(\"$B$\",B,B);\nlabel(\"$C$\",C,C);\nlabel(\"$D$\",(-1.2,1.6),NW);\n[/asy]",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the relationship between circles A, B, C, and D?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What are the radii of circles A and D?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can you apply the Pythagorean theorem to right triangles EGH and FGH?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the system of equations derived from applying the Pythagorean theorem to triangles EGH and FGH?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can you solve the system of equations in question 4 to find the values of x and y?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are the solutions to the system of equations in question 4?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "What is the radius of circle B?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can you verify that the radius of circle B is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

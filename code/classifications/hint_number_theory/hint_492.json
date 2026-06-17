@@ -1,0 +1,117 @@
+{
+  "problem_id": "hint_492",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem": "To transmit a positive integer less than 1000, the Networked Number Node offers two options.\n\nOption 1. Pay $\\$$d to send each digit d. Therefore, 987 would cost $\\$$9 + $\\$$8 + $\\$$7 = $\\$$24 to transmit.\n\nOption 2. Encode integer into binary (base 2) first, and then pay $\\$$d to send each digit d. Therefore, 987 becomes 1111011011 and would cost $\\$$1 + $\\$$1 + $\\$$1 + $\\$$1 + $\\$$0 + $\\$$1 + $\\$$1 + $\\$$0 + $\\$$1 + $\\$$1 = $\\$$8.\n\nWhat is the largest integer less than 1000 that costs the same whether using Option 1 or Option 2?",
+  "n_questions": 15,
+  "labels": [
+    "r",
+    "f",
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the two options provided by the Networked Number Node for transmitting a positive integer less than 1000?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does Option 1 determine the cost of transmitting a number?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain how Option 2 works in encoding the integer into binary and determining the cost?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the largest possible value when sending a number with Option 2?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we find the largest integer less than 1000 that costs the same with both options?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you list the largest numbers less than 1000 that have a cost of 9 with Option 1?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Among the numbers with a cost of 9 in Option 1, can any of them also have a cost of 9 with Option 2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we determine the largest possible integer with a cost of 8 in Option 1?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you verify if the largest numbers with a cost of 8 in Option 1 also have a cost of 8 in Option 2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "With a cost of 8 in Option 2, what is the largest possible integer we can find?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "Do we need to consider numbers with a cost lower than 8 in Option 2? If so, why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "How can we check if there are any larger numbers with an Option 2 cost lower than 8?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 13,
+      "question": "Are there any numbers with a cost lower than 7 in Option 1 that have a higher value than the largest integer found so far?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 14,
+      "question": "Can we eliminate any numbers with a cost of 6 in Option 1 that have a higher value than the largest integer found so far?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 15,
+      "question": "What is the final conclusion in finding the largest integer that costs the same with both options?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "problem_id": "hint_57",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem": "For what values of the constant $c$ does the graph of $f(x) = \\frac{x^2-x+c}{x^2+x-6}$ have exactly one vertical asymptote?\n\nEnter the possible values of $c,$ separated by commas.",
+  "n_questions": 11,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what a vertical asymptote is in the context of a graph?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the vertical asymptotes of a rational function?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for a rational function to have exactly one vertical asymptote?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Given the rational function $f(x) = \\frac{x^2-x+c}{x^2+x-6}$, how can we determine if it has only one vertical asymptote?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What condition(s) must be met in order for a factor in the denominator to be canceled out by a factor in the numerator, resulting in a hole instead of an asymptote?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are the factors of the denominator $(x-2)(x+3)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Under what conditions should there be no hole at $x = 2$ and $x = -3$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "How can we apply the Factor theorem to find the possible values of $c$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What values of $c$ satisfy the equation $2^2 - 2 + c = 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What values of $c$ satisfy the equation $3^2 + 3 + c = 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "Considering the solutions to the equations above, what are the possible values of $c$ that result in exactly one vertical asymptote for the graph of $f(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

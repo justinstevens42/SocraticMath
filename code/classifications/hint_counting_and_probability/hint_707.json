@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_707",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem": "A bakery sells three kinds of rolls. How many different combinations of rolls could Jack purchase if he buys a total of six rolls and includes at least one of each kind?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you restate the problem in your own words? What are we trying to determine?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many kinds of rolls are there in total? And how many rolls does Jack need to buy?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "If Jack needs to buy at least one of each kind of roll, how many rolls are left after we set aside one of each kind?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Let's consider the first case: what if the remaining three rolls are one of each kind? How many combinations are there?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Now let's move on to the second case: what if the remaining three rolls are all the same kind? How many combinations are there for each kind of roll?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain how you found the number of combinations in the second case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Lastly, let's explore the third case: what if the remaining three rolls are two of one kind and one of another kind? How many combinations are there for each combination of rolls?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you explain the process you used to find the number of combinations in the third case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

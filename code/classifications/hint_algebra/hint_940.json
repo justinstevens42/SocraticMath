@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_940",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem": "How much money should I invest at an annually compounded interest rate of $5\\%$  so that I have $\\$500,\\!000$ in ten years?  Express your answer as a dollar value rounded to the nearest cent.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "f",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the formula for compound interest and how can it be applied to this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How does the interest rate impact the growth of the investment over time?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the significance of the compounding period in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain the concept of \"annually compounded interest\" and how it differs from other compounding periods?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the given information to set up an equation to solve for the initial investment?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are the steps involved in solving this equation for the unknown investment amount?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can we use rounding to the nearest cent to express the answer as a dollar value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Is there any other information or assumptions needed to solve this problem accurately?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What variables are involved in the equation and how do they relate to the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of different scenarios where the same concepts of compound interest and investment would be applicable?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

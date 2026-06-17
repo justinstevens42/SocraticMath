@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_410",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem": "What is the constant term of the expansion of $\\left(6x+\\dfrac{1}{3x}\\right)^6$?",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "b",
+    "r",
+    "b",
+    "r",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the expansion of $\\left(6x+\\dfrac{1}{3x}\\right)^6$ using the binomial theorem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How many terms are there in the expansion?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean when a term in the expansion has a constant term?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine which terms contribute the constant term in this expansion?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does the binomial coefficient $\\binom{6}{3}$ relate to the constant term?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What are the coefficients of the terms that contribute $6x$ and $\\frac{1}{3x}$ in the expansion?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can you use the coefficients to find the constant term?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other examples where the constant term can be found using a similar thought process and steps?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

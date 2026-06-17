@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_695",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem": "The average age of five children is 6 years old. Each child is a different age and there is a difference of two years in the ages of any two consecutive children. In years, how old is the oldest child?",
+  "n_questions": 10,
+  "labels": [
+    "b",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many children are there in total?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Is the age of each child different from the others?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Are the ages of the children in an arithmetic progression or evenly spaced sequence?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Is the age difference between any two consecutive children two years?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the average age of the five children?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What can you say about the median age of the children?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Based on the information given, what is the age of the third child?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "If the second child is 8 years old, what does that tell you about the age of the first child?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the age difference between the first and second child?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can you determine the age of the oldest child based on the information given?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

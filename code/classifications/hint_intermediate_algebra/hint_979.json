@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_979",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "The equation $x^3 - 9x^2 + 8x +2 = 0$ has three real roots $p$, $q$, $r$.  Find $\\frac{1}{p^2} + \\frac{1}{q^2} + \\frac{1}{r^2}$.",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many real roots does the equation $x^3 - 9x^2 + 8x +2 = 0$ have?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain what Vieta's relations are and how they are used to find the sum and product of the roots?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "According to Vieta's relations, what are the values of $p+q+r$, $pq+qr+pr$, and $pqr$ for this equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we use these values to find $\\frac{1}{p^2} + \\frac{1}{q^2} + \\frac{1}{r^2}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you calculate $\\frac{1}{p^2} + \\frac{1}{q^2} + \\frac{1}{r^2}$ using the given values and Vieta's relations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there any special reasoning or property that allows us to simplify the expression for $\\frac{1}{p^2} + \\frac{1}{q^2} + \\frac{1}{r^2}$? If so, what is it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final result for $\\frac{1}{p^2} + \\frac{1}{q^2} + \\frac{1}{r^2}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

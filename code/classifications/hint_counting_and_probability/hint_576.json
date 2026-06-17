@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_576",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 1",
+  "problem": "What is the largest prime factor of $5! + 6!$?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you state what the concept of prime factorization is?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How is prime factorization useful when solving problems in number theory?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you express what the factorial notation represents and why it is relevant to this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can you break down the expression $5!+6!$ into its prime factors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why is identifying prime factors important, and can you explain the significance of the largest prime factor in this problem?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Is there a general approach or strategy that can be used to find the largest prime factor of an integer expressed as a factorial sum like $5!+6!$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

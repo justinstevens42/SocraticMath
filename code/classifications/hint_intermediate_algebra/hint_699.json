@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_699",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem": "Let $x_1,$ $x_2,$ $\\dots,$ $x_n$ be nonnegative real numbers such that $x_1 + x_2 + \\dots + x_n = 1$ and\n\\[x_1^2 + x_2^2 + \\dots + x_n^2 \\le \\frac{1}{100}.\\]Find the smallest possible value of $n.$",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What inequality does the given information imply?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain what the QM-AM inequality states?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How does applying the QM-AM inequality help us in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "What is the resulting inequality after applying the QM-AM inequality?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use this resulting inequality to find a lower bound on the value of n?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain why the inequality $\\frac{1}{n^2} \\le \\frac{1}{100n}$ holds?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the minimum value of n that satisfies this inequality?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you find a set of nonnegative real numbers that satisfy the given conditions for this minimum value of n?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Is it possible to find a smaller value of n that satisfies the given conditions? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

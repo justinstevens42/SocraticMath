@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_273",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem": "Find the area of the region bounded by the graph of $r = \\sec \\theta,$ the graph of $r = \\csc \\theta,$ the $x$-axis, and the $y$-axis.",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you define the region we are interested in?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What are the equations of the graphs $r = \\sec \\theta$ and $r = \\csc \\theta$ in rectangular coordinates $(x, y)$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you analyze the equations to determine the boundaries of the region?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What are the slope and y-intercept of the line $x = 1$? How about the line $y = 1$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How would you describe the shape of the region bounded by these lines?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you sketch a rough graph of the region?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What are the coordinates of the vertices of the region?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "How would you calculate the area of the region?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any alternative approaches to finding the area, based on different coordinate systems or integration?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

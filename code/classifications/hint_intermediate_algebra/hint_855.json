@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_855",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "A real number $a$ is chosen randomly and uniformly from the interval $[-20, 18]$. Find the probability that the roots of the polynomial\n\\[x^4 + 2ax^3 + (2a - 2)x^2 + (-4a + 3)x - 2\\]are all real.",
+  "n_questions": 10,
+  "labels": [
+    "b",
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the relationship between the roots of the polynomial and the value of $a$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the roots of the polynomial when $a$ is given?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Why is it sufficient to check the roots at $x=1$ and $x=-2$ to determine the nature of the roots of the given polynomial?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we express the polynomial in factored form after finding the roots at $x=1$ and $x=-2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What conditions need to be satisfied for the roots of $x^2 + (2a-1)x + 1$ to be real?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Why does the condition $(2a-1)^2 - 4 \\ge 0$ guarantee that the roots of $x^2 + (2a-1)x + 1$ are real?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we rewrite the condition $(2a-1)^2 - 4 \\ge 0$ in terms of $a$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the interval of values for $a$ that satisfy the condition $(2a-1)^2 - 4 \\ge 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we find the length of the interval that satisfies the condition?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the probability that a randomly chosen $a$ from the interval $[-20, 18]$ satisfies the condition for real roots?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

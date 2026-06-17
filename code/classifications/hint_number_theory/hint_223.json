@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_223",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 1",
+  "problem": "When $n$ is divided by 6, a remainder of 1 is given. What is the remainder when $n+2010$ is divided by 6?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How do we know that $n$ has a remainder of 1 when divided by 6?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean when we say that $n+2010$ is divided by 6?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Based on the information given, what is the relationship between the remainders of $n$ and $n+6$ when divided by 6?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we express $2010$ in terms of $6$? What does this tell us about the relationship between $n$ and $n+2010$ when divided by 6?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What happens to the remainder of $n+6$ when we keep adding 6 to it repeatedly? How does this relate to the remainder of $n+2010$ when divided by 6?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other examples where a similar reasoning and steps can be applied to determine the remainder of a sum when divided by a given number?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

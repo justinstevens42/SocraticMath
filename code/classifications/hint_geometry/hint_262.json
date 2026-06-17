@@ -1,0 +1,89 @@
+{
+  "problem_id": "hint_262",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "A cube has side length $6$. Its vertices are alternately colored black and purple, as shown below. What is the volume of the tetrahedron whose corners are the purple vertices of the cube? (A tetrahedron is a pyramid with a triangular base.)\n\n[asy]\nimport three;\nreal t=-0.05;\ntriple A,B,C,D,EE,F,G,H;\nA = (0,0,0);\nB = (cos(t),sin(t),0);\nD= (-sin(t),cos(t),0);\nC = B+D;\nEE = (0,0,1);\nF = B+EE;\nG = C + EE;\nH = D + EE;\ndraw(surface(B--EE--G--cycle),rgb(.6,.3,.6),nolight);\ndraw(surface(B--D--G--cycle),rgb(.7,.4,.7),nolight);\ndraw(surface(D--EE--G--cycle),rgb(.8,.5,.8),nolight);\ndraw(B--C--D);\ndraw(EE--F--G--H--EE);\ndraw(B--F);\ndraw(C--G);\ndraw(D--H);\npen pu=rgb(.5,.2,.5)+8; pen bk=black+8;\ndot(B,pu); dot(C,bk); dot(D,pu); dot(EE,pu); dot(F,bk); dot(G,pu); dot(H,bk);\n[/asy]",
+  "n_questions": 11,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of a tetrahedron?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How is the volume of a pyramid calculated?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Why is determining the height of the purple tetrahedron tricky?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How many clear tetrahedra are there in this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the area of the base of one clear tetrahedron?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What is the corresponding height of one clear tetrahedron?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How is the volume of one clear tetrahedron calculated?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the volume of all four clear tetrahedra combined?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the volume of the cube?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How is the volume of the purple tetrahedron calculated based on the information we have gathered?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "What is the final answer for the volume of the purple tetrahedron?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_180",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem": "A solid right prism $ABCDEF$ has a height of 16, as shown. Also, its bases are equilateral triangles with side length 12. Points $X$, $Y$, and $Z$ are the midpoints of edges $AC$, $BC$, and $DC$, respectively. Determine the perimeter of triangle $XYZ$. [asy]\npair A, B, C, D, E, F, X, Y, Z;\nA=(0,0);\nB=(12,0);\nC=(6,-6);\nD=(6,-22);\nE=(0,-16);\nF=(12,-16);\nX=(A+C)/2;\nY=(B+C)/2;\nZ=(C+D)/2;\ndraw(A--B--C--A--E--D--F--B--C--D);\ndraw(X--Y--Z--X, dashed);\nlabel(\"$A$\", A, NW);\nlabel(\"$B$\", B, NE);\nlabel(\"$C$\", C, N);\nlabel(\"$D$\", D, S);\nlabel(\"$E$\", E, SW);\nlabel(\"$F$\", F, SE);\nlabel(\"$X$\", X, SW);\nlabel(\"$Y$\", Y, SE);\nlabel(\"$Z$\", Z, SE);\nlabel(\"12\", (A+B)/2, dir(90));\nlabel(\"16\", (B+F)/2, dir(0));\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a right prism and how is it different from other types of prisms?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How are the bases of this particular prism related to each other and to the height?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What are the coordinates of points X, Y, and Z relative to the vertices of the prism?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do we know that triangles XCZ and YCZ are right-angled at C?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the Pythagorean theorem and how is it used to find XZ and YZ?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How is the measure of angle XCY calculated and why is it important?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "What can we conclude about triangle CXY based on its properties?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How do we find the perimeter of triangle XYZ based on the previously calculated lengths?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can the same method be used to find the perimeter of any triangle in a right prism with equilateral base triangles? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can the knowledge gained from this problem be applied to other geometric concepts or problem-solving scenarios?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

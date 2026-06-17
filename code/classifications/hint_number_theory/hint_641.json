@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_641",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem": "Convert $1011001_2$ to base 4.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain why we need to convert $1011001_2$ to base 4? What is the purpose of converting between bases?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Based on the base conversion process you mentioned, can you describe the specific steps you would take to convert $1011001_2$ to base 4?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If we start grouping the base 2 digits from the right side, why do we need to pair them in sets of 2? What does this pairing represent in the base conversion?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain how you determined that $01_2$ is equal to $1_4$? What is the relationship between these two numbers in different bases?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did you obtain the base 4 digits $1121$ from the base 2 number $1011001$? Can you explain the process in detail?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any similarities or patterns you noticed during the conversion process that might apply to converting other base 2 numbers to base 4? Can you give an example?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

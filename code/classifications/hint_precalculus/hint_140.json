@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_140",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem": "Let $a$ and $b$ be angles such that\n\\[\\cos (a + b) = \\cos a + \\cos b.\\]Find the maximum value of $\\cos a.$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Are you familiar with any different methods that can be used to solve equations like this?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you choose to use the sum-to-product formula, how would you find the appropriate values for the angles a and b?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is it possible to use the sum-to-product formula in this equation? What characteristics make it suitable for this method?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What are the values of a and b that you found using the sum-to-product formula, and how do these values confirm that your solution is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other types of equations where similar thinking and steps might be useful in solving them?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

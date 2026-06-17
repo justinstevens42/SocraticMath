@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_193",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem": "The graph of\n\\[r = -2 \\cos \\theta + 6 \\sin \\theta\\]is a circle.  Find the area of the circle.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we rewrite the equation $r = -2 \\cos \\theta + 6 \\sin \\theta$ in standard form $x^2 + y^2 = r^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "By completing the square, what are the equations for $x$ and $y$ in terms of $\\theta$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What are the coordinates of the center of the circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the radius of the circle from the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the formula for finding the area of a circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What is the area of the circle represented by the equation $r = -2 \\cos \\theta + 6 \\sin \\theta$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

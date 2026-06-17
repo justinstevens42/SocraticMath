@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_456",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem": "The sum of the first $n$ terms in the infinite geometric sequence $\\left\\{\\frac{1}{4},\\frac{1}{8},\\frac{1}{16},\\dots \\right\\}$ is $\\frac{63}{128}$. Find $n$.",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is an infinite geometric sequence? Can you give some examples?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the sum of the first $n$ terms of an infinite geometric sequence? Are there any formulas or patterns we can use?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you express the terms of the given sequence in a general form? What is the common ratio?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Using the formula for the sum of an infinite geometric sequence, can you write an equation to represent the given problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we solve the equation to find the value of $n$? Are there any specific steps or techniques we can use?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you apply the formula and solve the equation step by step? What is the value of $n$ that you get?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we verify that the value of $n$ is correct? Is there any way to check our solution?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other types of problems where the sum of an infinite geometric sequence is involved? How would you approach solving those problems?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

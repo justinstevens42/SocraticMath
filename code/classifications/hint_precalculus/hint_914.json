@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_914",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem": "A regular hexagon with center at the origin in the complex plane has opposite pairs of sides one unit apart. One pair of sides is parallel to the imaginary axis. Let $R$ be the region outside the hexagon, and let $S = \\left\\lbrace\\frac{1}{z} \\ | \\ z \\in R\\right\\rbrace$.  Find the area of $S.$",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the equation for one side of the hexagon in the complex plane?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the coordinates of a point $z$ outside the hexagon in terms of its inverse, $\\frac{1}{z}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the equation for the circle that the points $z$ outside the hexagon trace when mapped to their inverses $\\frac{1}{z}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the angle of one of the $120^\\circ$ sectors formed by the hexagon and circle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the formula for the area of an equilateral triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How many equilateral triangles are there in the region $R$ outside the hexagon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How many $120^\\circ$ sectors are there in the region $R$ outside the hexagon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the formula for the area of a $120^\\circ$ sector?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "How can we use the formulas for the area of an equilateral triangle and a $120^\\circ$ sector to find the total area of region $S$ in terms of $\\pi$ and $\\sqrt{3}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Are there any alternative methods we can use to find the arc of the circle mapped by $z$ to its inverse $\\frac{1}{z}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_453",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem": "What is $\\left(\\dfrac{3}{4}\\right)^5$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the meaning of exponents and how they relate to repeated multiplication?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Based on the given exponent rule $\\left(\\dfrac{a}{b}\\right)^n = \\dfrac{a^n}{b^n}$, what does $\\left(\\dfrac{3}{4}\\right)^5$ represent?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How would you write $\\left(\\dfrac{3}{4}\\right)^5$ as a fraction using the exponent rule?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do you simplify the numerator and denominator of the fraction $\\dfrac{3^5}{4^5}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you simplify $\\dfrac{3^5}{4^5}$ to obtain a numerical value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other examples in which the exponent rule $\\left(\\dfrac{a}{b}\\right)^n = \\dfrac{a^n}{b^n}$ would be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

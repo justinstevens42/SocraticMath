@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_111",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem": "$A$, $B$, $C$, and $D$ are points on a circle, and segments $\\overline{AC}$ and $\\overline{BD}$ intersect at $P$, such that $AP=8$, $PC=1$, and $BD=6$. Find $BP$, given that $BP < DP.$\n\n[asy]\n\nunitsize(0.6 inch);\n\ndraw(circle((0,0),1));\ndraw((-0.3,0.94)--(0.3,-0.94));\ndraw((-0.7,-0.7)--(0.7,-0.7));\n\nlabel(\"$A$\",(-0.3,0.94),NW);\ndot((-0.3,0.94));\nlabel(\"$B$\",(0.7,-0.7),SE);\ndot((0.7,-0.7));\nlabel(\"$C$\",(0.3,-0.94),SSE);\ndot((0.3,-0.94));\nlabel(\"$D$\",(-0.7,-0.7),SW);\ndot((-0.7,-0.7));\ndot((0.23,-0.7));\nlabel(\"$P$\",(0.23,-0.7),NE);\n\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "f",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given situation and identify any key information or variables related to the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the concept of power of a point to approach this problem? What formula is involved?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the given information to set up an equation involving $x$, where $BP=x$ and $PD=6-x$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How does solving the equation $8=x(6-x)$ help us find the value of $x$, and thus the length of $BP$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there any steps or assumptions we made in this problem that we should double check or justify?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of a similar problem or application of the power of a point theorem in geometry?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_277",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem": "The midpoint of a line segment is located at $(1, -2)$. If one of the endpoints is $(4, 5)$, what is the other endpoint? Express your answer as an ordered pair.",
+  "n_questions": 10,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "e",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we determine the coordinates of the midpoint of a line segment?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for two points to be the endpoints of a line segment?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Based on the given information, what can we infer about the coordinates of the other endpoint?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we calculate the x-coordinate of the other endpoint using the midpoint formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we calculate the y-coordinate of the other endpoint using the midpoint formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Using the midpoint formula and the given information, what are the coordinates of the other endpoint?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Can we confirm that these coordinates are correct? How?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What other methods or formulas could be used to find the coordinates of the other endpoint?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "How does finding the midpoint of a line segment relate to algebraic concepts such as linear equations or systems of equations?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any real-world scenarios where finding the midpoint of a line segment would be useful or applicable?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

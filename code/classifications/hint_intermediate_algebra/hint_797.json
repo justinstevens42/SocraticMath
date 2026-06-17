@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_797",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "The polynomial $f(x) = x^3 + x^2 + 2x + 3$ has three distinct roots. Let $g(x) = x^3+bx^2+cx+d$ be a cubic polynomial with leading coefficient $1$ such that the roots of $g(x)$ are the squares of the roots of $f(x)$. Find the ordered triple $(b,c,d)$.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain why $r$ being a root of $f(x) = 0$ implies that $r^3+r^2+2r+3=0$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How did we rearrange the equation $r^3+2r=-r^2-3$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What did we do next to solve for $r$ in terms of $r^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How did we obtain the equation $r^6+3r^4-2r^2-9=0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why we rewrote the equation in the form $(r^2)^3 + 3(r^2)^2 - 2r^2 - 9 =0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Why did we conclude that $x^3+3x^2-2x-9$ is the polynomial $g(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain why the ordered triple $(b,c,d)$ is $(3,-2,-9)$ based on the polynomial $g(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

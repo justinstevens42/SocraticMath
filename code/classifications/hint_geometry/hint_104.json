@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_104",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 1",
+  "problem": "A circular spinner for a game has a radius of 10 cm. The probability of winning on one spin of this spinner is $\\frac{2}{5}$. What is the area, in sq cm, of the WIN sector? Express your answer in terms of $\\pi$.\n\n[asy]import graph;\n\ndraw(Circle((0,0),25),black);\n\ndraw((0,0)--(7,18),Arrow);\n\ndraw((0,0)--(0,25));\n\ndraw((0,0)--(15,-20));\n\nlabel(\"WIN\",(10,10),S);\n\nlabel(\"LOSE\",(-8,-8),N);\n\ndot((0,0));\n\n[/asy]",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of probability?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the formula for calculating the area of a circle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How does the radius of the spinner relate to the probability of winning?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can we calculate the area of the win sector using the given probability? If so, how?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can we solve for the area of the win sector using the ratio of the area of the win sector to the area of the entire circle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the process for solving the problem using the given formula and ratio?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can we generalize this problem to find the area of the win sector for different values of probability and radius?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How does this problem relate to real-world situations involving probability and geometric shapes?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

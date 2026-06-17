@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_932",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem": "What is the smallest positive integer $n$ such that $531n \\equiv 1067n \\pmod{24}?$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what is meant by $531n \\equiv 1067n \\pmod{24}$ in Number Theory?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the definition of being \"divisible by\" in general? How does the definition apply to the current problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we simplify the expression $531n-1067n$ to make it easier to work with?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "To find the smallest positive integer $n$ that satisfies the equation, what property do we need to use about the prime factorizations of $67$ and $3$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why is it necessary for $n$ to be a multiple of $3$ in order to satisfy the given congruence?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Could there be other integers that satisfy this congruence? How can we prove that the value of $n$ we found is the smallest one?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

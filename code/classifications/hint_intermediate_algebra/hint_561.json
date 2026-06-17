@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_561",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem": "Find the number of integers $n$ that satisfy\n\\[10 < n^2 < 99.\\]",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we approach the problem of finding integers $n$ that satisfy $10 < n^2 < 99$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can we simplify the inequalities $10 < n^2 < 99$ in any way?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many integers satisfy the inequality $n^2 < 99$? What about $n^2 > 10$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the range of values for $n$ that satisfy the inequality $n^2 < 99$? What about $n^2 > 10$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we find the intersection of the ranges of $n$ that satisfy $n^2 < 99$ and $n^2 > 10$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are the integer solutions of $n$ that satisfy the inequality $10 < n^2 < 99$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "problem_id": "hint_1031",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "An ellipse with equation\n\\[\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1\\]contains the circles $(x - 1)^2 + y^2 = 1$ and $(x + 1)^2  +y^2 = 1.$  Then the smallest possible area of the ellipse can be expressed in the form $k \\pi.$  Find $k.$",
+  "n_questions": 11,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "r",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the equation of the ellipse and what are the equations of the two circles given in the problem statement?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the fact that the ellipse is tangent to the circle $(x-1)^2+y^2=1$ to solve for the equation of the ellipse?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the equation we get for the ellipse after substituting in the value of $y^2$ from the circle $(x-1)^2+y^2=1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How do we use symmetry to find the discriminant of the quadratic equation derived from the equation of the ellipse?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Why must the discriminant of the quadratic equation derived from the equation of the ellipse equal 0 for the x-coordinates of the tangent points to be equal?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How do we simplify the equation derived from the discriminant of the quadratic equation and what does it reveal about the relationship between $a$ and $b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the equation for the area of the ellipse and how is it related to $ab$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "How do we minimize the expression for $ab$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What substitution can we make to further simplify the expression for $ab$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Why is the inequality derived from AM-GM inequality valid?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "What is the minimum value of $ab$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

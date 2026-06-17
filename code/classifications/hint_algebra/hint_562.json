@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_562",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem": "Find the greatest value of $a$ such that $a^2-10a+21 \\le 0$.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you approach solving inequalities like $a^2-10a+21 \\le 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you factorize the quadratic expression $a^2-10a+21$? If so, what are the factors?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How would you determine the sign of each factor in order to solve the inequality?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What values of $a$ satisfy the condition $(a-3)(a-7)\\le0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can you interpret the condition $(a-3)(a-7)\\le0$ in terms of the graph of the quadratic function?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other ways you can think of to solve inequalities similar to this one?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_72",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem": "There are 5 blue chips, 4 red chips and 3 yellow chips in a bag. One chip is drawn from the bag. That chip is placed back into the bag, and a second chip is drawn. What is the probability that the two selected chips are of different colors? Express your answer as a common fraction.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem we are trying to solve, and what information do we have?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the possible outcomes for the first chip drawn, and what is the probability of each outcome?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If the first chip drawn is blue, what are the possible outcomes for the second chip drawn, and what is the probability of each outcome?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What are the corresponding probabilities for the second chip if the first chip drawn is red or yellow?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we calculate the overall probability of drawing two chips of different colors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we double-check our answer using a different method or approach?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How would the probabilities change if the chips were not replaced after each draw?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

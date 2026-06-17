@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_349",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem": "Let $P(n)$ and $S(n)$ denote the product and the sum, respectively, of the digits of the integer $n$. For example, $P(23) = 6$ and $S(23) = 5$. Suppose $N$ is a two-digit number such that $N = P(N) +\nS(N)$. What is the units digit of $N$?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the problem statement in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How would you represent the product and sum of the digits of a number mathematically?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What do we know about the two-digit number N? How can we represent it algebraically?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "In order to find the units digit of N, what equations can we set up using the given information?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we solve the equation N = P(N) + S(N) algebraically?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you propose any strategies or approaches to simplify the equation and find the units digit?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What are the possible values for the units digit of N based on the given equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any restrictions on the values of the units digit of N? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any similar problems where algebraic expressions are used to represent digits in numbers?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "How can we verify our solution and ensure that the units digit is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

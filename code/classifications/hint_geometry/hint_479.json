@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_479",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem": "Six small circles, each of radius $3$ units, are tangent to a large circle as shown. Each small circle also is tangent to its two neighboring small circles. What is the diameter of the large circle in units? [asy]\ndraw(Circle((-2,0),1));\ndraw(Circle((2,0),1));\ndraw(Circle((-1,1.73205081),1));\ndraw(Circle((1,1.73205081),1));\ndraw(Circle((-1,-1.73205081),1));\ndraw(Circle((1,-1.73205081),1));\ndraw(Circle((0,0),3));\n[/asy]",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many small circles are tangent to the large circle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the radius of each small circle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you identify any special relationships among the centers of the small circles?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the diameter of the large circle using the information given?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Is there a connection between the inner and outer hexagons formed by the small circle centers and the vertices of the large circle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why the triangles formed by connecting the center of the large circle to two vertices of the regular hexagon are equilateral?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How does the fact that the triangles are equilateral help us find the diameter of the large circle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any other ways to solve this problem using different geometric concepts or properties?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

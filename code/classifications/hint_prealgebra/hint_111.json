@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_111",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 1",
+  "problem": "Find $(21 \\div (6 + 1 - 4)) \\cdot 5.$",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the first step in solving the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Why is it important to perform the calculations within the inner set of parentheses first? What happens if we ignore them?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How would you simplify the inner set of parentheses? What is the result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What do you notice about the value of $21 \\div 3$ obtained after simplifying the inner set of parentheses? How does it relate to the original expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What operation should be performed next to simplify the expression further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why multiplying $7$ by $5$ gives us the final result for the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there alternative ways to simplify the expression that yield the same result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of a similar expression where the order of operations would lead to a different result if not followed correctly?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

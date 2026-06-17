@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_556",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem": "If a regular polygon has a total of nine diagonals, how many sides does it have?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what a diagonal is in the context of a polygon?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many sides does a regular polygon with n sides have?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many diagonals are there in a regular polygon with n sides?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "If a regular polygon has a total of nine diagonals, what equation can we set up to represent this relationship?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we solve the equation to find the value of n, representing the number of sides? Which method(s) could we use?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "If we find the value of n to be greater than or equal to 3, does it make sense in the context of a polygon? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Based on the equation and reasoning, what is the value of n? How does it relate to the number of sides a regular polygon with nine diagonals has?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other situations or problems where we can utilize similar thinking and steps to find the desired solution?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

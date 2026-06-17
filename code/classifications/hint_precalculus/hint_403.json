@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_403",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 1",
+  "problem": "Find $\\sin \\frac{11 \\pi}{3}.$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Firstly, can you remind me how the sine function is defined? What is its relationship to the unit circle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we express $\\frac{11\\pi}{3}$ in degrees? What does this representation tell us about the angle we're dealing with?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Since the sine function has a period of $360^\\circ$, what other angle(s) with the same sine value can we consider that is smaller than $660^\\circ$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the sine of $-60^\\circ$? How does this relate to the sine of $60^\\circ$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you recall the value of $\\sin 60^\\circ$? How does this help us determine the value of $\\sin \\frac{11\\pi}{3}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other types of angles or trigonometric functions that could be approached in a similar way as we did here? Can you think of any specific examples?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

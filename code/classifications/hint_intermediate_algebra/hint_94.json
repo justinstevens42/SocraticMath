@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_94",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "Let $a,$ $b,$ $c,$ $z$ be complex numbers such that $|a| = |b| = |c| > 0$ and\n\\[az^2 + bz + c = 0.\\]Find the largest possible value of $|z|.$",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we rearrange the equation $az^2 + bz + c = 0$ in order to find the largest possible value of $|z|$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between the absolute values of $a,$ $b,$ and $c$ in this equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the Triangle Inequality to derive an inequality involving $|z|$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can we simplify the inequality we derived using the Triangle Inequality? If so, how?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What are the possible values of $|z|$ that satisfy the inequality we obtained?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you find specific complex numbers $a,$ $b,$ $c,$ and $z$ that satisfy the conditions of the problem and achieve the maximum value of $|z|$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the largest possible value of $|z|$ that satisfies the given conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

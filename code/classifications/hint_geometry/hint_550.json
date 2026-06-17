@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_550",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "Two congruent cones with radius 12 cm and height 12 cm are enclosed within a cylinder. The base of each cone is a base of the cylinder, and the height of the cylinder is 24 cm. What is the number of cubic centimeters in the volume of the cylinder not occupied by the cones? Express your answer in terms of $\\pi$.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in finding the volume of the cylinder not occupied by the cones?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we calculate the volume of the cylinder?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the formula for calculating the volume of a cone?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the volume of two congruent cones?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the formula for finding the volume of the space not occupied by the cones?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you simplify the equation to express the volume in terms of π?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final answer for the volume of the space not occupied by the cones?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

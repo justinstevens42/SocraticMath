@@ -1,0 +1,47 @@
+{
+  "problem_id": "hint_984",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem": "Natural numbers of the form $F_n=2^{2^n} + 1 $ are called Fermat numbers. In 1640, Fermat conjectured that all numbers $F_n$, where $n\\neq 0$, are prime. (The conjecture was later shown to be false.) What is the units digit of $F_{1000}$?",
+  "n_questions": 5,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are Fermat numbers and how are they defined?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Who conjectured that all Fermat numbers are prime and when was this conjecture made?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Has the conjecture about Fermat numbers being prime been proven to be true or false? If false, can you provide an example of a Fermat number that is not prime?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the cycle of units digits for powers of 2? How can we use this cycle to find the units digit of $2^{2^{1000}}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we find the units digit of $F_{1000}$ given that $F_{1000}=2^{2^{1000}}+1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

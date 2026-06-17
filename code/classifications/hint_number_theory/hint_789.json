@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_789",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem": "What is the $111$th digit after the decimal point when $\\frac{33}{555}$ is expressed as a decimal?",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we express $\\frac{33}{555}$ as a decimal?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you describe the process of long division and how it can be used to find the decimal representation of a fraction?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What do you notice about the decimal representation of $\\frac{33}{555}$ after the decimal point? Is there a pattern?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the number of digits in the repeating block?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why does the repeating block have three digits in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What can we deduce about the position of a specific digit within the repeating block?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we use the remainder when dividing the desired position by the length of the repeating block to find the corresponding digit?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you generalize this method to find the nth digit after the decimal point in any repeating decimal representation?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

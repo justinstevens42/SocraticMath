@@ -1,0 +1,40 @@
+{
+  "problem_id": "hint_465",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem": "What is the least three-digit whole number, the product of whose digits is 6?",
+  "n_questions": 4,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the minimum value for the hundreds digit in a three-digit number whose product of digits is 6?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the minimum value for the tens digit in a three-digit number with the minimum hundreds digit, that also has a product of digits equal to 6?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the units digit of the three-digit number with the minimum hundreds and tens digit, whose product of digits is 6?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "By minimizing the hundreds and tens digit and determining the units digit, what is the least three-digit whole number whose product of digits is 6?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

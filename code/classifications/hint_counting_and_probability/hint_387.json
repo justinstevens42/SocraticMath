@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_387",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem": "On the refrigerator, MATHEMATICS is spelled out with $11$ magnets, one letter per magnet. Two vowels and four consonants fall off and are put away in a bag. If the T's, M's, and A's are indistinguishable, how many distinct possible collections of letters could be put in the bag?",
+  "n_questions": 10,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many vowels are there in the word \"MATHEMATICS\"? How many consonants?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Why are the Ts, Ms, and As considered indistinguishable in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many distinct pairs of vowels can be chosen from the four vowels in the word?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many consonants are there in the word? How many distinct collections of consonants can be chosen?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "If we choose one T and no Ms, how many choices do we have for the remaining consonants? What about choosing one M and no Ts?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "If we choose both Ts and no Ms, how many choices do we have for the remaining consonants? What if we choose both Ms and no Ts, or choose one T and one M?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "If we choose both Ts and one M, or choose both Ms and one T, how many choices do we have for the remaining consonant?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "If we choose both Ts and both Ms, do we have any more letters left to choose? How many additional choices do we have in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we calculate the total number of distinct collections of letters by combining the number of vowel pairs and consonant collections?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How many distinct collections of letters are there in total?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

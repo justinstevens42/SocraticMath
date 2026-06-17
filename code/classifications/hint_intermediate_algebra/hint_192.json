@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_192",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem": "For which value of $x$ does the function $f(x) = \\frac{2x^2 - 5x - 7}{x^2 - 4x + 1}$ cross its horizontal asymptote?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "f",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step you would take to solve this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How do you determine the horizontal asymptote of a function?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for a function to cross its horizontal asymptote?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the equation that represents the horizontal asymptote of the function in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can you use this equation to find the value of x where the function crosses its horizontal asymptote?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain the process of clearing the denominator in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "Why does clearing the denominator allow us to solve for x?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you explain how you simplified the equation after clearing the denominator?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the final answer you obtained and how did you arrive at it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any other equations where you might need to determine when a function crosses its horizontal asymptote?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

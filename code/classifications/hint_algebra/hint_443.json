@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_443",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "What is the range of the function $$r(x) = \\frac{1}{(1-x)^2}~?$$ Express your answer in interval notation.",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does the term \"range\" mean in the context of functions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the range of a function algebraically?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Looking at the function $r(x) = \\frac{1}{(1-x)^2}$, what restrictions or limitations are there on the input values of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Considering the denominator $(1-x)^2$, what does this expression tell us about the possible values of $x$ in the function?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you identify any values of $x$ that would make the function undefined? What would happen to the function at those points?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Given the restrictions on $x$, what does this tell us about the range of the function?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we express the range of the function in interval notation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any specific intervals or values that should be excluded from the range based on the function's behavior?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_197",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem": "The least common multiple of two integers is 36 and 6 is their greatest common divisor. What is the product of the two numbers?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we find the least common multiple of two integers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the greatest common divisor of two integers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain why the product of the gcd and lcm of two integers equals the product of the two integers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean if the greatest common divisor of two integers is 6?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you solve the equation $\\gcd(a,b) \\cdot \\text{lcm}[a,b] = ab$ for the given values?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the product of the two numbers in this scenario?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

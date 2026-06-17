@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_481",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "The line $y=-\\frac{3}{4}x+9$ crosses the $x$-axis at $P$ and the $y$-axis at $Q$.  Point $T(r,s)$ is on line segment $PQ$.  If the area of $\\triangle POQ$ is three times the area of $\\triangle TOP$, then what is the value of $r+s$? [asy]\n\n// draw axes\ndraw((-3, 0)--(15, 0), Arrow); draw((0, -3)--(0, 15), Arrow);\nlabel(\"$y$\", (0, 15), N); label(\"$x$\", (15, 0), E);\n\n// draw line and T dot\ndraw((-1, 9 + 3/4)--(40/3, -1));\ndot((8, 3));\n\n// Add labels\nlabel(\"$O$\", (0, 0), SW); label(\"$Q$\", (0, 9), NE); label(\"$P$\", (12, 0), NE);\nlabel(\"$T(r, s)$\", (8, 3), NE);\n\n[/asy]",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the coordinates of points $P$ and $Q$ on the $x$- and $y$-axes, respectively?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How did you determine the equation of the line $y=-\\frac{3}{4}x+9$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How did you find the coordinates of point $T$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "If the area of $\\triangle POQ$ is three times that of $\\triangle TOP$, what is the relationship between the height of $\\triangle POQ$ and the height of $\\triangle TOP$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How did you determine the height of $\\triangle TOP$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "If $T$ is not on line segment $PQ$, how would that change the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you write the equation of the line perpendicular to $y=-\\frac{3}{4}x+9$ passing through point $T$? How would this be useful in determining the solution?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

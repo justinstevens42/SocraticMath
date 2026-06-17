@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_935",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem": "What is the smallest positive integer $n$ such that $3n \\equiv 1356 \\pmod{22}?$",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given congruence equation and the modulo used?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we simplify the congruence equation by reducing the modulo?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for $3n$ to be congruent to $14$ modulo $22$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we rewrite the congruence equation in the form $3n = 22a + 14$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the key objective in finding the smallest positive integer $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we determine the value of $a$ that makes $\\frac{22a+14}{3}$ an integer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the value of $n$ when we substitute the smallest value of $a$ into the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How does this value of $n$ satisfy the original congruence equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

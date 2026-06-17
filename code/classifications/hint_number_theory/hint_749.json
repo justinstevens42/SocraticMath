@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_749",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem": "\"Modulo $m$ graph paper\" consists of a grid of $m^2$ points, representing all pairs of integer residues $(x,y)$ where $0\\le x<m$. To graph a congruence on modulo $m$ graph paper, we mark every point $(x,y)$ that satisfies the congruence. For example, a graph of $y\\equiv x^2\\pmod 5$ would consist of the points $(0,0)$, $(1,1)$, $(2,4)$, $(3,4)$, and $(4,1)$.\n\nThe graphs of $$y\\equiv 5x+2\\pmod{16}$$and $$y\\equiv 11x+12\\pmod{16}$$on modulo $16$ graph paper have some points in common. What is the sum of the $x$-coordinates of those points?",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the concept of modulo in number theory?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Could you explain what it means to graph a congruence on modulo $m$ graph paper?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "In the given problem, what is the congruence equation that needs to be graphed?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean for two congruence equations to have points in common on the modulo $m$ graph paper?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we find the common points between the two congruence graphs in this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What congruence equation can we formulate by combining the two given equations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we simplify the resulting congruence equation further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What are the possible values of $x$ that satisfy this simplified congruence equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What are the corresponding $y$-coordinates for the shared points on the graph?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 10,
+      "question": "Finally, what is the sum of the $x$-coordinates of these shared points?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

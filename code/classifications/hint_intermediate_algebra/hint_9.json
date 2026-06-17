@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_9",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "Let $f : \\mathbb{R} \\to \\mathbb{R}$ be a function such that\n\\[f(f(x) - y) = f(x) + f(f(y) - f(-x)) + x\\]for all real numbers $x$ and $y.$\n\nLet $n$ be the number of possible values of $f(3),$ and let $s$ be the sum of all possible values of $f(3).$  Find $n \\times s.$",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How do we begin in solving this problem, taking into account the given functional equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can we manipulate the equation to isolate a variable or simplify it in any way?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What can we deduce from the initial substitution of x=y=0? How can this be useful in solving the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How do we use the value of c=f(0) to evaluate f(c)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "After getting the value of c, how do we use this information to solve for f(0)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What does the substitution x=0 and y=-y tell us about the function f?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we simplify the expression f(f(f(x)) - f(-x)) to aid us in solving the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "By substituting y=f(x) into the given equation, we get an equation in terms of x. What is this equation and how do we solve it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How do we verify that the found solution satisfies the given functional equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Is the solution unique or are there other possible solutions? How can we know this?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

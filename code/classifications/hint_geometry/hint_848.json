@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_848",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "Joe has exactly enough paint to paint the surface of a cube whose side length is 2.  It turns out that this is also exactly enough paint to paint the surface of a sphere.  If the volume of this sphere is $\\frac{K \\sqrt{6}}{\\sqrt{\\pi}}$, then what is $K$?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "f",
+    "r",
+    "b",
+    "r",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What information are we given in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you describe the properties of a cube? How about a sphere?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the surface area of a cube?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the surface area of a sphere?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why the surface area of the cube is equal to the surface area of the sphere in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "What is the relationship between the radius of a sphere and its surface area?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can we find the value of the radius using the given surface area?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the formula for the volume of a sphere?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "Can you use the formula for the volume of a sphere to find the volume in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 10,
+      "question": "How does the value of $K$ relate to the volume of the sphere?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

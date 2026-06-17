@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_881",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "The line with equation $y = x$ is an axis of symmetry of the curve with equation\n\\[y = \\frac{px + q}{rx + s},\\]where $p,$ $q,$ $r,$ $s$ are all nonzero.  Which of the following statements must hold?\n\n(A) $p + q = 0$\n\n(B) $p + r = 0$\n\n(C) $p + s = 0$\n\n(D) $q + r = 0$\n\n(E) $q + s = 0$\n\n(F) $r + s = 0$",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain why the line $y = x$ being an axis of symmetry means that if point $(a,b)$ lies on the graph, then so does $(b,a)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we rewrite the equation $y = \\frac{px + q}{rx + s}$ in terms of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "By substituting $y = \\frac{px + q}{rx + s}$ into $x = \\frac{py + q}{ry + s}$, what expression do we get?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why do we cross-multiply in the equation $x[r(px + q) + s(rx + s)] = p(px + q) + q(rx + s)$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "After expanding the equation, what are the coefficients of $x$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we factor out a $p + s$ from the equation $(p + s)(rx^2 + (s - p) x - q) = 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can the quadratic $rx^2 + (s - p) x - q$ be equal to 0 for all values of $x$? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What does it mean if the quadratic $rx^2 + (s - p) x - q$ does not equal 0 for all $x$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "What should be the relationship between $p$ and $s$ for the equation $(p + s)(rx^2 + (s - p) x - q) = 0$ to hold for all values of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Which statement from the options $\\{p + q = 0, p + r = 0, p + s = 0, q + r = 0, q + s = 0, r + s = 0\\}$ must hold based on our analysis?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_659",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem": "The sum of the first $20$ positive even integers is also the sum of four consecutive even integers. What is the largest of these four integers?",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you define what the first $20$ positive even integers are?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How would you go about finding the sum of these integers?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for the sum of these even integers to be the sum of four consecutive even integers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we represent the four consecutive even integers in terms of variables?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Using the representation from the previous question, can you find an equation or an expression that relates the sum of the first $20$ positive even integers to the four consecutive even integers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How would you solve this equation or expression to determine the largest of the four consecutive even integers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other ways to approach solving this problem?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "How can we verify that our solution is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any similar problems that involve consecutive even integers and their sums?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "How else could we apply critical thinking skills to understand and solve these types of problems?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

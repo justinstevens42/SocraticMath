@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_274",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem": "A 40-foot by 10-foot rectangular garden is enclosed by a fence. To make the garden larger, while using the same amount of fencing, its shape is changed to a square. How many square feet larger than the old garden is the new garden?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the dimensions of the original rectangular garden?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the perimeter of the original rectangular garden, and how did you find it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How do we know that the total amount of fencing remains the same when the garden's shape is changed to a square?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the same amount of fencing to enclose a square garden? What are the dimensions of the square garden?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How do we find the area of the square garden using its side length?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the difference in area between the original rectangular garden and the new square garden?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Is there a way to generalize this problem for any rectangular garden with a given perimeter? How would we approach it?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

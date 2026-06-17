@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_639",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem": "If $\\sqrt2 \\sin 10^\\circ$ can be written as $\\cos \\theta - \\sin\\theta$ for some acute angle $\\theta,$ what is $\\theta?$ (Give your answer in degrees, not radians.)",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what is meant by \"If $\\sqrt2 \\sin 10^\\circ$ can be written as $\\cos \\theta - \\sin\\theta$ for some acute angle $\\theta$\"?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What do you know about the relationship between sine and cosine of complementary angles?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you derive the expression $\\cos \\theta - \\sin\\theta$ using the given information?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can you apply the difference of cosines formula in this context?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you simplify the expression $\\cos \\theta - \\cos(90^\\circ - \\theta)$ further using trigonometric identities?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How does the equation $10^\\circ = \\frac{90^\\circ - 2\\theta}{2}$ come about?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What does it mean to solve the equation for $\\theta$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you explain why $\\theta = 35^\\circ$ is the solution to the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Are there any other solutions for $\\theta$ in the given equation?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "How does the restriction of $\\theta$ being acute affect the possible solutions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

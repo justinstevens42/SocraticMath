@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_450",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem": "Enter all the solutions to\n\\[ \\sqrt{4x-3}+\\frac{10}{\\sqrt{4x-3}}=7,\\]separated by commas.",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "f",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we start solving this equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What substitution can we make to simplify the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Why did we choose to substitute $u = \\sqrt{4x-3}$? Are there any other substitutions we could have made?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "After making the substitution, what does the equation become? How can we solve it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What are the possible values of $u$ that satisfy the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "For each possible value of $u$, how can we find the corresponding value of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any restrictions or special cases we need to consider in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "After finding the values of $x$, can we double-check that they indeed satisfy the original equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

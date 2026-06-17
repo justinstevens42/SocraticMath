@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_269",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem": "What is the 39th number in the row of Pascal's triangle that has 41 numbers?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "f"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what Pascal's triangle is and how it is constructed?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Why does the number of elements in each row increase by 1 as you move down the triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can you determine the value of a specific element in Pascal's triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the formula for calculating the value of the element in the $n$th row and $k$th column of Pascal's triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we apply this knowledge to solve the problem of finding the 39th number in the row of Pascal's triangle with 41 numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other interesting patterns or properties we can observe in Pascal's triangle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    }
+  ]
+}

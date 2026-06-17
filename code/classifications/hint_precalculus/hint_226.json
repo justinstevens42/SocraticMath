@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_226",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 1",
+  "problem": "Compute $3 \\begin{pmatrix} 2 \\\\ -8 \\end{pmatrix} - 2 \\begin{pmatrix} 1 \\\\ -7 \\end{pmatrix}$.",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the operation being performed in the given expression?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean to multiply a scalar by a vector?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain why we multiply each component of the vector by the scalar in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you demonstrate how you would carry out the scalar multiplication (3 times the vector and 2 times the vector separately)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How would you combine the resultant vectors obtained from step 4?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you describe what property or rule of vector addition is used in combining the resultant vectors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What do you notice about the components of the final result vector?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you generalize the process to compute scalar multiplication for any given vectors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

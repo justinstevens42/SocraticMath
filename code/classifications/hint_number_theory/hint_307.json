@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_307",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem": "It is now 12:00:00 midnight, as read on a 12-hour digital clock. In 122 hours, 39 minutes and 44 seconds the time will be $A:B:C$. What is the value of $A + B + C$?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What type of clock is being used in this problem, and how does it differ from a 24-hour clock?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many hours are in one revolution of the 12-hour clock?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the remainder after dividing 122 hours by 12 hours?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "From what time should we begin counting forward to find the time in 122 hours, 39 minutes and 44 seconds?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we convert the remaining minutes and seconds into hours?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the significance of adding together the digits of the clock time in this problem?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "How can we check our answer to make sure that the sum of $A+B+C$ is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

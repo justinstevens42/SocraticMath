@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_981",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 2",
+  "problem": "The number 121 is a palindrome, because it reads the same backwards as forward. How many integer palindromes are between 100 and 500?",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you define a palindrome?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the range of numbers that we are considering?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many choices do we have for the hundreds digit?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why does the choice of the hundreds digit fix the units digit?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many choices do we have for the middle (tens) digit?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we determine the total number of palindromes by combining the choices for the hundreds, middle, and units digits?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain why we multiply the number of choices for each digit in order to get the total number of palindromes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the final answer, i.e. the number of integer palindromes between 100 and 500?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

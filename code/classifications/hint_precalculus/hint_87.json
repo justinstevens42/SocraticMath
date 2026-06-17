@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_87",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem": "The matrix\n\\[\\begin{pmatrix} a & \\frac{15}{34} \\\\ c & \\frac{25}{34} \\end{pmatrix}\\]corresponds to a projection.  Enter the ordered pair $(a,c).$",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what the given matrix represents in terms of projection?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the matrix P for projecting onto a vector p?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What property does the result of projecting P onto vector v have in relation to vector p?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Why does applying the projection again to Pv result in Pv?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we express this property using matrix notation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we determine the value of P^2 using the given matrix? If so, how?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What conditions must be satisfied for P^2 to be equal to P?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "By comparing the entries of P^2 with P, can we determine the values of a and c in the given matrix? If so, how?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the final ordered pair (a, c) that corresponds to the given projection matrix?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

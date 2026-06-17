@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_774",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem": "Two cards are chosen at random from a standard 52-card deck.  What is the probability that the first card is a heart and the second card is a 10?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking us to find the probability of?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many cards are in a standard 52-card deck? What is the probability of drawing a heart as the first card?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Why do we need to consider the two different cases in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the probability of drawing a 10 as the second card given that the first card is a heart but not a 10?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the probability of drawing a 10 as the second card given that the first card is the 10 of hearts?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Why do we multiply the probabilities in each case to get the overall probability of the desired outcome?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other similar problems that can be solved using a similar approach? Can you think of any variations to this problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

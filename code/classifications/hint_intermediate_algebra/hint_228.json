@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_228",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 1",
+  "problem": "Simplify the product \\[\\frac{8}{4}\\cdot\\frac{12}{8}\\cdot\\frac{16}{12} \\dotsm \\frac{4n+4}{4n} \\dotsm \\frac{2008}{2004}.\\]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step in simplifying this product?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How do the numerators and denominators in each fraction relate to each other?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Why do the terms cancel out as you simplify the product?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How do you know when you have simplified the product as much as possible?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of any other mathematical processes that involve simplifying products in a similar way?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "How can you apply this simplification method to other mathematical problems?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

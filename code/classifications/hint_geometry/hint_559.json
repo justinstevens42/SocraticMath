@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_559",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "The set of all solutions of the system $$\n\\begin{cases}\nx+y\\leq 3 \\\\\n2x+y\\geq 2 \\\\\nx\\geq 0 \\\\\ny\\geq 0\n\\end{cases}\n$$ is a quadrilateral region. Find the number of units in the length of the longest side. Express your answer in simplest radical form.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step to solve this system of inequalities?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What methods do you know that can be used to solve such a system of inequalities?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "If you choose to use the graphing method, how would you graph the equations $x+y=3$ and $2x+y=2$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can you determine which region represents the set of solutions for the system?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the equation of the upper diagonal line and how can you find the coordinates of the points where it intersects the axes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can you find the length of the longest side of the quadrilateral region?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you express the length of the longest side in simplest radical form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

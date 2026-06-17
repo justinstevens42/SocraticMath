@@ -1,0 +1,47 @@
+{
+  "problem_id": "hint_564",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem": "Suppose $x-3$ and $y+3$ are multiples of $7$.\n\nWhat is the smallest positive integer, $n,$ for which $x^2+xy+y^2+n$ is a multiple of $7$?",
+  "n_questions": 5,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain why $x-3$ being a multiple of $7$ means that $x\\equiv 3\\pmod 7$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How did you use the fact that $y+3$ is a multiple of $7$ to conclude that $y\\equiv -3\\pmod 7$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Why did you consider the expression $x^2+xy+y^2+n$ when looking for a multiple of $7$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why $x^2+xy+y^2+n\\equiv 9 + n\\pmod 7$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did you determine that the smallest positive $n$ for which $9+n$ is a multiple of $7$ is $n=5$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

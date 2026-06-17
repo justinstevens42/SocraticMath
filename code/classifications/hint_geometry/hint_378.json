@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_378",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem": "An ice cream cone has radius 1 inch and height 4 inches, What is the number of inches in the radius of a sphere of ice cream which has the same volume as the cone?",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the formula for the volume of a cone and how is it related to the radius and height of the cone?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the volume of the given ice cream cone using the formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the formula for the volume of a sphere and how is it related to its radius?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can we create an equation that relates the radius of the sphere with the volume of the sphere and the volume of the cone?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What steps can we take to solve the equation and find the radius of the sphere that has the same volume as the given cone?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Why is the radius of the sphere the same as the radius of the cone in this particular problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of other geometric shapes where we can use a similar approach to find the dimensions of another shape with the same volume?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

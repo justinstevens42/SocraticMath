@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_968",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "In isosceles triangle $\\triangle ABC$ we have $AB=AC=4$.  The altitude from $B$ meets $\\overline{AC}$ at $H$.  If $AH=3(HC)$ then determine $BC$.",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "b",
+    "r",
+    "r",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is an isosceles triangle and how does it differ from a scalene triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How is the altitude of a triangle defined and what is its relationship with the sides of the triangle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you draw a diagram to illustrate the given problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the given relationship between $AH$ and $HC$ and how can we use it to find the values of $AH$ and $HC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we use the Pythagorean Theorem in triangle $ABH$ to find the length of $BH$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What is the Pythagorean Theorem and how can we use it in triangle $BHC$ to find the length of $BC$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other methods we can use to find the length of $BC$ in this problem?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "What is the significance of the answer $2\\sqrt{2}$ and how does it relate to the given triangle?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any real-world applications for the concept of isosceles triangles and their properties?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

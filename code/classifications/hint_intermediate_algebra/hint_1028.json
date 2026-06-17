@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_1028",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "Let $m$ be the largest real solution to the equation\n\\[\\dfrac{3}{x-3} + \\dfrac{5}{x-5} + \\dfrac{17}{x-17} + \\dfrac{19}{x-19} = x^2 - 11x - 4\\]There are positive integers $a, b,$ and $c$ such that $m = a + \\sqrt{b + \\sqrt{c}}$. Find $a+b+c$.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are some different methods you could use to solve this type of equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you choose to substitute $t = x-11$, what happens to the equation? How does it help simplify the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why are we able to divide by $t$ in this equation? Are there any restrictions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How did we arrive at the equation $t^4 - 104t^2 + 2504 = 0$? Is there a specific reason for this form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What steps did we take to solve the quadratic equation $t^4 - 104t^2 + 2504 = 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How did we arrive at the expression $t = \\pm \\sqrt{52 \\pm \\sqrt{200}}$? Can you explain the logic behind it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the largest solution for $x$ in the original equation? How did we determine that?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you explain the process of undoing the substitution to find the final solution for $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the final value of $a+b+c$ in the form $m = a + \\sqrt{b + \\sqrt{c}}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

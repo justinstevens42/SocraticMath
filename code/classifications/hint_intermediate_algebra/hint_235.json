@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_235",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "Find the sum of all real solutions to the equation \\[\\sqrt{x} + \\sqrt{\\frac{4}{x}} + \\sqrt{x + \\frac{4}{x}} = 6.\\]",
+  "n_questions": 9,
+  "labels": [
+    "b",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step we should take to solve the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What methods do you know that can be used to solve equations like this one?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "If we choose to square the equation, what do we need to be cautious about?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Why is it necessary to square the equation and what benefit does it bring in this case?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the resulting quadratic equation after squaring both sides?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we find the sum of the roots of the quadratic equation using Vieta's formulas?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any potential issues with our solution, such as reversible steps or extraneous solutions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we check if the roots satisfy the original equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What assumptions do we need to make to ensure reversibility of our steps and validity of the solutions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

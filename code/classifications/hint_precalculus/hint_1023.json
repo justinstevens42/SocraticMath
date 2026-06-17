@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_1023",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem": "Let\n\\[\\mathbf{A} = \\begin{pmatrix} 0 & 0 & 0 \\\\ 0 & 0 & -1 \\\\ 0 & 1 & 0 \\end{pmatrix}.\\]Compute $\\mathbf{A}^{95}.$",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given matrix $\\mathbf{A}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the value of $\\mathbf{A}^2$? How did you compute it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How did you compute $\\mathbf{A}^4$? What is its significance in this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is $\\mathbf{A}^4$ a diagonal matrix? What does this tell us about powers of $\\mathbf{A}^4$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did you compute $\\mathbf{A}^{95}$ using the matrix $\\mathbf{A}^4$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain the steps involved in computing $\\mathbf{A}^{95}$ in this way?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other techniques or methods you can think of to compute $\\mathbf{A}^{95}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How does the structure of the matrix $\\mathbf{A}$ allow us to simplify the computation of $\\mathbf{A}^{95}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

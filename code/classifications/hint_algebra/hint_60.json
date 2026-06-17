@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_60",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem": "Let the operation $\\#$ be defined as $\\#(a, b, c) = b^2 - 4ac$, for all real numbers $a, b$ and $c$. What is the value of $\\#(1, 2, 3)$?",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "r",
+    "e",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the operation $\\#$ based on its definition?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What are the inputs and outputs of $\\#$ in this specific scenario?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the significance of the exponent of 2 in the expression $b^2$?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean for an operation to be defined for all real numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you identify any similarities or connections between $\\#$ and other mathematical operations you know?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "How would you evaluate the expression $\\#(1, 2, 3)$ using the given definition of $\\#$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any specific mathematical properties or rules that can help us simplify or evaluate this expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the final result of $\\#(1, 2, 3)$ and what does it represent in the context of the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

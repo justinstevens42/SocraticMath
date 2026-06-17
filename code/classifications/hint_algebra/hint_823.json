@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_823",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem": "Let $f(x)=2\\sqrt{x} + \\frac{12}{\\sqrt{x}}$ and let $g(x)=2x^2-2x-3$. What is $f(g(3))$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what the function $f(x)$ represents? What about the function $g(x)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "When evaluating $f(g(3))$, what does it mean to plug in $3$ as the input for $g(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What steps do you need to take to evaluate $g(3)$? What will be the result of this evaluation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Once you have the result of $g(3)$, how does that value affect the expression $f(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you simplify the expression $f(g(3))$ by substituting the value you found for $g(3)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the final value of $f(g(3))$? What does this result represent in the context of the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

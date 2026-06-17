@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_629",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem": "A fair 6-sided die is rolled.  If I roll $n$, then I win $n^2$ dollars.  What is the expected value of my win?  Express your answer as a dollar value rounded to the nearest cent.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what expected value means in this scenario?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How do we calculate the expected value when each outcome has a different probability?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What are the possible outcomes and their corresponding probabilities in this scenario?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain how we can calculate the expected value using these probabilities and outcomes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What does it mean to express the expected value as a dollar value rounded to the nearest cent?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you calculate the expected value using the given probabilities and outcomes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we interpret the calculated expected value in terms of dollar amounts and probabilities?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What other scenarios or situations can you think of where expected value can be useful?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "How does the concept of expected value relate to making decisions or predictions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any real-life applications where understanding expected value is important?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

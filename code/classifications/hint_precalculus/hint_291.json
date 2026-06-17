@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_291",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem": "Let $\\mathbf{a} = \\begin{pmatrix} 5 \\\\ 1 \\end{pmatrix}$ and $\\mathbf{b} = \\begin{pmatrix} 2 \\\\ 4 \\end{pmatrix}.$  Find the area of the triangle with vertices $\\mathbf{0},$ $\\mathbf{a},$ and $\\mathbf{b}.$",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the concept of a parallelogram is?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the area of a parallelogram given the coordinates of its vertices?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you identify the coordinates of the vertices of the parallelogram formed by $\\mathbf{0},$ $\\mathbf{a},$ $\\mathbf{b},$ and $\\mathbf{a} + \\mathbf{b}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the determinant of a matrix to find the area of a parallelogram?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why is the area of the triangle formed by $\\mathbf{0},$ $\\mathbf{a},$ and $\\mathbf{b}$ half the area of the parallelogram?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the area of the parallelogram? How does that help us find the area of the triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other situations in which finding the area of a parallelogram could be useful?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "How would the formula for finding the area of a parallelogram change if we had three-dimensional vectors instead of two-dimensional vectors?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

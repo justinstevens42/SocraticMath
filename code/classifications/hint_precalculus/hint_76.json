@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_76",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem": "Let $\\mathbf{u}$ and $\\mathbf{v}$ be unit vectors, and let $\\mathbf{w}$ be a vector such that $\\mathbf{u} \\times \\mathbf{v} + \\mathbf{u} = \\mathbf{w}$ and $\\mathbf{w} \\times \\mathbf{u} = \\mathbf{v}.$  Compute $\\mathbf{u} \\cdot (\\mathbf{v} \\times \\mathbf{w}).$",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e",
+    "f",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the given vectors $\\mathbf{u}$, $\\mathbf{v}$, and $\\mathbf{w}$ in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for a vector to be a \"unit vector?\" How does that apply to $\\mathbf{u}$ and $\\mathbf{v}$ in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you rewrite the given equations involving $\\mathbf{u}$, $\\mathbf{v}$, and $\\mathbf{w}$ in a different form?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Based on the first equation $\\mathbf{u} \\times \\mathbf{v} + \\mathbf{u} = \\mathbf{w}$, what can you infer about the relationship between $\\mathbf{u}$, $\\mathbf{v}$, and $\\mathbf{w}$ geometrically?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "From the second equation $\\mathbf{w} \\times \\mathbf{u} = \\mathbf{v}$, what additional information can you deduce about the vector $\\mathbf{w}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can you compute the dot product $\\mathbf{u} \\cdot (\\mathbf{v} \\times \\mathbf{w})$ using the given information? What steps would you take?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the geometric significance of the dot product in this context?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "What do you notice about the dot product in the final calculation $\\mathbf{u} \\cdot (\\mathbf{v} \\times \\mathbf{w}) = 1$? How does it relate to the original problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any similar problems or concepts where Socratic questioning might be helpful to gain deeper understanding?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_303",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 1",
+  "problem": "When three numbers are added two at a time the sums are 29, 46, and 53. What is the sum of all three numbers?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "f",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you begin solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What do you notice about the three given sums (29, 46, 53)?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you determine the relationship between these sums and the three numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What strategy could you use to find the individual numbers when only the sums are given?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "If you were to use a guess and check method, what would be your initial guess for one of the numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How would you adjust your guess if the sum of two numbers is 29 and one of the numbers is not 1?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What other strategies could you use to find the individual numbers? Are there any mathematical properties or formulas that could help?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Once you have found the individual numbers, how would you calculate their sum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you identify any patterns or connections between the given sums and the final sum of all three numbers?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 10,
+      "question": "Are there any similar types of problems where you can apply a similar approach to find the sum of multiple numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

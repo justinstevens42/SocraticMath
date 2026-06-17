@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_838",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem": "Let $\\mathbf{M}$ be a matrix, and let $\\mathbf{v}$ and $\\mathbf{w}$ be vectors, such that\n\\[\\mathbf{M} \\mathbf{v} = \\begin{pmatrix} 2 \\\\ 3 \\end{pmatrix} \\quad \\text{and} \\quad \\mathbf{M} \\mathbf{w} = \\begin{pmatrix} -2 \\\\ -5 \\end{pmatrix}.\\]Compute $\\mathbf{M} (\\mathbf{v} + 3 \\mathbf{w}).$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in computing $\\mathbf{M} (\\mathbf{v} + 3 \\mathbf{w})$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What property allows us to distribute $\\mathbf{M}$ over the sum of $\\mathbf{v}$ and $3 \\mathbf{w}$? How does this property relate to matrix operations?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the given information about $\\mathbf{M} \\mathbf{v}$ and $\\mathbf{M} \\mathbf{w}$ to compute $\\mathbf{M} (\\mathbf{v} + 3 \\mathbf{w})$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Based on the given vectors $\\mathbf{v}$ and $\\mathbf{w}$, what are the corresponding matrices $\\mathbf{M} \\mathbf{v}$ and $\\mathbf{M} \\mathbf{w}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we add these two matrices $\\mathbf{M} \\mathbf{v}$ and $\\mathbf{M} \\mathbf{w}$ together? What are the resulting components of the sum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other examples where we might need to compute a similar expression involving matrices and vectors? How would you approach those computations?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

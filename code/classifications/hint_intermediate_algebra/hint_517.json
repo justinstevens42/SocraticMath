@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_517",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "Let $r$ be the positive real solution to $x^3 + \\frac{2}{5} x - 1 = 0.$  Find the exact numerical value of\n\\[r^2 + 2r^5 + 3r^8 + 4r^{11} + \\dotsb.\\]",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given equation? Can you rewrite it in a simplified form?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can you find the positive real solution for the equation? Are there any specific methods or techniques that can help in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you express the sum $r^2 + 2r^5 + 3r^8 + 4r^{11} + \\dotsb$ using a geometric series or any other known mathematical series?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can you derive the equation $S = \\frac{r^2}{(1 - r^3)^2}$? What steps were involved in reaching this expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Considering the equation $r^3 + \\frac{2}{5}r - 1 = 0$, can you explain why $1 - r^3 = \\frac{2}{5}r$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are the possible values of $r$? Are there any restrictions or conditions for the value of $r$ in the given scenario?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How does the expression $\\frac{r^2}{(1 - r^3)^2}$ simplify to $\\frac{25}{4}$? What calculations or substitutions were involved in obtaining this result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

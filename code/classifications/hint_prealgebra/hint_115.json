@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_115",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem": "Captain Zarnin of Planet Hvan has four job openings for his battle station: Assistant Engineer, Weapons Maintenance, Field Technician, and Radio Specialist. Zarnin has received 24 resumes and found himself less than thrilled about half of them and does not hire them. The rest, he thinks, could fill any of the open posts. In how many ways can Zarnin staff his battle station?\n\nNote: A candidate can fill at most one job opening.",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the problem is asking for in your own words?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How many job openings does Captain Zarnin have on his battle station?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many resumes did Captain Zarnin receive?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why does Captain Zarnin not hire half of the resumes?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How many suitable candidates are there for the Assistant Engineer position?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Once the Assistant Engineer position is filled, how many candidates are left for the Weapons Maintenance position?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What about the Field Technician position? How many candidates are left after filling the previous positions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "And finally, how many candidates are left for the Radio Specialist position?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you calculate the total number of ways Captain Zarnin can staff his battle station using the information we discussed?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Are there any assumptions or constraints we need to consider when solving this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

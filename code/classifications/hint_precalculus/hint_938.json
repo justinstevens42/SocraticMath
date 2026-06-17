@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_938",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem": "Let $\\mathbf{R}$ be the matrix for reflecting over the vector $\\begin{pmatrix} 3 \\\\ 1 \\end{pmatrix}.$  Find $\\mathbf{R}^2.$",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the matrix $\\mathbf{R}$ representing?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How does reflecting a vector relate to the matrix multiplication $\\mathbf{R} \\mathbf{v}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How would you describe the reflection process geometrically using the vector $\\begin{pmatrix} 3 \\\\ 1 \\end{pmatrix}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What matrix operation can be used to calculate the reflection of a vector?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we express the reflection of vector $\\mathbf{v}$ in terms of the matrix $\\mathbf{R}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What happens when we multiply the reflection of $\\mathbf{v}$ by $\\mathbf{R}$? What does this represent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you find any other vectors $\\mathbf{v}$ where $\\mathbf{R}^2 \\mathbf{v} = \\mathbf{v}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What does it mean for a matrix to be equal to the identity matrix $\\mathbf{I}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other matrix transformations that have similar properties to this reflection operation?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

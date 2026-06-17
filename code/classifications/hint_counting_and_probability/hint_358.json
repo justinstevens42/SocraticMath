@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_358",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 2",
+  "problem": "Marius is entering a wildlife photo contest, and wishes to arrange his seven snow leopards of different heights in a row. If the shortest two leopards have inferiority complexes and demand to be placed at the ends of the row, how many ways can he line up the leopards?",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "r",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the concept of permutation and why it is relevant in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the total number of ways to arrange the seven snow leopards without any restrictions?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many ways can the shortest two leopards be arranged at the ends of the row?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why do we multiply the number of ways to arrange the shortest two leopards with the number of ways to arrange the remaining five leopards?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How would you solve this problem if the shortest two leopards didn't have any specific demands?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other factors or constraints that we need to consider in this problem?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any real-life scenarios where the concept of permutation can be applied?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

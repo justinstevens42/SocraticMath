@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_3",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem": "Mary wants to buy one large pizza, one medium pizza, and three drinks. The drinks cost $p$ dollars each, the medium pizza costs two times as much as one drink, and the large pizza costs three times as much as one drink. If Mary started with $30$ dollars, how much money would she have left after making all of her purchases?  Give your answer as an expression of $p$.",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total cost of the drinks Mary bought?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How much does a medium pizza cost? How much does a large pizza cost?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can we find the total cost of the pizzas by adding the costs of each size?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we express the total amount Mary spent in terms of $p$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "If Mary started with $30$ dollars, what is the expression for the amount she has left after making her purchases?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we simplify the expression for the amount Mary has left?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What happens to the amount Mary has left if the cost of the drinks ($p$) increases? What if it decreases?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What other questions could we ask to further explore this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

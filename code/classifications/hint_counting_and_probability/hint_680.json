@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_680",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 2",
+  "problem": "We are allowed to remove exactly one integer from the list $$-1,0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10,11,$$and then we choose two distinct integers at random from the remaining list.  What number should we remove if we wish to maximize the probability that the sum of the two chosen numbers is 10?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "e",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the problem in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the significance of removing exactly one integer from the given list?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 3,
+      "question": "Why do we want to maximize the probability that the sum of the two chosen numbers is 10?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the pattern in the list? How does each integer relate to another one?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can removal of an integer affect the probability of getting a sum of 10?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the effect of removing each integer (besides 5) on the number of pairs that add to 10?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Why does removing 5 not reduce the number of pairs that add to 10?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Based on the given information, which integer should be removed if we want to maximize the probability of getting a sum of 10?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other similar situations where the same approach can be applied?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

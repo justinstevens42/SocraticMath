@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_33",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem": "If the six digits 1, 2, 3, 5, 5 and 8 are randomly arranged into a six-digit positive integer, what is the probability that the integer is divisible by 15? Express your answer as a common fraction.",
+  "n_questions": 10,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many arrangements can be made with the six digits 1, 2, 3, 5, 5, and 8?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the criteria for a number to be divisible by 15?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many digits are required to be a multiple of 15?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Based on the given digits, how many possible ways can the number end in 5?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "If we randomly arrange the digits, what is the probability that the number ends in 5?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the probability that any arrangement of the digits will be a multiple of 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Why is any arrangement of the digits a multiple of 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we calculate the probability that the number is divisible by 15 based on the probabilities of ending in 5 and being a multiple of 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you simplify the probability of ending in 5?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the probability that the number is divisible by 15?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

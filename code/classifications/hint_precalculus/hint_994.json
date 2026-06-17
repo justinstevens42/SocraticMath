@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_994",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem": "Let $G$ be the centroid of triangle $ABC,$ and let $P$ be an arbitrary point.  Then there exists a constant $k$ so that\n\\[PA^2 + PB^2 + PC^2 = k \\cdot PG^2 + GA^2 + GB^2 + GC^2.\\]Find $k.$",
+  "n_questions": 10,
+  "labels": [
+    "b",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we express $PA^2,$ $PB^2,$ and $PC^2$ in terms of vectors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the formula for the centroid of a triangle $ABC$ in terms of the vector representations of its vertices?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the formula for the square of the distance between two points given their vector representations?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Using the formula for the centroid of triangle $ABC$ and the formula for $PA^2,$ what is the expression for $GA^2$ in terms of the vector representations of $A,$ $B,$ $C,$ and $P?$",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we express $GB^2$ and $GC^2$ in terms of the vector representations of $A,$ $B,$ $C,$ and $P?$",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the formula for the squared distance between two points, each represented by the sum of vectors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Using the formula for $PG^2,$ what is the expression for $k\\cdot PG^2$ in terms of the vector representations of $A,$ $B,$ $C,$ and $P?$",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the expression for $GA^2 + GB^2 + GC^2$ in terms of the vector representations of $A,$ $B,$ and $C?$",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we simplify the expression obtained from subtracting $GA^2,$ $GB^2,$ and $GC^2$ from the sum of $PA^2,$ $PB^2,$ and $PC^2?$",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What values of $k$ satisfy the given equation, and how can we find them based on our previous findings?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

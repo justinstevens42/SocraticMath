@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_100",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem": "In the diagram, the rectangle has a width $w$, a length of $8$, and a perimeter of $24$. What is the ratio of its width to its length? [asy]\npair a = (0, 0); pair b = (8, 0); pair c = (8, 4); pair d = (0, 4);\ndraw(a--b--c--d--cycle);\nlabel(\"$w$\", midpoint(a--d), W); label(\"$8$\", midpoint(c--d), N);\n[/asy] Write your answer in the form $x:y$, where $x$ and $y$ are relatively prime positive integers.",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "f",
+    "b",
+    "b",
+    "f",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the width of the rectangle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the length of the rectangle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What formula can we use to calculate the perimeter of a rectangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we write an equation to represent the information given in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "What steps can we take to solve the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we simplify the equation and find the value of the width?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What does the ratio of width to length represent in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "How can we express the ratio of width to length in the form of $x:y$ where $x$ and $y$ are relatively prime positive integers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

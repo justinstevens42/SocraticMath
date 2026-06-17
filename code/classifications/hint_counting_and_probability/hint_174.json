@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_174",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem": "How many three-digit numbers are multiples of neither 5 nor 7?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How did we count the number of three-digit numbers that are multiples of 5 or 7?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain why we subtracted the number of multiples of 35 from the total count?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How did we determine the smallest and largest multiples of 7 that are three-digit numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How did we determine the smallest and largest multiples of 5 that are three-digit numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why we counted multiples of 35 twice?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How did we calculate the total count of three-digit numbers that are multiples of 5 or 7 (or both)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How did we calculate the total count of all three-digit numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How did we determine the number of three-digit numbers that are not multiples of 5 nor 7?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

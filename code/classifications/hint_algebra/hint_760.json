@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_760",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 1",
+  "problem": "Solve for $x$: $2(3^x) = 162$.",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step you would take to solve this equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Are you familiar with any specific methods for solving exponential equations? Which method(s) do you think could be applied here?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "If you choose to use logarithms, which base would you use and why?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Why is it necessary to apply logarithms to both sides of the equation? What does this step allow us to do?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "After applying logarithms, what does the equation look like? Can you simplify it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the value of the logarithm? How can you use this information to find the value of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any restrictions on the domain for which the equation is valid? If so, what are they and why?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other types of exponential equations where similar thinking and steps might be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

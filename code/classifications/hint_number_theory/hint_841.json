@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_841",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem": "What is the units digit of $\\frac{20 \\cdot 21 \\cdot 22 \\cdot 23 \\cdot 24 \\cdot 25}{1000}$?",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given expression that we want to evaluate and what is its simplified form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can we simplify the expression to better understand the units digit?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What are the different ways to determine the units digit of a number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do we find the units digit of a product of numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can we use divisibility rules or patterns to simplify the calculation of the units digit?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can modular arithmetic help us determine the units digit?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the significance of the units digit in number theory and mathematical calculations?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

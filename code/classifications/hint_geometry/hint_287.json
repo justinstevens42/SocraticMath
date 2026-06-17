@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_287",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem": "Compute $\\cos 270^\\circ$.",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of cosine function in trigonometry?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does changing the angle input affect the output of cosine function?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What does 270 degrees represent in the unit circle and how does that relate to cosine function?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How does the rotation of a point affect the corresponding cosine value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you derive the cosine value of 270 degrees using the unit circle or any other method?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other trigonometric functions that are related to cosine and can help us find its value?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

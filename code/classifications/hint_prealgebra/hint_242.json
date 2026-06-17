@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_242",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem": "Express as a common fraction: $0.\\overline5+0.\\overline1-0.\\overline3$",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the general method for expressing a repeating decimal as a fraction?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we apply this method to the given expression: $0.\\overline{5} + 0.\\overline{1} - 0.\\overline{3}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the value of $0.\\overline{5}$ in fraction form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the value of $0.\\overline{1}$ in fraction form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the value of $0.\\overline{3}$ in fraction form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we simplify the expression $\\frac{5}{9} + \\frac{1}{9} - \\frac{3}{9}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final result of expressing $0.\\overline{5} + 0.\\overline{1} - 0.\\overline{3}$ as a common fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

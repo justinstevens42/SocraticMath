@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_978",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "A right cone has a base with a circumference of $16\\pi$ inches and a height of 30 inches. The height of this cone is reduced while the circumference stays the same. The volume of the shorter cone is $192\\pi$ cubic inches. What is the ratio of the shorter height to the original height? Express your answer as a common fraction.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the given measurements of the original cone?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we express the relationship between the base circumference and the radius of the original cone?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the formula for calculating the volume of a cone?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we write the equation relating the volume, radius, and height of the original cone?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can we solve this equation to find the original height of the cone?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are the measurements of the reduced cone after the height is changed?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can we write the equation relating the volume, radius, and height of the reduced cone?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can we solve this equation to find the new height of the cone?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the ratio of the new height to the original height?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can we express this ratio as a simplified fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

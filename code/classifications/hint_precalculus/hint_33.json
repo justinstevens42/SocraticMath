@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_33",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem": "Compute the number of real solutions $(x,y,z,w)$ to the system of equations:\n\\begin{align*}\nx &= z+w+zwx, \\\\ \ny &= w+x+wxy, \\\\\nz &= x+y+xyz, \\\\\nw &= y+z+yzw.\n\\end{align*}",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this system of equations?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What observation can we make about the first equation when we rewrite it as $x = \\frac{w+z}{1-wz}$? Why is this an indication to consider trigonometric substitution?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "If we let $x = \\tan a$, $y = \\tan b$, $z = \\tan c$, and $w = \\tan d$, how does this relate to the given system of equations?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "By substituting the tangent values into each of the equations, what new relationships do we see emerge?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Considering the periodic nature of the tangent function, what congruences or equivalences can we establish between the variables $a$, $b$, $c$, and $d$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you simplify the congruences we established in question 5 and find a relationship between $a$, $b$, $c$, and $d$? How does this relationship restrict the possible values of the variables?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How many different sets of values can we find for $a$, $b$, $c$, and $d$ that satisfy the relationship established in question 6 and the condition $15t \\equiv 0$? How does this correspond to the number of real solutions to the system of equations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Additionally, why is it important to check that $wz \\neq 1$ for all five solutions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_952",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem": "In triangle $ABC,$ $AB = 9,$ $BC = 10,$ and $AC = 11.$  If $D$ and $E$ are chosen on $\\overline{AB}$ and $\\overline{AC}$ so that $AD = 4$ and $AE = 7,$ then find the area of triangle $ADE.$\n\n[asy]\nunitsize (1 cm);\n\npair A, B, C, D, E;\n\nA = (2,3);\nB = (0,0);\nC = (6,0);\nD = interp(A,B,0.4);\nE = interp(A,C,3/5);\n\ndraw(A--B--C--cycle);\ndraw(D--E);\n\nlabel(\"$A$\", A, N);\nlabel(\"$B$\", B, SW);\nlabel(\"$C$\", C, SE);\nlabel(\"$D$\", D, NW);\nlabel(\"$E$\", E, NE);\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the area of triangle ABC using the given side lengths?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can we use Heron's formula to find the area of triangle ABC? If so, how?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the formula for Heron's formula, and what do the variables represent?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can we use trigonometric ratios to find the area of triangle ABC? If so, how?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What trigonometric ratio can we use to find angle A in triangle ABC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we determine the values of the sine and cosine of angle A?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we use the sine of angle A to find the area of triangle ADE?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What are the lengths of AD and AE?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 10,
+      "question": "How can we find the area of triangle ADE using the formula for the area of a triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

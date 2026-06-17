@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_1013",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem": "John needs to catch a train. The train arrives randomly some time between 2:00 and 3:00, waits for 20 minutes, and then leaves. If John also arrives randomly between 2:00 and 3:00, what is the probability that the train will be there when John arrives?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the probability that John arrives exactly at 2:00? At 3:00?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can John arrive at any time between 2:00 and 3:00, or are there certain intervals he cannot arrive in?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the probability that John arrives within the first 20 minutes?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How does the duration of the train's stay affect the probability of John arriving while the train is there?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Is the probability of John arriving while the train is there higher or lower if the train stays for a longer time? Why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What if John arrives exactly at 2:20? Is there a chance that he will miss the train? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Is the probability of John arriving while the train is there the same for every minute between 2:00 and 3:00? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What assumptions are we making in this scenario? Are they realistic?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any real-life situations that can be modeled using similar probability concepts?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_821",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "Let $x_1,$ $x_2,$ $x_3,$ $\\dots,$ $x_{100}$ be positive real numbers such that $x_1^2 + x_2^2 + x_3^2 + \\dots + x_{100}^2 = 1.$  Find the minimum value of\n\\[\\frac{x_1}{1 - x_1^2} + \\frac{x_2}{1 - x_2^2} + \\frac{x_3}{1 - x_3^2} + \\dots + \\frac{x_{100}}{1 - x_{100}^2}.\\]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given condition in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we express the given condition as an equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you rewrite the inequality $\\frac{x}{1-x^2} \\geq \\frac{3 \\sqrt{3}}{2} x^2$ in a different form?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How did we come up with the inequality expression $\\frac{x}{1 - x^2} \\geq \\frac{3 \\sqrt{3}}{2} x^2$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why the inequality $\\frac{x}{1 - x^2} \\geq \\frac{3 \\sqrt{3}}{2} x^2$ holds for all $0 < x < 1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How did we factor the expression $3 \\sqrt{3} x^4 - 3x^2 \\sqrt{3} + 2x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What can we conclude about the expression $\\frac{x_1}{1 - x_1^2} + \\frac{x_2}{1 - x_2^2} + \\frac{x_3}{1 - x_3^2} + \\dots + \\frac{x_{100}}{1 - x_{100}^2}$ based on the inequality we derived?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the minimum value of the expression $\\frac{x_1}{1 - x_1^2} + \\frac{x_2}{1 - x_2^2} + \\frac{x_3}{1 - x_3^2} + \\dots + \\frac{x_{100}}{1 - x_{100}^2}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "When does equality occur in the inequality $\\frac{x}{1 - x^2} \\geq \\frac{3 \\sqrt{3}}{2} x^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How does the equality case help us determine the minimum value of the given expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

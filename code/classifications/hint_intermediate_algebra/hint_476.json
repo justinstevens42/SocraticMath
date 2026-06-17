@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_476",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "The sequences of positive integers $1,a_2, a_3, \\dots$ and $1,b_2, b_3, \\dots$ are an increasing arithmetic sequence and an increasing geometric sequence, respectively. Let $c_n=a_n+b_n$. There is an integer $k$ such that $c_{k-1}=100$ and $c_{k+1}=1000$. Find $c_k$.",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information in the problem about the sequences $a_n$ and $b_n$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we represent $a_n$ and $b_n$ in terms of the common difference $d$ and common ratio $r$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What are the two equations we get after substituting the values of $a_n$ and $b_n$ in terms of $d$ and $r$, and what are they used for?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is $r$ restricted to the values 2, 3, 4, and 5?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we determine which values of $k$ are possible?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are the two equations we get after substituting the values of $k$ in terms of $d$ and $r$, and what do they tell us?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Why do we narrow down $r$ to the value of 9, and how does that lead to the value of $d$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the final answer for $c_3$, and how do we arrive at it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

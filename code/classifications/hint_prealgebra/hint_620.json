@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_620",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem": "A circle has an area of $\\pi$ square units. What is the length of the circle's diameter, in units?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the relationship between the radius and the diameter of a circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the given area of $\\pi$ square units to find the length of the radius?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain the steps you would take to find the value of the radius based on the given area?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is $r^2\\pi=\\pi$ a valid equation for finding the radius?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Once we have the value of the radius, how can we calculate the length of the diameter?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there any other mathematical concept or formula you can think of that relates to finding the length of a circle's diameter?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

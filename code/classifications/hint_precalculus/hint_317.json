@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_317",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem": "Find the curve defined by the equation\n\\[\\theta = \\frac{\\pi}{3}.\\](A) Line\n(B) Circle\n(C) Parabola\n(D) Ellipse\n(E) Hyperbola\n\nEnter the letter of the correct option.",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "e",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what the equation $\\theta = \\frac{\\pi}{3}$ represents?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for a point to make an angle of $\\frac{\\pi}{3}$ with the positive $x$-axis?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Are there any other points that make an angle of $\\frac{\\pi}{3}$ with the positive $x$-axis?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 4,
+      "question": "How can we represent these points as a graph?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What can be said about the points that make an angle of $\\frac{\\pi}{3} + \\pi$ with the positive $x$-axis?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What happens if we include the points with negative radii?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we describe the graph in terms of its shape?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Which option - (A) Line, (B) Circle, (C) Parabola, (D) Ellipse, or (E) Hyperbola - best represents the curve defined by $\\theta = \\frac{\\pi}{3}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you explain why the correct option is the best representation for this curve?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

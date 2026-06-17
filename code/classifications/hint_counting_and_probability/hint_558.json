@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_558",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem": "A palindrome is an integer that reads the same forward and backward, such as 3663. What percent of the palindromes between 100 and 500 contain at least one 5?",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what a palindrome is and provide an example?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Based on the given information, how can we determine which palindromes between 100 and 500 contain at least one 5?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Why is it stated that none of the palindromes between 100 and 500 begin with a 5? What does this imply for finding palindromes with a 5?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Considering that the only place a 5 can appear is in the tens digit, how many palindromes between 100 and 500 have a 5 in the tens digit?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we count the total number of palindromes between 100 and 500?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Why do we have 4 choices for the first/last digit and 10 choices for the middle digit when counting the total number of palindromes?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can we calculate the percentage of palindromes that contain 5 as a digit using the information we have gathered?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you express the percentage as a decimal or fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the final answer to the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

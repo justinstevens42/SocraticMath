@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_815",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "$ABCDEFGH$ shown below is a cube. Find $\\sin \\angle HAC$.\n\n[asy]\n\nimport three;\n\ntriple A,B,C,D,EE,F,G,H;\n\nA = (0,0,0);\n\nB = (1,0,0);\n\nC = (1,1,0);\n\nD= (0,1,0);\n\nEE = (0,0,1);\n\nF = B+EE;\n\nG = C + EE;\n\nH = D + EE;\n\ndraw(B--C--D);\n\ndraw(B--A--D,dashed);\n\ndraw(EE--F--G--H--EE);\n\ndraw(A--EE,dashed);\n\ndraw(B--F);\n\ndraw(C--G);\n\ndraw(D--H);\n\nlabel(\"$A$\",A,S);\n\nlabel(\"$B$\",B,W);\n\nlabel(\"$C$\",C,S);\n\nlabel(\"$D$\",D,E);\n\nlabel(\"$E$\",EE,N);\n\nlabel(\"$F$\",F,W);\n\nlabel(\"$G$\",G,SW);\n\nlabel(\"$H$\",H,E);\n\n[/asy]",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the relationship between the cube and triangle HAC?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What are the characteristics of triangle HAC? Can you identify any special properties that stand out?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine whether triangle HAC is equilateral or not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the measure of angle HAC? Can you explain how you arrived at that conclusion?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why is the measure of angle HAC important when finding the sine of that angle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we find the value of sin 60 degrees? Are there any special trigonometric ratios that apply in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the numerical value of sin 60 degrees?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

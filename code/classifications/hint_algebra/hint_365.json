@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_365",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem": "Note that $9^2 = 81$, which contains no zeros; $99^2 = 9801$, which contains 1 zero; and $999^2 = 998,\\!001$, which contains 2 zeros. Assuming this pattern continues, how many zeros are in the expansion of $99,\\!999,\\!999^2$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "e",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the pattern we observe in the number of zeros in the squares of numbers like 9, 99, and 999?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we use this pattern to predict the number of zeros in the expansion of $99,\\!999,\\!999^2$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can we generalize this pattern to any number of 9's in the expansion of the square?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 4,
+      "question": "Is it possible for this pattern to break down? If so, under what circumstances?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we confirm our prediction about the number of zeros in $99,\\!999,\\!999^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we apply a similar line of thinking to other number patterns or mathematical concepts?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

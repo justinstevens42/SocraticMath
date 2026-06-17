@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_723",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "Regular hexagon $ABCDEF$ is the base of right pyramid $\\allowbreak PABCDEF$.  If $PAD$ is an equilateral triangle with side length 8, then what is the volume of the pyramid?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a regular hexagon and how is it different from a regular triangle or square?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does drawing the long diagonals of a regular hexagon help us find the area of the base of the pyramid?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Why do we multiply the area of one equilateral triangle by 6 to find the area of the entire regular hexagon?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do we know that triangle $POA$ is a 30-60-90 triangle and what is the length of its legs?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we use the knowledge of the length of $\\overline{PO}$ and the area of the base to find the volume of the pyramid?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What other shapes can be used to form the base of a pyramid, and how does finding the area of the base differ for each shape?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

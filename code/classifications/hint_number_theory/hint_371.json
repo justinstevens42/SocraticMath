@@ -1,0 +1,89 @@
+{
+  "problem_id": "hint_371",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem": "There is a prime number which is a factor of every sum of three  consecutive integers. What is the number?",
+  "n_questions": 11,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "r",
+    "r",
+    "f",
+    "b",
+    "b",
+    "e",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the concept of consecutive integers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we represent the sum of three consecutive integers mathematically?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you think of examples to demonstrate the concept of consecutive integers and their sums?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the definition of a prime number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What are some examples of prime numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "If we consider the sum of three consecutive integers, can you identify any patterns or relationships?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "Why does the sum of three consecutive integers always result in a multiple of 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any prime numbers that divide all sums of three consecutive integers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other ways to find the prime number that divides all sums of three consecutive integers?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "Can you generalize the result for any three consecutive integers?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 11,
+      "question": "Is there a way to prove that the prime number we found is indeed a factor of every sum of three consecutive integers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

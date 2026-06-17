@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_98",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem": "For how many values of $x$ is the expression $\\frac{x^2-9}{(x^2+2x-3)(x-3)}$ undefined?",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of an undefined expression in algebra?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "In the given expression, what can cause the expression to be undefined?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Which values of x would make the denominator of the expression equal to zero?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What are the factors of the denominator and what values of x would make each factor equal to zero?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many values of x would make the expression undefined based on the factors of the denominator?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you solve each factor equation to find the values of x that make the expression undefined?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any values of x that satisfy multiple factor equations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we determine the total number of values of x for which the expression is undefined?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

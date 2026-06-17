@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_1017",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem": "What is $\\frac{1357_{9}}{100_{4}}-2460_{8}+5678_{9}$? Express your answer in base 10.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the base of the numbers given in the expression and why is it important to know it?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the first step in solving this expression and why is it important to follow a specific order of operations?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How do we convert numbers from different bases to base 10 and why is it necessary to do so in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain the concept of division in different bases and how it relates to this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the significance of subtracting a number in base 8 from the sum of two numbers in different bases?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "How do we simplify the resulting expression to get the final answer in base 10?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

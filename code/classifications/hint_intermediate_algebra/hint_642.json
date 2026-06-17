@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_642",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem": "The line $y = 2x + c$ is tangent to the parabola $y^2 = 8x.$  Find $c.$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the characteristics of a tangent line to a parabola, from a geometric perspective?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we use this knowledge to find the value of $c$ in the equation $y = 2x + c$ tangent to $y^2 = 8x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "By substituting the expression for $y$ in terms of $x$ from the given equation, we obtain a quadratic equation. Can you derive this equation and explain why it is necessary to solve for $c$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "We know that to have a tangent line, the quadratic equation obtained should have a double root. What is the discriminant of a quadratic equation and how can we use it to find the value of $c$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Using the discriminant, what value of $c$ do we get for the given quadratic equation, and how does this satisfy the requirements for the line to be a tangent to the parabola?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other examples where finding the tangent line to a curve or solving for a double root of a quadratic equation is relevant? How can the techniques used in this problem be extended to other situations?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

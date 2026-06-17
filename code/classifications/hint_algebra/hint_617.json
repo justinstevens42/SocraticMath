@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_617",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem": "What is the area enclosed by the region defined by the equation $x^2+y^2+6x+8y=0$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step you would take to find the area enclosed by the region defined by the equation $x^2+y^2+6x+8y=0$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Are you familiar with any specific methods or techniques for finding the area enclosed by a curve or equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you were to graph the equation $x^2+y^2+6x+8y=0$, what shape would it form? How does this shape help us determine the area enclosed?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What additional information or techniques do you think we might need in order to find the area enclosed by this equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of any other equations or curves where finding the enclosed area may require similar thinking or steps?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "How would you approach finding the area if the equation were slightly different, such as $x^2+y^2+6x+8y=10$ instead? What changes would you need to make to your approach?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

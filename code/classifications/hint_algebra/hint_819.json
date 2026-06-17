@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_819",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem": "Find the smallest value of $x$ that satisfies the equation $|3x+7|=26$.",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "e",
+    "r",
+    "r",
+    "r",
+    "b",
+    "e",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you begin solving this equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you think of multiple methods to solve equations involving absolute value?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 3,
+      "question": "If you choose to isolate the absolute value expression by using the definition of absolute value, what would be your first step?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What does the absolute value symbol represent in this equation? How does that affect the possible solutions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "After isolating the expression inside the absolute value, what are the two possible equations that need to be solved separately?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How would you solve each of those equations to find the values of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the significance of the word \"smallest\" in the given question? Does that affect the approach to find the solution?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "How would you determine if the solutions obtained are valid for the original equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other types of equations where absolute value might be involved and a similar thought process would be needed?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

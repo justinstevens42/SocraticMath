@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_38",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem": "In the two concentric circles shown, the radius of the outer circle is twice the radius of the inner circle. What is the area of the gray region, in square feet, if the width of the gray region is 2 feet? Express your answer in terms of $\\pi$.\n\n[asy]\nfilldraw(circle((0,0),4),gray);\nfilldraw(circle((0,0),2),white);\n\ndraw((2,0)--(4,0),linewidth(1));\n\nlabel(\"$2^{\\prime}$\",(3,0),N);\n[/asy]",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what the first step should be in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can you determine the radius of the outer circle based on the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the formula for finding the area of a circle? How can you apply this formula to find the area of the outer circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can you find the area of the inner circle using the radius you determined in question 2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the formula for finding the area of a shaded region between two circles?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you substitute the values you found for the areas of the inner and outer circles into the formula from question 5 to calculate the area of the gray region?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can you simplify the expression for the area of the gray region in terms of pi?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

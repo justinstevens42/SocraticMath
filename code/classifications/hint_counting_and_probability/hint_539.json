@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_539",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 2",
+  "problem": "The four-member math team at Pecanridge Middle School is chosen from the math club, which has three girls and five boys. How many different teams made up of two girls and two boys could be chosen?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the math club's composition in terms of the number of girls and boys?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many girls and boys are needed to form a team?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How do we calculate the number of ways to choose the 2 girls from the 3 available?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How do we calculate the number of ways to choose the 2 boys from the 5 available?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why do we multiply the number of ways to choose the girls and boys together?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the final result after calculating the number of teams?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

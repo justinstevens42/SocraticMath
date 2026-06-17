@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_525",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "Rectangle $ABCD$ is the base of pyramid $PABCD$. If $AB = 8$, $BC = 4$, $\\overline{PA}\\perp \\overline{AB}$, $\\overline{PA}\\perp\\overline{AD}$, and $PA = 6$, then what is the volume of $PABCD$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is given in the problem about the rectangle and the pyramid?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for $\\overline{PA}$ to be perpendicular to $\\overline{AB}$ and $\\overline{AD}$? How does this relate to the volume of the pyramid?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the area of the base $[ABCD]$? What do we know about the sides of the rectangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the height of the pyramid? How do we know this?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the area of the base and the height to find the volume of the pyramid? What is the formula for the volume of a pyramid?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you calculate the volume of the pyramid using the given values?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

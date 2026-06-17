@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_827",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 2",
+  "problem": "A professor is assigning grades to a class of 10 students. As a very kind professor, he only gives out A's, B's, and C's. How many ways can the professor assign grades to all his students?",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the possible grades that the professor can give out?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How many students are in the class? Why is this important to consider?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many total combinations of grades are possible if the professor can assign any grade to any student?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "In how many ways can the professor give out only A's to the students?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "In how many ways can the professor give out only B's and C's to the students?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we calculate the total number of ways the professor can assign grades to all 10 students if he only gives out A's, B's, and C's?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other factors that we need to consider when calculating the total number of possible grade combinations?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

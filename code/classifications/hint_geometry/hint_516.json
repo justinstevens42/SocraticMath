@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_516",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem": "In triangle $ABC$, we have $\\angle A = 90^\\circ$ and $\\sin B = \\frac{4}{7}$.  Find $\\cos C$.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the significance of the given information in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How does the fact that angle A is 90 degrees affect the relationships between the sides and angles in triangle ABC?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain why the sine of angle B is equal to the ratio of the length of side AC to side BC?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can you use the given value of sin B (4/7) to determine the lengths of sides AC and BC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does the relationship between the cosine of angle C and the ratio of side AC to side BC help us solve the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other methods or formulas that could be used to find the value of cos C in this particular scenario?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "How can we verify that our solution for cos C is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

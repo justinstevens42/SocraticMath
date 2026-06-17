@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_546",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem": "Find the matrix $\\mathbf{M}$ such that\n\\[\\mathbf{M} \\mathbf{v} = \\begin{pmatrix} 5 \\\\ 2 \\\\ -8 \\end{pmatrix} \\times \\mathbf{v}\\]for all vectors $\\mathbf{v}.$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in finding the matrix $\\mathbf{M}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does the cross product of two vectors represent in general? How does it relate to matrix multiplication?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How did we express the cross product of $\\begin{pmatrix} 5 \\\\ 2 \\\\ -8 \\end{pmatrix}$ and $\\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix}$ as a matrix equation? What does each entry in the resulting matrix represent?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What are the properties or characteristics of this matrix that make it suitable to represent the cross product?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why the entries in the matrix correspond to the coefficients of $x$, $y$, and $z$ in the cross product expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other types of operations or equations that involve matrices and vectors, where a similar thought process and steps might be applied?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

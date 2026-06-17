@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_831",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "A region $S$ in the complex plane is defined by \\begin{align*}\nS = \\{x + iy: - 1\\le x\\le1, - 1\\le y\\le1\\}.\n\\end{align*}A complex number $z = x + iy$ is chosen uniformly at random from $S$. What is the probability that $\\left(\\frac34 + \\frac34i\\right)z$ is also in $S$?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the region $S$ in the complex plane?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How is the complex number $z$ chosen from $S$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the expression for $\\left(\\frac34 + \\frac34i\\right)z$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Under what condition is $\\left(\\frac34 + \\frac34i\\right)z$ in $S$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the region $T$ defined to be, and how is it related to the condition in part 4?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What is the area of the intersection between $S$ and $T$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the probability that $\\left(\\frac34 + \\frac34i\\right)z$ is in $S$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_373",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem": "The sum of the first and third of three consecutive integers is 118. What is the value of the second integer?",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are three consecutive integers? Can you provide an example?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we represent the first, second, and third consecutive integers algebraically?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "According to the problem, the sum of the first and third integers is 118. Can you write an equation to represent this relationship?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What strategy or method can we use to solve this equation? Can you explain why?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "If we let x represent the first integer, can you express the second and third integers in terms of x?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How will you set up the equation using the information from steps 3 and 5?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you solve the equation to find the value of x, representing the first integer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Once you find the value of x, how can you use it to determine the value of the second integer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you verify your solution by substituting the values of the first and second integers into the original equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you generalize this problem to find the second integer if the sum of the first and third integers is a different value?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

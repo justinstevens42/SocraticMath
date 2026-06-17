@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_99",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem": "The integers $r$ and $k$ are randomly selected, where $-3 < r < 6$ and $1 < k < 8$. What is the probability that the division $r \\div k$ is an integer value? Express your answer as a common fraction.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the problem statement and the given sets of possible values for $r$ and $k$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the total number of pairs of integers that can be formed using the given sets for $r$ and $k$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "From the given sets, which values of $r$ satisfy the condition that $k|r$? How many such values are there?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "For each value of $r$ that satisfies the condition, how many possible values of $k$ can be chosen?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why certain values of $r$ have more or fewer possible values of $k$ that satisfy the condition?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many total pairs satisfy the divisibility condition? What is the probability of randomly selecting such a pair?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you generalize the method used in this problem to calculate the probability of obtaining an integer value in similar divisions with different sets of integers $r$ and $k$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

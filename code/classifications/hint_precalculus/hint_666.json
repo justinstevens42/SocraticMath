@@ -1,0 +1,89 @@
+{
+  "problem_id": "hint_666",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem": "The number\n\\[e^{7\\pi i/60} + e^{17\\pi i/60} + e^{27 \\pi i/60} + e^{37\\pi i /60} + e^{47 \\pi i /60}\\]is expressed in the form $r e^{i \\theta}$, where $0 \\le \\theta < 2\\pi$.  Find $\\theta$.",
+  "n_questions": 11,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the geometric representation of $e^{7\\pi i/60}$ in the complex plane?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What about the geometric representation of $e^{17\\pi i/60}$? How does it differ from the first representation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you describe the geometric representation of $e^{27 \\pi i/60}$? How is this different from the previous two?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Continuing on, what about the geometric representation of $e^{37\\pi i /60}$? How is it related to the others?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Finally, how would you represent $e^{47 \\pi i /60}$ in the complex plane? Is there a pattern in the geometric representations of all five numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Given the geometric representations of all these numbers, can you intuitively determine the argument of the sum $e^{7\\pi i/60} + e^{17\\pi i/60} + e^{27 \\pi i/60} + e^{37\\pi i /60} + e^{47 \\pi i /60}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we use the idea of symmetry to simplify the problem of finding the argument of the sum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you describe the symmetry present in the complex plane representation of these numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Using symmetry, what can we say about the argument of the sum of $e^{7\\pi i/60}$ and $e^{47\\pi i /60}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How does the argument of $e^{17\\pi i/60} + e^{37\\pi i/60}$ relate to the argument of $e^{7\\pi i/60} + e^{47\\pi i /60}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 11,
+      "question": "Combining the arguments from steps 9 and 10, can we find the argument of the entire sum of $e^{7\\pi i/60} + e^{17\\pi i/60} + e^{27 \\pi i/60} + e^{37\\pi i /60} + e^{47 \\pi i /60}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

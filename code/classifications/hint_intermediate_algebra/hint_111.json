@@ -1,0 +1,89 @@
+{
+  "problem_id": "hint_111",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "The sequence $(x_n)$ is defined by $x_1 = 115$ and $x_k = x_{k - 1}^2 + x_{k - 1}$ for all $k \\ge 2.$  Compute\n\\[\\frac{1}{x_1 + 1} + \\frac{1}{x_2 + 1} + \\frac{1}{x_3 + 1} + \\dotsb.\\]",
+  "n_questions": 11,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How is the sequence $(x_n)$ defined?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the value of $x_1$ in the sequence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How is each term $x_k$ related to the previous term $x_{k-1}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you simplify the expression $\\frac{1}{x_{k-1} + 1}$? What do you get?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we rewrite the expression $\\frac{1}{x_{k-1} + 1}$ using the terms $x_k$ and $x_{k-1}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you simplify the expression $\\frac{x_{k-1}}{x_k}$ further? What do you get?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we use this simplification to find a telescoping sum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the general form of the telescoping sum for $\\frac{1}{x_1 + 1} + \\frac{1}{x_2 + 1} + \\frac{1}{x_3 + 1} + \\dotsb$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the value of the telescoping sum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How does the value of the telescoping sum relate back to the initial sequence $(x_n)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "Can you generalize this result to any term $\\frac{1}{x_n + 1}$ in the sum?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

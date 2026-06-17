@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_774",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem": "Compute $\\arctan ( \\tan 65^\\circ - 2 \\tan 40^\\circ )$. (Express your answer in degrees as an angle between $0^\\circ$ and $180^\\circ$.)",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the initial step you would take to compute the expression $\\arctan (\\tan 65^\\circ - 2 \\tan 40^\\circ)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain the identity $\\tan (90^\\circ - x) = \\frac{1}{\\tan x}$ and how it relates to the given expression?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "By applying the identity, explain how we can rewrite $\\tan 65^\\circ - 2 \\tan 40^\\circ$ as $\\frac{1}{\\tan 25^\\circ} - \\frac{2}{\\tan 50^\\circ}$.",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can you simplify the expression $\\frac{1}{\\tan 25^\\circ} - \\frac{2}{\\tan 50^\\circ}$ further using trigonometric identities?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the final simplified expression for $\\arctan (\\tan 65^\\circ - 2 \\tan 40^\\circ)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How does the value of $\\arctan (\\tan 65^\\circ - 2 \\tan 40^\\circ)$ relate to the original problem statement regarding angles between $0^\\circ$ and $180^\\circ$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

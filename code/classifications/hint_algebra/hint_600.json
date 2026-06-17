@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_600",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "$k, a_2, a_3$ and $k, b_2, b_3$ are both nonconstant geometric sequences with different common ratios.  We have  $$a_3-b_3=3(a_2-b_2).$$Find the sum of the common ratios of the two sequences.",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "r",
+    "b",
+    "e",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what a geometric sequence is and how it is different from other types of sequences?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How would you define a nonconstant geometric sequence?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you identify the common ratios in the sequences $k, a_2, a_3$ and $k, b_2, b_3$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean by $a_3-b_3=3(a_2-b_2)$? Can you rewrite this equation in terms of the common ratios of the sequences?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can you use the given equation to find a relationship between the common ratios? Can you solve for one of the common ratios in terms of the other?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the significance of having different common ratios in the two sequences? How does it affect the overall problem?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "How can you find the sum of the common ratios from the given equation and the relationship you derived between the common ratios?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other scenarios or problems where similar reasoning and steps would be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

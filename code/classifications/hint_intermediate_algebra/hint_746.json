@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_746",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "Let $a$ and $b$ be positive real numbers.  Find the minimum value of\n\\[a^2 + b^2 + \\frac{1}{(a + b)^2}.\\]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given expression in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the significance of the variable \"s\" in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we rewrite the expression using \"s\" instead of \"a\" and \"b\"?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "By applying the Quadratic Mean - Arithmetic Mean inequality, what is the lower bound of the term (a^2 + b^2)?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How does the inequality relate to the expression we are trying to minimize?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What is the geometric interpretation of the minimum value we are seeking?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What conditions must be satisfied in order to achieve the minimum value?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "How can we apply the AM-GM inequality to further analyze the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What values of \"s\" minimize the expression, and do they correspond to valid values of \"a\" and \"b\"?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Are there any alternative methods or approaches that can be used to solve this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_726",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "Find all solutions to the inequality \\[\\frac{x}{x-1} + \\frac{x+2}{2x} \\ge 3.\\](Give your answer in interval notation.)",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you simplify the inequality by first finding a common denominator for the left-hand side?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How did you factor the numerator of the resulting expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for a fraction to be greater than or equal to zero?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain how to use a sign table to solve this inequality?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the solution set for the inequality in interval notation? Can you explain your reasoning?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of another mathematical concept or problem that can be solved using a similar approach or method?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

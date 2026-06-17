@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_252",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "An ellipse has foci at $(9, 20)$ and $(49, 55)$ in the $xy$-plane and is tangent to the $x$-axis. What is the length of its major axis?",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what an ellipse is in your own words?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does the definition of the foci of an ellipse relate to the shape of the ellipse itself?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If an ellipse is tangent to the x-axis, what can you say about the y-coordinates of its points of tangency?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the fact that the ellipse is tangent to the x-axis to find the length of its major axis?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why reflecting one of the foci of the ellipse over the x-axis is helpful for finding the length of its major axis?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the result of reflecting one of the foci of the ellipse over the x-axis to find the length of its major axis?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How do we compute the length of the line segment $F_1'F_2$ that we need to find in order to determine the length of the major axis?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you explain why the length of $F_1'F_2$ is equal to the length of the major axis of the ellipse?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the final answer for the length of the major axis?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

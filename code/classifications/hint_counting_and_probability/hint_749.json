@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_749",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem": "April has four different basil plants and four different tomato plants. In how many ways can she arrange the plants in a row if she puts all the tomato plants next to each other?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many basil plants does April have in total?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many tomato plants does April have in total?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "If all the tomato plants are placed next to each other, how many plants are there in the group?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can we treat the group of tomato plants as a single entity? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many ways can we arrange the group of tomato plants in a row?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "If we treat the group of tomato plants as a single entity, how many \"objects\" are left to arrange?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How many ways can we arrange the remaining basil plants and the group of tomato plants (as a single entity)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can we combine the arrangements of the basil plants and the group of tomato plants separately? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can we calculate the total number of ways to arrange the plants given the arrangement of the group of tomato plants and the remaining basil plants?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

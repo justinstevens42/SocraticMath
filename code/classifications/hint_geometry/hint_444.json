@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_444",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "What is the number of centimeters in the length of $EF$ if $AB\\parallel CD\\parallel EF$?\n\n[asy]\n\nsize(4cm,4cm);\npair A,B,C,D,E,F,X;\n\nA=(0,1);\nB=(1,1);\nC=(1,0);\nX=(0,0);\nD=(1/3)*C+(2/3)*X;\n\ndraw (A--B--C--D);\ndraw(D--B);\ndraw(A--C);\n\nE=(0.6,0.4);\nF=(1,0.4);\n\ndraw(E--F);\n\nlabel(\"$A$\",A,NW);\nlabel(\"$B$\",B,NE);\nlabel(\"$C$\",C,SE);\nlabel(\"$D$\",D,SW);\nlabel(\"$E$\",shift(-0.1,0)*E);\nlabel(\"$F$\",F,E);\n\nlabel(\"$100$ cm\",midpoint(C--D),S);\nlabel(\"$150$ cm\",midpoint(A--B),N);\n\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What do we know about the relationship between $AB,$ $CD,$ and $EF$ based on the diagram?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do the angles $\\angle BAC$ and $\\angle FEC$ relate to each other? What about $\\angle ABC$ and $\\angle EFC$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the similarity ratio between $\\triangle ABC$ and $\\triangle EFC$? What about between $\\triangle BDC$ and $\\triangle BEF$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you write down two equations involving $EF,$ $AB,$ $BC,$ $DC,$ $BF,$ and $FC$ based on the similarities? How do we use these equations to find $EF$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why did we add the two equations together? How did we solve for $EF$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "If we changed the length of $AB$ and $DC,$ would the length of $EF$ change accordingly? Can you generalize your answer?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

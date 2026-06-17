@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_857",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem": "Multiply $(2x^3-5y^2)(4x^6+10x^3y^2+25y^4)$.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you begin simplifying the given expression? What patterns or techniques might you look for?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you identify any common factors between the two terms? If so, what would happen if you factored them out?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the relationship between $(a-b)$ and the factorization $(a^2+ab+b^2)$? How can you apply this relationship to the given expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "In the given expression, what is the value of $a$ and what is the value of $b$? How does this relate to the factorization form $(a-b)(a^2+ab+b^2)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Using the values of $a$ and $b$ from the previous question, can you express the given expression as a difference of cubes, i.e., $a^3-b^3$? What does this tell you about the factorization?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "By using the formula for difference of cubes, what is the simplified form of the given expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

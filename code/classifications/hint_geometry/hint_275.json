@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_275",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem": "Compute $\\sin 315^\\circ$.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How do we find the point $P$ on the unit circle that is $315^\\circ$ counterclockwise from $(1,0)$? What do we know about the coordinates of $P$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "To find $\\sin 315^\\circ$, we need to find the $y$-coordinate of $P$. How can we use the coordinates of $P$ to find its $y$-coordinate?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Triangle $POD$ is a right triangle with legs of length $\\frac{\\sqrt{2}}{2}$. How do we know that angle $POD$ is $45^\\circ$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do we know that triangle $POD$ is a 45-45-90 triangle? What are the ratios of its side lengths?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Why is the $y$-coordinate of point $P$ equal to $\\sin 315^\\circ$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we use a similar method to find $\\cos 315^\\circ$? How would we go about doing that?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

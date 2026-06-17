@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_797",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem": "Convert $135_7$ to a base 10 integer.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How do you typically convert a number from a non-decimal base, such as base 7, to a decimal base?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you describe the steps you would take to convert the number 135 base 7 to a decimal integer?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Are there any shortcuts or tricks you can use to simplify the conversion process? If so, what are they?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How would you check your answer to make sure it is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there any other number bases besides base 7 that you can use similar techniques to convert to decimal?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "How might you adapt your conversion process to convert a decimal integer to a non-decimal base, such as base 5 or base 9?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

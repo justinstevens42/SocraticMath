@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_483",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "Find the largest possible value of $x$ in the simplified form $x=\\frac{a+b\\sqrt{c}}{d}$ if $\\frac{5x}{6}+1=\\frac{3}{x}$, where $a,b,c,$ and $d$ are integers. What is $\\frac{acd}{b}$?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Before we begin, can you describe what the given equation is asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What would be the first step in simplifying the equation $\\frac{5x}{6} + 1 = \\frac{3}{x}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Are there any specific methods or strategies that come to mind for solving this type of equation? If so, what are they?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "If we decide to multiply both sides of the equation by $6x$, what does that accomplish? Why is this step useful?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "After multiplying both sides by $6x$, what does the equation simplify to? How can we further simplify it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Looking at the newly simplified equation, can you identify any patterns or relationships that might help us find the largest possible value of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we rewrite the equation in the form $x = \\frac{a + b \\sqrt{c}}{d}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What are the values of $a$, $b$, $c$, and $d$ in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Based on the simplified equation, what do you think is the largest possible value of $x$ in the form $\\frac{a + b \\sqrt{c}}{d}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Finally, what is $\\frac{acd}{b}$? How did you arrive at this result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

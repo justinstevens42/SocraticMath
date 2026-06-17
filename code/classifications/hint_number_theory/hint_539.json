@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_539",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem": "How many distinct four-digit numbers are divisible by 3 and have 23 as their last two digits?",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we determine if a four-digit number is divisible by 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the significance of the last two digits being 23 in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many possible values can the first two digits (ab) have?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the condition for ab to leave a remainder of 1 when divided by 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many two-digit numbers satisfy this condition?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use this information to determine the number of distinct four-digit numbers that meet the given criteria?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can we generalize this method to find the number of n-digit numbers that are divisible by 3 and have a specific last k digits?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

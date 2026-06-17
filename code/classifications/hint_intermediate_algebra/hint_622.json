@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_622",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "For a certain hyperbola\n\\[\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1,\\]where $a > b,$ the angle between the asymptotes is $60^\\circ.$  Find $\\frac{a}{b}.$",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what a hyperbola is and how it is represented algebraically?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for the angle between the asymptotes of a hyperbola to be $60^\\circ$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the equation of the asymptotes for this hyperbola?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you visualize the point $(a,b)$ on one of the asymptotes? What does this point represent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the given information to identify the values of $a$ and $b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How does the angle between the asymptotes relate to the ratio $\\frac{a}{b}$ in a $30^\\circ$-$60^\\circ$-$90^\\circ$ triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can we use this relationship to find the value of $\\frac{a}{b}$ for the given hyperbola?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

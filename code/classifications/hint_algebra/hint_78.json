@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_78",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem": "If $2^{3x} = 7$, evaluate $8^{x+1}$.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "f",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step you would take to solve this equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How familiar are you with properties of exponents? Are there any specific properties you would apply in this situation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you were to convert $8^{x+1}$ into a form that could be easily solved, what would you do?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What relationship, if any, do you see between $2^{3x}$ and $8^{x+1}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can you use the information given in $2^{3x} = 7$ to find the value of $x+1$ in $8^{x+1}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Once you have a value for $x+1$, how can you evaluate $8^{x+1}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other examples or equations where similar thinking and steps would be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_144",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "Two concentric circles are centered at point P. The sides of a 45 degree angle at P form an arc on the smaller circle that is the same length as an arc on the larger circle formed by the sides of a 36  degree angle at P. What is the ratio of the area of the smaller circle to the area of the larger circle? Express your answer as a common fraction.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given problem asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you identify the important information given in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we relate the length of the given arcs to the circumferences of the circles?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the given information to set up an equation and solve for the ratio of the circumferences?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the ratio of the circumferences to find the ratio of the areas of the circles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you generalize this problem to find the ratio of the areas of two circles given their circumferences or diameters?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

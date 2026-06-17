@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_228",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem": "Find the curve defined by the equation\n\\[r = \\frac{1}{\\sin \\theta - \\cos \\theta}.\\](A) Line\n(B) Circle\n(C) Parabola\n(D) Ellipse\n(E) Hyperbola\n\nEnter the letter of the correct option.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "e",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain how we can rewrite the equation in terms of $x$ and $y$ coordinates using trigonometric identities?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does the equation $y - x = 1$ represent geometrically? Can you visualize it?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How does the equation of a line compare to the equation of a circle? Can you think of any similarities or differences?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 4,
+      "question": "Are there any specific properties or characteristics of a parabola that we can use to determine if the given equation represents a parabola or not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "We have concluded that the equation represents a line. Can you generalize this result for other equations of the form $r = \\frac{1}{\\sin \\theta - \\cos \\theta}$? Can you find any patterns?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "How does the equation of a line compare to the equations of an ellipse or a hyperbola? Can you think of any specific features that differentiate them?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

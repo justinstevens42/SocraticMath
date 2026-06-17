@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_1025",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem": "Each of the nine dots in this figure is to be colored red, white or blue. No two dots connected by a segment (with no other dots between) may be the same color. How many ways are there to color the dots of this figure?\n\n[asy]\ndraw((-75,0)--(-45,0)--(-60,26)--cycle);\ndraw((0,0)--(30,0)--(15,26)--cycle);\ndraw((75,0)--(105,0)--(90,26)--cycle);\ndraw((-60,26)--(90,26));\ndraw((-45,0)--(75,0));\ndot((-75,0));\ndot((-45,0));\ndot((-60,26));\ndot((15,26));\ndot((0,0));\ndot((30,0));\ndot((90,26));\ndot((75,0));\ndot((105,0));\n[/asy]",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking us to do?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the restrictions on the coloring of each dot?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How many colors can be used to color each dot?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Are there any dots that have different restrictions than others? Why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the total number of possible combinations for coloring all nine dots without any restrictions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the first two colored triangles to inform the coloring of the third triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you create a systematic approach to counting the number of valid colorings of the dots?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

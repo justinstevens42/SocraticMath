@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_330",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem": "What is the sum of all the positive divisors of 91?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a divisor of a number, and how do we find the divisors of 91?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can we list all of the divisors of 91, and if so, what is their sum?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Is there a faster or more efficient method than listing all divisors to find the sum, and if so, how does it work?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the prime factorization of 91, and how does it help us find the sum of its divisors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why does adding 1 to each prime factor and multiplying those sums give us the sum of the divisors of 91?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we use this same method to find the sum of the divisors of other numbers, and if so, what are some examples?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

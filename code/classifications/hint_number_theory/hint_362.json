@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_362",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem": "The operation $\\star$ is defined as $a \\star b = a^2 \\div b$. For how many integer values of $x$ will the value of $10 \\star x$ be a positive integer?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "f",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain how the operation $a \\star b = a^2 \\div b$ works?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the definition of a positive integer? How does it relate to the problem at hand?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If we let $n$ represent the positive integer value of $10 \\star x$, what does the equation $10^2 = 100 = nx$ imply about the relationship between $n$ and $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the possible values of $x$ that make $10 \\star x$ a positive integer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we find all the positive integer divisors of 100?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you describe any patterns or characteristics you notice in the positive integer divisors of 100?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "Do you see any restrictions on $x$ based on the definition of the operation $a \\star b$? Can $x$ be any positive integer divisor of 100?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "What are the different values of $x$ that make $10 \\star x$ a positive integer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you summarize the number of integer values of $x$ that satisfy the condition?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

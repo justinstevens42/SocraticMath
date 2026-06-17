@@ -1,0 +1,89 @@
+{
+  "problem_id": "hint_940",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem": "If $\\sin x + \\sin y = \\frac{96}{65}$ and $\\cos x + \\cos y = \\frac{72}{65}$, then what is the value of $\\tan x + \\tan y$?",
+  "n_questions": 11,
+  "labels": [
+    "b",
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What formula can we use to express $\\tan x + \\tan y$ in terms of $\\sin x$, $\\sin y$, $\\cos x$, and $\\cos y$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the given equations to express $\\sin x \\sin y + \\cos x \\cos y$ in terms of $\\sin x$ and $\\cos x$, or $\\sin y$ and $\\cos y$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "By solving the given equations, what can we find out about $\\cos (x-y)$, in terms of $\\sin x$ and $\\cos x$, or $\\sin y$ and $\\cos y$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Using the angle addition formula, what expression can we create for $\\sin(x+y)$ in terms of $\\sin x$, $\\sin y$, $\\cos x$, and $\\cos y$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What two equations can we write in terms of $\\sin(x+y)$, $\\cos(x+y)$, $\\sin\\left(\\frac{x+y}{2}\\right)$, and $\\cos\\left(\\frac{x+y}{2}\\right)$ using the sum-to-product identity?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the equation found in question 5 to solve for $\\tan\\left(\\frac{x+y}{2}\\right)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What does our solution for $\\tan\\left(\\frac{x+y}{2}\\right)$ tell us about the possible range of $\\frac{x+y}{2}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the expression for $\\tan(x+y)$ in terms of $\\tan\\left(\\frac{x+y}{2}\\right)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Using our solution for $\\tan(x+y)$, can we solve for $\\sin(x+y)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Using our solution for $\\sin(x+y)$, can we solve for $\\cos(x+y)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "How can we use our expressions for $\\sin(x+y)$ and $\\cos(x+y)$ to solve for $\\tan x + \\tan y$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

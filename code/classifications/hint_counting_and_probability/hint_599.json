@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_599",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem": "A 5x5x5 cube is formed by assembling 125 unit cubes. Nine unit squares are painted on each of the six faces of the cube according to the pattern shown. How many of the 125 unit cubes have no paint on them? [asy]\nfill((2,0)--(3,0)--(3,5)--(2,5)--cycle,gray(.7));\nfill((0,2)--(0,3)--(5,3)--(5,2)--cycle,gray(.7));\npath p=(0,0)--(5,0);\n\ndraw(p,linewidth(1));\ndraw(shift(0,1)*p,linewidth(1));\ndraw(shift(0,2)*p,linewidth(1));\ndraw(shift(0,3)*p,linewidth(1));\ndraw(shift(0,4)*p,linewidth(1));\ndraw(shift(0,5)*p,linewidth(1));\n\ndraw((0,0)--(0,5),linewidth(1));\ndraw((1,0)--(1,5),linewidth(1));\ndraw((2,0)--(2,5),linewidth(1));\ndraw((3,0)--(3,5),linewidth(1));\ndraw((4,0)--(4,5),linewidth(1));\ndraw((5,0)--(5,5),linewidth(1));\n\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total number of unit cubes in the 5x5x5 cube?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many unit squares are painted on each face of the cube?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we calculate the total number of painted faces on the cube?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Are all painted faces unique or are some repeated on multiple cubes?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How many cubes have two painted faces due to the overlapping painted edges?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Considering the cubes with two painted faces, how many of them are counted twice in the previous calculation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we calculate the total number of cubes with only one painted face?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the total number of painted cubes, considering both the singly painted cubes and those with two painted faces?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we find the number of unpainted cubes in the 5x5x5 cube?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the final result, i.e., the number of unit cubes with no paint on them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

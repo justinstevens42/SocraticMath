@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_618",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem": "A triangle has three different integer side lengths and a perimeter of 20 units. What is the maximum length of any one side?",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "r",
+    "r",
+    "r",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of a triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you identify the different types of triangles?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How do we calculate the perimeter of a triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you write an equation using the given information about the triangle's sides?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the Triangle Inequality Theorem and what does it tell us about the relationship between a triangle's sides?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Using the Triangle Inequality Theorem, can you determine the range of possible lengths for each side of the triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Given the perimeter of 20 units, what are the possible combinations of side lengths for the triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "How can we determine the maximum length of any one side using the given information about the triangle's sides and perimeter?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any real-life applications or scenarios where knowledge of triangle properties and formulas would be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

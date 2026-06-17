@@ -1,0 +1,96 @@
+{
+  "problem_id": "hint_948",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem": "For a certain value of $k,$ the system\n\\begin{align*}\nx + ky + 3z &= 0, \\\\\n3x + ky - 2z &= 0, \\\\\n2x + 4y - 3z &= 0\n\\end{align*}has a solution where $x,$ $y,$ and $z$ are all nonzero.  Find $\\frac{xz}{y^2}.$",
+  "n_questions": 12,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the goal in this problem? What are we trying to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the condition for the system to have a solution? How can we determine that condition?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we express the given system in matrix form? What method can we use to find a solution?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the determinant of the coefficient matrix? What does the determinant tell us about the system?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we calculate the determinant of a $2 \\times 2$ matrix? Can we generalize this method to larger matrices?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What does it mean for the determinant to be zero? How does this relate to the existence of a solution?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Can we find the value of $k$ that makes the determinant zero? How can we use the determinant to find $k$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Once we have the value of $k$, how can we find the solutions to the system?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we rewrite the system equations in terms of $x$, $y$, and $z$ using the value of $k$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can we use these equations to determine the relationship between $x$, $y$, and $z$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 11,
+      "question": "What is the value of $z$ in terms of $x$? What is the value of $y$ in terms of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "How can we calculate $\\frac{xz}{y^2}$ using the relationships we found for $x$, $y$, and $z$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

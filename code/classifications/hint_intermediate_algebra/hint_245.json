@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_245",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem": "Let $x,$ $y,$ and $z$ be positive real numbers such that $x + y + z = 6.$  Find the minimum value of\n\\[\\frac{x^2 + y^2}{x + y} + \\frac{x^2 + z^2}{x + z} + \\frac{y^2 + z^2}{y + z}.\\]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "e",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the QM-AM inequality and how is it used in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How does the re-arrangement inequality help us in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the significance of the equality case in this problem?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 4,
+      "question": "Can we use other inequalities or methods to find the minimum value of the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What if $x,$ $y,$ and $z$ are not necessarily positive? How would the solution change?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we find the maximum value of the expression using similar methods?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

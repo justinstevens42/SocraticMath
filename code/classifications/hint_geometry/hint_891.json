@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_891",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "An isosceles right triangle is removed from each corner of a square piece of paper, as shown, to create a rectangle. If $AB = 12$ units, what is the combined area of the four removed triangles, in square units? [asy]\nunitsize(5mm);\ndefaultpen(linewidth(.7pt)+fontsize(8pt));\n\npair A=(1,4), Ap=(0,3), B=(3,0), Bp=(4,1);\n\ndraw((0,0)--(0,4)--(4,4)--(4,0)--cycle);\ndraw(A--Ap--B--Bp--cycle,linetype(\"4 3\"));\n\nlabel(\"$A$\",A,N);\nlabel(\"$B$\",B,S);\n[/asy]",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What shape is formed when an isosceles right triangle is removed from each corner of a square?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we label the lengths of the two segments that each side of the square is divided into by a vertex of the rectangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the equation that represents the Pythagorean theorem for this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we simplify the equation $2r^2 + 2s^2 = 144$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What does the combined area of the four removed triangles represent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we calculate the combined area in terms of $r$ and $s$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we find the value of the combined area using the equation $2r^2 + 2s^2 = 144$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the final value of the combined area in square units?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

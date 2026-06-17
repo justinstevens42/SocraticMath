@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_36",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem": "A car travels 192 miles on 6 gallons of gas. How far can it travel on 8 gallons of gas?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for two quantities to be directly proportional?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the constant of proportionality in this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why can we use the fraction $\\frac{8}{6}=\\frac{4}{3}$ to represent the relationship between the two quantities?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the constant of proportionality to find the distance the car can travel on 8 gallons of gas?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other scenarios in which direct proportionality can be applied?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

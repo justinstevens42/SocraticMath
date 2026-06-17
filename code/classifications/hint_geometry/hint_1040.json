@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_1040",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "The area of an equilateral triangle is numerically equal to the length of one of its sides. What is the perimeter of the triangle, in units? Express your answer in simplest radical form.",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "e",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you state the formula for the area of an equilateral triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do you express the relationship between the area of the equilateral triangle and the length of one of its sides?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can you derive the expression for the length of one side in terms of the area of the equilateral triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the length of one side of the equilateral triangle in terms of its area, and what is the significance of this result?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "How can you use the length of one side to determine the perimeter of the equilateral triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the final expression for the perimeter of the equilateral triangle, and why is it important to express it in simplest radical form?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Can you apply similar methods to find the perimeter of other types of triangles, and what challenges might arise in doing so?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

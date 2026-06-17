@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_106",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "Find the greatest integer value of $b$ for which the expression $\\frac{9x^3+4x^2+11x+7}{x^2+bx+8}$ has a domain of all real numbers.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the domain of a function represents?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the domain of a rational function?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What are the restrictions on the denominator of a rational function?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the denominator in the given expression? Can you factorize it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does factoring the denominator help us determine the domain?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "If the factored form of the denominator includes linear factors, what are the restrictions on those factors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What does it mean for the expression to have a domain of all real numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "How can we determine the values of $b$ that satisfy the conditions for the domain?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What happens if we set the denominator equal to zero? Can you solve that equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How does solving for the values of $b$ based on the restrictions help us find the greatest integer value of $b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

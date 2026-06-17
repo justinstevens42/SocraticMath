@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_490",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem": "If $x+y=4$ and $x^2+y^2=8$, find $x^3+y^3$.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step you would take to solve this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What different methods do you know that can be used to solve a system of equations like this?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you choose to solve it by substitution, how would you go about finding the values of x and y?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is substitution a viable method for solving this system of equations? What characteristics make it suitable?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Once you have found the values of x and y, how would you use them to find the value of x^3+y^3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other types of equations where solving them may require a similar approach and steps?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

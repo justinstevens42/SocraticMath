@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_261",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem": "My grandpa has 10 pieces of art, including 3 prints by Escher. If he hangs the pieces of art in a row in a random order, what is the probability that all three pieces by Escher will be placed consecutively?",
+  "n_questions": 9,
+  "labels": [
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many total pieces of art does your grandpa have?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How many prints by Escher does your grandpa have?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "If all the pieces of art are hung in a row randomly, what is the total number of possible arrangements?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How many ways can the three prints by Escher be placed consecutively?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why can we treat the three Escher prints as one item when counting the arrangements?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many locations are there for this \"combined\" item in the row of art?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the total number of ways to place the three Escher prints without any restrictions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we calculate the probability of the three Escher prints being placed consecutively?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the final probability of the three Escher prints being placed consecutively?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_625",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem": "Rachel has two identical basil plants and an aloe plant. She also has two identical white lamps and two identical red lamps she can put each plant under (she can put more than one plant under a lamp, but each plant is under exactly one lamp). How many ways are there for Rachel to put her plants under her lamps?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the problem in your own words? What is Rachel trying to do with her plants and lamps?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many different color lamps does Rachel have? How many plants does she have?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Let's consider the first case where all three plants are under the same color lamp. How many possibilities are there for this case? Can you explain each possibility?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Now, let's move on to the case where the aloe plant is under a different color lamp than the basil plants. How many possibilities are there for this case? Can you explain each possibility?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Lastly, let's explore the case where each basil plant is under a different colored lamp. How many possibilities are there for this case? Can you explain each possibility?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are the total number of possibilities when accounting for all the cases we discussed? Can you explain how you arrived at this total?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_557",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem": "Sheila has been invited to a picnic tomorrow.  The picnic will occur, rain or shine.  If it rains, there is a $20\\%$ probability that Sheila will decide to go, but if it is sunny, there is an $80\\%$ probability that Sheila will decide to go.  The forecast for tomorrow states that there is a $40\\%$ chance of rain.  What is the probability that Sheila will attend the picnic? Express your answer as a percent.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the scenario in this problem? Can you describe it in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the two possible weather conditions mentioned in the problem? What are the associated probabilities for each condition?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Let's assume it rains and Sheila decides to go. What is the probability of this event occurring? How did you calculate it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Now, let's assume it doesn't rain but Sheila still decides to go. What is the probability of this event occurring? How did you calculate it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we find the overall probability of Sheila attending the picnic? Can you explain the reasoning behind the calculation approach used?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the final probability of Sheila attending the picnic? Please express your answer as a percentage.",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any alternative approaches to solving this problem? How would they differ from the one we used?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

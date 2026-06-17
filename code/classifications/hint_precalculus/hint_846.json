@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_846",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem": "The set of points $(x,y,z)$ that are equidistant to $(1,2,-5)$ and point $P$ satisfy an equation of the form\n\\[10x - 4y + 24z = 55.\\]Find the point $P.$",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the equation that describes the set of points equidistant to $(1,2,-5)$ and point $P$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for a point to be equidistant to two other points?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we represent the distance between two points algebraically?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean for two distances to be equal?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How did we use the equation for equidistant points to derive the equation $10x - 4y + 24z = 55$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How did we use the two equations to solve for the coordinates of point $P$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What other types of problems involve finding a point equidistant to two other points?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

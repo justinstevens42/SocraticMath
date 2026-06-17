@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_887",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "Let $a_0=-2,b_0=1$, and for $n\\geq 0$, let\n\\begin{align*}a_{n+1}&=a_n+b_n+\\sqrt{a_n^2+b_n^2},\\\\b_{n+1}&=a_n+b_n-\\sqrt{a_n^2+b_n^2}.\\end{align*}Find $\\frac{1}{a_{2012}} + \\frac{1}{b_{2012}}.$",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "f",
+    "f",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the initial value of $a$ and $b$, and what are their roles in the recursive equations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you describe in your own words what is happening in the recursive equations for $a$ and $b$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Is there any mathematical pattern that you can observe in the expressions for $a$ and $b$ as $n$ increases?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why $\\frac{1}{a_{n+1}} + \\frac{1}{b_{n+1}}$ is equal to $\\frac{1}{a_n} + \\frac{1}{b_n}$ using algebraic reasoning?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What does this suggest about the values of $\\frac{1}{a_n} + \\frac{1}{b_n}$ as $n$ increases?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the significance of the fact that $\\frac{1}{a_n} + \\frac{1}{b_n}$ is a constant value? How does this relate to $\\frac{1}{a_{2012}} + \\frac{1}{b_{2012}}$?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "How does the value of $\\frac{1}{a_{2012}} + \\frac{1}{b_{2012}}$ compare to the initial values of $\\frac{1}{a}$ and $\\frac{1}{b}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

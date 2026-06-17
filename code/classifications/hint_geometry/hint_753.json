@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_753",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "How many different triangles can be formed having a perimeter of 7 units if each side must have integral length?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e",
+    "f"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the perimeter of a triangle and how is it calculated?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the Triangle Inequality, and how does it relate to the sides of a triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the maximum length of any side of a triangle with a perimeter of 7 units and integral side lengths?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "If one side of the triangle is of length 3, what are the possible lengths of the other two sides?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How many different combinations of side lengths are there for a triangle with side lengths of 1, 3, and 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many different combinations of side lengths are there for a triangle with side lengths of 2, 2, and 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other possible combinations of side lengths for a triangle with a perimeter of 7 units and integral side lengths?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "What patterns can you observe in the different possible combinations of side lengths for triangles with a perimeter of 7 units?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    }
+  ]
+}

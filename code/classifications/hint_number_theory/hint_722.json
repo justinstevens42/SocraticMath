@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_722",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 1",
+  "problem": "One more than $11$ times a certain prime $p$ is another prime $q$. What is the value of $q$?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we represent the unknown prime number?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What expression represents \"one more than $11$ times a certain prime $p$\"?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we ensure that the expression obtained in the previous question is also a prime number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can we assume any value for $p$ and check if the expression is prime? If so, what is the smallest prime number we can start with?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "By plugging in the value of $p$ as $2$ into the expression, what do we get? Is it a prime number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "If the expression with $p=2$ is not a prime number, what other values of $p$ should we try?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "If the expression with $p=2$ is a prime number, does it satisfy the given conditions for $q$? If not, what should we do?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the value of $q$ if the expression with $p=2$ is a prime number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can we generalize the approach used to find the value of $q$ for other similar problems involving prime numbers?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

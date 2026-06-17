@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_802",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem": "How many triangles are in the figure below? [asy]\ndraw((0,0)--(30,0)--(30,20)--(0,20)--cycle);\ndraw((15,0)--(15,20));\ndraw((0,0)--(15,20));\ndraw((15,0)--(0,20));\ndraw((15,0)--(30,20));\ndraw((30,0)--(15,20));\ndraw((0,10)--(30,10));\ndraw((7.5,0)--(7.5,20));\ndraw((22.5,0)--(22.5,20));\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "f"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you identify the different types of triangles present in the figure?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the number of right triangles in the figure?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain why there are 16 right triangles with legs equal to one-half the width and one-quarter the length of the large rectangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What happens when we combine two right triangles with legs equal to one-half the width and one-quarter the length of the large rectangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you determine the number of isosceles triangles with base equal to the width of the rectangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we calculate the number of isosceles triangles with base equal to half the length of the rectangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What happens when we combine two isosceles triangles with base equal to the width of the rectangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the total number of large right triangles with legs equal to the width and half the base of the rectangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How many large isosceles triangles with base equal to the full width of the rectangle are there?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How do we know that we have found all possible triangles in the figure?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    }
+  ]
+}

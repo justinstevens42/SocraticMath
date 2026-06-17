@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_657",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem": "John has 12 marbles of different colors, including one red, one green, and one blue marble. In how many ways can he choose 4 marbles, if exactly one of the chosen marbles is red, green, or blue?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many marbles does John have in total?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How many marbles does John need to choose?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many different ways can John choose 4 marbles, without any restrictions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many different ways can John choose 3 marbles from the 9 remaining marbles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many ways can John choose exactly one of the red, green, or blue marbles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we combine the results from questions 4 and 5 to determine the total number of valid ways for John to choose the marbles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

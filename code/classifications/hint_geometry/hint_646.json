@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_646",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "In the circle with center $O$, the measure of $\\angle RIP$ is $36^\\circ$ and $OR=10$ cm. Find the number of centimeters in the length of arc $RP$. Express your answer in terms of $\\pi$. [asy]\ndraw((1,0)..(0,1)..(-1,0)..(0,-1)..cycle);\ndraw((0,0)--(4/5,3/5)--(-1,0)--(4/5,-3/5)--cycle);\nlabel(\"$O$\",(0,0),W); label(\"$I$\",(-1,0),W); label(\"$R$\",(4/5,3/5),ENE); label(\"$P$\",(4/5,-3/5),ESE);\n[/asy]",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the measure of angle RIP in the given circle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How is the measure of arc RP related to the measure of angle RIP?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you determine the measure of arc RP if the measure of angle RIP were different?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How is the length of arc RP related to the circumference of the whole circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we find the circumference of the whole circle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Given that OR is 10 cm, what is the circumference of the whole circle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we find the length of arc RP using the circumference of the whole circle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the length of arc RP in terms of pi?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

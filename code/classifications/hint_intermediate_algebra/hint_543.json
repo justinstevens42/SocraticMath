@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_543",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "Say that a complex number $z$ is three-presentable if there is a complex number $w$ of absolute value $3$ such that $z = w - \\frac{1}{w}$.  Let $T$ be the set of all three-presentable complex numbers.  The set $T$ forms a closed curve in the complex plane.  What is the area inside $T$?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what it means for a complex number to be three-presentable in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How do we represent a three-presentable complex number using another complex number with absolute value 3?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the equation that relates a three-presentable complex number $z$ to the complex number $w$ with absolute value 3?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we rewrite the equation $z = w - \\frac{1}{w}$ in terms of the real and imaginary parts of $w$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "If we let $w = x + iy$, what does the equation $z = \\frac{8x + 10iy}{9}$ tell us about the relationship between $w$ and $z$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What geometric transformation is happening to the circle of radius 3 in order to form the ellipse $T$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How does stretching the circle in the $x$ direction by a factor of $\\frac{8}{9}$ and in the $y$ direction by a factor of $\\frac{10}{9}$ affect the shape of the ellipse?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we use the equation for the area of an ellipse to find the area inside $T$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the final expression for the area inside $T$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_125",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem": "Find the projection of $\\begin{pmatrix} 1 \\\\ 2 \\\\ 3 \\end{pmatrix}$ onto the plane $3x - y + 4z = 0.$",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the formula for finding the projection of a vector onto a plane?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we represent the normal vector of the plane?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the meaning of a projection of a vector onto a plane?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How is the projection of a vector related to the normal vector of the plane?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we calculate the projection of a vector onto a plane using the normal vector and the formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the difference between the projection of a vector onto a plane and the projection of a vector onto a line?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can we use the formula for finding the projection of a vector onto a plane to find the projection of a vector onto a different type of surface? If yes, which surface(s)? If not, why not?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

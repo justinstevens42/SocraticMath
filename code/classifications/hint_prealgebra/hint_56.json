@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_56",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem": "In convex pentagon $ABCDE$, angles $A$, $B$ and $C$ are congruent and angles $D$ and $E$ are congruent. If the measure of angle $A$ is 40 degrees less than the measure of angle $D$, what is the measure of angle $D$?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information about the angles in the pentagon?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we represent the measure of angle A using a variable?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How are angles B and C related to angle A? Can we express their measures in terms of the variable?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the relationship between angles A and D? How can we express their measures in terms of the variable?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What can we deduce about the measure of angle E based on the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the sum of the angle measures in a pentagon? How can we set up an equation using this information and the variable we defined earlier?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we solve the equation to find the value of the variable?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Once we find the value of the variable, how can we determine the measure of angle D?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can we double-check our solution using the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Are there any other types of polygons or angle problems where similar reasoning and steps might be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

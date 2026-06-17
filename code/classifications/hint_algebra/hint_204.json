@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_204",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "In a sequence of positive integers each term after the first is $\\frac{1}{3}$ of the sum of the term that precedes it and the term that follows it in the sequence. What is the 5th term of this sequence if the 1st term is 2 and the 4th term is 34?",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the relationship between each term in the sequence?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain why the first term is given as 2? How does this value affect the sequence?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What do we know about the 4th term specifically, and how can we utilize that information to find the 5th term?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the information about each term being $\\frac{1}{3}$ of the sum of the preceding and succeeding terms to find the missing term?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you define a systematic approach to solve this sequence problem given the information provided?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "If the 5th term is found to be a certain value, how can we confirm that it satisfies the given conditions of the sequence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other patterns or sequences you can think of that follow a similar logic or structure?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

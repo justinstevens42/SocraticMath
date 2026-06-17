@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_254",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem": "Suppose that $a$ is a multiple of $3$ and $b$ is a multiple of $6$. Which of the following statements must be true?\n\nA. $b$ is a multiple of $3$.\nB. $a-b$ is a multiple of $3$.\nC. $a-b$ is  a multiple of $6$.\nD. $a-b$ is  a multiple of $2$.\n\nList the choices in your answer separated by commas.  For example, if you think they are all true, then answer \"A,B,C,D\".",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you rephrase the given information in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for a number to be a multiple of another number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine if a number is a multiple of 3 or 6?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Based on the given information, what can we conclude about the number $b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can we conclude that $a$ is a multiple of 6? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the property that allows us to determine that the difference between two multiples of a number is also a multiple of that number? How does it apply in this situation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Which statements must be true based on the given information? Can you explain why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

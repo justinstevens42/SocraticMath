@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_709",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem": "A line containing the points $(9, 1)$ and $(5, 5)$ intersects the $x$ -axis at what point?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you identify the equation of the line passing through the points (9, 1) and (5, 5)?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How would you find the point where this line intersects the x-axis?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for a point to lie on the x-axis? How can this information help us solve the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you determine the x-coordinate of the point of intersection by considering the equation of the line?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there any specific properties or characteristics of the x-axis that can assist in finding the point of intersection?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other scenarios where you might need to find the point of intersection between a line and the x-axis? How would this line be defined in those cases?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

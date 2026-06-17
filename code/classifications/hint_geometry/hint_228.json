@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_228",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "A circle having center $(0,k)$, with $k>6$, is tangent to the lines $y=x$, $y=-x$ and $y=6$. What is the radius of  this circle?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "e",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the situation described in the problem using your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the significance of the circle having its center at $(0, k)$ with $k > 6$?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 3,
+      "question": "Based on the given information, what do you think is the relationship between the radius of the circle and the lines $y = x$, $y = -x$, and $y = 6$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the fact that the line $y = x$ forms a $45^\\circ$ angle with the $y$-axis to help us find the radius of the circle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you analyze the triangle formed by the radius, the line $y = x$, and the $y$-axis? What information do we have about this triangle and how can we use it to solve the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What does it mean for the triangle to be isosceles and how does that relate to the equation $r\\sqrt{2} = r + 6$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can we solve the equation $r\\sqrt{2} = r + 6$ to find the value of $r$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you simplify the expression $\\frac{6}{\\sqrt{2} - 1}$ to determine the radius of the circle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

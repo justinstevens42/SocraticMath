@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_412",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "Points $A$, $B$, $C$, and $T$ are in space such that each of $\\overline{TA}$, $\\overline{TB}$, and $\\overline{TC}$ is perpendicular to the other two.  If $TA = TB = 10$ and $TC = 9$, then what is the volume of pyramid $TABC$?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given figure and its components?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How are the points $A$, $B$, $C$, and $T$ positioned in space? Can you visualize their placement?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What do the given conditions tell us about the angles and sides of the pyramid $TABC$? How can we use this information to calculate the pyramid's volume?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the formula for the volume of a pyramid, and how can we apply it to this specific pyramid?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why we use the area of triangle $ABT$ and the height $\\overline{CT}$ to calculate the volume of the pyramid?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are the units of measurement for the volume of the pyramid? Are they consistent with the given measurements for the sides and height?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other similar problems involving pyramids, and how would you approach solving them using similar methods?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

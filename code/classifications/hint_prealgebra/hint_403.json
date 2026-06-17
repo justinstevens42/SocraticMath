@@ -1,0 +1,110 @@
+{
+  "problem_id": "hint_403",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem": "To promote her school's annual Kite Olympics, Genevieve makes a small kite and a large kite for a bulletin board display. For her small kite, Genevieve draws the kite on a grid with the points one inch apart, as shown below.\n\n[asy]\nfor ( int x = 0; x <= 6; ++x )\n{\n\nfor ( int y = 0; y <= 7; ++y )\n\n{\n\ndot((x,y));\n\n}\n}\ndraw((0,5)--(3,7)--(6,5)--(3,0)--cycle);\n[/asy]\n\nFor the large kite she triples both the height and width of the entire grid.\n\nWhat is the number of square inches in the area of the small kite?",
+  "n_questions": 14,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How did Genevieve draw the small kite on the grid?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many triangles make up the small kite?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What are the dimensions of each triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do you calculate the area of a triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you calculate the area of each triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do you find the total area of the small kite?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you calculate the total area of the small kite?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How did Genevieve create the large kite?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How did the dimensions of the entire grid change for the large kite compared to the small kite?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can you find the area of the large kite?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "How does the area of the large kite relate to the area of the small kite?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 12,
+      "question": "Can you calculate the area of the large kite based on the dimensions of the small kite?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 13,
+      "question": "How does tripling the height and width of the grid affect the area of the kite?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 14,
+      "question": "What is the number of square inches in the area of the small kite?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

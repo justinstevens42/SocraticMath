@@ -1,0 +1,103 @@
+{
+  "problem_id": "hint_828",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 2",
+  "problem": "In the United States, coins have the following thicknesses: penny, 1.55 mm; nickel, 1.95 mm; dime, 1.35 mm; quarter, 1.75 mm. If a stack of these coins is exactly 14 mm high, how many coins are in the stack?",
+  "n_questions": 13,
+  "labels": [
+    "f",
+    "f",
+    "e",
+    "r",
+    "r",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you restate the problem in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the significance of the thickness measurements given for each coin?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the given thicknesses to determine the height of a stack of coins?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Why is it mentioned that the height of any stack with an odd number of coins has a 5 in the hundredth place?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Why is it mentioned that the height of any two coins has an odd digit in the tenth place and a zero in the hundredth place?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "What information does the statement about the zeros in the tenth and hundredth places provide about the number of coins in a stack?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "Why does the height of a stack with zeros in both the tenth and hundredth places have to be a multiple of 4?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Based on the information provided, what is the minimum and maximum number of coins that could be in the stack?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you explain why no number other than 8 can work for the height of the stack?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "How does a stack of 8 quarters meet the given conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "Can you think of any other types of stacks that would satisfy the given conditions?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 13,
+      "question": "Can you generalize the approach used in this problem to solve similar problems involving stacks of coins?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

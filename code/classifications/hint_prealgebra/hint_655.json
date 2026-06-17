@@ -1,0 +1,47 @@
+{
+  "problem_id": "hint_655",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem": "What is the largest multiple of $9$ whose negation is greater than $-100$?",
+  "n_questions": 5,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the process of dividing by 9 to find the largest multiple of 9 whose negation is greater than -100?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can we use a different method to find the largest multiple of 9 with a negation greater than -100?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How do we know that 99 is the largest multiple of 9 that satisfies the given conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of a similar problem where we could use division to find the solution?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

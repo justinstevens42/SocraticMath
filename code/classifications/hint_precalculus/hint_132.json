@@ -1,0 +1,47 @@
+{
+  "problem_id": "hint_132",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem": "A particle moves so that it is at $(2t + 7, 4t - 13)$ at time $t.$  Find the speed of the particle, measured in unit of distance per unit of time.",
+  "n_questions": 5,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the position of the particle at time $t=k+2$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How does the formula for calculating the speed of the particle relate to the Pythagorean theorem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Is it possible for the particle to have a negative speed? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the significance of the $x$-coordinate in the position of the particle?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "If the particle's velocity is changing, how would you calculate its acceleration?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

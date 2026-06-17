@@ -1,0 +1,96 @@
+{
+  "problem_id": "hint_531",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem": "At the end of the year, the Math Club decided to hold an election for which 5 equal officer positions were available. However, 16 candidates were nominated, of whom 7 were past officers. Of all possible elections of the officers, how many will have at least 1 of the past officers?",
+  "n_questions": 12,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many positions are available for the Math Club election?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How many candidates were nominated in total?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many of the nominated candidates were past officers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many candidates are not past officers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many ways are there to choose 5 officers from the 16 candidates?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many ways are there to choose 5 officers without any past officers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How many ways are there to choose 5 officers with at least 1 past officer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How did you calculate the number of ways to choose the officers without any past officers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you explain the calculation for the number of ways to choose the officers with at least 1 past officer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Are there any other possible ways to calculate the number of ways to choose the officers without any past officers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "What would happen if the number of available officer positions was different?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "Can you think of any real-life scenarios where understanding counting and probability would be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

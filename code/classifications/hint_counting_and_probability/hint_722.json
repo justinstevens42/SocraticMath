@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_722",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem": "Two cards are dealt at random from a standard deck of 52 cards.  What is the probability that the first card is a $\\diamondsuit$ and the second card is an ace?",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does it mean for two cards to be dealt at random from a standard deck of 52 cards?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How many total outcomes are there when two cards are dealt at random?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "In how many ways can the first card be a $\\diamondsuit$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Once the first card is a $\\diamondsuit$, how many cards are left in the deck?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many of those remaining cards are aces?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the probability of the first card being a $\\diamondsuit$ and the second card being an ace, given that the first card is a $\\diamondsuit$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the overall probability of the first card being a $\\diamondsuit$ and the second card being an ace?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you simplify the fraction represented by the probability?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

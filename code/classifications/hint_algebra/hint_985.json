@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_985",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem": "If $f(x)=\\frac{x+4}{x^2+ax+b}$, and $f(x)$ has two vertical asymptotes at $x=1$ and $x=-2$, find the sum of $a$ and $b$.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what it means for a function to have vertical asymptotes?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the existence and location of vertical asymptotes for a function?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "In this particular case, at which values of x do we have vertical asymptotes, and why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the equation of the function's denominator from the given information about its vertical asymptotes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What information can we obtain from the function's denominator equation in order to find the values of a and b?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we determine the sum of a and b based on the information we have obtained?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

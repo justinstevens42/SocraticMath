@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_811",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem": "In the diagram, $P$ is on $RS$ so that $QP$ bisects $\\angle SQR$.  Also, $PQ=PR$, $\\angle RSQ=2y^\\circ$, and $\\angle RPQ=3y^\\circ$.  What is the measure, in degrees, of $\\angle RPQ$? [asy]\n// C14\nimport olympiad;\nsize(7cm);\n\nreal x = 50; real y = 20;\n\npair q = (1, 0);\npair r = (0, 0);\npair p = intersectionpoints((10 * dir(x))--r, q--(shift(q) * 10 * dir(180 - x)))[0];\npair s = intersectionpoints(r--(r + 10 * (p - r)), 10 * dir(180 - 2 * x)--q)[0];\n\n// Draw lines\ndraw(p--s--q--p--r--q);\n\n// Label points\nlabel(\"$R$\", r, SW);\nlabel(\"$Q$\", q, SE);\nlabel(\"$S$\", s, N);\nlabel(\"$P$\", p, NW);\n\n// Label angles\nlabel(\"$x^\\circ$\", q, 2 * W + 2 * NW);\nlabel(\"$x^\\circ$\", q, 4 * N + 2 * NW);\nlabel(\"$2y^\\circ$\", s, 5 * S + 4 * SW);\nlabel(\"$3y^\\circ$\", p, 4 * S);\n\n// Tick marks\nadd(pathticks(r--p, 2, spacing=0.6, s=2));\nadd(pathticks(p--q, 2, spacing=0.6, s=2));\n[/asy]",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given diagram and the information provided?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What do we know about the angles in triangle PQS? How can we use this information to find the value of x?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the measure of angle RQS using the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean for angle RPQ to be an external angle to triangle SPQ? How can we use this to find the measure of angle RPQ?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What does it mean for two angles to be congruent? How can we use this to find the measure of angle RPS?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the fact that RP = PQ to find the measure of angles PRQ and PQR?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Based on the information we have obtained so far, what can we conclude about the measures of angles RQS, SQR, and RPQ?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we find the value of y using the equation 5y = 180?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the measure of angle RPQ?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

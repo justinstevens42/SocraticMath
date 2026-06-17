@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_850",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "Find the number of cubic centimeters in the volume of the cylinder formed by rotating a square with side length 14 centimeters about its vertical line of symmetry. Express your answer in terms of $\\pi$.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the process of rotating the square about its vertical line of symmetry to form a cylinder?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the properties of a right circular cylinder that we can use to find its volume?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the radius of the cylinder formed by rotating the square?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What formula can we use to calculate the volume of a cylinder?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we express the answer in terms of π?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain the steps you took to find the number of cubic centimeters in the volume of the cylinder?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other shapes or objects that you can rotate to create a cylinder?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any real-life examples where understanding the volume of a cylinder would be important?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "What other mathematical concepts or formulas could be related to the problem of finding the volume of a cylinder?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Is there a different method or approach that could be used to solve this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

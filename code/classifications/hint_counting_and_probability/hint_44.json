@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_44",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 2",
+  "problem": "Points $A$, $B$, $C$, and $D$ are located on $\\overline{AB}$ such that $AB = 3AD = 6BC$. If a point is selected at random on $\\overline{AB}$, what is the probability that it is between $C$ and $D$? Express your answer as a common fraction.\n\n[asy]\n\ndraw((0,0)--(12,.0000000001));\ndot((0,0)); dot((4,0)); dot((10,0)); dot((12,0));\nlabel(\"$A$\", (0,0), S);\nlabel(\"$D$\", (4,0), S);\nlabel(\"$C$\", (10,0), S);\nlabel(\"$B$\", (12,0), S);\n\n[/asy]",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "r",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the given problem in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain the relationship between points A, B, C, and D?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How do you interpret the statement \"AB = 3AD = 6BC\" in terms of the lengths of the line segments?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you determine the lengths of AD, BC, and CD based on the given information? If so, what are they?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "If a point is randomly chosen on segment AB, what are the possible locations where it could be?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What is the probability that the randomly chosen point is between points C and D? How did you arrive at that answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Is there any other way to approach this problem to determine the probability? If yes, can you explain it?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of a similar scenario where concepts of probability can be applied in a different context?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

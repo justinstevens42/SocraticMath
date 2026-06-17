@@ -1,0 +1,47 @@
+{
+  "problem_id": "hint_140",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem": "The three-digit integer $63\\underline{\\hphantom{0}}$ is a multiple of 3. What is the greatest possible difference between two of the possibilities for the units digit?",
+  "n_questions": 5,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the rule for determining if an integer is a multiple of 3?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do we know that the three-digit integer in this problem is a multiple of 3?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What are the possibilities for the units digit of the integer?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How did you determine that the greatest possible difference between two possibilities for the units digit is 9?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of any other rules or techniques that could be used to solve a similar problem involving a multiple of 3?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

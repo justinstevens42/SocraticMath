@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_113",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem": "The first digit of a string of 2002 digits is a 1. Any two-digit number formed by consecutive digits within this string is divisible by 19 or 31. What is the largest possible last digit in this string?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "e",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given problem statement?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the significance of the fact that the first digit is 1?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 3,
+      "question": "How many two-digit multiples of 19 and 31 are there, and what are they?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "If we build the string from the beginning, how many possibilities do we have to check?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine the order of the string if we build it in reverse?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the maximum possible value for the last digit if the 2002nd digit is 8?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can we determine a minimum possible value for the last digit? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any other methods to solve this problem besides building the string forwards or backwards?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "How might the problem change if the task was to find the minimum possible value for the last digit instead of the maximum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

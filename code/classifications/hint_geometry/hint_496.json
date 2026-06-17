@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_496",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "Find the ratio of the area of $\\triangle BCX$ to the area of $\\triangle ACX$ in the diagram if $CX$ bisects $\\angle ACB$. Express your answer as a common fraction. [asy]\nimport markers;\n\nreal t=27/(27+30);\npair A=(-15.57,0);\npair B=(8.43,0);\npair C=(0,25.65);\npair X=t*A+(1-t)*B;\n\ndraw(C--A--B--C--X);\n\nlabel(\"$A$\",A,SW);\nlabel(\"$B$\",B,E);\nlabel(\"$C$\",C,N);\nlabel(\"$X$\",X,NE);\n\n//markangle(n=1,radius=15,A,C,X,marker(markinterval(stickframe(n=1),true)));\n//markangle(n=1,radius=15,X,C,B,marker(markinterval(stickframe(n=1),true)));\n\nlabel(\"$24$\",.5*(B+A),S);\nlabel(\"$27$\",.5*(B+C),NE);\nlabel(\"$30$\",.5*(A+C),NW);\n[/asy]",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "f",
+    "e",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the Angle Bisector Theorem and how does it apply to this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain why the ratio of BX to AX is equal to the ratio of BC to AC?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you think of a similar problem where the Angle Bisector Theorem can be applied?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 4,
+      "question": "How does the fact that triangles BCX and ACX share the same height help us find the ratio of their areas?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you prove that the areas of triangles BCX and ACX are proportional to the lengths of their bases?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there another method besides using the Angle Bisector Theorem that can help us find the ratio of the areas?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How would the ratio of the areas change if the length of CX were different?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

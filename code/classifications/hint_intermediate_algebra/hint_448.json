@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_448",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem": "The polynomial equation \\[x^3 + bx + c = 0,\\]where $b$ and $c$ are rational numbers, has $3-\\sqrt{7}$ as a root. It also has an integer root. What is it?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step you would take to solve this equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How does the fact that the coefficients of the polynomial are rational numbers help us find the other root?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the relationship between the given root and its radical conjugate?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use Vieta's formulas to find the sum of the roots of this polynomial?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Using the sum of the roots, how can we determine the value of the third, integer root?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other equations where finding the radical conjugate is helpful in finding the other roots?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "How does finding the other root help us find the third, integer root?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

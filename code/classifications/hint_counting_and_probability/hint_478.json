@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_478",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem": "A bin has 8 black balls and 7 white balls.  3 of the balls are drawn at random.  What is the probability of drawing 2 of one color and 1 of the other color?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total number of balls in the bin?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many balls are of each color, black and white?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many balls are drawn at random?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the total number of ways to choose 3 balls from the given number of balls?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the specific condition we need to satisfy in order to have 2 balls of one color and 1 ball of the other color?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we calculate the number of ways to choose 2 black balls and 1 white ball?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we calculate the number of ways to choose 1 black ball and 2 white balls?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How do we determine the total number of ways to satisfy the given condition?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the probability of selecting 2 balls of one color and 1 ball of the other color?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any similar scenarios where the same concept of counting and probability can be applied?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

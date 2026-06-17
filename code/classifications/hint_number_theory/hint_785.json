@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_785",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem": "Jason borrowed money from his parents to buy a new surfboard. His parents have agreed to let him work off his debt by babysitting under the following conditions: his first hour of babysitting is worth $\\$1$, the second hour worth $\\$2$, the third hour $\\$3$, the fourth hour $\\$4$, the fifth hour $\\$5$, the sixth hour $\\$6$, the seventh hour $\\$1$, the eighth hour $\\$2$, etc. If he repays his debt by babysitting for 39 hours, how many dollars did he borrow?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the conditions for Jason's debt repayment in terms of babysitting hours and payment?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How much money does Jason earn every 6 hours of babysitting? Can you explain the calculation behind it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can the total amount of money earned in 36 hours be calculated using the given conditions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the additional amount Jason earns in the next 3 hours of babysitting? How is it calculated?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can the total amount of money earned in 39 hours be determined using the information provided?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the relationship between the total amount earned by babysitting for 39 hours and the amount of money Jason borrowed?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

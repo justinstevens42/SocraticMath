@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_128",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "A hemisphere-shaped bowl with radius 1 foot is filled full with chocolate.  All of the chocolate is then evenly distributed between 27 congruent, smaller hemisphere-shaped molds.  What is the radius of each of the smaller molds, in feet?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the volume of a sphere with radius $r$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the volume of a hemisphere with radius $r$ using the formula for the volume of a sphere?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the volume of the large hemisphere-shaped bowl? How can we calculate it using the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the formula for the volume of a hemisphere-shaped mold in terms of its radius $r$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we express the total volume of the 27 smaller hemisphere-shaped molds?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we set up an equation using the volume of the molds and the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What does the equation $27\\cdot\\frac{2}{3}\\pi r^3 = \\frac{2}{3}\\pi$ represent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we solve the equation to find the value of $r$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the final value of $r$ that represents the radius of each of the smaller molds?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "problem_id": "hint_591",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem": "Let $a,$ $b,$ $c$ be integers such that\n\\[\\mathbf{A} = \\frac{1}{5} \\begin{pmatrix} -3 & a \\\\ b & c \\end{pmatrix}\\]and $\\mathbf{A}^2 = \\mathbf{I}.$  Find the largest possible value of $a + b + c.$",
+  "n_questions": 11,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given matrix in simplified form?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for the matrix A to be squared?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What can we conclude from the equation A^2 = I?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we simplify the equation $\\frac{1}{25} \\begin{pmatrix} 9 + ab & -3a + ac \\\\ -3b + bc & ab + c^2 \\end{pmatrix} = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What are the possible values of a, b, and c that satisfy the resulting equations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we find the largest possible value of a + b + c?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the significance of a dividing 16 in maximizing the expression a + b + c?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "What values of a, b, and c result in the maximum value of a + b + c?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the largest possible value of a + b + c?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How does this problem relate to other concepts in precalculus?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 11,
+      "question": "Can you think of any other scenarios where similar reasoning and steps might be used to solve equations?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_72",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "Let $a,$ $b,$ and $c$ be the roots of\n\\[x^3 - 5x + 7 = 0.\\]Find the monic polynomial, in $x,$ whose roots are $a - 2,$ $b - 2,$ and $c - 2.$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you state the problem that we need to solve?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the roots of the given polynomial?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we express the new roots in terms of the original roots?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the relationship between the original polynomial and the new polynomial in terms of the roots?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How do we obtain the coefficients of the new polynomial from the relationship between the roots and the coefficients of the original polynomial?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you verify that the new polynomial has the desired roots by substituting them into the polynomial?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

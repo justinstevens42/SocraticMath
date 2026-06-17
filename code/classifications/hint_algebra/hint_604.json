@@ -1,0 +1,89 @@
+{
+  "problem_id": "hint_604",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem": "If $f(x) = 2x + 3$ and $g(x) = 3x - 2$ find $\\frac{f(g(f(2)))}{g(f(g(2)))}$. Express your answer in the form $\\frac{a}{b}$.",
+  "n_questions": 11,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the purpose of first evaluating $f(2)$ in the expression?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "After evaluating $f(2)$, what is the resulting value and how does it affect the overall expression?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the purpose of substituting the result of $f(2)$ into $g$ in the next step?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we simplify the expression $g(f(2))$ and what is the value obtained?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "After evaluating $g(f(2))$, what is the purpose of substituting the result back into $f$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do we evaluate the expression $f(g(f(2)))$ after completing the previous steps?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the purpose of evaluating $g(2)$ in the next part of the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we simplify the expression $f(g(2))$ and what is the value obtained?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "After evaluating $f(g(2))$, what is the purpose of substituting the result into $g$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How do we evaluate the expression $g(f(g(2)))$ after completing the previous steps?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "Finally, how do we simplify the overall expression $\\frac{f(g(f(2)))}{g(f(g(2)))}$ and express it in the form $\\frac{a}{b}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_314",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem": "The point $O$ is the center of the circle circumscribed about $\\triangle ABC$, with $\\angle BOC = 120^{\\circ}$ and $\\angle AOB =\n140^{\\circ}$, as shown. What is the degree measure of $\\angle\nABC$?\n\n[asy]\npair A,B,C;\ndraw(Circle((0,0),20),linewidth(0.7));\nlabel(\"$O$\",(0,0),S);\nA=(-16,-12);\nC=(16,-12);\nB=(3,19.7);\ndraw(A--B--C--cycle,linewidth(0.7));\nlabel(\"$140^{\\circ}$\",(0,0),W);\nlabel(\"$120^{\\circ}$\",(0,0.3),E);\ndraw(C--(0,0)--B);\ndraw(A--(0,0));\nlabel(\"$A$\",A,SW);\nlabel(\"$B$\",B,NE);\nlabel(\"$C$\",C,SE);\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "f",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given information about the triangle and the circle in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the properties of an isosceles triangle? How can you use them in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How does the fact that $OA = OB = OC$ relate to the angles of the triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you identify any special angles or relationships based on the given angles? How can they help you find the measure of angle ABC?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "What is the Central Angle Theorem? How can you apply it to find the measure of angle ABC?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other situations or problems where isosceles triangles or the Central Angle Theorem might be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_760",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "Let $\\triangle ABC$ be an isosceles triangle such that $BC = 30$ and $AB = AC.$ We have that $I$ is the incenter of $\\triangle ABC,$ and $IC = 18.$ What is the length of the inradius of the triangle?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in finding the length of the inradius of the triangle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What do you know about the properties of an incenter in a triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can you determine that $AD$ is perpendicular to $BC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can the Pythagorean Theorem be used to find the length of $ID$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why $ID$ represents the length of the inradius?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other similar triangles or concepts that can be related to finding the length of the inradius in this scenario?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

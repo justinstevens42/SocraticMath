@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_656",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 1",
+  "problem": "What is $88 \\div 4 \\div 2$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Are there any rules or strategies we need to follow when performing multiple divisions in a row?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Why do we need to perform the divisions from left to right in this problem? Would it be different if we did it from right to left?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can this problem be solved using a different method besides performing the divisions one after the other? If so, what method could we use?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "If we changed the order of the operands, for example, to $4 \\div 88 \\div 2$, would the answer be the same? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there other similar problems we could explore to practice division and order of operations? How might we adapt our approach to those problems?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

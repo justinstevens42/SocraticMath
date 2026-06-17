@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_512",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "In triangle $ABC$, $AB=AC$ and $D$ is a point on $\\overline{AC}$ so that $\\overline{BD}$ bisects angle $ABC$. If $BD=BC$, what is the measure, in degrees, of angle $A$?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given information about triangle $ABC$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How does the fact that $\\overline{BD}$ bisects angle $ABC$ help us determine some angle measures in the triangle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What can we conclude about the measures of angles $BDC$ and $BCD$, since we know that $BD=BC$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the fact that triangle $BDC$ is isosceles to find the measures of angles $BDC$, $BCD$, and $DBC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Using the angle measures we found in the previous steps, what is the measure of $\\angle DBC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the measures of $\\angle ABC$ and $\\angle ACB$ to find the measure of $\\angle A$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other methods we could use to find the measure of $\\angle A$ in this triangle?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

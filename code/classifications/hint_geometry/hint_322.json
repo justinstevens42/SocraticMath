@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_322",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem": "The radius of a cylinder is doubled and its height is tripled. If its original volume was 10 cubic feet, what is its volume now, in cubic feet?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the original volume of the cylinder?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How does doubling the radius affect the volume of the cylinder?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How does tripling the height affect the volume of the cylinder?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you write an expression for the volume of the new cylinder in terms of the original radius and height?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we find the new volume if we know the original volume is 10 cubic feet?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the final volume of the cylinder after doubling the radius and tripling the height?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

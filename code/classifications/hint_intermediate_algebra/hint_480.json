@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_480",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem": "Let $a$ and $b$ be positive real numbers such that $a^3 + b^3 = a + b.$  Simplify\n\\[\\frac{a}{b} + \\frac{b}{a} - \\frac{1}{ab}.\\]",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you simplify the expression $\\frac{a}{b}+\\frac{b}{a}-\\frac{1}{ab}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What can we do to connect the expression $\\frac{a}{b}+\\frac{b}{a}-\\frac{1}{ab}$ to the given equation $a^3 + b^3 = a + b$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can we write $\\frac{a}{b}+\\frac{b}{a}-\\frac{1}{ab}$ in terms of $a^3+b^3$ and $a+b$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we express $a^2-ab+b^2$ in terms of $a$ and $b$, and how does this help us simplify the expression $\\frac{a}{b}+\\frac{b}{a}-\\frac{1}{ab}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between $\\frac{a^2+b^2-1}{ab}$ and the simplified expression of $\\frac{a}{b}+\\frac{b}{a}-\\frac{1}{ab}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other ways to approach this problem that would lead to the same simplified expression?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

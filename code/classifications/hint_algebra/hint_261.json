@@ -1,0 +1,89 @@
+{
+  "problem_id": "hint_261",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem": "When $\\sqrt[4]{2^7\\cdot3^3}$ is fully simplified, the result is $a\\sqrt[4]{b}$, where $a$ and $b$ are positive integers.  What is $a+b$?",
+  "n_questions": 11,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you simplify any of the terms in the expression $\\sqrt[4]{2^7\\cdot3^3}$? If so, what does this simplify to?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean to simplify a square root expression? How does this relate to the given problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the relationship between the fourth root and the exponent $4$ in $\\sqrt[4]{}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can you represent $2^7$ and $3^3$ in terms of factors raised to a power of $4$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What happens to the exponents when you take the fourth root of a product of numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you rewrite $\\sqrt[4]{2^7\\cdot3^3}$ as a product of individual fourth roots?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What can you simplify each individual fourth root in the product to?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can you simplify the product of fourth roots?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the final result of fully simplifying $\\sqrt[4]{2^7\\cdot3^3}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you identify the values of $a$ and $b$ in the simplified form $a\\sqrt[4]{b}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "What is the sum of $a$ and $b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

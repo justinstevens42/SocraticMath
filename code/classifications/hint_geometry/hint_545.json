@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_545",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "Segment $AB$ has midpoint $C$, and segment $BC$ has midpoint $D$. Semi-circles are constructed with diameters $\\overline{AB}$ and $\\overline{BC}$ to form the entire region shown. Segment $CP$ splits the region into two sections of equal area. What is the degree measure of angle $ACP$? Express your answer as a decimal to the nearest tenth.\n\n[asy]\ndraw((0,0)--10dir(180),linewidth(2));\ndraw((0,0)--10dir(67.5),linewidth(2));\ndraw((0,0)--10dir(0),dashed);\n\ndraw(10dir(180)..10dir(90)..10dir(0),linewidth(2));\n\ndraw((5,0)+5dir(180)..(5,0)+5dir(-90)..(5,0)+5dir(0),linewidth(2));\n\ndot((0,0));\ndot((5,0));\n\nlabel(\"A\",10dir(180),W);\nlabel(\"B\",10dir(0),E);\nlabel(\"C\",(0,0),SW);\nlabel(\"D\",5dir(0),NE);\nlabel(\"P\",10dir(67.5),NE);\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the characteristics of the given figure and the relationship between the various segments and circles?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How is the area of a circle related to the radius?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How does the radius of the semi-circle with diameter BC compare to that of the semi-circle with diameter AB?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the areas of the two semi-circles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between the area of a circle and the degree measure of a sector?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we determine the degree measure of angle ACP based on the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

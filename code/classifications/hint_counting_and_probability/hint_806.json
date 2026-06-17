@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_806",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem": "How many odd numbers between $100$ and $999$ have distinct digits?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many choices are there for the units digit of the odd number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How many potential choices are there for the hundreds-place digit? And why do we subtract one off?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What are the possible choices for the tens-place digit? And why do we subtract two off?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the total number of odd numbers with distinct digits between $100$ and $999$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain the reasoning behind multiplying the number of choices for each digit to get the total count?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other restrictions or considerations that we should take into account when counting these numbers?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_1008",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "Points $A(-4,1), B(-1,4)$ and $C(-1,1)$ are the vertices of $\\triangle ABC$. What will be the coordinates of the image of point A if $\\triangle ABC$ is rotated 90 degrees clockwise about the origin?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "e",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the concept of rotating an image in geometry?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does the rotation of an image affect its coordinates?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the significance of rotating a point 90 degrees clockwise?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the final coordinates of the image after a clockwise rotation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the concept of slopes to find the final coordinates of the rotated image?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other scenarios where a rotation might be involved in geometry, and how would you approach finding the final coordinates in those cases?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_387",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem": "Let $H$ be the orthocenter of triangle $ABC.$  For all points $P$ on the circumcircle of triangle $ABC,$\n\\[PA^2 + PB^2 + PC^2 - PH^2\\]is a constant.  Express this constant in terms of the side lengths $a,$ $b,$ $c$ and circumradius $R$ of triangle $ABC.$",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of orthocenter in a triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does the position of point P on the circumcenter of triangle ABC relate to its distance from points A, B, and C?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we express the squared distance between point P and point A in terms of its coordinates and the circumradius R?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Similarly, how can we express the squared distances between point P and points B and C in terms of their coordinates and R?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the definition of circumradius in a triangle and how is it related to the side lengths of the triangle and the area of the triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we express the squared distance between point P and the orthocenter H in terms of its coordinates and the coordinates of points A, B, and C?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the constant expression for the sum of the squared distances PA^2 + PB^2 + PC^2 - PH^2 in terms of the side lengths a, b, c, and the circumradius R of triangle ABC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

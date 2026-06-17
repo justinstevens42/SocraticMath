@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_92",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem": "Compute $\\begin{pmatrix} 2 & - 1 \\\\ - 3 & 4 \\end{pmatrix} \\begin{pmatrix} 3 \\\\ - 1 \\end{pmatrix}.$",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what matrix multiplication is?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do you determine the dimensions of the resulting matrix when multiplying two matrices?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How do you determine the entries of the resulting matrix when multiplying two matrices?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain what each entry in the resulting matrix represents?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How would you compute the product of two matrices that have different dimensions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How would you interpret the result if the product of two matrices is the zero matrix?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How would you use matrix multiplication to solve a system of linear equations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any real-world applications where matrix multiplication is used?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

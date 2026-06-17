@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_180",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem": "What is the sum of all positive integers less than 100 that are squares of perfect squares?",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "f",
+    "e",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does it mean for an integer to be a square of a perfect square? Can you provide an example?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you list all the fourth powers that are less than 100?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can the sum of these fourth powers be calculated?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Why are only the fourth powers considered in this problem? Are there any specific characteristics of fourth powers that make them relevant here?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Are there any other types of perfect powers (such as cubes or fifth powers) that could be considered? Why or why not?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Can you generalize a method to find the sum of all positive integers less than 100 that are squares of perfect squares?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "How would the approach change if we wanted to find the sum of all positive integers less than a different number (e.g., 200 or 500)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

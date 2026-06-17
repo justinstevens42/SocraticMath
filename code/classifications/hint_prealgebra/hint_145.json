@@ -1,0 +1,33 @@
+{
+  "problem_id": "hint_145",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem": "Find the sum of all positive divisors of $50$ that are also divisors of $15$.",
+  "n_questions": 3,
+  "labels": [
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you identify the positive divisors of 50?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Which of these divisors also divide 15?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the sum of these divisors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_469",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem": "As $n$ ranges over the positive integers, what is the sum of all possible values of the greatest common divisor of $3n+4$ and $n$?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the Euclidean algorithm and how it can be applied to find the greatest common divisor?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you describe the steps you took to simplify the expression $\\text{gcd}(3n + 4, n)$ using the Euclidean algorithm?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What are the three cases that need to be considered based on the parity and divisibility of $n$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "In Case 1, why are $n$ and 4 relatively prime? Can you provide an example for this case?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "In Case 2, why do $n$ and 4 have a greatest common divisor of 2? Can you provide an example for this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "In Case 3, why do $n$ and 4 have a greatest common divisor of 4? Can you provide an example for this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What are all the possible values for the greatest common divisor of $3n+4$ and $n$ based on the three cases we've discussed?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can you determine the sum of all possible values of the greatest common divisor?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you generalize this problem to find the sum of all possible values of the greatest common divisor for other expressions involving $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

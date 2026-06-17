@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_401",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "Line $l_1$ has equation $3x - 2y = 1$ and goes through $A = (-1, -2)$. Line $l_2$ has equation $y = 1$ and meets line $l_1$ at point $B$. Line $l_3$ has positive slope, goes through point $A$, and meets $l_2$ at point $C$. The area of $\\triangle ABC$ is $3$. What is the slope of $l_3$?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in finding the coordinates of point B?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we solve the system of equations $3x-2y=1$ and $y=1$ to find the coordinates of point B?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the distance from point A to line $l_2$? How can we calculate this distance?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "We know that the area of triangle ABC is 3. How can we use this information to find the length of BC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What are the possible coordinates for point C? How can we determine which coordinate is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "If point C has coordinates (3, 1), what is the slope of line $l_3$? How can we calculate this slope?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "If point C has coordinates (-1, 1), what is the slope of line $l_3$? Is this slope defined or undefined?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Based on the given information, what is the final answer for the slope of line $l_3$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

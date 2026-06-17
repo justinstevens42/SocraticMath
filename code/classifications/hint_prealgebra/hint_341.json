@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_341",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem": "What is the smallest positive integer $x$ that, when multiplied by $400$, produces a product that is a multiple of $576$?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the prime factorizations of 400 and 576?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "In order for 400x to be a multiple of 576, what condition must be met regarding the prime factorization of 400x?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many more 2's and 3's are there in the prime factorization of 576 compared to the prime factorization of 400?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "In order for x to be the smallest positive integer, what is the minimum number of 2's and 3's that must be included in the prime factorization of x?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the prime factorization of the smallest possible x?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can you check if multiplying 400 by the smallest possible x gives a product that is a multiple of 576?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

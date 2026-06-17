@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_283",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem": "What is the intersection point of the line $y = 2x + 5$ and the line perpendicular to it that passes through the point $(5, 5)$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you determine the slope of the given line $y = 2x + 5$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the slope of a line perpendicular to the given line?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How do we determine the equation of a line when we know its slope and a point it passes through?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Using the slope and point given, what is the equation of the line perpendicular to $y = 2x + 5$ through the point (5, 5)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we find the intersection point of two lines?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "By substituting the equations of the two lines into each other, can you find the coordinates of the intersection point?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

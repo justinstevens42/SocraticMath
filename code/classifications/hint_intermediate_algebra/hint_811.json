@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_811",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "Let $a,$ $b,$ $c,$ $d,$ $e,$ $f$ be positive real numbers such that $a + b + c + d + e + f = 7.$  Find the minimum value of\n\\[\\frac{1}{a} + \\frac{4}{b} + \\frac{9}{c} + \\frac{16}{d} + \\frac{25}{e} + \\frac{36}{f}.\\]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem? What would you do initially?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What inequalities can we apply to the given expression to find the minimum value?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we use Cauchy-Schwarz inequality in this problem? Can you explain the steps involved?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What conditions must be satisfied for equality to occur in the Cauchy-Schwarz inequality? How can we use these conditions to find the minimum value?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What values of $a,$ $b,$ $c,$ $d,$ $e,$ and $f$ satisfy the given conditions and minimize the expression? How can we verify that these values indeed give the minimum value of $63$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other inequalities or techniques that could potentially be used to solve similar problems? How would the thought process and steps involved be similar or different?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

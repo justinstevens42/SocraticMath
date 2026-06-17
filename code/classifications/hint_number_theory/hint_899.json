@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_899",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem": "Solve the congruence $11n \\equiv 7 \\pmod{43}$, as a residue modulo 43.  (Give an answer between 0 and 42.)",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "r",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a congruence in modular arithmetic?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does the notation \"a ≡ b mod n\" differ from the usual equality \"a = b\"?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we solve a congruence of the form \"ax ≡ b mod n\", where a, b, and n are integers and x is the unknown?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "In the given congruence, why do we choose to multiply both sides by 4?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How does the fact that 43 is close to a multiple of 11 help us simplify the congruence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other examples where using a similar strategy of multiplying by a clever choice of integer helps in solving a congruence?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "How do we know that the given solution x = 28 is unique modulo 43?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

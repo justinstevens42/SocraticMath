@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_267",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem": "Each row of a seating arrangement seats 7 or 8 people. Forty-six people are to be seated. How many rows seat exactly 8 people if every seat is occupied?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the scenario given in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Let x be the number of rows with 8 people. Why can we say that 46-x must be divisible by 7?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the congruence relation we get from the previous question?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the upper bound we get on the number of rows with 8 people?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why can't there be more than 6 rows?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the final solution to the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

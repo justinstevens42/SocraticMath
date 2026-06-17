@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_729",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem": "The ratio of the areas of two squares is $\\frac{192}{80}$. After rationalizing the denominator, the ratio of their side lengths can be expressed in the simplified form $\\frac{a\\sqrt{b}}{c}$ where $a$, $b$, and $c$ are integers. What is the value of the sum $a+b+c$?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain to me what the ratio of the areas of two squares means in this context?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How would you approach rationalizing the denominator in this situation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for an expression to be in simplified form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we express the ratio of the side lengths in the form $\\frac{a\\sqrt{b}}{c}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Given that the ratio of the areas is $\\frac{192}{80}$, can you determine the ratio of the side lengths using this information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we find the values of $a$, $b$, and $c$ using the simplified form of the ratio of the side lengths?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you calculate the values of $a$, $b$, and $c$ and find their sum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

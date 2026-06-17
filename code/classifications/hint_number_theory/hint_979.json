@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_979",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem": "What is the sum of the positive factors of 48?",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you prime factorize 48?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What are the prime factors of 48 and their respective exponents?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How would you find the sum of the positive factors of 48 using prime factorization?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you list all the factors of 48?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between the sum of the factors of 48 and prime factorization?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there another method you can think of to find the sum of the positive factors of 48? How does it compare to using prime factorization?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Can you generalize this approach to find the sum of the positive factors of any number given its prime factorization?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

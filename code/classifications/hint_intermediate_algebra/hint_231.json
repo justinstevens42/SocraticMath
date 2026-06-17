@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_231",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem": "Suppose that all four of the numbers \\[3 - 2\\sqrt{2}, \\; -3-2\\sqrt{2}, \\; 1+\\sqrt{7}, \\; 1-\\sqrt{7}\\]are roots of the same nonzero polynomial with rational coefficients. What is the smallest possible degree of the polynomial?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the concept of radical conjugates? How do we determine the radical conjugate of a given root?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Why must the polynomial have at least six roots in order to have all four given roots as its roots?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How do we generate a polynomial with given roots? What is the connection between the roots and the factors of the polynomial?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How do we determine the degree of a polynomial? Can a polynomial have more than one degree?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How might we approach this problem if we didn't know the factorization of the polynomial? Can we find the degree of the polynomial without explicitly constructing it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other general properties of polynomials with rational coefficients that might help us approach this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

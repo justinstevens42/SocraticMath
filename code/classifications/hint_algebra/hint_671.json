@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_671",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 1",
+  "problem": "What is the next term in the geometric sequence $$2, 6x, 18x^2, 54x^3, \\ldots ?$$ Express your answer in terms of $x$.",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you define a geometric sequence?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you identify any patterns or relationships between the terms in the given sequence?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the common ratio in this geometric sequence? How did you determine it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "To find the next term in the sequence, what operation(s) would you use? Why?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you express the general term of this geometric sequence in terms of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "If the common ratio was different, would the same approach work to find the next term? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any real-world examples or applications where geometric sequences are used?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Can you find the sum of the first $n$ terms of this geometric sequence? How would you go about doing that?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What other mathematical concepts or topics are related to geometric sequences? How might they be connected?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

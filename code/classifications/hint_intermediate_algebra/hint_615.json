@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_615",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "Let $a,$ $b,$ $c,$ $d$ be real numbers such that\n\\[\\frac{(a - b)(c - d)}{(b - c)(d - a)} = \\frac{2}{5}.\\]Find the sum of all possible values of\n\\[\\frac{(a - c)(b - d)}{(a - b)(c - d)}.\\]",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "f",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given equation and what is its condition?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we simplify the given equation? What is the final simplified form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What can we infer from the simplified equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we express the desired expression in terms of $a,$ $b,$ $c,$ and $d$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we manipulate the equation to isolate the desired expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What can we deduce from the final expression of the desired value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Is there any important property or characteristic of the given equation or expressions in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "Are there any alternative approaches or techniques that can be used to solve the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you generalize this problem and apply similar thinking and steps to different scenarios?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

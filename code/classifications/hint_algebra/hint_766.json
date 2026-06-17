@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_766",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem": "If $f(x) = 8x^3 - 6x^2 - 4x + 5$, find the value of $f( -2)$.",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does the notation \"$f(x)$\" mean in the given expression?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you identify the degree of the polynomial $f(x)$? How is it determined?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How would you substitute $-2$ for $x$ in the expression for $f(x)$? Can you explain the process step-by-step?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the rationale behind substituting $-2$ for $x$ in order to find $f(-2)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you simplify the expression $f(-2)$? If so, what is the result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How would you interpret the value of $f(-2)$ in the context of the original polynomial function $f(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

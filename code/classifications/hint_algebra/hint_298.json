@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_298",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "If $a$ and $b$ are positive integers for which $ab - 3a + 4b = 137$, what is the minimal possible value of $|a - b|$?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this equation and how it relates to the concept of algebraic manipulation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Are there any alternative methods or strategies that can be used to solve this equation? If so, what are they and how do they differ from each other?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we rearrange the terms in the equation to isolate the variables and simplify the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean for $|a - b|$ to be minimized? How can we determine the minimal possible value based on the given equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of any other equations or problems where finding the minimum value of the absolute difference between two variables is important?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How does this problem connect to the overall concept of algebra and its applications in real-life situations?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

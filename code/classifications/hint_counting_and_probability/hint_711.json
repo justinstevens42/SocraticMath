@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_711",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem": "Objects $A$ and $B$ move simultaneously in the coordinate plane via a sequence of steps, each of length one. Object $A$ starts at $(0,0)$ and each of its steps is either right or up, both equally likely. Object $B$ starts at $(5,7)$ and each of its steps is either left or down, both equally likely. Which of the following is closest to the probability that the objects meet?\n\nA. 0.10\n\nB. 0.15\n\nC. 0.20\n\nD. 0.25\n\nE. 0.30\n\n(Type the letter that corresponds to your answer.)",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the starting positions of objects A and B in the coordinate plane?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do objects A and B move? What are their possible steps?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How many steps do A and B need to take before they can meet?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What are the possible meeting places for objects A and B?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we calculate the number of paths to each meeting place for A and B?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why the number of ways A and B can meet at each meeting place is given by the product of their path counts?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we calculate the probability of A and B meeting at any of these meeting places?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you simplify the expression for the probability using binomial coefficients?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the final probability that A and B will meet?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Which of the given answer choices is closest to the calculated probability?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

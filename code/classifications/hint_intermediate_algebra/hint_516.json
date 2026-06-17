@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_516",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "Let $x$ and $y$ be real numbers such that\n\\[xy - \\frac{x}{y^2} - \\frac{y}{x^2} = 3.\\]Find the sum of all possible values of $(x - 1)(y - 1).$",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "r",
+    "r",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you rewrite the given equation in the form of a polynomial with degree 6?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Using the identity $a^3+b^3+c^3-3abc=(a+b+c)(a^2+b^2+c^2-ab-ac-bc)$, can you factorize the polynomial you obtained in question 1?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What values of $(x-1)(y-1)$ satisfy the equation $xy-\\frac{x}{y^2}-\\frac{y}{x^2}=3$ if the factor $(xy-x-y)$ is equal to zero?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What are the solutions for $xy-x-y=0$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Using the factorization from question 2, what conditions must be met for $(x-1)(y-1)$ to be equal to 1?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Using the factorization from question 2, what conditions must be met for $(x-1)(y-1)$ to be equal to 4?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "What is the sum of all possible values of $(x-1)(y-1)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

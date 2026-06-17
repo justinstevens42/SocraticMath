@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_19",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem": "Let $a$ and $b$ be nonzero real numbers such that\n\\[(2 - 7i)(a + bi)\\]is pure imaginary.  Find $\\frac{a}{b}.$",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does it mean for a number to be \"pure imaginary\"?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you describe the given expression $(2 - 7i)(a + bi)$ in words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the expanded form of $(2 - 7i)(a + bi)$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine if a number is pure imaginary based on its expanded form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the real part of the expanded form of $(2 - 7i)(a + bi)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the real part of the expanded form to find $\\frac{a}{b}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the value of $\\frac{a}{b}$ in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other scenarios where we might need to find the real part of a complex expression?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

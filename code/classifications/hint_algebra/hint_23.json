@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_23",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "Rationalize the denominator of $\\displaystyle \\frac{1}{\\sqrt{2} + \\sqrt{3} + \\sqrt{7}}$, and write your answer in the form \\[\n\\frac{A\\sqrt{2} + B\\sqrt{3} + C\\sqrt{7} + D\\sqrt{E}}{F},\n\\]where everything is in simplest radical form and the fraction is in lowest terms, and $F$ is positive. What is $A + B + C + D + E + F$?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what it means to rationalize the denominator?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How would you approach rationalizing the denominator of $\\displaystyle \\frac{1}{\\sqrt{2} + \\sqrt{3} + \\sqrt{7}}$? What steps would you take?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Are there any particular strategies or methods that you can think of for rationalizing this denominator? Why do you think they might work?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you find a way to rewrite $\\displaystyle \\frac{1}{\\sqrt{2} + \\sqrt{3} + \\sqrt{7}}$ so that the denominator does not contain square roots?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What values of $A$, $B$, $C$, $D$, and $E$ would you assign to rationalize the denominator in the form $\\displaystyle \\frac{A\\sqrt{2} + B\\sqrt{3} + C\\sqrt{7} + D\\sqrt{E}}{F}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How would you verify that your answer is correct and matches the original fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other situations in which rationalizing the denominator might be necessary or useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

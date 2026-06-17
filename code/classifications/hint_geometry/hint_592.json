@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_592",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem": "A cylinder has a radius of 3 cm and a height of 8 cm. What is the longest segment, in centimeters, that would fit inside the cylinder?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the shape of a cylinder?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we calculate the length of the longest segment inside a cylinder?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What are the dimensions of this particular cylinder (radius and height)?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the length of the segment that stretches from the bottom to the top of the cylinder?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can we use any known geometric formulas to find this length?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any right triangles involved in this scenario? If so, how are they related to the length we're trying to find?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can we calculate the length of the hypotenuse of a right triangle if we know the lengths of the other two sides?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What are the lengths of the legs of the right triangle in this case? How can we determine them based on the dimensions of the cylinder?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can we use the Pythagorean theorem to calculate the length of the hypotenuse in this right triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the final length of the longest segment that can fit inside the cylinder?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

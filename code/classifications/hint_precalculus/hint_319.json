@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_319",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem": "A cube with side length 10 is suspended above a plane. The vertex closest to the plane is labeled $A$. The three vertices adjacent to vertex $A$ are at heights 10, 11, and 12 above the plane. The distance from vertex $A$ to the plane can be expressed as $ \\frac{r-\\sqrt{s}}{t}$, where $r$, $s$, and $t$ are positive integers, and $r+s+t<{1000}$. Find $r+s+t.$",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "b",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we represent the cube and plane in 3-dimensional coordinate space?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you derive the equation of the plane using the given information?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What do we know about the directed distance from a point to a plane?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the equation of the plane to find the directed distance from point A to the plane?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What does it mean for a point to be \"closest\" to a plane?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can we use the given heights of the vertices to relate the variables in the equation of the plane?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "Can you solve for d in the equation of the plane?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we use the value of d to find the distance from point A to the plane?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Is the value of the distance we found the \"directed\" distance or the absolute distance?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

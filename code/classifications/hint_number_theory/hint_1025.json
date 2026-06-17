@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_1025",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem": "If $S$, $H$, and $E$ are all distinct non-zero digits less than $5$ and the following is true, find the sum of the three values $S$, $H$, and $E$, expressing your answer in base $5$. $$\\begin{array}{c@{}c@{}c@{}c} &S&H&E_5\\\\ &+&H&E_5\\\\ \\cline{2-4} &S&E&S_5\\\\ \\end{array}$$",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given problem all about and what are we trying to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What restrictions are placed on the variables $S$, $H$, and $E$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Why do we start by considering the rightmost column first?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Why can't $E$ be equal to $1$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "If $E$ is equal to $2$, what does that tell us about the values of $S$ and $H$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we check if the chosen values for $S$, $H$, and $E$ satisfy the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other possible values for $E$ that we can consider?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Why do we have to check if $H$ can equal $1$ when $E$ is not equal to $1$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "Why can't $E$ be equal to $3$ or $4$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you explain how the final result of $S+H+E=7$ is converted to base $5$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

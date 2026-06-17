@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_98",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "Find the polynomial $p(x)$ such that\n\\[p(p(x)) = xp(x) + x^2.\\]",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the degree of polynomial $p(x)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you describe the steps to solve for $p(x)$ in the equation $p(p(x)) = xp(x) + x^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Is it possible for $p(x)$ to be a constant polynomial? Why or why not?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Based on the degree of $p(x)$, what can we infer about the degree of $p(p(x))$ and $xp(x)$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you write out the equation for $p(p(x))$ and $xp(x)$ in terms of the coefficients of $p(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many unknown coefficients are in the polynomial $p(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How many equations can we write based on equating coefficients in the equations from question 5?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you solve for the coefficients of $p(x)$ using the equations from question 7? If so, what is the solution? If not, why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How does the solution we obtained in question 8 satisfy the original equation $p(p(x)) = xp(x) + x^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

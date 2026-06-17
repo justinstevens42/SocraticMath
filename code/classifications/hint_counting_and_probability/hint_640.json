@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_640",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem": "The Cubs are playing the Red Sox in the World Series. To win the world series, a team must win 4 games before the other team does. If the Cubs win each game with probability $\\dfrac{3}{5}$ and there are no ties, what is the probability that the Cubs will win the World Series? Express your answer as a percent rounded to the nearest whole percent.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the objective of the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many games does a team need to win the World Series and how does this influence the probability of the Cubs winning?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What are the different possible cases for the number of games the Red Sox win before the Cubs win their fourth game?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How many total games will be played depending on the number of games the Red Sox win before the Cubs win their fourth game?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many ways are there to select the games that the Red Sox win out of all the games played in a given scenario?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the probability that the Cubs win their four games in a given scenario?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the probability that the Red Sox win their selected games in a given scenario?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How do we use the binomial coefficient and probabilities calculated in previous steps to find the probability of each scenario?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the final probability that the Cubs will win the World Series?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How would changing the probability of the Cubs winning each game affect the final probability of them winning the World Series?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

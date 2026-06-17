@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_143",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem": "Compute\n\\[\\frac{1}{2^{1990}} \\sum_{n = 0}^{995} (-3)^n \\binom{1990}{2n}.\\]",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the concept of the binomial theorem and its relevance to the problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does DeMoivre's Theorem help us simplify the expression and what is its connection to the given problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the real part of $(1 + i\\sqrt{3})^{1990}$ and how is it related to the sum of the terms in the expression?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain step by step how the expression simplifies using DeMoivre's Theorem and the binomial coefficients?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the significance of the negative sign in the simplified expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other applications or scenarios where DeMoivre's Theorem and the binomial theorem can be used to simplify expressions?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "How does this problem relate to the concept of complex numbers and their properties?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_352",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem": "Add $101_2 + 11_2 + 1100_2 + 11101_2.$ Express your answer in base $2.$",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How do we add binary numbers? Can you explain the process briefly?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What happens when we add two 1's in binary? How do we represent the sum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you demonstrate the adding process for the given binary numbers step by step?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How do we handle carrying over in binary addition? Can you provide an example?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we know when to stop adding and finalize the sum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we apply the same method to add binary numbers with different lengths? How would we adjust the process?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How does binary addition relate to other mathematical operations in Number Theory, such as multiplication and division?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

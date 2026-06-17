@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_737",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem": "The surface area of a particular sphere is $324\\pi\\text{ cm}^2$. What is the volume, in cubic centimeters, of the sphere? Express your answer in terms of $\\pi$.",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the surface area of the sphere being described?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between the surface area and radius of a sphere?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we relate the given surface area to the formula for the surface area of a sphere?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What equation can we set up to solve for the radius of the sphere?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we solve the equation to find the value of the radius?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the value of the radius obtained from solving the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What formula can we use to find the volume of a sphere?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we substitute the value of the radius into the volume formula to find the volume of the sphere?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the final expression for the volume of the sphere, in terms of $\\pi$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

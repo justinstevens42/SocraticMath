@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_312",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem": "If $\\sqrt{5 + x} + \\sqrt{20 - x} = 7$, what is the value of $(5 + x)(20 - x)$?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step you would take to solve the given equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Have you encountered similar equations before where you needed to combine square roots? If yes, what approaches did you use to solve them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can you isolate one radical term in the equation to simplify it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Are there any restrictions on the values of x that you need to consider in order to evaluate the expression (5 + x)(20 - x)? If yes, what are they and how do they affect the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of any strategies or techniques that could help simplify or manipulate the expression (5 + x)(20 - x) based on the given equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other similar equations that you can think of where you might encounter a similar thought process and steps to find the value of an expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

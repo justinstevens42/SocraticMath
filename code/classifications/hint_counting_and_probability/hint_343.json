@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_343",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem": "How many positive three-digit integers less than 500 have at least two digits that are the same?",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many positive three-digit integers are there less than 500?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "In how many three-digit integers less than 500 are the last two digits the same?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How did you calculate that there are 10 possibilities for the last two digits in Case 1?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "In Case 2, why can we only choose the repeated digit for the first two digits?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "In Case 3, why can we only choose the repeated digit for the first and third digits?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How did you calculate the total number of integers that fit the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other strategies to solve this problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

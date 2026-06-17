@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_355",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "Six congruent circles form a ring with each circle externally tangent to the two circles adjacent to it.  All six circles are internally tangent to a circle $\\cal C$ with radius 30.  Let $K$ be the area of the region inside $\\cal C$ and outside all of the six circles in the ring.  Find $\\lfloor K\\rfloor$. (The notation $\\lfloor K\\rfloor$ denotes the greatest integer that is less than or equal to $K$.)",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the setup of the problem and the given information?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between the radius of each of the six congruent circles and the side length of the regular hexagon formed by joining the centers of the adjacent circles?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the length of the side of the regular hexagon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is triangle $ABO$ equilateral?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we find the radius of circle $\\cal C$ in terms of the radius of the congruent circles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the formula for the area of the region inside $\\cal C$ and outside all six circles in the ring?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can we find the radius of circle $\\cal C$ and ultimately the area $K$ using the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the value of $r$ and $K$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

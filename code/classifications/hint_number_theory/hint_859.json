@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_859",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem": "What is the smallest positive integer with exactly 14 positive divisors?",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we determine the number of divisors for a given positive integer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain the formula for finding the number of divisors based on the prime factorization of an integer?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Given that we need to find a positive integer with exactly 14 positive divisors, what can we infer about its prime factorization?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we express the number of divisors 14 as a product of factors, similar to the expression given in the formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "By considering different factorizations, what is the smallest possible integer that satisfies the conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we use the concept of prime factorization to verify that the found integer indeed has 14 positive divisors?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other scenarios or problems where understanding and applying the concept of prime factorization can be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

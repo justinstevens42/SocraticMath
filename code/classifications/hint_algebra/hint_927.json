@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_927",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem": "What is the area enclosed by the region defined by the equation $x^2+y^2+12x+16y=0$?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "e",
+    "r",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the general shape of the equation $x^2+y^2+12x+16y=0$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are some techniques or methods that can be used to solve equations like this one?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If we were to complete the square to solve this equation, what steps would be involved in doing so?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the significance of completing the square in this context? How does it help us find the area enclosed by the region defined by the equation?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "Can you determine the center and radius of the circle represented by the equation $x^2+y^2+12x+16y=0$? How does this information relate to finding the area of the region?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other approaches or methods that could be used to find the area enclosed by this equation? How might they differ from the method of completing the square?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "What is the final expression or formula we would use to calculate the area enclosed by the region defined by the equation $x^2+y^2+12x+16y=0$? How can we interpret this result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_367",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem": "Let $a$ and $b$ be positive real numbers such that $a + b = 1.$  Find set of all possible values of $\\frac{1}{a} + \\frac{1}{b}.$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "e",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the AM-HM inequality states?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How does the AM-HM inequality relate to the expression in the problem, $\\frac{1}{a} + \\frac{1}{b}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the significance of the condition $a + b = 1$ in this problem?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 4,
+      "question": "Can you describe the situation when the equality condition of the AM-HM inequality is met?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does the value of $\\frac{1}{a} + \\frac{1}{b}$ change as $a$ approaches 0 and $b$ approaches 1?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Based on the previous reasoning, what can we conclude about the set of all possible values of $\\frac{1}{a} + \\frac{1}{b}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

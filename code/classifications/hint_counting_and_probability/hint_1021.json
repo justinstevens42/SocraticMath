@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_1021",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem": "How many ways are there to choose 3 cards from a standard deck of 52 cards, if all three cards must be of different suits?  (Assume that the order of the cards does not matter.)",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the main objective of this problem? Can you rephrase it in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many suits are there in a standard deck of 52 cards? Can you list them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for the three cards to be of different suits? Can you explain it using an example?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Why do we need to choose three cards? Is there any specific reason for this number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How many ways are there to choose the suits for the three cards? Can you explain why we use the combination formula $\\binom{4}{3}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Once we have chosen the suits, how many cards can we choose from each suit? Why do we raise $13$ to the power of $3$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Explain why we multiply the number of ways to choose suits by the number of ways to choose cards within each suit. Why does this give us the total number of ways to choose three cards of different suits?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Calculate the result by multiplying the values we discussed, and compare it with the final answer. Are they the same? If not, can you identify any mistakes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

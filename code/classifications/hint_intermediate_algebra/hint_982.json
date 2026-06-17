@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_982",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "Let \\[P(x) = (2x^4 - 26x^3 + ax^2 + bx + c)(5x^4 - 80x^3 + dx^2 + ex + f),\\]where $a, b, c, d, e, f$ are real numbers. Suppose that the set of all complex roots of $P(x)$ is $\\{1, 2, 3, 4, 5\\}.$ Find $P(6).$",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given problem asking us to find, and what do we know about the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are $Q(x)$ and $R(x)$, and how do they relate to the roots of $P(x)$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can Vieta's formulas be used to find the sum of the roots of $Q(x)$ and $R(x)$, using the coefficients of $P(x)$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Why is the sum of the roots of $P(x)$ equal to the sum of the roots of $Q(x)$ and $R(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we use the given information that the roots of $P(x)$ are $\\{1, 2, 3, 4, 4, 5, 5, 5\\}$ to find the factorization of $P(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do we use the factorization of $P(x)$ to find $P(6)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final answer for $P(6)$, and how did we arrive at this answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

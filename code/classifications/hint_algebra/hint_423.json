@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_423",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem": "Simplify $(576)^\\frac{1}{4}(216)^\\frac{1}{2}$.",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step to simplify the expression $(576)^\\frac{1}{4}(216)^\\frac{1}{2}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain the concept of a fractional exponent and how it relates to simplifying expressions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the prime factorization of 576 and 216? How does this information help simplify the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean to raise a number to the power of $\\frac{1}{4}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How do you simplify $(576)^\\frac{1}{4}$? What is the result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you simplify $(216)^\\frac{1}{2}$? What is the result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "After simplifying both terms, what is the simplified value of the expression $(576)^\\frac{1}{4}(216)^\\frac{1}{2}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of other expressions that involve fractional exponents and require similar steps to simplify?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

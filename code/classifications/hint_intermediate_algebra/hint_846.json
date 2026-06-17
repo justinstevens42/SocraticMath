@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_846",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "Let $f(x)=x^4+14x^3+52x^2+56x+16$.  Let $z_1,z_2,z_3,z_4$ be the four roots of $f$.  Find the smallest possible value of $|z_{a}z_{b}+z_{c}z_{d}|$ where $\\{a,b,c,d\\}=\\{1,2,3,4\\}$.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given polynomial $f(x)$ and what do we know about its roots?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain why if $r$ is a root of $f(x)$, then $\\frac{4}{r}$ is also a root?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How did we determine that $f(x)$ has two distinct roots on $(-2,0)$ and two more roots on $(-\\infty,-2)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the inequality we used to find the smallest possible value of $|z_{a}z_{b}+z_{c}z_{d}|$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why the expression we were trying to minimize is at least $\\frac{1}{2}(z_1z_4+z_2z_3+z_3z_2+z_4z_1)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Why do we get a minimum value for $|z_{a}z_{b}+z_{c}z_{d}|$ when $\\sigma(1)=1,\\sigma(2)=4,\\sigma(3)=3,\\sigma(4)=2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final answer for the smallest possible value of $|z_{a}z_{b}+z_{c}z_{d}|$ and how did we arrive at this answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

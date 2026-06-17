@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_14",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 1",
+  "problem": "A square and four circles, each with a radius of 5 inches, are arranged as shown. What is the area, in square inches, of the square? [asy]\nunitsize(1mm);\ndefaultpen(linewidth(0.7pt));\n\ndraw((0,0)--(20,0)--(20,20)--(0,20)--cycle);\ndraw(Circle((5,5),5));\ndraw(Circle((15,5),5));\ndraw(Circle((5,15),5));\ndraw(Circle((15,15),5));\n[/asy]",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the arrangement of the square and four circles?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between the side length of the square and the diameter of one of the circles?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the side length of the square based on the information provided?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the formula to calculate the area of a square? Can you apply it to find the area?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why multiplying the side length by itself gives us the area of the square?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How does the information about the circles help us find the area of the square?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you generalize this method to find the area of a square in similar situations?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Are there any other geometric properties or concepts related to this problem that we can explore?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

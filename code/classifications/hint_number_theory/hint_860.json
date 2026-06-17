@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_860",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem": "The digits of a two-digit number $AB$ are reversed to form a second two-digit number, and the lesser of the two-digit numbers is subtracted from the greater. What prime number must be a factor of the difference if $A\\neq B$?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain why we are reversing the digits of the two-digit number $AB$ to form another two-digit number?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What happens when we subtract the lesser two-digit number (i.e., $BA$) from the greater two-digit number (i.e., $AB$)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we express the subtraction of $BA$ from $AB$ using mathematical notation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "By simplifying the expression $AB - BA$, can you identify any common factors?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Why is it important to consider the condition $A\\neq B$ when determining the prime factor of the difference?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How does the pattern $AB - BA = 3(3\\cdot A - 3\\cdot B)$ help us determine the prime factor of the difference?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain why 3 must be a factor of $AB - BA$ if $A\\neq B$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any other prime factors that must be considered if $A\\neq B$? Why or why not?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

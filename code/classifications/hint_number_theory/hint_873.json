@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_873",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem": "To express 20 as a sum of distinct powers of 2, we would write $20 = 2^4 + 2^2$. The sum of the exponents of these powers is $4 + 2 = 6$. If 1562 were expressed as a sum of distinct powers of 2, what would be the least possible sum of the exponents of these powers?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step to finding the binary representation of 1562 as a sum of distinct powers of 2?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Why is there only one way to represent positive integers as a sum of distinct powers of 2?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the largest power of 2 less than 1562, and what is the difference between the two numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do we continue finding the remaining powers of 2 to represent the difference?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain the process of finding the binary representation of 1562 and the sum of the exponents of 2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other positive integers and apply a similar approach to find their binary representation and the sum of the exponents of 2?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

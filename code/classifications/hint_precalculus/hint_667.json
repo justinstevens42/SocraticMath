@@ -1,0 +1,47 @@
+{
+  "problem_id": "hint_667",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem": "A point has rectangular coordinates $(x,y,z)$ and spherical coordinates $\\left(2, \\frac{8 \\pi}{7}, \\frac{2 \\pi}{9} \\right).$  Find the spherical coordinates of the point with rectangular coordinates $(x,y,-z).$  Enter your answer in the form $(\\rho,\\theta,\\phi),$ where $\\rho > 0,$ $0 \\le \\theta < 2 \\pi,$ and $0 \\le \\phi \\le \\pi.$",
+  "n_questions": 5,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the given rectangular coordinates for the point, and what are the corresponding spherical coordinates?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we negate the $z$-coordinate of the point using spherical coordinates?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the new value of $\\phi$ we need to use to negate the $z$-coordinate, and how did we arrive at this value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What are the new spherical coordinates that correspond to the point with negated $z$-coordinate, and how did we compute them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can we negate the $x$ or $y$ coordinates using the same method? If so, how would we do it and what new spherical coordinates would we obtain? If not, why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

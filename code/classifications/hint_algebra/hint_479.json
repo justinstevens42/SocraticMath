@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_479",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem": "For two real values of $n$, the equation $4x^2+nx+25=0$ has exactly one solution in $x$. What is the positive value of $n$?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what it means for an equation to have exactly one solution in $x$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "If a quadratic equation has exactly one solution, what can you say about the discriminant of the equation? How is it related to the number of solutions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the discriminant formula for a quadratic equation of the form $ax^2+bx+c=0$? How can we use it to determine the number of solutions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Given the equation $4x^2+nx+25=0$, what is the discriminant in terms of $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "In order for the equation to have exactly one solution, what should the value of the discriminant be?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can you use the discriminant inequality to find the range of values for $n$ that satisfy the condition of one solution?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "If the discriminant inequality gives you a range of values for $n$, what is the positive value within that range?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How does changing the value of $n$ affect the shape and behavior of the quadratic equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

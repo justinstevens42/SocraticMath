@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_239",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem": "If an integer is divisible by $4$ and the sum of its last two digits is $13$, then what is the product of its last two digits?",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of an integer?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain what it means for an integer to be divisible by 4?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How do you check if a number is divisible by 4?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What are the possible last two digits of a number that is divisible by 4?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "If the sum of the last two digits of a number is 13, what are the possible combinations of digits?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How did we determine that $AB$ must be equal to 76?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the product of 7 and 6, and how does it relate to the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other rules or tricks for determining divisibility of integers by certain numbers?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

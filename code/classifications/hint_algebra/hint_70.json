@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_70",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem": "Evaluate $\\lfloor17.2\\rfloor+\\lfloor-17.2\\rfloor$.",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of the floor function and how does it work?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does the floor function handle positive and negative numbers differently?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the floor value of 17.2 and how do you determine it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the floor value of -17.2 and how do you determine it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do you perform addition between floor values?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you simplify the expression $\\lfloor17.2\\rfloor+\\lfloor-17.2\\rfloor$ using the floor values?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final result of the expression $\\lfloor17.2\\rfloor+\\lfloor-17.2\\rfloor$ and how can you explain it in terms of the floor function?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

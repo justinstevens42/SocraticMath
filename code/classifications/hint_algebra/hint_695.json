@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_695",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem": "Simplify $\\frac{1}{1+\\sqrt{2}}\\cdot\\frac{1}{1-\\sqrt{2}}$.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "e",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step you would take to simplify the expression $\\frac{1}{1+\\sqrt{2}}\\cdot\\frac{1}{1-\\sqrt{2}}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you think of any different methods or approaches to simplify this expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the significance of the denominator $1+\\sqrt{2}$ and $1-\\sqrt{2}$ in this expression? How does it affect the overall simplification process?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 4,
+      "question": "If we multiply the expression $\\frac{1}{1+\\sqrt{2}}\\cdot\\frac{1}{1-\\sqrt{2}}$ by a certain expression, how could it potentially help us simplify the overall expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Is there a way to rewrite the denominator $1+\\sqrt{2}$ and $1-\\sqrt{2}$ in a different form that might make the simplification process easier?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How would you verify the correctness of your simplified expression? Is there any intuition or logical reasoning you can use to support your answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

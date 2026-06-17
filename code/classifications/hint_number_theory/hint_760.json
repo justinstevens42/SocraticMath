@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_760",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem": "Let $f(n)$ be a function that, given an integer $n$, returns an integer $k$, where $k$ is the smallest possible integer such that $k!$ is divisible by $n$. Given that $n$ is a multiple of 15, what is the smallest value of $n$ such that $f(n) > 15$?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the function $f(n)$ defined as in relation to the integer $n$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the smallest possible integer $k$ such that $k!$ is divisible by $n$ using the function $f(n)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "If $n$ is a multiple of 15, what is the smallest value of $n$ such that $f(n)$ is greater than 15?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we express $n$ in terms of another variable to help find the smallest value that satisfies the condition?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between $r$ and $n$ in the expression $n = 15r$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Why is it necessary to consider values of $r$ greater than 14 in order to satisfy the condition?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How does the factorial function $k!$ relate to finding the smallest value of $k$ when it is divisible by a given number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Why do we need to check values of $r$ greater than 15, even though $n = 15r$ already satisfies the condition of being a multiple of 15?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How does the primality of a number affect the value of $k$ in the function $f(n)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any other scenarios or problems where we can apply similar thinking and steps as we did in this question?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

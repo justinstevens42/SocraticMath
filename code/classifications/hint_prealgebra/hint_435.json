@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_435",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem": "A square has two diagonals, and a convex pentagon has five diagonals.  How many diagonals does a convex decagon have?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what a diagonal is in terms of geometry?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How would you define a convex polygon?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Do you know the formula for finding the number of diagonals in a convex polygon? If not, how could you approach figuring it out?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Based on the formula, how many diagonals would you expect a convex decagon to have?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain the steps you would take to apply the formula to find the number of diagonals in a convex decagon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other geometric shapes or polygons that you think might follow a similar pattern in terms of the number of diagonals?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

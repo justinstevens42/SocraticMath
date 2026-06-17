@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_886",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "Given any two positive real numbers $x$ and $y$, then $x \\, \\Diamond \\, y$ is a positive real number defined in terms of $x$ and $y$ by some fixed rule.  Suppose the operation $x \\, \\Diamond \\, y$ satisfies the equations $(xy) \\, \\Diamond \\, y=x(y \\, \\Diamond \\, y)$ and $(x \\, \\Diamond \\, 1) \\, \\Diamond \\, x = x \\, \\Diamond \\, 1$ for all $x,y>0$.  Given that $1 \\, \\Diamond \\, 1=1$, find $19 \\, \\Diamond \\, 98$.",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of $\\Diamond$ and how is it related to $x$ and $y$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you give an example of two positive real numbers $a$ and $b$ and their corresponding $\\Diamond$ value?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for the operation $\\Diamond$ to satisfy the equation $(xy) \\, \\Diamond \\, y=x(y \\, \\Diamond \\, y)$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How does setting $y=1$ in the first equation help us simplify the expression $x \\, \\Diamond \\, 1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we use the second equation $(x \\, \\Diamond \\, 1) \\, \\Diamond \\, x = x \\, \\Diamond \\, 1$ to further simplify $x \\, \\Diamond \\, x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What can we conclude from the fact that $(xy) \\, \\Diamond \\, y=xy$, and how does this help us find $19 \\, \\Diamond \\, 98$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the value of $19 \\, \\Diamond \\, 98$, and how did we arrive at this answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other operations or equations that have similar properties to $\\Diamond$ and the equations provided in the problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

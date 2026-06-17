@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_712",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 2",
+  "problem": "What is $\\dbinom{n}{1}$ for any positive integer $n$?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "e",
+    "e",
+    "b",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the notation $\\binom{n}{1}$ means?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How does the formula for $\\binom{n}{1}$ relate to the concept of choosing objects from a set?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Is there a visual representation that can help us understand the meaning of $\\binom{n}{1}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you provide an example of a real-world scenario where we might need to use $\\binom{n}{1}$ to solve a problem?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "Is $\\binom{n}{1}$ the only way to choose a single object out of a set of $n$? If not, what other ways are there and how are they different?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why the formula for $\\binom{n}{1}$ includes a factorial expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "If we have a set of $n$ objects and we want to choose 2 of them, what formula should we use? How does this formula differ from the formula for $\\binom{n}{1}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How do the concepts of permutations and combinations relate to each other in the context of counting and probability?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

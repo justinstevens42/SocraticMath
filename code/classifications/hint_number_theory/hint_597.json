@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_597",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem": "You recently bought more than 100 eggs. The eggs are sorted in containers that can store exactly 12 eggs. However, upon inspecting the containers, you realize that two containers each hold only 11 eggs, while all the other containers hold 12 eggs. What is the smallest number of eggs you could have right now?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the initial observations you made about the containers of eggs and the number of eggs in each container?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "If we assume that all the containers have 12 eggs each, how many eggs would you have in total?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Since two containers have only 11 eggs, how does that affect the total number of eggs you have?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we mathematically represent the total number of eggs you have, given the presence of the two containers with 11 eggs?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you write an inequality to express the relationship between the total number of eggs and the number of containers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What is the smallest possible number of containers we can have to satisfy the inequality and find the smallest number of eggs you could have?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Using the smallest number of containers, what is the total number of eggs you would have in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you provide the final answer to the question: What is the smallest number of eggs you could have right now?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

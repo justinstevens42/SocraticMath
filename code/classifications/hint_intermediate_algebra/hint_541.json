@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_541",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "Compute the smallest positive integer $n$ such that $n + i,$ $(n + i)^2,$ and $(n + i)^3$ are the vertices of a triangle in the complex plane whose area is greater than 2015.",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the formula for the square of $(n+i)$? How do we obtain it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How do we find the cube of $(n+i)$? Can you explain the steps?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the Shoelace Theorem and how does it apply to this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How do we use the Shoelace Theorem to find the area of the triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How do we set up the inequality to solve for the smallest positive integer $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What method did we use to determine that $n=9$ is the smallest positive integer that satisfies the inequality?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the area of the triangle when $n=9$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

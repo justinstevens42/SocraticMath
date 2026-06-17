@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_992",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "What is the largest three-digit integer whose digits are distinct and form a geometric sequence?",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a geometric sequence? Can you provide an example?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does the condition \"distinct digits\" affect the possible values for the geometric sequence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the general form of a three-digit number with distinct digits and a geometric sequence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the maximum value that the first term of the geometric sequence can have to satisfy the condition of a three-digit number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we find the second and third terms of the geometric sequence based on the first term?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "By substituting the values into the formula for the three-digit number, can you determine the maximum three-digit integer that satisfies the given conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other restrictions or requirements that we need to consider in finding the largest three-digit integer with distinct digits and a geometric sequence?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other similar problems or scenarios where examining the properties of a sequence can help us find a maximum or minimum value?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

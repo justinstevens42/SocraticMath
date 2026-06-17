@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_900",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "Find all solutions to the inequality \\[\\frac{x^2}{(x-3)^2} \\ge 0.\\](Give your answer in interval notation.)",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of an inequality and how does it differ from an equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain how to solve inequalities involving fractions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How do the solutions to an inequality change if both sides are multiplied or divided by a negative number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the general strategy for solving an inequality like $\\frac{x^2}{(x-3)^2} \\ge 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why is the left-hand side of the inequality always nonnegative when it is defined? What mathematical properties can you use to prove this?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How does the fact that $x$ cannot equal 3 affect the solution set? Why is this important in the context of the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can you express the solution set of the inequality in interval notation? What does this notation mean and how is it useful in understanding the solution?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

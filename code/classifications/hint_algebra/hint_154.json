@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_154",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem": "If the two roots of the quadratic $7x^2+3x+k$ are $\\frac{-3\\pm i\\sqrt{299}}{14}$, what is $k$?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we determine the roots of a quadratic equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between the roots of a quadratic equation and its coefficients?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain what is meant by \"the two roots\" of a quadratic equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the value of k if we know the roots of the quadratic equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the formula for finding the roots of a quadratic equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we apply the given roots, $\\frac{-3\\pm i\\sqrt{299}}{14}$, to find the value of k?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

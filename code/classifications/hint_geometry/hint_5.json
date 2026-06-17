@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_5",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem": "A cube with an edge length of 4 units has the same volume as a square-based pyramid with base edge lengths of 8 units and a height of $h$ units. What is the value of $h$?",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the basic concept of volume for both a cube and a square-based pyramid?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we express the volume of the cube in terms of its edge length?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we express the volume of the square-based pyramid in terms of its base edge length and height?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean for the two volumes to be equal in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you write an equation that represents the relationship between the volume of the cube and the volume of the pyramid?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we solve this equation to find the value of $h$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What does the value of $h$ represent in the context of the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

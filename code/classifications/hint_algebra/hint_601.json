@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_601",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "Two parabolas are the graphs of the equations $y=3x^2+4x-5$ and $y=x^2+11$. Give all points where they intersect. List the points in order of increasing $x$-coordinate, separated by semicolons.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you identify the key information provided in the problem? What are the equations of the given parabolas?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How would you find the points where two graphs intersect? What conditions need to be satisfied?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you find the $x$-coordinates of the intersection points by setting the two equations equal to each other? What does this imply geometrically?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How would you proceed to solve the resulting quadratic equation for $x$? Are there different methods you could use?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "After obtaining the $x$-values, how would you find the corresponding $y$-values for the points of intersection?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the significance of listing the points in order of increasing $x$-coordinate? How does this help us visualize the intersection points on a graph?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

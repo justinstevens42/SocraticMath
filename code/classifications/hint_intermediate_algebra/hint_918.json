@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_918",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem": "Find the focus of the parabola $x = -\\frac{1}{12} y^2.$",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step to determine the focus of a parabola?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "In finding the focus of a parabola, what other information do we need besides the equation of the parabola itself?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How do we use the concept of equidistance to find the focus of a parabola?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What are the equations for $PF$ and $PQ$ and how can we use them to find the focus?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain the process of equating the distances $PF$ and $PQ$ in order to find the focus?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are the resulting equations after substituting the equation of the parabola and the coordinates of point $P$ into the equations for $PF$ and $PQ$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we simplify and solve the resulting equations to determine the values of $f$ and $d$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the significance of the condition $f = -d$?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Can you explain why we cannot have $f = d$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the final coordinate for the focus of the given parabola?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

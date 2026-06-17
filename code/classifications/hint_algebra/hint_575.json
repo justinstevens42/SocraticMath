@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_575",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem": "What is the domain of the function $$u(x) = \\frac{1}{\\sqrt x}~?$$ Express your answer in interval notation.",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of the function u(x) = 1/√x? How would you describe its behavior?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What restrictions or conditions exist for the domain of the function? Can x be any real number, or are there limitations on its value?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can x be equal to zero in this function? Why or why not?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the importance of the square root (√) in the function? How does it affect the potential values for x?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How would you mathematically express the domain of the function u(x) = 1/√x in interval notation? Can you provide a specific interval(s) that represents the domain?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other functions where the square root is involved and similar considerations for the domain need to be made? How would the domain differ in those cases?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_64",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem": "Two points are drawn on each side of a square with an area of 81 square units, dividing the side into 3 congruent parts.  Quarter-circle arcs connect the points on adjacent sides to create the figure shown.  What is the length of the boundary of the bolded figure?  Express your answer as a decimal to the nearest tenth. [asy]\nsize(80);\nimport graph;\ndraw((0,0)--(3,0)--(3,3)--(0,3)--cycle, linetype(\"2 4\"));\ndraw(Arc((0,0),1,0,90),linewidth(.8));\ndraw(Arc((0,3),1,0,-90),linewidth(.8));\ndraw(Arc((3,0),1,90,180),linewidth(.8));\ndraw(Arc((3,3),1,180,270),linewidth(.8));\ndraw((1,0)--(2,0),linewidth(.8));draw((3,1)--(3,2),linewidth(.8));\ndraw((1,3)--(2,3),linewidth(.8));draw((0,1)--(0,2),linewidth(.8));\n[/asy]",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the area of the square and what does it tell us about the side length?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How is the side length of the square related to the length of each segment into which the sides are divided?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How many straight segments are there in total? What is the length of each straight segment?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the radius of each quarter-circle arc segment?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we find the total length of the quarter-circle arc segments?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the formula for the circumference of a circle? How can we use it to find the total length of the quarter-circle arc segments?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the total length of the four straight segments? What is the total length of the four quarter-circle arc segments?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we find the total length of both types of segments?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the approximate length of the boundary of the figure to the nearest tenth?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

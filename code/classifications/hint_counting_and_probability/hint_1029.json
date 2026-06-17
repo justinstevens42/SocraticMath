@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_1029",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem": "Alexio has 100 cards numbered 1-100, inclusive, and places them in a box. Alexio then chooses a card from the box at random. What is the probability that the number on the card he chooses is a multiple of 2, 3 or 5? Express your answer as a common fraction.",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "b",
+    "e",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total number of cards in the box, and why is it relevant to calculating the probability?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the number of cards that are multiples of 2, 3, or 5?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the significance of finding the even numbers between 1 and 100?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 4,
+      "question": "How can we identify the odd multiples of 3 in the given range?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Why is it important to avoid overcounting when counting the odd multiples of 3?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we find the odd multiples of 5 that are not divisible by 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final count of cards that are multiples of 2, 3, or 5?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How do we calculate the probability in this context?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Why is it necessary to express the probability as a common fraction?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 10,
+      "question": "What is the final probability that Alexio chooses a card with a number divisible by 2, 3, or 5?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

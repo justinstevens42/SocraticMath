@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_874",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem": "Find the smallest positive integer $b$ for which $x^2+bx+2008$ factors into a product of two binomials, each having integer coefficients.",
+  "n_questions": 9,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "b",
+    "e",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what it means for a quadratic expression to \"factor into a product of two binomials\"?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What are some strategies or methods you know of to factor a quadratic expression?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can you determine if a quadratic expression can be factored into two binomials with integer coefficients?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Are there any special properties or characteristics of the given quadratic expression that might make it easier to factor?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of any numerical patterns or relationships that could help you find a value for the coefficient $b$?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "If you were to factor the given expression, what would you look for in terms of the factors and their coefficients?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any limitations or constraints on the possible values of $b$ in this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How would you verify that your value for $b$ is the smallest positive integer that satisfies the given conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other quadratic expressions that might require similar thinking and steps to factor?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

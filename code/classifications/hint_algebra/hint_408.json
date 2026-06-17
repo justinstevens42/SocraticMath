@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_408",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "For how many integer values of $a$ does the equation $$x^2 + ax + 8a = 0$$ have integer solutions for $x$?",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the necessary conditions for the equation to have integer solutions for $x$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you determine any restrictions on the values of $a$ based on the given equation? If so, what are they?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can you express the roots of the equation in terms of $a$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Is there a relationship between the discriminant of the equation and the existence of integer solutions? If yes, what is it?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can you ensure that the discriminant is a perfect square in order for the equation to have integer solutions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you propose a method to find all the possible values of $a$ that satisfy the conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any patterns or relationships between the values of $a$ and the number of integer solutions for different cases?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you generalize your findings to determine the total number of integer values of $a$ that yield integer solutions for all similar quadratic equations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

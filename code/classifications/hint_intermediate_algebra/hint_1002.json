@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_1002",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "The increasing sequence of positive integers $a_1,$ $a_2,$ $a_3,$ $\\dots$ has the property that\n\\[a_{n + 2} = a_{n + 1} + a_n\\]for all $n \\ge 1.$  If $a_7 = 120,$ then find $a_8.$",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How is the sequence defined?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between consecutive terms in the sequence?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the given information to find the values of $a$ and $b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is it important to consider $a_7 = 120$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we express $a_8$ in terms of $a$ and $b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How does the fact that the sequence is increasing help us in finding the value of $a_8$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can we use similar reasoning to find the values of other terms in the sequence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the significance of the Fibonacci numbers in this sequence?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Can we generalize the relationship between consecutive terms for any position in the sequence?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "How does the structure of the sequence relate to other mathematical concepts?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_195",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem": "When the base-10 integers 200 and 1200 are expressed in base 2, how many more digits does 1200 have than 200 (after being converted)?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "e",
+    "e",
+    "f",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the process of converting base-10 integers to base-2? What are the steps involved?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do we determine the largest power of 2 less than a given base-10 number? Can you apply this method to find the largest powers of 2 less than 200 and 1200?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 3,
+      "question": "What is the significance of the largest power of 2 in the base-2 representation of a number? How does it affect the overall number of digits?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 4,
+      "question": "Based on the largest powers of 2 we found for 200 and 1200, can you identify the position of the \"1\" in their respective base-2 representations? What other digits follow this \"1\"?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine the number of additional digits in the base-2 representation of 1200 compared to 200? What is the relationship between the positions of the largest power of 2 for both numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other situations where we might compare the number of digits in different base-2 representations? How does the process of finding the number of extra digits apply to these situations?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

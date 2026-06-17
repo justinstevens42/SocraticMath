@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_386",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem": "There are two ${\\bf positive}$ integers $c$ for which the equation $$5x^2+11x+c=0$$has rational solutions. What is the product of those two values of $c$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what it means for an equation to have rational solutions?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Given the equation $5x^2+11x+c=0$, what conditions must be true for the equation to have rational solutions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Are there any restrictions on the values of $c$ that would allow the equation to have rational solutions? If so, what are they?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the product of the values of $c$ that satisfy the equation having rational solutions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there any other approaches or methods you can think of to solve this problem?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any similar equations that might require a similar approach or reasoning to find the product of their solutions?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

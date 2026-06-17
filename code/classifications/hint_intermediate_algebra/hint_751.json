@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_751",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "The lengths of the sides of a triangle with positive area are $\\log_{10}12$, $\\log_{10}75$, and $\\log_{10}n$, where $n$ is a positive integer. Find the number of possible values for $n$.",
+  "n_questions": 10,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "r",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we determine if a triangle with the given side lengths exists? What condition do we need to satisfy?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Based on the triangle inequality, what are the three inequalities that we need to consider?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "When examining the first inequality, what can we conclude based on the given side lengths?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "In the second inequality, what can we deduce from the fact that $\\log_{10}(12 \\cdot 75) > \\log_{10} n$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we manipulate the second inequality to find a constraint on the value of $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Considering the third inequality, what information can we gather by comparing $\\log_{10}(12n)$ and $\\log_{10} 75$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "How can we solve the third inequality to set an upper limit for the values of $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Combining the results from the second and third inequalities, what is the range of possible values for $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Considering that $n$ is a positive integer, how many values of $n$ are in this range?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the final answer to the problem? How many possible values are there for $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

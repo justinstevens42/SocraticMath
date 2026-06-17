@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_845",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem": "Joel selected an acute angle $x$ (strictly between 0 and 90 degrees) and wrote the values of $\\sin x$, $\\cos x$, and $\\tan x$ on three different cards.  Then he gave those cards to three students, Malvina, Paulina, and Georgina, one card to each, and asked them to figure out which trigonometric function (sin, cos, or tan) produced their cards.  Even after sharing the values on their cards with each other, only Malvina was able to surely identify which function produced the value on her card.  Compute the sum of all possible values that Joel wrote on Malvina's card.",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the values of $\\sin x$, $\\cos x$, and $\\tan x$ on the interval $(0^\\circ, 90^\\circ)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What do we know about the one-to-one property of $\\sin x$, $\\cos x$, and $\\tan x$ on the interval $(0^\\circ, 90^\\circ)$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How does Malvina's ability to deduce her function allow us to deduce the function for Paulina and Georgina?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What happens if $\\sin x = \\cos x$? How can we use this to determine the value on Malvina's card?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What happens if $\\sin x = \\tan x$? How can we use this to determine the value on Malvina's card?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What happens if $\\cos x = \\tan x$? How can we use this to determine the value on Malvina's card?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How does the quadratic formula come into play when solving for $\\sin x$ in the case where $\\cos x = \\tan x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the sum of all possible values that Joel wrote on Malvina's card?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

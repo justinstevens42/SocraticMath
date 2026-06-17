@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_570",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem": "If\n\\[\\begin{pmatrix} 1 & 2 & a \\\\ 0 & 1 & 4 \\\\ 0 & 0 & 1 \\end{pmatrix}^n = \\begin{pmatrix} 1 & 18 & 2007 \\\\ 0 & 1 & 36 \\\\ 0 & 0 & 1 \\end{pmatrix},\\]then find $a + n.$",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you write down the definition of matrix multiplication?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we represent the matrix A in terms of I and B?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What are the values of B^2 and B^3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How did we use the Binomial Theorem to expand A^n?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the value of A^n in terms of n and a?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why we were able to use the Binomial Theorem in this case? What conditions need to be met?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How did we solve for a and n given the matrix equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of another example where we could apply similar matrix techniques to solve for unknown variables?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

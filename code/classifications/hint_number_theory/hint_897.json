@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_897",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem": "How many ways can 1995 be factored as a product of two two-digit numbers? (Two factorizations of the form $a\\cdot b$ and $b\\cdot a$ are considered the same).",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the prime factorization of 1995?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How many two-digit numbers are divisible by 19 and can be multiplied with another two-digit number to get 1995?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Are there any two-digit numbers that are factors of 1995 and cannot be paired with another two-digit number to get 1995? If so, why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can 1995 be factored into the product of three two-digit numbers? If not, why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Would the answer be different if we allowed the factorizations to be in the form of $a\\cdot b$ and $b\\cdot a$ separately? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can the same method be used to find the number of ways a different integer can be factored into the product of two two-digit numbers? If so, how would the process differ?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

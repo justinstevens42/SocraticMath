@@ -1,0 +1,152 @@
+{
+  "problem_id": "hint_49",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem": "There are 3 complex numbers $a+bi$, $c+di$, and $e+fi$. If $b=1$, $e=-a-c$, and the sum of the numbers is $-i$, find $d+f$.",
+  "n_questions": 20,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "f",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given problem in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the known conditions or equations given in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we represent the sum of the complex numbers using variables or expressions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we represent the conditions involving variables such as b, e, and the sum of the numbers using equations?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can we rewrite the conditions involving a, c, and e in terms of the other variables only?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we express the sum of the numbers in terms of a, c, d, and f?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you write an equation that represents the conditions and the sum of the numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "How can we solve the equation to find the values of a, c, d, and f?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What steps would you take to eliminate any unnecessary variables and simplify the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What value does b have in the given problem? How does it affect the equations?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 11,
+      "question": "How can we use the given information to determine the values of a, c, d, and f?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "What is the relationship between e, a, and c? How can we use it to solve the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 13,
+      "question": "Based on the given information and equations, what is the value of the sum of the numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 14,
+      "question": "What does the value of the sum of the numbers tell us about d and f?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 15,
+      "question": "By substituting the values of a, c, and e into the equation for the sum of the numbers, can we solve for d and f?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 16,
+      "question": "How can we express the value of d+f in terms of the known variables?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 17,
+      "question": "Based on the given conditions, what is the value of d+f?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 18,
+      "question": "Can you summarize the steps and reasoning used to determine the value of d+f in this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 19,
+      "question": "Can you think of any similar problems where similar steps and reasoning might be used?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 20,
+      "question": "How would you explain the importance of these steps and the value of critical thinking in solving algebraic problems to someone else?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

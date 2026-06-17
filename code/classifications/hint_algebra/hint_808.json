@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_808",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 1",
+  "problem": "June and Julia live 1 mile apart. It takes June 4 minutes to ride her bike directly to Julia's house. At the same rate, how many minutes would it take June to ride the 3.5 miles from her own house to Bernard's house?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "f",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you calculate the speed at which June is riding her bike from her house to Julia's house?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What information can you gather from the fact that it takes June 4 minutes to ride 1 mile?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can you use this information to determine how long it would take June to ride 3.5 miles?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Are there any additional factors or considerations that should be taken into account when calculating the time it takes June to ride from her house to Bernard's house?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Is the distance between Julia's house and Bernard's house relevant to the calculation? If so, how can you incorporate it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other scenarios where a similar thought process and steps would be applied when calculating travel time?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

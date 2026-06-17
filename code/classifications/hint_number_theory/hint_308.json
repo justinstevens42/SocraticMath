@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_308",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem": "If the 25th day of the year 2003 falls on a Saturday, on what day of the week did the 284th day of the year 2003 fall?",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "f",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we determine what day of the week the 284th day of the year 2003 fell on?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What information do we have about the 25th day of the year 2003 that might be useful in determining the day of the week for the 284th day?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "According to the given information, what day of the week does the 25th day fall on?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the congruence of numbers modulo 7?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Using modulo arithmetic, what is the congruence of 284 modulo 7?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How does this congruence relate to the day of the week for the 284th day?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Based on the congruence of 284 modulo 7, on what day of the week does the 284th day fall?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

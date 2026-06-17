@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_765",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem": "If $f(x) = 3x+2$ and $g(x) = (x-1)^2$, what is $f(g(-2))$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you identify the given functions in the problem? What are their definitions?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does the notation $f(g(-2))$ mean? How can we interpret it?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the value of $g(-2)$? How did you compute it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the value of $f(g(-2))$? How did you calculate it using the given functions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you simplify the expression $f(g(-2))$ further, if possible? If yes, how?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the final result of $f(g(-2))$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

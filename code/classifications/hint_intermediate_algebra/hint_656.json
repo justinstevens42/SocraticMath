@@ -1,0 +1,47 @@
+{
+  "problem_id": "hint_656",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 1",
+  "problem": "Evaluate\n\\[i^{14762} + i^{14763} + i^{14764} + i^{14765}.\\]",
+  "n_questions": 5,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you simplify the expression by factoring out a common factor?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What happens when you substitute the values of $i^2$ and $i^3$ into the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the value of $1 + i + i^2 + i^3$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How does simplifying this expression help us evaluate the original expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of any other expressions involving complex numbers where you can use a similar approach to simplify and evaluate them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

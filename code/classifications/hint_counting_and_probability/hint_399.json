@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_399",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 1",
+  "problem": "Compute $\\dbinom{25}{2}$.",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "b",
+    "r",
+    "r",
+    "b",
+    "r",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of $\\dbinom{25}{2}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you simplify $\\dfrac{25!}{23!2!}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Why do we need to use factorials in the expression for $\\dbinom{25}{2}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How does $\\dbinom{25}{2}$ relate to combinations and permutations?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "In what types of problems might we need to use $\\dbinom{25}{2}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you find $\\dbinom{25}{2}$ using a different method? If so, what is it and why is it equivalent to the original method?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "What is the significance of the result, 300, in the context of the problem?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "How can we extend this concept to compute other binomial coefficients, such as $\\dbinom{25}{k}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

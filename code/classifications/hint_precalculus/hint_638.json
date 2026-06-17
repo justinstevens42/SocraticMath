@@ -1,0 +1,96 @@
+{
+  "problem_id": "hint_638",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem": "Let $O$ be the origin, and let $(a,b,c)$ be a fixed point.  A plane passes through $(a,b,c)$ and intersects the $x$-axis, $y$-axis, and $z$-axis at $A,$ $B,$ and $C,$ respectively, all distinct from $O.$  Let $(p,q,r)$ be the center of the sphere passing through $A,$ $B,$ $C,$ and $O.$  Find\n\\[\\frac{a}{p} + \\frac{b}{q} + \\frac{c}{r}.\\]",
+  "n_questions": 12,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given problem and identify the key information and variables involved?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What do we know about the relationship between the fixed point $(a, b, c)$ and the plane passing through it?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the equation of the plane passing through $(a, b, c)$ and intersecting the coordinate axes at $A$, $B$, and $C$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the equation of the plane in terms of $\\alpha$, $\\beta$, and $\\gamma$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we represent the equation of the plane in terms of $p$, $q$, and $r$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we establish the relationship between the coordinates of the fixed point $(a, b, c)$ and the sphere centered at $(p, q, r)$ passing through $O$, $A$, $B$, and $C$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can we find the values of $\\alpha$, $\\beta$, and $\\gamma$ in terms of $p$, $q$, and $r$, based on the distances between the fixed point and the origin and the coordinate axes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we express the equation of the plane using the variables $p$, $q$, and $r$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How do we relate the coordinates of the fixed point $(a, b, c)$ to this equation of the plane?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What does the expression $\\frac{a}{p} + \\frac{b}{q} + \\frac{c}{r}$ represent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "Can we simplify this expression using the relationships we have established between $\\alpha$, $\\beta$, $\\gamma$, and $p$, $q$, $r$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "What is the final value of $\\frac{a}{p} + \\frac{b}{q} + \\frac{c}{r}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

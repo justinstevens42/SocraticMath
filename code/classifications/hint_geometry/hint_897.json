@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_897",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "In the triangle shown, for $\\angle A$ to be the largest angle of the triangle, it must be that $m<x<n$. What is the least possible value of $n-m$, expressed as a common fraction? [asy]\ndraw((0,0)--(1,0)--(.4,.5)--cycle);\nlabel(\"$A$\",(.4,.5),N); label(\"$B$\",(1,0),SE); label(\"$C$\",(0,0),SW);\nlabel(\"$x+9$\",(.5,0),S); label(\"$x+4$\",(.7,.25),NE); label(\"$3x$\",(.2,.25),NW);\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the triangle inequality and how it pertains to the given triangle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What do the inequalities $x + 4 + 3x > x + 9$, $x + 4 + x + 9 > 3x$, and $3x + x + 9 > x + 4$ represent?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Why must these inequalities hold in order for $\\angle A$ to be the largest angle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we interpret the inequality $x + 9 > x + 4$ in the context of the triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the range of possible values for $x$ that satisfy all the given inequalities?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use this range of values to determine the least possible value of $n-m$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

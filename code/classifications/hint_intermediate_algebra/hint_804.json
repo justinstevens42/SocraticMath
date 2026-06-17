@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_804",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem": "Determine the complex number $z$ satisfying the equation $2z-3\\bar{z}=-2-30i$.  Note that $\\bar{z}$ denotes the conjugate of $z$.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given equation and what are we asked to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we represent the complex number $z$ and its conjugate $\\bar{z}$ using real numbers?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "By substituting the values of $z$ and $\\bar{z}$ into the equation, what expression do we get?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What can we conclude from the real and imaginary parts of the resulting expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we set up equations to solve for the real and imaginary parts of $z$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What values do we find for $a$ and $b$ when solving these equations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Finally, what is the complex number $z$ that satisfies the given equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

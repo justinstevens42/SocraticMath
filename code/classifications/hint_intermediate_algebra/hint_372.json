@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_372",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "Let $x,$ $y,$ and $z$ be nonnegative real numbers such that $x + y + z = 5.$  Find the maximum value of\n\\[\\sqrt{2x + 1} + \\sqrt{2y + 1} + \\sqrt{2z + 1}.\\]",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we start solving this problem? Is there any given information that we can use?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the QM-AM inequality and how can we apply it in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we express $\\sqrt{2x + 1} + \\sqrt{2y + 1} + \\sqrt{2z + 1}$ in terms of the given variables?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What does the QM-AM inequality tell us about the expression $\\sqrt{2x + 1} + \\sqrt{2y + 1} + \\sqrt{2z + 1}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we find the maximum value of $\\sqrt{2x + 1} + \\sqrt{2y + 1} + \\sqrt{2z + 1}$ using the QM-AM inequality?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Under what conditions is equality achieved in the QM-AM inequality, and how does it relate to finding the maximum value in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "What is the maximum value of $\\sqrt{2x + 1} + \\sqrt{2y + 1} + \\sqrt{2z + 1}$ based on our findings?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

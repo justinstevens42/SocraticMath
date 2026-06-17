@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_721",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem": "Compute\n\\[\\begin{vmatrix} 1 & \\cos (a - b) & \\cos a \\\\ \\cos(a - b) & 1 & \\cos b \\\\ \\cos a & \\cos b & 1 \\end{vmatrix}.\\]",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in computing the given determinant?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the possible methods you know to compute determinants? Which method would you choose for this particular determinant?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "In the expansion of the determinant, how did we get the terms with $\\cos(a - b)$ as coefficients? What property or concept did we use?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What simplifications did we make in the expansion to eventually get to the expression $1 - \\cos^2 a - \\cos^2 b - \\cos^2 (a - b) + 2 \\cos a \\cos b \\cos(a - b)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did we further simplify the expression $2 \\cos a \\cos b \\cos (a - b) - \\cos^2 (a - b)$? What trigonometric identities did we use?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the final simplified expression for the determinant? How did we arrive at this result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other techniques or methods that could be used to compute determinants? How might they be applied in this context?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "What are the possible values for the determinant based on the final expression? What does this tell us about the given determinant in terms of its properties or characteristics?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

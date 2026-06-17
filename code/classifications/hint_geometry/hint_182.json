@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_182",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem": "Two chords, $AB$ and $CD,$ meet inside a circle at $P.$  If $AP = 3$ and $CP = 8,$ then what is $\\frac{BP}{DP}$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the Power of a Point formula and how is it used in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How did we get the equation $AP \\cdot BP = CP \\cdot DP$, and what does it mean?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain why $\\frac{BP}{DP}=\\frac{8}{3}$ using algebraic manipulation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Is there a geometric interpretation for the ratio $\\frac{BP}{DP}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What would happen if we changed the lengths of $AP$ and $CP$? Would the ratio $\\frac{BP}{DP}$ still be the same? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any real-life scenarios where the concept of Power of a Point and similar triangles might be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

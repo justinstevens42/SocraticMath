@@ -1,0 +1,89 @@
+{
+  "problem_id": "hint_914",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "The water tank in the diagram below is in the shape of an inverted right circular cone. The radius of its base is 16 feet, and its height is 96 feet. The water in the tank is $25\\%$ of the tank's capacity.  The height of the water in the tank can be written in the form $a\\sqrt[3]{b}$, where $a$ and $b$ are positive integers and $b$ is not divisible by a perfect cube greater than 1.  What is $a+b$?\n\n[asy]\nsize(150);\ndefaultpen(linewidth(.8pt)+fontsize(8pt));\n\ndraw(shift(0,96)*yscale(0.5)*Circle((0,0),16));\ndraw((-16,96)--(0,0)--(16,96)--(0,96));\n\ndraw(scale(0.75)*shift(0,96)*yscale(0.5)*Circle((0,0),16));\n\ndraw((-18,72)--(-20,72)--(-20,0)--(-18,0));\nlabel(\"water's height\",(-20,36),W);\n\ndraw((20,96)--(22,96)--(22,0)--(20,0));\nlabel(\"96'\",(22,48),E);\n\nlabel(\"16'\",(8,96),S);\n[/asy]",
+  "n_questions": 11,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given problem and its key elements?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What information is provided in the problem? Can you identify any patterns or relationships?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What mathematical concepts or formulas do you think might be relevant in this situation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we represent the volume of the water cone in terms of its height and radius?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between the volume of the water cone and the volume of the entire tank?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we set up an equation to solve for the unknown value of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you simplify the equation and solve for $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What does the value of $x$ represent in this context?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we calculate the height of the water in the tank using the value of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you write the final answer in the requested form of $a\\sqrt[3]{b}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "What is the value of $a + b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

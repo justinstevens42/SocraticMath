@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_75",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 1",
+  "problem": "What value of $x$ makes the equation below true: $$2x + 4 = |{-17 + 3}|$$",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you simplify the expression inside the absolute value brackets, {-17 + 3}, by performing the necessary calculations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Now that you have simplified the expression inside the absolute value brackets, what does the equation look like?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What does the equation mean when we say \"2x + 4 equals the absolute value of {-17 + 3}\"?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What are the steps you need to take to isolate the variable x and solve for its value in this equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does the absolute value affect the solution of the equation? Is there a specific way to handle absolute value equations when solving for x?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "After solving the equation, what value of x did you find? Does this value make the equation true?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other methods or strategies you can think of to solve this type of equation? How would you go about using them?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any real-life scenarios or mathematical problems where solving absolute value equations would be applicable?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

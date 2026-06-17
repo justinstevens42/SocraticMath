@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_120",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "An octagon is inscribed in a square so that the vertices of the octagon trisect the sides of the square. The perimeter of the square is 108 centimeters. What is the number of square centimeters in the area of the octagon?",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you define what an octagon is?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How many sides does a square have? What is the length of each side of the square given in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain what it means for the vertices of the octagon to trisect the sides of the square?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the perimeter of the square? How can we use this information to find the length of each trisected segment?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we calculate the area of each triangle that is taken away from the square to form the octagon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many of these triangles are taken away from the square to form the octagon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we use the areas of the triangles and the total area of the square to find the area of the octagon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the final answer to the question?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

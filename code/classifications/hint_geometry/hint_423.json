@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_423",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "A wire is cut into two pieces, one of length $a$ and the other of length $b$. The piece of length $a$ is bent to form an equilateral triangle, and the piece of length $b$ is bent to form a regular hexagon. The triangle and the hexagon have equal area. What is $\\frac{a}{b}$?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the lengths of the wire pieces given in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How is the piece of length a bent to form an equilateral triangle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How is the piece of length b bent to form a regular hexagon?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What are the formulas for the area of an equilateral triangle and a regular hexagon?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we set up an equation to represent the fact that the triangle and hexagon have the same area?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we simplify and solve the equation for the ratio a/b?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Is there any significance to the value of the ratio a/b that we found? Can we make any generalizations about the ratio a/b for different polygons with equal area?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

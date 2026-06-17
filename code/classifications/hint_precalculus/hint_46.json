@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_46",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem": "Let $P$ be the plane passing through the origin with normal vector $\\begin{pmatrix} 1 \\\\ 1 \\\\ -1 \\end{pmatrix}.$  Find the matrix $\\mathbf{R}$ such that for any vector $\\mathbf{v},$ $\\mathbf{R} \\mathbf{v}$ is the reflection of $\\mathbf{v}$ through plane $P.$",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the normal vector of plane $P$ passing through the origin? How does the normal vector relate to the equation of the plane?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain the concept of reflection through a plane? How does the reflection alter the position of a vector?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Given a vector $\\mathbf{v}$, how can we find its projection onto plane $P$? What does the resulting projection vector represent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the vector $\\mathbf{v} - \\mathbf{p}$, which is the projection of $\\mathbf{v}$ onto the normal vector of the plane? What does this vector tell us about the relationship between $\\mathbf{v}$, $\\mathbf{p}$, and the normal vector?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "If the projection vector is the midpoint between $\\mathbf{v}$ and the reflected vector $\\mathbf{r}$, what equation can we write to relate these three vectors? How can we solve this equation to find $\\mathbf{r}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you find the matrix $\\mathbf{R}$ that represents the reflection transformation? How does this matrix relate to the normal vector and the projection vector?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

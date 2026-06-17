@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_845",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem": "How many ounces of pure water must be added to $30$ ounces of a $30\\%$ solution of acid to yield a solution that is $20\\%$ acid?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you approach this problem in terms of the first step?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What are the different methods or strategies that you know of to solve mixture problems like this?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you were to use the method of setting up an equation, how would you define the variables in this case?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Why is it possible to set up an equation to solve this problem? What characteristics allow for this approach?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the equation that you would set up to represent this problem? How would you proceed from there?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other types of mixture problems that you can think of where similar thinking and steps would be required to solve them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

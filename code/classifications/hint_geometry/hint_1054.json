@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_1054",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem": "A right, rectangular prism has three faces with areas of $6,8$ and $12$ square inches. What is the volume of the prism, in cubic inches?",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the three faces of the right, rectangular prism and their corresponding areas?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we represent the dimensions of the rectangular prism in terms of length, width, and height?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the volume of a rectangular prism using its dimensions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What are the given equations for the areas of the three faces and how can we use them to find the volume?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "What happens when we multiply all three equations together and what does it represent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we simplify the product on the right side of the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the property or rule that allows us to take the square root of both sides?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How do we simplify the left side after taking the square root?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the simplified equation after taking the square root and what does it represent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the final answer for the volume of the prism in cubic inches?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

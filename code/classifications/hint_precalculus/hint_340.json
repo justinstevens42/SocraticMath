@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_340",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem": "A $180^\\circ$ rotation around the origin in the counter-clockwise direction is applied to $-6 - 3i.$  What is the resulting complex number?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does a $180^\\circ$ rotation counter-clockwise around the origin mean in terms of complex numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we represent a $180^\\circ$ rotation counter-clockwise using complex number operations?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the complex number representation of the point $-6 - 3i$ on the coordinate plane?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How does multiplying a complex number by $-1$ correspond to a $180^\\circ$ rotation counter-clockwise around the origin?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the result of multiplying $-6 - 3i$ by $-1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we express the resulting complex number using the form $a + bi$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

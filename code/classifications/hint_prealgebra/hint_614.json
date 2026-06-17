@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_614",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem": "What is the greatest common factor of all two-digit palindromes?  (Note: A palindrome is a number that reads the same forwards as backwards.)",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you define what a palindrome is in terms of numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we factor all two-digit palindromes, and what factors do they have in common?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the process for finding the greatest common factor of a set of numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How does the fact that the two-digit palindromes can be factored affect the process of finding their greatest common factor?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Is 11 the only factor that all two-digit palindromes share? If so, why? If not, what other factors do they share and why are they not the greatest common factor?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we apply the same method of finding the greatest common factor to other sets of numbers? If so, can you provide some examples?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

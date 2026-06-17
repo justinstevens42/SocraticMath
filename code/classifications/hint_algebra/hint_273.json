@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_273",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem": "Find the coefficient of $x^2$ when $4(x - x^3) - 3(x^2 - x^3 + x^5) + 2(4x^2 - x^9)$ is simplified.",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the first steps in simplifying the expression?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you identify any like terms in the expression that can be combined?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How do you simplify the expression inside each set of parentheses separately?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What happens when you distribute the coefficients to each term inside the parentheses?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "After distributing the coefficients, what terms can be combined to simplify the expression further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do you combine the like terms involving the same powers of x?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the coefficient of x^2 in the simplified expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

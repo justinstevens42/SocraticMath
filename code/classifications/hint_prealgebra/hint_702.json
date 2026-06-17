@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_702",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem": "In the figure below, the largest circle has a radius of six meters. Five congruent smaller circles are placed as shown and are lined up in east-to-west and north-to-south orientations. What is the radius in meters of one of the five smaller circles?\n\n[asy]\n\nsize(3cm,3cm);\n\ndraw(Circle((0,0),1));\n\ndraw(Circle((0,2),1));\n\ndraw(Circle((0,-2),1));\n\ndraw(Circle((2,0),1));\n\ndraw(Circle((-2,0),1));\n\ndraw(Circle((0,0),3));\n\n[/asy]",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what you see in the figure?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How are the smaller circles arranged in relation to the larger circle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What do you notice about the diameters of the three smaller circles that line up with the diameter of the larger circle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How does the radius of one of the smaller circles relate to the radius of the larger circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Based on your observations, what can you conclude about the relationship between the radius of the smaller circles and the radius of the larger circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "If the radius of the larger circle is 6 meters, what is the radius of one of the smaller circles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain why the radius of one of the smaller circles is one-third of the radius of the larger circle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

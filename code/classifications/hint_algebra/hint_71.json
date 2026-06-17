@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_71",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "Find all $c$ which satisfy $$\\frac{c}{3} \\le 2+c < -2(1+c).$$Express your answer in interval notation, simplifying any fractions which occur in your answer.",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you rewrite the given inequality in a different form that might make it easier to work with?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we simplify the expressions on both sides of the inequality to make it easier to compare?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What steps can we take to isolate the variable 'c' in the inequality?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What effect does multiplying or dividing the inequality by negative numbers have on the inequality sign?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we express the solution to the inequality using interval notation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we simplify any fractions that appear in our final answer? If so, how?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any values of 'c' that make the inequality false? If so, how can we determine those values?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other types of inequalities that might require similar steps and thinking to solve?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

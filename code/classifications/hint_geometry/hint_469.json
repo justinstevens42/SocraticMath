@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_469",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "The triangle $\\triangle ABC$ is an isosceles triangle where $AB = 4\\sqrt{2}$ and $\\angle B$ is a right angle. If $I$ is the incenter of $\\triangle ABC,$ then what is $BI$?\n\nExpress your answer in the form $a + b\\sqrt{c},$ where $a,$ $b,$ and $c$ are integers, and $c$ is not divisible by any perfect square other than $1.$",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is an isosceles triangle and what are its properties?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you describe the given triangle $\\triangle ABC,$ its sides and angles?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is an incenter of a triangle and how is it related to the sides and angles of the triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What would be the advantage of extending $BI$ to meet $AC$ at $D$ and drawing a radius from the incenter to meet $AB$ at $E$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the fact that $\\triangle ABD$ is also an isosceles right triangle to find $BD$ in terms of $AB$ and $\\sqrt{2}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you set up an equation using $r$ as the inradius to solve for $r$ in terms of $AB$ and $\\sqrt{2}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final expression for $BI?$ How does it relate to $r$ and $\\sqrt{2}$ in the given triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

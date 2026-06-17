@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_121",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem": "Two standard dice are rolled. What is the expected number of 1's obtained? Express your answer as a common fraction.",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the expected value means in the context of rolling two dice?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the probability of not rolling a 1 on one die? How does this relate to the probability of not rolling any 1's on two dice?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the probability of rolling a 1 on one die? How does this relate to the probability of rolling two 1's on two dice?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we calculate the probability of rolling exactly one 1 on two dice?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why is the probability of rolling one 1 calculated as 1 minus the probability of rolling zero 1's and the probability of rolling two 1's?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are the individual probabilities for each outcome (0 1's, 1 1, 2 1's) in this scenario?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can we calculate the expected number of 1's obtained in this scenario using the probabilities we have determined?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you demonstrate the calculation of the expected value step by step with the given probabilities?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How does the result of 1/3 as the expected value make sense in the context of rolling two dice?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_732",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem": "You have a rectangular prism box with length $x+5$ units, width $x-5$ units, and height $x^{2}+25$ units. For how many positive integer values of $x$ is the volume of the box less than 700 units?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information about the dimensions of the rectangular prism box?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How do we calculate the volume of a rectangular prism? Can you write the formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you simplify the expression for the volume of the box using algebraic manipulation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the inequality that represents the condition for the volume to be less than 700 units?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we solve the inequality $x^4 < 1325$ to find the possible values of x?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Why do we take the fourth root to solve the inequality? What does it tell us about x?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "After evaluating the fourth root expression, what range of values does x fall into?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are all the values within the range of x valid solutions? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How does the width of the box affect the possible values of x? Can you explain why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Based on the condition that the width must be positive, how many positive integer values of x satisfy the given condition?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

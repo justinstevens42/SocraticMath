@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_923",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "The figure drawn is not to scale. Which of the five segments shown is the longest? [asy]\npair A = (-3,0), B=(0,2), C=(3,0), D=(0,-1);\ndraw(D(MP(\"A\", A, W))--D(MP(\"B\", B, N))--D(MP(\"C\", C, E))--D(MP(\"D\", D, S))--A);\ndraw(B--D);\nMP(\"55^\\circ\", (0,-0.75), NW);\nMP(\"55^\\circ\", (0,-0.75), NE);\nMP(\"40^\\circ\", (0,1.5), SW);\nMP(\"75^\\circ\", (0,1.5), SE);\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the important information provided in the figure?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What geometric concepts can we apply to solve this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the length of each segment shown in the figure?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we compare the lengths of these segments?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What angles in the figure are relevant to our analysis?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the angle measures to make conclusions about segment lengths?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What inequalities can we establish based on the angles and segment lengths?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we combine these inequalities to determine the longest segment?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Are there any other ways to approach this problem?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "How can we justify our final answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

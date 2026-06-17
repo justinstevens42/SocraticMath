@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_220",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem": "Simplify $\\sqrt{288}$.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you simplify the square root of 288?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can you break down 288 into its factors to simplify the square root expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the largest perfect square factor of 288?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why can we simplify the square root of 288 by separating it into the square root of a perfect square multiplied by another number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the value of the perfect square factor in the simplified form of $\\sqrt{288}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can you verify that the simplified form, $12\\sqrt{2}$, is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

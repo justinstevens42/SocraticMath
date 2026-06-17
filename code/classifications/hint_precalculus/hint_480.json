@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_480",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem": "Let $\\mathbf{M} = \\begin{pmatrix} 2 & 7 \\\\ -3 & -1 \\end{pmatrix}.$  There exist scalars $p$ and $q$ such that\n\\[\\mathbf{M}^2 = p \\mathbf{M} + q \\mathbf{I}.\\]Enter the ordered pair $(p,q).$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you find the square of matrix $\\mathbf{M}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we represent $\\mathbf{M}^2$ in terms of $\\mathbf{M}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What are we trying to find in terms of scalars $p$ and $q$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we write $\\mathbf{M}^2$ in terms of $p \\mathbf{M}$ and $q \\mathbf{I}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What are the resulting equations from multiplying matrices on both sides?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we find the values of $p$ and $q$ by solving the resulting equations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

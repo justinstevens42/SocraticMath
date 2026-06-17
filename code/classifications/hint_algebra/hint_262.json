@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_262",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem": "Mr. Sanchez's students were asked to add two positive integers. Juan subtracted by mistake and got 2. Maria mistakenly multiplied and got 120. What was the correct answer?",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the correct operation for adding two positive integers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What might have led Juan to subtract instead of adding the integers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the correct answer from Juan's result of 2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you describe the correct operation for multiplying two positive integers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What might have led Maria to multiply instead of adding the integers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we determine the correct answer from Maria's result of 120?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we use Juan and Maria's mistakes to find the correct solution?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any other mistakes or alternative methods that could be relevant to solving this problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

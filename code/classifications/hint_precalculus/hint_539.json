@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_539",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem": "Let $x$, $y$, and $z$ be real numbers such that\n\\[\\cos x + \\cos y + \\cos z = \\sin x + \\sin y + \\sin z = 0.\\]Find the sum of all possible values of $\\cos 2x + \\cos 2y + \\cos 2z.$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information in the problem? Can you restate it in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What values are we looking for in this problem? Can you identify the expression that represents these values?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What properties or relationships involving exponential functions, trigonometric functions, and complex numbers can you recall that might be useful in solving this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the given information to express $a + b + c$ and $\\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c}$ in terms of trigonometric functions and complex numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does the fact that $(a + b + c)^2 = 0$ help us in finding the values of $\\cos 2x + \\cos 2y + \\cos 2z$? What does this equation tell us about the relationship between $a^2 + b^2 + c^2$ and $\\cos 2x + \\cos 2y + \\cos 2z$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any similar problems or concepts that connect to this problem? How might the techniques and thinking strategies used here be applied to those situations?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

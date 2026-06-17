@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_143",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem": "Seven sticks with lengths 2, 3, 5, 7, 11, 13 and 17 inches are placed in a box. Three of the sticks are randomly selected. What is the probability that a triangle can be formed by joining the endpoints of the sticks? Express your answer as a common fraction.",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "According to the triangle inequality, what condition must be satisfied to form a triangle with three segments?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we apply the triangle inequality to the problem with the given set of sticks?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Why do we need to check if the smallest length drawn is 2 when attempting to form a triangle with the sticks?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What are the possible sets of sticks that could be used to form a triangle if the smallest length drawn is 3?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How many sets of sticks satisfy the triangle inequality if the smallest length drawn is 5?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many sets of sticks satisfy the triangle inequality if the smallest length drawn is 7?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the total number of sets of 3 sticks that could be drawn from the box?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the probability of choosing a set of sticks that can form a triangle, given the total number of sets of 3 sticks?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you generalize the approach used in this problem to solve similar problems involving the probability of forming a triangle using a set of sticks with different lengths?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_656",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem": "How many 0's are located to the right of the decimal point and before the first non-zero digit in the terminating decimal representation of $\\frac{1}{2^5\\cdot5^8}$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "e",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the general form of a terminating decimal representation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we rewrite the fraction $\\frac{1}{2^5\\cdot5^8}$ to have a denominator in the form $10^b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the significance of having a denominator of $10^8$ in the rewritten fraction?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 4,
+      "question": "How many digits are there to the right of the decimal point in the fraction $\\frac{8}{10^8}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the last digit to the right of the decimal point in the fraction $\\frac{8}{10^8}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many zeroes are there between the decimal point and the first non-zero digit in the fraction $\\frac{1}{2^5\\cdot5^8}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

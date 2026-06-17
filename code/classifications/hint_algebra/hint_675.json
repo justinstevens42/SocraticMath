@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_675",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem": "Rationalize the denominator of $\\frac{3}{2\\sqrt[3]{5}}$. The answer can be written in the form of $\\frac{A\\sqrt[3]{B}}{C}$, where $A$, $B$, and $C$ are integers, $C$ is positive, and $B$ is not divisible by the cube of any prime. Find $A+B+C$.",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what it means to rationalize the denominator?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the different methods you know for rationalizing a denominator?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you choose to multiply both the numerator and denominator by the conjugate of the denominator, what would be the new denominator?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How did you determine the conjugate of the denominator in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Once you have the rationalized denominator, how can you simplify the expression further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the final form of the expression with the rationalized denominator?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How did you identify the values of A, B, and C in the final form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of other situations where rationalizing the denominator might be necessary?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "How would you approach rationalizing a denominator when dealing with more complex expressions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

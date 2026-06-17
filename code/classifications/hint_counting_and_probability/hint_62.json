@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_62",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem": "Three points are chosen uniformly at random on a circle. What is the probability that no two of these points form an obtuse triangle with the circle's center?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what it means for two points to form an obtuse triangle with the circle's center?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine if a triangle is obtuse based on the position of its vertices on the circle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the relationship between the measure of the minor arc formed by two points and the angle of the triangle formed by those points and the circle's center?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "If $\\theta$ represents the measure of the minor arc $A_0A_1$, how can we express the probability that $\\theta$ is less than $\\frac{\\pi}{2}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "If $\\theta < \\frac{\\pi}{2}$, what does it mean for the third point $A_2$ to lie within $\\frac{\\pi}{2}$ of both $A_0$ and $A_1$? How can we visualize this on the circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we calculate the probability that $A_2$ lies within the required arc given that $\\theta < \\frac{\\pi}{2}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we combine the probabilities from steps 4 and 6 to determine the overall probability that no two points form an obtuse triangle with the circle's center?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_463",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem": "The polynomial $$P(x)=(1+x+x^2+\\ldots+x^{17})^2-x^{17}$$has 34 complex zeros of the form $z_k=r_k\\left[\\cos(2\\pi\\alpha_k)\n+i\\sin(2\\pi\\alpha_k)\\right]$, $k=1,2,3,\\ldots,34$, with $0<\\alpha_1\\le\\alpha_2\\le\\alpha_3\\le\\dots\\le\\alpha_{34}<1$ and $r_k>0$. Find $\\alpha_1+\\alpha_2+\\alpha_3+\\alpha_4+\\alpha_5.$",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "r",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given polynomial $P(x)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we express $P(x)$ in terms of $x$ and simplify it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the relationship between the zeros of $P(x)$ and $x^{17}=1$ or $x^{19}=1$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What are the conditions for the 34 complex zeros of $P(x)$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we express the complex zeros of $P(x)$ in the form of $z_k=r_k[\\cos(2\\pi \\alpha_k)+i\\sin(2\\pi \\alpha_k)]$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are $\\alpha_1, \\alpha_2, \\alpha_3, \\alpha_4$ and $\\alpha_5$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can we sum up $\\alpha_1, \\alpha_2, \\alpha_3, \\alpha_4$ and $\\alpha_5$? What is the final answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other applications of this polynomial or similar concepts in other mathematical problems?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

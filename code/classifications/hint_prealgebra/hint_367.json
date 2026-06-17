@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_367",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem": "A list of five positive integers has a median of 3 and a mean of 11. What is the maximum possible value of the list's largest element?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for a list of numbers to have a median of 3 and a mean of 11? Can you explain these concepts?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the sum of the five numbers in the list, given the mean?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "If we want to maximize the largest element in the list, what should the other numbers be?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why must the middle number in the list be 3 for the median to be 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we determine the values of the remaining numbers in the list?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the maximum possible value for the largest element in the list? How did you arrive at this conclusion?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any alternative scenarios or variations where similar reasoning and steps might be applicable?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

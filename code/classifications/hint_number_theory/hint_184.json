@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_184",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem": "What is the sum of the digits of the decimal representation of $2^{2005} \\times 5^{2007} \\times 3$?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "e",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given expression and what do you think we need to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we simplify the expression $2^{2005} \\times 5^{2007} \\times 3$ further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the significance of $2 \\times 5$ in this expression?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 4,
+      "question": "How does multiplying by $10^{2005}$ affect the sum of the digits?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why the sum of the digits of $75 \\times 10^{2005}$ is the same as the sum of the digits of $75$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the sum of the digits of $75$? How did you calculate that?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you generalize the approach used in this problem for finding the sum of digits in similar expressions?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

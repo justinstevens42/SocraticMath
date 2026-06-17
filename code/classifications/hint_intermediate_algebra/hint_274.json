@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_274",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "Let $\\alpha \\neq 1$ be a complex number such that the distance from $\\alpha^2$ to 1 is twice the distance from $\\alpha$ to 1, while the distance from $\\alpha^4$ to 1 is four times the distance from $\\alpha$ to 1.  Enter all possible values of $\\alpha,$ separated by commas.",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the given conditions of the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you rewrite the conditions using absolute values and simplify them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can you express alpha in terms of real numbers x and y?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What are the equations we get from the absolute values of alpha+1 and alpha^2 + 1?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can you simplify these equations using the expression  alpha = x + yi?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can you solve the resulting system of equations to find the possible values of x and y?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can you express the possible values of alpha in terms of x and y?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What are the final answers, and do they satisfy the given conditions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

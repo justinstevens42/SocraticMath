@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_570",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "A right pyramid with a square base has total surface area 432 square units.  The area of each triangular face is half the area of the square face. What is the volume of the pyramid in cubic units?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total surface area of the pyramid, and how is it related to the area of the square base and the area of each triangular face?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you describe the relationship between the midpoint of an edge of the square base and the apex of the pyramid? How can we use this relationship to find the height of the pyramid?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How do we calculate the area of each triangular face? Can you explain why it is half the area of the square face?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How do we use the given information to find the length of a side of the square base, and how does this help us find the height of the pyramid?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the formula for the volume of a pyramid, and how can we use it to find the volume of this pyramid?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other ways to approach this problem, and how do they compare to the method used in this solution?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

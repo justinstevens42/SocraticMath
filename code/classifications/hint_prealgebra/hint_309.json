@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_309",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem": "In a history class, the probability of earning an A is .7 times the probability of earning a B, and the probability of earning a C is 1.4 times the probability of earning a B. Assuming that all grades are A, B, or C, how many B's will there be in a history class of 31 students?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does the variable x represent in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we express the number of students who earn an A in terms of x?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we express the number of students who earn a C in terms of x?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What equation represents the given information in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How did we solve the equation to find the value of x?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What does the value of x represent in the context of the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How many students will earn a B in a history class of 31 students?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

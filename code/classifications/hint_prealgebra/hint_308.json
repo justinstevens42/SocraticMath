@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_308",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem": "In right triangle $PQR$, we have $\\angle Q = \\angle R$ and $QR = 6\\sqrt{2}$.  What is the area of $\\triangle PQR$?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "e",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given problem statement in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is a right triangle? Can you explain its properties and the different elements of a right triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for two angles to be congruent? Can you give an example of two congruent angles?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine if a right triangle is isosceles? Can you provide some examples of isosceles right triangles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How is the area of a right triangle calculated? Can you explain the formula and provide an example of its application?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "In the given problem, what is the length of the hypotenuse of the right triangle? How is it related to the other sides of the triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can we find the length of the other sides of the triangle if we know the hypotenuse and one of the acute angles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Using the information given in the problem, how can we calculate the area of the right triangle? What is the final answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

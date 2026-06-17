@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_617",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "Lisa, a child with strange requirements for her projects, is making a rectangular cardboard box with square bases. She wants the height of the box to be 3 units greater than the side of the square bases. What should the height be if she wants the surface area of the box to be at least 90 square units while using the least amount of cardboard?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How do we represent the length of the base of the rectangular cardboard box?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How do we represent the height of the rectangular cardboard box?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we express the surface area of the box in terms of the length of the base?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What inequality can we write to represent the condition that the surface area of the box is at least 90 square units?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we solve this inequality to find the possible values of the length of the base?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the smallest possible value of the length of the base?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we find the height of the rectangular cardboard box given the length of the base?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we check that our solution meets the requirements of the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can we think of any other similar problems that involve maximizing or minimizing surface area while using the least amount of material?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_794",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem": "In Ms. Smith's class, each student averages one day absent out of thirty. What is the probability that out of any two students chosen at random, one student will be absent while the other is present? Express your answer as a percent rounded to the nearest tenth.",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the first step in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the probability of a student being absent on a particular day and the probability of a student being present on a particular day?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we calculate the probability of one student being absent and the other student being present?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain the reasoning behind multiplying the probabilities of one student being present and one student being absent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we find the probability of the first student being absent and the second student being present?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the probability of one student being absent while the other is present?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain why we add the probabilities calculated in the previous steps?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How do we express the final probability as a percentage rounded to the nearest tenth?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

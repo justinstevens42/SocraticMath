@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_464",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "Find\n\\[\\sum_{n = 1}^\\infty \\frac{n^2 + n - 1}{(n + 2)!}.\\]",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what the term $S_m$ represents in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How would you compute the first few values of $S_m$? Can you show me the calculations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What patterns or trends do you notice in the values of $S_m$? How are they related to the value $\\frac{1}{2}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why we are subtracting $\\frac{m+1}{(m+2)!}$ from $\\frac{1}{2}$ to get $S_m$? Is there a specific reason for this subtraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we relate the fractions $\\frac{1}{3}, \\frac{1}{8}, \\frac{1}{30}, \\frac{1}{144}, \\frac{1}{840}$ to factorials? Can you explain the pattern or relationship?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Based on our observations, what conjecture can we make about the value of $S_m$ in terms of $m$ and factorials?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Let's introduce a new sequence $T_n = \\frac{1}{2} - \\frac{n + 1}{(n + 2)!}$. How can we express $T_n - T_{n-1}$ in terms of the original sequence $\\frac{n^2 + n - 1}{(n + 2)!}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How does the infinite sum of $\\frac{n^2 + n - 1}{(n + 2)!}$ relate to the sum of $T_n - T_{n-1}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "Can you apply the identity $\\frac{n}{(n + 1)!} - \\frac{n + 1}{(n + 2)!} = \\frac{n^2 + n - 1}{(n + 2)!}$ to evaluate the infinite sum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

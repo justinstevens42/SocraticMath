@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_740",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem": "Thirty identical toothpicks were used to create the figure below. There are over 25 triangles in the figure. What is the fewest number of toothpicks that could be removed so that no triangles remain?\n\n[asy]\ndraw((0,0)--(8,0), linewidth(1));\ndraw(2dir(60)--(2dir(60)+(6,0)), linewidth(1));\ndraw(4dir(60)--(4dir(60)+(4,0)), linewidth(1));\ndraw(6dir(60)--(6dir(60)+(2,0)), linewidth(1));\n\ndraw((0,0)--8dir(60),linewidth(1));\ndraw((2,0)--(6dir(60)+(2,0)),linewidth(1));\ndraw((4,0)--(4dir(60)+(4,0)),linewidth(1));\ndraw((6,0)--(2dir(60)+(6,0)),linewidth(1));\n\ndraw(2dir(60)--(2,0),linewidth(1));\ndraw(4dir(60)--(4,0),linewidth(1));\ndraw(6dir(60)--(6,0),linewidth(1));\ndraw(8dir(60)--(8,0),linewidth(1));\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many toothpicks are used to create the figure?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How many 1-triangles are there in the figure?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many upward-pointing 1-triangles are there? How about downward-pointing 1-triangles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many toothpicks are needed to create a 1-triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "If we remove a toothpick, how many upward-pointing 1-triangles can be destroyed at most?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the minimum number of toothpicks that need to be removed so that no triangles remain?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can we remove only upward-pointing triangles to achieve the minimum number of removals? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How many horizontal toothpicks are there in the figure?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Why do we need to have at least one horizontal toothpick in any triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 10,
+      "question": "If we remove all the horizontal toothpicks, how many triangles will remain?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

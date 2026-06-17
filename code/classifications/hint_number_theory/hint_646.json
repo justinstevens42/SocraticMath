@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_646",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem": "If $n = 2^{10} \\cdot 3^{14} \\cdot 5^{8}$, how many of the natural-number factors of $n$ are multiples of 150?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you identify the prime factors of the given number, $n$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How would you find the number of natural-number factors of $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine if a factor of $n$ is a multiple of 150?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the prime factorization of 150? How can we use this information to count the number of factors that are multiples of 150?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What are the possible coefficients for the powers of 2, 3, and 5 in the prime factorization of a factor of $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How would you calculate the number of possible factors based on the allowed coefficients?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you calculate the number of factors that are multiples of 150 using the formula we derived? What is the result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

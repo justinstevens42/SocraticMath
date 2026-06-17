@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_26",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem": "What is the sum of the reciprocals of the natural-number factors of 6?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the concept of \"reciprocals\" in mathematics?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you list all the natural number factors of 6?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the reciprocal of a number? Can you calculate the reciprocal of 1, 6, 2, and 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How would you calculate the sum of the reciprocals of the natural number factors of 6?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you simplify the expression for the sum of the reciprocals of the natural number factors of 6?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the final result of the sum of the reciprocals? How can you interpret this result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

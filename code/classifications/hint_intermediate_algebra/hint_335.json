@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_335",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "Find the maximum value of\n\\[\\frac{x + 2y + 3}{\\sqrt{x^2 + y^2 + 1}}\\]over all real numbers $x$ and $y.$",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step we should take to find the maximum value of the given expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Are there any mathematical techniques or principles you know that could be applicable to solve this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If we wanted to apply Cauchy-Schwarz inequality here, which terms would we need to identify as vectors?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Why does Cauchy-Schwarz inequality help us find the maximum value of the expression? What is its significance?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did we determine the specific values for $x$ and $y$ that result in the equality case? How do those values affect the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other mathematical problems or scenarios where a similar thought process and steps would be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

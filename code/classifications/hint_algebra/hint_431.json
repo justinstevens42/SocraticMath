@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_431",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 1",
+  "problem": "If $x \\cdot (x+y) = x^2 + 8$, what is the value of $xy$?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b",
+    "b",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the equation states and what needs to be determined?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How would you begin simplifying the equation to find the value of $xy$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What are the possible approaches or methods you can use to solve the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "If we expand and simplify the left side of the equation, what would it look like? Is there anything we can simplify further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What can you deduce from comparing the simplified left side of the equation with the right side?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any values for $x$ and $y$ that simultaneously satisfy the equation $x \\cdot (x+y) = x^2 + 8$? What can you conclude from this?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "What would happen if $x = 0$ or $y = 0$? How would these values affect the equation and the value of $xy$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any restrictions on the values of $x$ and $y$? If so, what are they and how do they impact the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other equations or scenarios where a similar approach can be used to find the value of a specific expression or variable?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How does understanding this problem help you grasp the concept of algebraic equations better?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

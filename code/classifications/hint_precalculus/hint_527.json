@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_527",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem": "Let $A,$ $B,$ $C$ be the angles of a non-right triangle.  Compute\n\\[\\begin{vmatrix} \\tan A & 1  & 1 \\\\ 1 & \\tan B & 1 \\\\ 1 & 1 & \\tan C \\end{vmatrix}.\\]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what the determinant represents in this context?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the values of tangent for angles A, B, and C in a non-right triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we expand the given determinant using cofactor expansion along the first column?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you simplify each of the smaller determinants within the expansion?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What does the tangent addition formula tell us about tan(A + B) and tan(A + C)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the tangent addition formula to rewrite the expanded determinant?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you combine like terms and simplify the expression further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What are the relationships between the angles and the resulting value of the determinant?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other non-right triangle properties or trigonometric identities that may be useful in solving this problem?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "In general, what can we conclude about the determinant of a matrix containing trigonometric functions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

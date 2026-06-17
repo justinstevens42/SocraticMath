@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_29",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem": "In the geometric sequence with a first term of $6$ and a second term of $-6$, what is the $205^{th}$ term?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "r",
+    "b",
+    "e",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what a geometric sequence is?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How do you find the common ratio of the given sequence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the formula to find the nth term of a geometric sequence?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the given information to find the 205th term of the sequence?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you determine if the sequence is increasing or decreasing? How does it affect finding the 205th term?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any real-life scenarios where geometric sequences are used? How are they helpful in those situations?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Is there any pattern or rule we can apply to simplify finding the 205th term without calculating each term individually?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How does the value of the common ratio affect the growth or decay of the geometric sequence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other ways to mathematically represent the 205th term in the given sequence?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "How would the process of finding the nth term differ if the given sequence had a different first term or a different common ratio?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

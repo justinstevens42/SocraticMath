@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_794",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem": "The graph of $y = ax^2 + bx + c$ has a maximum value of 54, and passes through the points $(-2,0)$ and $(4,0).$  Find $a + b + c.$",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe how you would start solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What do you notice about the given points and the form of the equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can you determine the value of $a$ from the graph's maximum value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why the equation is in the form $a(x + 2)(x - 4)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does finding the average of $-2$ and $4$ help us find the $x$-coordinate of the maximum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What does it mean for $a + b + c$ to be the value of $y$ at $x = 1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How does finding $a + b + c$ relate to the original problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "problem_id": "hint_189",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "Define $L(x) = x - \\frac{x^2}{2}$ for every real number $x$.  If $n$ is a positive integer, define $a_n$ by\n\\[\n  a_n = L \\Bigl( L \\Bigl( L \\Bigl( \\cdots L \\Bigl( \\frac{17}{n} \\Bigr) \\cdots \\Bigr) \\Bigr) \\Bigr),\n\\]where there are $n$ iterations of $L$.  For example,\n\\[\n  a_4 = L \\Bigl( L \\Bigl( L \\Bigl( L \\Bigl( \\frac{17}{4} \\Bigr) \\Bigr) \\Bigr) \\Bigr).\n\\]As $n$ approaches infinity, what value does $n a_n$ approach?",
+  "n_questions": 13,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the function $L(x)$ defined as? Can you simplify the expression for $L(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the definition of $a_n$? Can you explain how $L$ is being iterated here?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "For what values of $n$ is $a_n$ valid? Why do we need $n$ to be sufficiently large?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can you write $\\frac{1}{L(x)}$ in terms of $x$ and $\\frac{1}{x}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Derive equation $(*)$ using the expression for $\\frac{1}{L(x)}$.",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How does the inequality $0 < L^{(k)}\\left(\\frac{17}{n}\\right) \\leq \\frac{17}{n}$ help us in our analysis?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How do we get the inequality $\\frac{1}{2} < \\frac{1}{2 - L^{(k)}(\\frac{17}{n})} \\leq \\frac{n}{2n - 17}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the relationship between $\\frac{1}{L^{(k+1)}(\\frac{17}{n})} - \\frac{1}{L^{(k)}(\\frac{17}{n})}$ and $\\frac{1}{2 - L^{(k)}(\\frac{17}{n})}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "What does the summation over $0 \\leq k \\leq n-1$ allow us to conclude about $\\frac{1}{a_n}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How does the inequality $\\frac{n}{2} < \\frac{1}{a_n} - \\frac{n}{17} \\leq \\frac{n^2}{2n - 17}$ help us approach a limit for $a_n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "What is the limit of $\\frac{n}{2n - 17}$ as $n$ approaches infinity? Can you explain why it tends towards $\\frac{1}{2}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "What equation can you form by equating the limit of $\\frac{1}{na_n}$ to $\\frac{1}{L}$? How can you solve for $L$ from this equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 13,
+      "question": "What is the value of $L$, the limit of $na_n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_330",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem": "A convex pentagon has interior angles with measures $x+1$, $2x$, $3x$, $4x$, and $5x-1$ degrees.  What is the measure of the largest angle?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we determine the sum of the interior angles of the pentagon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What does the equation $540=(x+1)+2x+3x+4x+(5x-1)$ represent in the context of this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How did we solve the equation $540=15x$ to find the value of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the measure of the largest angle in terms of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did we find the measure of the largest angle using the value of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we generalize the process of finding the largest angle in a convex polygon based on this example?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

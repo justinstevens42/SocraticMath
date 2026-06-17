@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_103",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem": "Find the coefficient of the $x^2$ term in the expansion of the product $(ax^3 + 3x^2 - 2x)(bx^2 - 7x - 4)$.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you identify the terms that will contribute to the $x^2$ term in the expanded product?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How do you multiply a monomial by a polynomial? Can you apply this multiplication process to the given expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What happens when you multiply the term $ax^3$ by the polynomial $(bx^2 - 7x - 4)$? Can you identify the terms that will result in an $x^2$ term?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Similarly, what happens when you multiply the term $3x^2$ by the polynomial $(bx^2 - 7x - 4)$? Can you identify the terms that will contribute to an $x^2$ term?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does multiplying $-2x$ with the polynomial $(bx^2 - 7x - 4)$ affect the $x^2$ term in the expanded product? Can you determine the terms that will yield an $x^2$ term?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you simplify the expression by combining the like terms? What is the coefficient of the resulting $x^2$ term?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

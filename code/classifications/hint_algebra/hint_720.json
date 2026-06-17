@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_720",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "In 1960, there were 450,000 cases of measles reported in the U.S. In 1996, there were 500 cases reported. How many cases of measles would have been reported in 1987 if the number of cases reported from 1960 to 1996 decreased linearly?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the concept of linear decrease in the number of measles cases reported?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the starting point for our linear decrease calculation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the end point for our linear decrease calculation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How many years are there between 1960 and 1996? How can we use this information to calculate the annual decrease rate?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "If the number of cases decreases linearly, what is the average decrease in cases per year?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the average decrease per year to calculate the number of cases reported in 1987?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

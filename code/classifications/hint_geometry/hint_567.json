@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_567",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "How many non-similar triangles have angles whose degree measures are distinct positive integers in  arithmetic progression?",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the minimum value of the difference between the degree measures of the angles in the triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can we express the degree measures of the three angles in terms of the common difference, d?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you find any examples of triangles where the angle measures are in arithmetic progression with a specific common difference?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Is it possible for the degree measures of the angles to be in arithmetic progression with a negative common difference? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does the sum of the degree measures of the angles relate to the property that the angles form a triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you find any patterns or relationships between the degree measures of the angles in the arithmetic progression and the number of triangles that satisfy the given condition?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any upper or lower bounds on the common difference that restrict the number of possible triangles? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How would the number of triangles change if we allowed the degree measures to be negative or non-integer values?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

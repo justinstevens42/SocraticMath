@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_395",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "Find constants $A,$ $B,$ and $C$ so that\n\\[\\frac{4x}{(x - 5)(x - 3)^2} = \\frac{A}{x - 5} + \\frac{B}{x - 3} + \\frac{C}{(x - 3)^2}.\\]Enter the ordered triple $(A,B,C).$",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "f"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the concept of partial fraction decomposition and its purpose in solving equations involving rational functions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What are the basic steps involved in performing partial fraction decomposition?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the constants A, B, and C in the given equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What are the restrictions on the values of x in the original equation? How do these restrictions affect the decomposition process?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why the numerator of the given equation is set equal to the numerator after decomposition?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we simplify the equation after decomposition to solve for the constants A, B, and C?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain why we substitute specific values of x into the equation to solve for the constants?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we use the method of comparing coefficients to find the values of A, B, and C?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you identify any other types of equations or functions where partial fraction decomposition can be applied? What benefits does this method offer in those cases?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    }
+  ]
+}

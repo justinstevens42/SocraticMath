@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_934",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem": "The graph of a certain quadratic $y = ax^2 + bx + c$ is a parabola with vertex $(-4,0)$ which passes through the point $(1,-75)$.  What is the value of $a$?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what the vertex of a parabola represents and its significance in this context?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the given information about the vertex (-4,0) to determine a relationship between a, b, and c in the quadratic equation y = ax^2 + bx + c?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Based on the information given, what can we deduce about the x-coordinate of the vertex? Why is this important?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the point (1,-75) that the parabola passes through to find a specific equation representing the quadratic equation y = ax^2 + bx + c?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What are the steps involved in substituting the x and y values from the point (1,-75) into the equation and finding the resulting equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we manipulate the equation to isolate the value of parameter 'a' and solve for it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Do you notice any shortcuts, patterns, or alternative methods that could be used to find the value of 'a' in this specific scenario?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any real-world situations or mathematical problems where understanding the value of 'a' in a quadratic equation would be important or useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

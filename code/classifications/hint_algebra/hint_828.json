@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_828",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem": "Calculate $\\sqrt{30p} \\cdot \\sqrt{5p} \\cdot \\sqrt{6p}$ . Express your answer in simplest radical form in terms of $p$.",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the relationship between multiplication and multiplication of radicals?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we simplify the expression $\\sqrt{30p} \\cdot \\sqrt{5p} \\cdot \\sqrt{6p}$ by using the properties of radicals?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can we combine the square roots under the radical sign? If so, how?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do we simplify the expression when there are different variables involved?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the product of $\\sqrt{30p}$, $\\sqrt{5p}$, and $\\sqrt{6p}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we simplify the resulting radical expression further? If yes, how? If not, why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the simplest radical form of the expression in terms of $p$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we verify the correctness of our simplification by multiplying back the simplified expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

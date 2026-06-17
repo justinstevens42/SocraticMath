@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_1022",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem": "4 12-sided dice are rolled. What is the probability that the number of dice showing a two digit number is equal to the number of dice showing a one digit number? Express your answer as a common fraction. (Assume that the numbers on the 12 sides are the numbers from 1 to 12 expressed in decimal.)",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many total outcomes are there when rolling 4 12-sided dice?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the probability of rolling a one-digit number on any one of the dice?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the probability of rolling a two-digit number on any one of the dice?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we calculate the probability of rolling 2 two-digit numbers and 2 one-digit numbers among the 4 dice?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many different ways are there to choose which 2 dice will show one-digit numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we use the information from questions 5 and 6 to calculate the final probability that we are asked to find?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

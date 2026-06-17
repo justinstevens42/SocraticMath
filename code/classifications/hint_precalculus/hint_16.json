@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_16",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem": "Let $\\mathbf{a},$ $\\mathbf{b},$ $\\mathbf{c},$ $\\mathbf{d}$ be four distinct unit vectors in space such that\n\\[\\mathbf{a} \\cdot \\mathbf{b} = \\mathbf{a} \\cdot \\mathbf{c} = \\mathbf{b} \\cdot \\mathbf{c}  =\\mathbf{b} \\cdot \\mathbf{d} = \\mathbf{c} \\cdot \\mathbf{d} = -\\frac{1}{11}.\\]Find $\\mathbf{a} \\cdot \\mathbf{d}.$",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given problem and the information provided, in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the significance of the dot product between vectors in this context? How does it relate to the angles between vectors?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we interpret the given condition of $\\mathbf{a} \\cdot \\mathbf{b} = -\\frac{1}{11}$? What does it tell us about the angle between vectors $\\mathbf{a}$ and $\\mathbf{b}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How does the condition $\\mathbf{a} \\cdot \\mathbf{c} = -\\frac{1}{11}$ relate to the previous information we obtained?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can we think of any geometric interpretation for the condition $\\mathbf{a} \\cdot \\mathbf{d} = -\\frac{1}{11}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Given the condition $\\mathbf{b} \\cdot \\mathbf{d} = -\\frac{1}{11}$, can we make any connections between vectors $\\mathbf{b}$ and $\\mathbf{d}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we use the information about angles and vectors $\\mathbf{a}$, $\\mathbf{b}$, $\\mathbf{c}$, and $\\mathbf{d}$ to find $\\mathbf{a} \\cdot \\mathbf{d}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the geometric interpretation of the dot product $\\mathbf{a} \\cdot \\mathbf{d}$? How does it relate to the angles between vectors $\\mathbf{a}$ and $\\mathbf{d}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "Using the information from the previous questions, can you calculate the value of $\\mathbf{a} \\cdot \\mathbf{d}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

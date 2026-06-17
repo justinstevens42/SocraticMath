@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_863",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem": "The diameter, in inches, of a sphere with twice the volume of a sphere of radius 9 inches can be expressed in the form $a\\sqrt[3]{b}$ where $a$ and $b$ are positive integers and $b$ contains no perfect cube factors.  Compute $a+b$.",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the initial formula or equation given in the problem and what does it represent?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the volume of the sphere with radius 9 inches and how is it calculated?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for a sphere to have \"twice the volume\" of another sphere?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the equation that relates the volume of the larger sphere to its radius?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How is the equation solved to find the value of the radius of the larger sphere?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the formula for the diameter of a sphere in terms of its radius?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the diameter of the larger sphere in inches and how is it calculated?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the final answer to the problem and how is it obtained?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you generalize this problem to find the diameter of a sphere with any given ratio of volumes compared to another sphere? How would you approach that problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

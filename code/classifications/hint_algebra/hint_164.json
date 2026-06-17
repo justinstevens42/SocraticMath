@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_164",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem": "When $\\sqrt[3]{2700}$ is simplified, the result is $a\\sqrt[3]{b}$, where $a$ and $b$ are positive integers and $b$ is as small as possible.  What is $a+b$?",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the concept of simplifying a radical expression, specifically a cube root?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does one simplify a cube root with a perfect cube inside, such as $\\sqrt[3]{2700}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you identify any factors of 2700 that are perfect cubes?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the smallest perfect cube that can be extracted from 2700?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can you express the simplified form of $\\sqrt[3]{2700}$ using a radical and an integer coefficient?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are the values of $a$ and $b$ in the simplified form $a\\sqrt[3]{b}$ for $\\sqrt[3]{2700}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can you verify that the simplified form $a\\sqrt[3]{b}$ is correct for $\\sqrt[3]{2700}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the sum of the positive integers $a$ and $b$ in the simplified form $a\\sqrt[3]{b}$ for $\\sqrt[3]{2700}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_232",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem": "Find the projection of the vector $\\begin{pmatrix} 4 \\\\ 5 \\end{pmatrix}$ onto the vector $\\begin{pmatrix} 2 \\\\ 0 \\end{pmatrix}.$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what is meant by the \"projection\" of one vector onto another?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the formula for projection to find the projected vector in this case?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the dot product of the vectors $\\begin{pmatrix} 4 \\\\ 5 \\end{pmatrix}$ and $\\begin{pmatrix} 2 \\\\ 0 \\end{pmatrix}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do we calculate the squared magnitude of $\\begin{pmatrix} 2 \\\\ 0 \\end{pmatrix}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Applying the formula, what is the scalar that multiplies the vector $\\begin{pmatrix} 2 \\\\ 0 \\end{pmatrix}$ in the projection equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Simplify the scalar and the vector multiplication to find the projection. What is the projected vector in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

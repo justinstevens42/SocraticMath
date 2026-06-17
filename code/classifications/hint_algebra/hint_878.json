@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_878",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem": "A line with slope 3 intersects a line with slope 5 at the point $(10,15)$. What is the distance between the $x$-intercepts of these two lines?",
+  "n_questions": 10,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we determine the equations of the two lines if we know their slopes and the point of intersection?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What does the slope of a line represent geometrically, and how does it relate to the line's equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we calculate the equation of a line if we know its slope and a point on the line?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the $x$-intercept of a line if we have its equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can we determine the $x$-intercepts of the lines in question just by knowing their slopes? If not, what additional information do we need?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we find the distance between two points on a coordinate plane?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Given the coordinates of a point and the slope of a line, how can we find the equation of that line?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we find the $x$-intercept of a line if we have its equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Once we have the equations of the two lines, how can we determine their $x$-intercepts?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can we calculate the distance between two $x$-intercepts on the coordinate plane once we know their coordinates?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

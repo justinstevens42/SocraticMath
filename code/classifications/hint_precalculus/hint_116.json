@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_116",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem": "Solve\n\\[\\arcsin x + \\arcsin 2x = \\frac{\\pi}{3}.\\]",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of $\\arcsin x$? What is the domain and range of $\\arcsin x$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we simplify the given equation by using the definition of $\\arcsin x$ and the properties of the inverse trigonometric functions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the domain and range of the left-hand side of the simplified equation? What about the domain and range of the right-hand side?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we solve the simplified equation using algebraic manipulations and trigonometric identities?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What are the extraneous solutions that we need to check for in the final answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we generalize the approach used in this problem to solve similar equations involving inverse trigonometric functions?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

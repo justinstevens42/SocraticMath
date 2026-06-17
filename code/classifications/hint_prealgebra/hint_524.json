@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_524",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem": "Simplify this expression to a common fraction:  $\\frac{1}{\\frac{1}{(\\frac{1}{2})^{1}}+\\frac{1}{(\\frac{1}{2})^{2}}+\\frac{1}{(\\frac{1}{2})^{3}}}$",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the given expression in words?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you simplify each of the fractions in the denominator individually? What would be the result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What strategies come to mind to combine the fractions in the denominator into a single fraction?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "If you were to add the fractions $\\frac{2}{1}$, $\\frac{4}{1}$, and $\\frac{8}{1}$, how would you determine the common denominator?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we simplify the resulting fraction by dividing the numerator and denominator by their greatest common divisor?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you verify that the simplified expression $\\frac{1}{14}$ is equivalent to the original expression by substituting a value for the variable? What would be the result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

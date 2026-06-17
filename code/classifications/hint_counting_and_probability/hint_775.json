@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_775",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem": "What is the positive difference between the probability of a fair coin landing heads up exactly 2 times out of 3 flips and the probability of a fair coin landing heads up 3 times out of 3 flips? Express your answer as a common fraction.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what is meant by the term \"probability\"?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How does a fair coin land after it's tossed?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "In the given problem, how many flips are being made by the coin?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you show how to calculate the probability of the coin landing heads up exactly 2 times out of 3 flips?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does the probability of the coin landing heads up 3 times out of 3 flips compare to the probability of landing heads up exactly 2 times out of 3 flips?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the positive difference between the two probabilities?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can you express the difference as a common fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

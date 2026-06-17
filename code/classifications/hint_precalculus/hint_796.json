@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_796",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 1",
+  "problem": "Find $\\sec 120^\\circ.$",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of $\\sec \\theta$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How is $\\cos \\theta$ related to $\\sec \\theta$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you use the unit circle to visualize the angle $120^\\circ$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How would you find the value of $\\cos 120^\\circ$ using the unit circle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does the value of $\\cos 120^\\circ$ relate to the value of $\\cos (-60^\\circ)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can you use the Pythagorean identity to express $\\sec 120^\\circ$ in terms of $\\sin 120^\\circ$ and $\\cos 120^\\circ$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How would you find the value of $\\sin 120^\\circ$ using the unit circle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can you use the reciprocal identity to express $\\cos 120^\\circ$ in terms of $\\sec 120^\\circ$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the final value of $\\sec 120^\\circ$, and how does it relate to the previous steps in the solution process?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any other trigonometric functions or angles that may require a similar approach to solving?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

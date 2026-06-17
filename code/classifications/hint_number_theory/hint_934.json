@@ -1,0 +1,47 @@
+{
+  "problem_id": "hint_934",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem": "If $m$ and $n$ are positive integers such that $\\gcd(m,n) = 12$, then what is the smallest possible value of $\\gcd(10m,15n)$?",
+  "n_questions": 5,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is $\\gcd(m,n)$ and what does it mean for $m$ and $n$ to be divisible by 12?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does the fact that $10m$ is divisible by 120 and $15n$ is divisible by 180 help us determine a lower bound for $\\gcd(10m,15n)$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can $\\gcd(10m,15n)$ be any smaller than 60, and why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What values of $m$ and $n$ give us a value of 60 for $\\gcd(10m,15n)$, and how does this show that 60 is attainable?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there any other methods besides setting $m=n=12$ to find a pair of values that give us $\\gcd(10m,15n) = 60$?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

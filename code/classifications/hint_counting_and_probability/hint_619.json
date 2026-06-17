@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_619",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem": "Three marbles are randomly selected, without replacement, from a bag containing two red, two blue and two green marbles. What is the probability that one marble of each color is selected? Express your answer as a common fraction.",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total number of ways to choose 3 marbles from a bag containing 2 red, 2 blue, and 2 green marbles?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Why do we use the combination formula $\\dbinom{n}{r}$ to calculate the total number of ways to choose $r$ marbles from a set of $n$ marbles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the numerator of the probability fraction, which represents the number of ways to choose one marble of each color?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why there are 2 ways to choose a red marble, 2 ways to choose a blue marble, and 2 ways to choose a green marble?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What operation should we perform with the number of ways to choose a marble of each color to obtain the numerator of the probability fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do the numerator and denominator of the probability fraction relate to each other in terms of counting the outcomes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final probability of selecting one marble of each color? Express it as a common fraction.",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other scenarios where we can apply similar counting and probability principles?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

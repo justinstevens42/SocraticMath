@@ -1,0 +1,47 @@
+{
+  "problem_id": "hint_529",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "Let $x$ and $y$ be positive real numbers.  Find the minimum value of\n\\[\\frac{\\sqrt{(x^2 + y^2)(3x^2 + y^2)}}{xy}.\\]",
+  "n_questions": 5,
+  "labels": [
+    "f",
+    "b",
+    "e",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the Cauchy-Schwarz inequality and how it applies in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How do we determine when equality occurs in the inequality used to find the minimum value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Is there another way to approach this problem without using Cauchy-Schwarz?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 4,
+      "question": "How does the minimum value change if we restrict $x$ and $y$ to be integers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you generalize this problem to find the minimum value of the expression for $n$ positive real numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

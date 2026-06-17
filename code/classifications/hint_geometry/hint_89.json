@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_89",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "In the diagram below, $WXYZ$ is a trapezoid such that $\\overline{WX}\\parallel \\overline{ZY}$ and $\\overline{WY}\\perp\\overline{ZY}$.  If $YZ = 12$, $\\tan Z = 1.5$, and $\\tan X = 2$, then what is $XY$?\n\n[asy]\n\npair WW,X,Y,Z;\n\nZ = (0,0);\n\nY = (12,0);\n\nWW = (12,18);\n\nX= (18,18);\n\ndraw(WW--X--Y--Z--WW);\n\nlabel(\"$W$\",WW,N);\n\nlabel(\"$X$\",X,N);\n\nlabel(\"$Y$\",Y,S);\n\nlabel(\"$Z$\",Z,S);\n\n[/asy]",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what a trapezoid is? What are the characteristics of a trapezoid?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How are the sides and angles of a trapezoid related? Can you find any relationships between the angles in this particular trapezoid?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "In the given diagram, what do you notice about the lines $\\overline{WX}$ and $\\overline{ZY}$? How does this relationship affect the angles in the trapezoid?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Can you determine the measures of angles $Z$ and $X$ using the information given? How can we use the tangent ratios to find these angles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "With the measures of angles $Z$ and $X$, what additional information can we gather about the right triangles $WYZ$ and $WXY$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the lengths of the sides $YZ$ and $WY$ to find the length of $WX$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Once we have the lengths of $WX$ and $WY$, how can we use the Pythagorean Theorem to find the length of $XY$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

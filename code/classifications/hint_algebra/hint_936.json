@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_936",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem": "Completely factor the following expression: \\[(6a^3+92a^2-7)-(-7a^3+a^2-7)\\]",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step you would take to completely factor the expression \\[(6a^3+92a^2-7)-(-7a^3+a^2-7)\\]?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you identify any common factors between the two terms in the expression? If so, how would you factor them out?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "If there are no common factors, what other factoring techniques could be used to simplify the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How would you handle the subtraction of the second term (-7a^3+a^2-7)? Can you think of any strategies to simplify this operation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "After simplifying the expression, what would be the resulting factored form? How can you confirm that your factoring is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other mathematical concepts or problems where factoring plays a crucial role in finding a solution?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

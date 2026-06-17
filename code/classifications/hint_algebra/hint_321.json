@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_321",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem": "Find the slope of the line $3x+5y=20$.",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "b",
+    "f",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of slope and how does it relate to a line?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the slope of a line given its equation in standard form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you identify the coefficients of x and y in the given equation? What are their values?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we rearrange the equation to solve for y in terms of x?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Once we have the equation in slope-intercept form, can you identify the slope?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain what the slope represents in the context of a line?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Is there an alternative method or formula to find the slope of a line given its equation in standard form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we graphically represent the slope of a line on a coordinate plane?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any real-life applications where understanding the slope of a line is important?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "Are there any connections between the slope and other properties of a line, such as parallel or perpendicular lines?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ]
+}

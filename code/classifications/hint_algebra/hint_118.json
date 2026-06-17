@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_118",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "The equation $x^2 - (1A)x + A0 = 0$ has positive integer solutions where $A$ is a positive  single digit. How many such $A$s exist? (Since $A$ is representing a digit, if $A = 2$ then   $A0$ represents the integer 20.)",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "e",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the equation represents and what we are trying to find in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the possible values for $A$ in this equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the solutions to this equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you think of any restrictions or conditions that the solutions must satisfy?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "What method or techniques can we use to solve this quadratic equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any patterns or strategies you notice when looking at the equation and its solutions?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "How can we determine if a particular value of $A$ will yield positive integer solutions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can we simplify the equation in any way to make it easier to solve?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What strategies can we use to systematically test different values of $A$ and check for valid solutions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you summarize the steps we need to take to find the number of $A$ values that give positive integer solutions to the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

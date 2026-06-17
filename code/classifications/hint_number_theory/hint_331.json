@@ -1,0 +1,75 @@
+{
+  "problem_id": "hint_331",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem": "The seven digits in Sam's phone number and the four digits in his house number have the same sum.  The four digits in his house number are distinct, and his phone number is 271-3147.  What is the largest possible value of Sam's house number?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem we are trying to solve in this question?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the sum of the digits in Sam's phone number, and why is this important?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How do we know that the digits in Sam's house number are distinct?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the strategy we should use to find the largest possible four-digit number that has digits adding up to 25?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why do we start with the digit 9 in Sam's house number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How do we determine the next three digits in Sam's house number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Why is it important that the digits in Sam's house number are unique?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "What is the largest possible value for Sam's house number and why is it the largest?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can we use a similar strategy to solve other problems related to number theory?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

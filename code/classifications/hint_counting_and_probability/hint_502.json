@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_502",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem": "In a press conference before the All-Star Game, eight All-Stars will be taking questions. Three are Cubs, three are Red Sox, and two are Yankees. If teammates insist on sitting together, how many ways can the eight All-Stars be seated in a row?",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the problem is asking for?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How many All-Stars are there in total and how are they divided among the Cubs, Red Sox, and Yankees?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean when teammates insist on sitting together?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we simplify the problem by grouping the Cubs, Red Sox, and Yankees together?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many ways are there to arrange the three blocks of teams in a row?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many ways are there to arrange the All-Stars within each block?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you multiply the number of ways to arrange the teams and the number of ways to arrange the All-Stars within each team to get the final answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the final result and does it make sense given the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of a similar problem that involves arranging people or objects according to certain conditions?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "How important is it to consider the groupings and conditions given in a probability problem when calculating the total number of outcomes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

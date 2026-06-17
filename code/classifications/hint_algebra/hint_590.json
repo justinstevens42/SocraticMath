@@ -1,0 +1,89 @@
+{
+  "problem_id": "hint_590",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "For real numbers $x$, let \\[f(x) = \\left\\{\n\\begin{array}{cl}\nx+2 &\\text{ if }x>3, \\\\\n2x+a &\\text{ if }x\\le 3.\n\\end{array}\n\\right.\\]What must the value of $a$ be to make the piecewise function continuous (which means that its graph can be drawn without lifting your pencil from the paper)?",
+  "n_questions": 11,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does it mean for a function to be continuous?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "In which intervals is the function defined differently?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we ensure continuity of the function at the point where the intervals change?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean for a function to be continuous at a specific point?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine the value of $a$ such that the function is continuous at $x = 3$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are the conditions that need to be met for a function to be continuous at a specific point?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "What happens to the function when $x$ is greater than $3$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What happens to the function when $x$ is less than or equal to $3$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we express the condition for continuity mathematically?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you write down the equation that represents the continuity of $f(x)$ at $x = 3$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "How can we solve the equation to find the value of $a$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

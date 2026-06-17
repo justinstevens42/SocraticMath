@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_611",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem": "Let $ABCD$ be a convex quadrilateral, and let $G_A,$ $G_B,$ $G_C,$ $G_D$ denote the centroids of triangles $BCD,$ $ACD,$ $ABD,$ and $ABC,$ respectively.  Find $\\frac{[G_A G_B G_C G_D]}{[ABCD]}.$\n\n[asy]\nunitsize(0.6 cm);\n\npair A, B, C, D;\npair[] G;\n\nA = (0,0);\nB = (7,1);\nC = (5,-5);\nD = (1,-3);\nG[1] = (B + C + D)/3;\nG[2] = (A + C + D)/3;\nG[3] = (A + B + D)/3;\nG[4] = (A + B + C)/3;\n\ndraw(A--B--C--D--cycle);\ndraw(G[1]--G[2]--G[3]--G[4]--cycle,red);\n\nlabel(\"$A$\", A, W);\nlabel(\"$B$\", B, NE);\nlabel(\"$C$\", C, SE);\nlabel(\"$D$\", D, SW);\ndot(\"$G_A$\", G[1], SE);\ndot(\"$G_B$\", G[2], W);\ndot(\"$G_C$\", G[3], NW);\ndot(\"$G_D$\", G[4], NE);\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the centroids of a triangle, and how are they typically found?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can the coordinates of the centroids of triangles BCD, ACD, ABD, and ABC be expressed in terms of the coordinates of points A, B, C, and D?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can you use the coordinates of the centroids to find the vectors representing segments G_B G_A and G_B G_C? What do these vectors represent geometrically?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the relationship between triangles ABC and G_A G_B G_C? How can you use this relationship to find the ratio of their areas?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Are triangles G_A G_B G_C and G_C G_D G_A also similar to other triangles in the quadrilateral, and if so, how? How can this similarity be used to find the area of quadrilateral G_A G_B G_C G_D?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the final answer, and how can it be interpreted in terms of the original quadrilateral ABCD?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

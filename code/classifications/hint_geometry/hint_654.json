@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_654",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "In $\\triangle ABC$,  point $D$ is the midpoint of side $BC$.  Point $E$ is on $AC$ such that $AE:EC =1:2$. Point $F$ is on $AD$ such that $AF:FD=3:1$. If the area of $\\triangle DEF$ is 17, determine the area of $\\triangle ABC$. [asy]\nsize(6cm);defaultpen(fontsize(11));\npair b =(0,0);pair c = (10, 0);pair a=(4, 6);\npair d= midpoint(b--c);\npair e = a + (1/3) * (c - a);\npair f = d + 0.25 * (a - d);\ndraw(a--b--c--cycle--d--e--f);\n\nlabel(\"$A$\", a, N);\nlabel(\"$B$\", b, SW);\nlabel(\"$C$\", c, SE);\nlabel(\"$D$\", d, S);\nlabel(\"$E$\", e, NE);\nlabel(\"$F$\", f, SW);\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information in this problem? Can you describe the given triangle and its points?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the area of a triangle? Is there a specific formula or rule that we can use?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you identify any relationships between the given points and sides in the triangle? How are points D, E, and F related to each other and to the sides of the triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the given information about the ratios of AE:EC and AF:FD to find the areas of triangles AEF, DEF, and AED? Can you explain the reasoning behind it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between the areas of triangle AEF and triangle DEF? How can we use this relationship to find the area of triangle ABC?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain how the areas of triangle ECD and triangle AED are related? How does this information help us in determining the area of triangle ABC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

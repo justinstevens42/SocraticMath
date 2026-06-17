@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_296",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem": "There exists a scalar $c$ so that\n\\[\\mathbf{i} \\times (\\mathbf{v} \\times \\mathbf{i}) + \\mathbf{j} \\times (\\mathbf{v} \\times \\mathbf{j}) + \\mathbf{k} \\times (\\mathbf{v} \\times \\mathbf{k}) = c \\mathbf{v}\\]for all vectors $\\mathbf{v}.$  Find $c.$",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the vector triple product formula?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the vector triple product formula to compute $\\mathbf{i} \\times (\\mathbf{v} \\times \\mathbf{i})$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the result of the computation of $\\mathbf{j} \\times (\\mathbf{v} \\times \\mathbf{j})$ using the vector triple product formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the result of the computation of $\\mathbf{k} \\times (\\mathbf{v} \\times \\mathbf{k})$ using the vector triple product formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we express the sum of $\\mathbf{i} \\times (\\mathbf{v} \\times \\mathbf{i})$, $\\mathbf{j} \\times (\\mathbf{v} \\times \\mathbf{j})$, and $\\mathbf{k} \\times (\\mathbf{v} \\times \\mathbf{k})$ in terms of $\\mathbf{v}$ and dot products?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the value of $c$ for which the given equation holds?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we use the results from previous steps to find $c$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the significance of the value of $c$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

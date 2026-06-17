@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_678",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 1",
+  "problem": "Compute\n\\[\\frac{\\tan^2 20^\\circ - \\sin^2 20^\\circ}{\\tan^2 20^\\circ \\sin^2 20^\\circ}.\\]",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step you would take to compute the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What trigonometric identities can you recognize in the expression?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can you express tan^2 20° in terms of sin^2 20° and cos^2 20°?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can you simplify sin^2 20° - cos^2 20° * sin^2 20°?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between sin^2 20°, cos^2 20°, and 1?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can you simplify the expression further using this relationship?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

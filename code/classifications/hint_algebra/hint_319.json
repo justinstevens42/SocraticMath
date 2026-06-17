@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_319",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 1",
+  "problem": "Evaluate $81^{3/4}$.",
+  "n_questions": 10,
+  "labels": [
+    "b",
+    "f",
+    "r",
+    "r",
+    "b",
+    "r",
+    "b",
+    "e",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you approach evaluating $81^{3/4}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain why the exponent is represented as a fraction in this expression?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What does the numerator of the fraction indicate in terms of the calculation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "And what about the denominator?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you find the fourth root of 81?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How does the fourth root relate to the fractional exponent of 3/4?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "What is the result of raising a number to the power of 3/4, and why does it give us that result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any other ways to express $81^{3/4}$? If so, what are they?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "How can you verify your answer for $81^{3/4}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of other examples where fractional exponents are used in similar calculations?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

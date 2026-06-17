@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_553",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem": "A right triangle has legs measuring 20 inches and 21 inches. What is the length of the hypotenuse, in inches?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a right triangle? Can you define its properties?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the Pythagorean Theorem? Can you explain how it applies to a right triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Using the given information, can you set up an equation to solve for the length of the hypotenuse?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What steps would you take to solve for the length of the hypotenuse?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do you know when you have found the correct answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Could you use a different method to solve for the length of the hypotenuse? If so, what method would you choose and why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_62",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem": "The cubic polynomial\n\\[8x^3 - 3x^2 - 3x - 1 = 0\\]has a real root of the form $\\frac{\\sqrt[3]{a} + \\sqrt[3]{b} + 1}{c},$ where $a,$ $b,$ and $c$ are positive integers.  Find $a + b + c.$",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "r",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given cubic polynomial, and what is the desired real root expressed in the given form?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we rearrange the cubic polynomial so that we may apply the factorization from the provided form of the root?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Using the expansion $(a+b)^3$, how can we express the cubic polynomial as a perfect cube?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the relationship between the given root expression and the resulting equation from step 2?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we isolate the variable in the equation from step 4?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "How can we rationalize the denominator of the resulting expression for the root, and what is the final result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What are the values of $a$, $b$, and $c$, and what is their sum, as requested?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

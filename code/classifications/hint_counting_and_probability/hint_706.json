@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_706",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 2",
+  "problem": "The probability it will rain on Saturday is $60\\%$, and the probability it will rain on Sunday is $25\\%$. If the probability of rain on a given day is independent of the weather on any other day, what is the probability it will rain on both days, expressed as a percent?",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does it mean for two events to be independent in the context of probability?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we express the probability of rain on Saturday and Sunday as a decimal or fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we calculate the probability of two independent events both occurring?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you apply the concept of independence to find the probability of rain on both Saturday and Sunday?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you calculate the product of the probabilities to determine the probability of rain on both days?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you simplify the resulting fraction to express the probability as a percent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain why we multiply the numerators and denominators by 5 to find an equivalent fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any assumptions or conditions that need to be met in order for the multiplication rule to apply? If so, what are they?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any real-life scenarios where the multiplication rule for probabilities would be applicable?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "How would the approach change if the events were not independent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

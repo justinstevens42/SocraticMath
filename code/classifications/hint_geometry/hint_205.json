@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_205",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "Circle $\\Gamma$ is the incircle of $\\triangle ABC$ and is also the circumcircle of $\\triangle XYZ$.  The point $X$ is on $\\overline{BC}$, the point $Y$ is on $\\overline{AB}$, and the point $Z$ is on $\\overline{AC}$.  If $\\angle A=40^\\circ$, $\\angle B=60^\\circ$, and $\\angle C=80^\\circ$, what is the measure of $\\angle YZX$?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "r",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given information about the circle $\\Gamma$ and the triangle $\\triangle ABC$? What is the relationship between the incenter and the three sides of the triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What do you know about the angles of $\\triangle ABC$? Are there any angles that seem particularly important or significant in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Based on the given information, what can you say about the angles of the outer triangles formed by $\\Gamma$ and the sides of $\\triangle ABC$? Can you use this information to determine any missing angles?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can you use the angles of these outer triangles to find the measure of $\\angle YZX$? Is there a specific formula or theorem that you can apply?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why the measure of $\\angle YZX$ is what you found it to be? Does this answer make sense in the context of the problem? Can you check your result using any other methods or reasoning?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other similar problems that you can think of that involve both an incircle and a circumcircle of a triangle? How might you approach solving those problems using these same concepts and techniques?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

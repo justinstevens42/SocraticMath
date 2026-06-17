@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_910",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem": "A quadratic equation $ax^2 - 2ax + b = 0$ has two real solutions. What is the average of these two solutions?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the possible values of a and b for the given quadratic equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Why does the equation have two real solutions? Can you explain this based on the discriminant?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the solutions to this quadratic equation using the quadratic formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you simplify the quadratic formula and identify the coefficients involved?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we find the average of the two solutions? Can you explain the logic behind this calculation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there any significance or interpretation of the average of the solutions in the context of the quadratic equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

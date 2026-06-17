@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_273",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem": "What is the smallest positive integer that leaves a remainder of 4 when divided by 5 and a remainder of 6 when divided by 7?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what is meant by \"remainder\" in terms of integer division?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we use congruences to represent the conditions given in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "If we assume a desired number of $a$, how can we use the congruences to express $a$ in terms of variables or constants?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we simplify and solve the resulting congruence equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between the solution(s) of the congruence equation and the solution(s) of the original problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can we use similar methods to solve other problems involving remainders and congruences? Can you provide an example?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

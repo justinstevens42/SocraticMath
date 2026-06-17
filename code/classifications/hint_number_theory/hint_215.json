@@ -1,0 +1,47 @@
+{
+  "problem_id": "hint_215",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem": "What is the units digit of $13^{2003}$?",
+  "n_questions": 5,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the pattern of units digits that powers of 3 follow?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Why do powers of 3 have the same units digit as the corresponding powers of 13?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the relationship between the units digit of $3^{2000}$ and $3^{2003}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Based on the pattern you observed, what is the units digit of $3^{2003}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Given that $13^{2003}$ has the same units digit as $3^{2003}$, what is the units digit of $13^{2003}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

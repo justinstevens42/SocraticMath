@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_332",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem": "Segment $s_1$ has endpoints at $(4,1)$ and $(-8,5)$.  Segment $s_2$ is obtained by translating $s_1$ by $2$ units to the right and $3$ units up. Find the midpoint of segment $s_2$.  Express your answer as $(a,b)$ with $a$ and $b$ integers.",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in finding the midpoint of segment $s_1$ using the midpoint formula?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the coordinates of the endpoint of segment $s_1$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How do you apply the midpoint formula using the coordinates of the endpoint of segment $s_1$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What does the midpoint of a line segment represent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can you find the coordinates of the midpoint of $s_2$ using the translation rule?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the translation rule used in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "How do you apply the translation rule to the midpoint of $s_1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you calculate the coordinates of the midpoint of $s_2$ using the translation rule?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

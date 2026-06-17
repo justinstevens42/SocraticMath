@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_210",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem": "As $x$ ranges over all real numbers, find the range of\n\\[f(x) = \\sin^4 x + \\cos ^2 x.\\]Enter your answer using interval notation.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the function $f(x)$ and what it represents?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Is there a way to simplify or rewrite $f(x)$ using trigonometric identities?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the maximum and minimum value of $\\sin^2 x$ and how does it affect the range of $f(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How do we find the range of a function? Can you explain the steps and process involved?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you determine if the range of $f(x)$ is bounded or unbounded?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other trigonometric functions that could be combined to create a similar function? How would their range compare to that of $f(x)$?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "How does the range of $f(x)$ change if we modify the function by adding or multiplying other terms?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

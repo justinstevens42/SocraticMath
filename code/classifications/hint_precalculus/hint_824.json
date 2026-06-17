@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_824",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem": "Compute the least positive value of $t$ such that\n\\[\\arcsin (\\sin \\alpha), \\ \\arcsin (\\sin 2 \\alpha), \\ \\arcsin (\\sin 7 \\alpha), \\ \\arcsin (\\sin t \\alpha)\\]is a geometric progression for some $\\alpha$ with $0 < \\alpha < \\frac{\\pi}{2}.$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the given terms in the problem and what do they represent?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the definition of a geometric progression?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we express $\\arcsin(\\sin \\alpha)$, $\\arcsin(\\sin 2\\alpha)$, $\\arcsin(\\sin 7\\alpha)$, and $\\arcsin(\\sin t\\alpha)$ in terms of $\\alpha$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What are the possible values of $t$ that would make these terms form a geometric progression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can we find a value of $\\alpha$ that satisfies the condition for different values of $t$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there any value of $t$ that would make all the terms equal to each other?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

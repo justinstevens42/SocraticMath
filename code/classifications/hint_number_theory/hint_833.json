@@ -1,0 +1,89 @@
+{
+  "problem_id": "hint_833",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem": "Sherlock Holmes and Dr. Watson recover a suitcase with a three-digit combination lock from a mathematician turned criminal. Embedded in the suitcase above the lock is the cryptic message \"AT SEA BASE. SEAS EBB SEA: BASS. \"\n\nDr. Watson comments, \"This probably isn't about ocean fish. Perhaps it is an encrypted message. The colon suggests the addition problem $SEAS + EBB + SEA = BASS$, where each letter represents a distinct digit, and the word 'BASE' implies that the problem is in a different base.\"\n\nHolmes calmly turns the combination lock and opens the suitcase. While Dr. Watson gapes in surprise, Holmes replies, \"You were indeed right, and the answer was just the value of the word $SEA$, interpreted as decimal digits.\" What was the lock combination?",
+  "n_questions": 11,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does the cryptic message \"AT SEA BASE. SEAS EBB SEA: BASS\" suggest about the combination lock?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How does Dr. Watson's explanation of the addition problem help in solving the lock combination?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What does the word \"BASE\" imply about the problem being presented in a different base?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we represent the addition problem in terms of variables and unknowns?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What constraints can we derive from the fact that each letter represents a distinct digit?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How does the residue left by the sum of $S + B + A$ upon division by $d$ help us determine the values of $B$ and $A$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How do we determine the relationship between $S$ and $E$ based on the carry-over from the units digit sum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What cases do we need to consider for the value of $2E + S + 1 - A$ and why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How do we handle the possibility of a carry-over to the last digit when examining the $d^2$ digit?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Based on the constraints and equations obtained, what restrictions can we place on the possible values of $A$, $E$, $S$, and $B$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "What is the final value of the lock combination based on the determined values of $B$, $A$, $S$, $E$, and $d$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

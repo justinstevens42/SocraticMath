@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_65",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem": "A television's price was discounted $40\\%$ and then slashed another $40\\%$ during a liquidation sale. By what percent has the original price been reduced?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you calculate the price reduction if a television's price is discounted by 40%?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "After the first discount, what percentage of the original price remains?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How would you calculate the price reduction if the discounted television's price is then slashed by another 40% during a liquidation sale?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What percentage of the discounted price remains after the second discount?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "To determine the overall reduction on the original price, how would you combine the percentages from each discount?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you calculate the final percentage of the original price that has been reduced after both discounts are applied?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

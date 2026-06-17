@@ -1,0 +1,47 @@
+{
+  "problem_id": "hint_759",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 1",
+  "problem": "What is the smallest positive integer that is a multiple of both 30 and 40 but not a multiple of 16?",
+  "n_questions": 5,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the prime factors of 30, 40, and 16?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the least common multiple (LCM) of 30 and 40, and how is it found?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Is the LCM of 30 and 40 divisible by 16? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the relationship between the LCM and the common multiples of two integers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Is there any smaller positive integer that is a multiple of both 30 and 40 but not divisible by 16? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

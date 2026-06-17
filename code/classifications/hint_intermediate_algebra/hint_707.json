@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_707",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem": "Find all real values of $x$ that satisfy $x + \\frac{45}{x-4} = -10.$\n\nEnter all the solutions, separated by commas.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are some different methods that you know can be used to solve equations like this?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you choose to multiply both sides by $(x-4),$ what are the possibilities you need to consider for the value of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is it possible to factor the quadratic equation $x^2+6x + 5 = 0$? What characteristics make it suitable for factoring?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What are the factors you found? How can you verify that these factors give us the correct solutions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other types of equations where a similar approach might be used to find solutions?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

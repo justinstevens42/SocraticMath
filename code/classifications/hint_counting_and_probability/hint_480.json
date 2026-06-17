@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_480",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem": "Joe will randomly select two letters from the word CAMP, four letters from the word HERBS, and three letters from the word GLOW.  What is the probability that he will have all of the letters from the word PROBLEM?  Express your answer as a common fraction.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the word that Joe needs to spell using the selected letters?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What letters does Joe need to select from the word CAMP in order to have all the letters for the word PROBLEM?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many different ways can Joe select two letters from the word CAMP? And what is the probability of selecting M and P in one of those ways?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What letters does Joe need to select from the word HERBS in order to have all the letters for the word PROBLEM?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How many different ways can Joe select four letters from the word HERBS? And how many of those ways contain E, R, and B?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What letters does Joe need to select from the word GLOW in order to have all the letters for the word PROBLEM?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How many different ways can Joe select three letters from the word GLOW? And how many of those ways contain L and O?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the probability of Joe selecting all the required letters from each word?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How do we calculate the overall probability of Joe selecting all the letters from the word PROBLEM?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Calculate the overall probability and express the answer as a common fraction.",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_68",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem": "Let $x$ be an angle such that $\\tan x = \\frac{a}{b}$ and $\\tan 2x = \\frac{b}{a + b}.$  Then the least positive value of $x$ equals $\\tan^{-1} k.$  Compute $k.$",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the given equations and what is the unknown value?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we rewrite $\\tan 2x$ in terms of $\\tan x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the equation that relates $\\tan x$, $\\tan 2x$, and $a$ and $b$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we simplify the equation $(\\tan x + 1) \\tan 2x = 1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there any special properties or formulas that we can use to simplify the equation further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we factorize the resulting equation? If so, what are the possible factorizations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What are the possible values of $\\tan x$ that satisfy the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Which of these values gives the smallest positive solution for $\\tan x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we express this solution in terms of $\\tan^{-1}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the value of $k$ that corresponds to this least positive solution?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

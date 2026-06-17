@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_1003",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem": "When the base-16 number $66666_{16}$ is written in base 2, how many base-2 digits (bits) does it have?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what is meant by \"base-16 number\" and \"base-2 number\"?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we convert a number from base-16 to base-2? Can you describe the general steps?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the base-2 representation of the number 66666 in base-16?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the number of base-2 digits (bits) in a given base-2 number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why we need to find the range of the base-2 representation of 66666 in order to determine the number of digits?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How did you determine that $2^{18} \\leq 66666_{16} < 2^{19}$? What does this range tell us about the base-2 representation of 66666?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How does the place value system work in base-2? Can you explain the significance of each digit's place value?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Can you generalize this approach to determine the number of digits in the base-2 representation of any base-16 number?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

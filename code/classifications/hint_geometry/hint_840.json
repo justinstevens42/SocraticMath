@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_840",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem": "A 6 cm by 8 cm rectangle is inscribed in a circle. What is the number of centimeters in the circumference of the circle? Express your answer in terms of $\\pi$.\n\n[asy]import graph;\ndefaultpen(linewidth(0.7));\ndraw(Circle((0,0),20));\ndraw((-16,-12)--(16,-12)--(16,12)--(-16,12)--cycle);\n[/asy]",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of inscribed in a circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you derive any formulas or equations related to the sides and angles of a rectangle inscribed in a circle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How does the Pythagorean theorem apply to this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Why does the diagonal of the rectangle serve as a diameter of the circle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does the diameter of the circle relate to the circumference of the circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What is the final answer, expressed in terms of pi, and why is it correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any real-world applications of inscribing shapes in circles, and how it relates to geometry and math?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

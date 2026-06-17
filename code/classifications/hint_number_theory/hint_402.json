@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_402",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem": "An integer $n$ is said to be square-free if the only perfect square that divides $n$ is $1^2$. How many positive odd integers greater than 1 and less than $100$ are square-free?",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does it mean for an integer to be square-free?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you provide some examples of square-free integers?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many odd squares are there less than 100?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "If an integer is divisible by 81, what other squares is it also divisible by?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How many multiples of 9 are there less than 100?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many multiples of 25 are there less than 100?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How many multiples of 49 are there less than 100?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How many odd integers are not square-free?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you explain why the least integer divisible by at least two of the integers 9, 25, and 49 is 225?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How many odd square-free integers are there less than 100?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

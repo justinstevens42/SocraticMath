@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_957",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem": "The Bank of Springfield's Super High Yield savings account compounds annually at a rate of one percent.  If Lisa invests 1000 dollars in one of these accounts, then how much interest will she earn after five years?  (Give your answer to the nearest dollar.)",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does it mean for an account to compound annually?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain how compound interest works in general?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we calculate the interest earned in one year using the given interest rate and initial investment?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "If the interest is compounded annually, what happens to the investment after the first year?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "After two years, how does the interest earned in the first year affect the total amount?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Continuing from the previous question, can you explain how the interest is compounded over five years?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we calculate the interest earned after five years based on the initial investment and the interest rate mentioned?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you round the final amount of interest earned to the nearest dollar?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What other factors might need to be considered when depositing the initial investment into the savings account?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Are there any limitations or drawbacks to using compound interest in this scenario?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

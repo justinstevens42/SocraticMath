@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_165",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem": "Two sides of a triangle measure 4 cm and 9 cm. What is the greatest integer number of centimeters that could be the third side of this triangle?",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "f",
+    "f",
+    "b",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the Triangle Inequality and how does it relate to this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain why the third side of the triangle must be smaller than the sum of the other two sides?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the given information about the triangle's sides? How can we use this information to find the possible range of the third side?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the greatest integer number of centimeters for the third side?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of any other geometric principles or theorems that could help us solve this problem?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Is there a way to generalize this problem for triangles with different side lengths?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any real-life situations where understanding the Triangle Inequality would be important?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

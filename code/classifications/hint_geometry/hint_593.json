@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_593",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem": "A parallelogram has adjacent sides of lengths $s$ units and $2s$ units forming a 45-degree angle. The area of the parallelogram is $8\\sqrt 2$ square units. What is the value of $s$? Express your answer in simplest radical form.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "f",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the parallelogram in this problem using its side lengths and angles?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the 45-degree angle to find the height of the parallelogram?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the height and base of the parallelogram to find its area?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the equation we can set up to solve for the value of s?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the given area of the parallelogram to solve for s?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you verify that your solution for s satisfies all the given conditions in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of other geometric shapes or problems that involve finding side lengths using area and angle measures?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

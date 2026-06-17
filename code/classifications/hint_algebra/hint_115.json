@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_115",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem": "Simplify the following expression in $x$: \\[2x+8x^2+9-(4-2x-8x^2).\\] Express your answer in the form $ax^2 +bx+c$, where $a$, $b$, and $c$ are numbers.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step to simplify this expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you identify like terms in this expression? How would you combine them?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What operation should be performed inside the parentheses?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "After simplifying inside the parentheses, what does the expression become?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do you combine the like terms in the expression now?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the final form of the simplified expression in the given form $ax^2 + bx + c$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

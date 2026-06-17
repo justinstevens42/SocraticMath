@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_916",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem": "Find the minimum value of\n\\[\\frac{\\sin^6 x + \\cos^6 x + 1}{\\sin^4 x + \\cos^4 x + 1}\\]over all real values $x.$",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we find the minimum value of the given expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What substitution can we use to simplify the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How did we simplify the expression using the substitution?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Which expression should we try to maximize in order to find the minimum value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we find the minimum of the expression \"t^2 - t + 1\"?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the value of \"t\" that minimizes the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final minimum value of the given expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

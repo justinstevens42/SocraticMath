@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_118",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem": "The diagonals of a rhombus are 6 inches and 8 inches. What is the perimeter, in inches, of the rhombus below? [asy]\nimport geometry; size(150); defaultpen(linewidth(0.8));\npair A = (0,0),B = (8,6),C = (16,0),D = (8,-6), E = (8,0);\ndraw(A--B--C--D--cycle);\ndraw(A--C,StickIntervalMarker(2,2,10)); draw(B--D,StickIntervalMarker(2,1,10));\ndraw(rightanglemark(A,E,B,30));\n[/asy]",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the given rhombus and its diagonals?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain why the diagonals divide the rhombus into congruent right triangles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How do you determine the lengths of the legs of each right triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the Pythagorean Theorem to find the length of the hypotenuse of each right triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Is there a recognized Pythagorean triple that can be used to find the length of the hypotenuse directly?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the length of each side of the rhombus?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How do you calculate the perimeter of the rhombus using the length of its sides?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the final answer for the perimeter of the given rhombus?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

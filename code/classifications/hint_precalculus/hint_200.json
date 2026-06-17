@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_200",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem": "There exist vectors $\\mathbf{a}$ and $\\mathbf{b}$ such that\n\\[\\mathbf{a} + \\mathbf{b} = \\begin{pmatrix} 6 \\\\ -3 \\\\ -6 \\end{pmatrix},\\]where $\\mathbf{a}$ is parallel to $\\begin{pmatrix} 1 \\\\ 1 \\\\ 1 \\end{pmatrix},$ and $\\mathbf{b}$ is orthogonal to $\\begin{pmatrix} 1 \\\\ 1 \\\\ 1 \\end{pmatrix}.$  Find $\\mathbf{b}.$",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine if two vectors are parallel or orthogonal to each other?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we represent a vector that is parallel to a given vector?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we represent a vector that is orthogonal to a given vector?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What condition should the vector $\\mathbf{b}$ satisfy in order to be orthogonal to $\\begin{pmatrix} 1 \\\\ 1 \\\\ 1 \\end{pmatrix}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you write an equation that represents the orthogonality condition between $\\mathbf{b}$ and $\\begin{pmatrix} 1 \\\\ 1 \\\\ 1 \\end{pmatrix}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we solve the equation to find the value of $t$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the final expression for vector $\\mathbf{b}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

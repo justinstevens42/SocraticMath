@@ -1,0 +1,47 @@
+{
+  "problem_id": "hint_381",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem": "What is the greatest common factor of 40 and 48?",
+  "n_questions": 5,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you identify the prime factorizations of 40 and 48?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the largest power of 2 that appears as a factor in both numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Why can't the greatest common factor have any primes other than 2 with a power greater than 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How did you determine that the greatest common factor is 8?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of any other numbers where you can use a similar method to find the greatest common factor?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

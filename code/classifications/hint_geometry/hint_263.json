@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_263",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem": "In the diagram, $PQRS$ is a trapezoid with an area of $12.$ $RS$ is twice the length of $PQ.$ What is the area of $\\triangle PQS?$\n\n[asy]\ndraw((0,0)--(1,4)--(7,4)--(12,0)--cycle);\ndraw((7,4)--(0,0));\nlabel(\"$S$\",(0,0),W);\nlabel(\"$P$\",(1,4),NW);\nlabel(\"$Q$\",(7,4),NE);\nlabel(\"$R$\",(12,0),E);\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the given problem and identify the key elements?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between the trapezoid $PQRS$ and the triangles $PQS$ and $SRQ$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the height of triangles $PQS$ and $SRQ$ using the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How does the length of $PQ$ compare to the length of $SR$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the formula for the area of a triangle, and how can we use it to find the area of triangle $PQS$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How does the relationship between the lengths of $PQ$ and $SR$ affect the area of triangle $PQS$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain why the area of triangle $SRQ$ is twice the area of triangle $PQS$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the total area of the trapezoid $PQRS$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we use the information about the areas of the triangles to find the area of triangle $PQS$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the final answer to the problem – the area of triangle $PQS$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_485",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem": "What non-zero, real value of $x$ satisfies $(5x)^4= (10x)^3$? Express your answer as a common fraction.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "r",
+    "e",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step you would take to solve this equation? How would you simplify the equation to make it easier to work with?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Are you familiar with any properties or rules of exponents that could be applied in this situation? How might you use them to simplify the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "If you raise both sides of the equation to a certain exponent, can you make the equation easier to solve? If so, what exponent would you choose and why?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you think of any way to rewrite the equation so that it becomes a linear equation? How would you go about doing that?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "Once you have a linear equation, what would be the most appropriate method to solve for the value of x? Why do you think this method would be effective in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How would you verify your solution for x? What steps would you take to confirm that the value you obtained satisfies the original equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

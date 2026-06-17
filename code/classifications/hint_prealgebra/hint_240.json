@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_240",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem": "How many diagonals can be drawn for a hexagon?",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a diagonal and how is it different from a side of a hexagon?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you visualize the hexagon and identify the non-adjacent points?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many pairs of non-adjacent points can you find in the given hexagon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many diagonals can be drawn by connecting each pair of non-adjacent points?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there any diagonals that are the same when you consider the order of points? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many unique diagonals can be formed by connecting the non-adjacent points?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the total count of unique diagonals for the given hexagon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

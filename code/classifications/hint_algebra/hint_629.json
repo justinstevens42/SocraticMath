@@ -1,0 +1,61 @@
+{
+  "problem_id": "hint_629",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem": "Given that $a$ and $b$ are positive integers and that $a+b=24$, what is the value of $ab$ if $2ab + 10a = 3b + 222$?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we start solving this problem? What is the first step we should take?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What strategies or methods can we use to solve this type of equation involving positive integers?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "If we choose to isolate one variable, which one would be a good choice and why?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can we simplify the equation by factoring or manipulating it in some way?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we rewrite the equation to make it easier to solve?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the fact that $a+b=24$ to help us solve for the value of $ab$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other equations or problems that share similar characteristics and can be solved using similar steps and thinking?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

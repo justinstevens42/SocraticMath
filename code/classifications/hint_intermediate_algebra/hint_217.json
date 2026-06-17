@@ -1,0 +1,82 @@
+{
+  "problem_id": "hint_217",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "Suppose $z$ and $w$ are complex numbers such that\n\\[|z| = |w| = z \\overline{w} + \\overline{z} w= 1.\\]Find the largest possible value of the real part of $z + w.$",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the purpose of the given conditions, $|z| = |w| = z \\overline{w} + \\overline{z} w = 1$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we express complex numbers $z$ and $w$ in the form $z = a + bi$ and $w = c + di$? What do $a$, $b$, $c$, and $d$ represent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we rewrite the given conditions using the variables $a$, $b$, $c$, and $d$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What can we infer about $a$, $b$, $c$, and $d$ from the conditions $|z| = 1$ and $|w| = 1$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What can we deduce from the equation $z \\overline{w} + \\overline{z} w = 1$ in terms of $a$, $b$, $c$, and $d$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the information about $a$, $b$, $c$, and $d$ to find $a + c$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What does the expression $(a + c)^2 + (b + d)^2$ represent? Can we simplify it using the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What can we conclude about the largest possible value of $a + c$ based on the simplification of $(a + c)^2 + (b + d)^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we find the complex numbers $z$ and $w$ that achieve the largest value of $a + c$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the largest possible value of the real part of $z + w$? How does this relate to the value of $a + c$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ]
+}

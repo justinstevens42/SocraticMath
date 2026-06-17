@@ -1,0 +1,68 @@
+{
+  "problem_id": "hint_215",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem": "Let $S$ be the set of 10-tuples $(a_0, a_1, \\dots, a_9),$ where each entry is 0 or 1, so $S$ contains $2^{10}$ 10-tuples.  For each 10-tuple $s = (a_0, a_1, \\dots, a_9)$ in $S,$ let $p_s(x)$ be the polynomial of degree at most 9 such that\n\\[p_s(n) = a_n\\]for $0 \\le n \\le 9.$  For example, $p(x) = p_{(0,1,0,0,1,0,1,0,0,0)}(x)$ is the polynomial of degree at most 9 such that $p(0) = p(2) = p(3) = p(5) = p(7) = p(8) = p(9) = 0$ and $p(1) = p(4) = p(6) = 1.$\n\nFind\n\\[\\sum_{s \\in S} p_s(10).\\]",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the set $S$ represents in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How would you define the polynomial $p_s(x)$ for a given 10-tuple $s$ in $S$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you provide an example of a specific 10-tuple $s$ and calculate the corresponding polynomial $p_s(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the relationship between the polynomial $p(x)$ and the set $S$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we calculate the value of $p(n)$ for any given $n$, where $0 \\leq n \\leq 9$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "By substituting $x=10$ into the polynomial $p(x)$, what value do we obtain?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we justify that $p(x) = 512$ for all values of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any other properties or characteristics of the polynomial $p(x)$ that we should consider while solving this problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}

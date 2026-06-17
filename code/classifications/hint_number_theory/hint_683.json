@@ -1,0 +1,54 @@
+{
+  "problem_id": "hint_683",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem": "An octopus told me that his underwater cave is $245_{8}$ years old. How many years is this in base ten?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the octopus trying to tell us in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is a base-ten number system, and how is it different from the octopus's base-eight system?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we convert a base-eight number like $245_{8}$ into a base-ten number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you walk me through the process of converting $245_{8}$ into base ten? How do you know if your answer is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there any shortcuts or tricks we can use to convert base-eight numbers into base-ten numbers more quickly?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there other number systems besides base-eight and base-ten that people use? How do we convert numbers between different number systems?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ]
+}
