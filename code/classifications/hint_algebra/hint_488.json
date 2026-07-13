@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A bookstore is deciding what price it should charge for a certain book. After research, the store finds that if the book's price is $p$ dollars (where $p \\le 26$), then the number of books sold per month is $130-5p$. What price should the store charge to maximize its revenue?",
   "n_questions": 9,
   "labels": [

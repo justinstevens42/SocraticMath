@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "If $m$ and $n$ are positive integers such that $\\gcd(m,n) = 12$, then what is the smallest possible value of $\\gcd(10m,15n)$?",
   "n_questions": 5,
   "labels": [

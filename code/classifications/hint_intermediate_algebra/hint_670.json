@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Determine the exact value of the series\n\\[\\frac{1}{5 + 1} + \\frac{2}{5^2 + 1} + \\frac{4}{5^4 + 1} + \\frac{8}{5^8 + 1} + \\frac{16}{5^{16} + 1} + \\dotsb.\\]",
   "n_questions": 9,
   "labels": [

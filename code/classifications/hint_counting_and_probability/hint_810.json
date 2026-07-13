@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Given that $\\binom{17}{7}=19448$, $\\binom{17}{8}=24310$ and $\\binom{17}{9}=24310$, calculate $\\binom{19}{9}$.",
   "n_questions": 6,
   "labels": [

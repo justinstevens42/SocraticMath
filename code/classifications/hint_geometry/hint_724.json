@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A sphere is cut into four congruent wedges. The circumference of the sphere is $12\\pi$ inches. What is the number of cubic inches in the volume of one wedge? Express your answer in terms of $\\pi$.\n\nNote: To measure the circumference, take the largest circle on the surface of the sphere.",
   "n_questions": 7,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "If $x^2 + \\frac{1}{x^2} = A,$ and $x - \\frac{1}{x} = B,$ where $A$ and $B$ are positive numbers, find the minimum possible numerical value for $\\frac{A}{B}.$",
   "n_questions": 10,
   "labels": [

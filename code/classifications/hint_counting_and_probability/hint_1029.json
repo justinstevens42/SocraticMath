@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Alexio has 100 cards numbered 1-100, inclusive, and places them in a box. Alexio then chooses a card from the box at random. What is the probability that the number on the card he chooses is a multiple of 2, 3 or 5? Express your answer as a common fraction.",
   "n_questions": 10,
   "labels": [

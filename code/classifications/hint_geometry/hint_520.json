@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Two rectangles have integer dimensions, and both have a perimeter of 144 cm. What is the greatest possible difference between the areas of two such rectangles?",
   "n_questions": 10,
   "labels": [

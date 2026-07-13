@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Consider sequences of positive real numbers of the form $x, 2000, y, \\dots$ in which every term after the first is 1 less than the product of its two immediate neighbors. For how many different values of $x$ does the term 2001 appear somewhere in the sequence?",
   "n_questions": 9,
   "labels": [

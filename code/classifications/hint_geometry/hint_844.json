@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "In $\\triangle ABC$ points $D$ and $E$ lie on $\\overline{BC}$ and $\\overline{AC}$, respectively.  If $\\overline{AD}$ and $\\overline{BE}$ intersect at $T$ so that $AT/DT=3$ and $BT/ET=4$, what is $CD/BD$?\n\n[asy]\npair A,B,C,D,I,T;\nA=(0,0);\nB=(6,8);\nC=(11,0);\nD=(9.33,2.66);\nI=(7.5,0);\nT=(6.5,2);\nlabel(\"$T$\",T,NW);\nlabel(\"$D$\",D,NE);\nlabel(\"$E$\",I,S);\nlabel(\"$A$\",A,S);\nlabel(\"$C$\",C,S);\nlabel(\"$B$\",B,N);\ndraw(A--B--C--cycle,linewidth(0.7));\ndraw(A--D,linewidth(0.7));\ndraw(B--I,linewidth(0.7));\n[/asy]",
   "n_questions": 7,
   "labels": [

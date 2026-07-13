@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Pentagon ABCDE has a vertical line of symmetry. What is the $y$-coordinate of vertex C so that the area of the pentagon is 40 square units? [asy]\nunitsize(2mm);\ndefaultpen(linewidth(.7pt)+fontsize(8pt));\ndotfactor=4;\n\npair A=(0,0), B=(0,4), C=(2,16), D=(4,4), E=(4,0);\npair[] dots={A,B,C,D,E};\n\ndraw(B--C--D--E);\ndot(dots);\n\naxes(Arrows(4));\n\nlabel(\"A(0,0)\",A,SW);\nlabel(\"E(4,0)\",E,SE);\nlabel(\"D(4,4)\",D,NE);\nlabel(\"C\",C,NE);\nlabel(\"B(0,4)\",B,NW);\n[/asy]",
   "n_questions": 9,
   "labels": [

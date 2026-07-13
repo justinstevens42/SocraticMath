@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "Let $\\bold{v} = \\begin{pmatrix} 5 \\\\ -3 \\end{pmatrix}$ and $\\bold{w} = \\begin{pmatrix} 11 \\\\ -2 \\end{pmatrix}$.  Find the area of the parallelogram with vertices $\\bold{0}$, $\\bold{v}$, $\\bold{w}$, and $\\bold{v} + \\bold{w}$.",
   "n_questions": 8,
   "labels": [

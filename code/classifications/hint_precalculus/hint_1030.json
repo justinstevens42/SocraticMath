@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Rational numbers $a$ and $b$ are chosen at random among all rational numbers in the interval $[0,2)$ that can be written as fractions $\\frac{n}{d}$ where $n$ and $d$ are integers with $1 \\le d \\le 5$. What is the probability that \\[(\\text{cos}(a\\pi)+i\\text{sin}(b\\pi))^4\\]is a real number?",
   "n_questions": 12,
   "labels": [

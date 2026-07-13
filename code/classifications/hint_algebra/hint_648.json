@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Suppose the function $f(x)$ is defined on the domain $\\{x_1,x_2,x_3\\}$, so that the graph of $y=f(x)$ consists of just three points. Suppose those three points form a triangle of area $32$.\n\nThe graph of $y = 2f(2x)$ also consists of just three points. What is the area of the triangle formed by those three points?",
   "n_questions": 6,
   "labels": [

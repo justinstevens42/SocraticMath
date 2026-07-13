@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "How many ways are there to choose 3 cards from a standard deck of 52 cards, if all three cards must be of different suits?  (Assume that the order of the cards does not matter.)",
   "n_questions": 8,
   "labels": [

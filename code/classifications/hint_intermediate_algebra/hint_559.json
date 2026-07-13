@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find all real numbers $x$ such that\n\\[\\frac{8^x + 27^x}{12^x + 18^x} = \\frac{7}{6}.\\]Enter all the solutions, separated by commas.",
   "n_questions": 10,
   "labels": [

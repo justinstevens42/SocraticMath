@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "In right triangle $ABC$ with $\\angle B = 90^\\circ$, we have $$2\\sin A = 3\\cos A.$$What is $\\sin A$?",
   "n_questions": 6,
   "labels": [

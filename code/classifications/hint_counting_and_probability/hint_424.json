@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "How many three digit numbers are left if we exclude all three digit numbers in which there are exactly two digits the same, but these two digits are not adjacent?",
   "n_questions": 10,
   "labels": [

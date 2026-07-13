@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $X,$ $Y,$ and $Z$ be points such that $\\frac{XZ}{XY} = \\frac{ZY}{XY} = \\frac{1}{2}.$ If $Y = (1, 7)$, $Z = (-1, -7)$, then what is the sum of the coordinates of $X$?",
   "n_questions": 6,
   "labels": [

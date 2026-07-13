@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "On an old-fashioned bicycle the front wheel has a radius of $2.5$ feet and the back wheel has a radius of $4$ inches.  If there is no slippage, how many revolutions will the back wheel make while the front wheel makes $100$ revolutions?",
   "n_questions": 8,
   "labels": [

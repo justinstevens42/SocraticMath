@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "For a given positive integer $n > 2^3$, what is the greatest common divisor of $n^3 + 3^2$ and $n + 2$?",
   "n_questions": 8,
   "labels": [

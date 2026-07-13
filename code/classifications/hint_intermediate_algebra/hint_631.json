@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $S = \\{2^0,2^1,2^2,\\ldots,2^{10}\\}$. Consider all possible positive differences of pairs of elements of $S$. Let $N$ be the sum of all of these differences. Find $N.$",
   "n_questions": 7,
   "labels": [

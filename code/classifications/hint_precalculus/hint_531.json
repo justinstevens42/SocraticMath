@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "Compute $\\begin{pmatrix} 2 & 3 \\\\ 7 & -1 \\end{pmatrix} \\begin{pmatrix} 1 & -5 \\\\ 0 & 4 \\end{pmatrix}.$",
   "n_questions": 6,
   "labels": [

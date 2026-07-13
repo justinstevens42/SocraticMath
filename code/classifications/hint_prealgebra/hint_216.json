@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Convex hexagon $ABCDEF$ has exactly two distinct side lengths. Side $AB$ measures 5 units, and side $BC$ measures 6 units. The perimeter of hexagon $ABCDEF$ is 34 units. How many sides of hexagon $ABCDEF$ have measure 6 units?",
   "n_questions": 8,
   "labels": [

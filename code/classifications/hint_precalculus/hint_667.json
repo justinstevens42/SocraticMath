@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "A point has rectangular coordinates $(x,y,z)$ and spherical coordinates $\\left(2, \\frac{8 \\pi}{7}, \\frac{2 \\pi}{9} \\right).$  Find the spherical coordinates of the point with rectangular coordinates $(x,y,-z).$  Enter your answer in the form $(\\rho,\\theta,\\phi),$ where $\\rho > 0,$ $0 \\le \\theta < 2 \\pi,$ and $0 \\le \\phi \\le \\pi.$",
   "n_questions": 5,
   "labels": [

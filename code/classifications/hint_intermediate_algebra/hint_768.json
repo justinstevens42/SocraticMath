@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "The vertices $V$ of a centrally symmetric hexagon in the complex plane are given by \\[V=\\left\\{   \\sqrt{2}i,-\\sqrt{2}i, \\frac{1}{\\sqrt{8}}(1+i),\\frac{1}{\\sqrt{8}}(-1+i),\\frac{1}{\\sqrt{8}}(1-i),\\frac{1}{\\sqrt{8}}(-1-i) \\right\\}.\\]For each $j$, $1\\leq j\\leq 12$, an element $z_j$ is chosen from $V$ at random, independently of the other choices. Let $P={\\prod}_{j=1}^{12}z_j$ be the product of the $12$ numbers selected.\n\nThe probability that $P=-1$ can be expressed in the form\n\\[\\frac{a}{p^b},\\]where $a,$ $b,$ $p$ are positive integers, $p$ is prime, and $a$ is not divisible by $p.$  Find $a + b + p.$",
   "n_questions": 10,
   "labels": [

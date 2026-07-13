@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "What is the least positive integer that satisfies the following conditions?\n\na) When divided by 2, the remainder is 1.\n\nb) When divided by 3, the remainder is 2.\n\nc) When divided by 4, the remainder is 3.\n\nd) When divided by 5, the remainder is 4.",
   "n_questions": 8,
   "labels": [

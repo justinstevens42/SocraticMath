@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Given that $a$ and $b$ are positive integers and that $a+b=24$, what is the value of $ab$ if $2ab + 10a = 3b + 222$?",
   "n_questions": 7,
   "labels": [

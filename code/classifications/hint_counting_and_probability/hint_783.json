@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Jane and her brother each spin this spinner once. The spinner has five congruent sectors. If the non-negative difference of their numbers is less than 3, Jane wins. Otherwise, her brother wins. What is the probability that Jane wins? Express your answer as a common fraction.\n\n[asy]\nsize(101);\ndraw(scale(2)*unitcircle);\nfor(int i = 0; i<5; ++i)\n{\ndraw((0,0)--2dir(90+i/5*360));\nlabel(string(i+1),1.3dir(45-i/5*360));\n}\ndraw((0,0)--1.5dir(75),EndArrow(4));\n[/asy]",
   "n_questions": 10,
   "labels": [

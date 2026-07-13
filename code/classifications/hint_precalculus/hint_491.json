@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "For some complex number $\\omega$ with $|\\omega| = 2,$ there is some real $\\lambda > 1$ such that $\\omega,$ $\\omega^2,$ and $\\lambda \\omega$ form an equilateral triangle in the complex plane.  Find $\\lambda.$",
   "n_questions": 8,
   "labels": [

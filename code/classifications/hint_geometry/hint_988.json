@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "A street has parallel curbs 40 feet apart. A crosswalk bounded by two parallel stripes crosses the street at an angle. The length of the curb between the stripes is 15 feet and each stripe is 50 feet long. Find the distance, in feet, between the stripes.",
   "n_questions": 6,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "The image of the point with coordinates $(-3,-1)$ under the reflection across the line $y=mx+b$ is the point with coordinates $(5,3)$.  Find $m+b$.",
   "n_questions": 6,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A rectangle having integer length and width has a perimeter of 100 units. What is the number of square units in the least possible area?",
   "n_questions": 10,
   "labels": [

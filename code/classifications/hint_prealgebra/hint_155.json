@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Suppose I have 6 shirts, 4 ties, and 3 pairs of pants.  If an outfit requires a shirt and pants, and can either have a tie or not have a tie, how many outfits can I make?",
   "n_questions": 10,
   "labels": [

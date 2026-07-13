@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Find $y$ if $\\dfrac{y^2 - 9y + 8}{y-1} + \\dfrac{3y^2 +16y-12 }{3y -2} = -3$.",
   "n_questions": 9,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $A,$ $B,$ $C$ be the angles of a non-right triangle.  Compute\n\\[\\begin{vmatrix} \\tan A & 1  & 1 \\\\ 1 & \\tan B & 1 \\\\ 1 & 1 & \\tan C \\end{vmatrix}.\\]",
   "n_questions": 10,
   "labels": [

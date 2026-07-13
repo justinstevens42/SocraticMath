@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "For how many integer values of $n$ between 1 and 120 inclusive does the decimal representation of $\\frac{n}{120}$ terminate?",
   "n_questions": 7,
   "labels": [

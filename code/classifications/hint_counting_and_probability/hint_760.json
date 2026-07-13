@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A point in space $(x,y,z)$ is randomly selected so that $-1\\le x \\le 1$,$-1\\le y \\le 1$,$-1\\le z \\le 1$.  What is the probability that $x^2+y^2+z^2\\le 1$?",
   "n_questions": 6,
   "labels": [

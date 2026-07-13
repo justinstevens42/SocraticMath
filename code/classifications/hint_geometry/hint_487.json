@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "In the diagram, the area of triangle $ABC$ is 27 square units. What is the area of triangle $BCD$?\n\n[asy]\n\ndraw((0,0)--(32,0)--(9,15)--(0,0));\n\ndot((0,0));\nlabel(\"$A$\",(0,0),SW);\nlabel(\"6\",(3,0),S);\ndot((6,0));\nlabel(\"$C$\",(6,0),S);\nlabel(\"26\",(19,0),S);\ndot((32,0));\nlabel(\"$D$\",(32,0),SE);\ndot((9,15));\nlabel(\"$B$\",(9,15),N);\n\ndraw((6,0)--(9,15));\n\n[/asy]",
   "n_questions": 8,
   "labels": [

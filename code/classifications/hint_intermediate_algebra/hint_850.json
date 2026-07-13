@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "The parabola $y=ax^2+bx+c$ has vertex $(p,p)$ and $y$-intercept $(0,-p)$, where $p\\ne 0$. What is $b$?",
   "n_questions": 8,
   "labels": [

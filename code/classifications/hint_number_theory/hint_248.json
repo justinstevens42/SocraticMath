@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 3",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Donna has $n$ boxes of doughnuts. Each box contains $13$ doughnuts.\n\nAfter eating one doughnut, Donna is able to rearrange the remaining doughnuts into bags so that each bag contains $9$ doughnuts, and none are left over. What is the smallest possible value of $n$?",
   "n_questions": 10,
   "labels": [

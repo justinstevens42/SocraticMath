@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The sum of two positive integers $a$ and $b$ is 1001.  What is the largest possible value of $\\gcd(a,b)$?",
   "n_questions": 8,
   "labels": [

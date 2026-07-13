@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Suppose $f(x)$ is a rational function such that $3f\\left(\\dfrac{1}{x}\\right)+\\dfrac{2f(x)}{x}=x^2$ for $x\\neq 0$.  Find $f(-2)$.",
   "n_questions": 6,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Chuck the llama is tied to the corner of a $2\\text{ m}$ by $3\\text{ m}$ shed on a $3\\text{ m}$ leash. How much area (in square meters) does Chuck have in which to play if he can go only around the outside of the shed? [asy]\ndraw((0,0)--(15,0)--(15,10)--(0,10)--cycle,black+linewidth(1));\ndraw((15,10)--(27,19),black+linewidth(1));\ndot((27,19));\nlabel(\"Shed\",(7.5,5));\nlabel(\"CHUCK\",(27,19),N);\nlabel(\"2\",(0,0)--(0,10),W);\nlabel(\"3\",(0,0)--(15,0),S);\nlabel(\"3\",(15,10)--(27,19),SE);\n[/asy]",
   "n_questions": 10,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A circle is inscribed  in a square, then a square is inscribed  in this circle, and finally, a circle is inscribed  in this square. What is the ratio of the area of the smaller circle to the area of the larger square?",
   "n_questions": 9,
   "labels": [

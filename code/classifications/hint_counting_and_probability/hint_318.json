@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A play has two different male roles, two different female roles and two different roles that can be either gender. Only a man can be assigned to a male role, and only a woman can be assigned to a female role. If five men and six women audition, in how many ways can the six roles be assigned?",
   "n_questions": 8,
   "labels": [

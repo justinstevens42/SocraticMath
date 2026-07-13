@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A number $x$ is equal to $7\\cdot24\\cdot48$. What is the smallest positive integer $y$ such that the product $xy$ is a perfect cube?",
   "n_questions": 9,
   "labels": [

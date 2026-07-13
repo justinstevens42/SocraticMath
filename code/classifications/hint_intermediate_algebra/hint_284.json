@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Let $x$, $y$, and $z$ be distinct real numbers that sum to $0$. Compute \\[ \\dfrac {xy+yz+zx}{x^2+y^2+z^2}. \\]",
   "n_questions": 8,
   "labels": [

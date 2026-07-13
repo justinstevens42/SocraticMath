@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "The function $f$, defined on the set of ordered pairs of positive integers, satisfies the following properties: \\begin{align*}  f(x,x) &=x, \\\\  f(x,y) &=f(y,x), \\quad \\text{and} \\\\ (x + y) f(x,y) &= yf(x,x + y).  \\end{align*}Calculate $f(14,52)$.",
   "n_questions": 12,
   "labels": [

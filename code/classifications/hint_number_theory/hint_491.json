@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "Marcus has two numbers, $a$ and $b$.  When he divides $a$ by 45 he gets a remainder of 37.  When he divides $b$ by 30 he gets a remainder of $9$.  What remainder does he get when he divides $a+b$ by 15?",
   "n_questions": 6,
   "labels": [

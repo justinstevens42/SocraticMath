@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "A standard deck of cards has 52 cards divided into 4 suits, each of which has 13 cards.  Two of the suits ($\\heartsuit$ and $\\diamondsuit$, called 'hearts' and 'diamonds') are red, the other two ($\\spadesuit$ and $\\clubsuit$, called 'spades' and 'clubs') are black.  The cards in the deck are placed in random order (usually by a process called 'shuffling').  In how many ways can we pick two different cards? (Order matters, thus ace of spades followed by jack of diamonds is different than jack of diamonds followed by ace of spades.)",
   "n_questions": 8,
   "labels": [

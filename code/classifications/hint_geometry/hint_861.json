@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Medians are drawn from point $A$ and point $B$ in this right triangle to divide segments $\\overline{BC}$ and $\\overline{AC}$ in half, respectively. The lengths of the medians are 6 and $2\\sqrt{11}$ units, respectively. How many units are in the length of segment $\\overline{AB}$?\n\n[asy]\ndraw((0,0)--(7,0)--(0,4)--(0,0)--cycle,linewidth(2));\ndraw((0,1/2)--(1/2,1/2)--(1/2,0),linewidth(1));\n\nlabel(\"$A$\",(0,4),NW);\nlabel(\"$B$\",(7,0),E);\nlabel(\"$C$\",(0,0),SW);\n[/asy]",
   "n_questions": 8,
   "labels": [

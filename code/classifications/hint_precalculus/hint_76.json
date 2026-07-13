@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Let $\\mathbf{u}$ and $\\mathbf{v}$ be unit vectors, and let $\\mathbf{w}$ be a vector such that $\\mathbf{u} \\times \\mathbf{v} + \\mathbf{u} = \\mathbf{w}$ and $\\mathbf{w} \\times \\mathbf{u} = \\mathbf{v}.$  Compute $\\mathbf{u} \\cdot (\\mathbf{v} \\times \\mathbf{w}).$",
   "n_questions": 9,
   "labels": [

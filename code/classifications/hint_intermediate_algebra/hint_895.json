@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The real numbers $a,$ $b,$ $c,$ and $d$ satisfy\n\\[a^2 + b^2 + c^2 + 1 = d + \\sqrt{a + b + c - d}.\\]Find $d.$",
   "n_questions": 11,
   "labels": [

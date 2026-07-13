@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "A parabola and an ellipse share a focus, and the directrix of the parabola is the line containing the minor axis of the ellipse. The parabola and ellipse intersect at two points. Given that the equation of the ellipse is $\\frac{x^2}{25} + \\frac{y^2}{9} = 1,$ find the distance between those two points.",
   "n_questions": 14,
   "labels": [

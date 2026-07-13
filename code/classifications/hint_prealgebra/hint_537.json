@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 3",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
   "problem": "The students at Sherry Curtis School were able to vote for one or more events for their field day. Below are the top three choices. List the names of the choices from most popular to least popular, separated by commas.\n\n\\begin{tabular}{|c|c|c|c|} \\hline\nEvent & Kickball & Picnic & Softball \\\\ \\hline \n& & &\\\\[-1.5ex]\nFraction liking event & $\\frac{11}{30}$ & $\\frac{7}{20}$ & $\\frac{5}{12}$ \\\\[1ex] \\hline\n\\end{tabular}",
   "n_questions": 6,
   "labels": [

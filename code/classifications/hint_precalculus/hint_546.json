@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Find the matrix $\\mathbf{M}$ such that\n\\[\\mathbf{M} \\mathbf{v} = \\begin{pmatrix} 5 \\\\ 2 \\\\ -8 \\end{pmatrix} \\times \\mathbf{v}\\]for all vectors $\\mathbf{v}.$",
   "n_questions": 6,
   "labels": [

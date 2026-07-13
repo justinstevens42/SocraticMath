@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "For how many integer values of $x$ is $5x^{2}+19x+16 > 20$ not satisfied?",
   "n_questions": 6,
   "labels": [

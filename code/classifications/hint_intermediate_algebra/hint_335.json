@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find the maximum value of\n\\[\\frac{x + 2y + 3}{\\sqrt{x^2 + y^2 + 1}}\\]over all real numbers $x$ and $y.$",
   "n_questions": 6,
   "labels": [

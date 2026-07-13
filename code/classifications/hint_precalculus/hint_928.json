@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "For real numbers $t \\neq 0,$ the point\n\\[(x,y) = \\left( \\frac{t + 1}{t}, \\frac{t - 1}{t} \\right)\\]is plotted.  All the plotted points lie on what kind of curve?\n\n(A) Line\n(B) Circle\n(C) Parabola\n(D) Ellipse\n(E) Hyperbola\n\nEnter the letter of the correct option.",
   "n_questions": 8,
   "labels": [

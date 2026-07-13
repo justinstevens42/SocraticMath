@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "What is the sum of all positive integer solutions less than or equal to $20$ to the congruence $13(3x-2)\\equiv 26\\pmod 8$?",
   "n_questions": 6,
   "labels": [

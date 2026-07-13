@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Let $D$ be the determinant of the matrix whose column vectors are $\\mathbf{a},$ $\\mathbf{b},$ and $\\mathbf{c}.$  Find the determinant of the matrix whose column vectors are $\\mathbf{a} + \\mathbf{b},$ $\\mathbf{b} + \\mathbf{c},$ and $\\mathbf{c} + \\mathbf{a},$ in terms of $D.$",
   "n_questions": 10,
   "labels": [

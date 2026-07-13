@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "What is the least positive integer $n$ such that $4125$ is a factor of $n!$?",
   "n_questions": 9,
   "labels": [

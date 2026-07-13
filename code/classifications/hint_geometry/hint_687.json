@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A regular hexagon is inscribed in a circle of radius 2 units. In square units, what is the area of the hexagon? Express your answer in simplest radical form.",
   "n_questions": 9,
   "labels": [

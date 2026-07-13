@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "What is the greatest integer less than 100 for which the greatest common divisor of that integer and 12 is 4?",
   "n_questions": 7,
   "labels": [

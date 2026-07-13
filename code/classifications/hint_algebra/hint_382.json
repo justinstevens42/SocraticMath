@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "How many square units are in the area of the triangle whose vertices are the $x$ and $y$ intercepts of the curve $y = (x-3)^2 (x+2)$?",
   "n_questions": 10,
   "labels": [

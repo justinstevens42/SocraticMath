@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Point $P$ is inside equilateral $\\triangle ABC$.  Points $Q$, $R$, and $S$ are the feet of the perpendiculars from $P$ to $\\overline{AB}$, $\\overline{BC}$, and $\\overline{CA}$, respectively. Given that $PQ=1$, $PR=2$, and $PS=3$, what is $AB$ in terms of radicals?",
   "n_questions": 8,
   "labels": [

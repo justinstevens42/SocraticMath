@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "In triangle $ABC,$ points $D$ and $E$ are on $\\overline{AB}$ and $\\overline{AC},$ respectively, and angle bisector $\\overline{AT}$ intersects $\\overline{DE}$ at $F.$  If $AD = 1,$ $DB = 3,$ $AE = 2,$ and $EC = 4,$ compute $\\frac{AF}{AT}.$\n\n[asy]\nunitsize(1 cm);\n\npair A, B, C, D, E, F, T;\n\nB = (0,0);\nC = (5,0);\nA = intersectionpoint(arc(B,4,0,180),arc(C,6,0,180));\nD = interp(A,B,1/4);\nE = interp(A,C,2/6);\nT = extension(A, incenter(A,B,C), B, C);\nF = extension(A, T, D, E);\n\ndraw(A--B--C--cycle);\ndraw(A--T);\ndraw(D--E);\n\nlabel(\"$A$\", A, N);\nlabel(\"$B$\", B, SW);\nlabel(\"$C$\", C, SE);\nlabel(\"$D$\", D, W);\nlabel(\"$E$\", E, NE);\nlabel(\"$F$\", F, SW);\nlabel(\"$T$\", T, S);\n[/asy]",
   "n_questions": 6,
   "labels": [

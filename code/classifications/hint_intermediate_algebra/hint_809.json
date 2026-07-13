@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $A = (1,0),$ $B = (4,3),$ and $C = (p,q)$ be three points on the parabola $y = -x^2 + 6x - 5,$ where $1 \\le p \\le 4.$  Find the largest possible area of triangle $ABC.$",
   "n_questions": 10,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Solve\n\\[\\arccos 2x - \\arccos x = \\frac{\\pi}{3}.\\]Enter all the solutions, separated by commas.",
   "n_questions": 6,
   "labels": [

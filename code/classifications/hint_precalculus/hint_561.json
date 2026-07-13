@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Find the matrix $\\mathbf{M},$ with real entries, such that\n\\[\\mathbf{M}^3 - 4 \\mathbf{M}^2 + 5 \\mathbf{M} = \\begin{pmatrix} 10 & 20 \\\\ 5 & 10 \\end{pmatrix}.\\]",
   "n_questions": 9,
   "labels": [

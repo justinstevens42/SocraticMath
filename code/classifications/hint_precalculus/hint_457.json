@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Find the $3 \\times 3$ matrix $\\mathbf{M}$ such that\n\\[\\mathbf{M} \\mathbf{v} = -4 \\mathbf{v}\\]for all three-dimensional vectors $\\mathbf{v}.$",
   "n_questions": 6,
   "labels": [

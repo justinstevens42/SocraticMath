@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "In a certain colony of bacteria, the number of bacteria doubles every day. The colony starts with 3 bacteria, and has 6 at the end of day 1, 12 at the end of day 2, and so on. What is the number of the first day which ends with the colony having more than 100 bacteria?",
   "n_questions": 8,
   "labels": [

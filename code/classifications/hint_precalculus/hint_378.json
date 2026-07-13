@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Convert the point $(\\rho,\\theta,\\phi) = \\left( 4, \\frac{5 \\pi}{3}, \\frac{\\pi}{2} \\right)$ in spherical coordinates to rectangular coordinates.",
   "n_questions": 7,
   "labels": [

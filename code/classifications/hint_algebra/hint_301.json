@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "The Cookie Monster encounters a cookie whose boundary is the equation $x^2+y^2 - 6.5 = x + 3 y$ and is very confused. He wants to know if this cookie is a lunch-sized cookie or a snack-sized cookie. What is the radius of this cookie?",
   "n_questions": 8,
   "labels": [

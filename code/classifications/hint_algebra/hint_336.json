@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Let $A$ be the vertex of the graph of the equation $y=x^2 - 2x + 3 $. Let $B$ be the vertex of the graph of the equation $y=x^2 + 4x + 10 $. What is the distance between $A$ and $B$?",
   "n_questions": 6,
   "labels": [

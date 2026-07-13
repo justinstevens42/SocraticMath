@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Simplify $\\displaystyle\\frac{1-i}{2+3i}$, where $i^2 = -1.$",
   "n_questions": 8,
   "labels": [

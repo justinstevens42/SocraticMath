@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Suppose that $a$ is a multiple of $3$ and $b$ is a multiple of $6$. Which of the following statements must be true?\n\nA. $b$ is a multiple of $3$.\nB. $a-b$ is a multiple of $3$.\nC. $a-b$ is  a multiple of $6$.\nD. $a-b$ is  a multiple of $2$.\n\nList the choices in your answer separated by commas.  For example, if you think they are all true, then answer \"A,B,C,D\".",
   "n_questions": 7,
   "labels": [

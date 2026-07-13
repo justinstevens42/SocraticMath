@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "Suppose $\\sin N = \\frac{2}{3}$ in the diagram below.  What is $LN$?\n\n\n\n[asy]\npair L,M,N;\nM = (0,0);\nN = (17.89,0);\nL = (0,16);\ndraw(L--M--N--L);\ndraw(rightanglemark(L,M,N,18));\nlabel(\"$M$\",M,SW);\nlabel(\"$N$\",N,SE);\nlabel(\"$L$\",L,NE);\nlabel(\"$16$\",L/2,W);\n[/asy]",
   "n_questions": 8,
   "labels": [

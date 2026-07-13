@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "The lines $y=2$, $y=5$, $x=1$, and $x=a$ make a square. Find the product of the possible values for $a$.",
   "n_questions": 6,
   "labels": [

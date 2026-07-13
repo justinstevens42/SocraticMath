@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Let $a_0$, $a_1$, $a_2$, $\\dots$ be an infinite sequence of real numbers such that $a_0 = \\frac{5}{13}$ and\n\\[\n  a_{n} = 2 a_{n-1}^2 - 1\n\\]for every positive integer $n$.  Let $c$ be the smallest number such that for every positive integer $n$, the product of the first $n$ terms satisfies the inequality\n\\[|a_0 a_1 \\dotsm a_{n - 1}| \\le \\frac{c}{2^n}.\\]What is the value of $100c$, rounded to the nearest integer?",
   "n_questions": 7,
   "labels": [

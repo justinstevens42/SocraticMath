@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "When $\\sqrt[3]{2700}$ is simplified, the result is $a\\sqrt[3]{b}$, where $a$ and $b$ are positive integers and $b$ is as small as possible.  What is $a+b$?",
   "n_questions": 8,
   "labels": [

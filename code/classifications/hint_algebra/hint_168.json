@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Given the function $y=x^2+10x+21$, what is the least possible value of $y$?",
   "n_questions": 6,
   "labels": [

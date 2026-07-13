@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 1",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "When three positive integers are divided by $12$, the remainders are $7,$ $9,$ and $10,$ respectively.\n\nWhen the sum of the three integers is divided by $12$, what is the remainder?",
   "n_questions": 6,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "The function $f(x)$ satisfies\n\\[3f(x) - 2 f \\left( \\frac{1}{x} \\right) = x\\]for all $x \\neq 0.$  Find $f(4).$",
   "n_questions": 6,
   "labels": [

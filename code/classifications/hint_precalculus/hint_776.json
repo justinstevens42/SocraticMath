@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The foot of the perpendicular from the origin to a plane is $(12,-4,3).$  Find the equation of the plane.  Enter your answer in the form\n\\[Ax + By + Cz + D = 0,\\]where $A,$ $B,$ $C,$ $D$ are integers such that $A > 0$ and $\\gcd(|A|,|B|,|C|,|D|) = 1.$",
   "n_questions": 6,
   "labels": [

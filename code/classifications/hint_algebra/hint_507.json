@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Solve for $x$: $\\frac{5x}{(x+3)} - \\frac3{(x+3)} = \\frac1{(x+3)}$",
   "n_questions": 12,
   "labels": [

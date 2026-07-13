@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "The quantity $\\tan 7.5^\\circ$ can be expressed in the form\n\\[\\tan 7.5^\\circ = \\sqrt{a} - \\sqrt{b} + \\sqrt{c} - d,\\]where $a \\ge b \\ge c \\ge d$ are positive integers.  Find $a + b + c + d.$",
   "n_questions": 10,
   "labels": [

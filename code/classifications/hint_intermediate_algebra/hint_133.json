@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The numbers $a_1,$ $a_2,$ $a_3,$ $b_1,$ $b_2,$ $b_3,$ $c_1,$ $c_2,$ $c_3$ are equal to the numbers $1,$ $2,$ $3,$ $\\dots,$ $9$ in some order.  Find the smallest possible value of\n\\[a_1 a_2 a_3 + b_1 b_2 b_3 + c_1 c_2 c_3.\\]",
   "n_questions": 7,
   "labels": [

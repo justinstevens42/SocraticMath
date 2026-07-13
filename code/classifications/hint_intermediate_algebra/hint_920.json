@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Given that $x - \\frac{1}{x} = i \\sqrt{2},$ find $x^{2187} - \\frac{1}{x^{2187}}.$",
   "n_questions": 7,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "A circle with center $O$ has radius $8$ units and circle $P$ has radius $2$ units.  The circles are externally tangent to each other at point $Q$.  Segment $TS$ is the common external tangent to circle $O$ and circle $P$ at points $T$ and $S$, respectively.  What is the length of segment $OS$?  Express your answer in simplest radical form.",
   "n_questions": 11,
   "labels": [

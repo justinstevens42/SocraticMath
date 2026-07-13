@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Let $n$ be a positive integer. If $a\\equiv (3^{2n}+4)^{-1}\\pmod{9}$, what is the remainder when $a$ is divided by $9$?",
   "n_questions": 8,
   "labels": [

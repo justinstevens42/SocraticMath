@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "A projectile is fired with an initial velocity of $v$ at an angle of $\\theta$ from the ground.  Then its trajectory can modeled by the parametric equations\n\\begin{align*}\nx &= vt \\cos \\theta, \\\\\ny &= vt \\sin \\theta - \\frac{1}{2} gt^2,\n\\end{align*}where $t$ denotes time and $g$ denotes acceleration due to gravity, forming a parabolic arch.\n\nSuppose $v$ is held constant, but $\\theta$ is allowed to vary, over $0^\\circ \\le \\theta \\le 180^\\circ.$  The highest point of each parabolic arch is plotted.  (Several examples are shown below.)  As $\\theta$ varies, the highest points of the arches trace a closed curve.  The area of this closed curve can be expressed in the form\n\\[c \\cdot \\frac{v^4}{g^2}.\\]Find $c.$\n\n[asy]\nunitsize (5 cm);\n\nreal g, t, theta, v;\npath arch;\n\ng = 1;\nv = 1;\n\ntheta = 80;\narch = (0,0);\n\nfor (t = 0; t <= 2*v*Sin(theta)/g; t = t + 0.01) {\n  arch = arch--(v*t*Cos(theta),v*t*Sin(theta) - 1/2*g*t^2);\n}\n\ndraw(arch);\nt = v*Sin(theta)/g;\ndot((v*t*Cos(theta),v*t*Sin(theta) - 1/2*g*t^2),red);\n\ntheta = 40;\narch = (0,0);\n\nfor (t = 0; t <= 2*v*Sin(theta)/g; t = t + 0.01) {\n  arch = arch--(v*t*Cos(theta),v*t*Sin(theta) - 1/2*g*t^2);\n}\n\ndraw(arch);\nt = v*Sin(theta)/g;\ndot((v*t*Cos(theta),v*t*Sin(theta) - 1/2*g*t^2),red);\n\ntheta = 110;\narch = (0,0);\n\nfor (t = 0; t <= 2*v*Sin(theta)/g; t = t + 0.01) {\n  arch = arch--(v*t*Cos(theta),v*t*Sin(theta) - 1/2*g*t^2);\n}\n\ndraw(arch);\nt = v*Sin(theta)/g;\ndot((v*t*Cos(theta),v*t*Sin(theta) - 1/2*g*t^2),red);\n\ndraw((-0.8,0)--(1.2,0));\n\ndot((0,0));\n[/asy]",
   "n_questions": 9,
   "labels": [

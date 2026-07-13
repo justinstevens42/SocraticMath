@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "Define $a * b$ as $2a - b^2$. If $a * 5 = 9$, what is the value of $a$?",
   "n_questions": 6,
   "labels": [

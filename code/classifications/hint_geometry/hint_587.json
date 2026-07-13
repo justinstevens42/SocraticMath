@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "$ABCDEFGH$ shown below is a cube. Find $\\sin \\angle GAC$.\n\n[asy]\n\nimport three;\n\ntriple A,B,C,D,EE,F,G,H;\n\nA = (0,0,0);\n\nB = (1,0,0);\n\nC = (1,1,0);\n\nD= (0,1,0);\n\nEE = (0,0,1);\n\nF = B+EE;\n\nG = C + EE;\n\nH = D + EE;\n\ndraw(B--C--D);\n\ndraw(B--A--D,dashed);\n\ndraw(EE--F--G--H--EE);\n\ndraw(A--EE,dashed);\n\ndraw(B--F);\n\ndraw(C--G);\n\ndraw(D--H);\n\nlabel(\"$A$\",A,S);\n\nlabel(\"$B$\",B,W);\n\nlabel(\"$C$\",C,S);\n\nlabel(\"$D$\",D,E);\n\nlabel(\"$E$\",EE,N);\n\nlabel(\"$F$\",F,W);\n\nlabel(\"$G$\",G,SW);\n\nlabel(\"$H$\",H,E);\n\n[/asy]",
   "n_questions": 10,
   "labels": [

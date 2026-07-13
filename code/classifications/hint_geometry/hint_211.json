@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "The volume of a cylinder is $54\\pi$ $\\text{cm}^3$. How many cubic centimeters are in the volume of a cone with the same radius and height as the cylinder? Express your answer in terms of $\\pi$. [asy]\nimport solids; currentprojection=orthographic(0,100,25); defaultpen(linewidth(0.8));\nrevolution cyl = cylinder((5,0,0),1,5,Z);\nrevolution cone = cone((0,0,0),1,5,Z);\ndraw(cyl,backpen=dashed);\ndraw(cone,backpen=dashed);\n\n[/asy]",
   "n_questions": 6,
   "labels": [

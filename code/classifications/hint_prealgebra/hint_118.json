@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The diagonals of a rhombus are 6 inches and 8 inches. What is the perimeter, in inches, of the rhombus below? [asy]\nimport geometry; size(150); defaultpen(linewidth(0.8));\npair A = (0,0),B = (8,6),C = (16,0),D = (8,-6), E = (8,0);\ndraw(A--B--C--D--cycle);\ndraw(A--C,StickIntervalMarker(2,2,10)); draw(B--D,StickIntervalMarker(2,1,10));\ndraw(rightanglemark(A,E,B,30));\n[/asy]",
   "n_questions": 8,
   "labels": [

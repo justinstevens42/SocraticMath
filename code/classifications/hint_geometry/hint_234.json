@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "What is the ratio of the area of a square inscribed in a semicircle with radius $r$ to the area of a square inscribed in a circle with radius $r$? Express your answer as a common fraction.",
   "n_questions": 6,
   "labels": [

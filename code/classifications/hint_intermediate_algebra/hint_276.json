@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "For what values of $x$ is \\[\\frac{x-10x^2+25x^3}{8-x^3}\\]nonnegative?  Answer as an interval.",
   "n_questions": 7,
   "labels": [

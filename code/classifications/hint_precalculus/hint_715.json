@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "In triangle $ABC,$ $\\angle C = \\frac{\\pi}{2}.$  Find\n\\[\\arctan \\left( \\frac{a}{b + c} \\right) + \\arctan \\left( \\frac{b}{a + c} \\right).\\]",
   "n_questions": 7,
   "labels": [

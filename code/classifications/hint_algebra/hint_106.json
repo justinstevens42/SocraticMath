@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find the greatest integer value of $b$ for which the expression $\\frac{9x^3+4x^2+11x+7}{x^2+bx+8}$ has a domain of all real numbers.",
   "n_questions": 10,
   "labels": [

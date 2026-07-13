@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "As $p$ ranges over the primes greater than $5$, how many different remainders can $p^2$ leave upon division by $120$?",
   "n_questions": 10,
   "labels": [

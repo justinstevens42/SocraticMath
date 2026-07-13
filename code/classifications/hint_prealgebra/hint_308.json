@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "In right triangle $PQR$, we have $\\angle Q = \\angle R$ and $QR = 6\\sqrt{2}$.  What is the area of $\\triangle PQR$?",
   "n_questions": 8,
   "labels": [

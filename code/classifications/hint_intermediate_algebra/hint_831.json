@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "A region $S$ in the complex plane is defined by \\begin{align*}\nS = \\{x + iy: - 1\\le x\\le1, - 1\\le y\\le1\\}.\n\\end{align*}A complex number $z = x + iy$ is chosen uniformly at random from $S$. What is the probability that $\\left(\\frac34 + \\frac34i\\right)z$ is also in $S$?",
   "n_questions": 7,
   "labels": [

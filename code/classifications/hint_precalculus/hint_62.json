@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "If\n\\[\\frac{\\sin^4 \\theta}{a} + \\frac{\\cos^4 \\theta}{b} = \\frac{1}{a + b},\\]then find the value of\n\\[\\frac{\\sin^8 \\theta}{a^3} + \\frac{\\cos^8 \\theta}{b^3}\\]in terms of $a$ and $b.$",
   "n_questions": 7,
   "labels": [

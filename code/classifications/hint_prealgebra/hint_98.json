@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "How many numbers in the set $\\{3,13,23,33, \\ldots\\}$ can be written as the difference of two primes?",
   "n_questions": 8,
   "labels": [

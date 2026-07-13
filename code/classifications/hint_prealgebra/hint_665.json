@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 2",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Of the numbers 1, 2, 3, ..., 15, which number has the greatest number of divisors (the dots mean that we are including all the integers between 1 and 15)?",
   "n_questions": 8,
   "labels": [

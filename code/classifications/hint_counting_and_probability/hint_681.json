@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "For some integers that are not palindromes, like 91, a person can create a palindrome by repeatedly reversing the number and adding the original number to its reverse. For example, $91 + 19 = 110$. Then $110+011 = 121$, which is a palindrome, so 91 takes two steps to become a palindrome. Of all positive integers between 10 and 100, what is the sum of the non-palindrome integers that take exactly six steps to become palindromes?",
   "n_questions": 7,
   "labels": [

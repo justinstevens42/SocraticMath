@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find the quadratic polynomial $p(x)$ such that $p(-2) = 13,$ $p(1) = -2,$ and $p(3) = 8.$",
   "n_questions": 8,
   "labels": [

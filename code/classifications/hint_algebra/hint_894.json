@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Let $f(x) = ax+b$, where $a$ and $b$ are real constants, and $g(x) = 2x - 5$. Suppose that for all $x$, it is true that $g(f(x)) = 3x + 4$. What is $a+b$?",
   "n_questions": 8,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find the maximum value of\n\\[\\sin \\frac{\\theta}{2} \\cdot (1 + \\cos \\theta)\\]for $0 < \\theta < \\pi.$",
   "n_questions": 10,
   "labels": [

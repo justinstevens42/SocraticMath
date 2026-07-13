@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Two integers are relatively prime if they have no common factors other than 1 or -1. What is the probability that a positive integer less than or equal to 30 is relatively prime to 30? Express your answer as a common fraction.",
   "n_questions": 6,
   "labels": [

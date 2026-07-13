@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Let $m$ be the product of all positive integers less than $4!$ which are invertible modulo $4!$. Find the remainder when $m$ is divided by $4!$.\n\n(Here $n!$ denotes $1\\times\\cdots\\times n$ for each positive integer $n$.)",
   "n_questions": 6,
   "labels": [

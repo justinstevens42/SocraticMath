@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Cindy wishes to arrange her coins into $X$ piles, each consisting of the same number of coins, $Y$. Each pile will have more than one coin and no pile will have all the coins. If there are 13 possible values for $Y$ given all of the restrictions, what is the smallest number of coins she could have?",
   "n_questions": 10,
   "labels": [

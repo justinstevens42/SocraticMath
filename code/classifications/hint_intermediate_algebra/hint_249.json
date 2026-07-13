@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Let $f : \\mathbb{R} \\to \\mathbb{R}$ be a function such that\n\\[f(x^2 + yf(z)) = xf(x) + zf(y)\\]for all real numbers $x,$ $y,$ and $z.$\n\nLet $n$ be the number of possible values of $f(5),$ and let $s$ be the sum of all possible values of $f(5).$  Find $n \\times s.$",
   "n_questions": 7,
   "labels": [

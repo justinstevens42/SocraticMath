@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "Palindromes are numbers that read the same backwards and forwards, like 5665. What is the least possible positive four-digit palindrome that is divisible by 3?",
   "n_questions": 7,
   "labels": [

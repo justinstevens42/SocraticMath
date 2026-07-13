@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find the number of solutions to\n\\[\\sin x = \\left( \\frac{1}{2} \\right)^x\\]on the interval $(0,100 \\pi).$",
   "n_questions": 10,
   "labels": [

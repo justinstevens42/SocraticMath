@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "The line segment connecting $(-2,7)$ and $(3,11)$ can be parameterized by the equations\n\\begin{align*}\nx &= at + b, \\\\\ny &= ct + d,\n\\end{align*}where $0 \\le t \\le 1,$ and $t = 0$ corresponds to the point $(-2,7).$  Find $a^2 + b^2 + c^2 + d^2.$",
   "n_questions": 7,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "In rectangle $ABCD$, $AB = 3$ and $BC = 9$. The rectangle is folded so that points $A$ and $C$ coincide, forming the pentagon $ABEFD$. What is the length of segment $EF$? Express your answer in simplest radical form.\n\n[asy]\nsize(200);\ndefaultpen(linewidth(.8pt)+fontsize(10pt));\ndraw((0,0)--(9,0)--(9,3)--(0,3)--(0,0)--cycle);\ndraw((17,3)--(12,3)--(12,0)--(21,0),dashed);\ndraw((21,3)--(17,3)--(16,0)--(16+3.2,-2.4)--(21,0)--(21,3)--cycle);\ndraw((17,3)--(21,0));\n\nlabel(\"A\", (0,3), NW);\nlabel(\"B\", (0,0), SW);\nlabel(\"C\", (9,0), SE);\nlabel(\"D\", (9,3), NE);\nlabel(\"B\", (19.2,-2.4), SE);\nlabel(\"D\", (21,3), NE);\nlabel(\"E\", (16,0), SW);\nlabel(\"F\", (17,3), N);\nlabel(\"A$\\&$C\", (21,0), SE);\n[/asy]",
   "n_questions": 7,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "Triangle $ABC$ is isosceles with angle $B$ congruent to angle $C$. The measure of angle $C$ is four times the measure of angle $A$. What is the number of degrees in the measure of angle $B$?",
   "n_questions": 6,
   "labels": [

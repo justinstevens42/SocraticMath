@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "In $\\triangle XYZ$, we have $\\angle X = 90^\\circ$ and $\\tan Y = \\frac34$.  If $YZ = 30$, then what is $XY$?",
   "n_questions": 7,
   "labels": [

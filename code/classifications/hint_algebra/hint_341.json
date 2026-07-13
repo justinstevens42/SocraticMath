@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find $x$ such that $\\lfloor x \\rfloor + x = \\dfrac{13}{3}$. Express $x$ as a common fraction.",
   "n_questions": 10,
   "labels": [

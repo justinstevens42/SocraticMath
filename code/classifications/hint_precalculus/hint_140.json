@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $a$ and $b$ be angles such that\n\\[\\cos (a + b) = \\cos a + \\cos b.\\]Find the maximum value of $\\cos a.$",
   "n_questions": 6,
   "labels": [

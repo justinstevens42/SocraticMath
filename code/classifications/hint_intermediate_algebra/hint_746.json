@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Let $a$ and $b$ be positive real numbers.  Find the minimum value of\n\\[a^2 + b^2 + \\frac{1}{(a + b)^2}.\\]",
   "n_questions": 10,
   "labels": [

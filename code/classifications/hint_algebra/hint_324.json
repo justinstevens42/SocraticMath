@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Let \\[f(n) = \\left\\{\n\\begin{array}{cl}\nn^2-2 & \\text{ if }n<0, \\\\\n2n-20 & \\text{ if }n \\geq 0.\n\\end{array}\n\\right.\\]What is the positive difference between the two values of $a$ that satisfy the equation $f(-2)+f(2)+f(a)=0$?",
   "n_questions": 8,
   "labels": [

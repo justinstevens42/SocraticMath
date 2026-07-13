@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "I have the following terms of an arithmetic sequence: $\\frac{1}{2}, x-1, 3x, \\ldots$. Solve for $x$.",
   "n_questions": 11,
   "labels": [

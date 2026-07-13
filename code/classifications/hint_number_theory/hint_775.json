@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Given that $a$ is an odd multiple of $7767$, find the greatest common divisor of $6a^2+49a+108$ and $2a+9$.",
   "n_questions": 8,
   "labels": [

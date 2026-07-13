@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Let $x,$ $y,$ and $z$ be positive real numbers.  Find the minimum value of\n\\[\\frac{4z}{2x + y} + \\frac{4x}{y + 2z} + \\frac{y}{x + z}.\\]",
   "n_questions": 6,
   "labels": [

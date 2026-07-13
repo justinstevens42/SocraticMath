@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Let $P(x) = 0$ be the polynomial equation of least possible degree, with rational coefficients, having $\\sqrt[3]{7} + \\sqrt[3]{49}$ as a root.  Compute the product of all of the roots of $P(x) = 0.$",
   "n_questions": 9,
   "labels": [

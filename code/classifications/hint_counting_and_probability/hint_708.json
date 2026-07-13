@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "A traffic light runs repeatedly through the following cycle: green for 30 seconds, then yellow for 3 seconds, and then red for 30 seconds.  Leah picks a random three-second time interval to watch the light.  What is the probability that the color changes while she is watching?",
   "n_questions": 6,
   "labels": [

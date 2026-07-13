@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "$ABCD$ is a trapezoid with the measure of base $\\overline{AB}$ twice the measure of the base $\\overline{CD}$. Point $E$ is the point of intersection of the diagonals. The measure of diagonal $\\overline{AC}$ is 11. Find the length of segment $\\overline{EC}$. Express your answer as a common fraction.\n\n[asy]\n\nsize(200);\npair p1,p2,p3,p4;\np1 = (0,0); p2 = (2.5, 4); p3 = (7.5,4); p4 = (10,0);\n\ndraw(p1--p2--p3--p4--cycle);\ndraw(p1--p3); draw(p2--p4);\nlabel(\"$A$\", p1, SW);\nlabel(\"$D$\", p2, NW);\nlabel(\"$C$\", p3, NE);\nlabel(\"$B$\", p4, SE);\nlabel(\"$E$\", (5,2.5) , S);\n\n[/asy]",
   "n_questions": 8,
   "labels": [

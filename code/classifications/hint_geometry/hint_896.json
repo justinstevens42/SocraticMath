@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Triangle $AHI$ is equilateral. We know $\\overline{BC}$, $\\overline{DE}$ and $\\overline{FG}$ are all parallel to $\\overline{HI}$ and $AB = BD = DF = FH$. What is the ratio of the area of trapezoid $FGIH$ to the area of triangle $AHI$? Express your answer as a common fraction.\n\n[asy]\nunitsize(0.2inch);\ndefaultpen(linewidth(0.7));\nreal f(real y)\n{\n  return (5*sqrt(3)-y)/sqrt(3);\n}\ndraw((-5,0)--(5,0)--(0,5*sqrt(3))--cycle);\ndraw((-f(5*sqrt(3)/4),5*sqrt(3)/4)--(f(5*sqrt(3)/4),5*sqrt(3)/4));\ndraw((-f(5*sqrt(3)/2),5*sqrt(3)/2)--(f(5*sqrt(3)/2),5*sqrt(3)/2));\ndraw((-f(15*sqrt(3)/4),15*sqrt(3)/4)--(f(15*sqrt(3)/4),15*sqrt(3)/4));\nlabel(\"$A$\",(0,5*sqrt(3)),N);\nlabel(\"$B$\",(-f(15*sqrt(3)/4),15*sqrt(3)/4),WNW);\nlabel(\"$C$\",(f(15*sqrt(3)/4),15*sqrt(3)/4),ENE);\nlabel(\"$D$\",(-f(5*sqrt(3)/2),5*sqrt(3)/2),WNW);\nlabel(\"$E$\",(f(5*sqrt(3)/2),5*sqrt(3)/2),ENE);\nlabel(\"$F$\",(-f(5*sqrt(3)/4),5*sqrt(3)/4),WNW);\nlabel(\"$G$\",(f(5*sqrt(3)/4),5*sqrt(3)/4),ENE);\nlabel(\"$H$\",(-5,0),W);\nlabel(\"$I$\",(5,0),E);[/asy]",
   "n_questions": 8,
   "labels": [

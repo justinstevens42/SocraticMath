@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "What is the area, in square units, of triangle $ABC$ in the figure shown if points $A$, $B$, $C$ and $D$ are coplanar, angle $D$ is a right angle, $AC = 13$, $AB = 15$ and $DC = 5$? [asy]\npair A, B, C, D;\nA=(12,0);\nD=(0,0);\nC=(0,5);\nB=(0,9);\ndraw(A--B--C--A--D--C);\ndraw((0,.5)--(.5,.5)--(.5,0));\nlabel(\"$A$\", A, dir(-45));\nlabel(\"$B$\", B, dir(135));\nlabel(\"$C$\", C, dir(180));\nlabel(\"$D$\", D, dir(-135));\n[/asy]",
   "n_questions": 8,
   "labels": [

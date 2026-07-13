@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Triangle $ABC$ has side lengths $AB=5$, $BC=6$, and $AC=7$. Two bugs start simultaneously from $A$ and crawl along the perimeter of the triangle in opposite directions at the same speed. They meet at point $D$. What is $BD$?",
   "n_questions": 6,
   "labels": [

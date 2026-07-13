@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Compute $\\begin{pmatrix} 1 & 0 \\\\ 1 & 1 \\end{pmatrix}^{2018}.$",
   "n_questions": 6,
   "labels": [

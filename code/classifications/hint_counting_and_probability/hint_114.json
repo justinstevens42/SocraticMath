@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Bob rolls a fair six-sided die each morning. If Bob rolls a composite number, he eats sweetened cereal. If he rolls a prime number, he eats unsweetened cereal. If he rolls a 1, then he rolls again. In a non-leap year, what is the expected value of the difference between the number of days Bob eats unsweetened cereal and the number of days he eats sweetened cereal? [asy]\nimport olympiad; import geometry; size(50);\n\ndefaultpen(linewidth(0.8));\ndraw(unitsquare);\ndraw((0,1)--(0.5,1.5)--(1.5,1.5)--(1.5,0.5)--(1,0)^^(1.5,1.5)--(1,1));\ndot((0.3,0.2)); dot((0.7,0.2));\ndot((0.3,0.5)); dot((0.7,0.5));\ndot((0.3,0.8)); dot((0.7,0.8));\ndot((1.125,0.375)); dot((1.25,0.75)); dot((1.375,1.125));\ndot((0.5,0.5/3 + 1)); dot((1.0,4/3));\n[/asy]",
   "n_questions": 10,
   "labels": [

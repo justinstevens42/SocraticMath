@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Let $x,$ $y,$ and $z$ be positive real numbers such that $x + y + z = 1.$  Find the minimum value of\n\\[\\frac{1}{x} + \\frac{1}{y} + \\frac{1}{z}.\\]",
   "n_questions": 6,
   "labels": [

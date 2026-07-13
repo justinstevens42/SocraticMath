@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "In the diagram, the smaller circles touch the larger circle and touch each other at the center of the larger circle. The radius of the larger circle is $6.$ What is the area of the shaded region?\n\n[asy]\nsize(100);\nimport graph;\nfilldraw(Circle((0,0),2),mediumgray);\nfilldraw(Circle((-1,0),1),white);\nfilldraw(Circle((1,0),1),white);\n[/asy]",
   "n_questions": 10,
   "labels": [

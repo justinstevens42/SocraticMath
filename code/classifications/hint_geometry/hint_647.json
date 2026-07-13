@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "In $\\Delta ABC$, $AC = BC$, $m\\angle DCB = 40^{\\circ}$, and $CD \\parallel AB$. What is the number of degrees in $m\\angle ECD$?\n\n[asy] pair A,B,C,D,E; B = dir(-40); A = dir(-140); D = (.5,0); E = .4 * dir(40);\ndraw(C--B--A--E,EndArrow); draw(C--D,EndArrow);\nlabel(\"$A$\",A,W); label(\"$C$\",C,NW);label(\"$B$\",B,E);label(\"$D$\",D,E);label(\"$E$\",E,E);\n[/asy]",
   "n_questions": 7,
   "labels": [

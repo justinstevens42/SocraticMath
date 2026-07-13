@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Given that $m \\angle A= 60^\\circ$, $BC=12$ units, $\\overline{BD} \\perp \\overline{AC}$, $\\overline{CE} \\perp \\overline{AB}$ and $m \\angle DBC = 3m \\angle ECB$, the length of segment $EC$ can be expressed in the form $a(\\sqrt{b}+\\sqrt{c})$ units where $b$ and $c$ have no perfect-square factors.  What is the value of $a+b+c$?\n\n[asy]\ndraw((0,0)--(8,.7)--(2.5,5)--cycle);\ndraw((0,0)--(4.2,3.7));\ndraw((8,.7)--(1.64,3.2));\nlabel(\"$B$\",(0,0),W);\nlabel(\"$C$\",(8,.7),E);\nlabel(\"$D$\",(4.2,3.7),NE);\nlabel(\"$E$\",(1.64,3.2),NW);\nlabel(\"$A$\",(2.5,5),N);\n[/asy]",
   "n_questions": 10,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Shown below are rows 1, 2, and 3 of Pascal's triangle.\n\n\\[\n\\begin{array}{ccccccc}\n& & 1 & & 1 & & \\\\\n& 1 & & 2 & & 1 & \\\\\n1 & & 3 & & 3 & & 1\n\\end{array}\n\\]Let $(a_i),$ $(b_i),$ $(c_i)$ be the sequence, from left to right, of elements in the 2005th, 2006th, and 2007th rows, respectively, with the leftmost element occurring at $i = 0.$  Compute\n\\[\\sum_{i = 0}^{2006} \\frac{b_i}{c_i} - \\sum_{i = 0}^{2005} \\frac{a_i}{b_i}.\\]",
   "n_questions": 10,
   "labels": [

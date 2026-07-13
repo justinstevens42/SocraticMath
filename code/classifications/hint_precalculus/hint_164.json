@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "There exist constants $a$ and $b$ so that\n\\[\\cos^3 \\theta = a \\cos 3 \\theta  + b \\cos \\theta\\]for all angles $\\theta.$  Enter the ordered pair $(a,b).$",
   "n_questions": 9,
   "labels": [

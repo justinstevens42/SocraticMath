@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Suppose $z$ and $w$ are complex numbers such that\n\\[|z| = |w| = z \\overline{w} + \\overline{z} w= 1.\\]Find the largest possible value of the real part of $z + w.$",
   "n_questions": 10,
   "labels": [

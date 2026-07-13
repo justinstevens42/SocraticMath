@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "The equation $x^2 - (1A)x + A0 = 0$ has positive integer solutions where $A$ is a positive  single digit. How many such $A$s exist? (Since $A$ is representing a digit, if $A = 2$ then   $A0$ represents the integer 20.)",
   "n_questions": 10,
   "labels": [

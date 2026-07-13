@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "What must be the value of the coefficient $c$ in $P(x)=x^3+2x^2+cx+10$, in order for $x-5$ to be a factor of $P$?",
   "n_questions": 5,
   "labels": [

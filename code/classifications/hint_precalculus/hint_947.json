@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Let $\\mathbf{D}$ be a matrix representing a dilation with scale factor $k > 0,$ and let $\\mathbf{R}$ be a matrix representing a rotation about the origin by an angle of $\\theta$ counter-clockwise.  If\n\\[\\mathbf{R} \\mathbf{D} = \\begin{pmatrix} 8 & -4 \\\\ 4 & 8 \\end{pmatrix},\\]then find $\\tan \\theta.$",
   "n_questions": 10,
   "labels": [

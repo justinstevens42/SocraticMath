@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $l,$ $m,$ and $n$ be real numbers, and let $A,$ $B,$ $C$ be points such that the midpoint of $\\overline{BC}$ is $(l,0,0),$ the midpoint of $\\overline{AC}$ is $(0,m,0),$ and the midpoint of $\\overline{AB}$ is $(0,0,n).$  Find\n\\[\\frac{AB^2 + AC^2 + BC^2}{l^2 + m^2 + n^2}.\\]",
   "n_questions": 10,
   "labels": [

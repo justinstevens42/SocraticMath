@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Find the least positive integer such that when its leftmost digit is deleted, the resulting integer is 1/29 of the original integer.",
   "n_questions": 12,
   "labels": [

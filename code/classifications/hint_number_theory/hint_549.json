@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "How many positive four-digit integers of the form $\\_\\_45$ are divisible by 45?",
   "n_questions": 9,
   "labels": [

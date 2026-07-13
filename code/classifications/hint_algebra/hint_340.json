@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "Let $f(x)=2x^4+x^3+x^2-3x+r$. For what value of $r$ is $f(2)=0$?",
   "n_questions": 6,
   "labels": [

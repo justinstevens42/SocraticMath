@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 2",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "A number is divisible by $8$ if the number formed by its last $3$ digits is divisible by $8.$ For example, the number $47\\,389\\,248$ is divisible by $8$ because $248$ is divisible by $8.$ However, $47\\,389\\,284$ is not divisible by $8$ because $284$ is not divisible by $8.$\n\nIf $992\\,466\\,1A6$ is divisible by $8,$ where $A$ represents one digit, what is the sum of the possible values of $A?$",
   "n_questions": 7,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "The center of a circle has coordinates $(6,-5)$. The circle is reflected about the line $y=x$. What are the $x,y$ coordinates of the center of the image circle? State the $x$ coordinate first.",
   "n_questions": 6,
   "labels": [

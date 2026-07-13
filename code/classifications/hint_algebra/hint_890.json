@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "If $f(n) = n^2 + n + 17$, what is the value of $f(11)$?",
   "n_questions": 10,
   "labels": [

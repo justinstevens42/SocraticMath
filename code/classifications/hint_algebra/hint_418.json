@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The value of the expression  \\[(3^{1001}+4^{1002})^2-(3^{1001}-4^{1002})^2\\]is $k\\cdot12^{1001}$ for some positive integer $k$. What is $k$?",
   "n_questions": 12,
   "labels": [

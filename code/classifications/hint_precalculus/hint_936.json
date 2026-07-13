@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "In spherical coordinates, the point $\\left( 3, \\frac{2 \\pi}{7}, \\frac{8 \\pi}{5} \\right)$ is equivalent to what other point, in the standard spherical coordinate representation?  Enter your answer in the form $(\\rho,\\theta,\\phi),$ where $\\rho > 0,$ $0 \\le \\theta < 2 \\pi,$ and $0 \\le \\phi \\le \\pi.$",
   "n_questions": 8,
   "labels": [

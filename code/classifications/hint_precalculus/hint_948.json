@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "For a certain value of $k,$ the system\n\\begin{align*}\nx + ky + 3z &= 0, \\\\\n3x + ky - 2z &= 0, \\\\\n2x + 4y - 3z &= 0\n\\end{align*}has a solution where $x,$ $y,$ and $z$ are all nonzero.  Find $\\frac{xz}{y^2}.$",
   "n_questions": 12,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Let $f(x)=3x+4$ and $g(x)=2x-3$.  If $h(x)=f(g(x))$, then what is the inverse of $h(x)$?",
   "n_questions": 6,
   "labels": [

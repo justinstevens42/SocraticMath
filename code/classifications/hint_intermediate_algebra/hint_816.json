@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "The function $f$ is not defined for $x = 0,$ but for all non-zero real numbers $x,$\n\\[f(x) + 2f \\left( \\frac{1}{x} \\right) = 3x.\\]Find the real solutions to $f(x) = f(-x).$  Enter the real solutions, separated by commas.",
   "n_questions": 6,
   "labels": [

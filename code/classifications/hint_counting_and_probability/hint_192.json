@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "In triangle $ABC$, $AB = 5$, $BC = 4$, and $CA = 3$.\n\n[asy]\ndefaultpen(1);\n\npair C=(0,0), A = (0,3), B = (4,0);\ndraw(A--B--C--cycle);\n\nlabel(\"\\(A\\)\",A,N);\nlabel(\"\\(B\\)\",B,E);\nlabel(\"\\(C\\)\",C,SW);\n[/asy]\n\nPoint $P$ is randomly selected inside triangle $ABC$.  What is the probability that $P$ is closer to $C$ than it is to either $A$ or $B$?",
   "n_questions": 6,
   "labels": [

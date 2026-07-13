@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Given any two positive real numbers $x$ and $y$, then $x \\, \\Diamond \\, y$ is a positive real number defined in terms of $x$ and $y$ by some fixed rule.  Suppose the operation $x \\, \\Diamond \\, y$ satisfies the equations $(xy) \\, \\Diamond \\, y=x(y \\, \\Diamond \\, y)$ and $(x \\, \\Diamond \\, 1) \\, \\Diamond \\, x = x \\, \\Diamond \\, 1$ for all $x,y>0$.  Given that $1 \\, \\Diamond \\, 1=1$, find $19 \\, \\Diamond \\, 98$.",
   "n_questions": 8,
   "labels": [

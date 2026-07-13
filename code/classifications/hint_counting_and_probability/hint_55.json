@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "A point $(x,y)$ is randomly picked from inside the rectangle with vertices  $(0,0)$, $(3,0)$, $(3,2)$, and $(0,2)$.  What is the probability that  $x < y$?",
   "n_questions": 10,
   "labels": [

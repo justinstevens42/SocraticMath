@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Let\n\\[\\mathbf{A} = \\begin{pmatrix} 0 & 0 & 1 \\\\ 1 & 0 & 0 \\\\ 0 & 1 & 0 \\end{pmatrix}.\\]Compute $\\mathbf{A}^{100}.$",
   "n_questions": 6,
   "labels": [

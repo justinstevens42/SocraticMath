@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Two distinct numbers are selected simultaneously and at random from the set $\\{1, 2, 3, 4, 5\\}$. What is the probability that the smaller one divides the larger one? Express your answer as a common fraction.",
   "n_questions": 7,
   "labels": [

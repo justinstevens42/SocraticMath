@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 2",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "In the equation $w^3+x^3+y^3=z^3$, $w^3$, $x^3$, $y^3$, and $z^3$ are distinct, consecutive positive perfect cubes listed in ascending order. What is the smallest possible value of $z$?",
   "n_questions": 11,
   "labels": [

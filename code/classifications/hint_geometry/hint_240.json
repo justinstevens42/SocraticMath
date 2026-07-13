@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "In rectangle $ADEH$, points $B$ and  $C$  trisect $\\overline{AD}$, and points $G$ and  $F$ trisect $\\overline{HE}$. In addition,  $AH=AC=2$. What is the area of  quadrilateral $WXYZ$ shown in the figure?\n\n[asy]\nunitsize(1cm);\npair A,B,C,D,I,F,G,H,U,Z,Y,X;\nA=(0,0);\nB=(1,0);\nC=(2,0);\nD=(3,0);\nI=(3,2);\nF=(2,2);\nG=(1,2);\nH=(0,2);\nU=(1.5,1.5);\nZ=(2,1);\nY=(1.5,0.5);\nX=(1,1);\ndraw(A--D--I--H--cycle,linewidth(0.7));\ndraw(H--C,linewidth(0.7));\ndraw(G--D,linewidth(0.7));\ndraw(I--B,linewidth(0.7));\ndraw(A--F,linewidth(0.7));\nlabel(\"$A$\",A,SW);\nlabel(\"$B$\",B,S);\nlabel(\"$C$\",C,S);\nlabel(\"$D$\",D,SE);\nlabel(\"$E$\",I,NE);\nlabel(\"$F$\",F,N);\nlabel(\"$G$\",G,N);\nlabel(\"$H$\",H,NW);\nlabel(\"$W$\",U,N);\nlabel(\"$X$\",X,W);\nlabel(\"$Y$\",Y,S);\nlabel(\"$Z$\",Z,E);\n[/asy]",
   "n_questions": 6,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "If $\\mathbf{a}$ and $\\mathbf{b}$ are vectors such that $\\|\\mathbf{a}\\| = 7$ and $\\|\\mathbf{b}\\| = 11$, then find all possible values of $\\mathbf{a} \\cdot \\mathbf{b}$.\n\nSubmit your answer in interval notation.",
   "n_questions": 10,
   "labels": [

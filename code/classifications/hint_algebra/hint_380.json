@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "If $f(x)$ is a function defined only for $0 \\le x \\le 1$, and $f(x) = ax+b$ for constants $a$ and $b$ where $a < 0$, then what is the range of $f$ in terms of $a$ and $b$? Express your answer in interval notation.",
   "n_questions": 8,
   "labels": [

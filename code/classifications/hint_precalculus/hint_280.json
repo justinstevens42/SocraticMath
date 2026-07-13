@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "For a constant $c,$ in spherical coordinates $(\\rho,\\theta,\\phi),$ find the shape described by the equation\n\\[\\phi = c.\\](A) Line\n(B) Circle\n(C) Plane\n(D) Sphere\n(E) Cylinder\n(F) Cone\n\nEnter the letter of the correct option.",
   "n_questions": 8,
   "labels": [

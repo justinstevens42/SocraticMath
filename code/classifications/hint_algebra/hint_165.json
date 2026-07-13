@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Solve for $c$: $$\\sqrt{4+\\sqrt{8+4c}}+ \\sqrt{2+\\sqrt{2+c}} = 2+2\\sqrt{2}$$",
   "n_questions": 10,
   "labels": [

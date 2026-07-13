@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
   "problem": "Let $\\mathbf{A} = \\begin{pmatrix} a & 1 \\\\ -2 & d \\end{pmatrix}$ for some real numbers $a$ and $d.$  If\n\\[\\mathbf{A} + \\mathbf{A}^{-1} = \\mathbf{0},\\]then find $\\det \\mathbf{A}.$",
   "n_questions": 6,
   "labels": [

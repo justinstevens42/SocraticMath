@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Find the sum of all positive divisors of $50$ that are also divisors of $15$.",
   "n_questions": 3,
   "labels": [

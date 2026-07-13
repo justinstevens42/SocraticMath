@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Compute the domain of the function  $$f(x)=\\frac{1}{\\lfloor x^2-7x+13\\rfloor}.$$",
   "n_questions": 8,
   "labels": [

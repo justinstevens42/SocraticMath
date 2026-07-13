@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "In triangle $XYZ$, we have $\\angle Z = 90^\\circ$, $XY = 10$, and $YZ = \\sqrt{51}$. What is $\\tan X$?",
   "n_questions": 10,
   "labels": [

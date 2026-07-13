@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Suppose that there are two congruent triangles $\\triangle ABC$ and $\\triangle ACD$ such that $AB = AC = AD,$ as shown in the following diagram. If $\\angle BAC = 20^\\circ,$ then what is $\\angle BDC$? [asy]\npair pA, pB, pC, pD;\npA = (0, 0);\npB = pA + dir(240);\npC = pA + dir(260);\npD = pA + dir(280);\ndraw(pA--pB--pC--pA);\ndraw(pA--pC--pD--pA);\nlabel(\"$A$\", pA, N);\nlabel(\"$B$\", pB, SW);\nlabel(\"$C$\", pC, S);\nlabel(\"$D$\", pD, E);\n[/asy]",
   "n_questions": 8,
   "labels": [

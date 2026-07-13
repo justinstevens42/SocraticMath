@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "In $\\triangle ABC$,  point $D$ is the midpoint of side $BC$.  Point $E$ is on $AC$ such that $AE:EC =1:2$. Point $F$ is on $AD$ such that $AF:FD=3:1$. If the area of $\\triangle DEF$ is 17, determine the area of $\\triangle ABC$. [asy]\nsize(6cm);defaultpen(fontsize(11));\npair b =(0,0);pair c = (10, 0);pair a=(4, 6);\npair d= midpoint(b--c);\npair e = a + (1/3) * (c - a);\npair f = d + 0.25 * (a - d);\ndraw(a--b--c--cycle--d--e--f);\n\nlabel(\"$A$\", a, N);\nlabel(\"$B$\", b, SW);\nlabel(\"$C$\", c, SE);\nlabel(\"$D$\", d, S);\nlabel(\"$E$\", e, NE);\nlabel(\"$F$\", f, SW);\n[/asy]",
   "n_questions": 6,
   "labels": [

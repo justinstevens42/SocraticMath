@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "How many 4-letter words with at least one vowel can be constructed from the letters A, B, C, D, and E?  (Note that A and E are vowels, any word is valid, not just English language words, and letters may be used more than once.)",
   "n_questions": 10,
   "labels": [

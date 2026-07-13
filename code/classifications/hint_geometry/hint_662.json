@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Given that the diagonals of a rhombus are always perpendicular bisectors of each other, what is the area of a rhombus with side length $\\sqrt{89}$ units and diagonals that differ by 6 units?",
   "n_questions": 9,
   "labels": [

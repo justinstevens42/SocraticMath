@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "I randomly pick an integer $p$ between $1$ and $10$ inclusive. What is the probability that I choose a $p$ such that there exists an integer $q$ so that $p$ and $q$ satisfy the equation $pq - 4p - 2q = 2$? Express your answer as a common fraction.",
   "n_questions": 12,
   "labels": [

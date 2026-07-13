@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "On a $12$-hour clock, an elapsed time of four hours looks the same as an elapsed time of $16$ hours. Because of this, we can say that four hours is \"clock equivalent'' to its square number of hours. What is the least whole number of hours that is greater than $4$ hours and is \"clock equivalent'' to its square number of hours?",
   "n_questions": 6,
   "labels": [

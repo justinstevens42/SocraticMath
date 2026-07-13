@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "The parabolas $y = (x + 1)^2$ and $x + 4 = (y - 3)^2$ intersect at four points.  All four points lie on a circle of radius $r.$  Find $r^2.$",
   "n_questions": 5,
   "labels": [

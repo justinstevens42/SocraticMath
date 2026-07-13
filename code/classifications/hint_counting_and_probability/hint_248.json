@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Suppose two distinct integers are chosen from between 5 and 17, inclusive.  What is the probability that their product is odd?",
   "n_questions": 9,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Let $n$ be a positive integer and $a,b$ be invertible integers modulo $n$ such that $a\\equiv b^{-1}\\pmod n$. What is the remainder when $ab$ is divided by $n$?",
   "n_questions": 7,
   "labels": [

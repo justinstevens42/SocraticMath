@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find all positive values of $c$ so that the inequality $x^2-6x+c<0$ has real solutions for $x$. Express your answer in interval notation.",
   "n_questions": 6,
   "labels": [

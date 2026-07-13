@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Brent rolls a fair dodecahedral die with numbers $1,2,3,...,12$ on its faces. What is the expected number of digits in the number he obtains? Express your answer in a decimal.",
   "n_questions": 9,
   "labels": [

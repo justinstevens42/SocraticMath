@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Let $N$ be the product of all odd primes less than $2^4$.  What remainder does $N$ leave when divided by $2^4$?",
   "n_questions": 8,
   "labels": [

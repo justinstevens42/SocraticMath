@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Quadrilateral $ABCD$ is a parallelogram.  What is the degree measure of angle $A$? [asy]\nsize(100);\ndraw((0,0)--(5,2)--(6,7)--(1,5)--cycle);\ndraw((5,2)--(7.5,3));\ndraw(Arc((5,2),1,20,80));\nlabel(\"$D$\",(0,0),SW); label(\"$C$\",(5,2),SE); label(\"$B$\",(6,7),NE); label(\"$A$\",(1,5),NW);\n\nlabel(\"$60^\\circ$\",(6.3,2.8), N);\n[/asy]",
   "n_questions": 5,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $x$ be a real number such that\n\\[x^2 + 4 \\left( \\frac{x}{x - 2} \\right)^2 = 45.\\]Find all possible values of $y = \\frac{(x - 2)^2 (x + 3)}{2x - 3}.$  Enter all possible values, separated by commas.",
   "n_questions": 6,
   "labels": [

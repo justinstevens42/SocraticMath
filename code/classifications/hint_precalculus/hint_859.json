@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Find $k$ if\n\\[(\\sin \\alpha + \\csc \\alpha)^2 + (\\cos \\alpha + \\sec \\alpha)^2 = k + \\tan^2 \\alpha + \\cot^2 \\alpha.\\]",
   "n_questions": 6,
   "labels": [

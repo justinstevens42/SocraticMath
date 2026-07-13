@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "I have a bag with $6$ marbles numbered from $1$ to $6.$ Mathew has a bag with $12$ marbles numbered from $1$ to $12.$ Mathew chooses one marble from his bag and I choose two from mine. In how many ways can we choose the marbles (where the order of my choices does matter) such that the sum of the numbers on my marbles equals the number on his?",
   "n_questions": 14,
   "labels": [

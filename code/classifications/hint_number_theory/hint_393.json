@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "An arithmetic sequence with first term $1$ has a common difference of $6$. A second sequence begins with $4$ and has a common difference of $7$. In the range of $1$ to $100$, what is the largest number common to both sequences?",
   "n_questions": 10,
   "labels": [

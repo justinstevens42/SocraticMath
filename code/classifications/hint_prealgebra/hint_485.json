@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Equilateral triangle $ABC$ and square $BCDE$ are coplanar, as shown. What is the number of degrees in the measure of angle $CAD$?\n\n[asy]\nsize(70);\ndraw((0,0)--(20,0)--(20,20)--(0,20)--cycle);\ndraw((0,20)--(10,37.3)--(20,20));\ndraw((10,37.3)--(20,0));\nlabel(\"$A$\",(10,37.3),N);\nlabel(\"$B$\",(0,20),W);\nlabel(\"$C$\",(20,20),E);\nlabel(\"$D$\",(20,0),E);\nlabel(\"$E$\",(0,0),W);\n[/asy]",
   "n_questions": 8,
   "labels": [

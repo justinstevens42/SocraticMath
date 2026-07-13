@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Dave's sister baked $3$ dozen pies of which half contained chocolate, two thirds contained marshmallows, three-fourths contained cayenne, and one-sixths contained salted soy nuts.  What is the largest possible number of pies that had none of these ingredients?",
   "n_questions": 9,
   "labels": [

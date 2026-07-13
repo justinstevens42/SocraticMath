@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Right triangle $ABC$ (hypotenuse $\\overline{AB}$) is inscribed in equilateral triangle $PQR,$ as shown.  If $PC = 3$ and $BP = CQ = 2,$ compute  $AQ.$\n\n[asy]\nunitsize(0.8 cm);\n\npair A, B, C, P, Q, R;\n\nP = (0,0);\nQ = (5,0);\nR = 5*dir(60);\nA = Q + 8/5*dir(120);\nB = 2*dir(60);\nC = (3,0);\n\ndraw(A--B--C--cycle);\ndraw(P--Q--R--cycle);\ndraw(rightanglemark(A,C,B,10));\n\nlabel(\"$A$\", A, NE);\nlabel(\"$B$\", B, NW);\nlabel(\"$C$\", C, S);\nlabel(\"$P$\", P, SW);\nlabel(\"$Q$\", Q, SE);\nlabel(\"$R$\", R, N);\nlabel(\"$2$\", (C + Q)/2, S);\nlabel(\"$3$\", (C + P)/2, S);\nlabel(\"$2$\", (B + P)/2, NW);\n[/asy]",
   "n_questions": 6,
   "labels": [

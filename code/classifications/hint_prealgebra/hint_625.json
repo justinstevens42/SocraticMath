@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "What is the value of $x$ in the plane figure shown?\n\n[asy]\npair A;\ndraw(dir(40)--A); draw(dir(200)--A); draw(dir(300)--A);\nlabel(\"$160^{\\circ}$\",A,dir(120)); label(\"$x^{\\circ}$\",A,dir(250)); label(\"$x^{\\circ}$\",A,dir(350));\n[/asy]",
   "n_questions": 6,
   "labels": [

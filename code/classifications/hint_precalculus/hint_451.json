@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Find all numbers in the range of\n\\[f(x) = \\arctan x + \\arctan \\frac{1 - x}{1 + x},\\]expressed in radians.  Enter all the numbers, separated by commas.",
   "n_questions": 9,
   "labels": [

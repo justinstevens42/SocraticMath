@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "If $\\sqrt{2\\sqrt{t-2}} = \\sqrt[4]{7 - t}$, then find $t$.",
   "n_questions": 6,
   "labels": [

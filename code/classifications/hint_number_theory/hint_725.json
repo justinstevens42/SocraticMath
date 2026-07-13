@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 3",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Josef and Timothy play a game in which Josef picks an integer between 1 and 1000 inclusive and Timothy divides 1000 by that integer and states whether or not the quotient is an integer.  How many integers could Josef pick such that Timothy's quotient is an integer?",
   "n_questions": 8,
   "labels": [

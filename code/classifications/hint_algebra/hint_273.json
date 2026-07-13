@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "Find the coefficient of $x^2$ when $4(x - x^3) - 3(x^2 - x^3 + x^5) + 2(4x^2 - x^9)$ is simplified.",
   "n_questions": 7,
   "labels": [

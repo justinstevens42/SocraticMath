@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Triangles $ABC$ and $ADC$ are isosceles with $AB=BC$ and $AD=DC$. Point $D$ is inside $\\triangle ABC$, $\\angle ABC = 40^\\circ$, and $\\angle ADC = 140^\\circ$.  What is the degree measure of $\\angle\nBAD$?",
   "n_questions": 6,
   "labels": [

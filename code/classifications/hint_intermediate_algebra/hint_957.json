@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The coefficients of the polynomial\n\\[x^4 + bx^3 + cx^2 + dx + e = 0\\]are all integers.  Let $n$ be the exact number of integer roots of the polynomial, counting multiplicity.  For example, the polynomial $(x + 3)^2 (x^2 + 4x + 11) = 0$ has two integer roots counting multiplicity, because the root $-3$ is counted twice.\n\nEnter all possible values of $n,$ separated by commas.",
   "n_questions": 10,
   "labels": [

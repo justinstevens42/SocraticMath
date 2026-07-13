@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Alice and Bob each arrive at a party at a random time between 1:00 and 2:00. If Alice arrives after Bob, what is the probability that Bob arrived before 1:30?",
   "n_questions": 11,
   "labels": [

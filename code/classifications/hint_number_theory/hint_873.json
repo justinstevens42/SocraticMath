@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "To express 20 as a sum of distinct powers of 2, we would write $20 = 2^4 + 2^2$. The sum of the exponents of these powers is $4 + 2 = 6$. If 1562 were expressed as a sum of distinct powers of 2, what would be the least possible sum of the exponents of these powers?",
   "n_questions": 6,
   "labels": [

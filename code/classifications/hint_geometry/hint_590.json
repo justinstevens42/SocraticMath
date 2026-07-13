@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Triangle $ABC$ is a right isosceles triangle. Points $D$, $E$ and $F$ are the midpoints of the sides of the triangle. Point $G$ is the midpoint of segment $DF$ and point $H$ is the midpoint of segment $FE$. What is the ratio of the shaded area to the non-shaded area in triangle $ABC$? Express your answer as a common fraction.\n\n[asy]\ndraw((0,0)--(1,0)--(0,1)--(0,0)--cycle,linewidth(1));\nfilldraw((0,0)--(1/2,0)--(1/2,1/2)--(0,1/2)--(0,0)--cycle,gray, linewidth(1));\nfilldraw((1/2,0)--(1/2,1/4)--(1/4,1/2)--(0,1/2)--(1/2,0)--cycle,white,linewidth(1));\n\nlabel(\"A\", (0,1), W);\nlabel(\"B\", (0,0), SW);\nlabel(\"C\", (1,0), E);\nlabel(\"D\", (0,1/2), W);\nlabel(\"E\", (1/2,0), S);\nlabel(\"F\", (1/2,1/2), NE);\nlabel(\"G\", (1/4,1/2), N);\nlabel(\"H\", (1/2,1/4), E);\n[/asy]",
   "n_questions": 10,
   "labels": [

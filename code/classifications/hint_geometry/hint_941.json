@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Triangle $ABC$ has vertices $A(0,8)$, $B(2,0)$, $C(8,0)$.  A vertical line intersects $AC$ at $R$ and $\\overline{BC}$ at $S$, forming triangle $RSC$.  If the area of $\\triangle RSC$ is 12.5, determine the positive difference of the $x$ and $y$ coordinates of point $R$.",
   "n_questions": 10,
   "labels": [

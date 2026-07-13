@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Four horizontal lines and four vertical lines are drawn in a plane. In how many ways can four lines be chosen such that a rectangular region is enclosed?",
   "n_questions": 7,
   "labels": [

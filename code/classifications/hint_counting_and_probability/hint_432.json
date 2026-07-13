@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "I have a drawer with 4 shirts, 5 pairs of shorts, and 6 pairs of socks in it. If I reach in and randomly remove three articles of clothing, what is the probability that I get one shirt, one pair of shorts, and one pair of socks? (Treat pairs of socks as one article of clothing.)",
   "n_questions": 6,
   "labels": [

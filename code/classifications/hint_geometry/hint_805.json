@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The point $A$ $(3,4)$ is reflected over the $x$-axis to $B$. Then $B$ is reflected over the line $y=x$ to $C$. What is the area of triangle $ABC$?",
   "n_questions": 12,
   "labels": [

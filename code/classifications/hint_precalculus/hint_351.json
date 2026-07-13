@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "In triangle $ABC$, $3 \\sin A + 4 \\cos B = 6$ and $4 \\sin B + 3 \\cos A = 1$. Find all possible values of $\\angle C,$ in degrees.  Enter all the possible values, separated by commas.",
   "n_questions": 8,
   "labels": [

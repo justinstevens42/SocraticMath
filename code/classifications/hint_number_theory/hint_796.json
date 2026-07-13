@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $N$ be the largest integer whose square has exactly $3$ digits when written in base 9.\n\nWhat is $N$, expressed in base 9?",
   "n_questions": 6,
   "labels": [

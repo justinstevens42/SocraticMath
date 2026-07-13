@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "From point $A$, Leigh walked 40 yards south, 60 yards west, 10 yards north, and 20 yards east to point $B$. What is the length, in yards, of $\\overline{AB}$?",
   "n_questions": 8,
   "labels": [

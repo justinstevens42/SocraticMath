@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Simplify\n\\[\\cos ^2 x + \\cos^2 (x + y) - 2 \\cos x \\cos y \\cos (x + y).\\]",
   "n_questions": 6,
   "labels": [

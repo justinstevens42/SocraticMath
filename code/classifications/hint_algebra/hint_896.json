@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 3",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
   "problem": "We have a rectangle of dimensions $x - 2$ by $2x + 5$ such that its area is $8x - 6$. What is the value of $x$?",
   "n_questions": 12,
   "labels": [

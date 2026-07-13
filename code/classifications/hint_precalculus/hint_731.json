@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Let $\\mathbf{A}$ be a matrix such that\n\\[\\mathbf{A} \\begin{pmatrix} 5 \\\\ -2 \\end{pmatrix} = \\begin{pmatrix} -15 \\\\ 6 \\end{pmatrix}.\\]Find $\\mathbf{A}^5 \\begin{pmatrix} 5 \\\\ -2 \\end{pmatrix}.$",
   "n_questions": 7,
   "labels": [

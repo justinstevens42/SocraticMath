@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The mean of the set of numbers $\\{87,85,80,83,84,x\\}$ is 83.5. What is the median of the set of six numbers? Express your answer as a decimal to the nearest tenth.",
   "n_questions": 8,
   "labels": [

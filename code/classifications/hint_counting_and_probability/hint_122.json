@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The Screamers are coached by Coach Yellsalot.  The Screamers have 12 players, but two of them, Bob and Yogi, refuse to play together.  How many starting lineups (of 5 players) can Coach Yellsalot make, if the starting lineup can't contain both Bob and Yogi?  (The order of the 5 players in the lineup does not matter; that is, two lineups are the same if they consist of the same 5 players.)",
   "n_questions": 10,
   "labels": [

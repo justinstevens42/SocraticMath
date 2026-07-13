@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Consider two positive even integers less than $15$ (not necessarily distinct). When the sum of these two numbers is added to their product, how many different possible values may result?",
   "n_questions": 10,
   "labels": [

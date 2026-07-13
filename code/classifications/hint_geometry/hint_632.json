@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "What is the ratio of the volume of cone $A$ to the volume of cone $B$? Express your answer as a common fraction. [asy]\nsize(260);\ndraw(ellipse((0,0),14.8,6),S);\nlabel(\"Cone $A$\", (0,-6), S);\ndraw((0,28.3)--(0,0),dashed);\nlabel(\"$28.3$\",(0,14),SW);\ndraw((-14.8,0)--(0,28.3)--(14.8,0));\ndraw(\"$14.8$\",(-14.8,0)--(0,0),N,dashed);\ndraw(ellipse((50,0),28.3,6),S);\nlabel(\"Cone $B$\", (50,-6), S);\ndraw((21.7,0)--(50,14.8)--(78.3,0));\ndraw(\"$14.8$\",(50,14.8)--(50,0),W,dashed);\ndraw(\"$28.3$\", (21.7,0)--(50,0),N,dashed);\n[/asy]",
   "n_questions": 7,
   "labels": [

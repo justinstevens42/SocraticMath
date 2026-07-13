@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Let $\\mathbf{v}$ and $\\mathbf{w}$ be the vectors such that $\\mathbf{v} \\cdot \\mathbf{w} = -3$ and $\\|\\mathbf{w}\\| = 5.$  Find the magnitude of $\\operatorname{proj}_{\\mathbf{w}} \\mathbf{v}.$",
   "n_questions": 10,
   "labels": [

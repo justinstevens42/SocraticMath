@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Sherlock Holmes and Dr. Watson recover a suitcase with a three-digit combination lock from a mathematician turned criminal. Embedded in the suitcase above the lock is the cryptic message \"AT SEA BASE. SEAS EBB SEA: BASS. \"\n\nDr. Watson comments, \"This probably isn't about ocean fish. Perhaps it is an encrypted message. The colon suggests the addition problem $SEAS + EBB + SEA = BASS$, where each letter represents a distinct digit, and the word 'BASE' implies that the problem is in a different base.\"\n\nHolmes calmly turns the combination lock and opens the suitcase. While Dr. Watson gapes in surprise, Holmes replies, \"You were indeed right, and the answer was just the value of the word $SEA$, interpreted as decimal digits.\" What was the lock combination?",
   "n_questions": 11,
   "labels": [

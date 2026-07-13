@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Two concentric circles are centered at point P. The sides of a 45 degree angle at P form an arc on the smaller circle that is the same length as an arc on the larger circle formed by the sides of a 36  degree angle at P. What is the ratio of the area of the smaller circle to the area of the larger circle? Express your answer as a common fraction.",
   "n_questions": 6,
   "labels": [

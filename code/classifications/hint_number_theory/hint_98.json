@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "For all composite integers $n$, what is the largest integer that always divides into the difference between $n$ and the cube of $n$?",
   "n_questions": 7,
   "labels": [

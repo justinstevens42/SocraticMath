@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find all values of $x$ that satisfy the equation $|x-3|=2x+4$. Express your answers in simplest fractional form.",
   "n_questions": 8,
   "labels": [

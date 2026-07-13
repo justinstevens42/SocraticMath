@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Find the matrix $\\mathbf{P}$ such that for any vector $\\mathbf{v},$ $\\mathbf{P} \\mathbf{v}$ is the projection of $\\mathbf{v}$ onto the vector $\\begin{pmatrix} 2 \\\\ -2 \\\\ -1 \\end{pmatrix}.$",
   "n_questions": 6,
   "labels": [

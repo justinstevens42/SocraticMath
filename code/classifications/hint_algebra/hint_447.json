@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Let $p$ and $q$ be the two distinct solutions to the equation $$(x-3)(x+3) = 21x - 63.$$If $p > q$, what is the value of $p - q$?",
   "n_questions": 10,
   "labels": [

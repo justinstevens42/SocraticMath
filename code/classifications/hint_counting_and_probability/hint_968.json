@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A fair, twenty-faced die has $19$ of its faces numbered from $1$ through $19$ and has one blank face. Another fair, twenty-faced die has $19$ of its faces numbered from $1$ through $8$ and $10$ through $20$ and has one blank face. When the two dice are rolled, what is the probability that the sum of the two numbers facing up will be $24?$ Express your answer as a common fraction.",
   "n_questions": 7,
   "labels": [

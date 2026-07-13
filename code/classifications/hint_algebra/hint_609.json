@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "Define $E(a,b,c) = a \\times b^c$. What positive value of $r$ is the solution to the equation $E(r,r,3) = 625$?",
   "n_questions": 6,
   "labels": [

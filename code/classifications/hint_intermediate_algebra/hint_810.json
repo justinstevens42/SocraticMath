@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find all real numbers $a$ such that the roots of the polynomial\n$$x^3 - 6x^2 + 21x + a$$form an arithmetic progression and are not all real.",
   "n_questions": 11,
   "labels": [

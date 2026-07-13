@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let\n\\[\\bold{A} = \\begin{pmatrix} 0 & 1 & 2 \\\\ 1 & 0 & 1 \\\\ 2 & 1 & 0 \\end{pmatrix}.\\]There exist constants $p$, $q$, and $r$ such that\n\\[\\bold{A}^3 + p \\bold{A}^2 + q \\bold{A} + r \\bold{I} = \\bold{0},\\]where $\\bold{I}$ and $\\bold{0}$ are the $3 \\times 3$ identity matrix and zero matrix, respectively.  Enter the ordered triple $(p,q,r).$",
   "n_questions": 7,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "In triangle $ABC$, $AB = 16$, $AC = 24$, $BC = 19$, and $AD$ is an angle bisector.  Find the ratio of the area of triangle $ABD$ to the area of triangle $ACD$.  (Express your answer as a fraction in lowest terms.)",
   "n_questions": 8,
   "labels": [

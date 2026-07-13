@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Evaluate the expression\n\\[\n  \\frac{121 \\left( \\frac{1}{13} - \\frac{1}{17} \\right) \n          + 169 \\left( \\frac{1}{17} - \\frac{1}{11} \\right) + 289 \\left( \\frac{1}{11} - \\frac{1}{13} \\right)}{\n        11 \\left( \\frac{1}{13} - \\frac{1}{17} \\right) \n          + 13 \\left( \\frac{1}{17} - \\frac{1}{11} \\right) + 17 \\left( \\frac{1}{11} - \\frac{1}{13} \\right)} \\, .\n\\]",
   "n_questions": 8,
   "labels": [

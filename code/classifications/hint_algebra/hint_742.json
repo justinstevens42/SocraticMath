@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "The points $(x, y)$ represented in this table lie on a straight line. The point $(28, t)$ lies on the same line. What is the value of $t?$ \\begin{tabular}{c|c}\n$x$ & $y$ \\\\ \\hline\n1 & 7 \\\\\n3 & 13 \\\\\n5 & 19 \\\\\n\\end{tabular}",
   "n_questions": 7,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "For a finite sequence $A=(a_1,a_2,\\dots,a_n)$ of numbers, the Cesaro sum of $A$ is defined to be\n\\[\\frac{S_1+\\cdots+S_n}{n},\\]where $S_k=a_1+\\cdots+a_k$ and $1\\leq k\\leq n$.\n\nIf the Cesaro sum of the 99-term sequence $(a_1,\\dots,a_{99})$ is 1000,  what is the Cesaro sum of the 100-term sequence $(1,a_1,\\dots,a_{99})$?",
   "n_questions": 7,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "A square and a circle intersect so that each side of the square contains a chord of the circle equal in length to the radius of the circle. What is the ratio of the area of the square to the area of the circle? Express your answer as a common fraction in terms of $\\pi$.",
   "n_questions": 7,
   "labels": [

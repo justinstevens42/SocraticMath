@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "An o-Pod MP3 player stores and plays entire songs. Celeste has 10 songs stored on her o-Pod. The time length of each song is different. When the songs are ordered by length, the shortest song is only 30 seconds long and each subsequent song is 30 seconds longer than the previous song. Her favorite song is 3 minutes, 30 seconds long. The o-Pod will play all the songs in random order before repeating any song. What is the probability that she hears the first 4 minutes, 30 seconds of music - there are no pauses between songs - without hearing every second of her favorite song? Express your answer as a common fraction.",
   "n_questions": 12,
   "labels": [

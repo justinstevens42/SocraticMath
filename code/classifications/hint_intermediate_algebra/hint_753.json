@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The four zeros of the polynomial $x^4 + jx^2 + kx + 225$ are distinct real numbers in arithmetic progression.  Compute the value of $j.$",
   "n_questions": 9,
   "labels": [

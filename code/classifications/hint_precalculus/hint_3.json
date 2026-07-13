@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
   "problem": "Let $S$ be a region in the plane with area 10.  When we apply the matrix\n\\[\\begin{pmatrix} 2 & 1 \\\\ 7 & -3 \\end{pmatrix}\\]to $S,$ we obtain the region $S'.$  Find the area of $S'.$",
   "n_questions": 6,
   "labels": [

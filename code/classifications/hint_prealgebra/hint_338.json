@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $d$ be a positive number such that when $109$ is divided by $d$, the remainder is $4.$ Compute the sum of all possible two-digit values of $d$.",
   "n_questions": 7,
   "labels": [

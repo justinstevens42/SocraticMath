@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The graph of \\[\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1\\]has its foci at $(0,\\pm 4),$ while the graph of \\[\\frac{x^2}{a^2}-\\frac{y^2}{b^2} = 1\\]has its foci at $(\\pm 6,0).$ Compute the value of $|ab|.$",
   "n_questions": 7,
   "labels": [

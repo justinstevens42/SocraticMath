@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 1",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "A math class has fewer than $40$ students. When the students try to sit in rows of $7$, $3$ students sit in the last row. When the students try to sit in rows of $5$, $1$ student is left in the last row. How many students are in this class?",
   "n_questions": 10,
   "labels": [

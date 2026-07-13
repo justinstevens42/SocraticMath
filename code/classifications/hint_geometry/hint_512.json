@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "In triangle $ABC$, $AB=AC$ and $D$ is a point on $\\overline{AC}$ so that $\\overline{BD}$ bisects angle $ABC$. If $BD=BC$, what is the measure, in degrees, of angle $A$?",
   "n_questions": 7,
   "labels": [

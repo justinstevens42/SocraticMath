@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Let $a$, $b$, $c$ be the three sides of a triangle, and let $\\alpha$, $\\beta$, $\\gamma$ be the angles opposite them. If $a^2+b^2=1989c^2$, find the value of\n\\[\\frac{\\cot \\gamma}{\\cot \\alpha+\\cot \\beta}.\\]",
   "n_questions": 7,
   "labels": [

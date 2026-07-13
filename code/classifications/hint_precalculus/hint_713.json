@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Find the sum of the solutions to\n\\[\\frac{1}{\\sin x} + \\frac{1}{\\cos x} = 2 \\sqrt{2}\\]in the interval $0 \\le x \\le 2 \\pi.$",
   "n_questions": 11,
   "labels": [

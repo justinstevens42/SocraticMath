@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "On the game show $\\text{\\emph{Wheel of Fraction}}$, you see the following spinner. Given that each region is the same area, what is the probability that you will earn exactly $\\$1700$ in your first three spins? Express your answer as a common fraction. [asy]\nimport olympiad; import geometry; import graph; size(150); defaultpen(linewidth(0.8));\ndraw(unitcircle);\nstring[] labels = {\"Bankrupt\",\"$\\$1000$\",\"$\\$300$\",\"$\\$5000$\",\"$\\$400$\"};\nfor(int i = 0; i < 5; ++i){\n\ndraw(origin--dir(72*i));\n\nlabel(labels[i],0.6*dir(36 + 72*i));\n}\n[/asy]",
   "n_questions": 6,
   "labels": [

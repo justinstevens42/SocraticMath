@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Suppose I have a bag with 12 slips of paper in it.  Some of the slips have a 2 on them, and the rest have a 7 on them.  If the expected value of the number shown on a slip randomly drawn from the bag is $3.25$, then how many slips have a 2?",
   "n_questions": 8,
   "labels": [

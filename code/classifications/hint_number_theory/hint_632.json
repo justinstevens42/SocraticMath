@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "What is the sum of the digits of the base $7$ representation of $777_{10}$?",
   "n_questions": 10,
   "labels": [

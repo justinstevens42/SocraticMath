@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "In triangle $VWX$ shown, $VX = \\sqrt{13}$ and $VW = 3$. What is $\\tan V$?\n\n[asy]\npair V,W,X;\nW = (0,0);\nV = (0,3);\nX = (2,0);\ndraw(V--W--X--V);\ndraw(rightanglemark(V,W,X,7));\nlabel(\"$W$\",W,SW);\nlabel(\"$V$\",V,NW);\nlabel(\"$X$\",X,SE);\nlabel(\"$3$\",(V+W)/2,NW);\nlabel(\"$\\sqrt{13}$\",(V+X)/2,NE);\n[/asy]",
   "n_questions": 10,
   "labels": [

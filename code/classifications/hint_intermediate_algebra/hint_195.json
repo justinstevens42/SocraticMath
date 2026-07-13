@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Let $f : \\mathbb{R} \\to \\mathbb{R}$ be a function such that\n\\[f(f(x) + y) = f(x^2 - y) + 4f(x) y\\]for all real numbers $x$ and $y.$\n\nLet $n$ be the number of possible values of $f(3),$ and let $s$ be the sum of all possible values of $f(3).$  Find $n \\times s.$",
   "n_questions": 11,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "A circle of radius $2$ has center at $(2,0)$. A circle of radius $1$ has center at $(5,0)$.  A line is tangent to the two circles at points in the first quadrant.  What is the $y$-intercept of the line?",
   "n_questions": 8,
   "labels": [

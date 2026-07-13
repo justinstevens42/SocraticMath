@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "In the diagram, $AB$ and $CD$ are straight lines. What is the value of $x?$ [asy]\ndraw((0,0)--(12,0));\ndraw((0,5)--(12,5));\ndraw((3,0)--(5,5)--(9,0));\nlabel(\"$60^\\circ$\",(5,4.5),W);\nlabel(\"$50^\\circ$\",(5.5,4.5),E);\nlabel(\"$A$\",(0,5),W);\nlabel(\"$C$\",(0,0),W);\nlabel(\"$B$\",(12,5),E);\nlabel(\"$D$\",(12,0),E);\nlabel(\"$120^\\circ$\",(3,0),NW);\nlabel(\"$x^\\circ$\",(7.5,0),N);\n\n[/asy]",
   "n_questions": 6,
   "labels": [

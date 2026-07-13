@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "What is the intersection point of the line $y = 2x + 5$ and the line perpendicular to it that passes through the point $(5, 5)$?",
   "n_questions": 6,
   "labels": [

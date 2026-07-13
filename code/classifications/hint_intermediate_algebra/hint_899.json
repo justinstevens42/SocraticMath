@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Compute the value of the infinite series \\[\n\\sum_{n=2}^{\\infty} \\frac{n^4+3n^2+10n+10}{2^n \\cdot \\left(n^4+4\\right)}\n\\]",
   "n_questions": 6,
   "labels": [

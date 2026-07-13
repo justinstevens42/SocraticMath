@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Marsha has two numbers, $a$ and $b$.  When she divides $a$ by 70 she gets a remainder of 64.  When she divides $b$ by 105 she gets a remainder of 99.  What remainder does she get when she divides $a+b$ by 35?",
   "n_questions": 10,
   "labels": [

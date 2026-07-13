@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "$ABCD$ is a square and $M$ and $N$ are the midpoints of $\\overline{BC}$ and $\\overline{CD},$ respectively.  Find $\\sin \\theta.$\n\n[asy]\nunitsize(1.5 cm);\n\ndraw((0,0)--(2,0)--(2,2)--(0,2)--cycle);\ndraw((0,0)--(2,1));\ndraw((0,0)--(1,2));\nlabel(\"$A$\", (0,0), SW);\nlabel(\"$B$\", (0,2), NW);\nlabel(\"$C$\", (2,2), NE);\nlabel(\"$D$\", (2,0), SE);\nlabel(\"$M$\", (1,2), N);\nlabel(\"$N$\", (2,1), E);\nlabel(\"$\\theta$\", (.5,.5), SW);\n[/asy]",
   "n_questions": 8,
   "labels": [

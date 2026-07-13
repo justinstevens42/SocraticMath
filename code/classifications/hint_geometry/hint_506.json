@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "A rectangular box has interior dimensions 6-inches by 5-inches by 10-inches. The box is filled with as many solid 3-inch cubes as possible, with all of the cubes entirely inside the rectangular box. What percent of the volume of the box is taken up by the cubes?",
   "n_questions": 7,
   "labels": [

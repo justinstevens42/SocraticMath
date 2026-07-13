@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "In how many ways can a president and a 2-person committee be chosen from a group of 8 people (where the order in which we choose the 2 people doesn't matter)?  (The president cannot be on the committee.)",
   "n_questions": 7,
   "labels": [

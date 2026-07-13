@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "How many integers are solutions to the equation $$(x-2)^{(25-x^2)}=1?$$",
   "n_questions": 7,
   "labels": [

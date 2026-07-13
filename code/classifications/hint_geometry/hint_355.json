@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Six congruent circles form a ring with each circle externally tangent to the two circles adjacent to it.  All six circles are internally tangent to a circle $\\cal C$ with radius 30.  Let $K$ be the area of the region inside $\\cal C$ and outside all of the six circles in the ring.  Find $\\lfloor K\\rfloor$. (The notation $\\lfloor K\\rfloor$ denotes the greatest integer that is less than or equal to $K$.)",
   "n_questions": 8,
   "labels": [

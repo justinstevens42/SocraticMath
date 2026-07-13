@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A paper equilateral triangle $ABC$ has side length 12. The paper triangle is folded so that vertex $A$ touches a point on side $\\overline{BC}$ a distance 9 from point $B$. Find the square of the length of the line segment along which the triangle is folded.\n\n[asy]\nimport cse5;\nsize(12cm);\npen tpen = defaultpen + 1.337;\nreal a = 39/5.0;\nreal b = 39/7.0;\npair B = MP(\"B\", (0,0), dir(200));\npair A = MP(\"A\", (9,0), dir(-80));\npair C = MP(\"C\", (12,0), dir(-20));\npair K = (6,10.392);\npair M = (a*B+(12-a)*K) / 12;\npair N = (b*C+(12-b)*K) / 12;\ndraw(B--M--N--C--cycle, tpen);\nfill(M--A--N--cycle, mediumgrey);\ndraw(M--A--N--cycle);\npair shift = (-20.13, 0);\npair B1 = MP(\"B\", B+shift, dir(200));\npair A1 = MP(\"A\", K+shift, dir(90));\npair C1 = MP(\"C\", C+shift, dir(-20));\ndraw(A1--B1--C1--cycle, tpen);[/asy]",
   "n_questions": 10,
   "labels": [

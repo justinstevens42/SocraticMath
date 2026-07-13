@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $f(x)$ be a polynomial with real, nonnegative coefficients.  If $f(6) = 24$ and $f(24) = 1536,$ find the largest possible value of $f(12).$",
   "n_questions": 6,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A point $P$ is chosen at random in the interior of equilateral triangle $ABC$. What is the probability that $\\triangle ABP$ has a greater area than each of $\\triangle ACP$ and $\\triangle BCP$?",
   "n_questions": 10,
   "labels": [

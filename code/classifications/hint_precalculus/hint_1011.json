@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Find all $y \\in [0,\\pi]$ for which \\[\\sin(x+y)\\leq \\sin(x)+\\sin(y)\\]for every $x$ between $0$ and $\\pi$, inclusive.",
   "n_questions": 7,
   "labels": [

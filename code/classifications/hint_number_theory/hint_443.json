@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "For each positive integer $n$, let $S(n)$ denote the sum of the digits of $n$.  For how many values of $n$ is $n+S(n)+S(S(n))=2007$?",
   "n_questions": 8,
   "labels": [

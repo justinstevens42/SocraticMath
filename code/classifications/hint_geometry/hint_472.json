@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Let $ABCDEF$ be a regular hexagon, and let $G,H,I$ be the midpoints of sides $AB,CD,EF$ respectively. If the area of $\\triangle GHI$ is $225$, what is the area of hexagon $ABCDEF$?",
   "n_questions": 8,
   "labels": [

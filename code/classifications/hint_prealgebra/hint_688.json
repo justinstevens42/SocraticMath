@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "The scores on a $110$-point test were organized in the stem-and-leaf plot shown. $9 | 6$ represents $96$ points. What is the mode of the scores? \\begin{tabular}{c|lllllll}\n\\multicolumn{8}{c}{\\underline{Points on the Test}}\\\\\n5 &0 & 0 & & & & &\\\\\n6 &3 & & & & & &\\\\\n7 &7 & 8 & & & & &\\\\\n8 &2 & 6 & 7 & 9 & 9 & 9 & 9\\\\\n9 &1 & 4 & 4 & 4 & 6 & &\\\\\n10 &0 & 0 & 0 & & & &\\\\\n\\end{tabular}",
   "n_questions": 8,
   "labels": [

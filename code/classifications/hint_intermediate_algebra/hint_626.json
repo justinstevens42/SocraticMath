@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "What is the value of the following expression: $1 - 4 + 7 - 10 + 13 - \\cdots - 46 + 49 - 52 + 55$ ?",
   "n_questions": 10,
   "labels": [

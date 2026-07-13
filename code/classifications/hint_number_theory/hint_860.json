@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "The digits of a two-digit number $AB$ are reversed to form a second two-digit number, and the lesser of the two-digit numbers is subtracted from the greater. What prime number must be a factor of the difference if $A\\neq B$?",
   "n_questions": 8,
   "labels": [

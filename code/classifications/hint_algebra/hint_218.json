@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 3",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Let \\[f(x) =\n\\begin{cases}\n9x+16 &\\text{if }x<2, \\\\\n2x-14&\\text{if }x\\ge2.\n\\end{cases}\n\\]If $f(x)=-2$, find the sum of all possible values of $x$.",
   "n_questions": 10,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $z = \\cos \\frac{4 \\pi}{7} + i \\sin \\frac{4 \\pi}{7}.$  Compute\n\\[\\frac{z}{1 + z^2} + \\frac{z^2}{1 + z^4} + \\frac{z^3}{1 + z^6}.\\]",
   "n_questions": 6,
   "labels": [

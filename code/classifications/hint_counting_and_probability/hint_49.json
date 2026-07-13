@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 3",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "A point is selected at random from the portion of the number line shown here. What is the probability that the point is closer to 4 than to 0? Express your answer as a decimal to the nearest tenth.\n\n[asy]unitsize(0.2inch);\ndraw((0,0)--(5,0));\ndraw((0,-0.1)--(0,0.1));\ndraw((1,-0.1)--(1,0.1));\ndraw((2,-0.1)--(2,0.1));\ndraw((3,-0.1)--(3,0.1));\ndraw((4,-0.1)--(4,0.1));\ndraw((5,-0.1)--(5,0.1));\nlabel(\"0\",(0,-0.1),S);\nlabel(\"1\",(1,-0.1),S);\nlabel(\"2\",(2,-0.1),S);\nlabel(\"3\",(3,-0.1),S);\nlabel(\"4\",(4,-0.1),S);\nlabel(\"5\",(5,-0.1),S);\n\n[/asy]",
   "n_questions": 9,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "In right $\\Delta ABC$, $\\angle CAB$ is a right angle. Point $M$ is the midpoint of $\\overline{BC}$. What is the number of centimeters in the length of median $\\overline{AM}$? Express your answer as a decimal to the nearest tenth. [asy] pair A,B,C,M;\nA = (0,0); B = (4,0); C = (0,3); M = (B+C)/2;\ndraw(M--A--B--C--A);\nlabel(\"$A$\",A,W); label(\"$B$\",B,E);\nlabel(\"$C$\",C,W); label(\"$M$\",M,NE);\nlabel(\"3 cm\",A--C,W); label(\"4 cm\",A--B,S);\n[/asy]",
   "n_questions": 8,
   "labels": [

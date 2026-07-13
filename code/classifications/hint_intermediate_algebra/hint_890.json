@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Find the number of functions $f : \\mathbb{R} \\to \\mathbb{R}$ such that\n\\[f(x + f(y)) = x + y\\]for all real numbers $x$ and $y.$",
   "n_questions": 6,
   "labels": [

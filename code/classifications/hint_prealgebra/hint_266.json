@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "Given that 10 is the arithmetic mean of the set $\\{6, 13, 18, 4, x\\}$, what is the value of $x$?",
   "n_questions": 6,
   "labels": [

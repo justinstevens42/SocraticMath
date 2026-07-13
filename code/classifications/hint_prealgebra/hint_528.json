@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "What is the measure of angle 4 if $m\\angle 1 = 76^{\\circ}, m\\angle 2 = 27^{\\circ}$ and $m\\angle 3 = 17^{\\circ}$?\n\n[asy]\ndraw((0,0)--(4,8)--(10,0)--cycle,linewidth(1));\ndraw((0,0)--(5,3)--(10,0),linewidth(1));\nlabel(\"2\",(1,1.2));\nlabel(\"1\",(4,7.75),S);\nlabel(\"4\",(5,3),S);\nlabel(\"3\",(8,1.8));\n\n[/asy]",
   "n_questions": 6,
   "labels": [

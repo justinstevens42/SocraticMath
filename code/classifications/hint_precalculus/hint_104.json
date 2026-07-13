@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "There exist real numbers $t$ and $s$ such that\n\\[\\begin{pmatrix} 2 \\\\ 0 \\end{pmatrix} + t \\begin{pmatrix} 7 \\\\ -5 \\end{pmatrix} = \\begin{pmatrix} 1 \\\\ -1 \\end{pmatrix} + s \\begin{pmatrix} -2 \\\\ 3 \\end{pmatrix}.\\]Enter the ordered pair $(t,s).$",
   "n_questions": 7,
   "labels": [

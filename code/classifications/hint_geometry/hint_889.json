@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "In the figure, $ABCD$ is a rectangle, $AZ=WC=6$ units, $AB=12$ units and the area of trapezoid $ZWCD$ is 120 square units. What is the area of triangle $BQW$? [asy]\ndraw((0,0)--(12,0)--(12,20)--(0,20)--(0,0)--(12,20));\ndraw((0,14)--(12,6));\nlabel(\"$A$\",(0,20),W);\nlabel(\"$Z$\",(0,14),W);\nlabel(\"$D$\",(0,0),W);\nlabel(\"$Q$\",(6,10),2S);\nlabel(\"$B$\",(12,20),E);\nlabel(\"$W$\",(12,6),E);\nlabel(\"$C$\",(12,0),E);\n[/asy]",
   "n_questions": 10,
   "labels": [

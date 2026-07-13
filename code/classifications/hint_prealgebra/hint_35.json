@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "What is the value of $n$ in the equation $n + (n + 1) + (n + 2) = 9$?",
   "n_questions": 6,
   "labels": [

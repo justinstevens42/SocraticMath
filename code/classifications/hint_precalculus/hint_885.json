@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Cube $ABCDEFGH,$ labeled as shown below, has edge length $1$ and is cut by a plane passing through vertex $D$ and the midpoints $M$ and $N$ of $\\overline{AB}$ and $\\overline{CG}$ respectively. The plane divides the cube into two solids.  Find the volume of the larger of the two solids.\n\n[asy]\nimport cse5;\nunitsize(8mm);\npathpen=black;\npair A = (0,0), B = (3.8,0), C = (5.876,1.564), D = (2.076,1.564), E = (0,3.8), F = (3.8,3.8), G = (5.876,5.364), H = (2.076,5.364), M = (1.9,0), N = (5.876,3.465);\npair[] dotted = {A,B,C,D,E,F,G,H,M,N};\nD(A--B--C--G--H--E--A);\nD(E--F--B);\nD(F--G);\npathpen=dashed;\nD(A--D--H);\nD(D--C);\ndot(dotted);\nlabel(\"$A$\",A,SW);\nlabel(\"$B$\",B,S);\nlabel(\"$C$\",C,SE);\nlabel(\"$D$\",D,NW);\nlabel(\"$E$\",E,W);\nlabel(\"$F$\",F,SE);\nlabel(\"$G$\",G,NE);\nlabel(\"$H$\",H,NW);\nlabel(\"$M$\",M,S);\nlabel(\"$N$\",N,NE);\n[/asy]",
   "n_questions": 9,
   "labels": [

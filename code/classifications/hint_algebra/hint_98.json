@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 3",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "For how many values of $x$ is the expression $\\frac{x^2-9}{(x^2+2x-3)(x-3)}$ undefined?",
   "n_questions": 8,
   "labels": [

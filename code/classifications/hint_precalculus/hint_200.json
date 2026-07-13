@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "There exist vectors $\\mathbf{a}$ and $\\mathbf{b}$ such that\n\\[\\mathbf{a} + \\mathbf{b} = \\begin{pmatrix} 6 \\\\ -3 \\\\ -6 \\end{pmatrix},\\]where $\\mathbf{a}$ is parallel to $\\begin{pmatrix} 1 \\\\ 1 \\\\ 1 \\end{pmatrix},$ and $\\mathbf{b}$ is orthogonal to $\\begin{pmatrix} 1 \\\\ 1 \\\\ 1 \\end{pmatrix}.$  Find $\\mathbf{b}.$",
   "n_questions": 8,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "As $n$ ranges over the positive integers, what is the maximum possible value for the greatest common divisor of $11n+3$ and $6n+1$?",
   "n_questions": 7,
   "labels": [

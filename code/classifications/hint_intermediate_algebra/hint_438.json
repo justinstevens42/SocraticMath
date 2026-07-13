@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "The polynomial $P(x) = x^3 + ax^2 + bx +c$ has the property that the mean of its zeros, the product of its zeros, and the sum of its coefficients are all equal. If the $y$-intercept of the graph of $y=\nP(x)$ is 2, what is $b$?",
   "n_questions": 10,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Convert the point $( -5, 0, -8 )$ in rectangular coordinates to cylindrical coordinates.  Enter your answer in the form $(r,\\theta,z),$ where $r > 0$ and $0 \\le \\theta < 2 \\pi.$",
   "n_questions": 8,
   "labels": [

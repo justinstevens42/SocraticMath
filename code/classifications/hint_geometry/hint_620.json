@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Let $P$ be a point outside of circle $O.$ A segment is drawn from $P$ such that it is tangent to circle $O$ at point $T.$ Meanwhile, a secant from $P$ intersects $O$ at $A$ and $B,$ such that $PA < PB.$ If $PA = 3$ and $PT = AB - PA,$ then what is $PB$?",
   "n_questions": 7,
   "labels": [

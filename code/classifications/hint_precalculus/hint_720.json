@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $O$ be the origin.  There exists a scalar $k$ so that for any points $A,$ $B,$ $C,$ and $D$ such that\n\\[3 \\overrightarrow{OA} - 2 \\overrightarrow{OB} + 5 \\overrightarrow{OC} + k \\overrightarrow{OD} = \\mathbf{0},\\]the four points $A,$ $B,$ $C,$ and $D$ are coplanar.  Find $k.$",
   "n_questions": 5,
   "labels": [

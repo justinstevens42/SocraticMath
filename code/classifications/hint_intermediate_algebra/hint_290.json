@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The graph below shows a portion of the curve defined by the quartic polynomial $P(x)=x^4+ax^3+bx^2+cx+d$.\n\n[asy]\nunitsize(0.8 cm);\n\nint i;\n\nreal func (real x) {\n  return(0.5*(x^4/4 - 2*x^3/3 - 3/2*x^2) + 2.7);\n}\n\ndraw(graph(func,-4.5,4.5));\ndraw((-4.5,0)--(4.5,0));\ndraw((0,-5.5)--(0,5.5));\n\nfor (i = -4; i <= 4; ++i) {\n  draw((i,-0.1)--(i,0.1));\n}\n\nfor (i = -5; i <= 5; ++i) {\n  draw((-0.1,i)--(0.1,i));\n}\n\nlabel(\"$-3$\", (-3,-0.1), S);\nlabel(\"$3$\", (3,-0.1), S);\nlabel(\"$10$\", (-0.1,5), W);\nlabel(\"$-10$\", (-0.1,-5), W);\n\nlimits((-4.5,-5.5),(4.5,5.5),Crop);\n[/asy]\n\nWhich of the following is the smallest?\n\nA. $P(-1)$\nB. The product of the zeros of $P$\nC. The product of the non-real zeros of $P$\nD. The sum of the coefficients of $P$\nE. The sum of the real zeros of $P$",
   "n_questions": 8,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 2",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Find the greatest value of $b$ such that $-b^2+7b-10 \\ge 0$.",
   "n_questions": 10,
   "labels": [

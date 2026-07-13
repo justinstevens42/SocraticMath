@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Three coplanar circles intersect as shown. What is the maximum number of points on the circles that a line passing through all three circles can touch?\n\n[asy]import graph;\ndraw(Circle((-9,9),15));\ndraw(Circle((0,-9),15));\ndraw(Circle((9,9),15));\n[/asy]",
   "n_questions": 6,
   "labels": [

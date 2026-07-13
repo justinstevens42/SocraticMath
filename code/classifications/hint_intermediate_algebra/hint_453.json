@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "If $f(x)$ is defined for all integers $x \\ge 0,$ $f(1) = 1,$ and\n\\[f(a + b) = f(a) + f(b) - 2f(ab)\\]for all integers $a,$ $b \\ge 0,$ compute $f(1986).$",
   "n_questions": 6,
   "labels": [

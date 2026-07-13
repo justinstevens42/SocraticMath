@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Let $a,$ $b,$ $c,$ $d$ be real numbers such that\n\\[a^2 + b^2 + c^2 + d^2 = 4.\\]Find the maximum value of $a^3 + b^3 + c^3 + d^3.$",
   "n_questions": 7,
   "labels": [

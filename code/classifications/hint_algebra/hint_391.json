@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "If $f(x)=\\frac{16}{5+3x}$, what is the value of $\\left[f^{-1}(2)\\right]^{-2}$?",
   "n_questions": 8,
   "labels": [

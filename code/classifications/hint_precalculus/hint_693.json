@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "If $x + \\frac{1}{x} = \\sqrt{3}$, then find $x^{18}$.",
   "n_questions": 10,
   "labels": [

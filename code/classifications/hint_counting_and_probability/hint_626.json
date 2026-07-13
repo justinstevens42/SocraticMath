@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "How many 3-digit numbers have the property that the units digit is at least twice the tens digit?",
   "n_questions": 7,
   "labels": [

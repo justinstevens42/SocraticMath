@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "The square with vertices $(-a, -a), (a, -a), (-a, a), (a, a)$ is cut by the line $y = x/2$ into congruent quadrilaterals.  The perimeter of one of these congruent quadrilaterals divided by $a$ equals what?  Express your answer in simplified radical form.",
   "n_questions": 6,
   "labels": [

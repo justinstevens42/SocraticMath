@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Given that $0\\le x_3 \\le x_2 \\le x_1\\le 1$ and $(1-x_1)^2+(x_1-x_2)^2+(x_2-x_3)^2+x_3^2=\\frac{1}{4},$ find $x_1.$",
   "n_questions": 6,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "It is now 12:00:00 midnight, as read on a 12-hour digital clock. In 122 hours, 39 minutes and 44 seconds the time will be $A:B:C$. What is the value of $A + B + C$?",
   "n_questions": 7,
   "labels": [

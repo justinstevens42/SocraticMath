@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "In square $ABCD$, point $M$ is the midpoint of side $AB$ and point $N$ is the midpoint of side $BC$. What is the ratio of the area of triangle $AMN$ to the area of square $ABCD$? Express your answer as a common fraction.",
   "n_questions": 10,
   "labels": [

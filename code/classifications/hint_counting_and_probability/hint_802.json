@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "How many triangles are in the figure below? [asy]\ndraw((0,0)--(30,0)--(30,20)--(0,20)--cycle);\ndraw((15,0)--(15,20));\ndraw((0,0)--(15,20));\ndraw((15,0)--(0,20));\ndraw((15,0)--(30,20));\ndraw((30,0)--(15,20));\ndraw((0,10)--(30,10));\ndraw((7.5,0)--(7.5,20));\ndraw((22.5,0)--(22.5,20));\n[/asy]",
   "n_questions": 10,
   "labels": [

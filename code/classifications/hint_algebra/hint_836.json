@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A rectangle is called cool if the number of square units in its area is equal to twice the number of units in its perimeter. A cool rectangle also must have integer side lengths. What is the sum of all the different possible areas of cool rectangles?",
   "n_questions": 13,
   "labels": [

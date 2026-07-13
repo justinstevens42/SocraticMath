@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "What is the area, in square units, of a triangle whose vertices are at $(4, -1)$, $(10, 3)$ and $(4, 5)$?",
   "n_questions": 7,
   "labels": [

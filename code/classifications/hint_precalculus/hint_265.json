@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A parametric graph is given by\n\\begin{align*}\nx &= \\cos t + \\frac{t}{2}, \\\\\ny &= \\sin t.\n\\end{align*}How many times does the graph intersect itself between $x = 1$ and $x = 40$?",
   "n_questions": 9,
   "labels": [

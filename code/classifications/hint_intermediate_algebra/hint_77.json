@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $\\omega$ be a complex number such that $\\omega^7 = 1$ and $\\omega \\ne 1.$  Compute\n\\[\\omega^{16} + \\omega^{18} + \\omega^{20} + \\dots + \\omega^{54}.\\]",
   "n_questions": 6,
   "labels": [

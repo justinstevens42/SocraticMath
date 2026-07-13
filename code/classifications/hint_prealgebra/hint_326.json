@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "In how many ways can a President and a Vice-President be chosen from a group of 5 people (assuming that the President and the Vice-President cannot be the same person)?",
   "n_questions": 8,
   "labels": [

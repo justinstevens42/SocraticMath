@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "When $555_{10}$ is expressed in this base, it has 4 digits, in the form ABAB, where A and B are two different digits.  What base is it?",
   "n_questions": 8,
   "labels": [

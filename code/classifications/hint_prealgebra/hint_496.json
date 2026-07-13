@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Anna, Stephanie, and James all start running around a track at 8:00. Anna completes a lap every 4 minutes, Stephanie finishes a lap every 7 minutes, and James finishes a lap every 6 minutes. What is the earliest time when all three meet back at the beginning?",
   "n_questions": 9,
   "labels": [

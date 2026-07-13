@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Let $F_1 = \\left( -3, 1 - \\frac{\\sqrt{5}}{4} \\right)$ and $F_ 2= \\left( -3, 1 + \\frac{\\sqrt{5}}{4} \\right).$  Then the set of points $P$ such that\n\\[|PF_1 - PF_2| = 1\\]form a hyperbola.  The equation of this hyperbola can be written as\n\\[\\frac{(y - k)^2}{a^2} - \\frac{(x - h)^2}{b^2} = 1,\\]where $a, b > 0.$ Find $h + k + a + b.$",
   "n_questions": 10,
   "labels": [

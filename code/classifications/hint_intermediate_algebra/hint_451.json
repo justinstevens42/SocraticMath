@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Compute $\\displaystyle \\sum_{n=2}^\\infty \\sum_{k=1}^{n-1} \\frac{k}{2^{n+k}}$.",
   "n_questions": 8,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Regular octagon $ABCDEFGH$ has its center at $J$.  Each of the vertices and the center are to be associated with one of the digits $1$ through $9$, with each digit used once, in such a way that the sums of the numbers on the lines $AJE$, $BJF$, $CJG$, and $DJH$ are all equal.  In how many ways can this be done?\n[asy]\npair A,B,C,D,E,F,G,H,J;\nA=(20,20(2+sqrt(2)));\nB=(20(1+sqrt(2)),20(2+sqrt(2)));\nC=(20(2+sqrt(2)),20(1+sqrt(2)));\nD=(20(2+sqrt(2)),20);\nE=(20(1+sqrt(2)),0);\nF=(20,0);\nG=(0,20);\nH=(0,20(1+sqrt(2)));\nJ=(10(2+sqrt(2)),10(2+sqrt(2)));\ndraw(A--B);\ndraw(B--C);\ndraw(C--D);\ndraw(D--E);\ndraw(E--F);\ndraw(F--G);\ndraw(G--H);\ndraw(H--A);\ndot(A);\ndot(B);\ndot(C);\ndot(D);\ndot(E);\ndot(F);\ndot(G);\ndot(H);\ndot(J);\nlabel(\"$A$\",A,NNW);\nlabel(\"$B$\",B,NNE);\nlabel(\"$C$\",C,ENE);\nlabel(\"$D$\",D,ESE);\nlabel(\"$E$\",E,SSE);\nlabel(\"$F$\",F,SSW);\nlabel(\"$G$\",G,WSW);\nlabel(\"$H$\",H,WNW);\nlabel(\"$J$\",J,SE);\nsize(4cm);\n[/asy]",
   "n_questions": 6,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "What is the remainder of $8^6 + 7^7 + 6^8$ divided by 5?",
   "n_questions": 8,
   "labels": [

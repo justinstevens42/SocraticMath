@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find the unit vector $\\mathbf{v},$ lying in the $xz$-plane, which makes an angle of $45^\\circ$ with $\\begin{pmatrix} 2 \\\\ 2 \\\\ -1 \\end{pmatrix},$ and an angle of $60^\\circ$ with $\\begin{pmatrix} 0 \\\\ 1 \\\\ - 1 \\end{pmatrix}.$",
   "n_questions": 10,
   "labels": [

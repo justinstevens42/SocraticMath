@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Jimmy owns a cube-shaped container that measures $10$ inches on each side. He fills this container with water until it is half full. Then he throws ten giant ice cubes that measure $2$ inches on each side into the container. In inches cubed, how much of the container is unoccupied by ice or water?",
   "n_questions": 8,
   "labels": [

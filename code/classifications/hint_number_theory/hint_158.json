@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "What integer $n$ satisfies $0\\le n<9$ and $$-1111\\equiv n\\pmod 9~?$$",
   "n_questions": 6,
   "labels": [

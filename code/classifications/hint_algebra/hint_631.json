@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "If $x^2+bx+9$ has two non-real roots, find all real possible values of $b$. Express your answer in interval notation.",
   "n_questions": 7,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "If the least common multiple of two 6-digit integers has 10 digits, then their greatest common divisor has at most how many digits?",
   "n_questions": 6,
   "labels": [

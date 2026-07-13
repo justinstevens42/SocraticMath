@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Find the modular inverse of $27$, modulo $28$.\n\nExpress your answer as an integer from $0$ to $27$, inclusive.",
   "n_questions": 6,
   "labels": [

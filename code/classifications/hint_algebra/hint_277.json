@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The midpoint of a line segment is located at $(1, -2)$. If one of the endpoints is $(4, 5)$, what is the other endpoint? Express your answer as an ordered pair.",
   "n_questions": 10,
   "labels": [

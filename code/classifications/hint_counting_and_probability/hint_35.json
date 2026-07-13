@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Ben rolls four fair 20-sided dice, and each of the dice has faces numbered from 1 to 20. What is the probability that exactly two of the dice show an even number?",
   "n_questions": 10,
   "labels": [

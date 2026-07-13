@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "The point $O$ is the center of the circle circumscribed about $\\triangle ABC$, with $\\angle BOC = 120^{\\circ}$ and $\\angle AOB =\n140^{\\circ}$, as shown. What is the degree measure of $\\angle\nABC$?\n\n[asy]\npair A,B,C;\ndraw(Circle((0,0),20),linewidth(0.7));\nlabel(\"$O$\",(0,0),S);\nA=(-16,-12);\nC=(16,-12);\nB=(3,19.7);\ndraw(A--B--C--cycle,linewidth(0.7));\nlabel(\"$140^{\\circ}$\",(0,0),W);\nlabel(\"$120^{\\circ}$\",(0,0.3),E);\ndraw(C--(0,0)--B);\ndraw(A--(0,0));\nlabel(\"$A$\",A,SW);\nlabel(\"$B$\",B,NE);\nlabel(\"$C$\",C,SE);\n[/asy]",
   "n_questions": 6,
   "labels": [

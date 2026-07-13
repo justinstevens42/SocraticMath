@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Regular hexagon $ABCDEF$ is the base of right pyramid $\\allowbreak PABCDEF$.  If $PAD$ is an equilateral triangle with side length 8, then what is the volume of the pyramid?",
   "n_questions": 6,
   "labels": [

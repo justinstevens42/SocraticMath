@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "A pirate is searching for buried treasure on 6 islands. On each island, there is a $\\frac{1}{4}$ chance that the island has buried treasure and no traps, a $\\frac{1}{12}$ chance that the island has traps but no treasure, and a $\\frac{2}{3}$ chance that the island has neither traps nor treasure. What is the probability that while searching all 6 islands, the pirate will encounter exactly 3 islands with treasure, and none with traps?",
   "n_questions": 8,
   "labels": [

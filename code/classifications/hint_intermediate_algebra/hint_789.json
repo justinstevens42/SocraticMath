@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $x,$ $y,$ $z$ be positive real number such that $xyz = \\frac{2}{3}.$  Compute the minimum value of\n\\[x^2 + 6xy + 18y^2 + 12yz + 4z^2.\\]",
   "n_questions": 7,
   "labels": [

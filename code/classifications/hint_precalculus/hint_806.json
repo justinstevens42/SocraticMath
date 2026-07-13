@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "For how many integers $n$ with $1 \\le n \\le 2012$ is the product\n\\[\n  \\prod_{k=0}^{n-1} \\left( \\left( 1 + e^{2 \\pi i k / n} \\right)^n + 1 \\right) \n\\]equal to zero?",
   "n_questions": 8,
   "labels": [

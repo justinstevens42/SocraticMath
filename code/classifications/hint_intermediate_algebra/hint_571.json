@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Let $z$ be a complex number satisfying $z^2 + z + 1 = 0.$  Compute\n\\[z^{97} + z^{98} + z^{99} + z^{100} + z^{101}.\\]",
   "n_questions": 6,
   "labels": [

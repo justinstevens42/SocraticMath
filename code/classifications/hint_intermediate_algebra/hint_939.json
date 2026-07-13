@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find the ordered pair $(a,b)$ of real numbers such that the cubic polynomials $x^3 + ax^2 + 11x + 6 = 0$ and $x^3 + bx^2 + 14x + 8 = 0$ have two distinct roots in common.",
   "n_questions": 7,
   "labels": [

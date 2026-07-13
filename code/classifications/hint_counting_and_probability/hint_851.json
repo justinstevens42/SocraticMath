@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "George flips an unfair coin 7 times. The coin has a $\\frac{1}{4}$ probability of coming up heads and a $\\frac{3}{4}$ probability of coming up tails. What is the probability that he flips exactly 2 tails?",
   "n_questions": 15,
   "labels": [

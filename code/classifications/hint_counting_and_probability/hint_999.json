@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A card is chosen at random from a standard deck of 52 cards, and then it is replaced and another card is chosen. What is the probability that at least one of the cards is a diamond or an ace?",
   "n_questions": 8,
   "labels": [

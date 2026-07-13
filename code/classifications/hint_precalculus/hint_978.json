@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A plane is expressed parametrically by\n\\[\\mathbf{v} = \\begin{pmatrix} 1 + s - t \\\\ 2 - s \\\\ 3 - 2s + 2t \\end{pmatrix}.\\]Find the equation of the plane.  Enter your answer in the form\n\\[Ax + By + Cz + D = 0,\\]where $A,$ $B,$ $C,$ $D$ are integers such that $A > 0$ and $\\gcd(|A|,|B|,|C|,|D|) = 1.$",
   "n_questions": 10,
   "labels": [

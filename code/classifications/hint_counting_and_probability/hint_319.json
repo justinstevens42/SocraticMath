@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "There are five unmarked envelopes on a table, each with a letter for a different person.  If the mail is randomly distributed to these five people, with each person getting one letter, what is the probability that exactly four people get the right letter?",
   "n_questions": 10,
   "labels": [

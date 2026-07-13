@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "All the complex roots of $(z + 1)^5 = 32z^5,$ when plotted in the complex plane, lie on a circle.  Find the radius of this circle.",
   "n_questions": 6,
   "labels": [

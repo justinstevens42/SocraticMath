@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "In the rectangle below, line segment $MN$ separates the rectangle into $2$ sections. What is the largest number of sections into which the rectangle can be separated when $4$ line segments (including $MN$) are drawn through the rectangle? [asy]\nsize(3cm,3cm);\npair A,B,C,D,M,N;\nA=(0,0);\nB=(1.5,0);\nC=(1.5,1);\nD=(0,1);\ndraw (A--B--C--D--A);\nM=(0.8,0);\nN=(1.2,1);\ndraw(M--N);\nlabel(\"M\",M,S);\nlabel(\"N\",N,NNE);\n[/asy]",
   "n_questions": 10,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find the $2 \\times 2$ matrix $\\mathbf{M}$ such that $\\mathbf{M} \\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix} = \\begin{pmatrix} -4 \\\\ 4 \\end{pmatrix}$ and $\\mathbf{M} \\begin{pmatrix} -3 \\\\ 1 \\end{pmatrix} = \\begin{pmatrix} -23 \\\\ 2 \\end{pmatrix}.$",
   "n_questions": 12,
   "labels": [

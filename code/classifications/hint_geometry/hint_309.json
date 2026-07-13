@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 1",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "In regular pentagon $ABCDE$, diagonal $AC$ is drawn, as shown. Given that each interior angle of a regular pentagon measures 108 degrees, what is the measure of angle $CAB$?\n\n[asy]\nsize(4cm,4cm);\ndefaultpen(linewidth(1pt)+fontsize(10pt));\n\npair A,B,C,D,E;\nA = (0,0);\nB = dir(108);\nC = B+dir(39);\nD = C+dir(-39);\nE = (1,0);\n\ndraw(A--B--C--D--E--cycle,linewidth(1));\ndraw(A--C,linewidth(1)+linetype(\"0 4\"));\n\nlabel(\"A\",A,S);\nlabel(\"B\",B,W);\nlabel(\"C\",C,N);\nlabel(\"D\",D,E);\nlabel(\"E\",E,S);\nlabel(\"$108^\\circ$\",B,E);;\n[/asy]",
   "n_questions": 7,
   "labels": [

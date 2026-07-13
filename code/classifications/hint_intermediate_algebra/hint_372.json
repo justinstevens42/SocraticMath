@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Let $x,$ $y,$ and $z$ be nonnegative real numbers such that $x + y + z = 5.$  Find the maximum value of\n\\[\\sqrt{2x + 1} + \\sqrt{2y + 1} + \\sqrt{2z + 1}.\\]",
   "n_questions": 7,
   "labels": [

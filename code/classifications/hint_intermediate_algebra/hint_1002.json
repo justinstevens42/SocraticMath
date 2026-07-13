@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "The increasing sequence of positive integers $a_1,$ $a_2,$ $a_3,$ $\\dots$ has the property that\n\\[a_{n + 2} = a_{n + 1} + a_n\\]for all $n \\ge 1.$  If $a_7 = 120,$ then find $a_8.$",
   "n_questions": 10,
   "labels": [

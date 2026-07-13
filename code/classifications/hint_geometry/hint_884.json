@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "In right triangle $ABC$ with $\\angle A = 90^\\circ$, we have $AB =16$ and $BC = 24$.  Find $\\sin A$.",
   "n_questions": 6,
   "labels": [

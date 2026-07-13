@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "The cubic polynomial $p(x)$ satisfies $p(2) = 1,$ $p(7) = 19,$ $p(15) = 11,$ and $p(20) = 29.$  Find\n\\[p(1) + p(2) + p(3) + \\dots + p(21).\\]",
   "n_questions": 10,
   "labels": [

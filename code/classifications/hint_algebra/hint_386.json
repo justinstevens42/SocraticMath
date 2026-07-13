@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "There are two ${\\bf positive}$ integers $c$ for which the equation $$5x^2+11x+c=0$$has rational solutions. What is the product of those two values of $c$?",
   "n_questions": 6,
   "labels": [

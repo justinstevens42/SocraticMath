@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "If the product $(3x^2 - 5x + 4)(7 - 2x)$ can be written in the form $ax^3 + bx^2 + cx + d$, where $a,b,c,d$ are real numbers, then find $8a + 4b + 2c + d$.",
   "n_questions": 9,
   "labels": [

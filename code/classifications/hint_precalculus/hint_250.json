@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "$ABCDE$ is inscribed in a circle with $AB = BC = CD = DE = 4$ and $AE = 1.$  Compute $(1 - \\cos \\angle B)(1 - \\cos \\angle ACE).$",
   "n_questions": 12,
   "labels": [

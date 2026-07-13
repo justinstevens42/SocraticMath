@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "What is the minimum value of $5x^2-20x+1357$?",
   "n_questions": 10,
   "labels": [

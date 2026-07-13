@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "In triangle $ABC$, the angle bisectors are $AD$, $BE$, and $CF$, which intersect at the incenter $I$.  If $\\angle ACB = 38^\\circ$, then find the measure of $\\angle AIE$, in degrees.",
   "n_questions": 6,
   "labels": [

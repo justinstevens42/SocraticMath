@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "What is the least positive integer value of $x$ such that $(2x)^2 + 2\\cdot 37\\cdot 2x + 37^2$ is a multiple of 47?",
   "n_questions": 7,
   "labels": [

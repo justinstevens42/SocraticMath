@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "A function $f$ is defined for all real numbers and satisfies $f(2+x)=f(2-x)$ and $f(7+x)=f(7-x)$ for all $x.$ If $f(0) = 0,$ what is the least number of roots $f(x)=0$ must have in the interval $-1000\\leq x \\leq 1000$?",
   "n_questions": 6,
   "labels": [

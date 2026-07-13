@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Find the positive integer $n$ such that\n\\[\\sin \\left( \\frac{\\pi}{2n} \\right) + \\cos \\left (\\frac{\\pi}{2n} \\right) = \\frac{\\sqrt{n}}{2}.\\]",
   "n_questions": 10,
   "labels": [

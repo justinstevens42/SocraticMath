@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Find the maximum value of\n\\[\\cos \\theta_1 \\sin \\theta_2 + \\cos \\theta_2 \\sin \\theta_3 + \\cos \\theta_3 \\sin \\theta_4 + \\cos \\theta_4 \\sin \\theta_5 + \\cos \\theta_5 \\sin \\theta_1,\\]over all real numbers $\\theta_1,$ $\\theta_2,$ $\\theta_3,$ $\\theta_4,$ and $\\theta_5.$",
   "n_questions": 10,
   "labels": [

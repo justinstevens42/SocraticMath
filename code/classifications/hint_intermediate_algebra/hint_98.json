@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find the polynomial $p(x)$ such that\n\\[p(p(x)) = xp(x) + x^2.\\]",
   "n_questions": 9,
   "labels": [

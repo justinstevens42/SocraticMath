@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "If the seven-digit number $854n526$ is divisible by $11$, what is $n$?",
   "n_questions": 6,
   "labels": [

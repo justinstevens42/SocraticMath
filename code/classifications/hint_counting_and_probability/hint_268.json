@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Interior numbers begin in the third row of Pascal's Triangle. The sum of the interior numbers in the fourth row is 6. The sum of the interior numbers of the fifth row is 14. What is the sum of the interior numbers of the seventh row?",
   "n_questions": 8,
   "labels": [

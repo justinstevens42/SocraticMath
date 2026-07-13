@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The arithmetic mean of 12 scores is 82. When the highest and lowest scores are  removed, the new mean becomes 84. If the highest of the 12 scores is 98, what is the lowest score?",
   "n_questions": 10,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Let $A = (-1,1,2),$ $B = (1,2,3),$ and $C = (t,1,1),$ where $t$ is a real number.  Find the smallest possible area of triangle $ABC.$",
   "n_questions": 10,
   "labels": [

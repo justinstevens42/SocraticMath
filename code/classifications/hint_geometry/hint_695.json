@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Circle $B$ has its center at $(-6, 2)$ and a radius of $10$ units. What is the sum of the $y$-coordinates of the two points on circle $B$ that are also on the $y$-axis?",
   "n_questions": 6,
   "labels": [

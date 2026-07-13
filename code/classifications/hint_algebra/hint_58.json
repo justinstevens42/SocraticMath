@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Compute the sum of the geometric series $-1 + 2 - 4 + 8 - \\cdots + 512$.",
   "n_questions": 10,
   "labels": [

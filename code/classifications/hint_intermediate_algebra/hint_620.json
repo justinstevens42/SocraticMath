@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Give an example of a quadratic function that has zeroes at $x=2$ and $x=4$, and that takes the value $6$ when $x=3$.\n\nEnter your answer in the expanded form \"ax^2 + bx + c\", where a,b,c are replaced by appropriate numbers.",
   "n_questions": 6,
   "labels": [

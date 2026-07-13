@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Suppose $x-3$ and $y+3$ are multiples of $7$.\n\nWhat is the smallest positive integer, $n,$ for which $x^2+xy+y^2+n$ is a multiple of $7$?",
   "n_questions": 5,
   "labels": [

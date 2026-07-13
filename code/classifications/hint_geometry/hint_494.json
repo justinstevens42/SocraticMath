@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Points $A$, $B$, $C$, and $T$ are in space such that each of $\\overline{TA}$, $\\overline{TB}$, and $\\overline{TC}$ is perpendicular to the other two.  If $TA = TB = 12$ and $TC = 6$, then what is the distance from $T$ to face $ABC$?",
   "n_questions": 11,
   "labels": [

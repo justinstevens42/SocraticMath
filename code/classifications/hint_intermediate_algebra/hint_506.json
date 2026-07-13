@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "In a certain sequence the first term is $a_1=2007$ and the second term is $a_2=2008$.  Furthermore, the values of the remaining terms are chosen so that $a_n+a_{n+1}+a_{n+2}=n$ for all $n\\ge 1$.  Determine $a_{1000}$.",
   "n_questions": 6,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "What is the number of degrees in the smaller angle formed by the hour and minute hands of a clock at 8:15? Express your answer as a decimal to the nearest tenth.\n[asy]\nsize(200);\ndraw(Circle((0,0),5),linewidth(1.2));\npair[] mins;\nfor(int i = 0; i < 60; ++i){\n\nmins[i] = 4.5*dir(-6*i + 90);\n\ndot(mins[i]);\n}\nfor(int i = 1; i <= 12; ++i){\n\nlabel((string)i,mins[5*i % 60],dir(-30*i - 90));\n}\n\nfill(Circle((0,0),0.25));\n[/asy]",
   "n_questions": 6,
   "labels": [

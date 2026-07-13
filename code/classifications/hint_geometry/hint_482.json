@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "In triangle $ABC$, $AB = 7$, $AC = 15$, and the length of median $AM$ is 10.  Find the area of triangle $ABC$.",
   "n_questions": 8,
   "labels": [

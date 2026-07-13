@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The isosceles trapezoid shown has side lengths as labeled. How long is segment AC? [asy]\nunitsize(1.5mm);\ndefaultpen(linewidth(.7pt)+fontsize(10pt));\ndotfactor=3;\n\npair A=(0,0), B=(21,0), C=(15,8), D=(6,8);\npair[] dots={A,B,C,D};\n\ndraw(A--B--C--D--cycle);\ndot(dots);\nlabel(\"A\",A,SW);\nlabel(\"B\",B,SE);\nlabel(\"C\",C,NE);\nlabel(\"D\",D,NW);\nlabel(\"9\",midpoint(C--D),N);\nlabel(\"10\",midpoint(D--A),NW);\nlabel(\"21\",midpoint(A--B),S);\nlabel(\"10\",midpoint(B--C),NE);\n[/asy]",
   "n_questions": 7,
   "labels": [

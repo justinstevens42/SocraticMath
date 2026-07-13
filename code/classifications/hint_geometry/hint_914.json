@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "The water tank in the diagram below is in the shape of an inverted right circular cone. The radius of its base is 16 feet, and its height is 96 feet. The water in the tank is $25\\%$ of the tank's capacity.  The height of the water in the tank can be written in the form $a\\sqrt[3]{b}$, where $a$ and $b$ are positive integers and $b$ is not divisible by a perfect cube greater than 1.  What is $a+b$?\n\n[asy]\nsize(150);\ndefaultpen(linewidth(.8pt)+fontsize(8pt));\n\ndraw(shift(0,96)*yscale(0.5)*Circle((0,0),16));\ndraw((-16,96)--(0,0)--(16,96)--(0,96));\n\ndraw(scale(0.75)*shift(0,96)*yscale(0.5)*Circle((0,0),16));\n\ndraw((-18,72)--(-20,72)--(-20,0)--(-18,0));\nlabel(\"water's height\",(-20,36),W);\n\ndraw((20,96)--(22,96)--(22,0)--(20,0));\nlabel(\"96'\",(22,48),E);\n\nlabel(\"16'\",(8,96),S);\n[/asy]",
   "n_questions": 11,
   "labels": [

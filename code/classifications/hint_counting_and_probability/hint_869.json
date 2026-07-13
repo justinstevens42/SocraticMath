@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "In the geoboard shown, the points are evenly spaced vertically and horizontally. Segment $AB$ is drawn using two points, as shown. Point $C$ is to be chosen from the remaining $23$ points. How many of these $23$ points will result in triangle $ABC$ being isosceles? [asy]\ndraw((0,0)--(0,6)--(6,6)--(6,0)--cycle,linewidth(1));\nfor(int i=1;i<6;++i)\n{for(int j=1;j<6;++j)\n{dot((i,j));}\n}\ndraw((2,2)--(4,2),linewidth(1));\nlabel(\"A\",(2,2),SW);\nlabel(\"B\",(4,2),SE);\n[/asy]",
   "n_questions": 6,
   "labels": [

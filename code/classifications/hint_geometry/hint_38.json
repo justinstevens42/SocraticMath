@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "In the two concentric circles shown, the radius of the outer circle is twice the radius of the inner circle. What is the area of the gray region, in square feet, if the width of the gray region is 2 feet? Express your answer in terms of $\\pi$.\n\n[asy]\nfilldraw(circle((0,0),4),gray);\nfilldraw(circle((0,0),2),white);\n\ndraw((2,0)--(4,0),linewidth(1));\n\nlabel(\"$2^{\\prime}$\",(3,0),N);\n[/asy]",
   "n_questions": 7,
   "labels": [

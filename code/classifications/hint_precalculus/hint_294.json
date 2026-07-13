@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find the number of ordered pairs $(a,b)$ of complex numbers such that\n\\[a^3 b^5 = a^7 b^2 = 1.\\]",
   "n_questions": 8,
   "labels": [

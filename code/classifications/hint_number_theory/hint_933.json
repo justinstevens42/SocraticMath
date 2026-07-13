@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "What is the smallest base-10 integer that can be represented as $12_a$ in one base and $21_b$ in another base, where $a$ and $b$ are any bases larger than 2?",
   "n_questions": 7,
   "labels": [

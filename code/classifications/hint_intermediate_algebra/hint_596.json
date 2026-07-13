@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Let $z$ and $w$ be complex numbers such that $|z + 1 + 3i| = 1$ and $|w - 7 - 8i| = 3.$  Find the smallest possible value of $|z - w|.$",
   "n_questions": 6,
   "labels": [

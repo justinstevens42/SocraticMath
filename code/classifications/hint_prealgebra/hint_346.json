@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "On a \"prime date,\" both the month and the day are prime numbers. For example, Feb. 7 or 2/7 is a prime date. How many prime dates occurred in 2007?",
   "n_questions": 7,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Point $P$ is located inside triangle $ABC$ so that angles $PAB, PBC,$ and $PCA$ are all congruent. The sides of the triangle have lengths $AB=13, BC=14,$ and $CA=15.$  Find $\\tan \\angle PAB.$",
   "n_questions": 8,
   "labels": [

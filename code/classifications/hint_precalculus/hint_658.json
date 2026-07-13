@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find the distance from the point $(1,2,3)$ to the line described by\n\\[\\begin{pmatrix} 6 \\\\ 7 \\\\ 7 \\end{pmatrix} + t \\begin{pmatrix} 3 \\\\ 2 \\\\ -2 \\end{pmatrix}.\\]",
   "n_questions": 11,
   "labels": [

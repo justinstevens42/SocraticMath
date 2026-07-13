@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The matrix $\\mathbf{A} = \\begin{pmatrix} 2 & 3 \\\\ 5 & d \\end{pmatrix}$ satisfies\n\\[\\mathbf{A}^{-1} = k \\mathbf{A}\\]for some constant $k.$  Enter the ordered pair $(d,k).$",
   "n_questions": 9,
   "labels": [

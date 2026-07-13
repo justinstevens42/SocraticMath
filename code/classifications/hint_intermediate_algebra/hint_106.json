@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $p(x)$ be a monic polynomial of degree 4, such that $p(1) = 17,$ $p(2) = 34,$ and $p(3) = 51.$  Find $p(0) + p(4).$",
   "n_questions": 7,
   "labels": [

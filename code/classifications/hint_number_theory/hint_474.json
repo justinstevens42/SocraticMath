@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Given that $a$ is a multiple of $456$, find the greatest common divisor of $3a^3+a^2+4a+57$ and $a$.",
   "n_questions": 6,
   "labels": [

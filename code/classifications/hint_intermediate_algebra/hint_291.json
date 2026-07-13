@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Let $f : \\mathbb{R} \\to \\mathbb{R}$ be a function such that\n\\[f(f(x - y)) = f(x) f(y) - f(x) + f(y) - xy\\]for all $x,$ $y.$  Find the sum of all possible values of $f(1).$",
   "n_questions": 13,
   "labels": [

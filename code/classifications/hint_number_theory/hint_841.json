@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "What is the units digit of $\\frac{20 \\cdot 21 \\cdot 22 \\cdot 23 \\cdot 24 \\cdot 25}{1000}$?",
   "n_questions": 7,
   "labels": [

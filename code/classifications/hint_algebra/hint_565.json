@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "What is the sum of all values of $k$ such that the equation $2x^2-kx+8=0$ has two distinct integer solutions?",
   "n_questions": 6,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The parabolas defined by the equations $y=2x^2-4x+4$ and $y=-x^2-2x+4$ intersect at points $(a,b)$ and $(c,d)$, where $c\\ge a$. What is $c-a$? Express your answer as a common fraction.",
   "n_questions": 10,
   "labels": [

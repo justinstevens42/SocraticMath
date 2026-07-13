@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Let $a,$ $b,$ and $c$ be positive real numbers.  Find the minimum value of\n\\[\\frac{a + b}{c} + \\frac{a + c}{b} + \\frac{b + c}{a}.\\]",
   "n_questions": 6,
   "labels": [

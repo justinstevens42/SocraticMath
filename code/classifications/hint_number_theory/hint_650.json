@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Two positive integers $m$ and $n$ are chosen such that $m$ is the smallest positive integer with only two positive divisors and $n$ is the largest integer less than $100$ with exactly three positive divisors. What is $m+n$?",
   "n_questions": 6,
   "labels": [

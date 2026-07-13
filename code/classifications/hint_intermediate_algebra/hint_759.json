@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "A right triangle has legs $a$ and $b$ and hypotenuse $c.$  Find the largest possible value of\n\\[\\frac{a + b}{c}.\\]",
   "n_questions": 10,
   "labels": [

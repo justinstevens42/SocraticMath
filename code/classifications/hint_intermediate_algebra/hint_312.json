@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Let $n$ be a positive integer.  The sequence $(x_k)$ is defined by $x_0 = 0,$ $x_1 = 1,$ and\n\\[x_{k + 2} = \\frac{(n - 1) x_{k + 1} - (n - k) x_k}{k + 1}\\]for $k \\ge 0.$  Find $x_0 + x_1 + x_2 + \\dotsb$ as a function of $n.$",
   "n_questions": 7,
   "labels": [

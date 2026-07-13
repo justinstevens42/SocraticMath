@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A piece of string fits exactly once around the perimeter of a square whose area is 144.  Rounded to the nearest whole number, what is the area of the largest circle that can be formed from the piece of string?",
   "n_questions": 10,
   "labels": [

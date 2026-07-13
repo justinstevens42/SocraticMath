@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Two transformations are applied to the complex number $-3 - 8i$:\n\nA $45^\\circ$ rotation around the origin in the counter-clockwise direction.\nA dilation, centered at the origin, with scale factor $\\sqrt{2}.$\n\nWhat is the resulting complex number?",
   "n_questions": 7,
   "labels": [

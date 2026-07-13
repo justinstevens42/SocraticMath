@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The sequence 12, 15, 18, 21, 51, 81, $\\ldots$ consists of all positive multiples of 3 that contain at least one digit that is a 1. What is the $50^{\\mathrm{th}}$ term of the sequence?",
   "n_questions": 8,
   "labels": [

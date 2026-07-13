@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A polynomial of degree four with leading coefficient 1 and integer coefficients has two real zeros, both of which are integers. Which of the following can also be a zero of the polynomial?\n\n(A) $\\frac{1 + i \\sqrt{11}}{2}$\n\n(B) $\\frac{1 + i}{2}$\n\n(C) $\\frac{1}{2} + i$\n\n(D) $1 + \\frac{i}{2}$\n\n(E) $\\frac{1 + i \\sqrt{13}}{2}$",
   "n_questions": 10,
   "labels": [

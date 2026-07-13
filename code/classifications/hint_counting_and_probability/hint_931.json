@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "When two fair 6-sided dice are tossed, the numbers $a$ and $b$ are obtained. What is the probability that the two digit number $ab$ (where $a$ and $b$ are digits) and $a$ and $b$ are all divisible by 3?",
   "n_questions": 9,
   "labels": [

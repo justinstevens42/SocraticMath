@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "How many numbers are in the list $ 4, 6, 8, \\ldots, 128, 130 ?$",
   "n_questions": 6,
   "labels": [

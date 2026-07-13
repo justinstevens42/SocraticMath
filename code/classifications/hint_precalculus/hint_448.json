@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
   "problem": "If the three points $(1,a,b),$ $(a,2,b),$ $(a,b,3)$ are collinear, what is the value of $a + b$?",
   "n_questions": 11,
   "labels": [

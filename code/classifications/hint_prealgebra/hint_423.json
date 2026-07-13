@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 2",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Given that $n$ is an integer and $0 < 4n <30$, what is the sum of all possible integer values of $n$?",
   "n_questions": 6,
   "labels": [

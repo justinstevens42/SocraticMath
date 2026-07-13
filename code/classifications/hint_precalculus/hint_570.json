@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "If\n\\[\\begin{pmatrix} 1 & 2 & a \\\\ 0 & 1 & 4 \\\\ 0 & 0 & 1 \\end{pmatrix}^n = \\begin{pmatrix} 1 & 18 & 2007 \\\\ 0 & 1 & 36 \\\\ 0 & 0 & 1 \\end{pmatrix},\\]then find $a + n.$",
   "n_questions": 8,
   "labels": [

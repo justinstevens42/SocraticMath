@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find the point in the plane $3x - 4y + 5z = 30$ that is closest to the point $(1,2,3).$",
   "n_questions": 6,
   "labels": [

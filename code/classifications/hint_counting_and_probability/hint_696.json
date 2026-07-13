@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Suppose we want to divide the 10 dogs into three groups, one with 3 dogs, one with 5 dogs, and one with 2 dogs.  How many ways can we form the groups such that Fluffy is in the 3-dog group and Nipper is in the 5-dog group?",
   "n_questions": 12,
   "labels": [

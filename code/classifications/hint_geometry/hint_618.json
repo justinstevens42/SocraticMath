@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 2",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
   "problem": "A triangle has three different integer side lengths and a perimeter of 20 units. What is the maximum length of any one side?",
   "n_questions": 9,
   "labels": [

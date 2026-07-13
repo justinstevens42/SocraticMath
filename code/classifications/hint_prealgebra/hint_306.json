@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Let $A$ be the greatest common factor and let $B$ be the least common multiple of 8, 12 and 24. What is the value of $A + B$?",
   "n_questions": 6,
   "labels": [

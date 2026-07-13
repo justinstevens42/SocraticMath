@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Let $A = (8,0,0),$ $B = (0,-4,0),$ $C = (0,0,6),$ and $D = (0,0,0).$  Find the point $P$ such that\n\\[AP = BP = CP = DP.\\]",
   "n_questions": 6,
   "labels": [

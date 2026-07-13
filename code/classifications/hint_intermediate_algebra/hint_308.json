@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Let $f(x) = \\frac{x + 6}{x}.$  The sequence $(f_n)$ of functions is defined by $f_1 = f$ and\n\\[f_n = f \\circ f_{n - 1}\\]for all $n \\ge 2.$  For example,\n\\[f_2(x) = f(f(x)) = \\frac{\\frac{x + 6}{x} + 6}{\\frac{x + 6}{x}} = \\frac{7x + 6}{x + 6}\\]and\n\\[f_3(x) = f(f_2(x)) = \\frac{\\frac{7x + 6}{x + 6} + 6}{\\frac{7x + 6}{x + 6}} = \\frac{13x + 42}{7x + 6}.\\]Let $S$ be the set of all real numbers $x$ such that\n\\[f_n(x) = x\\]for some positive integer $n.$  Find the number of elements in $S.$",
   "n_questions": 6,
   "labels": [

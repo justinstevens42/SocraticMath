@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "What is the next term in the geometric sequence $$2, 6x, 18x^2, 54x^3, \\ldots ?$$ Express your answer in terms of $x$.",
   "n_questions": 9,
   "labels": [

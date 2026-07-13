@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "A bin has 5 green balls and $k$ purple balls in it, where $k$ is an unknown positive integer.  A ball is drawn at random from the bin.  If a green ball is drawn, the player wins 2 dollars, but if a purple ball is drawn, the player loses 2 dollars.  If the expected amount won for playing the game is 50 cents, then what is $k$?",
   "n_questions": 8,
   "labels": [

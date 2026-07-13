@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Say that a complex number $z$ is three-presentable if there is a complex number $w$ of absolute value $3$ such that $z = w - \\frac{1}{w}$.  Let $T$ be the set of all three-presentable complex numbers.  The set $T$ forms a closed curve in the complex plane.  What is the area inside $T$?",
   "n_questions": 9,
   "labels": [

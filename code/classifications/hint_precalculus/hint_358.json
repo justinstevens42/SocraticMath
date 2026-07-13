@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "Find the value of $x$ for which the matrix\n\\[\\begin{pmatrix} 1 + x & 7 \\\\ 3 - x & 8 \\end{pmatrix}\\]is not invertible.",
   "n_questions": 6,
   "labels": [

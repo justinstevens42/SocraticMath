@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Let $S$ be the set of points $(x, y)$ in the Cartesian plane that satisfy\n\\[\\Big|\\big| |x|-2\\big|-1\\Big|+\\Big|\\big| |y|-2\\big|-1\\Big|=1.\\]What is the total length of all the lines that make up $S$?",
   "n_questions": 7,
   "labels": [

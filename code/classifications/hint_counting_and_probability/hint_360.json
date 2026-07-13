@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "A very bizarre weighted coin comes up heads with probability $\\frac12$, tails with probability $\\frac13$, and rests on its edge with probability $\\frac16$.  If it comes up heads, I win 1 dollar.  If it comes up tails, I win 3 dollars.  But if it lands on its edge, I lose 5 dollars.  What is the expected winnings from flipping this coin?  Express your answer as a dollar value, rounded to the nearest cent.",
   "n_questions": 8,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Suppose that the angles of triangle $ABC$ satisfy\n\\[\\cos 3A + \\cos 3B + \\cos 3C = 1.\\]Two sides of the triangle have lengths 10 and 13.  Find the maximum length of the third side.",
   "n_questions": 6,
   "labels": [

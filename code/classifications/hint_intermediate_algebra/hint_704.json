@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Find all real solutions to\n\\[\\frac{1}{(x - 1)(x - 2)} + \\frac{1}{(x - 2)(x - 3)} + \\frac{1}{(x - 3)(x - 4)} = \\frac{1}{6}.\\]Enter all solutions, separated by commas.",
   "n_questions": 8,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "What is the least integer value of $x$ such that  $\\lvert2x+ 7\\rvert\\le 16$?",
   "n_questions": 10,
   "labels": [

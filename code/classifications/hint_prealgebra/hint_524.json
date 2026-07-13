@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Simplify this expression to a common fraction:  $\\frac{1}{\\frac{1}{(\\frac{1}{2})^{1}}+\\frac{1}{(\\frac{1}{2})^{2}}+\\frac{1}{(\\frac{1}{2})^{3}}}$",
   "n_questions": 6,
   "labels": [

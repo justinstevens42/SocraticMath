@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "The integers $G$ and $H$ are chosen such that\n\\[\\frac{G}{x+5}+\\frac{H}{x^2-4x}=\\frac{x^2-2x+10}{x^3+x^2-20x}\\]for all real values of $x$ except $-5$, $0$, and $4$. Find $H/G$.",
   "n_questions": 10,
   "labels": [

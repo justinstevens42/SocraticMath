@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 1",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Fully simplify the following expression: $[(2+3+4+5)\\div2] + [(2\\cdot5+8)\\div3]$.",
   "n_questions": 6,
   "labels": [

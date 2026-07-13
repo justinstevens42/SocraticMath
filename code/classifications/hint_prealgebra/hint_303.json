@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "What is the 20th digit after the decimal point of the sum of the decimal equivalents for the fractions $\\frac{1}{7}$ and $\\frac{1}{3}$?",
   "n_questions": 10,
   "labels": [

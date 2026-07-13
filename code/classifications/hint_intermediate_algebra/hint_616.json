@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Find the smallest positive real number $c,$ such that for all nonnegative real numbers $x$ and $y,$\n\\[\\sqrt{xy} + c |x - y| \\ge \\frac{x + y}{2}.\\]",
   "n_questions": 10,
   "labels": [

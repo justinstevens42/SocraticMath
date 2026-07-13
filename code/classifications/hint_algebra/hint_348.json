@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "The roots of the equation $2x^2 - 5x - 4 = 0$ can be written in the form $x = \\frac{m \\pm \\sqrt{n}}{p}$, where $m$, $n$, and $p$ are positive integers with a greatest common divisor of 1. What is the value of $n$?",
   "n_questions": 7,
   "labels": [

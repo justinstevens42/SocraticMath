@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Solve  \\[\\frac{x^2+2x+3}{x+4}=x+5\\]for $x$.",
   "n_questions": 10,
   "labels": [

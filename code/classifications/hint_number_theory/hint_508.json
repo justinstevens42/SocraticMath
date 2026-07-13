@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "For positive integers $n$, let $f(n)$ return the smallest positive integer $k$ such that $\\frac{1}{k}$ has exactly $n$ digits after the decimal point. How many positive integer divisors does $f(2010)$ have?",
   "n_questions": 10,
   "labels": [

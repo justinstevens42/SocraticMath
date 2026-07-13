@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Given that $a+b=3$ and $a^3+b^3=81$, find $ab$.",
   "n_questions": 8,
   "labels": [

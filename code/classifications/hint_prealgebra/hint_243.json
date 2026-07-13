@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The tail of a 1-mile long train exits a tunnel exactly 3 minutes after the front of the train entered the tunnel.  If the train is moving 60 miles per hour, how many miles long is the tunnel?",
   "n_questions": 7,
   "labels": [

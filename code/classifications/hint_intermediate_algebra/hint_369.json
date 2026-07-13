@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Assume that $f$ and $g$ are functions for which $f^{-1}(g(x))=5x+3$.  Find $g^{-1}(f(-7))$.",
   "n_questions": 5,
   "labels": [

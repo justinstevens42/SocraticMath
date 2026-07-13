@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "What is the smallest four-digit palindrome that is divisible by 4?  (A palindrome is a number that reads the same forwards and backwards, like 61216.)",
   "n_questions": 8,
   "labels": [

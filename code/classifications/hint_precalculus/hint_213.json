@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find the area bounded by the graph of $y = \\arccos(\\sin x)$ and the $x$-axis on the interval $\\frac{\\pi}{2} \\le x \\le \\frac{5 \\pi}{2}.$",
   "n_questions": 10,
   "labels": [

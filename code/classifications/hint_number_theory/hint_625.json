@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find the absolute value of the difference of single-digit integers $A$ and $B$ such that  $$ \\begin{array}{c@{}c@{\\;}c@{}c@{}c@{}c} & & & B& B & A_6\\\\ & & & \\mathbf{4} & \\mathbf{1} & B_6\\\\& & + & A & \\mathbf{1} & \\mathbf{5_6}\\\\ \\cline{2-6} & & A & \\mathbf{1} & \\mathbf{5} & \\mathbf{2_6} \\\\ \\end{array} $$Express your answer in base $6$.",
   "n_questions": 6,
   "labels": [

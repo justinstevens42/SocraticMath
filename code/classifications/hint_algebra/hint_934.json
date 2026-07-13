@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "The graph of a certain quadratic $y = ax^2 + bx + c$ is a parabola with vertex $(-4,0)$ which passes through the point $(1,-75)$.  What is the value of $a$?",
   "n_questions": 8,
   "labels": [

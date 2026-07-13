@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The set of points $(x,y,z)$ that are equidistant to $(1,2,-5)$ and point $P$ satisfy an equation of the form\n\\[10x - 4y + 24z = 55.\\]Find the point $P.$",
   "n_questions": 7,
   "labels": [

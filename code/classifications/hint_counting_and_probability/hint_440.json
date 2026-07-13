@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A point $(x,y)$ is randomly selected such that $0 \\le x \\le 3$ and $0 \\le y \\le 6$. What is the probability that $x+y \\le 4$? Express your answer as a common fraction.",
   "n_questions": 8,
   "labels": [

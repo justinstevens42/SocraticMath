@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "One of the following four-digit numbers is not divisible by 4: 3544, 3554, 3564, 3572, 3576. What is the product of the units digit and the tens digit of that number?",
   "n_questions": 8,
   "labels": [

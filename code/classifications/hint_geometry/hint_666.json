@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "In the figure, circle $O$ has radius 6 units. Chord $CD$ has length 8 units and is parallel to segment $KB$. If $KA$ = 12 units and points $K$, $A$, $O$ and $B$ are collinear, what is the area of triangle $KDC$? Express your answer in simplest radical form. [asy]\ndraw(Circle((0,0),6));\ndot((0,0));\nlabel(\"$O$\",(0,0),S);\nlabel(\"$A$\",(-6,0),SW);\nlabel(\"$B$\",(6,0),SE);\nlabel(\"$K$\",(-18,0),W);\ndraw((-18,0)--(6,0));\nlabel(\"$C$\",(-4,sqrt(20)),NW);\nlabel(\"$D$\",(4,sqrt(20)),NE);\ndraw((-18,0)--(-4,sqrt(20)));\ndraw((-18,0)--(4,sqrt(20)));\ndraw((-4,sqrt(20))--(4,sqrt(20)));\n[/asy]",
   "n_questions": 5,
   "labels": [

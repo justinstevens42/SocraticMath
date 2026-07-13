@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "What is the first digit (from left to right) of the base $8$ representation of $473_{10}$?",
   "n_questions": 7,
   "labels": [

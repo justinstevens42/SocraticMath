@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A circle has an area of $M\\text{ cm}^2$ and a circumference of $N\\text{ cm}$. If $\\dfrac{M}{N}=20$, what is the radius of the circle, in cm?",
   "n_questions": 7,
   "labels": [

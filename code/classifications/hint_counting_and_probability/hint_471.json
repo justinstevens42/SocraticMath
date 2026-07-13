@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 3",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "What is the largest integer $n$ for which $\\binom{8}{3} + \\binom{8}{4} = \\binom{9}{n}$?",
   "n_questions": 7,
   "labels": [

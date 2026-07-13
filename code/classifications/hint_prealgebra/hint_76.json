@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 2",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Evaluate \\begin{align*}\n\\left(c^c-c(c-1)^c\\right)^c\n\\end{align*} when $c=3$.",
   "n_questions": 6,
   "labels": [

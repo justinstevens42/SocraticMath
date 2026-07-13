@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 2",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "How many distinct three-digit numbers can be written with the digits $1$, $2$, $3$ and $4$ if no digit may be used more than once in a three-digit number?",
   "n_questions": 7,
   "labels": [

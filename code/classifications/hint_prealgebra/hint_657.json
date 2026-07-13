@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A five-digit integer will be chosen at random from all possible positive five-digit integers. What is the probability that the number's units digit will be less than 5? Express your answer as a common fraction.",
   "n_questions": 5,
   "labels": [

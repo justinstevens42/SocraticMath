@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "If $\\left\\lfloor n^2/4 \\right\\rfloor - \\lfloor n/2 \\rfloor^2 = 2$, then find all integer values of $n$.",
   "n_questions": 10,
   "labels": [

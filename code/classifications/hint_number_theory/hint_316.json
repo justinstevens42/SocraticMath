@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A $\\textit{palindrome}$ is a number which reads the same forward as backward. For example, 343 and 1221 are palindromes. What is the least natural number that can be added to 40,305 to create a palindrome?",
   "n_questions": 11,
   "labels": [

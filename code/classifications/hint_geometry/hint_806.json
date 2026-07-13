@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 1",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "What is the smallest possible area, in square units, of a right triangle with two sides measuring $4$ units and $5$ units?",
   "n_questions": 9,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $a,$ $b,$ $c$ be real numbers such that $a + b + c = 0.$  Find the set of all possible values of $ab + ac + bc.$",
   "n_questions": 9,
   "labels": [

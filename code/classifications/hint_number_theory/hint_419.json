@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "When we say that Ray is climbing up the stairs $m$ at a time, we mean that he starts on the floor (step $0$) then jumps to step $m$ and then to $2m$ and so on until the number of steps to the top is less than $m$. Ray climbs up a flight of stairs of $n$ steps in two ways. When he does it $4$ steps at a time, there are $3$ steps left at the top. When he does it $5$ steps at a time, there are $2$ steps left at the top. What is the smallest possible value of $n$ that is greater than $10$?",
   "n_questions": 6,
   "labels": [

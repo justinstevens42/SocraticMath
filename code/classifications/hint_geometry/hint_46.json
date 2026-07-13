@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 1",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "What is the sum of the number of faces, edges and vertices of a triangular prism?\n\n[asy]\ndraw((0,0)--(10,0)--(5,8.7)--cycle);\ndraw((0,0)--(20,20),dashed);\ndraw((10,0)--(30,20));\ndraw((5,8.7)--(25,28.7));\ndraw((25,28.7)--(30,20)--(20,20)--cycle,dashed);\ndraw((25,28.7)--(30,20));\n[/asy]",
   "n_questions": 10,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "What is the area, in square units, of the interior region formed by the lines $y = 2x - 4, y = -3x +16$ and the $y$-axis?",
   "n_questions": 8,
   "labels": [

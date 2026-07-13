@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "George is planning a dinner party for three other couples, his wife, and himself. He plans to seat the four couples around a circular table for 8, and wants each husband to be seated opposite his wife. How many seating arrangements can he make, if rotations and reflections of each seating arrangement are not considered different?  (Note: In this problem, if one seating is a reflection of another, then the two are considered the same!)",
   "n_questions": 17,
   "labels": [

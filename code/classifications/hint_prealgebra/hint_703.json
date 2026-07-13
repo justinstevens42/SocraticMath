@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Find the remainder when $8\\cdot10^{18}+1^{18}$ is divided by 9.",
   "n_questions": 6,
   "labels": [

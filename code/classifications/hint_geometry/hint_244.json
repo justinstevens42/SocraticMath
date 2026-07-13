@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Medians $\\overline{DP}$ and $\\overline{EQ}$ of $\\triangle DEF$ are perpendicular.  If $DP= 18$ and $EQ = 24$, then what is ${DE}$?",
   "n_questions": 10,
   "labels": [

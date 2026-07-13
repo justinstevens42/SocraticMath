@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 1",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "$\\Delta ABC$ is isosceles with $AC = BC$. If $m\\angle C = 40^{\\circ}$, what is the number of degrees in $m\\angle CBD$? [asy] pair A,B,C,D,E;\nC = dir(65); B = C + dir(-65); D = (1.5,0); E = (2,0);\ndraw(B--C--A--E); dot(D);\nlabel(\"$A$\",A,S); label(\"$B$\",B,S); label(\"$D$\",D,S); label(\"$C$\",C,N);\n[/asy]",
   "n_questions": 6,
   "labels": [

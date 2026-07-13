@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Let $\\triangle ABC$ have side lengths $AB=13$, $AC=14$, and $BC=15$.  There are two circles located inside $\\angle BAC$ which are tangent to rays $\\overline{AB}$, $\\overline{AC}$, and segment $\\overline{BC}$.  Compute the distance between the centers of these two circles.",
   "n_questions": 9,
   "labels": [

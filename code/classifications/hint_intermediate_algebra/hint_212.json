@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Suppose that $f(x)$ is a function such that\n\\[f(xy) + x = xf(y) + f(x)\\]for all real numbers $x$ and $y.$  If $f(-1) = 5$ then compute $f(-1001).$",
   "n_questions": 7,
   "labels": [

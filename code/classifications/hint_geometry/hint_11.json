@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "In square $ABCD$, $AD$ is 4 centimeters, and $M$ is the midpoint of $\\overline{CD}$. Let $O$ be the intersection of $\\overline{AC}$ and $\\overline{BM}$. What is the ratio of $OC$ to $OA$? Express your answer as a common fraction.\n\n[asy]\n\nsize (3cm,3cm);\n\npair A,B,C,D,M;\n\nD=(0,0);\nC=(1,0);\nB=(1,1);\nA=(0,1);\n\ndraw(A--B--C--D--A);\n\nM=(1/2)*D+(1/2)*C;\n\ndraw(B--M);\n\ndraw(A--C);\n\nlabel(\"$A$\",A,NW);\nlabel(\"$B$\",B,NE);\nlabel(\"$C$\",C,SE);\nlabel(\"$D$\",D,SW);\nlabel(\"$O$\",(0.5,0.3));\nlabel(\"$M$\",M,S);\n\n[/asy]",
   "n_questions": 10,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "If $S$, $H$, and $E$ are all distinct non-zero digits less than $5$ and the following is true, find the sum of the three values $S$, $H$, and $E$, expressing your answer in base $5$. $$\\begin{array}{c@{}c@{}c@{}c} &S&H&E_5\\\\ &+&H&E_5\\\\ \\cline{2-4} &S&E&S_5\\\\ \\end{array}$$",
   "n_questions": 10,
   "labels": [

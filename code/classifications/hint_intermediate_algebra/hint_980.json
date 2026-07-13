@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "For each value of $x,$ $f(x)$ is defined to be the minimum value of the three numbers $2x + 2,$ $\\frac{1}{2} x + 1,$ and $-\\frac{3}{4} x + 7.$  Find the maximum value of $f(x).$",
   "n_questions": 6,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "If I have a $4\\times 4$ chess board, in how many ways can I place four distinct pawns on the board such that each column and row of the board contains no more than one pawn?",
   "n_questions": 7,
   "labels": [

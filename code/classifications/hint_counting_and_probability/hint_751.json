@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "A fair 6-sided die is rolled once. If I roll $n$, then I win $6-n$ dollars. What is the expected value of my win, in dollars?",
   "n_questions": 8,
   "labels": [

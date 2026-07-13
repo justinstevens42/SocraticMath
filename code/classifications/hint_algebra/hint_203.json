@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "If $x$ and $y$ are positive integers less than $20$ for which $x + y + xy = 76$, what is the value of $x + y$?",
   "n_questions": 10,
   "labels": [

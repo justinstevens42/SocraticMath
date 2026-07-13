@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A wheel with radius $1\\text{ m}$ is rolled in a straight line through one complete revolution on a flat horizontal surface. How many meters did the center of the wheel travel horizontally from its starting location?",
   "n_questions": 10,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The volume of the box is 240 cubic units where $a,b,$ and $c$ are integers with $1<c<b<a$. What is the largest possible value of $b$? [asy]\n\ndraw((0,0)--(0,3)--(6,3)--(6,0)--cycle);\ndraw((2,1.5)--(2,4.5)--(8,4.5)--(8,1.5)--cycle);\ndraw((0,0)--(2,1.5)--(2,4.5)--(0,3)--cycle);\ndraw((6,0)--(6,3)--(8,4.5)--(8,1.5)--cycle);\nlabel(\"a\",(3,0),S);\nlabel(\"b\",(7,0.75),SE);\nlabel(\"c\",(8,3.5),E);\n[/asy]",
   "n_questions": 11,
   "labels": [

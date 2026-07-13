@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "In the figure shown, the ratio of $BD$ to $DC$ is $4$ to $3$. The area of $\\triangle ABD$ is $24$ square centimeters. What is the area of $\\triangle ADC$? [asy] size(85); defaultpen(linewidth(1)+fontsize(10));\n\npair A = (0,5.5), B=(0,0), D = (2,0), C = (3,0);\n\ndraw(A--B--C--A--D); label(\"A\",A,N); label(\"B\",B,S); label(\"C\",C,S); label(\"D\",D,S);\ndraw(rightanglemark(A,B,C,8),linewidth(0.7));\n[/asy]",
   "n_questions": 7,
   "labels": [

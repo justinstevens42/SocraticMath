@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $a,$ $b,$ and $c$ be distinct real numbers.  Simplify the expression\n\\[\\frac{(x + a)^3}{(a - b)(a - c)} + \\frac{(x + b)^3}{(b - a)(b - c)} + \\frac{(x + c)^3}{(c - a)(c - b)}.\\]",
   "n_questions": 6,
   "labels": [

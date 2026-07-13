@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Compute\n\\[\\frac{1}{2^{1990}} \\sum_{n = 0}^{995} (-3)^n \\binom{1990}{2n}.\\]",
   "n_questions": 7,
   "labels": [

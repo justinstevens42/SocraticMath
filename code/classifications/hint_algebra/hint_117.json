@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "If $x$, $y$, and $z$ are positive numbers satisfying \\[\nx+\\frac{1}{y}=4,\\ \\ \\ y+\\frac{1}{z}=1,\\text{ and }z+\\frac{1}{x}=\\frac{7}{3},\n\\]find the value of $xyz$.",
   "n_questions": 10,
   "labels": [

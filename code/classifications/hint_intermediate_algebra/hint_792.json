@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "A circle passes through the point $(0,1),$ and is tangent to the parabola $y = x^2$ at $(2,4).$  Find the center of the circle.\n\n[asy]\nunitsize(0.4 cm);\n\nreal parab (real x) {\n  return(x^2);\n}\n\ndraw(graph(parab,-3.5,3.5));\ndraw(Circle((-16/5,53/10),13*sqrt(17)/10));\n\ndot((0,1));\ndot(\"$(2,4)$\", (2,4), E);\n[/asy]",
   "n_questions": 5,
   "labels": [

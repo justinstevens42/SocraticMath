@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Complex numbers are often used when dealing with alternating current (AC) circuits. In the equation $V = IZ$, $V$ is voltage, $I$ is current, and $Z$ is a value known as impedance. If $V = 1-i$ and $Z=1+3i$, find $I$.  Express your answer as a complex number in the form $a+bi$, where $a$ and $b$ are real numbers.",
   "n_questions": 8,
   "labels": [

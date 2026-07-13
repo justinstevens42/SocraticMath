@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "There is a smallest positive real number $a$ such that there exists a positive real number $b$ such that all the roots of the polynomial $x^3-ax^2+bx-a$ are real. In fact, for this value of $a$ the value of $b$ is unique. What is the value of $b?$",
   "n_questions": 11,
   "labels": [

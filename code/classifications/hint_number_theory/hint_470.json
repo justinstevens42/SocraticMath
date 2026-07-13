@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Suppose that $a$ and $b$ are positive integers such that $a-b=6$ and $\\text{gcd}\\left(\\frac{a^3+b^3}{a+b}, ab\\right) = 9$. Find the smallest possible value of $b$.",
   "n_questions": 6,
   "labels": [

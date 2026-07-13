@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Container A holds 4 red balls and 6 green balls; containers B and C each hold 6 red balls and 4 green balls. A container is selected at random and then a ball is randomly selected from that container. What is the probability that the ball selected is green? Express your answer as a common fraction.",
   "n_questions": 9,
   "labels": [

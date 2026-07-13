@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Suppose that $a$ and $b$ are integers such that   $$3b = 8 - 2a.$$How many of the first six positive integers must be divisors of $2b + 12$?",
   "n_questions": 10,
   "labels": [

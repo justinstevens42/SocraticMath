@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The lengths of the sides of a triangle with positive area are $\\log_{10}12$, $\\log_{10}75$, and $\\log_{10}n$, where $n$ is a positive integer. Find the number of possible values for $n$.",
   "n_questions": 10,
   "labels": [

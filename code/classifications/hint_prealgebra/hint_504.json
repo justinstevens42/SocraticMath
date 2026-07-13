@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 3",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Luna writes down all the five-digit numbers that contain each of the digits 1, 2, 3, 4 and 5 exactly once.  What is the smallest number in Luna's list that is divisible by 6?",
   "n_questions": 8,
   "labels": [

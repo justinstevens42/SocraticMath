@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 3",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "A library has six identical copies of a certain book. At any given time, some of these copies are at the library and some are checked out. How many different ways are there for some of the books to be in the library and the rest to be checked out if at least one book is in the library and at least one is checked out?  (The books should be considered indistinguishable.)",
   "n_questions": 9,
   "labels": [

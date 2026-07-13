@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "If an arc of $45^{\\circ}$ on circle $A$ has the same length as an arc of $30^{\\circ}$ on circle $B$, then what is the ratio of the area of circle $A$ to the area of circle $B$? Express your answer as a common fraction.",
   "n_questions": 9,
   "labels": [

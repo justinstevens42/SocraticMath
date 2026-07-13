@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "A line with slope 3 intersects a line with slope 5 at the point $(10,15)$. What is the distance between the $x$-intercepts of these two lines?",
   "n_questions": 10,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "A slant asymptote of the rational expression $y = \\frac{2x^2 + 3x - 7}{x-3}$ is the line approached by the equation as $x$ approaches $\\infty$ or $-\\infty$. If this line is of the form $y = mx + b$, find $m+b$.",
   "n_questions": 9,
   "labels": [

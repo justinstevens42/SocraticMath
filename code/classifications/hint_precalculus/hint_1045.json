@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Evaluate\n\\[\\begin{vmatrix} y + 1 & y & y \\\\ y & y + 1 & y \\\\ y & y & y + 1 \\end{vmatrix}.\\]",
   "n_questions": 6,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Triangle ABC is an equilateral triangle and O is the center of its inscribed circle. If the area of the circle is $4\\pi$ sq cm, what is the area, in square centimeters, of triangle ABC? Express your answer in simplest radical form.\n\nNote: The area of a circle with radius $r$ is $\\pi r^2.$",
   "n_questions": 8,
   "labels": [

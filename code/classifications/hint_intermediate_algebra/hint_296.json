@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find the four roots of\n\\[2x^4 + x^3 - 6x^2 + x + 2 = 0.\\]Enter the four roots (counting multiplicity), separated by commas.",
   "n_questions": 6,
   "labels": [

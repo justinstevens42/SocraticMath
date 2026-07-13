@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "In triangle $ABC$, we have that $E$ and $F$ are midpoints of sides $\\overline{AC}$ and $\\overline{AB}$, respectively. The area of $\\triangle ABC$ is 24 square units. How many square units are in the area of $\\triangle CEF$?",
   "n_questions": 6,
   "labels": [

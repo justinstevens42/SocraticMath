@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The diagonals of a regular hexagon have two possible lengths. What is the ratio of the shorter length to the longer length? Express your answer as a common fraction in simplest radical form.",
   "n_questions": 9,
   "labels": [

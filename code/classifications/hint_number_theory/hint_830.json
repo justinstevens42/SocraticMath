@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "If $n=2^3 \\cdot 3^2 \\cdot 5$, how many even positive factors does $n$ have?",
   "n_questions": 7,
   "labels": [

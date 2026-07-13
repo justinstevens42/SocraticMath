@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "We have a triangle $\\triangle ABC$ such that $AB = AC = 8$ and $BC = 10.$ What is the length of the median $AM$?",
   "n_questions": 6,
   "labels": [

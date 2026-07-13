@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Find\n\\[\\begin{pmatrix} 1 & 1 \\\\ 0 & 1 \\end{pmatrix} \\begin{pmatrix} 1 & 3 \\\\ 0 & 1 \\end{pmatrix} \\begin{pmatrix} 1 & 5 \\\\ 0 & 1 \\end{pmatrix} \\dotsm \\begin{pmatrix} 1 & 99 \\\\ 0 & 1 \\end{pmatrix}.\\]",
   "n_questions": 6,
   "labels": [

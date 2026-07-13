@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "If 2 cards from a standard deck are selected randomly, what is the probability that either two kings or at least 1 ace occurs? (There are 4 Aces, 4 kings and 52 total cards in a standard deck.)",
   "n_questions": 10,
   "labels": [

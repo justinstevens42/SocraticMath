@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "In the figure shown, segment $AB$ is parallel to segment $YZ$. If $AZ = 42$ units, $BQ = 12$ units, and $QY = 24$ units, what is the length of segment $QZ$? [asy]\nimport olympiad; import geometry; size(150); defaultpen(linewidth(0.8));\npair Y = (0,0), Z = (16,0), A = (0,8), B = (6,8);\ndraw(A--B--Y--Z--cycle);\nlabel(\"$A$\",A,W); label(\"$B$\",B,E); label(\"$Y$\",Y,W); label(\"$Z$\",Z,E);\npair Q = intersectionpoint(A--Z,B--Y);\nlabel(\"$Q$\",Q,E);\n[/asy]",
   "n_questions": 7,
   "labels": [

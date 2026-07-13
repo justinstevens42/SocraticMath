@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A $\\textit{palindrome}$ is a positive integer which reads the same forward and backward, like $12321$ or $4884$.\n\nHow many $4$-digit palindromes are there?",
   "n_questions": 8,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "The Fibonacci sequence is defined $F_1 = F_2 = 1$ and $F_n = F_{n - 1} + F_{n - 2}$ for all $n \\ge 3.$\n\nThe Fibonacci numbers $F_a,$ $F_b,$ $F_c$ form an increasing arithmetic sequence.  If $a + b + c = 2000,$ compute $a.$",
   "n_questions": 7,
   "labels": [

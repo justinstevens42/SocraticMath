@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "A set of marbles can be divided in equal shares among $2$, $3$, $4$, $5$, or $6$ children with no marbles left over. What is the least number of marbles that the set could have?",
   "n_questions": 10,
   "labels": [

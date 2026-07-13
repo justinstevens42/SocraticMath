@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "A circle passes through the three vertices of an isosceles triangle that has two sides of length 3  and a base of length 2. What is the area of this circle? Express your answer in terms of $\\pi$.",
   "n_questions": 9,
   "labels": [

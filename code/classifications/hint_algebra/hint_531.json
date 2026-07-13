@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "If $13^{3n}=\\left(\\frac{1}{13}\\right)^{n-24}$, find $n$.",
   "n_questions": 13,
   "labels": [

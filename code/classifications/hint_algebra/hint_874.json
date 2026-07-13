@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find the smallest positive integer $b$ for which $x^2+bx+2008$ factors into a product of two binomials, each having integer coefficients.",
   "n_questions": 9,
   "labels": [

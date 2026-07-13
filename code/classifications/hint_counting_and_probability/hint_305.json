@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "How many positive integers less than $500$ can be written as the sum of two positive perfect cubes?",
   "n_questions": 6,
   "labels": [

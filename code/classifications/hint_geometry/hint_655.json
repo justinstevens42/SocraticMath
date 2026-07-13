@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A circle is circumscribed about an equilateral triangle with side lengths of $9$ units each.  What is the area of the circle, in square units? Express your answer in terms of $\\pi$.",
   "n_questions": 10,
   "labels": [

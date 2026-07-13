@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Given vectors $\\mathbf{a}$ and $\\mathbf{b},$ let $\\mathbf{p}$ be a vector such that\n\\[\\|\\mathbf{p} - \\mathbf{b}\\| = 2 \\|\\mathbf{p} - \\mathbf{a}\\|.\\]Among all such vectors $\\mathbf{p},$ there exists constants $t$ and $u$ such that $\\mathbf{p}$ is at a fixed distance from $t \\mathbf{a} + u \\mathbf{b}.$  Enter the ordered pair $(t,u).$",
   "n_questions": 10,
   "labels": [

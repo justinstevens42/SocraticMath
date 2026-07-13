@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "If $n$ is a positive integer, then let $f(n)$ be the sum of the digits of $\\frac{1}{5^{{}^n}}$ that are to the right of the decimal point. What is the smallest positive integer $n$ such that $f(n) > 10$?",
   "n_questions": 7,
   "labels": [

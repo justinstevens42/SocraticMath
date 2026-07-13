@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Let $a \\bowtie b = a+\\sqrt{b+\\sqrt{b+\\sqrt{b+...}}}$. If $7\\bowtie g = 9$, find the value of $g$.",
   "n_questions": 6,
   "labels": [

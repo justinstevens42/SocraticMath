@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
   "problem": "The circles whose equations are $x^2 + y^2 - 4x + 2y - 11 = 0$ and $x^2 + y^2 - 14x + 12y + 60 = 0$ intersect in the points $A$ and $B.$  Compute the slope of $\\overline{AB}.$",
   "n_questions": 7,
   "labels": [

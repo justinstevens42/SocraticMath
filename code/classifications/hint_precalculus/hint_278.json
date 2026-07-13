@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "The projection of $\\begin{pmatrix} 0 \\\\ 3 \\\\ z \\end{pmatrix}$ onto $\\begin{pmatrix} -3 \\\\ 5 \\\\ -1 \\end{pmatrix}$ is\n\\[\\frac{12}{35} \\begin{pmatrix} -3 \\\\ 5 \\\\ -1 \\end{pmatrix}.\\]Find $z.$",
   "n_questions": 6,
   "labels": [

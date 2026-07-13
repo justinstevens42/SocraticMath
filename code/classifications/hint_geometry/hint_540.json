@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "In triangle $ABC$, $BC = 4$, $AC = 3 \\sqrt{2}$, and $\\angle C = 45^\\circ$.  Altitudes $AD$, $BE$, and $CF$ intersect at the orthocenter $H$.  Find $AH:HD$.",
   "n_questions": 7,
   "labels": [

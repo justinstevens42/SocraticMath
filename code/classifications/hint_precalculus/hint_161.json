@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Compute\n\\[\n\\begin{vmatrix} \\cos 1 & \\cos 2 & \\cos 3 \\\\ \\cos 4 & \\cos 5 & \\cos 6 \\\\ \\cos 7 & \\cos 8 & \\cos 9 \\end{vmatrix}\n.\\]All the angles are in radians.",
   "n_questions": 8,
   "labels": [

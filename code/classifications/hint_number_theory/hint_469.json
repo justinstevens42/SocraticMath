@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "As $n$ ranges over the positive integers, what is the sum of all possible values of the greatest common divisor of $3n+4$ and $n$?",
   "n_questions": 9,
   "labels": [

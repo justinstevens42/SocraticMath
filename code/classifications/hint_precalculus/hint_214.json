@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find the number of $x$-intercepts on the graph of $y = \\sin \\frac{1}{x}$ (evaluated in terms of radians) in the interval $(0.0001, 0.001).$",
   "n_questions": 7,
   "labels": [

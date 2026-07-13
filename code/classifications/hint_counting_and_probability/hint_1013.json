@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "John needs to catch a train. The train arrives randomly some time between 2:00 and 3:00, waits for 20 minutes, and then leaves. If John also arrives randomly between 2:00 and 3:00, what is the probability that the train will be there when John arrives?",
   "n_questions": 9,
   "labels": [

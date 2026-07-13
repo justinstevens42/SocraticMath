@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Let \\[f(x) = \\left\\{\n\\begin{array}{cl}\nx^2+1 &\\text{ if }x>5, \\\\\n2x-3 &\\text{ if } -5 \\le x \\le 5, \\\\\n3 &\\text{ if } x <-5.\n\\end{array}\n\\right.\\]Find $f(-7)+f(0)+f(7)$.",
   "n_questions": 7,
   "labels": [

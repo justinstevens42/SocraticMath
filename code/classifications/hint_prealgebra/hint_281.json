@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A church rings its bells every 15 minutes, the school rings its bells every 20 minutes and the day care center rings its bells every 25 minutes. If they all ring their bells at noon on the same day, at what time will they next all ring their bells together?  (Answer in the form AB:CD without am or pm, such as 08:00)",
   "n_questions": 10,
   "labels": [

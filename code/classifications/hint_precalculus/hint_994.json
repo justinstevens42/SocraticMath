@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Let $G$ be the centroid of triangle $ABC,$ and let $P$ be an arbitrary point.  Then there exists a constant $k$ so that\n\\[PA^2 + PB^2 + PC^2 = k \\cdot PG^2 + GA^2 + GB^2 + GC^2.\\]Find $k.$",
   "n_questions": 10,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Let $\\mathbf{A}$ be a $2 \\times 2$ matrix, with real entries, such that $\\mathbf{A}^3 = \\mathbf{0}.$  Find the number of different possible matrices that $\\mathbf{A}^2$ can be.  If you think the answer is infinite, then enter \"infinite\".",
   "n_questions": 8,
   "labels": [

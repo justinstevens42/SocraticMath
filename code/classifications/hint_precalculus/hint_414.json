@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "The curve parameterized by $(x,y) = (2t + 4, 4t - 5)$ is a line, where $t$ is a real number.  Find the equation of the line.  Enter the equation in the form \"$y = mx + b$\".",
   "n_questions": 10,
   "labels": [

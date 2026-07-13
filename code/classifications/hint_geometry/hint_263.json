@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "In the diagram, $PQRS$ is a trapezoid with an area of $12.$ $RS$ is twice the length of $PQ.$ What is the area of $\\triangle PQS?$\n\n[asy]\ndraw((0,0)--(1,4)--(7,4)--(12,0)--cycle);\ndraw((7,4)--(0,0));\nlabel(\"$S$\",(0,0),W);\nlabel(\"$P$\",(1,4),NW);\nlabel(\"$Q$\",(7,4),NE);\nlabel(\"$R$\",(12,0),E);\n[/asy]",
   "n_questions": 10,
   "labels": [

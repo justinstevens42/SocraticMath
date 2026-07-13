@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "An equilateral triangle has an area of $64\\sqrt{3}$ $\\text{cm}^2$. If each side of the triangle is decreased by 4 cm, by how many square centimeters is the area decreased?",
   "n_questions": 6,
   "labels": [

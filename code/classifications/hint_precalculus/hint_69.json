@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Let $ABCD$ be a tetrahedron such that edges $AB$, $AC$, and $AD$ are mutually perpendicular. Let the areas of triangles $ABC$, $ACD$, and $ADB$ be denoted by $x$, $y$, and $z$, respectively. In terms of $x$, $y$, and $z$, find the area of triangle $BCD$.",
   "n_questions": 6,
   "labels": [

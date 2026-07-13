@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "The graph of \\[y^4 - 4x^4 = 2y^2 - 1\\]is the union of the graphs of two different conic sections. Which two types of conic sections are they?\n\n(Write your answer as a list, with \"C\" for circle, \"E\" for ellipse, \"H\" for hyperbola, and \"P\" for parabola. For example, \"C, H\" if you think the graph consists of a circle and a hyperbola. You may use a letter twice.)",
   "n_questions": 9,
   "labels": [

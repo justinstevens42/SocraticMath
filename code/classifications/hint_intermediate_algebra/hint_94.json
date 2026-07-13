@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $a,$ $b,$ $c,$ $z$ be complex numbers such that $|a| = |b| = |c| > 0$ and\n\\[az^2 + bz + c = 0.\\]Find the largest possible value of $|z|.$",
   "n_questions": 7,
   "labels": [

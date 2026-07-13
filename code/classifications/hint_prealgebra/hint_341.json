@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "What is the smallest positive integer $x$ that, when multiplied by $400$, produces a product that is a multiple of $576$?",
   "n_questions": 6,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The figure shows two concentric circles. If the length of chord AB is 80 units and chord AB is tangent to the smaller circle, what is the area of the shaded region? Express your answer in terms of $\\pi$.\n\n[asy]\ndefaultpen(linewidth(.8pt));\ndotfactor=4;\nfilldraw(circle((0,0),50),gray);\nfilldraw(circle((0,0),30),white);\ndot((0,0));\n\ndraw((-40,30)--(40,30));\n\nlabel(\"$A$\",(-40,30),W);\nlabel(\"$B$\",(40,30),E);\n[/asy]",
   "n_questions": 6,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Let\n\\[f(x) = (\\arccos x)^3 + (\\arcsin x)^3.\\]Find the range of $f(x).$  All functions are in radians.",
   "n_questions": 12,
   "labels": [

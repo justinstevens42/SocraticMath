@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Find the smallest positive integer $n$ such that\n\\[\\begin{pmatrix} \\cos 170^\\circ & -\\sin 170^\\circ \\\\ \\sin 170^\\circ & \\cos 170^\\circ \\end{pmatrix}^n = \\mathbf{I}.\\]",
   "n_questions": 6,
   "labels": [

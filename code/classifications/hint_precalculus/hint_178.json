@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Below is the graph of $y = a \\tan bx$ for some positive constants $a$ and $b.$  Find $ab.$\n\n[asy]import TrigMacros;\n\nsize(250);\n\nreal g(real x)\n{\n\treturn 2*tan(3/2*x);\n}\n\ndraw(graph(g,-pi + 0.01,-pi/3 - 0.01),red);\ndraw(graph(g,-pi/3 + 0.01,pi/3 - 0.01),red);\ndraw(graph(g,pi/3 + 0.01,pi - 0.01),red);\nlimits((-pi,-4),(pi,4),Crop);\ndraw((-pi/3,-4)--(-pi/3,4),dashed);\ndraw((pi/3,-4)--(pi/3,4),dashed);\ntrig_axes(-pi,pi,-4,4,pi/6,1);\nlayer();\nrm_trig_labels(-5, 5, 6);\n\nlabel(\"$1$\", (0,1), E);\nlabel(\"$2$\", (0,2), E);\nlabel(\"$3$\", (0,3), E);\nlabel(\"$-1$\", (0,-1), E);\nlabel(\"$-2$\", (0,-2), E);\nlabel(\"$-3$\", (0,-3), E);\n[/asy]",
   "n_questions": 6,
   "labels": [

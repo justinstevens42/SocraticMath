@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find the projection of the vector $\\begin{pmatrix} 4 \\\\ -4 \\\\ -1 \\end{pmatrix}$ onto the line\n\\[2x = -3y = z.\\]",
   "n_questions": 6,
   "labels": [

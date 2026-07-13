@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "In the figure below, $ABCD$ is a square piece of paper 6 cm on each side. Corner $C$ is folded over so that it coincides with $E$, the midpoint of $\\overline{AD}$. If $\\overline{GF}$ represents the crease created by the fold such that $F$ is on $CD,$ what is the length of $\\overline{FD}$? Express your answer as a common fraction. [asy]\nimport geometry;\nsize(150);\npair A = (0,0), B = (0,1), C = (1,1), D = (1,0);\npath square = A--B--C--D--cycle;\ndraw(square);\nlabel(\"A\",A,SW); label(\"B\",B,NW); label(\"C\",C,NE); label(\"D\",D,SE);\npair E = midpoint(A--D);\nline CE = line(C,E);\npair X = midpoint(C--E); line FG = perpendicular(X,CE);\n\npair[] intwithsquare = intersectionpoints(FG,square);\npair G = intwithsquare[0];\npair F = intwithsquare[1];\ndraw(F--G,dashed);\nlabel(\"F\",F,E);\nlabel(\"G\",G,W);\n[/asy]",
   "n_questions": 10,
   "labels": [

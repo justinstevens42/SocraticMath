@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Suppose that $f(x)$ is a linear function satisfying the equation $f(x) = 4f^{-1}(x) + 6$. Given that $f(1) = 4$, find $f(2)$.",
   "n_questions": 7,
   "labels": [

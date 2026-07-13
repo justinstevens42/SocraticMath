@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "In the circle with center $O$, the measure of $\\angle RIP$ is $36^\\circ$ and $OR=10$ cm. Find the number of centimeters in the length of arc $RP$. Express your answer in terms of $\\pi$. [asy]\ndraw((1,0)..(0,1)..(-1,0)..(0,-1)..cycle);\ndraw((0,0)--(4/5,3/5)--(-1,0)--(4/5,-3/5)--cycle);\nlabel(\"$O$\",(0,0),W); label(\"$I$\",(-1,0),W); label(\"$R$\",(4/5,3/5),ENE); label(\"$P$\",(4/5,-3/5),ESE);\n[/asy]",
   "n_questions": 8,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "The rules for a race require that all runners start at $A$, touch any part of the 1200-meter wall, and stop at $B$. What is the number of meters in the minimum distance a participant must run? Express your answer to the nearest meter. [asy]\nimport olympiad; import geometry; size(250);\ndefaultpen(linewidth(0.8));\ndraw((0,3)--origin--(12,0)--(12,5));\nlabel(\"300 m\",(0,3)--origin,W); label(\"1200 m\",(0,0)--(12,0),S); label(\"500 m\",(12,0)--(12,5),E);\ndraw((0,3)--(6,0)--(12,5),linetype(\"3 3\")+linewidth(0.7));\nlabel(\"$A$\",(0,3),N); label(\"$B$\",(12,5),N);\n[/asy]",
   "n_questions": 6,
   "labels": [

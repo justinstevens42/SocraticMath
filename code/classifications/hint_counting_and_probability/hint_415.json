@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The numbers from 1 to 150, inclusive, are placed in a bag and a number is randomly selected from the bag. What is the probability it is neither a perfect square nor a perfect cube? Express your answer as a common fraction.",
   "n_questions": 9,
   "labels": [

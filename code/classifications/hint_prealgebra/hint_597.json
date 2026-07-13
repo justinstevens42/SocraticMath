@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "In Idaho, 472 people were asked what they call soft drinks. The results of the survey are shown in the pie chart. The central angle of the ``Pop'' sector of the graph is $251^\\circ$, to the nearest whole degree. How many of the people surveyed chose ``Pop''? Express your answer as a whole number.\n\n[asy]import graph;\nsize(150);\nreal w = 10pt,linew = 1;\nfilldraw(Arc((0,0),1,0,251)--(0,0)--cycle,gray(.4),black+linewidth(linew));\nfilldraw(Arc((0,0),1,251,280)--(0,0)--cycle,white,black+linewidth(linew));\nfilldraw(Arc((0,0),1,280,350)--(0,0)--cycle,gray(.7),black+linewidth(linew));\nfilldraw(Arc((0,0),1,350,360)--(0,0)--cycle,white,black+linewidth(linew));\nlabel(\"\\textbf{POP}\",expi(2.19),expi(2.19),fontsize(w));\nlabel(\"\\textbf{COKE}\",expi(4.63),expi(4.63),fontsize(w));\nlabel(\"\\textbf{SODA}\",expi(5.50),expi(5.50),fontsize(w));\nlabel(\"\\textbf{OTHER}\",expi(6.20),expi(6.20),fontsize(w));[/asy]",
   "n_questions": 10,
   "labels": [

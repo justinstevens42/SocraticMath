@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A triangle is made of wood sticks of lengths 8, 15 and 17 inches joined end-to-end. Pieces of the same integral length are cut from each of the sticks so that the three remaining pieces can no longer form a triangle. How many inches are in the length of the smallest piece that can be cut from each of the three sticks to make this happen?",
   "n_questions": 6,
   "labels": [

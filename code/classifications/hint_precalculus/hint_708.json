@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let triangle $ABC$ be a right triangle with right angle at $C.$ Let $D$ and $E$ be points on $\\overline{AB}$ with $D$ between $A$ and $E$ such that $\\overline{CD}$ and $\\overline{CE}$ trisect $\\angle C.$ If $\\frac{DE}{BE} = \\frac{8}{15},$ then find $\\tan B.$",
   "n_questions": 10,
   "labels": [

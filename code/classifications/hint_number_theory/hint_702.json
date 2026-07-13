@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Determine the number of digits in the value of $2^{12} \\times 5^8 $.",
   "n_questions": 7,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "The function $f(x)$ satisfies\n\\[f(x + y) = f(x) f(y)\\]for all real numbers $x$ and $y.$  If $f(2) = 3,$ find $f(6).$",
   "n_questions": 7,
   "labels": [

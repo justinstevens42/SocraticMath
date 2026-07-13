@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "Find the inverse of the matrix\n\\[\\begin{pmatrix} 6 & -4 \\\\ -3 & 2 \\end{pmatrix}.\\]If the inverse does not exist, then enter the zero matrix.",
   "n_questions": 10,
   "labels": [

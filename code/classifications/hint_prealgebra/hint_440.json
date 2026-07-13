@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 2",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The 5-digit number $52\\,28\\square$ is a multiple of 6.  Which digit is represented by $\\square$?",
   "n_questions": 9,
   "labels": [

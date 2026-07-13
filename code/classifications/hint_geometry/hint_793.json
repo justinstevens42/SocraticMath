@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Medians $\\overline{AD}$ and $\\overline{BE}$ of $\\triangle ABC$ are perpendicular.  If $AD= 15$ and $BE = 20$, then what is the area of $\\triangle ABC$?",
   "n_questions": 6,
   "labels": [

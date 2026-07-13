@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "The nonzero roots of the equation $x^2 + 6x + k = 0$ are in the ratio $2:1$. What is the value of $k$?",
   "n_questions": 10,
   "labels": [

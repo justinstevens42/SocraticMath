@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "A valid license plate in Xanadu consists of two letters followed by three digits. How many valid license plates are possible?",
   "n_questions": 6,
   "labels": [

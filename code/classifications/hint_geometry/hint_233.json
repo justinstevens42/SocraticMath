@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "In right triangle $ABC$, $AB=10$, $AC=6$ and $BC=8$ units.  What is the distance from $C$ to the midpoint of segment $AB$?",
   "n_questions": 6,
   "labels": [

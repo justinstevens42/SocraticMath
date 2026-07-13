@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Find all values of $k$ so that\n\\[x^2 - (k - 3) x - k + 6 > 0\\]for all $x.$",
   "n_questions": 6,
   "labels": [

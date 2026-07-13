@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "In triangle $ABC$, $BC = 8$.  The length of median $AD$ is 5.  Let $M$ be the largest possible value of $AB^2 + AC^2$, and let $m$ be the smallest possible value.  Find $M - m$.",
   "n_questions": 9,
   "labels": [

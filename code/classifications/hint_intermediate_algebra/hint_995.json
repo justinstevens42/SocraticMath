@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "The function $f(x)$ satisfies\n\\[f(xy) = \\frac{f(x)}{y}\\]for all positive real numbers $x$ and $y.$  If $f(30) = 20,$ find $f(40).$",
   "n_questions": 6,
   "labels": [

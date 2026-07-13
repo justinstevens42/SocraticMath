@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "In $\\triangle XYZ$, we have $\\angle X = 90^\\circ$ and $\\tan Z = 3$.  What is $\\cos Z$?",
   "n_questions": 8,
   "labels": [

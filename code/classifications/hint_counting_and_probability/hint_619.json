@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Three marbles are randomly selected, without replacement, from a bag containing two red, two blue and two green marbles. What is the probability that one marble of each color is selected? Express your answer as a common fraction.",
   "n_questions": 8,
   "labels": [

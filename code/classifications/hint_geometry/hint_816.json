@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A square sheet of paper has area $6 \\text{ cm}^2$. The front is white and the back is black. When the sheet is folded so that point $A$ rests on the diagonal as shown, the visible black area is equal to the visible white area. How many centimeters is $A$ from its original position? Express your answer in simplest radical form.",
   "n_questions": 10,
   "labels": [

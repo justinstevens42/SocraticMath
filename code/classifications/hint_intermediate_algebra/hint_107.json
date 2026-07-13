@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "If $a,b,c>0$, find the smallest possible value of\n\\[\\left\\lfloor{\\frac{a+b}{c}}\\right\\rfloor+\\left\\lfloor{\\frac{b+c}{a}}\\right\\rfloor+\\left\\lfloor{\\frac{c+a}{b}}\\right\\rfloor.\\](Note that $\\lfloor{x}\\rfloor$ denotes the greatest integer less than or equal to $x$.)",
   "n_questions": 7,
   "labels": [

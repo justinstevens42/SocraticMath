@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Jack rewrites the quadratic $9x^2 - 30x - 42$ in the form of $(ax + b)^2 + c,$ where $a,$ $b,$ and $c$ are all integers. What is $ab$?",
   "n_questions": 7,
   "labels": [

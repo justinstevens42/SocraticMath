@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "Find $\\cos C$ in the right triangle shown below.\n\n\n[asy]\npair A,B,C;\nA = (0,0);\nB = (6,0);\nC = (0,8);\ndraw(A--B--C--A);\ndraw(rightanglemark(B,A,C,10));\nlabel(\"$A$\",A,SW);\nlabel(\"$B$\",B,SE);\nlabel(\"$C$\",C,N);\nlabel(\"$10$\",(B+C)/2,NE);\nlabel(\"$6$\",B/2,S);\n[/asy]",
   "n_questions": 6,
   "labels": [

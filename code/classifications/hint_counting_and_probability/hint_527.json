@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Call a set of integers \"spacy\" if it contains no more than one out of any three consecutive integers.  How many subsets of $\\{1, 2,\n3, \\dots, 12\\}$, including the empty set, are spacy?",
   "n_questions": 12,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Simplify\n\\[\\tan x + 2 \\tan 2x + 4 \\tan 4x + 8 \\cot 8x.\\]The answer will be a trigonometric function of some simple function of $x,$ like \"$\\cos 2x$\" or \"$\\sin (x^3)$\".",
   "n_questions": 7,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Compute $\\gcd(83^9+1,83^9+83^2+1)$.",
   "n_questions": 7,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find the ordered pair $(a,b)$ of integers such that\n\\[\\sqrt{9 - 8 \\sin 50^\\circ} = a + b \\csc 50^\\circ.\\]",
   "n_questions": 8,
   "labels": [

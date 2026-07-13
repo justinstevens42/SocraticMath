@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "The diagonals of rectangle $PQRS$ intersect at point $X$.  If $PS = 10$ and $RS=24$, then what is $\\cos \\angle PXS$?",
   "n_questions": 9,
   "labels": [

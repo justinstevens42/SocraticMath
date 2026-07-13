@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 1",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "At the mall's food court, Crystal wants to buy a meal consisting of one entree, one drink and one dessert. The table below lists Crystal's favorite foods in the food court. How many distinct possible meals can she buy from these options?\n\n\\begin{tabular}{ |c | c | c | }\n\\hline \\textbf{Entrees} & \\textbf{Drinks}&\\textbf{Desserts} \\\\ \\hline\nPizza & Lemonade & Frozen Yogurt \\\\ \\hline\nChicken Teriyaki & Root Beer & Chocolate Chip Cookie \\\\ \\hline\nCorn Dog& & \\\\ \\hline\nFish and Chips& & \\\\ \\hline\n\\end{tabular}",
   "n_questions": 6,
   "labels": [

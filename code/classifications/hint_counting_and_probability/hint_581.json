@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "The inhabitants of the island of Jumble use the standard Kobish alphabet ($20$ letters, A through T).  Each word in their language is $4$ letters or less, and for some reason, they insist that all words contain the letter A at least once. How many words are possible?",
   "n_questions": 7,
   "labels": [

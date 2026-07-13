@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "A ball travels on a parabolic path in which the height (in feet) is given by the expression $-16t^2+32t+15$, where $t$ is the time after launch. What is the maximum height of the ball, in feet?",
   "n_questions": 10,
   "labels": [

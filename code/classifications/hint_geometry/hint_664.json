@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The sides of a triangle have lengths $11, 15,$ and $k,$ where $k$ is a positive integer. For how many values of $k$ is the triangle obtuse?",
   "n_questions": 10,
   "labels": [

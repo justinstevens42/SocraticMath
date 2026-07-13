@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "In the diagram below, $AB = AC = 115,$ $AD = 38,$ and $CF = 77.$  Compute $\\frac{[CEF]}{[DBE]}.$\n\n[asy]\nunitsize(0.025 cm);\n\npair A, B, C, D, E, F;\n\nB = (0,0);\nC = (80,0);\nA = intersectionpoint(arc(B,115,0,180),arc(C,115,0,180));\nD = interp(A,B,38/115);\nF = interp(A,C,(115 + 77)/115);\nE = extension(B,C,D,F);\n\ndraw(C--B--A--F--D);\n\nlabel(\"$A$\", A, N);\nlabel(\"$B$\", B, SW);\nlabel(\"$C$\", C, NE);\nlabel(\"$D$\", D, W);\nlabel(\"$E$\", E, SW);\nlabel(\"$F$\", F, SE);\n[/asy]",
   "n_questions": 7,
   "labels": [

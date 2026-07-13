@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Let $P$ be the plane passing through the origin with normal vector $\\begin{pmatrix} 1 \\\\ 1 \\\\ -1 \\end{pmatrix}.$  Find the matrix $\\mathbf{R}$ such that for any vector $\\mathbf{v},$ $\\mathbf{R} \\mathbf{v}$ is the reflection of $\\mathbf{v}$ through plane $P.$",
   "n_questions": 6,
   "labels": [

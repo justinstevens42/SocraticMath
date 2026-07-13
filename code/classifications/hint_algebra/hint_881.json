@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Jo adds up all the positive integers from 1 to 100. Kate does a similar thing with the first 100 positive integers; however, she first rounds every integer to its nearest multiple of 10 (rounding 5s up) and then adds the 100 values. What is the positive difference between Jo's sum and Kate's sum?",
   "n_questions": 10,
   "labels": [

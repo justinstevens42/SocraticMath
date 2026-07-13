@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Two distinct positive integers from 1 to 50 inclusive are chosen.  Let the sum of the integers equal $S$ and the product equal $P$.  What is the probability that $P+S$ is one less than a multiple of 5?",
   "n_questions": 10,
   "labels": [

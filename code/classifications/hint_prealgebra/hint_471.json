@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "A digit is written to the right of the units digit of $757$.  If the resulting four-digit number is divisible by $3$, how many possibilities are there for the digit that was written?",
   "n_questions": 10,
   "labels": [

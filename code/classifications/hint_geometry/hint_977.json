@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "The corner of a unit cube is chopped off such that the cut runs through the three vertices adjacent to the vertex of the chosen corner.  What is the height of the remaining cube when the freshly-cut face is placed on a table?",
   "n_questions": 15,
   "labels": [

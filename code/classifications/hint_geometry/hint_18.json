@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "In right triangle $DEF$, we have $\\sin D = \\frac{5}{13}$ and $\\sin E = 1$.  Find $\\sin F$.",
   "n_questions": 7,
   "labels": [

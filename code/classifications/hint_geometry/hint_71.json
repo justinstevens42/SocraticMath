@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "How many different isosceles triangles have integer side lengths and perimeter 23?",
   "n_questions": 10,
   "labels": [

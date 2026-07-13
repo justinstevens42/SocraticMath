@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "For some real numbers $a$ and $b$, the equation $9x^3 + 5ax^2 + 4bx + a = 0$ has three distinct positive roots. If the sum of the base-2 logarithms of the roots is 4, what is the value of $a$?",
   "n_questions": 7,
   "labels": [

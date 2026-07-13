@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "How many paths are there from $A$ to $B$, if every step must be up or to the right?[asy]size(4cm,4cm);int w=6;int h=5;int i;pen p=fontsize(9);for (i=0; i<h; ++i){draw((0,i) -- (w-1,i));}for (i=0; i<w; ++i){draw((i, 0)--(i,h-1));}label(\"$A$\", (0,0), SW, p);label(\"$B$\", (w-1,h-1), NE, p);[/asy]",
   "n_questions": 10,
   "labels": [

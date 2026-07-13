@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 3",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
   "problem": "Solve the congruence $11n \\equiv 7 \\pmod{43}$, as a residue modulo 43.  (Give an answer between 0 and 42.)",
   "n_questions": 7,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find the positive solution to\n\\[\\sqrt[3]{x + \\sqrt[3]{x + \\sqrt[3]{x + \\dotsb}}} = \\sqrt[3]{x \\sqrt[3]{x \\sqrt[3]{x \\dotsm}}}.\\]",
   "n_questions": 7,
   "labels": [

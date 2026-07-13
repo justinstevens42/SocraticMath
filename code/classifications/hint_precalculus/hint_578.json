@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "The matrices\n\\[\\begin{pmatrix} a & 2 \\\\ 1 & 4 \\end{pmatrix} \\quad \\text{and} \\quad \\begin{pmatrix} -\\frac{2}{7} & \\frac{1}{7} \\\\ b & \\frac{3}{14} \\end{pmatrix}\\]are inverses.  Enter the ordered pair $(a,b).$",
   "n_questions": 8,
   "labels": [

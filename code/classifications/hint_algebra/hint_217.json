@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $f(x) = Ax + B$ and $g(x) = Bx + A$, where $A \\neq B$. If $f(g(x)) - g(f(x)) = B - A$, what is $A + B$?",
   "n_questions": 7,
   "labels": [

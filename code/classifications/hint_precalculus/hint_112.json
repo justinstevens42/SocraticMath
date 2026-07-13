@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "In triangle $ABC,$ $a = 7,$ $b = 9,$ and $c = 4.$  Let $I$ be the incenter.\n\n[asy]\nunitsize(0.8 cm);\n\npair A, B, C, D, E, F, I;\n\nB = (0,0);\nC = (7,0);\nA = intersectionpoint(arc(B,4,0,180),arc(C,9,0,180));\nI = incenter(A,B,C);\n\ndraw(A--B--C--cycle);\ndraw(incircle(A,B,C));\n\nlabel(\"$A$\", A, N);\nlabel(\"$B$\", B, SW);\nlabel(\"$C$\", C, SE);\ndot(\"$I$\", I, NE);\n[/asy]\n\nThen\n\\[\\overrightarrow{I} = x \\overrightarrow{A} + y \\overrightarrow{B} + z \\overrightarrow{C},\\]where $x,$ $y,$ and $z$ are constants such that $x + y + z = 1.$  Enter the ordered triple $(x,y,z).$",
   "n_questions": 14,
   "labels": [

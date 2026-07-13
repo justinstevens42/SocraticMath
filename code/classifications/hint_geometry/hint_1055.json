@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "A square with sides 6 inches is shown. If $P$ is a point such that the segment $\\overline{PA}$, $\\overline{PB}$, $\\overline{PC}$ are equal in length, and segment $\\overline{PC}$ is perpendicular to segment $\\overline{FD}$, what is the area, in square inches, of triangle $APB$? [asy]\npair A, B, C, D, F, P;\nA = (0,0); B= (2,0); C = (1,2); D = (2,2); F = (0,2); P = (1,1);\ndraw(A--B--D--F--cycle);\ndraw(C--P); draw(P--A); draw(P--B);\nlabel(\"$A$\",A,SW); label(\"$B$\",B,SE);label(\"$C$\",C,N);label(\"$D$\",D,NE);label(\"$P$\",P,NW);label(\"$F$\",F,NW);\nlabel(\"$6''$\",(1,0),S);\n\n[/asy]",
   "n_questions": 9,
   "labels": [

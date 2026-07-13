@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Find the largest real number $\\lambda$ such that\n\\[a^2 + b^2 + c^2 + d^2 \\ge ab + \\lambda bc + cd\\]for all nonnegative real numbers $a,$ $b,$ $c,$ $d.$",
   "n_questions": 8,
   "labels": [

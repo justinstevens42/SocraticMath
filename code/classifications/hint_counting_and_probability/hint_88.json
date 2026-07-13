@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "The Lakers are playing the Celtics in the NBA finals. To win the NBA finals, a team must win 4 games before the other team does. If the Celtics win each game with probability $\\dfrac{2}{3}$ and there are no ties, what is the probability that the Lakers will win the NBA finals but that the contest will need all seven games to be decided? Express your answer as a fraction.",
   "n_questions": 8,
   "labels": [

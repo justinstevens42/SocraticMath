@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Let $x$ and $y$ be real numbers such that\n\\[xy - \\frac{x}{y^2} - \\frac{y}{x^2} = 3.\\]Find the sum of all possible values of $(x - 1)(y - 1).$",
   "n_questions": 7,
   "labels": [

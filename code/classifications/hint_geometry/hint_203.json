@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "A circle centered at $O$ is circumscribed about $\\triangle ABC$ as follows: [asy]\npair pA, pB, pC, pO;\npO = (0, 0);\npA = pO + dir(-20);\npB = pO + dir(90);\npC = pO + dir(190);\ndraw(pA--pB--pC--pA);\ndraw(pO--pA);\ndraw(pO--pB);\ndraw(pO--pC);\nlabel(\"$O$\", pO, S);\nlabel(\"$110^\\circ$\", pO, NE);\nlabel(\"$100^\\circ$\", pO, NW);\nlabel(\"$A$\", pA, SE);\nlabel(\"$B$\", pB, N);\nlabel(\"$C$\", pC, SW);\ndraw(circle(pO, 1));\n[/asy] What is the measure of $\\angle BAC$, in degrees?",
   "n_questions": 6,
   "labels": [

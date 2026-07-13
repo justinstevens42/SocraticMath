@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Side $AB$ of regular hexagon $ABCDEF$ is extended past $B$ to point $X$ such that $AX = 3AB$. Given that each side of the hexagon is $2$ units long, what is the length of segment $FX$? Express your answer in simplest radical form.",
   "n_questions": 8,
   "labels": [

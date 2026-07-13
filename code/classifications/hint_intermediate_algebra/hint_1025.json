@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Find the minimum value of\n\\[\\frac{x^2 + 7}{\\sqrt{x^2 + 3}}\\]over all real numbers $x.$",
   "n_questions": 7,
   "labels": [

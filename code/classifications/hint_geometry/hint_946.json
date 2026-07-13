@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Tony will paint 16 right, cylindrical columns. The top face and bottom face of each column will be covered, so those parts will  not be painted.  Each column is 18 feet tall and has a diameter  of 10 feet. One gallon of paint will cover 350 square feet. If paint is sold only in full gallons, how many gallons of paint must Tony buy to paint all 16 columns?",
   "n_questions": 7,
   "labels": [

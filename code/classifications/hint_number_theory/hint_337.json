@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "George is about to get a certain amount of change less than one dollar from the cash register. If he gets the most quarters possible and the rest in pennies, he would need to receive 3 pennies to meet the amount. If he gets the most dimes possible and the rest in pennies, he would need to receive 8 pennies to meet the amount. What is the sum, in cents, of the possible amounts of change that he is trying to get?",
   "n_questions": 8,
   "labels": [

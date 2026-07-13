@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "In a 5 by 5 grid, each of the 25 small squares measures 2 cm by 2 cm and is shaded. Five unshaded circles are then placed on top of the grid as shown. The area of the visible shaded region can be written in the form $A-B\\pi$ square cm. What is the value $A+B$?\n\n[asy]\nfor(int i = 0; i < 5; ++i)\n{\n\nfor(int j = 0; j < 5; ++j)\n\n{\n\nfilldraw((i,j)--(i+1,j)--(i+1,j+1)--(i,j+1)--(i,j)--cycle,gray,linewidth(2));\n\n}\n}\n\nfilldraw(circle((2.5,.5),.5),white,linewidth(2));\nfilldraw(circle((4.5,2.5),.5),white,linewidth(2));\nfilldraw(circle((2.5,4.5),.5),white,linewidth(2));\nfilldraw(circle((.5,2.5),.5),white,linewidth(2));\n\nfilldraw(circle((2.5,2.5),1.5),white,linewidth(2));\n[/asy]",
   "n_questions": 10,
   "labels": [

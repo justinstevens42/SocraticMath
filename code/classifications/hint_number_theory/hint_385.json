@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "What integer $n$ satisfies $0\\le n<{101}$ and $$100n\\equiv 72\\pmod {101}~?$$",
   "n_questions": 8,
   "labels": [

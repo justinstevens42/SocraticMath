@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Let $f(x) = 4x^4+12x^3-9x^2+x+3$ and $d(x) = x^2+3x-2$. If $f(x) = q(x)d(x) + r(x)$ for some polynomials $q(x)$ and $r(x)$ where $\\deg r < \\deg d$, calculate $q(1)+r(-1)$.",
   "n_questions": 9,
   "labels": [

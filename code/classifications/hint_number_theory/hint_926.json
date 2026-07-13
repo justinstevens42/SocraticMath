@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Find the integer $n$, $4 \\le n \\le 8$, such that \\[n \\equiv 7882 \\pmod{5}.\\]",
   "n_questions": 7,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Find all $c$ which satisfy $$\\frac{c}{3} \\le 2+c < -2(1+c).$$Express your answer in interval notation, simplifying any fractions which occur in your answer.",
   "n_questions": 8,
   "labels": [

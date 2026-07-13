@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Tamika selects two different numbers at random from the set $\\{8,9,10\\}$ and adds them. Carlos takes two different numbers at random from the set $\\{3,5,6\\}$ and multiplies them. What is the probability that Tamika's result is greater than Carlos' result?  Express your answer as a common fraction.",
   "n_questions": 7,
   "labels": [

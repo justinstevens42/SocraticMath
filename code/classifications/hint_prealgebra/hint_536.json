@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A zoo has a menagerie containing four pairs of different animals, one male and one female for each. The zookeeper wishes to feed the animals in a specific pattern: each time he feeds a single animal, the next one he feeds must be a different gender. If he starts by feeding the male giraffe, how many ways can he feed all the animals?",
   "n_questions": 6,
   "labels": [

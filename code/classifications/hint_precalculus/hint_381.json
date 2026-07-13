@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Equilateral triangle $ABC$ has been creased and folded so that vertex $A$ now rests at $A'$ on $\\overline{BC}$ as shown.  If $BA' = 1$ and $A'C = 2,$ then find the length of crease $\\overline{PQ}.$\n\n[asy]\nunitsize(1 cm);\n\npair A, Ap, B, C, P, Q;\n\nA = 3*dir(60);\nB = (0,0);\nC = (3,0);\nAp = (1,0);\nP = 8/5*dir(60);\nQ = C + 5/4*dir(120);\n\ndraw(B--C--Q--P--cycle);\ndraw(P--Ap--Q);\ndraw(P--A--Q,dashed);\n\nlabel(\"$A$\", A, N);\nlabel(\"$A'$\", Ap, S);\nlabel(\"$B$\", B, SW);\nlabel(\"$C$\", C, SE);\nlabel(\"$P$\", P, NW);\nlabel(\"$Q$\", Q, NE);\n[/asy]",
   "n_questions": 9,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "There are two values of $a$  for which the equation $4x^2+ax+8x+9=0$ has only one solution for $x$. What is the sum of those values of $a$?",
   "n_questions": 10,
   "labels": [

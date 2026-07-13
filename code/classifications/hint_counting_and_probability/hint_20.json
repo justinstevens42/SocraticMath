@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Given that $\\binom{23}{3}=1771$, $\\binom{23}{4}=8855$, and $\\binom{23}{5}=33649$, find $\\binom{25}{5}$.",
   "n_questions": 7,
   "labels": [

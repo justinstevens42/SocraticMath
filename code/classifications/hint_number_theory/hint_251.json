@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "If $3x+7\\equiv 2\\pmod{16}$, then $2x+11$ is congruent $\\pmod{16}$ to what integer between $0$ and $15$, inclusive?",
   "n_questions": 7,
   "labels": [

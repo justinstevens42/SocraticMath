@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Let $H$ be the orthocenter of triangle $ABC.$  For all points $P$ on the circumcircle of triangle $ABC,$\n\\[PA^2 + PB^2 + PC^2 - PH^2\\]is a constant.  Express this constant in terms of the side lengths $a,$ $b,$ $c$ and circumradius $R$ of triangle $ABC.$",
   "n_questions": 7,
   "labels": [

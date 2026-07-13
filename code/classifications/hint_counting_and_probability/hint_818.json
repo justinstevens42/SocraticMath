@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "What is the value of $101^{4} - 4 \\cdot 101^{3} + 6 \\cdot 101^2 - 4 \\cdot 101 + 1$?  (No calculators!)",
   "n_questions": 8,
   "labels": [

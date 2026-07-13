@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $\\mathbf{v} = \\begin{pmatrix} 2 \\\\ 1 \\\\ -1 \\end{pmatrix}$ and $\\mathbf{w} = \\begin{pmatrix} 1 \\\\ 0 \\\\ 3 \\end{pmatrix}.$  The columns of a matrix are $\\mathbf{u},$ $\\mathbf{v},$ and $\\mathbf{w},$ where $\\mathbf{u}$ is a unit vector.  Find the largest possible determinant of the matrix.",
   "n_questions": 10,
   "labels": [

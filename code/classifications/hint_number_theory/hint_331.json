@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The seven digits in Sam's phone number and the four digits in his house number have the same sum.  The four digits in his house number are distinct, and his phone number is 271-3147.  What is the largest possible value of Sam's house number?",
   "n_questions": 9,
   "labels": [

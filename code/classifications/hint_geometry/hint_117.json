@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "A right triangle has a side length of 21 inches and a hypotenuse of 29 inches. A second triangle is similar to the first and has a hypotenuse of 87 inches. What is the length of the shortest side of the second triangle?",
   "n_questions": 8,
   "labels": [

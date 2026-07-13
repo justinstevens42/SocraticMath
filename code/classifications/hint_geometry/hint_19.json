@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "A truncated cone has horizontal bases with radii 18 and 2. A sphere is tangent to the top, bottom, and lateral surface of the truncated cone. What is the radius of the sphere?",
   "n_questions": 10,
   "labels": [

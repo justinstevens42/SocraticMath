@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "What is the area of the region enclosed by the graph of the equation $x^2-14x+3y+70=21+11y-y^2$ that lies below the line $y=x-3$?",
   "n_questions": 8,
   "labels": [

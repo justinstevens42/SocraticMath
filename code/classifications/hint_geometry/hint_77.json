@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "A circle centered at $A$ with a radius of $1$ and a circle centered at $B$ with a radius of $4$ are externally tangent. A third circle is tangent to the first two and to one of their common external tangents as shown. What is the radius of the third circle? [asy]\ndraw((-3,0)--(7.5,0));\ndraw(Circle((-1,1),1),linewidth(0.7));\ndraw(Circle((3,4),4),linewidth(0.7));\ndraw(Circle((0.33,0.44),0.44),linewidth(0.7));\ndot((-1,1));\ndot((3,4));\ndraw((-1,1)--(-2,1));\ndraw((3,4)--(7,4));\nlabel(\"$A$\",(-1,1),E);\nlabel(\"$B$\",(3,4),W);\nlabel(\"1\",(-1.5,1),N);\nlabel(\"4\",(5,4),N);\n[/asy]",
   "n_questions": 9,
   "labels": [

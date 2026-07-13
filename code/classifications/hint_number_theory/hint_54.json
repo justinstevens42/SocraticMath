@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "For how many positive integers $n$ does $\\frac{1}{n}$ yield a terminating decimal with a non-zero hundredths digit?",
   "n_questions": 8,
   "labels": [

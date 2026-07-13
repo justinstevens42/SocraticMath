@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "An octagon is inscribed in a square so that the vertices of the octagon trisect the sides of the square. The perimeter of the square is 108 centimeters. What is the number of square centimeters in the area of the octagon?",
   "n_questions": 8,
   "labels": [

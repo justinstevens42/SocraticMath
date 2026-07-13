@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "How many natural-number factors does $N$ have if $N = 2^4 \\cdot 3^3 \\cdot 5^2 \\cdot 7^2$?",
   "n_questions": 8,
   "labels": [

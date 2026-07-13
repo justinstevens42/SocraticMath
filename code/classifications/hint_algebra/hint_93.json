@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "What is the value of \\[\\frac{x^1\\cdot x^2\\cdot x^3\\cdots x^{15}}{x^2\\cdot x^4 \\cdot x^6 \\cdots x^{20}}\\]if $x=2$?",
   "n_questions": 7,
   "labels": [

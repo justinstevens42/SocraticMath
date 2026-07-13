@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Find the $2 \\times 2$ matrix $\\mathbf{M}$ such that $\\mathbf{M} \\begin{pmatrix} 3 \\\\ 0 \\end{pmatrix} = \\begin{pmatrix} 6 \\\\ 21 \\end{pmatrix}$ and $\\mathbf{M} \\begin{pmatrix} -1 \\\\ 5 \\end{pmatrix} = \\begin{pmatrix} 3 \\\\ -17 \\end{pmatrix}.$",
   "n_questions": 6,
   "labels": [

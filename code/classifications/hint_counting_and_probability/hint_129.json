@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "What is the sum of all integer values $n$ for which $\\binom{20}{n}+\\binom{20}{10}=\\binom{21}{11}$?",
   "n_questions": 9,
   "labels": [

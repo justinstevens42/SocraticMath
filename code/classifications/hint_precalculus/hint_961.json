@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
   "problem": "Define $\\mathbf{A} = \\begin{pmatrix} 0 & 1 \\\\ 3 & 0 \\end{pmatrix}.$  Find the vector $\\mathbf{v}$ such that\n\\[(\\mathbf{A}^8 + \\mathbf{A}^6 + \\mathbf{A}^4 + \\mathbf{A}^2 + \\mathbf{I}) \\mathbf{v} = \\begin{pmatrix} 0 \\\\ 11 \\end{pmatrix}.\\]",
   "n_questions": 6,
   "labels": [

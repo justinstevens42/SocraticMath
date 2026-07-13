@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level ?",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "We have a triangle $\\triangle ABC$ and a point $K$ on $BC$ such that $AK$ is an altitude of $\\triangle ABC$. If $AC = 10,$ $BK = 7$, and $BC = 13,$ then what is the area of $\\triangle ABC$?",
   "n_questions": 9,
   "labels": [

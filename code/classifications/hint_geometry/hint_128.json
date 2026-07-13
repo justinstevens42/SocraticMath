@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A hemisphere-shaped bowl with radius 1 foot is filled full with chocolate.  All of the chocolate is then evenly distributed between 27 congruent, smaller hemisphere-shaped molds.  What is the radius of each of the smaller molds, in feet?",
   "n_questions": 9,
   "labels": [

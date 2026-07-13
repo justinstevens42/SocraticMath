@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Two lines have the same non-zero $y$-intercept. The first line has a slope of 10 and an $x$-intercept of $(s, 0)$. The second line has a slope of 6 and an $x$-intercept of $(t, 0)$. What is the ratio of $s $ to $t$? Express your answer as a common fraction.",
   "n_questions": 10,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "The equation\n\\[\\frac{1}{x} + \\frac{1}{x + 2} - \\frac{1}{x + 4} - \\frac{1}{x + 6} - \\frac{1}{x + 8} - \\frac{1}{x + 10} + \\frac{1}{x + 12} + \\frac{1}{x + 14} = 0\\]has four roots of the form $-a \\pm \\sqrt{b \\pm c \\sqrt{d}},$ where $a,$ $b,$ $c,$ $d$ are positive integers, and $d$ is not divisible by the square of a prime.  Find $a + b + c + d.$",
   "n_questions": 7,
   "labels": [

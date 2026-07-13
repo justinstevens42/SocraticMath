@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "What is the coefficient of $a^2b^2$ in $(a+b)^4\\left(c+\\dfrac{1}{c}\\right)^6$?",
   "n_questions": 8,
   "labels": [

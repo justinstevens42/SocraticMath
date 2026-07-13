@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "When a polynomial $p(x)$ is divided by $x + 1,$ the remainder is 5.  When $p(x)$ is divided by $x + 5,$ the remainder is $-7.$  Find the remainder when $p(x)$ is divided by $(x + 1)(x + 5).$",
   "n_questions": 7,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "In triangle $ABC$, the measure of $\\angle A$ is $86$ degrees. The measure of $\\angle B$ is $22$ degrees more than three times the measure of $\\angle C$. What is the measure, in degrees, of $\\angle C$?",
   "n_questions": 6,
   "labels": [

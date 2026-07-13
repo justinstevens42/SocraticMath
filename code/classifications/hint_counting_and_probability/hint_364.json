@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Mr. Jones has 6 children. Assuming that the gender of each child is determined independently and with equal likelihood of male and female, what is the probability that Mr. Jones has more sons than daughters or more daughters than sons?",
   "n_questions": 6,
   "labels": [

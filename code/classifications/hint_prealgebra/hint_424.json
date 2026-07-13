@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "In this Number Wall, you add the numbers next to each other and write the sum in the block directly above the two numbers. Which number will be the block labeled '$n$'? [asy]\ndraw((0,0)--(8,0)--(8,2)--(0,2)--cycle);\ndraw((2,0)--(2,2));\ndraw((4,0)--(4,2));\ndraw((6,0)--(6,2));\ndraw((1,2)--(7,2)--(7,4)--(1,4)--cycle);\ndraw((3,2)--(3,4));\ndraw((5,2)--(5,4));\ndraw((2,4)--(2,6)--(6,6)--(6,4)--cycle);\ndraw((4,4)--(4,6));\ndraw((3,6)--(3,8)--(5,8)--(5,6));\nlabel(\"$n$\",(1,1));\nlabel(\"4\",(3,1));\nlabel(\"8\",(5,1));\nlabel(\"7\",(7,1));\nlabel(\"15\",(6,3));\nlabel(\"46\",(4,7));\n[/asy]",
   "n_questions": 6,
   "labels": [

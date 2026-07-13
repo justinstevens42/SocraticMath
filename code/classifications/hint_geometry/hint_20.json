@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 3",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "A stick 5 cm long, a stick 9 cm long, and a third stick $n$ cm long form a triangle. What is the sum of all possible whole number values of $n$?",
   "n_questions": 6,
   "labels": [

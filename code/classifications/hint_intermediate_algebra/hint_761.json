@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "A polynomial product of the form\n\\[(1 - z)^{b_1} (1 - z^2)^{b_2} (1 - z^3)^{b_3} (1 - z^4)^{b_4} (1 - z^5)^{b_5} \\dotsm (1 - z^{32})^{b_{32}},\\]where the $b_k$ are positive integers, has the surprising property that if we multiply it out and discard all terms involving $z$ to a power larger than 32, what is left is just $1 - 2z.$  Determine $b_{32}.$\n\nYou can enter your answer using exponential notation.",
   "n_questions": 11,
   "labels": [

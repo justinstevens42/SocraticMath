@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 3",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Let \\[f(x) = \\left\\{\n\\begin{array}{cl}\n-x - 3 & \\text{if } x \\le 1, \\\\\n\\frac{x}{2} + 1 & \\text{if } x > 1.\n\\end{array}\n\\right.\\]Find the sum of all values of $x$ such that $f(x) = 0$.",
   "n_questions": 10,
   "labels": [

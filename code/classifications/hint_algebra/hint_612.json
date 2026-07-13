@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Let  \\begin{align*}\nf(x) &= 2x + 5 \\\\\ng(x) &= \\sqrt{f(x)} - 2 \\\\\nh(x) &= f(g(x))\n\\end{align*} What is $h(2)$?",
   "n_questions": 10,
   "labels": [

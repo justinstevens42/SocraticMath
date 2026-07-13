@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Let $x$ and $y$ be real numbers such that\n\\[\\frac{\\sin x}{\\cos y} + \\frac{\\sin y}{\\cos x} = 1 \\quad \\text{and} \\quad \\frac{\\cos x}{\\sin y} + \\frac{\\cos y}{\\sin x} = 6.\\]Compute\n\\[\\frac{\\tan x}{\\tan y} + \\frac{\\tan y}{\\tan x}.\\]",
   "n_questions": 9,
   "labels": [

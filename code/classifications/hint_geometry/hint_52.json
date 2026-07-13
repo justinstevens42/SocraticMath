@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "Point $A$ has coordinates $(x,6)$. When Point $A$ is reflected over the $y$-axis it lands on Point $B$. What is the sum of the four coordinate values of points $A$ and $B$?",
   "n_questions": 9,
   "labels": [

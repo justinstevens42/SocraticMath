@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Find the remainder when $x^{44} + x^{33} + x^{22} + x^{11} + 1$ is divided by $x^4 + x^3 + x^2 + x + 1.$",
   "n_questions": 5,
   "labels": [

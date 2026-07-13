@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The landlord of an apartment building needs to purchase enough digits to label all of the apartments from 100 through 125 on the first floor and 200 through 225 on the second floor. The digits can only be purchased in a package that contains one of each digit 0 through 9. How many packages must the landlord purchase?",
   "n_questions": 10,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "The lengths of the sides of a non-degenerate triangle are $x$, 13 and 37 units. How many integer values of $x$ are possible?",
   "n_questions": 6,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Polygon $ABCDEF$ is a regular hexagon. What is the measure in degrees of angle $ABF$?",
   "n_questions": 11,
   "labels": [

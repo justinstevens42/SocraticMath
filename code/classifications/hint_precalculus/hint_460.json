@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The line $y = 3x - 11$ is parameterized by the form\n\\[\\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} r \\\\ 1 \\end{pmatrix} + t \\begin{pmatrix} 4 \\\\ k \\end{pmatrix}.\\]Enter the ordered pair $(r,k).$",
   "n_questions": 10,
   "labels": [

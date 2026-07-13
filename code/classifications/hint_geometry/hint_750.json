@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Rectangle $ABCD$ is the base of pyramid $PABCD$. If $AB = 8$, $BC = 4$, $\\overline{PA}\\perp \\overline{AD}$, $\\overline{PA}\\perp \\overline{AB}$, and $PB = 17$, then what is the volume of $PABCD$?",
   "n_questions": 6,
   "labels": [

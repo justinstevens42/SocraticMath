@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $A = (1,0)$ and $B = (5,4).$  Let $P$ be a point on the parabola $y^2 = 4x.$  Find the smallest possible value of $AP + BP.$",
   "n_questions": 7,
   "labels": [

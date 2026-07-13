@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "The teacher asks Bill to calculate $a-b-c$, but Bill mistakenly calculates $a-(b-c)$ and gets an answer of 11. If the correct answer was 3, what is the value of $a-b$?",
   "n_questions": 6,
   "labels": [

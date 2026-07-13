@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "How many numbers are in the list $$ 1.5, 5.5, 9.5, 13.5, \\ldots, 41.5, 45.5? $$",
   "n_questions": 6,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A circle rests in the interior of the parabola with equation $y = x^2,$ so that it is tangent to the parabola at two points.  How much higher is the center of the circle than the points of tangency?",
   "n_questions": 10,
   "labels": [

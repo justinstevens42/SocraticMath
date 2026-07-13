@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "In the diagram, $QRS$ is a straight line. What is the measure of $\\angle RPS,$ in degrees? [asy]\npair Q=(0,0);\npair R=(1.3,0);\npair SS=(2.3,0);\npair P=(.8,1);\n\ndraw(P--Q--R--SS--P--R);\n\nlabel(\"$Q$\",Q,S);\nlabel(\"$R$\",R,S);\nlabel(\"$S$\",SS,S);\nlabel(\"$P$\",P,N);\n\nlabel(\"$48^\\circ$\",Q+(.12,.05),NE);\nlabel(\"$67^\\circ$\",P-(.02,.15),S);\nlabel(\"$38^\\circ$\",SS+(-.32,.05),NW);\n\n[/asy]",
   "n_questions": 9,
   "labels": [

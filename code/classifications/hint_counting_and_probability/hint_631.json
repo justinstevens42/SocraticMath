@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "A board game spinner is divided into four regions labeled $A$, $B$, $C$, and $D$.  The probability of the arrow stopping on region $A$ is $\\frac{3}{8}$, the probability of it stopping in $B$ is $\\frac{1}{4}$, and the probability of it stopping in region $C$ is equal to the probability of it stopping in region $D$. What is the probability of the arrow stopping in region $C$?  Express your answer as a common fraction.",
   "n_questions": 9,
   "labels": [

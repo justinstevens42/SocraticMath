@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The equation of the line shown can be written as $y=mx+b$.  Find $mb$.\n[asy]\nsize(100,0);\nadd(shift(-5,-5)*grid(10,10));\ndraw((-5,0)--(5,0),linewidth(2));\ndraw((0,-5)--(0,5),linewidth(2));\nlabel(\"\",(5,0),E);\nlabel(\"\",(0,5),N);\ndraw((-3,-5) -- (2,5),blue,Arrows);\n[/asy]\nEach grid square in the diagram shown is 1 unit by 1 unit.",
   "n_questions": 12,
   "labels": [

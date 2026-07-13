@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Let $\\mathbf{m},$ $\\mathbf{n},$ and $\\mathbf{p}$ be unit vectors such that the angle between $\\mathbf{m}$ and $\\mathbf{n}$ is $\\alpha,$ and the angle between $\\mathbf{p}$ and $\\mathbf{m} \\times \\mathbf{n}$ is also $\\alpha.$  If $\\mathbf{n} \\cdot (\\mathbf{p} \\times \\mathbf{m}) = \\frac{1}{4},$ find the smallest possible value of $\\alpha,$ in degrees.",
   "n_questions": 10,
   "labels": [

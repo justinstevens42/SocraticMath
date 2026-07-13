@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "How many digits are located to the right of the decimal point when $\\frac{3^6}{6^4\\cdot625}$ is expressed as a decimal?",
   "n_questions": 7,
   "labels": [

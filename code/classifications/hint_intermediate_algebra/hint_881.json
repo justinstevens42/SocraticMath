@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The line with equation $y = x$ is an axis of symmetry of the curve with equation\n\\[y = \\frac{px + q}{rx + s},\\]where $p,$ $q,$ $r,$ $s$ are all nonzero.  Which of the following statements must hold?\n\n(A) $p + q = 0$\n\n(B) $p + r = 0$\n\n(C) $p + s = 0$\n\n(D) $q + r = 0$\n\n(E) $q + s = 0$\n\n(F) $r + s = 0$",
   "n_questions": 10,
   "labels": [

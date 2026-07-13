@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Let $\\overline{AD},$ $\\overline{BE},$ $\\overline{CF}$ be the altitudes of acute triangle $ABC.$  If\n\\[9 \\overrightarrow{AD} + 4 \\overrightarrow{BE} + 7 \\overrightarrow{CF} = \\mathbf{0},\\]then compute $\\angle ACB,$ in degrees.\n\n[asy]\nunitsize (0.6 cm);\n\npair A, B, C, D, E, F, H;\n\nA = (2,5);\nB = (0,0);\nC = (8,0);\nD = (A + reflect(B,C)*(A))/2;\nE = (B + reflect(C,A)*(B))/2;\nF = (C + reflect(A,B)*(C))/2;\n\ndraw(A--B--C--cycle);\ndraw(A--D);\ndraw(B--E);\ndraw(C--F);\n\nlabel(\"$A$\", A, N);\nlabel(\"$B$\", B, SW);\nlabel(\"$C$\", C, SE);\nlabel(\"$D$\", D, S);\nlabel(\"$E$\", E, NE);\nlabel(\"$F$\", F, NW);\n[/asy]",
   "n_questions": 6,
   "labels": [

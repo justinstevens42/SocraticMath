@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find the ones digit of the largest power of $2$ that divides into $(2^4)!$.",
   "n_questions": 9,
   "labels": [

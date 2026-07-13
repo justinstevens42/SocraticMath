@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "The squares of a chessboard are labelled with numbers, as shown below.\n\n[asy]\nunitsize(0.8 cm);\n\nint i, j;\n\nfor (i = 0; i <= 8; ++i) {\n  draw((i,0)--(i,8));\n  draw((0,i)--(8,i));\n}\n\nfor (i = 0; i <= 7; ++i) {\nfor (j = 0; j <= 7; ++j) {\n  label(\"$\\frac{1}{\" + string(i + 8 - j) + \"}$\", (i + 0.5, j + 0.5));\n}}\n[/asy]\n\nEight of the squares are chosen, so that there is exactly one chosen square in each row and each column.  Find the minimum sum of the labels of the eight chosen squares.",
   "n_questions": 11,
   "labels": [

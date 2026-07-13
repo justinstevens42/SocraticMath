@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "If $AAA_4$ can be expressed as $33_b$, where $A$ is a digit in base 4 and $b$ is a base greater than 5, what is the smallest possible sum $A+b$?",
   "n_questions": 4,
   "labels": [

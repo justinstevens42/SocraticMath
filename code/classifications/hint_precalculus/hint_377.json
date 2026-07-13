@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Given that $z$ is a complex number such that $z+\\frac 1z=2\\cos 3^\\circ$, find $z^{2000}+\\frac 1{z^{2000}}$.",
   "n_questions": 7,
   "labels": [

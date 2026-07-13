@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Let $m$ be the smallest positive, three-digit integer congruent to 5 (mod 11). Let $n$ be the smallest positive, four-digit integer congruent to 5 (mod 11). What is $n-m$?",
   "n_questions": 5,
   "labels": [

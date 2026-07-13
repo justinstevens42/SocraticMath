@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "The numbers 60, 221, and 229 are the legs and hypotenuse of a right triangle.  Find the multiplicative inverse to 450 modulo 3599.  (Express your answer as an integer $n$ with $0\\leq n<3599$.)",
   "n_questions": 8,
   "labels": [

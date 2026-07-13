@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find the smallest possible value of the expression $$\\frac{(a+b)^2+(b-c)^2+(c-a)^2}{b^2},$$where $b > c > a$ are real numbers, and $b \\neq 0.$",
   "n_questions": 11,
   "labels": [

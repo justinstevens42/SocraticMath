@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Find the matrix $\\mathbf{M}$ that swaps the columns of a matrix.  In other words,\n\\[\\mathbf{M} \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} = \\begin{pmatrix} b & a \\\\ d & c \\end{pmatrix}.\\]If no such matrix $\\mathbf{M}$ exists, then enter the zero matrix.",
   "n_questions": 9,
   "labels": [

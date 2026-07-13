@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "If $n$ is $1$ less than a multiple of $50$, then what is the remainder when $n^2+2n+3$ is divided by $50$?",
   "n_questions": 8,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Let $x, y, z$ be real numbers so that  \\begin{align*}\ny+z & = 13, \\\\\nz+x & = 14, \\\\\nx+y & = 15.\n\\end{align*} Find $\\sqrt{xyz(x+y+z)}$.",
   "n_questions": 6,
   "labels": [

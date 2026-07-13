@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Given that $\\theta$ and $\\phi$ are acute angles such that $\\tan \\theta = \\frac{1}{7}$ and $\\sin \\phi = \\frac{1}{\\sqrt{10}},$ find $\\theta + 2 \\phi,$ measured in radians.",
   "n_questions": 10,
   "labels": [

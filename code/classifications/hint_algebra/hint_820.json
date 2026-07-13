@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Find all values of $b$ such that $b+\\lceil b\\rceil=17.8$.",
   "n_questions": 6,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "There exist constants $a_1,$ $a_2,$ $a_3,$ $a_4,$ $a_5$ such that\n\\[\\cos^5 \\theta = a_1 \\cos \\theta + a_2 \\cos 2 \\theta + a_3 \\cos 3 \\theta + a_4 \\cos 4 \\theta + a_5 \\cos 5 \\theta\\]for all angles $\\theta.$  Find $a_1^2 + a_2^2 + a_3^2 + a_4^2 + a_5^2.$",
   "n_questions": 7,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Two parabolas are the graphs of the equations $y=2x^2-10x-10$ and $y=x^2-4x+6$. Find all points where they intersect. List the points in order of increasing $x$-coordinate, separated by semicolons.",
   "n_questions": 13,
   "labels": [

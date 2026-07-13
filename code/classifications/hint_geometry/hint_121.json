@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Two circles of radius 10 cm overlap such that each circle passes through the center of the other, as shown. How long, in cm, is the common chord (dotted segment) of the two circles? Express your answer in simplest radical form.\n\n[asy]\ndraw(Circle((0,0),10),linewidth(1));\ndraw(Circle((10,0),10),linewidth(1));\ndot((0,0));\ndot((10,0));\ndraw((5,8.66)--(5,-8.66),linetype(\"0 4\")+linewidth(1));\n\n[/asy]",
   "n_questions": 10,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Given that $13^{-1} \\equiv 29 \\pmod{47}$, find $34^{-1} \\pmod{47}$, as a residue modulo 47.  (Give a number between 0 and 46, inclusive.)",
   "n_questions": 7,
   "labels": [

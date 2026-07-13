@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "The graph of a parabola has the following properties:\n\n$\\bullet$ It passes through the point $(1,5).$\n\n$\\bullet$ The $y$-coordinate of the focus is 3.\n\n$\\bullet$ Its axis of symmetry is parallel to the $x$-axis.\n\n$\\bullet$ Its vertex lies on the $y$-axis.\n\nExpress the equation of the parabola in the form\n\\[ax^2 + bxy + cy^2 + dx + ey + f = 0,\\]where $a,$ $b,$ $c,$ $d,$ $e,$ $f$ are integers, $c$ is a positive integer, and $\\gcd(|a|,|b|,|c|,|d|,|e|,|f|) = 1.$",
   "n_questions": 10,
   "labels": [

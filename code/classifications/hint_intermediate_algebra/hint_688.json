@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "The coefficients of the polynomial\n\\[a_{10} x^{10} + a_9 x^9 + a_8 x^8 + \\dots + a_2 x^2 + a_1 x + a_0 = 0\\]are all integers, and its roots $r_1,$ $r_2,$ $\\dots,$ $r_{10}$ are all integers.  Furthermore, the roots of the polynomial\n\\[a_0 x^{10} + a_1 x^9 + a_2 x^8 + \\dots + a_8 x^2 + a_9 x + a_{10} = 0\\]are also $r_1,$ $r_2,$ $\\dots,$ $r_{10}.$  Find the number of possible multisets $S = \\{r_1, r_2, \\dots, r_{10}\\}.$\n\n(A multiset, unlike a set, can contain multiple elements.  For example, $\\{-2, -2, 5, 5, 5\\}$ and $\\{5, -2, 5, 5, -2\\}$ are the same multiset, but both are different from $\\{-2, 5, 5, 5\\}.$  And as usual, $a_{10} \\neq 0$ and $a_0 \\neq 0.$)",
   "n_questions": 10,
   "labels": [

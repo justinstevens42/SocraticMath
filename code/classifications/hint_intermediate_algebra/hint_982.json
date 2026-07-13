@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let \\[P(x) = (2x^4 - 26x^3 + ax^2 + bx + c)(5x^4 - 80x^3 + dx^2 + ex + f),\\]where $a, b, c, d, e, f$ are real numbers. Suppose that the set of all complex roots of $P(x)$ is $\\{1, 2, 3, 4, 5\\}.$ Find $P(6).$",
   "n_questions": 7,
   "labels": [

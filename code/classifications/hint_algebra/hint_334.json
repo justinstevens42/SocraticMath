@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Given that $a > 0$, if $f(g(a)) = 8$, where $f(x) = x^2 + 8$ and $g(x) = x^2 - 4$, what is the value of $a$?",
   "n_questions": 8,
   "labels": [

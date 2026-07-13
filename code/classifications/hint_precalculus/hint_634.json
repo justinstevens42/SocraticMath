@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
   "problem": "Compute $\\begin{pmatrix} \\sqrt{3} & -1 \\\\ 1 & \\sqrt{3} \\end{pmatrix}^6.$",
   "n_questions": 6,
   "labels": [

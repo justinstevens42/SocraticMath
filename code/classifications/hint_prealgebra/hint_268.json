@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "According to the data shown, how much cheaper, in cents, is the cheaper store's price for Camera $X$ compared to the more expensive? \\begin{tabular}{|l|l|}\n\\hline\n\\textbf{Store}& \\textbf{Sale Price for Camera $X$} \\\\ \\hline\nSuper Savers & $\\$9$~off the list price~$\\$39.96$ \\\\ \\hline\nPenny Wise & $25\\%$~off the list price~$\\$39.96$ \\\\ \\hline\n\\end{tabular}",
   "n_questions": 9,
   "labels": [

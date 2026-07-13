@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "Let $f(x)=2\\sqrt{x} + \\frac{12}{\\sqrt{x}}$ and let $g(x)=2x^2-2x-3$. What is $f(g(3))$?",
   "n_questions": 6,
   "labels": [

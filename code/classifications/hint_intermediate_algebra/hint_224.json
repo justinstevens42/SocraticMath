@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Positive integers $a$, $b$, and $c$ are chosen so that $a<b<c$, and the system of equations \\[\n2x + y = 2003\\quad\\text{and}\\quad y = |x-a| + |x-b| + |x-c|\n\\]has exactly one solution. What is the minimum value of $c$?",
   "n_questions": 10,
   "labels": [

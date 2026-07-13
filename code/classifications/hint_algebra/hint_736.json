@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 3",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "The greatest integer function of $x$ is expressed as $[x]$ and is defined to be the greatest integer less than or equal to $x$. Find $[\\pi - 4]$",
   "n_questions": 7,
   "labels": [

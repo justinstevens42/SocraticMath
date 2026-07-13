@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Let $a_1,$ $a_2,$ $\\dots,$ $a_{12}$ be positive real numbers such that $a_1 + a_2 + \\dots + a_{12} = 1.$  Find the minimum value of\n\\[\\frac{1}{a_1} + \\frac{1}{a_2} + \\dots + \\frac{1}{a_{12}}.\\]",
   "n_questions": 6,
   "labels": [

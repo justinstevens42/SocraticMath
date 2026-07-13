@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Let $t(x) = \\sqrt{3x+1}$ and $f(x)=5-t(x)$. What is $t(f(5))$?",
   "n_questions": 6,
   "labels": [

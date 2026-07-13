@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Determine the complex number $z$ satisfying the equation $2z-3\\bar{z}=-2-30i$.  Note that $\\bar{z}$ denotes the conjugate of $z$.",
   "n_questions": 7,
   "labels": [

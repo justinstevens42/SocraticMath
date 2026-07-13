@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "A rectangular prism has dimensions 8 inches by 2 inches by 32 inches. If a cube has the same volume as the prism, what is the surface area of the cube, in square inches?",
   "n_questions": 9,
   "labels": [

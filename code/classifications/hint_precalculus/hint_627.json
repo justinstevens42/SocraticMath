@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $a,$ $b,$ $c,$ $d$ be nonzero integers such that\n\\[\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}^2 = \\begin{pmatrix} 7 & 0 \\\\ 0 & 7 \\end{pmatrix}.\\]Find the smallest possible value of $|a| + |b| + |c| + |d|.$",
   "n_questions": 11,
   "labels": [

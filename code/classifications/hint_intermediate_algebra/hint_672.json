@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Find the maximum of\n\\[\\sqrt{x + 27} + \\sqrt{13 - x} + \\sqrt{x}\\]for $0 \\le x \\le 13.$",
   "n_questions": 6,
   "labels": [

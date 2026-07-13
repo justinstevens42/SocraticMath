@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "For $\\mathbf{v} = \\begin{pmatrix} -10 \\\\ 6 \\end{pmatrix}$ and $\\mathbf{w} = \\begin{pmatrix} 15 \\\\ -9 \\end{pmatrix}$, compute $\\text{proj}_{\\mathbf{w}} \\mathbf{v}$.",
   "n_questions": 7,
   "labels": [

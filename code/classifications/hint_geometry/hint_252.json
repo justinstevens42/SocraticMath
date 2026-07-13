@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Each vertex of this parallelogram has integer coordinates. The perimeter of this parallelogram is $p$ units, while the area is $a$ square units. What is the value of the sum $p + a$?\n\n[asy]\nsize(5cm,5cm);\ndraw((-2,0)--(11,0));\ndraw((0,-1)--(0,6));\ndraw((0,0)--(3,4)--(10,4)--(7,0)--cycle);\nlabel(\"$(3,4)$\",(3,4),NW);\nlabel(\"$(7,0)$\",(7,0),S);\n[/asy]",
   "n_questions": 8,
   "labels": [

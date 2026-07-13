@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "In the figure below, the smaller circle has a radius of two feet and the larger circle has a radius of four feet. What is the total area of the four shaded regions? Express your answer as a decimal to the nearest tenth.\n\n[asy]\nfill((0,0)--(12,0)--(12,-4)--(4,-4)--(4,-2)--(0,-2)--cycle,gray(0.7));\ndraw((0,0)--(12,0),linewidth(1));\ndraw((0,0)--(0,-2),linewidth(1));\ndraw((4,0)--(4,-4),linewidth(1));\ndraw((12,0)--(12,-4),linewidth(1));\ndraw((0.3,0)--(0.3,-0.3)--(0,-0.3));\ndraw((4.3,0)--(4.3,-0.3)--(4,-0.3));\ndraw((11.7,0)--(11.7,-0.3)--(12,-0.3));\nfill(Circle((2,-2),2),white);\nfill(Circle((8,-4),4),white);\ndraw(Circle((2,-2),2));\ndraw(Circle((8,-4),4));\ndot((2,-2));\ndot((8,-4));\n[/asy]",
   "n_questions": 10,
   "labels": [

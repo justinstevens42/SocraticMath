@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "Find the length of the parametric curve described by\n\\[(x,y) = (2 \\sin t, 2 \\cos t)\\]from $t = 0$ to $t = \\pi.$",
   "n_questions": 7,
   "labels": [

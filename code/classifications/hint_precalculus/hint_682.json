@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Let $\\mathbf{a},$ $\\mathbf{b},$ $\\mathbf{c}$ be vectors such that $\\|\\mathbf{a}\\| = \\|\\mathbf{b}\\| = 1,$ $\\|\\mathbf{c}\\| = 2,$ and\n\\[\\mathbf{a} \\times (\\mathbf{a} \\times \\mathbf{c}) + \\mathbf{b} = \\mathbf{0}.\\]Find the smallest possible angle between $\\mathbf{a}$ and $\\mathbf{c},$ in degrees.",
   "n_questions": 10,
   "labels": [

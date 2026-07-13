@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The product of the base seven numbers $24_7$ and $30_7$ is expressed in base seven. What is the base seven sum of the digits of this product?",
   "n_questions": 8,
   "labels": [

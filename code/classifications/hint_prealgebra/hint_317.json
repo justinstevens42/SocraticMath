@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The stem and leaf plot represents the heights, in inches, of the players on the Spring Vale Middle School girls' basketball team. What is the mean height of the players on the team? (Note: $5|3$ represents 53 inches.)\n\nHeight of the Players on the Basketball Team (inches)\n\n$4|9$\n\n$5|2\\;3\\;5\\;8\\;8\\;9$\n\n$6|0\\;1\\;1\\;2\\;6\\;8\\;9\\;9$",
   "n_questions": 11,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "If $\\mathbf{a},$ $\\mathbf{b},$ and $\\mathbf{c}$ are vectors such that $\\mathbf{a} \\cdot \\mathbf{b} = -3,$ $\\mathbf{a} \\cdot \\mathbf{c} = 4,$ and $\\mathbf{b} \\cdot \\mathbf{c} = 6,$ then find\n\\[\\mathbf{b} \\cdot (7 \\mathbf{c} - 2 \\mathbf{a}).\\]",
   "n_questions": 6,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "What is the sum of the 2009 fractions of the form $\\frac{2}{n(n+2)}$ if the values of $n$ are the positive integers from 1 through 2009? Express your answer as a decimal to the nearest thousandth.",
   "n_questions": 7,
   "labels": [

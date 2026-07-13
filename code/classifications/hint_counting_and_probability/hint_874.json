@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "How many distinct sequences of four letters can be made from the letters in PROBLEM if each letter can be used only once and each sequence must begin with L and not end with P?",
   "n_questions": 5,
   "labels": [

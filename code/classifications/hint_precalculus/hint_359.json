@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Compute the number of degrees in the smallest positive angle $x$ such that\n\\[8 \\sin x \\cos^5 x - 8 \\sin^5 x \\cos x = 1.\\]",
   "n_questions": 6,
   "labels": [

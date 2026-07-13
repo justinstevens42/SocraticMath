@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A right cone has a base with a circumference of $16\\pi$ inches and a height of 30 inches. The height of this cone is reduced while the circumference stays the same. The volume of the shorter cone is $192\\pi$ cubic inches. What is the ratio of the shorter height to the original height? Express your answer as a common fraction.",
   "n_questions": 10,
   "labels": [

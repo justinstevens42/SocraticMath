@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "What is the value of $x$ in the diagram?\n\n[asy]\n\nimport olympiad;\n\ndraw((0,0)--(sqrt(3),0)--(0,sqrt(3))--cycle);\n\ndraw((0,0)--(-1,0)--(0,sqrt(3))--cycle);\n\nlabel(\"8\",(-1/2,sqrt(3)/2),NW);\n\nlabel(\"$x$\",(sqrt(3)/2,sqrt(3)/2),NE);\n\ndraw(\"$45^{\\circ}$\",(1.5,0),NW);\n\ndraw(\"$60^{\\circ}$\",(-0.9,0),NE);\n\ndraw(rightanglemark((0,sqrt(3)),(0,0),(sqrt(3),0),4));\n\n[/asy]",
   "n_questions": 7,
   "labels": [

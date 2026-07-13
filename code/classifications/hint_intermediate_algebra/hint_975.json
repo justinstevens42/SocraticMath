@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Find the positive value of $x$ which satisfies\n\\[\\log_5 (x - 2) + \\log_{\\sqrt{5}} (x^3 - 2) + \\log_{\\frac{1}{5}} (x - 2) = 4.\\]",
   "n_questions": 6,
   "labels": [

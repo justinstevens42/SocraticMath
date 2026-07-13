@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "My three-digit code is 023. Reckha can't choose a code that is the same as mine in two or more of the three digit-positions, nor that is the same as mine except for switching the positions of two digits (so 320 and 203, for example, are forbidden, but 302 is fine). Reckha can otherwise choose any three-digit code where each digit is in the set $\\{0, 1, 2, ..., 9\\}$. How many codes are available for Reckha?",
   "n_questions": 6,
   "labels": [

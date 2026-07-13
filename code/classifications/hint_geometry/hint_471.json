@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level ?",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "One leg of a right triangle is 12 inches, and the measure of the angle opposite that leg is $30^\\circ$. What is the number of inches in the hypotenuse of the triangle?",
   "n_questions": 6,
   "labels": [

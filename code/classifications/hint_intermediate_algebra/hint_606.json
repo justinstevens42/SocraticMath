@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find the positive real number $x$ for which\n\\[5 \\sqrt{1 + x} + 5 \\sqrt{1 - x} = 7 \\sqrt{2}.\\]",
   "n_questions": 6,
   "labels": [

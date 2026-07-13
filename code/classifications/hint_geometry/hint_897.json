@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "In the triangle shown, for $\\angle A$ to be the largest angle of the triangle, it must be that $m<x<n$. What is the least possible value of $n-m$, expressed as a common fraction? [asy]\ndraw((0,0)--(1,0)--(.4,.5)--cycle);\nlabel(\"$A$\",(.4,.5),N); label(\"$B$\",(1,0),SE); label(\"$C$\",(0,0),SW);\nlabel(\"$x+9$\",(.5,0),S); label(\"$x+4$\",(.7,.25),NE); label(\"$3x$\",(.2,.25),NW);\n[/asy]",
   "n_questions": 6,
   "labels": [

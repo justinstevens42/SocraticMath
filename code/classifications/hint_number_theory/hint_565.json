@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "What is the smallest base-10 integer that can be represented as $AA_5$ and $BB_7$, where $A$ and $B$ are valid digits in their respective bases?",
   "n_questions": 8,
   "labels": [

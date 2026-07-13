@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "For real numbers $x$, let \\[f(x) = \\left\\{\n\\begin{array}{cl}\nx+2 &\\text{ if }x>3, \\\\\n2x+a &\\text{ if }x\\le 3.\n\\end{array}\n\\right.\\]What must the value of $a$ be to make the piecewise function continuous (which means that its graph can be drawn without lifting your pencil from the paper)?",
   "n_questions": 11,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "$n$ coins are simultaneously flipped.  The probability that at most one of them shows tails is $\\frac{3}{16}$.  Find $n$.",
   "n_questions": 8,
   "labels": [

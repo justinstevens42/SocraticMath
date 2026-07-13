@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "If\n\\[\\tan x = \\frac{2ab}{a^2 - b^2},\\]where $a > b > 0$ and $0^\\circ < x < 90^\\circ,$ then find $\\sin x$ in terms of $a$ and $b.$",
   "n_questions": 6,
   "labels": [

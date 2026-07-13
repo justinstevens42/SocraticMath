@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "There are four positive integers that are divisors of each number in the list $$36, 72, -12, 114, 96.$$Find the sum of these four positive integers.",
   "n_questions": 6,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Point $C$ is the midpoint of $\\overline{AB}$, point $D$ is the midpoint of $\\overline{AC}$, point $E$ is the midpoint of $\\overline{AD}$, and point $F$ is the midpoint of $\\overline{AE}$. If $AF=3$, what is the number of units in the length of $\\overline{AB}$?",
   "n_questions": 8,
   "labels": [

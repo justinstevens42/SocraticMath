@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Solve for $z$ in the following equation: $2-iz = -1 + 3iz$.\n\nExpress your answer in standard form.",
   "n_questions": 8,
   "labels": [

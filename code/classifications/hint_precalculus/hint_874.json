@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "In triangle $ABC,$ $\\angle B = 60^\\circ$ and $\\angle C = 45^\\circ.$  The point $D$ divides $\\overline{BC}$ in the ratio $1:3$.  Find\n\\[\\frac{\\sin \\angle BAD}{\\sin \\angle CAD}.\\]",
   "n_questions": 7,
   "labels": [

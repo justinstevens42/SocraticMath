@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $\\triangle ABC$ be an isosceles triangle such that $BC = 30$ and $AB = AC.$ We have that $I$ is the incenter of $\\triangle ABC,$ and $IC = 18.$ What is the length of the inradius of the triangle?",
   "n_questions": 6,
   "labels": [

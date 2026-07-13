@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $\\omega$ be a nonreal root of $x^3 = 1.$  Compute\n\\[(1 - \\omega + \\omega^2)^4 + (1 + \\omega - \\omega^2)^4.\\]",
   "n_questions": 9,
   "labels": [

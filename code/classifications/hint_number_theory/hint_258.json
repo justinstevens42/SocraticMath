@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Let $f(n)$ return the number of distinct ordered pairs of positive integers $(a, b)$ such that for each ordered pair, $a^2 + b^2 = n$. Note that when $a \\neq b$, $(a, b)$ and $(b, a)$ are distinct. What is the smallest positive integer $n$ for which $f(n) = 3$?",
   "n_questions": 8,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "The quadratic equation $ax^2+8x+c=0$ has exactly one solution. If $a+c=10$, and $a<c$ find the ordered pair $(a,c)$.",
   "n_questions": 8,
   "labels": [

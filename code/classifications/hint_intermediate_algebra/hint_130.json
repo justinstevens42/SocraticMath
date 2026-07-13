@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Determine the complex number $z$ satisfying the equation $2z-3i\\bar{z}=-7+3i$.  Note that $\\bar{z}$ denotes the conjugate of $z$.",
   "n_questions": 8,
   "labels": [

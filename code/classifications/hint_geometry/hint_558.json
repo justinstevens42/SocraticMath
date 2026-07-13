@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Triangle $\\triangle ABC$ has a right angle at $C$, $\\angle A = 60^\\circ$, and $AC=10$.  Find the radius of the incircle of $\\triangle ABC$.",
   "n_questions": 9,
   "labels": [

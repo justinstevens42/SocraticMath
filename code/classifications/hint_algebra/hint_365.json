@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 2",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Note that $9^2 = 81$, which contains no zeros; $99^2 = 9801$, which contains 1 zero; and $999^2 = 998,\\!001$, which contains 2 zeros. Assuming this pattern continues, how many zeros are in the expansion of $99,\\!999,\\!999^2$?",
   "n_questions": 6,
   "labels": [

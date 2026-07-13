@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Let $x,$ $y,$ and $z$ be positive real numbers such that $x + y + z = 6.$  Find the minimum value of\n\\[\\frac{x^2 + y^2}{x + y} + \\frac{x^2 + z^2}{x + z} + \\frac{y^2 + z^2}{y + z}.\\]",
   "n_questions": 6,
   "labels": [

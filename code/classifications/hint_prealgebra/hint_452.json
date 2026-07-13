@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "I take variable $b$, double it, and add four.  I subtract $4b$ from this new expression, and divide the resulting difference by two.  What is my final expression in simplest form?",
   "n_questions": 6,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Triangle $ABC$ has sides of length 5, 12 and 13 units, and triangle $DEF$ has sides of length 8, 15 and 17 units. What is the ratio of the area of triangle $ABC$ to the area of triangle $DEF$? Express your answer as a common fraction.",
   "n_questions": 7,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find the least positive integer $n$ such that $$\\frac 1{\\sin 45^\\circ\\sin 46^\\circ}+\\frac 1{\\sin 47^\\circ\\sin 48^\\circ}+\\cdots+\\frac 1{\\sin 133^\\circ\\sin 134^\\circ}=\\frac 1{\\sin n^\\circ}.$$",
   "n_questions": 7,
   "labels": [

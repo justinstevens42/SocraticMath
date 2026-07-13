@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "In convex quadrilateral $ABCD$, $AB=8$, $BC=4$, $CD=DA=10$, and $\\angle CDA=60^\\circ$.  If the area of $ABCD$ can be written in the form $\\sqrt{a}+b\\sqrt{c}$ where $a$ and $c$ have no perfect square factors (greater than 1), what is $a+b+c$?",
   "n_questions": 3,
   "labels": [

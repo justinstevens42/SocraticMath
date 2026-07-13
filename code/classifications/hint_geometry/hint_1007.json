@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "The field shown has been planted uniformly with wheat. [asy]\ndraw((0,0)--(1/2,sqrt(3)/2)--(3/2,sqrt(3)/2)--(2,0)--(0,0),linewidth(0.8));\nlabel(\"$60^\\circ$\",(0.06,0.1),E);\nlabel(\"$120^\\circ$\",(1/2-0.05,sqrt(3)/2-0.1),E);\nlabel(\"$120^\\circ$\",(3/2+0.05,sqrt(3)/2-0.1),W);\nlabel(\"$60^\\circ$\",(2-0.05,0.1),W);\nlabel(\"100 m\",(1,sqrt(3)/2),N);\nlabel(\"100 m\",(1.75,sqrt(3)/4+0.1),E);\n[/asy] At harvest, the wheat at any point in the field is brought to the nearest point on the field's perimeter. What is the fraction of the crop that is brought to the longest side?",
   "n_questions": 13,
   "labels": [

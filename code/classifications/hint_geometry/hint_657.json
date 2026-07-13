@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "$ABCDEFGH$ shown below is a cube with volume 1.  Find the volume of pyramid $ABCH$.\n\n[asy]\nimport three;\ntriple A,B,C,D,EE,F,G,H;\nA = (0,0,0);\nB = (1,0,0);\nC = (1,1,0);\nD= (0,1,0);\nEE = (0,0,1);\nF = B+EE;\nG = C + EE;\nH = D + EE;\ndraw(B--C--D);\ndraw(B--A--D,dashed);\ndraw(EE--F--G--H--EE);\ndraw(A--EE,dashed);\ndraw(B--F);\ndraw(C--G);\ndraw(D--H);\nlabel(\"$A$\",A,S);\nlabel(\"$B$\",B,W);\nlabel(\"$C$\",C,S);\nlabel(\"$D$\",D,E);\nlabel(\"$E$\",EE,N);\nlabel(\"$F$\",F,W);\nlabel(\"$G$\",G,SW);\nlabel(\"$H$\",H,E);\n[/asy]",
   "n_questions": 8,
   "labels": [

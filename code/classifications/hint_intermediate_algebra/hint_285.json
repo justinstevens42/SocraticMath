@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "The equations of the asymptotes of a hyperbola are $y = 2x+5$ and $y = -2x+1.$ Given that the hyperbola passes through the point $(0, 7),$ the standard form for the equation of the hyperbola is \\[\\frac{(y-k)^2}{a^2} - \\frac{(x-h)^2}{b^2} = 1,\\]where $a,$ $b$, $h,$ and $k$ are constants with $a, b > 0.$ Find $a + h.$",
   "n_questions": 7,
   "labels": [

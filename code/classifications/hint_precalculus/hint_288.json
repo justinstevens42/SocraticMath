@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "For how many positive integers $n$ less than or equal to 1000 is $$(\\sin t+i\\cos t)^n=\\sin nt+i\\cos nt$$true for all real $t$?",
   "n_questions": 7,
   "labels": [

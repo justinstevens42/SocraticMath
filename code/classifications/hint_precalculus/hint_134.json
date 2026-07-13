@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "The matrix\n\\[\\begin{pmatrix} 3 & -1 \\\\ c & d \\end{pmatrix}\\]is its own inverse.  Enter the ordered pair $(c,d).$",
   "n_questions": 6,
   "labels": [

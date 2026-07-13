@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "In the diagram, $AB = 25 \\mbox{ cm},$ $AC = 20 \\mbox{ cm},$ and $\\angle A = 90^\\circ.$ What is the area of triangle $ABC?$\n\n[asy]\ndraw((0,0)--(25,0)--(0,20)--cycle,black+linewidth(1));\ndraw((0,0)--(1,0)--(1,1)--(0,1)--cycle,black+linewidth(1));\nlabel(\"$A$\",(0,0),SW);\nlabel(\"$B$\",(25,0),SE);\nlabel(\"$C$\",(0,20),NW);\n[/asy]",
   "n_questions": 9,
   "labels": [

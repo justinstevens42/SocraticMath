@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A list of five positive integers has a median of 3 and a mean of 11. What is the maximum possible value of the list's largest element?",
   "n_questions": 8,
   "labels": [

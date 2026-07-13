@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "How many even three-digit integers  have the property that their digits, read left to right, are in strictly increasing order (each digit is greater than the previous digit)?",
   "n_questions": 9,
   "labels": [

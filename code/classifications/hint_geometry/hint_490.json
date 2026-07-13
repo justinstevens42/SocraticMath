@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Let $C_1$ and $C_2$ be circles defined by $$\n(x-10)^2+y^2=36\n$$and $$\n(x+15)^2+y^2=81,\n$$respectively. What is the length of the shortest line segment $\\overline{PQ}$ that is tangent to $C_1$ at $P$ and to $C_2$ at $Q$?",
   "n_questions": 11,
   "labels": [

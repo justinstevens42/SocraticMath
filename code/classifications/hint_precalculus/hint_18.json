@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "There exist constants $c_1$ and $c_2$ such that\n\\[c_1 \\begin{pmatrix} 2 \\\\ 3 \\end{pmatrix} + c_2 \\begin{pmatrix} -2 \\\\ 5 \\end{pmatrix} = \\begin{pmatrix} -1 \\\\ 4 \\end{pmatrix}.\\]Enter the ordered pair $(c_1,c_2).$",
   "n_questions": 15,
   "labels": [

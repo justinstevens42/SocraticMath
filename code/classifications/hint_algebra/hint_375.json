@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Find the positive real number $x$ such that $\\lfloor x \\rfloor \\cdot x = 70$. Express $x$ as a decimal.",
   "n_questions": 9,
   "labels": [

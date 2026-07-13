@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Let $x,$ $y,$ $z$ be positive real numbers such that\n\\[\\left( \\frac{x}{y} + \\frac{y}{z} + \\frac{z}{x} \\right) + \\left( \\frac{y}{x} + \\frac{z}{y} + \\frac{x}{z} \\right) = 8.\\]Find the minimum value of\n\\[\\left( \\frac{x}{y} + \\frac{y}{z} + \\frac{z}{x} \\right) \\left( \\frac{y}{x} + \\frac{z}{y} + \\frac{x}{z} \\right).\\]",
   "n_questions": 11,
   "labels": [

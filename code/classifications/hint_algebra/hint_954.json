@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Let \\[f(x) = \\left\\{\n\\begin{array}{cl} x^2-4 & \\text{ if }x < 7, \\\\\nx-13 & \\text{ if } x \\geq 7.\n\\end{array}\n\\right.\\] What is $f(f(f(17)))$?",
   "n_questions": 8,
   "labels": [

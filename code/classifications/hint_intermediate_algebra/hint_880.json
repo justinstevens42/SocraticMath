@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Write $x^{10} + x^5 + 1$ as the product of two polynomials with integer coefficients.",
   "n_questions": 10,
   "labels": [

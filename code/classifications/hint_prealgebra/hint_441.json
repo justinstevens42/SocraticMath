@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "If $C=\\frac{5}{9}(F-32)$, what is $F$ when $C=20$?",
   "n_questions": 7,
   "labels": [

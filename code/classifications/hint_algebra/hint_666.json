@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "How many pairs of positive integers $(x,y)$ satisfy $x^2-y^2=51$?",
   "n_questions": 6,
   "labels": [

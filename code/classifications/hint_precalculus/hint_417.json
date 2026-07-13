@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Let $\\mathbf{a},$ $\\mathbf{b},$ $\\mathbf{c}$ be vectors such that $\\|\\mathbf{a}\\| = \\|\\mathbf{b}\\| = 1$ and $\\|\\mathbf{c}\\| = 2.$  Find the maximum value of\n\\[\\|\\mathbf{a} - 2 \\mathbf{b}\\|^2 + \\|\\mathbf{b} - 2 \\mathbf{c}\\|^2 + \\|\\mathbf{c} - 2 \\mathbf{a}\\|^2.\\]",
   "n_questions": 6,
   "labels": [

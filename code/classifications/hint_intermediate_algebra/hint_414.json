@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Let $x$, $y$, and $z$ be positive real numbers such that $(x \\cdot y) + z = (x + z) \\cdot (y + z)$. What is the maximum possible value of $xyz$?",
   "n_questions": 10,
   "labels": [

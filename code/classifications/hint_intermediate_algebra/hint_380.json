@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "For each positive integer $p$, let $b(p)$ denote the unique positive integer $k$ such that $|k-\\sqrt{p}|<\\frac{1}{2}$. For example, $b(6)=2$ and $b(23)=5$. Find $S=\\sum_{p=1}^{2007} b(p)$.",
   "n_questions": 10,
   "labels": [

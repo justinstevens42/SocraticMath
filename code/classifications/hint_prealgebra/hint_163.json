@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "The area of trapezoid $ABCD$ is $164 \\text{cm}^2$.  The altitude is $8 \\text{cm}$, $AB$ is $10 \\text{cm}$, and $CD$ is $17 \\text{cm}$.  What is $BC$, in centimeters? [asy]\n/* AMC8 2003 #21 Problem */\nsize(2inch,1inch);\ndraw((0,0)--(31,0)--(16,8)--(6,8)--cycle);\ndraw((11,8)--(11,0), linetype(\"8 4\"));\ndraw((11,1)--(12,1)--(12,0));\nlabel(\"$A$\", (0,0), SW);\nlabel(\"$D$\", (31,0), SE);\nlabel(\"$B$\", (6,8), NW);\nlabel(\"$C$\", (16,8), NE);\nlabel(\"10\", (3,5), W);\nlabel(\"8\", (11,4), E);\nlabel(\"17\", (22.5,5), E);\n[/asy]",
   "n_questions": 20,
   "labels": [

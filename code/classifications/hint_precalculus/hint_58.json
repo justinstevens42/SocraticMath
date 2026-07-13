@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $\\alpha$ and $\\beta$ be real numbers.  Find the minimum value of\n\\[(2 \\cos \\alpha + 5 \\sin \\beta - 8)^2 + (2 \\sin \\alpha + 5 \\cos \\beta - 15)^2.\\]",
   "n_questions": 10,
   "labels": [

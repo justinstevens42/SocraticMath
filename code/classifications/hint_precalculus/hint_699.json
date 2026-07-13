@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let point $O$ be the origin of a three-dimensional coordinate system, and let points $A,$ $B,$ and $C$ be located on the positive $x,$ $y,$ and $z$ axes, respectively.  If $OA = \\sqrt[4]{75}$ and $\\angle BAC = 30^\\circ,$ then compute the area of triangle $ABC.$",
   "n_questions": 7,
   "labels": [

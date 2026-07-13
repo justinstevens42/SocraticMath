@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Find the number of ordered quadruples $(a,b,c,d)$ of real numbers such that\n\\[\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}^{-1} = \\renewcommand{\\arraystretch}{1.5} \\begin{pmatrix} \\frac{1}{a} & \\frac{1}{b} \\\\ \\frac{1}{c} & \\frac{1}{d} \\end{pmatrix} \\renewcommand{\\arraystretch}{1}.\\]",
   "n_questions": 7,
   "labels": [

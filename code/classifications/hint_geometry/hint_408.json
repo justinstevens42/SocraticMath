@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "In triangle $ABC$, $AB = 9$, $BC = 12$, $AC = 15$, and $CD$ is the angle bisector.  Find the length of $CD$.",
   "n_questions": 6,
   "labels": [

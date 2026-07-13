@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "The quantity\n\\[\\frac{\\tan \\frac{\\pi}{5} + i}{\\tan \\frac{\\pi}{5} - i}\\]is a tenth root of unity.  In other words, it is equal to $\\cos \\frac{2n \\pi}{10} + i \\sin \\frac{2n \\pi}{10}$ for some integer $n$ between 0 and 9 inclusive.  Which value of $n$?",
   "n_questions": 7,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Given that $\\binom{17}{10}=19448$, $\\binom{17}{11}=12376$ and $\\binom{19}{12}=50388$, find $\\binom{18}{12}$.",
   "n_questions": 7,
   "labels": [

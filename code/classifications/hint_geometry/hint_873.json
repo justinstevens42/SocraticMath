@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Regular hexagon $ABCDEF$ has vertices $A$ and $C$ at $(0,0)$ and $(7,1)$, respectively. What is its area?",
   "n_questions": 7,
   "labels": [

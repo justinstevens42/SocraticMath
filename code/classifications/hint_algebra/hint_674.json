@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 3",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "If $f(x) = x^4 + x^2 + 5x$, evaluate $f(5) - f(-5)$.",
   "n_questions": 8,
   "labels": [

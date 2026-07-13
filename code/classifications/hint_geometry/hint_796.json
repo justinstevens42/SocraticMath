@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Points $K$, $L$, $M$, and $N$ lie in the plane of the square $ABCD$ so that $AKB$, $BLC$, $CMD$, and $DNA$ are equilateral triangles. If $ABCD$ has an area of 16, find the area of $KLMN$. Express your answer in simplest radical form.\n\n[asy]\npair K,L,M,I,A,B,C,D;\nD=(0,0);\nC=(10,0);\nB=(10,10);\nA=(0,10);\nI=(-8.7,5);\nL=(18.7,5);\nM=(5,-8.7);\nK=(5,18.7);\ndraw(A--B--C--D--cycle,linewidth(0.7));\ndraw(A--D--I--cycle,linewidth(0.7));\ndraw(B--L--C--cycle,linewidth(0.7));\ndraw(A--B--K--cycle,linewidth(0.7));\ndraw(D--C--M--cycle,linewidth(0.7));\ndraw(K--L--M--I--cycle,linewidth(0.7));\nlabel(\"$A$\",A,SE);\nlabel(\"$B$\",B,SW);\nlabel(\"$C$\",C,NW);\nlabel(\"$D$\",D,NE);\nlabel(\"$K$\",K,N);\nlabel(\"$L$\",L,E);\nlabel(\"$M$\",M,S);\nlabel(\"$N$\",I,W);\n\n[/asy]",
   "n_questions": 7,
   "labels": [

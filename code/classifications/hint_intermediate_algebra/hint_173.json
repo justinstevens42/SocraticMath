@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Compute\n\\[\\frac{(1 + 17) \\left( 1 + \\dfrac{17}{2} \\right) \\left( 1 + \\dfrac{17}{3} \\right) \\dotsm \\left( 1 + \\dfrac{17}{19} \\right)}{(1 + 19) \\left( 1 + \\dfrac{19}{2} \\right) \\left( 1 + \\dfrac{19}{3} \\right) \\dotsm \\left( 1 + \\dfrac{19}{17} \\right)}.\\]",
   "n_questions": 6,
   "labels": [

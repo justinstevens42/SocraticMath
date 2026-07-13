@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "The infinite sequence $S=\\{s_1,s_2,s_3,\\ldots\\}$ is defined by $s_1=7$ and $s_n=7^{s_{n-1}}$ for each integer $n>1$. What is the remainder when $s_{100}$ is divided by $5$?",
   "n_questions": 11,
   "labels": [

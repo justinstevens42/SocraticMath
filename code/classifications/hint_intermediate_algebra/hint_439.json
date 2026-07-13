@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Let $a,$ $b,$ and $c$ be distinct real numbers such that\n\\[\\frac{a^3 + 6}{a} = \\frac{b^3 + 6}{b} = \\frac{c^3 + 6}{c}.\\]Find $a^3 + b^3 + c^3.$",
   "n_questions": 6,
   "labels": [

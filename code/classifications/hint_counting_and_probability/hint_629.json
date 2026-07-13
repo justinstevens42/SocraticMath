@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "A fair 6-sided die is rolled.  If I roll $n$, then I win $n^2$ dollars.  What is the expected value of my win?  Express your answer as a dollar value rounded to the nearest cent.",
   "n_questions": 10,
   "labels": [

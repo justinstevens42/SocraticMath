@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "The equation of the line joining the complex numbers $-2 + 3i$ and $1 + i$ can be expressed in the form\n\\[az + b \\overline{z} = 10\\]for some complex numbers $a$ and $b$.  Find the product $ab$.",
   "n_questions": 10,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Four consecutive positive prime numbers have a sum that is divisible by three. What is the smallest possible value of this sum?",
   "n_questions": 7,
   "labels": [

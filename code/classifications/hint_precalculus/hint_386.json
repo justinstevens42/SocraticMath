@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
   "problem": "Find the smallest positive integer $n$ such that\n\\[\\begin{pmatrix} \\frac{1}{2} & \\frac{\\sqrt{3}}{2} \\\\ -\\frac{\\sqrt{3}}{2} & \\frac{1}{2} \\end{pmatrix}^n = \\mathbf{I}.\\]",
   "n_questions": 6,
   "labels": [

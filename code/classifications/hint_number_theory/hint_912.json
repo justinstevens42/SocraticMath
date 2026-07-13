@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "If $a,b,c$ are non-negative integers less than $7$ such that \\begin{align*}\na+2b+3c&\\equiv 0\\pmod 7,\\\\\n2a+3b+c&\\equiv 4\\pmod 7,\\\\\n3a+b+2c&\\equiv 4\\pmod 7,\n\\end{align*}then determine the remainder when $abc$ is divided by $7$.",
   "n_questions": 9,
   "labels": [

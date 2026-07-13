@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The distance between two vectors is the magnitude of their difference.  Find the value of $t$ for which the vector\n\\[\\bold{v} = \\begin{pmatrix} 2 \\\\ -3 \\\\ -3 \\end{pmatrix} + t \\begin{pmatrix} 7 \\\\ 5 \\\\ -1 \\end{pmatrix}\\]is closest to\n\\[\\bold{a} = \\begin{pmatrix} 4 \\\\ 4 \\\\ 5 \\end{pmatrix}.\\]",
   "n_questions": 6,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "The area of this region formed by six congruent squares is 294 square centimeters. What is the perimeter of the region, in centimeters?\n\n[asy]\ndraw((0,0)--(-10,0)--(-10,10)--(0,10)--cycle);\ndraw((0,10)--(0,20)--(-30,20)--(-30,10)--cycle);\ndraw((-10,10)--(-10,20));\ndraw((-20,10)--(-20,20));\ndraw((-20,20)--(-20,30)--(-40,30)--(-40,20)--cycle);\ndraw((-30,20)--(-30,30));\n[/asy]",
   "n_questions": 6,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A sphere is inscribed in a cube, and the cube has a surface area of 24 square meters. A second cube is then inscribed within the sphere. What is the surface area in square meters of the inner cube?",
   "n_questions": 6,
   "labels": [

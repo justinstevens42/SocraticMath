@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Three positive integers $a$, $b$, and $c$ satisfy $a\\cdot b\\cdot c=8!$ and $a<b<c$.  What is the smallest possible value of $c-a$?",
   "n_questions": 11,
   "labels": [

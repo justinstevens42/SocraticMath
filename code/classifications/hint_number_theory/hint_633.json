@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "The letters of the alphabet are given numeric values based on the two conditions below.\n\n$\\bullet$  Only the numeric values of $-2,$ $-1,$ $0,$ $1$ and $2$ are used.\n\n$\\bullet$  Starting with A and going through Z, a numeric value is assigned to each letter according to the following pattern: $$\n1, 2, 1, 0, -1, -2, -1, 0, 1, 2, 1, 0, -1, -2, -1, 0,\\ldots\n$$\n\nTwo complete cycles of the pattern are shown above. The letter A has a value of $1,$ B has a value of $2,$ F has a value of $-2$ and Z has a value of $2.$ What is the sum of the numeric values of the letters in the word ``numeric''?",
   "n_questions": 7,
   "labels": [

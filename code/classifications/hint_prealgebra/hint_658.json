@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "There are 6 married couples at a party. At the start of the party, every person shakes hands once with every other person except his or her spouse. How many handshakes are there?",
   "n_questions": 6,
   "labels": [

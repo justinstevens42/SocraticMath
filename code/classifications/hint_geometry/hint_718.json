@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "What is the area, in square units, of triangle $ABC$? [asy]\nunitsize(0.15inch);\npath X = (-6.5, 0)--(5.5, 0);\npath Y = (0, -3.5)--(0, 7.5);\ndraw(X); draw(Y);\n\nfor(int n=-6; n <= 5; ++n)\nif( n != 0 )\ndraw( (n,0.25)--(n,-0.25) );\nfor(int n=-3; n <= 7; ++n)\nif( n != 0 )\ndraw( (0.25,n)--(-0.25,n) );\n\npair A = (-4,3); pair B = (0,6); pair C = (2,-2);\ndot(A); dot(B); dot(C);\nlabel(\"$A\\ (-4,3)$\", A, NW); label(\"$B\\ (0,6)$\", B, NE); label(\"$C\\ (2,-2)$\", C, SE);\ndraw(A--B--C--cycle);\n[/asy]",
   "n_questions": 7,
   "labels": [

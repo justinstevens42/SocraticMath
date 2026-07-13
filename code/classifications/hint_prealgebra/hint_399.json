@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "What is the largest digit $N$ for which $2345N$ is divisible by 6?",
   "n_questions": 7,
   "labels": [

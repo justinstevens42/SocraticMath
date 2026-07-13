@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "What is the perimeter, in cm, of quadrilateral $ABCD$ if $\\overline{AB} \\perp \\overline{BC}$, $\\overline{DC} \\perp \\overline{BC}$, $AB=9$ cm, $DC=4$ cm, and $BC=12$ cm?",
   "n_questions": 7,
   "labels": [

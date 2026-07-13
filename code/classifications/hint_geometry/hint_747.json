@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "In a triangle with integer side lengths, one side is three times as long as a second  side, and the length of the third side is 15. What is the greatest possible perimeter of the triangle?",
   "n_questions": 7,
   "labels": [

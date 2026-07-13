@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "If $k$ and $\\ell$ are positive 4-digit integers such that $\\gcd(k,\\ell)=3$, what is the smallest possible value for $\\mathop{\\text{lcm}}[k,\\ell]$?",
   "n_questions": 7,
   "labels": [

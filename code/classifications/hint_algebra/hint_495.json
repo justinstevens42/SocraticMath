@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The length of the segment between the points $(2a, a-4)$ and $(4, -1)$ is $2\\sqrt{10}$ units. What is the product of all possible values for $a$?",
   "n_questions": 7,
   "labels": [

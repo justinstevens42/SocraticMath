@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Alex needs to catch a train. The train arrives randomly some time between 1:00 and 2:00, waits for 10 minutes, and then leaves. If Alex also arrives randomly between 1:00 and 2:00, what is the probability that the train will be there when Alex arrives?",
   "n_questions": 10,
   "labels": [

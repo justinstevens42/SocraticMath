@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Suppose we flip four coins simultaneously: a penny, a nickel, a dime, and a quarter.  What is the probability that the penny and nickel both come up heads?",
   "n_questions": 8,
   "labels": [

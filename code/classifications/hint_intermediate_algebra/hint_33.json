@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "Is\n\\[f(x) = \\frac{5^x - 1}{5^x + 1}\\]an even function, odd function, or neither?\n\nEnter \"odd\", \"even\", or \"neither\".",
   "n_questions": 7,
   "labels": [

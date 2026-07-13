@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "The set of vectors $\\left\\{ \\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix}, \\begin{pmatrix} 3 \\\\ k \\end{pmatrix} \\right\\}$ is linearly dependent.  Find all possible values of $k.$  Enter all the possible values, separated by commas.",
   "n_questions": 8,
   "labels": [

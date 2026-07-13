@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The hypotenuse of a right triangle measures 10 inches and one angle is $45^{\\circ}$. What is the number of square inches in the area of the triangle?",
   "n_questions": 8,
   "labels": [

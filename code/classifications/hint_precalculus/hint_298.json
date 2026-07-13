@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Consider the line parameterized by\n\\begin{align*} \nx&= 4t + 2,\\\\ \ny& = t+2.\n\\end{align*}Find a vector $\\begin{pmatrix}a \\\\ b \\end{pmatrix}$ pointing from the origin to this line that is parallel to $\\begin{pmatrix}2 \\\\1 \\end{pmatrix}$.",
   "n_questions": 8,
   "labels": [

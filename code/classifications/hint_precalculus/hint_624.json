@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Compute\n\\[\\cos^6 0^\\circ + \\cos^6 1^\\circ + \\cos^6 2^\\circ + \\dots + \\cos^6 90^\\circ.\\]",
   "n_questions": 10,
   "labels": [

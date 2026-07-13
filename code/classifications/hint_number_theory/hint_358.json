@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "It takes exactly 74 colored beads on a string to make a necklace. The beads are strung in the following order: one red, one orange, two yellow, one green, and one blue. Then the pattern repeats starting again with one red bead. If the first bead of the necklace is red, what is the color of the last bead used to make the necklace?",
   "n_questions": 6,
   "labels": [

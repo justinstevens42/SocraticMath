@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "What is the minimum number of times you must throw three fair six-sided dice to ensure that the same sum is rolled twice?",
   "n_questions": 10,
   "labels": [

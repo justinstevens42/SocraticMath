@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "What is the length of the segment of the number line whose endpoints satisfy $|x-\\sqrt[5]{16}|=3$?",
   "n_questions": 7,
   "labels": [

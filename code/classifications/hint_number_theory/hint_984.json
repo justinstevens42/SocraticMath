@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Natural numbers of the form $F_n=2^{2^n} + 1 $ are called Fermat numbers. In 1640, Fermat conjectured that all numbers $F_n$, where $n\\neq 0$, are prime. (The conjecture was later shown to be false.) What is the units digit of $F_{1000}$?",
   "n_questions": 5,
   "labels": [

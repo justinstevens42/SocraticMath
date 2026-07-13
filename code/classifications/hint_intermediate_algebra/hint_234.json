@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $x,$ $y,$ and $z$ be positive real numbers such that $xyz = 32.$  Find the minimum value of\n\\[x^2 + 4xy + 4y^2 + 2z^2.\\]",
   "n_questions": 10,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "A very large number $x$ is equal to $2^23^34^45^56^67^78^89^9$. What is the smallest positive integer that, when multiplied with $x$, produces a product that is a perfect square?",
   "n_questions": 6,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 2",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "What is the first nonzero digit to the right of the decimal point of the fraction $\\frac{1}{129}$?",
   "n_questions": 10,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "Given $\\mathbf{a} = \\begin{pmatrix} -7 \\\\ 0 \\\\ 1 \\end{pmatrix}$ and $\\mathbf{b} = \\begin{pmatrix} 4 \\\\ 2 \\\\ -1 \\end{pmatrix},$ find $\\mathbf{a} - 3 \\mathbf{b}.$",
   "n_questions": 7,
   "labels": [

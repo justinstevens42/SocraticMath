@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 3",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
   "problem": "What is the smallest possible perimeter, in units, of a triangle whose side-length measures are consecutive integer values?",
   "n_questions": 7,
   "labels": [

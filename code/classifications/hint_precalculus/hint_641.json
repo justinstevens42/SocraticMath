@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Given that\n\\[2^{-\\frac{3}{2} + 2 \\cos \\theta} + 1 = 2^{\\frac{1}{4} + \\cos \\theta},\\]compute $\\cos 2 \\theta.$",
   "n_questions": 6,
   "labels": [

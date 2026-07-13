@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The domain of the function $f(x) = \\arcsin(\\log_{m}(nx))$ is a closed interval of length $\\frac{1}{2013}$ , where $m$ and $n$ are positive integers and $m>1$. Find the the smallest possible value of $m+n.$",
   "n_questions": 8,
   "labels": [

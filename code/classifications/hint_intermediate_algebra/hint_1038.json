@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Let $a,b,c,d,e,f,g$ and $h$ be distinct elements in the set \\[\n\\{-7,-5,-3,-2,2,4,6,13\\}.\n\\]What is the minimum possible value of \\[\n(a+b+c+d)^{2} + (e+f+g+h)^{2}?\n\\]",
   "n_questions": 10,
   "labels": [

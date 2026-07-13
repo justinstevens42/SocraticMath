@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Let $\\mathbf{A} = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$ and $\\mathbf{B} = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$ be two matrices such that $\\mathbf{A} \\mathbf{B} = \\mathbf{B} \\mathbf{A}.$  Assuming $3b \\neq c,$ find $\\frac{a - d}{c - 3b}.$",
   "n_questions": 10,
   "labels": [

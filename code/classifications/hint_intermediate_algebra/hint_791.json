@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 2",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "How many integers $-11 \\leq n \\leq 11$ satisfy $(n-2)(n+4)(n + 8)<0$?",
   "n_questions": 6,
   "labels": [

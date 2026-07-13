@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "When plotted in the standard rectangular coordinate system, trapezoid $ABCD$ has vertices $A(1, -2)$, $B(1, 1)$, $C(5, 7)$ and $D(5, 1)$. What is the area of trapezoid $ABCD$?",
   "n_questions": 6,
   "labels": [

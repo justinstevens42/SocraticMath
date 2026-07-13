@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "What is the $111$th digit after the decimal point when $\\frac{33}{555}$ is expressed as a decimal?",
   "n_questions": 8,
   "labels": [

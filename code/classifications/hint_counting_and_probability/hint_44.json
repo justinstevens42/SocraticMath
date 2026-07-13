@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Points $A$, $B$, $C$, and $D$ are located on $\\overline{AB}$ such that $AB = 3AD = 6BC$. If a point is selected at random on $\\overline{AB}$, what is the probability that it is between $C$ and $D$? Express your answer as a common fraction.\n\n[asy]\n\ndraw((0,0)--(12,.0000000001));\ndot((0,0)); dot((4,0)); dot((10,0)); dot((12,0));\nlabel(\"$A$\", (0,0), S);\nlabel(\"$D$\", (4,0), S);\nlabel(\"$C$\", (10,0), S);\nlabel(\"$B$\", (12,0), S);\n\n[/asy]",
   "n_questions": 8,
   "labels": [

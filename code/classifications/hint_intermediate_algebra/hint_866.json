@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $F_1 = (0,1)$ and $F_ 2= (4,1).$  Then the set of points $P$ such that\n\\[PF_1 + PF_2 = 6\\]form an ellipse.  The equation of this ellipse can be written as\n\\[\\frac{(x - h)^2}{a^2} + \\frac{(y - k)^2}{b^2} = 1.\\]Find $h + k + a + b.$",
   "n_questions": 10,
   "labels": [

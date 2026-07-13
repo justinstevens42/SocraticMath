@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "A square is inscribed in a circle.  A smaller square has one side coinciding with a side of the larger square and has two vertices on the circle, as shown.  What percent of the area of the larger square is the area of the smaller square?\n\n[asy]\ndraw(Circle((0,0),1.4142));\ndraw((1,1)--(1,-1)--(-1,-1)--(-1,1)--cycle);\ndraw((0.2,1)--(0.2,1.4)--(-0.2,1.4)--(-0.2,1));\n[/asy]",
   "n_questions": 11,
   "labels": [

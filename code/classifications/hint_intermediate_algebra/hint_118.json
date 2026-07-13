@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Let $a,$ $b,$ and $c$ be complex numbers such that $|a| = |b| = |c| = 1$ and\n\\[\\frac{a^2}{bc} + \\frac{b^2}{ac} + \\frac{c^2}{ab} = -1.\\]Find all possible values of $|a + b + c|.$\n\nEnter all the possible values, separated by commas.",
   "n_questions": 10,
   "labels": [

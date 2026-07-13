@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "If $a$ and $b$ are positive integers for which $ab - 6a + 5b = 373$, what is the minimal possible value of $|a - b|$?",
   "n_questions": 10,
   "labels": [

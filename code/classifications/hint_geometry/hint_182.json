@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Two chords, $AB$ and $CD,$ meet inside a circle at $P.$  If $AP = 3$ and $CP = 8,$ then what is $\\frac{BP}{DP}$?",
   "n_questions": 6,
   "labels": [

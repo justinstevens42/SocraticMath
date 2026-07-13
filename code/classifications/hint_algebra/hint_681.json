@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Let \\[f(x) = \\left\\{\n\\begin{array}{cl}\n\\sqrt{x} &\\text{ if }x>4, \\\\\nx^2 &\\text{ if }x \\le 4.\n\\end{array}\n\\right.\\]Find $f(f(f(2)))$.",
   "n_questions": 6,
   "labels": [

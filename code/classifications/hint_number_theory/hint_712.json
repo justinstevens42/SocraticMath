@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Suppose $11^5\\equiv n\\pmod 9$, where $0\\le n<9$.\n\nWhat is the value of $n$?",
   "n_questions": 6,
   "labels": [

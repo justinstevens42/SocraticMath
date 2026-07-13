@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "An integer $n$ is said to be square-free if the only perfect square that divides $n$ is $1^2$. How many positive odd integers greater than 1 and less than $100$ are square-free?",
   "n_questions": 10,
   "labels": [

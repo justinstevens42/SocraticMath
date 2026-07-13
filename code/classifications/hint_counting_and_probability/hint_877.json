@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Four distinct points, $A$, $B$, $C$, and $D$, are to be selected from $1996$ points evenly spaced around a circle. All quadruples are equally likely to be chosen. What is the probability that the chord $\\overline{AB}$ intersects the chord $\\overline{CD}$?",
   "n_questions": 6,
   "labels": [

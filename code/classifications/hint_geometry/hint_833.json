@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 2",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "An $8$-cm-by-$8$-cm square is partitioned as shown. Points $A$ and $B$ are the midpoints of two opposite sides of the square. What is the area of the shaded region?\n\n[asy]\ndraw((0,0)--(10,0));\ndraw((10,0)--(10,10));\ndraw((10,10)--(0,10));\ndraw((0,0)--(0,10));\ndraw((0,0)--(5,10));\ndraw((5,10)--(10,0));\ndraw((0,10)--(5,0));\ndraw((5,0)--(10,10));\nfill((5,0)--(7.5,5)--(5,10)--(2.5,5)--cycle,gray);\nlabel(\"A\",(5,10),N);\nlabel(\"B\",(5,0),S);\n[/asy]",
   "n_questions": 10,
   "labels": [

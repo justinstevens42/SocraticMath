@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Given a cylinder of fixed volume $V,$ the total surface area (including the two circular ends) is minimized for a radius of $R$ and height $H.$  Find $\\frac{H}{R}.$",
   "n_questions": 10,
   "labels": [

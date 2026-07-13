@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "The first digit of a string of 2002 digits is a 1. Any two-digit number formed by consecutive digits within this string is divisible by 19 or 31. What is the largest possible last digit in this string?",
   "n_questions": 9,
   "labels": [

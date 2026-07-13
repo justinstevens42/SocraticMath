@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "In $\\Delta ABC$, $\\overline{DE} \\parallel \\overline{AB}, CD = 4$ cm, $DA = 10$ cm, and $CE = 6$ cm. What is the number of centimeters in the length of $\\overline{CB}$?\n\n[asy]pair A,B,C,D,E;\nA = (-2,-4); B = (4,-4); C = (0,0); D = A/3; E = B/3;\ndraw(E--D--C--B--A--D);\nlabel(\"A\",A,W); label(\"B\",B,dir(0)); label(\"C\",C,N); label(\"D\",D,W);\n\nlabel(\"E\",E,dir(0));\n[/asy]",
   "n_questions": 6,
   "labels": [

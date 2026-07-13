@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "An ellipse with equation\n\\[\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1\\]contains the circles $(x - 1)^2 + y^2 = 1$ and $(x + 1)^2  +y^2 = 1.$  Then the smallest possible area of the ellipse can be expressed in the form $k \\pi.$  Find $k.$",
   "n_questions": 11,
   "labels": [

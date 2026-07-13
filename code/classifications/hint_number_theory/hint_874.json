@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "A group of 25 friends were discussing a large positive integer. ``It can be divided by 1,'' said the first friend. ``It can be divided by 2,'' said the second friend. ``And by 3,'' said the third friend. ``And by 4,'' added the fourth friend. This continued until everyone had made such a comment. If exactly two friends were incorrect, and those two friends said consecutive numbers, what was the least possible integer they were discussing?",
   "n_questions": 10,
   "labels": [

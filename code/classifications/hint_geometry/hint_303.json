@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A quadrilateral in the plane has vertices $(1, 3)$, $(1, 1)$, $(2, 1)$ and $(2006, 2007)$. How many square units is the area of the quadrilateral?",
   "n_questions": 7,
   "labels": [

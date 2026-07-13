@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $x,$ $y,$ $z$ be real numbers such that $x + y + z = 5$ and $xy + xz + yz = 8.$  Find the largest possible value of $x.$",
   "n_questions": 8,
   "labels": [

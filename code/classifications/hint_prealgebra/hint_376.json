@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "How many digits does the smallest repeating block in the decimal expansion of $\\frac{5}{7}$ contain?",
   "n_questions": 6,
   "labels": [

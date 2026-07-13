@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 2",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
   "problem": "A certain circle's area is $x$ square units, and its circumference is $y$ units. The value of $x + y$ is $80\\pi$. What is the radius of the circle, in units?",
   "n_questions": 12,
   "labels": [

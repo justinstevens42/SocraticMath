@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The values of a function $f(x)$ are given in the table below.  \\begin{tabular}{|r||c|c|c|c|c|c|} \\hline $x$ & 1 & 2 & 3 & 5 & 8 & 13 \\\\ \\hline $f(x)$ & 3 & 13 & 8 & 1 & 0 & 5 \\\\ \\hline \\end{tabular}If $f^{-1}$ exists, what is $f^{-1}\\left(\\frac{f^{-1}(5) +f^{-1}(13)}{f^{-1}(1)}\\right)$?",
   "n_questions": 7,
   "labels": [

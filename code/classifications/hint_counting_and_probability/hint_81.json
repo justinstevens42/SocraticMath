@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Alice and Bob play a game with a baseball. On each turn, if Alice has the ball, there is a 1/2 chance that she will toss it to Bob and a 1/2 chance that she will keep the ball. If Bob has the ball, there is a 2/5 chance that he will toss it to Alice, and if he doesn't toss it to Alice, he keeps it. Alice starts with the ball. What is the probability that Alice has the ball again after two turns?",
   "n_questions": 9,
   "labels": [

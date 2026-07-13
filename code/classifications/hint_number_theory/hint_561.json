@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The product of positive integers $x$, $y$ and $z$ equals 2004. What is the minimum possible value of the sum $x + y + z$?",
   "n_questions": 7,
   "labels": [

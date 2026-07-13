@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find the point on the line defined by\n\\[\\begin{pmatrix} 4 \\\\ 0 \\\\ 1 \\end{pmatrix} + t \\begin{pmatrix} -2 \\\\ 6 \\\\ -3 \\end{pmatrix}\\]that is closest to the point $(2,3,4).$",
   "n_questions": 6,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "How many sequences of 6 digits $x_1, x_2, \\ldots, x_6$ can we form, given the condition that no two adjacent $x_i$ have the same parity? Leading zeroes are allowed.  (Parity means 'odd' or 'even'; so, for example, $x_2$ and $x_3$ cannot both be odd or both be even.)",
   "n_questions": 10,
   "labels": [

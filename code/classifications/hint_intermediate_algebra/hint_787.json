@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "There exists a constant $c,$ so that among all chords $\\overline{AB}$ of the parabola $y = x^2$ passing through $C = (0,c),$\n\\[t = \\frac{1}{AC} + \\frac{1}{BC}\\]is a fixed constant.  Find the constant $t.$\n\n[asy]\nunitsize(1 cm);\n\nreal parab (real x) {\n  return(x^2);\n}\n\npair A, B, C;\n\nA = (1.7,parab(1.7));\nB = (-1,parab(-1));\nC = extension(A,B,(0,0),(0,1));\n\ndraw(graph(parab,-2,2));\ndraw(A--B);\ndraw((0,0)--(0,4));\n\ndot(\"$A$\", A, E);\ndot(\"$B$\", B, SW);\ndot(\"$(0,c)$\", C, NW);\n[/asy]",
   "n_questions": 9,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $\\mathbf{p}$ be the projection of $\\mathbf{v}$ onto $\\mathbf{w},$ and let $\\mathbf{q}$ be the projection of $\\mathbf{p}$ onto $\\mathbf{v}.$  If $\\frac{\\|\\mathbf{p}\\|}{\\|\\mathbf{v}\\|} = \\frac{5}{7},$ then find $\\frac{\\|\\mathbf{q}\\|}{\\|\\mathbf{v}\\|}.$",
   "n_questions": 6,
   "labels": [

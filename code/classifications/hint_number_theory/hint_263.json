@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "The number $5\\,41G\\,507\\,2H6$ is divisible by $72.$ If $G$ and $H$ each represent a single digit, what is the sum of all distinct possible values of the product $GH?$ (Count each possible value of $GH$ only once, even if it results from multiple $G,$ $H$ pairs.)",
   "n_questions": 10,
   "labels": [

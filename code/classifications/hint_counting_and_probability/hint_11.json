@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Point $(x,y)$ is randomly picked from the rectangular region with vertices at $(0,0),(2008,0),(2008,2009),$ and $(0,2009)$. What is the probability that $x > 2y$? Express your answer as a common fraction.",
   "n_questions": 6,
   "labels": [

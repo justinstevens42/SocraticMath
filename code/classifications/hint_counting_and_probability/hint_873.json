@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Ben twice chooses a random integer between 1 and 50, inclusive (and he may choose the same integer both times). What is the probability that at least one of the numbers Ben chooses is a multiple of 3?",
   "n_questions": 8,
   "labels": [

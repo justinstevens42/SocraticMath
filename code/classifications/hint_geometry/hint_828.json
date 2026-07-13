@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Steve has an isosceles triangle with base 8 inches and height 10 inches. He wants to cut it into eight pieces that have equal areas, as shown below. To the nearest hundredth of an inch what is the number of inches in the greatest perimeter among the eight pieces? [asy]\nsize(150);\ndefaultpen(linewidth(0.7));\ndraw((0,0)--(8,0));\nfor(int i = 0; i < 9; ++i){\ndraw((4,10)--(i,0));\n}\ndraw((0,-0.5)--(8,-0.5),Bars(5));\nlabel(\"$8''$\",(0,-0.5)--(8,-0.5),S);\n[/asy]",
   "n_questions": 8,
   "labels": [

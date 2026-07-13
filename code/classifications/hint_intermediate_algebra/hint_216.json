@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find the number of real solutions to\n\\[(x^{2006} + 1)(x^{2004} + x^{2002} + x^{2000} + \\dots + x^2 + 1) = 2006x^{2005}.\\]",
   "n_questions": 8,
   "labels": [

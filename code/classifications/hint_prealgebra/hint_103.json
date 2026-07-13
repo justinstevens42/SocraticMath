@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Six positive integers from a list of nine positive integers are $6, 7, 2, 4, 8, 5$. What is the largest possible value of the median of this list of nine positive integers?",
   "n_questions": 10,
   "labels": [

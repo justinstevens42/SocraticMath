@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "A line is parameterized by\n\\[\\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} 1 \\\\ 1 \\end{pmatrix} + t \\begin{pmatrix} 2 \\\\ -3 \\end{pmatrix}.\\]A second line is parameterized by\n\\[\\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} 5 \\\\ -9 \\end{pmatrix} + u \\begin{pmatrix} 4 \\\\ 2 \\end{pmatrix}.\\]Find the point where the lines intersect.",
   "n_questions": 8,
   "labels": [

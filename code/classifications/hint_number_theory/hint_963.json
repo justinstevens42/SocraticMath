@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The arithmetic progressions $\\{2, 5, 8, 11, \\ldots\\}$ and $\\{3, 10, 17, 24, \\ldots \\}$ have some common values. What is the largest value less than 500 that they have in common?",
   "n_questions": 8,
   "labels": [

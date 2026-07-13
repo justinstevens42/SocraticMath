@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "What is the smallest positive integer that can be written in the form $2002m + 44444n$, where $m$ and $n$ are integers?",
   "n_questions": 8,
   "labels": [

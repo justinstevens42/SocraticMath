@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Suppose that $A$ and $B$ are digits in base $d > 6$ such that $\\overline{AB}_d + \\overline{AA}_d = 162_d$. Find $A_d - B_d$ in base $d$.",
   "n_questions": 10,
   "labels": [

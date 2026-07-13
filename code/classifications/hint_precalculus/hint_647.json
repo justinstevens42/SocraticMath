@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Let $\\mathbf{a},$ $\\mathbf{b},$ and $\\mathbf{c}$ be nonzero vectors, no two of which are parallel, such that\n\\[(\\mathbf{a} \\times \\mathbf{b}) \\times \\mathbf{c} = \\frac{1}{3} \\|\\mathbf{b}\\| \\|\\mathbf{c}\\| \\mathbf{a}.\\]Let $\\theta$ be the angle between $\\mathbf{b}$ and $\\mathbf{c}.$  Find $\\sin \\theta.$",
   "n_questions": 10,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "For some positive integer $k$, when 60 is divided by $k^2$, the remainder is 6. What is the remainder when 100 is divided by $k$?",
   "n_questions": 6,
   "labels": [

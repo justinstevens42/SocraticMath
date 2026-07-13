@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "A cube has side length $6$. Its vertices are alternately colored black and purple, as shown below. What is the volume of the tetrahedron whose corners are the purple vertices of the cube? (A tetrahedron is a pyramid with a triangular base.)\n\n[asy]\nimport three;\nreal t=-0.05;\ntriple A,B,C,D,EE,F,G,H;\nA = (0,0,0);\nB = (cos(t),sin(t),0);\nD= (-sin(t),cos(t),0);\nC = B+D;\nEE = (0,0,1);\nF = B+EE;\nG = C + EE;\nH = D + EE;\ndraw(surface(B--EE--G--cycle),rgb(.6,.3,.6),nolight);\ndraw(surface(B--D--G--cycle),rgb(.7,.4,.7),nolight);\ndraw(surface(D--EE--G--cycle),rgb(.8,.5,.8),nolight);\ndraw(B--C--D);\ndraw(EE--F--G--H--EE);\ndraw(B--F);\ndraw(C--G);\ndraw(D--H);\npen pu=rgb(.5,.2,.5)+8; pen bk=black+8;\ndot(B,pu); dot(C,bk); dot(D,pu); dot(EE,pu); dot(F,bk); dot(G,pu); dot(H,bk);\n[/asy]",
   "n_questions": 11,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find the number of square units in the area of the triangle.\n\n[asy]size(125);\ndraw( (-10,-2) -- (2,10), Arrows);\ndraw( (0,-2)-- (0,10) ,Arrows);\ndraw( (5,0) -- (-10,0),Arrows);\n\nlabel(\"$l$\",(2,10), NE);\nlabel(\"$x$\", (5,0) , E);\nlabel(\"$y$\", (0,-2) , S);\nfilldraw( (-8,0) -- (0,8) -- (0,0) -- cycle, lightgray);\ndot( (-2, 6)); dot( (-6, 2)); label( \"(-2, 6)\", (-2, 6), W, fontsize(10)); label( \"(-6, 2)\", (-6, 2), W, fontsize(10));\n[/asy]",
   "n_questions": 10,
   "labels": [

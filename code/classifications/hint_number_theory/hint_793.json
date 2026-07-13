@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "If $a,b,c$ are integers from the set of positive integers less than $7$ such that \\begin{align*}\nabc&\\equiv 1\\pmod 7,\\\\\n5c&\\equiv 2\\pmod 7,\\\\\n6b&\\equiv 3+b\\pmod 7,\n\\end{align*}then what is the remainder when $a+b+c$ is divided by $7$?",
   "n_questions": 8,
   "labels": [

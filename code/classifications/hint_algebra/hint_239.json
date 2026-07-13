@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Simplify $\\sqrt{28x} \\cdot \\sqrt{15x} \\cdot \\sqrt{21x}$. Express your answer in simplest radical form in terms of $x$.\n\nNote: When entering a square root with more than one character, you must use parentheses or brackets.  For example, you should enter $\\sqrt{14}$ as \"sqrt(14)\" or \"sqrt{14}\".",
   "n_questions": 9,
   "labels": [

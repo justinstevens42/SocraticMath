@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "In writing the integers from 10 through 99 inclusive, how many times is the digit 6 written?",
   "n_questions": 6,
   "labels": [

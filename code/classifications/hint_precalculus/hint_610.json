@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "As $t$ takes on all real values, the set of points $(x,y)$ defined by\n\\begin{align*}\nx &= t^2 - 2, \\\\\ny &= t^3 - 9t + 5\n\\end{align*}forms a curve that crosses itself.  Compute the ordered pair $(x,y)$ where this crossing occurs.",
   "n_questions": 8,
   "labels": [

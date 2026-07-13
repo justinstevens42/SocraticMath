@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "For certain real numbers $a$, $b$, and $c$, the polynomial \\[g(x) = x^3 + ax^2 + x + 10\\]has three distinct roots, and each root of $g(x)$ is also a root of the polynomial \\[f(x) = x^4 + x^3 + bx^2 + 100x + c.\\]What is $f(1)$?",
   "n_questions": 6,
   "labels": [

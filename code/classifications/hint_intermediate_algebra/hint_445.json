@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "For any positive integer $n,$ let $\\langle n \\rangle$ denote the closest integer to $\\sqrt{n}.$  Evaluate\n\\[\\sum_{n = 1}^\\infty \\frac{2^{\\langle n \\rangle} + 2^{-\\langle n \\rangle}}{2^n}.\\]",
   "n_questions": 10,
   "labels": [

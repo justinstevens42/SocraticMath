@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Parallelogram $ABCD$ has vertices $A(3,3)$, $B(-3,-3)$, $C(-9,-3)$, and $D(-3,3)$. If a point is selected at random from the region determined by the parallelogram, what is the probability that the point is not above the $x$-axis? Express your answer as a common fraction.",
   "n_questions": 8,
   "labels": [

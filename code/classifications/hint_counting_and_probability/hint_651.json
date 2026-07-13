@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Alex has 5 pieces of paper, each with a different math problem. In how many ways can he give these problems to his 10 friends (he can give each friend more than one problem)?",
   "n_questions": 10,
   "labels": [

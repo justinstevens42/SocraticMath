@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A boy has the following seven coins in his pocket: $2$ pennies, $2$ nickels, $2$ dimes, and $1$ quarter. He takes out two coins, records the sum of their values, and then puts them back with the other coins. He continues to take out two coins, record the sum of their values, and put them back. How many different sums can he record at most?",
   "n_questions": 9,
   "labels": [

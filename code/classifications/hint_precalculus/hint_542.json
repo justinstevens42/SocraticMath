@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Let $z_1$ and $z_2$ be the complex roots of $z^2 + az + b = 0,$ where $a$ and $b$ are complex numbers.  In the complex plane, 0, $z_1,$ and $z_2$ form the vertices of an equilateral triangle.  Find $\\frac{a^2}{b}.$",
   "n_questions": 7,
   "labels": [

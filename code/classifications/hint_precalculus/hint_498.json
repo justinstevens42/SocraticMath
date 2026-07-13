@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "The matrix\n\\[\\begin{pmatrix} \\frac{4}{29} & -\\frac{10}{29} \\\\ -\\frac{10}{29} & \\frac{25}{29} \\end{pmatrix}\\]corresponds to projecting onto a certain vector $\\begin{pmatrix} x \\\\ y \\end{pmatrix}.$  Find $\\frac{y}{x}.$",
   "n_questions": 5,
   "labels": [

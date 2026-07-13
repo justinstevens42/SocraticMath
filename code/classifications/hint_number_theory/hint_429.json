@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Let $n = 2^4 \\cdot 3^5 \\cdot 4^6\\cdot 6^7$. How many natural-number factors does $n$ have?",
   "n_questions": 10,
   "labels": [

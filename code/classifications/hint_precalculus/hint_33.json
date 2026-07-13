@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Compute the number of real solutions $(x,y,z,w)$ to the system of equations:\n\\begin{align*}\nx &= z+w+zwx, \\\\ \ny &= w+x+wxy, \\\\\nz &= x+y+xyz, \\\\\nw &= y+z+yzw.\n\\end{align*}",
   "n_questions": 8,
   "labels": [

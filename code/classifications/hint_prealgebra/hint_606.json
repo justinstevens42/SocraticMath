@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "An equilateral triangle has sides of length 2 units. A second equilateral triangle is formed having sides that are $150\\%$ of the length of the sides of the first triangle. A third equilateral triangle is formed having sides that are $150\\%$ of the length of the sides of the second triangle. The process is continued until four equilateral triangles exist. What will be the percent increase in the perimeter from the first triangle to the fourth triangle? Express your answer to the nearest tenth.",
   "n_questions": 8,
   "labels": [

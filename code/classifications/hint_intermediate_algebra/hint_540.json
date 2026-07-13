@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Factor completely over the set of polynomials with integer coefficients:\n\\[4(x + 5)(x + 6)(x + 10)(x + 12) - 3x^2.\\]",
   "n_questions": 6,
   "labels": [

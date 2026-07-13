@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 1",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "How many possible distinct arrangements are there of the letters in the word DOG?",
   "n_questions": 6,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Trapezoid $ABCD$ has base $AB = 20$ units and base $CD = 30$ units. Diagonals $AC$ and $BD$ intersect at $X$. If the area of trapezoid $ABCD$ is $300$ square units, what is the area of triangle $BXC$?",
   "n_questions": 9,
   "labels": [

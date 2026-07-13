@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Find the number of square units in the area of the shaded region. [asy]\nsize(200);\ndraw((0,0)--(30,0)--(30,30)--(0, 30)--cycle);\ndot((30,0));dot((0,0));dot((10,0));dot((30,20));dot((30,30)); dot((20,30));dot((0,30));dot((0,10));\nfilldraw((0,0)--(10,0)--(30,20)--(30,30)--(20,30)--(0,10)--(0,0)--cycle, lightgray);\ndraw((0,0)--(60,0),EndArrow);\ndraw((0,0)--(-30,0),EndArrow);\ndraw((0,0)--(0,50),EndArrow);\ndraw((0,0)--(0,-30),EndArrow);\nlabel(\"(0,0)\",(0,0), SW, fontsize(8));\nlabel(\"(10,0)\",(10,0), S, fontsize(8));\nlabel(\"(30,0)\",(30,0), S, fontsize(8));\nlabel(\"(30,20)\",(30,20), E, fontsize(8));\nlabel(\"(20,30)\",(20,30), N, fontsize(8));\nlabel(\"(0,30)\",(0,30), W, fontsize(8));\nlabel(\"(30,30)\",(30,30), NE, fontsize(8));\nlabel(\"(0,10)\",(0,10), W, fontsize(8));\n[/asy]",
   "n_questions": 8,
   "labels": [

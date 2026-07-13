@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "A square has two diagonals, and a convex pentagon has five diagonals.  How many diagonals does a convex decagon have?",
   "n_questions": 6,
   "labels": [

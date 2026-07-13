@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 3",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
   "problem": "Let \\[f(x) =\n\\begin{cases}\n9x+4 &\\text{if }x\\text{ is an integer}, \\\\\n\\lfloor{x}\\rfloor+5 &\\text{if }x\\text{ is not an integer}.\n\\end{cases}\n\\]Find $f(\\sqrt{29})$.",
   "n_questions": 7,
   "labels": [

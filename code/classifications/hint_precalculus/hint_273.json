@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find the area of the region bounded by the graph of $r = \\sec \\theta,$ the graph of $r = \\csc \\theta,$ the $x$-axis, and the $y$-axis.",
   "n_questions": 9,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Let $f(n)$ be the sum of the positive integer divisors of $n$. For how many values of $n$, where $1 \\le n \\le 25$, is $f(n)$ prime?",
   "n_questions": 10,
   "labels": [

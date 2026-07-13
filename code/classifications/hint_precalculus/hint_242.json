@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "If $a_0 = \\sin^2 \\left( \\frac{\\pi}{45} \\right)$ and\n\\[a_{n + 1} = 4a_n (1 - a_n)\\]for $n \\ge 0,$ find the smallest positive integer $n$ such that $a_n = a_0.$",
   "n_questions": 10,
   "labels": [

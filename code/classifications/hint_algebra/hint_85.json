@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "If $h(x)$ is a function whose domain is $[-8,8]$, and $g(x)=h\\left(\\frac x2\\right)$, then the domain of $g(x)$ is an interval of what width?",
   "n_questions": 10,
   "labels": [

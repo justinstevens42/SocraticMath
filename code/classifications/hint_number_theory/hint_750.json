@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Given a prime $p$ and an integer $a$, we say that $a$ is a $\\textit{primitive root} \\pmod p$ if the set $\\{a,a^2,a^3,\\ldots,a^{p-1}\\}$ contains exactly one element congruent to each of $1,2,3,\\ldots,p-1\\pmod p$.\n\nFor example, $2$ is a primitive root $\\pmod 5$ because $\\{2,2^2,2^3,2^4\\}\\equiv \\{2,4,3,1\\}\\pmod 5$, and this list contains every residue from $1$ to $4$ exactly once.\n\nHowever, $4$ is not a primitive root $\\pmod 5$ because $\\{4,4^2,4^3,4^4\\}\\equiv\\{4,1,4,1\\}\\pmod 5$, and this list does not contain every residue from $1$ to $4$ exactly once.\n\nWhat is the sum of all integers in the set $\\{1,2,3,4,5,6\\}$ that are primitive roots $\\pmod 7$?",
   "n_questions": 6,
   "labels": [

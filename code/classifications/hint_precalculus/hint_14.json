@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "For real numbers $t,$ the point of intersection of the lines $x + 2y = 7t + 3$ and $x - y = 2t - 2$ is plotted.  All the plotted points lie on a line.  Find the slope of this line.",
   "n_questions": 9,
   "labels": [

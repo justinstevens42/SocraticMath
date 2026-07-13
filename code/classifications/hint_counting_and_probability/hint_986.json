@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "How many integers $n$ satisfy the condition $100 < n < 200$ and the condition $n$ has the same remainder whether it is divided by $6$ or by $8$?",
   "n_questions": 8,
   "labels": [

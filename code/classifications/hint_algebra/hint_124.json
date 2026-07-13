@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "The expression $x^2 - 16x + 60$ can be written in the form $(x - a)(x - b)$, where $a$ and $b$ are both nonnegative integers and $a > b$. What is the value of $3b - a$?",
   "n_questions": 8,
   "labels": [

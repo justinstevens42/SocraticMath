@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Let $a,$ $b,$ $c,$ $d,$ $e,$ $f,$ $g,$ and $h$ be real numbers such that $abcd = 4$ and $efgh = 9.$  Find the minimum value of\n\\[(ae)^2 + (bf)^2 + (cg)^2 + (dh)^2.\\]",
   "n_questions": 11,
   "labels": [

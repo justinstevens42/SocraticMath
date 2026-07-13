@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "The points $B(1, 1)$, $I(2, 4)$ and $G(5, 1)$ are plotted in the standard rectangular coordinate system to form triangle $BIG$. Triangle $BIG$ is translated five units to the left and two units upward to triangle $B'I'G'$, in such a way that $B'$ is the image of $B$, $I'$ is the image of $I$, and $G'$ is the image of $G$. What is the midpoint of segment $B'G'$? Express your answer as an ordered pair.",
   "n_questions": 9,
   "labels": [

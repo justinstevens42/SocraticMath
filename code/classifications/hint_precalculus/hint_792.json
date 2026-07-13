@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Find the projection of the vector $\\begin{pmatrix} 3 \\\\ 0 \\\\ -2 \\end{pmatrix}$ onto the line\n\\[\\frac{x}{2} = y = \\frac{z}{-1}.\\]",
   "n_questions": 7,
   "labels": [

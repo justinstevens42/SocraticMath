@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 2",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
   "problem": "What is the area, in square units, of a triangle with vertices at $A(1, 1), B(6, 1), C(3, 7)$?",
   "n_questions": 8,
   "labels": [

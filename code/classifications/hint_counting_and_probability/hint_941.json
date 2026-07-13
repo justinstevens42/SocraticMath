@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Bob's password consists of a non-negative single-digit number followed by a letter and another non-negative single-digit number (which could be the same as the first one). What is the probability that Bob's password consists of an odd single-digit number followed by a letter and a positive single-digit number?",
   "n_questions": 9,
   "labels": [

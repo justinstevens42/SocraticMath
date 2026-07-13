@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "A cone is formed from a 300-degree sector of a circle of radius 18 by aligning the two straight sides. [asy]\nsize(110);\ndraw(Arc((0,0),1,0,300));\ndraw((1,0)--(0,0)--(.5,-.5*sqrt(3)));\nlabel(\"18\",(.5,0),S); label(\"$300^\\circ$\",(0,0),NW);\n[/asy] What is the result when the volume of the cone is divided by $\\pi$?",
   "n_questions": 9,
   "labels": [

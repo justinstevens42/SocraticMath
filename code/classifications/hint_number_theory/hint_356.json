@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "An $\\textit{abundant number}$ is a positive integer, the sum of whose distinct proper factors is greater than the number. (The $\\textit{proper factors}$ of a number are all of its factors except the number itself.) How many numbers less than 25 are abundant numbers?",
   "n_questions": 8,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Inside a square with side length 10, two congruent equilateral triangles are drawn such that they share one side and each has one vertex on a vertex of the square.  What is the side length of the largest square that can be inscribed in the space inside the square and outside of the triangles?\n\n[asy]\nsize(100);\npair A, B, C, D, E, F;\nB=(0,0); A=(0,10); D=(10,10); C=(10,0);\nreal x = 5 -5/sqrt(3);\npair E = (x,x); pair F = (10-x, 10-x);\ndraw(A--B--C--D--cycle);\ndraw(A--E--C--F--cycle); draw(E--F);\n[/asy]",
   "n_questions": 6,
   "labels": [

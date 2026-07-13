@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "From a circular piece of paper with radius $BC$, Jeff removes the unshaded sector shown.  Using the larger shaded sector, he joins edge $BC$ to edge $BA$ (without overlap) to form a cone of radius 12 centimeters and of volume $432\\pi$ cubic centimeters.  What is the number of degrees in the measure of angle $ABC$ of the sector that is not used? [asy]\nimport graph;\ndefaultpen(linewidth(0.7));\nfill((0,0)--dir(20)..dir(60)..dir(100)..dir(140)..dir(180)..dir(220)..dir(260)..dir(300)--cycle,gray);\ndraw((0,0)--dir(20)..dir(60)..dir(100)..dir(140)..dir(180)..dir(220)..dir(260)..dir(300)--(0,0));\ndraw(dir(300)..dir(320)..dir(340)..dir(360)..dir(20),dotted);\nlabel(\"$C$\",dir(20),E);\nlabel(\"$A$\",dir(300),SE);\nlabel(\"$B$\",(0,0),W);[/asy]",
   "n_questions": 7,
   "labels": [

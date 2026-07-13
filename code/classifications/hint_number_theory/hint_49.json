@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 1",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Find the largest integer less than 80 that leaves a remainder of 3 when divided by 5.",
   "n_questions": 7,
   "labels": [

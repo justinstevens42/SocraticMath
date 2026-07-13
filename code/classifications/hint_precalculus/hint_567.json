@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Compute the distance between the parallel lines given by\n\\[\\begin{pmatrix} 2 \\\\ -3 \\end{pmatrix} + t \\begin{pmatrix} 1 \\\\ -7 \\end{pmatrix}\\]and\n\\[\\begin{pmatrix} 1 \\\\ -5 \\end{pmatrix} + s \\begin{pmatrix} 1 \\\\ -7 \\end{pmatrix}.\\]",
   "n_questions": 10,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "A ray of light passing through the point $A = (-3,9,11),$ reflects off the plane $x + y + z = 12$ at $B,$ and then passes through the point $C = (3,5,9).$  Find the point $B.$\n\n[asy]\nimport three;\n\nsize(180);\ncurrentprojection = perspective(6,3,2);\n\ntriple A, B, C;\n\nA = (0,-0.5,0.5*1.5);\nB = (0,0,0);\nC = (0,0.8,0.8*1.5);\n\ndraw(surface((-1,-1,0)--(-1,1,0)--(1,1,0)--(1,-1,0)--cycle),paleyellow,nolight);\ndraw((-1,-1,0)--(-1,1,0)--(1,1,0)--(1,-1,0)--cycle);\ndraw(A--B--C,Arrow3(6));\n\nlabel(\"$A$\", A, NW);\nlabel(\"$B$\", B, S);\nlabel(\"$C$\", C, NE);\n[/asy]",
   "n_questions": 9,
   "labels": [

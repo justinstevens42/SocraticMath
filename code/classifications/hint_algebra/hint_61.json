@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "What is the greatest possible positive integer value of $x$ if $\\displaystyle\\frac{x^4}{x^2} < 10$?",
   "n_questions": 8,
   "labels": [

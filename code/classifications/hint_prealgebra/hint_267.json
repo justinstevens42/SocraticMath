@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "In the diagram, what is the perimeter of polygon $PQRST$? [asy]\n\nimport olympiad;\n\nsize(6cm); // ADJUST\n\npair p = (0, 6);\npair q = (3, 6);\n\npair r = (3, 3);\npair t = (0, 0);\npair s = (7, 0);\n\ndraw(p--q--r--s--t--cycle);\nlabel(\"$P$\", p, NW);\nlabel(\"$Q$\", q, NE);\nlabel(\"$R$\", r, E + NE);\nlabel(\"$S$\", s, SE);\nlabel(\"$T$\", t, SW);\n\nlabel(\"$6$\", p / 2, W);\nlabel(\"$3$\", p + (q - p) / 2, 2 * N);\nlabel(\"$7$\", s / 2, S);\n\ndraw(rightanglemark(p, t, s));\ndraw(rightanglemark(t, p, q));\ndraw(rightanglemark(p, q, r));\nadd(pathticks(p--q, s=6));\nadd(pathticks(q--r, s=6));\n[/asy]",
   "n_questions": 11,
   "labels": [

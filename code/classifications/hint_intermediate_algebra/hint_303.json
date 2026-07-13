@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Determine the value of\n\\[2002 + \\frac{1}{2} \\left( 2001 + \\frac{1}{2} \\left( 2000 + \\dots + \\frac{1}{2} \\left( 3 + \\frac{1}{2} \\cdot 2 \\right) \\right) \\dotsb \\right).\\]",
   "n_questions": 10,
   "labels": [

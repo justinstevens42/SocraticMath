@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "In the diagram, rectangle $PQRS$ is divided into three identical squares. If $PQRS$ has perimeter 120 cm, what is its area, in square centimeters? [asy]\n\nsize(4cm);\n\npair p = (0, 1); pair q = (3, 1); pair r = (3, 0); pair s = (0, 0);\n\ndraw(p--q--r--s--cycle);\n\ndraw(shift(1) * (p--s)); draw(shift(2) * (p--s));\n\nlabel(\"$P$\", p, NW); label(\"$Q$\", q, NE); label(\"$R$\", r, SE); label(\"$S$\", s, SW);\n\n[/asy]",
   "n_questions": 10,
   "labels": [

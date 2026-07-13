@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "All triangles have the same value, and all circles have the same value. What is the sum of three circles? \\begin{align*}\n\\Delta + \\bigcirc + \\Delta + \\bigcirc + \\Delta&= 21\\\\\n\\bigcirc + \\Delta+\\bigcirc+\\Delta+\\bigcirc &= 19\\\\\n\\bigcirc + \\bigcirc + \\bigcirc &= \\ ?\n\\end{align*}",
   "n_questions": 6,
   "labels": [

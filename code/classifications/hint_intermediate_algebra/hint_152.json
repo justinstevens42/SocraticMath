@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "In a certain hyperbola, the center is at $(-2,0),$ one focus is at $(-2 + \\sqrt{34},0),$ and one vertex is at $(-5,0).$  The equation of this hyperbola can be written as\n\\[\\frac{(x - h)^2}{a^2} - \\frac{(y - k)^2}{b^2} = 1.\\]Find $h + k + a + b.$",
   "n_questions": 6,
   "labels": [

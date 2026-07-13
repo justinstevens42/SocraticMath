@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Consider the function\n\\[f(x) = \\max \\{-11x - 37, x - 1, 9x + 3\\}\\]defined for all real $x.$  Let $p(x)$ be a quadratic polynomial tangent to the graph of $f$ at three distinct points with $x$-coordinates $x_1,$ $x_2,$ $x_3.$  Find $x_1 + x_2 + x_3.$",
   "n_questions": 6,
   "labels": [

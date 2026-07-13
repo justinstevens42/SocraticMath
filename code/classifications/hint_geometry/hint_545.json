@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Segment $AB$ has midpoint $C$, and segment $BC$ has midpoint $D$. Semi-circles are constructed with diameters $\\overline{AB}$ and $\\overline{BC}$ to form the entire region shown. Segment $CP$ splits the region into two sections of equal area. What is the degree measure of angle $ACP$? Express your answer as a decimal to the nearest tenth.\n\n[asy]\ndraw((0,0)--10dir(180),linewidth(2));\ndraw((0,0)--10dir(67.5),linewidth(2));\ndraw((0,0)--10dir(0),dashed);\n\ndraw(10dir(180)..10dir(90)..10dir(0),linewidth(2));\n\ndraw((5,0)+5dir(180)..(5,0)+5dir(-90)..(5,0)+5dir(0),linewidth(2));\n\ndot((0,0));\ndot((5,0));\n\nlabel(\"A\",10dir(180),W);\nlabel(\"B\",10dir(0),E);\nlabel(\"C\",(0,0),SW);\nlabel(\"D\",5dir(0),NE);\nlabel(\"P\",10dir(67.5),NE);\n[/asy]",
   "n_questions": 6,
   "labels": [

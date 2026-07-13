@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "I have 10 distinguishable socks in my drawer: 4 white, 4 brown, and 2 blue.  In how many ways can I choose a pair of socks, provided that I get two socks of the same color?",
   "n_questions": 10,
   "labels": [

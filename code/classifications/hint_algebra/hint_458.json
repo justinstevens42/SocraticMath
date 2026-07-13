@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Suppose $f(x)$ is a function defined for all real $x$, and suppose $f$ is invertible (that is, $f^{-1}(x)$ exists for all $x$ in the range of $f$).\n\nIf the graphs of $y=f(x^2)$ and $y=f(x^4)$ are drawn, at how many points do they intersect?",
   "n_questions": 7,
   "labels": [

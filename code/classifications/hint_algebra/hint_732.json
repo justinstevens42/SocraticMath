@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Let $f(x) = 3x^2-2$ and $g(f(x)) = x^2 + x +1$.  Find the sum of all possible values of $g(25)$.",
   "n_questions": 8,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Given that $x$ is a positive integer less than 100, how many solutions does the congruence $x + 13 \\equiv 55 \\pmod{34}$ have?",
   "n_questions": 7,
   "labels": [

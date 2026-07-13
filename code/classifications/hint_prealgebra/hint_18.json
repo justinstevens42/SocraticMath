@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Twenty gremlins and fifteen imps are at the Annual Mischief Convention. The imps have had a lot of in-fighting lately and refuse to shake hands with each other, but they readily shake hands with all of the gremlins. Meanwhile, all the gremlins are quite friendly and shake hands with all of the other gremlins as well as imps. Each pair of creatures shakes hands at most once. How many handshakes were at the convention?",
   "n_questions": 8,
   "labels": [

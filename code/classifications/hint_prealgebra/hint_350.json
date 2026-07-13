@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Twenty switches in an office computer network are to be connected so that each switch has a direct connection to exactly three other switches. How many connections will be necessary?",
   "n_questions": 8,
   "labels": [

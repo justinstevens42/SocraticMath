@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Let $a_1,$ $a_2,$ $\\dots$ be a sequence of positive real numbers such that\n\\[a_n = 11a_{n - 1} - n\\]for all $n > 1.$  Find the smallest possible value of $a_1.$",
   "n_questions": 8,
   "labels": [

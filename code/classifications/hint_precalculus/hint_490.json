@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find the sum of all angles $x \\in [0^\\circ, 360^\\circ]$ that satisfy\n\\[\\sin^5 x - \\cos^5 x = \\frac{1}{\\cos x} - \\frac{1}{\\sin x}.\\]",
   "n_questions": 6,
   "labels": [

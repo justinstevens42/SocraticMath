@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 2",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find the number of odd digits in the base-4 representation of $233_{10}$.",
   "n_questions": 8,
   "labels": [

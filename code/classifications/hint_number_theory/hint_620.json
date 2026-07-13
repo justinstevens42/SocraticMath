@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "What is the smallest whole number $b$ such that 62 can be expressed in base $b$ using only three digits?",
   "n_questions": 10,
   "labels": [

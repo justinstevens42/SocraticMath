@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Let $f(x) = 4x + c$ and $g(x) = cx + 2.$  If $f(g(x)) = 12x + d,$ then find $d.$",
   "n_questions": 8,
   "labels": [

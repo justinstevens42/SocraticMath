@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Three circles of radius 1 are externally tangent to each other and internally tangent to a larger circle. What is the radius of the large circle? Express your answer as a common fraction in simplest radical form.\n\n[asy]\ndraw(Circle((0,-0.58),2.15),linewidth(0.7));\ndraw(Circle((-1,0),1),linewidth(0.7));\ndraw(Circle((1,0),1),linewidth(0.7));\ndraw(Circle((0,-1.73),1),linewidth(0.7));\n[/asy]",
   "n_questions": 7,
   "labels": [

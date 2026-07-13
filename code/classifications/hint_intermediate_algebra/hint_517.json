@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $r$ be the positive real solution to $x^3 + \\frac{2}{5} x - 1 = 0.$  Find the exact numerical value of\n\\[r^2 + 2r^5 + 3r^8 + 4r^{11} + \\dotsb.\\]",
   "n_questions": 7,
   "labels": [

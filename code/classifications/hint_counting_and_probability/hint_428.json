@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "In Morse code, each symbol is represented by a sequence of dashes and dots. How many distinct symbols can be represented using sequences of 1, 2, 3, or 4 total dots and/or dashes?",
   "n_questions": 7,
   "labels": [

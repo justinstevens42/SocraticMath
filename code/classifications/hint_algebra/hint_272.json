@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Define the operation $\\spadesuit$ as $a\\,\\spadesuit\\,b = |a- b|$ . What is the value of $2\\, \\spadesuit\\,(4\\,\\spadesuit\\,7)$?",
   "n_questions": 10,
   "labels": [

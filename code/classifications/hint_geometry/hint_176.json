@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "The radius of the inscribed circle is 6 cm. What is the number of centimeters in the length of $\\overline{AB}$? Express your answer in simplest radical form. [asy]\nimport olympiad; import geometry; size(150); defaultpen(linewidth(0.8));\ndraw((sqrt(3),0)--origin--(0,1)--cycle);\nreal r1 = (sqrt(3) - 1)/2;\ndraw(Circle((r1,r1),r1));\nlabel(\"$A$\",(sqrt(3),0),SE);\nlabel(\"$B$\",(0,1),NW);\ndraw(rightanglemark((0,1),origin,(1,0),3));\nlabel(scale(0.8)*\"$60^\\circ$\",(0,0.9),SE);\n[/asy]",
   "n_questions": 9,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Automobile license plates for a state consist of four letters followed by a dash and two single digits. How many different license plate combinations are possible if exactly one letter is repeated exactly once, but digits cannot be repeated? [asy]\nsize(150);\ndraw((0,0)--(0,5)--(10,5)--(10,0)--cycle);\nlabel(\"\\Huge{CHIC - 03}\",(1,3)--(9,3),S);\nlabel(\"\\small\\emph{State of Excellence}\",(1,1)--(9,1),S);\ndraw((0.5,3.5)--(0.5,4.5)--(2,4.5)--(2,3.5)--cycle);\nlabel(\"\\footnotesize 5-03\",(1.25,4));\ndraw((9.5,3.5)--(9.5,4.5)--(8,4.5)--(8,3.5)--cycle);\nlabel(\"\\footnotesize FX\",(8.75,4));\n[/asy]",
   "n_questions": 12,
   "labels": [

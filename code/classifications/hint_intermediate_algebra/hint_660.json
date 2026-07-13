@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Find all values of $x$ that satisfy\n\\[5x - 1 < (x + 1)^2 < 7x - 3.\\]",
   "n_questions": 6,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "The equations\n\\[75x^4 + ax^3 + bx^2 + cx + 12 = 0\\]and\n\\[12x^5 + dx^4 + ex^3 + fx^2 + gx + 75 = 0\\]have a common rational root $k$ which is not an integer, and which is negative.  What is $k?$",
   "n_questions": 5,
   "labels": [

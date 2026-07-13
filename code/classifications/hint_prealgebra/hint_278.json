@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "How many ways can change be made for a quarter using standard U.S. coins?  (Don't count \"1 quarter\" as making change for a quarter.)",
   "n_questions": 10,
   "labels": [

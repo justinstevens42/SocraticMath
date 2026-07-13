@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "You have a number of gold coins that you were going to distribute equally among your 11 best friends. However, after dividing your gold coins into 11 equal piles, you realize that if you give away all your gold coins, 2 people will receive an extra gold coin. You have less than 100 gold coins. What is the largest number of gold coins you could have to cause this to happen?",
   "n_questions": 8,
   "labels": [

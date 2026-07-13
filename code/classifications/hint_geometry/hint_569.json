@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "$ABCD$ is a regular tetrahedron (right triangular pyramid).  If $M$ is the midpoint of $\\overline{CD}$, then what is $\\cos \\angle AMB$?",
   "n_questions": 9,
   "labels": [

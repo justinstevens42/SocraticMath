@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "In Pascal's Triangle, each number is the sum of the number just above it and to the left and the number just above it and to the right. So the middle number in Row 2 is $2$ because $1+1=2.$ What is the sum of the numbers in Row 8 of Pascal's Triangle?\n\n\\begin{tabular}{rccccccccccc}\nRow 0:& & & & & & 1\\\\\\noalign{\\smallskip\\smallskip}\nRow 1:& & & & & 1 & & 1\\\\\\noalign{\\smallskip\\smallskip}\nRow 2:& & & & 1 & & 2 & & 1\\\\\\noalign{\\smallskip\\smallskip}\nRow 3:& & & 1 & & 3 & & 3 & & 1\\\\\\noalign{\\smallskip\\smallskip}\nRow 4:& & 1 & & 4 & & 6 & & 4 & & 1\\\\\\noalign{\\smallskip\\smallskip}\nRow 5:& 1 & & 5 & & 10 & & 10 & & 5 & & 1\\\\\\noalign{\\smallskip\\smallskip}\n\\end{tabular}",
   "n_questions": 6,
   "labels": [

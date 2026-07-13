@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Let $f(x)=\\frac{3x^2+5x+8}{x^2-x+4}$ and $g(x)=x-1$. Find $f(g(x))+g(f(x))$, evaluated when $x=1$.",
   "n_questions": 8,
   "labels": [

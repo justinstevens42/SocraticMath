@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "In $\\triangle XYZ$, we have $\\angle X = 90^\\circ$ and $\\tan Z = 7$.  If $YZ = 100$, then what is $XY$?",
   "n_questions": 11,
   "labels": [

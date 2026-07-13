@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "The range of the function $g(x) = \\frac{2}{2+4x^2}$ can be written as an interval $(a,b]$. What is $a+b$?",
   "n_questions": 10,
   "labels": [

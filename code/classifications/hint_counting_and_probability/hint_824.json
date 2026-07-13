@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "I have a drawer with 6 forks, 6 spoons, and 6 knives in it. If I reach in and randomly remove three pieces of silverware, what is the probability that I get one fork, one spoon, and one knife?",
   "n_questions": 11,
   "labels": [

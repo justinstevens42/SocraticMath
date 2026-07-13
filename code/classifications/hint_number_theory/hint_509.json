@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The marching band has more than 100 members but fewer than 200 members. When they line up in rows of 4 there is one extra person; when they line up in rows of 5 there are two extra people; and when they line up in rows of 7 there are three extra people. How many members are in the marching band?",
   "n_questions": 7,
   "labels": [

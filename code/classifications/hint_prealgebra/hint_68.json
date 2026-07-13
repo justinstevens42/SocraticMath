@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A domino is a rectangular tile composed of two squares. An integer is represented on both squares, and each integer 0-9 is paired with every integer 0-9 exactly once to form a complete set. A $\\textit{double}$ is a domino that has the same integer on both of its squares. What is the probability that a domino randomly selected from a set will be a $\\textit{double}$? Express your answer as a common fraction.",
   "n_questions": 9,
   "labels": [

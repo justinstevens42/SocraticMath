@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "The United States Postal Service charges an extra $\\$0.11$ in postage if the length of an envelope, in inches, divided by its height, in inches, is less than $1.3$ or greater than $2.5.$ For how many of these four envelopes must the extra $\\$0.11$ in postage be paid? \\begin{tabular}[t]{ccc}\nEnvelope & Length in inches & Height in inches\\\\\\hline\nA &6 &4\\\\\nB &9 &3\\\\\nC &6 &6\\\\\nD &11 &4\n\\end{tabular}",
   "n_questions": 7,
   "labels": [

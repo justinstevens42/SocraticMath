@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Determine the sum of all prime numbers $p$ for which there exists no integer solution in $x$ to the congruence $3(6x+1)\\equiv 4\\pmod p$.",
   "n_questions": 5,
   "labels": [

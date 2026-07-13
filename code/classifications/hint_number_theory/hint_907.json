@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $p$ be the largest prime with 2010 digits. What is the smallest positive integer $k$ such that $p^2 - k$ is divisible by 12?",
   "n_questions": 8,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "We define a function $f(x)$ such that $f(11)=34$, and if there exists an integer $a$ such that $f(a)=b$, then $f(b)$ is defined and\n\n$f(b)=3b+1$ if $b$ is odd\n\n$f(b)=\\frac{b}{2}$ if $b$ is even.\n\nWhat is the smallest possible number of integers in the domain of $f$?",
   "n_questions": 8,
   "labels": [

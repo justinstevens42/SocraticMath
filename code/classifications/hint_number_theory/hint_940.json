@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "What is the remainder when the sum $1 + 7 + 13 + 19 + \\cdots + 253 + 259$ is divided by $6$?",
   "n_questions": 7,
   "labels": [

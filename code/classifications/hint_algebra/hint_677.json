@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "If $x$ is a positive integer such that $1^{x+2} + 2^{x+1} + 3^{x-1} + 4^x = 1170$, what is the value of $x$?",
   "n_questions": 7,
   "labels": [

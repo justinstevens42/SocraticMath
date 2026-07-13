@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "If triangle $ABC$ has sides of length $AB = 6,$ $AC = 5,$ and $BC = 4,$ then calculate\n\\[\\frac{\\cos \\frac{A - B}{2}}{\\sin \\frac{C}{2}} - \\frac{\\sin \\frac{A - B}{2}}{\\cos \\frac{C}{2}}.\\]",
   "n_questions": 6,
   "labels": [

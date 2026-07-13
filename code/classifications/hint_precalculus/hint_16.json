@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Let $\\mathbf{a},$ $\\mathbf{b},$ $\\mathbf{c},$ $\\mathbf{d}$ be four distinct unit vectors in space such that\n\\[\\mathbf{a} \\cdot \\mathbf{b} = \\mathbf{a} \\cdot \\mathbf{c} = \\mathbf{b} \\cdot \\mathbf{c}  =\\mathbf{b} \\cdot \\mathbf{d} = \\mathbf{c} \\cdot \\mathbf{d} = -\\frac{1}{11}.\\]Find $\\mathbf{a} \\cdot \\mathbf{d}.$",
   "n_questions": 9,
   "labels": [

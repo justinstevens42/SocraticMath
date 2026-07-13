@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "An equilateral triangle shares a common side with a square as shown. What is the number of degrees in $m\\angle CDB$? [asy] pair A,E,C,D,B; D = dir(60); C = dir(0); E = (0,-1); B = C+E; draw(B--D--C--B--E--A--C--D--A); label(\"D\",D,N); label(\"C\",C,dir(0)); label(\"B\",B,dir(0));\n[/asy]",
   "n_questions": 6,
   "labels": [

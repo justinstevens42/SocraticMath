@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Points $A$, $B$, $C$, and $T$ are in space such that each of $\\overline{TA}$, $\\overline{TB}$, and $\\overline{TC}$ is perpendicular to the other two.  If $TA = TB = 10$ and $TC = 9$, then what is the volume of pyramid $TABC$?",
   "n_questions": 7,
   "labels": [

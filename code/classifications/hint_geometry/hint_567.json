@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "How many non-similar triangles have angles whose degree measures are distinct positive integers in  arithmetic progression?",
   "n_questions": 8,
   "labels": [

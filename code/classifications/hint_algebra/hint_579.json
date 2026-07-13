@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "Given two real numbers $p>1$ and $q>1$ so that $\\frac{1}{p} + \\frac{1}{q} = 1$ and $pq = 4$, what is $q$?",
   "n_questions": 7,
   "labels": [

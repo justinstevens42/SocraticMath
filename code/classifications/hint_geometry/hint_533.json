@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Two boards, one four inches wide and the other six inches wide, are nailed together to form an X. The angle at which they cross is 60 degrees. If this structure is painted and the boards are separated what is the area of the unpainted region on the four-inch board? (The holes caused by the nails are negligible.) Express your answer in simplest radical form.\n\n[asy]\ndraw(6dir(150)--15dir(-30),linewidth(1));\ndraw((6dir(150)+12/sqrt(3)*dir(30))--(15dir(-30)+12/sqrt(3)*dir(30)),linewidth(1));\n\ndraw(6dir(210)--(0,0),linewidth(1));\ndraw((9dir(210)+8/sqrt(3)*dir(-30))--8/sqrt(3)*dir(-30),linewidth(1));\n\ndraw(12/sqrt(3)*dir(30)--(12/sqrt(3)+6)*dir(30),linewidth(1));\ndraw(12/sqrt(3)*dir(30)+8/sqrt(3)*dir(-30)--(12/sqrt(3)+9)*dir(30)+8/sqrt(3)*dir(-30),linewidth(1));\n\ndraw(2dir(150)--2dir(150)+6dir(60),dashed);\ndraw(2dir(210)--2dir(210)+4dir(-60),dashed);\n\ndot((2,0));\ndot((4,-1));\ndot((8,1));\ndot((6,2));\n\nlabel(\"$60^{\\circ}$\", (11,1), E);\nlabel(rotate(30)*\"$4^{\\prime\\prime}$\", .5*(2dir(210)+2dir(210)+4dir(-60))+(0,-.5),W);\nlabel(rotate(-30)*\"$6^{\\prime\\prime}$\", .5*(2dir(150)+2dir(150)+6dir(60))+(1,1),W);\n[/asy]",
   "n_questions": 10,
   "labels": [

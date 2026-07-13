@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Let $\\mathbf{a}$ and $\\mathbf{b}$ be vectors, and let $\\mathbf{m}$ be the midpoint of $\\mathbf{a}$ and $\\mathbf{b}.$  Given $\\mathbf{m} = \\begin{pmatrix} 3 \\\\ 7 \\end{pmatrix}$ and $\\mathbf{a} \\cdot \\mathbf{b} = 6,$ find $\\|\\mathbf{a}\\|^2 + \\|\\mathbf{b}\\|^2.$",
   "n_questions": 6,
   "labels": [

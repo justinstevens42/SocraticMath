@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $g(x) = x^5 + x^4 + x^3 + x^2 + x + 1.$  What is the remainder when the polynomial $g(x^{12})$ is divided by the polynomial $g(x)$?",
   "n_questions": 7,
   "labels": [

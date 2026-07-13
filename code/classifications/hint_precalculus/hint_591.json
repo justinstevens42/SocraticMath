@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $a,$ $b,$ $c$ be integers such that\n\\[\\mathbf{A} = \\frac{1}{5} \\begin{pmatrix} -3 & a \\\\ b & c \\end{pmatrix}\\]and $\\mathbf{A}^2 = \\mathbf{I}.$  Find the largest possible value of $a + b + c.$",
   "n_questions": 11,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "When the digits in the number $2005$ are reversed we obtain the number $5002,$ and $5002 = a \\cdot b \\cdot c$, such that $a$, $b$ and $c$ are three distinct primes. How many other positive integers are the products of exactly three distinct primes $p_1$, $p_2$ and $p_3$ such that $p_1 + p_2 + p_3 = a+b+c$?",
   "n_questions": 7,
   "labels": [

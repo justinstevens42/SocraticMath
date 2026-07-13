@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "For real numbers $a,$ $b,$ and $c,$ the matrix\n\\[\\begin{pmatrix} a & b & c \\\\ b & c & a \\\\ c & a & b \\end{pmatrix}\\]is not invertible.  List all possible values of\n\\[\\frac{a}{b + c} + \\frac{b}{a + c} + \\frac{c}{a + b}.\\]",
   "n_questions": 6,
   "labels": [

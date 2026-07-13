@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Rodney uses the following clues to try to guess a secret number:\n\\begin{tabular}{ c }\nIt is a two-digit integer.\\\\\nThe tens digit is odd.\\\\\nThe units digit is even.\\\\\nThe number is greater than 65.\n\\end{tabular}If Rodney guesses a number that has each of these properties, what is the probability that Rodney will guess the correct number? Express your answer as a common fraction.",
   "n_questions": 10,
   "labels": [

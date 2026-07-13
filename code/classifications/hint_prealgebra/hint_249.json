@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "How many integers between $100$ and $150$ have three different digits in increasing order? One such integer is $129$.",
   "n_questions": 7,
   "labels": [

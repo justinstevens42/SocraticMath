@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "The sequence $a_1,$ $a_2,$ $a_3,$ $\\dots$ satisfies $a_1 = 19,$ $a_9 = 99,$ and for all $n \\ge 3,$ $a_n$ is the arithmetic mean of the first $n - 1$ terms.  Find $a_2.$",
   "n_questions": 4,
   "labels": [

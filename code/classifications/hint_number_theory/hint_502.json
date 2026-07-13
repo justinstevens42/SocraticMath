@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "How many of the 343 smallest positive integers written in base 7 use 4 or 5 (or both) as a digit?",
   "n_questions": 9,
   "labels": [

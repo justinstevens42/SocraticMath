@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "12 balls numbered 1 through 12 are placed in a bin.  Joe produces a list of three numbers by performing the following sequence three times:  he chooses a ball, records the number, and places the ball back in the bin.   How many different lists are possible?",
   "n_questions": 7,
   "labels": [

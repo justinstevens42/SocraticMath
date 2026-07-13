@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "In a right prism with triangular bases, given the sum of the areas of three mutually adjacent faces (that is, of two lateral faces and one base) is 24, find the maximum volume of the prism.\n\n[asy]\nunitsize(1 cm);\n\npair A, B, C, D, E, F;\n\nA = (0,0);\nB = (3,-1);\nC = (-1,-2);\nD = A + (0,-4);\nE = B + (0,-4);\nF = C + (0,-4);\n\ndraw(A--B--C--cycle);\ndraw(E--F);\ndraw(F--D--E,dashed);\ndraw(A--D,dashed);\ndraw(B--E);\ndraw(C--F);\n[/asy]",
   "n_questions": 10,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $T$ be a positive integer whose only digits are 0s and 1s. If $X = T \\div 12$ and $X$ is an integer, what is the smallest possible value of $X$?",
   "n_questions": 6,
   "labels": [

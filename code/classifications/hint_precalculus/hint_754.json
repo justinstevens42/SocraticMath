@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Complex numbers $a,$ $b,$ $c$ form an equilateral triangle with side length 18 in the complex plane.  If $|a + b + c| = 36,$ find $|ab + ac + bc|.$",
   "n_questions": 9,
   "labels": [

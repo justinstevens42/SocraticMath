@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "What is the radius of the circle inscribed in triangle $ABC$ if $AB = 5, AC=6, BC=7$? Express your answer in simplest radical form.",
   "n_questions": 7,
   "labels": [

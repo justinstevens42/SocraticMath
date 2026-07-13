@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "What is the area of the portion of the circle defined by $x^2-12x+y^2=28$ that lies above the $x$-axis and to the right of the line $y=6-x$?",
   "n_questions": 7,
   "labels": [

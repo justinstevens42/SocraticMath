@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The product of the digits of 3214 is 24. How many distinct four-digit positive integers are such that the product of their digits equals 12?",
   "n_questions": 9,
   "labels": [

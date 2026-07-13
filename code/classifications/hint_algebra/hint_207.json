@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The graph of the equation $y = |x| - 3$ is translated two units to the left and three units down. What are the coordinates of the minimum point of the new graph?",
   "n_questions": 6,
   "labels": [

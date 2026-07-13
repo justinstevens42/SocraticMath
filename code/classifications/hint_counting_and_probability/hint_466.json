@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A Senate committee has 5 Democrats and 5 Republicans.  In how many ways can they sit around a circular table if each member sits next to two members of the other party? (Two seatings are the same if one is a rotation of the other.)",
   "n_questions": 10,
   "labels": [

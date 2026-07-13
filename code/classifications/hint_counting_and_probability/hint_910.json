@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "My school's Physics Club has 22 members.  It needs to select 3 officers: chairman, vice-chairman, and sergeant-at-arms.  Each person can hold at most one office.  Two of the members, Penelope and Quentin, will only be officers if the other one is also an officer.  (In other words, either both Penelope and Quentin are officers, or neither are.)  In how many ways can the club choose its officers?",
   "n_questions": 10,
   "labels": [

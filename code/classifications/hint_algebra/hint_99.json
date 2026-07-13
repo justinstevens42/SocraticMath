@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A line containing the points $(2, 16)$ and $(-8, -4)$ intersects the $y$-axis at what point?",
   "n_questions": 10,
   "labels": [

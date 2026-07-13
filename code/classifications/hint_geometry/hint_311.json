@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "In triangle $ABC$, $BC = 20 \\sqrt{3}$ and $\\angle C = 30^\\circ$.  Let the perpendicular bisector of $BC$ intersect $BC$ and $AC$ at $D$ and $E$, respectively.  Find the length of $DE$.",
   "n_questions": 6,
   "labels": [

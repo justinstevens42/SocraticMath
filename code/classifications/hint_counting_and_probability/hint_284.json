@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "How many four-digit numbers greater than 2999 can be formed such that the product of the middle two digits exceeds 5?",
   "n_questions": 8,
   "labels": [

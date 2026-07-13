@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Solve the inequality\n\\[\\frac{1}{x - 1} - \\frac{4}{x - 2} + \\frac{4}{x - 3} - \\frac{1}{x - 4} < \\frac{1}{30}.\\]",
   "n_questions": 10,
   "labels": [

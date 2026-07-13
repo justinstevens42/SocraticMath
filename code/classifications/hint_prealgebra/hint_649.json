@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "On an indoor circular track of circumference 50 feet, Joneal starts at point $S$, runs in a counterclockwise direction, and then stops when he has run exactly one mile (5280 feet). On which quarter of the circle, $A$, $B$, $C$ or $D$, did Joneal stop?\n\n[asy]\nimport graph;\ndraw(Circle((0,0),20));\ndraw((-25,0)--(25,0));\ndraw((0,-25)--(0,25));\ndot((20,0));\nlabel(\"$S$\",(20,0),SE);\nlabel(\"$A$\",(17,17),E);\nlabel(\"$B$\",(-17,17),W);\nlabel(\"$C$\",(-17,-17),W);\nlabel(\"$D$\",(17,-17),E);\n[/asy]",
   "n_questions": 7,
   "labels": [

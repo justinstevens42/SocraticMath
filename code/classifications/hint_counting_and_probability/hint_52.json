@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "How many rows of Pascal's Triangle contain the number $43$?",
   "n_questions": 9,
   "labels": [

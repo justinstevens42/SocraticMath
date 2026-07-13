@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Triangle $ABC$ has vertices $A(0, 8)$, $B(2, 0)$, $C(8, 0)$.  A horizontal line with equation $y=t$ intersects line segment $ \\overline{AB} $ at $T$ and line segment $ \\overline{AC} $ at $U$, forming $\\triangle ATU$ with area 13.5.  Compute $t$.",
   "n_questions": 7,
   "labels": [

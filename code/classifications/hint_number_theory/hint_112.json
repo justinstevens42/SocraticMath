@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Given that $n$ is a positive integer, and given that $\\mathop{\\text{lcm}}[24,n]=72$ and $\\mathop{\\text{lcm}}[n,27]=108$, what is $n$?",
   "n_questions": 7,
   "labels": [

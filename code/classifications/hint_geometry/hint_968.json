@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "In isosceles triangle $\\triangle ABC$ we have $AB=AC=4$.  The altitude from $B$ meets $\\overline{AC}$ at $H$.  If $AH=3(HC)$ then determine $BC$.",
   "n_questions": 9,
   "labels": [

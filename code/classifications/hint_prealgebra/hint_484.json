@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "A teacher has a class with $24$ students in it. If she wants to split the students into equal groups of at most $10$ students each, what is the least number of groups that she needs?",
   "n_questions": 12,
   "labels": [

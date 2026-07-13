@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "The polynomial $f(x)$ satisfies $f(x + 1) - f(x) = 6x + 4.$  Find the leading coefficient of $f(x).$",
   "n_questions": 6,
   "labels": [

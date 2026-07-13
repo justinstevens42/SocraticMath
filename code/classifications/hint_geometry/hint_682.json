@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "A wooden model of a square pyramid has a base edge of 12 cm and an altitude of 8 cm. A cut is made parallel to the base of the pyramid that separates it into two pieces: a smaller pyramid and a frustum. Each base edge of the smaller pyramid is 6 cm and its altitude is 4 cm. How many cubic centimeters are in the volume of the frustum?",
   "n_questions": 8,
   "labels": [

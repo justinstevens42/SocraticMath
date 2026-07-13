@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "If two distinct members of the set $\\{ 2, 4, 10, 12, 15, 20, 50 \\}$ are randomly selected and multiplied, what is the probability that the product is a multiple of 100? Express your answer as a common fraction.",
   "n_questions": 10,
   "labels": [

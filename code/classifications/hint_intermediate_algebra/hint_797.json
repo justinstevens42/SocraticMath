@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "The polynomial $f(x) = x^3 + x^2 + 2x + 3$ has three distinct roots. Let $g(x) = x^3+bx^2+cx+d$ be a cubic polynomial with leading coefficient $1$ such that the roots of $g(x)$ are the squares of the roots of $f(x)$. Find the ordered triple $(b,c,d)$.",
   "n_questions": 7,
   "labels": [

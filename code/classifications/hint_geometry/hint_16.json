@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "The formula for the total surface area of a cylinder is $SA = 2\\pi r^2 + 2\\pi rh,$ where $r$ is the radius and $h$ is the height. A particular solid right cylinder of radius 2 feet has a total surface area of $12\\pi$ square feet. What is the height of this cylinder?",
   "n_questions": 9,
   "labels": [

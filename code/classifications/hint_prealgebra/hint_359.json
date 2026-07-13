@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "What is the largest value among $\\operatorname{lcm}[12,2],$ $\\operatorname{lcm}[12,4],$ $\\operatorname{lcm}[12,6],$ $\\operatorname{lcm}[12,8],$ $\\operatorname{lcm}[12,10],$ and $\\operatorname{lcm}[12,12]?$ Express your answer as an integer.",
   "n_questions": 10,
   "labels": [

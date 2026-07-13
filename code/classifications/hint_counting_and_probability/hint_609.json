@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Nine people sit down at random seats around a round table. Four of them are math majors, three others are physics majors, and the two remaining people are biology majors. What is the probability that all four math majors sit in consecutive seats?",
   "n_questions": 9,
   "labels": [

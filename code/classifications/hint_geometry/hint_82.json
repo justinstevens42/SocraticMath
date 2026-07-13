@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "The volume of a given sphere is $36\\pi$ cubic inches. How many square inches are in its surface area? Express your answer in terms of $\\pi$.",
   "n_questions": 8,
   "labels": [

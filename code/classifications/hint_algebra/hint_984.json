@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Two lines defined by the equations $y = mx + 4$ and $y = 3x + b$, where $m$ and $b$ are constants, intersect at the point $(6, 10)$. What is the value of $b + m$?",
   "n_questions": 5,
   "labels": [

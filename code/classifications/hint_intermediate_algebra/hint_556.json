@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "If $a + b + c = 11$ and $ab + ac + bc = 25,$ then find\n\\[a^3 + b^3 + c^3 - 3abc.\\]",
   "n_questions": 7,
   "labels": [

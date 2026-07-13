@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Simplify $1-(1+(1-(1+(1-x))))$.",
   "n_questions": 6,
   "labels": [

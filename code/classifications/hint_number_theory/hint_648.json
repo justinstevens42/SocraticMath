@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "The number $2^{1993}+3^{1993}$ is a multiple of $5.$ What is the units digit of the quotient $\\frac{2^{1993}+3^{1993}}{5}?$",
   "n_questions": 7,
   "labels": [

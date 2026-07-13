@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 3",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Given the four digits 2, 4, 6, and 7, how many different positive two-digit integers can be formed using these digits if a digit may not be repeated in an integer?",
   "n_questions": 8,
   "labels": [

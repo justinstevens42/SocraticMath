@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "What is the range of the function $y=\\log_2 (\\sqrt{\\cos x})$ for $-90^\\circ< x < 90^\\circ$?",
   "n_questions": 6,
   "labels": [

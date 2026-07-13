@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "In triangle $ABC$, $\\angle ABC = 90^\\circ$ and $AD$ is an angle bisector.  If $AB = 90,$ $BC = x$, and $AC = 2x - 6,$ then find the area of $\\triangle ADC$. Round your answer to the nearest integer.",
   "n_questions": 7,
   "labels": [

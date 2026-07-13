@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A pentagon is drawn by placing an isosceles right triangle on top of a square as pictured. What percent of the area of the pentagon is the area of the right triangle?\n\n[asy]\nsize(50);\ndraw((0,0)--(0,-1)--(1,-1)--(1,0)--(0,0)--(.5,.5)--(1,0));\n[/asy]",
   "n_questions": 10,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "There exists a scalar $c$ so that\n\\[\\mathbf{i} \\times (\\mathbf{v} \\times \\mathbf{i}) + \\mathbf{j} \\times (\\mathbf{v} \\times \\mathbf{j}) + \\mathbf{k} \\times (\\mathbf{v} \\times \\mathbf{k}) = c \\mathbf{v}\\]for all vectors $\\mathbf{v}.$  Find $c.$",
   "n_questions": 8,
   "labels": [

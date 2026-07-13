@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Two sectors of a circle of radius $12$ overlap as shown, with $P$ and $R$ as the centers of the respective circles. Determine the area of the shaded region.\n\n[asy]\ndraw((0,0)--(10.3923,-6)--(20.7846,0)--(10.3923,6)--cycle,black+linewidth(1));\nfilldraw((10.3923,6)..(12,0)..(10.3923,-6)--cycle,gray,black+linewidth(1));\nfilldraw((10.3923,6)..(8.7846,0)..(10.3923,-6)--cycle,gray,black+linewidth(1));\nlabel(\"$P$\",(0,0),W);\nlabel(\"$Q$\",(10.3923,6),N);\nlabel(\"$R$\",(20.7846,0),E);\nlabel(\"$S$\",(10.3923,-6),S);\nlabel(\"$60^\\circ$\",(0,0),2E);\nlabel(\"$60^\\circ$\",(20.7846,0),2W);\n[/asy]",
   "n_questions": 10,
   "labels": [

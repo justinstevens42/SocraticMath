@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Compute\n\\[\\begin{vmatrix} 1 & \\cos (a - b) & \\cos a \\\\ \\cos(a - b) & 1 & \\cos b \\\\ \\cos a & \\cos b & 1 \\end{vmatrix}.\\]",
   "n_questions": 8,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A circle having center $(0,k)$, with $k>6$, is tangent to the lines $y=x$, $y=-x$ and $y=6$. What is the radius of  this circle?",
   "n_questions": 8,
   "labels": [

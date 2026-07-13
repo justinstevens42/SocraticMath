@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "In the figure, $\\angle ABC$ and $\\angle ADB$ are each right angles. Additionally, $AC = 17.8$ units and $AD = 5$ units. What is the length of segment $DB$? [asy]\nimport olympiad; import geometry; size(150); defaultpen(linewidth(0.8));\ntriangle t = triangle((0,0),(sqrt(89),0),(sqrt(89),-8/5*sqrt(89)));\ndraw((sqrt(89),0)--(5*dir(-aTan(8/5))));\ndraw(t);\ndot(\"$A$\",(0,0),W); dot(\"$B$\",(sqrt(89),0),E); dot(\"$D$\",5*dir(-aTan(8/5)),W); dot(\"$C$\",17.8*dir(-aTan(8/5)),W);\n[/asy]",
   "n_questions": 7,
   "labels": [

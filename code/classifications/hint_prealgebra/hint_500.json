@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "One caterer charges a basic fee of $\\$100$ plus $\\$15$ per person. A second caterer charges a basic fee of $\\$200$ plus $\\$12$ per person. What is the least number of people for which the second caterer is cheaper?",
   "n_questions": 7,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "In the diagram, four circles of radius 4 units intersect at the origin. What is the number of square units in the area of the shaded region? Express your answer in terms of $\\pi$. [asy]\nimport olympiad; import geometry; size(100); defaultpen(linewidth(0.8));\nfill(Arc((1,0),1,90,180)--Arc((0,1),1,270,360)--cycle,gray(0.6));\nfill(Arc((-1,0),1,0,90)--Arc((0,1),1,180,270)--cycle,gray(0.6));\nfill(Arc((-1,0),1,270,360)--Arc((0,-1),1,90,180)--cycle,gray(0.6));\nfill(Arc((1,0),1,180,270)--Arc((0,-1),1,0,90)--cycle,gray(0.6));\ndraw((-2.3,0)--(2.3,0)^^(0,-2.3)--(0,2.3));\ndraw(Circle((-1,0),1)); draw(Circle((1,0),1)); draw(Circle((0,-1),1)); draw(Circle((0,1),1));\n[/asy]",
   "n_questions": 8,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Choose the largest of the following sums, and express it as a fraction in simplest form:\n$$\\frac{1}{4} + \\frac{1}{5}, \\ \\ \\frac{1}{4} + \\frac{1}{6}, \\ \\ \\frac{1}{4} + \\frac{1}{3}, \\ \\ \\frac{1}{4} + \\frac{1}{8}, \\ \\ \\frac{1}{4} + \\frac{1}{7}$$",
   "n_questions": 6,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "A spherical soap bubble lands on a horizontal wet surface and forms a hemisphere of the same volume. Given the radius of the hemisphere is $3\\sqrt[3]{2}$ cm, find the radius of the original bubble.",
   "n_questions": 6,
   "labels": [

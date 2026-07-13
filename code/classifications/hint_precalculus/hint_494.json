@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Find the value of $x$ between 0 and 180 such that\n\\[\\tan (120^\\circ - x^\\circ) = \\frac{\\sin 120^\\circ - \\sin x^\\circ}{\\cos 120^\\circ - \\cos x^\\circ}.\\]",
   "n_questions": 10,
   "labels": [

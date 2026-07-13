@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Three different natural numbers $x$, $y$ and $z$ each have exactly three natural-number factors. How many factors does $x^{2}y^{3}z^{4}$ have?",
   "n_questions": 6,
   "labels": [

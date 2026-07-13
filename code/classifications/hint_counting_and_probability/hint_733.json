@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "8 coins are simultaneously flipped.  What is the probability that heads are showing on at most 2 of them?",
   "n_questions": 8,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 2",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "What is the degree measure of angle $LOQ$ when polygon $\\allowbreak LMNOPQ$ is a regular hexagon? [asy]\ndraw((-2,0)--(-1,1.73205081)--(1,1.73205081)--(2,0)--(1,-1.73205081)--(-1,-1.73205081)--cycle);\ndraw((-1,-1.73205081)--(1,1.73205081)--(1,-1.73205081)--cycle);\nlabel(\"L\",(-1,-1.73205081),SW);\nlabel(\"M\",(-2,0),W);\nlabel(\"N\",(-1,1.73205081),NW);\nlabel(\"O\",(1,1.73205081),N);\nlabel(\"P\",(2,0),E);\nlabel(\"Q\",(1,-1.73205081),S);\n[/asy]",
   "n_questions": 11,
   "labels": [

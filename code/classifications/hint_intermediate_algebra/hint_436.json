@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Compute the integer $k > 2$ for which\n\\[\\log_{10} (k - 2)! + \\log_{10} (k - 1)! + 2 = 2 \\log_{10} k!.\\]",
   "n_questions": 6,
   "labels": [

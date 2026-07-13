@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Either increasing the radius or the height of a cylinder by six inches will result in the same volume. The original height of the cylinder is two inches. What is the original radius in inches?",
   "n_questions": 6,
   "labels": [

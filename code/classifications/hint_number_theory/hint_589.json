@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Use each of the five digits $2, 4, 6, 7$ and $9$ only once to form a three-digit integer and a two-digit integer which will be multiplied together. What is the three-digit integer that results in the greatest product?",
   "n_questions": 10,
   "labels": [

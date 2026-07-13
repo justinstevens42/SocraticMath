@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "Let \\[f(x) =\n\\begin{cases}\nx/2 &\\quad \\text{if } x \\text{ is even}, \\\\\n3x+1 &\\quad \\text{if } x \\text{ is odd}.\n\\end{cases}\n\\]What is $f(f(f(f(1))))$?",
   "n_questions": 6,
   "labels": [

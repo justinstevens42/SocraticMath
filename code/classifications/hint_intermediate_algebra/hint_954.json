@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "Let $f(x)$ be an odd function.  Is $f(f(x))$ even, odd, or neither?\n\nEnter \"odd\", \"even\", or \"neither\".",
   "n_questions": 5,
   "labels": [

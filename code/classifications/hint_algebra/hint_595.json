@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "If $a$ and $b$ are integers with $a > b$, what is the smallest possible positive value of $\\frac{a+b}{a-b} + \\frac{a-b}{a+b}$?",
   "n_questions": 10,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Circle $C$ has radius 6 cm. How many square centimeters are in the area of the largest possible inscribed triangle having one side as a diameter of circle $C$?",
   "n_questions": 10,
   "labels": [

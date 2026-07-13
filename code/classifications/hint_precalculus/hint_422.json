@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "In triangle $ABC,$ $E$ lies on $\\overline{AC}$ such that $AE:EC = 2:1,$ and $F$ lies on $\\overline{AB}$ such that $AF:FB = 1:4.$  Let $P$ be the intersection of $\\overline{BE}$ and $\\overline{CF}.$\n\n[asy]\nunitsize(0.8 cm);\n\npair A, B, C, D, E, F, P;\n\nA = (1,4);\nB = (0,0);\nC = (6,0);\nE = interp(A,C,2/3);\nF = interp(A,B,1/5);\nP = extension(B,E,C,F);\n\ndraw(A--B--C--cycle);\ndraw(B--E);\ndraw(C--F);\n\nlabel(\"$A$\", A, N);\nlabel(\"$B$\", B, SW);\nlabel(\"$C$\", C, SE);\nlabel(\"$E$\", E, NE);\nlabel(\"$F$\", F, W);\nlabel(\"$P$\", P, S);\n[/asy]\n\nThen\n\\[\\overrightarrow{P} = x \\overrightarrow{A} + y \\overrightarrow{B} + z \\overrightarrow{C},\\]where $x,$ $y,$ and $z$ are constants such that $x + y + z = 1.$  Enter the ordered triple $(x,y,z).$",
   "n_questions": 10,
   "labels": [

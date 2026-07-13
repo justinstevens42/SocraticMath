@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Suppose that  $a$ and $b$ are digits, not both nine and not both zero, and the repeating decimal  $0.\\overline{ab}$ is expressed as a fraction in lowest terms. How many different denominators are possible?",
   "n_questions": 8,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Compute\n\\[\\prod_{k = 1}^{12} \\prod_{j = 1}^{10} (e^{2 \\pi ji/11} - e^{2 \\pi ki/13}).\\]",
   "n_questions": 8,
   "labels": [

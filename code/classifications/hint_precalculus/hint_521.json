@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "For a constant $c,$ in spherical coordinates $(\\rho,\\theta,\\phi),$ find the shape described by the equation\n\\[\\theta = c.\\](A) Line\n(B) Circle\n(C) Plane\n(D) Sphere\n(E) Cylinder\n(F) Cone\n\nEnter the letter of the correct option.",
   "n_questions": 5,
   "labels": [

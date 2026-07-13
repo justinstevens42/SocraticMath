@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Let $x$ and $y$ be real numbers such that\n\\[4x^2 + 8xy + 5y^2 = 1.\\]Let $m$ and $M$ be the minimum and maximum values of $2x^2 + 3xy + 2y^2,$ respectively.  Find the product $mM.$",
   "n_questions": 10,
   "labels": [

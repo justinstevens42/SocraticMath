@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Two sides of a triangle measure 4 cm and 9 cm. What is the greatest integer number of centimeters that could be the third side of this triangle?",
   "n_questions": 7,
   "labels": [

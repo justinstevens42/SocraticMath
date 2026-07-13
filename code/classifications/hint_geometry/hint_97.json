@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 3",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "The side length of the regular hexagon is 10 cm. What is the number of square centimeters in the area of the shaded region? Express your answer in simplest radical form.\n\n[asy]\nsize(100);\n\npair A,B,C,D,E,F;\nA = dir(0); B = dir(60); C = dir(120); D = dir(180); E = dir(240); F = dir(300);\n\nfill(B--C--E--F--cycle,heavycyan);\n\ndraw(A--B--C--D--E--F--A);\n[/asy]",
   "n_questions": 10,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find\n\\[\\sum_{n = 1}^\\infty \\frac{n^2 + n - 1}{(n + 2)!}.\\]",
   "n_questions": 9,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 2",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
   "problem": "The numbers $\\sqrt{2u-1}$, $\\sqrt{2u+1}$ and $2\\sqrt{u}$ are the side lengths of a triangle. How many degrees are in the measure of the largest angle?",
   "n_questions": 10,
   "labels": [

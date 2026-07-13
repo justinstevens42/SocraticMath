@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Three congruent isosceles triangles $DAO$, $AOB$ and $OBC$ have $AD=AO=OB=BC=10$ and $AB=DO=OC=12$.  These triangles are arranged to form trapezoid $ABCD$, as shown.  Point $P$ is on side $AB$ so that $OP$ is perpendicular to $AB$.\n\n[asy]\npair A, B, C, D, O, P;\nA= (6, 8);\nB=(18, 8);\nC=(24, 0);\nD=(0,0);\nO=(12,0);\nP=(12,8);\ndraw(A--B--C--D--A);\ndraw(A--O--B);\ndraw(O--P, dashed);\nlabel(\"A\", A, NW);\nlabel(\"B\", B, NE);\nlabel(\"C\", C, SE);\nlabel(\"D\", D, SW);\nlabel(\"O\", O, S);\nlabel(\"P\", P, N);\nlabel(\"12\", (D+O)/2, S);\nlabel(\"12\", (O+C)/2, S);\nlabel(\"10\", (A+D)/2, NW);\nlabel(\"10\", (B+C)/2, NE);\n[/asy]\n\nPoint $X$ is the midpoint of $AD$ and point $Y$ is the midpoint of $BC$.  When $X$ and $Y$ are joined, the trapezoid is divided into two smaller trapezoids.  The ratio of the area of trapezoid $ABYX$ to the area of trapezoid $XYCD$ in simplified form is $p:q$. Find $p+q$. [asy]\npair A, B, C, D, O, P, X, Y;\nA= (6, 8);\nB=(18, 8);\nC=(24, 0);\nD=(0,0);\nO=(12,0);\nP=(12,8);\nX=(A+D)/2;\nY=(B+C)/2;\ndraw(X--Y, dashed);\ndraw(A--B--C--D--A);\ndraw(A--O--B);\ndraw(O--P, dashed);\nlabel(\"A\", A, NW);\nlabel(\"B\", B, NE);\nlabel(\"C\", C, SE);\nlabel(\"D\", D, SW);\nlabel(\"O\", O, S);\nlabel(\"P\", P, N);\nlabel(\"X\", X, NW);\nlabel(\"Y\", Y, NE);\n[/asy]",
   "n_questions": 8,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $f$ be a function defined on the positive integers, such that\n\\[f(xy) = f(x) + f(y)\\]for all positive integers $x$ and $y.$  Given $f(10) = 14$ and $f(40) = 20,$ find $f(500).$",
   "n_questions": 7,
   "labels": [

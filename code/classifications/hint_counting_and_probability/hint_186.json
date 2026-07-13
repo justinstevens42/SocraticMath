@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "What is $\\dbinom{n}{n-1}$ for any positive integer $n$?  (Answer in terms of $n$.)",
   "n_questions": 6,
   "labels": [

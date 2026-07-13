@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Evaluate $\\lfloor (12.1)^2 \\rfloor - \\lfloor 12.1 \\rfloor \\cdot \\lfloor 12.1 \\rfloor .$",
   "n_questions": 10,
   "labels": [

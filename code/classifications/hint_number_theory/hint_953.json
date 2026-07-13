@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Let $a_n = \\frac{10^n-1}{9}$. Define $d_n$ to be the greatest common divisor of $a_n$ and $a_{n+1}$. What is the maximum possible value that $d_n$ can take on?",
   "n_questions": 6,
   "labels": [

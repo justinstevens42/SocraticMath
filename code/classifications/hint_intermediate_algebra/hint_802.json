@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Is the function $f(x) = \\lfloor x \\rfloor + \\frac{1}{2}$ even, odd, or neither?\n\nEnter \"odd\", \"even\", or \"neither\".",
   "n_questions": 9,
   "labels": [

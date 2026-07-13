@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Six balls, numbered 2, 3, 4, 5, 6, 7, are placed in a hat.  Each ball is equally likely to be chosen.  If one ball is chosen, what is the probability that the number on the selected ball is a prime number?",
   "n_questions": 7,
   "labels": [

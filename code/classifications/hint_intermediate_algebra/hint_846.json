@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $f(x)=x^4+14x^3+52x^2+56x+16$.  Let $z_1,z_2,z_3,z_4$ be the four roots of $f$.  Find the smallest possible value of $|z_{a}z_{b}+z_{c}z_{d}|$ where $\\{a,b,c,d\\}=\\{1,2,3,4\\}$.",
   "n_questions": 7,
   "labels": [

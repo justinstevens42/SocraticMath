@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "The operation $\\star$ is defined as $a \\star b = a^2 \\div b$. For how many integer values of $x$ will the value of $10 \\star x$ be a positive integer?",
   "n_questions": 9,
   "labels": [

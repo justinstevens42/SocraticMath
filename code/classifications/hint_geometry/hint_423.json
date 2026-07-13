@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A wire is cut into two pieces, one of length $a$ and the other of length $b$. The piece of length $a$ is bent to form an equilateral triangle, and the piece of length $b$ is bent to form a regular hexagon. The triangle and the hexagon have equal area. What is $\\frac{a}{b}$?",
   "n_questions": 7,
   "labels": [

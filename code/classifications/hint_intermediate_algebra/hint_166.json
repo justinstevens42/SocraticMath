@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Find a monic cubic polynomial $P(x)$ with integer coefficients such that\n\\[P(\\sqrt[3]{2} + 1) = 0.\\](A polynomial is monic if its leading coefficient is 1.)",
   "n_questions": 6,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "The midpoints of the sides of a triangle with area $T$ are joined to form a triangle with area $M$. What is the ratio of $M$ to $T$? Express your answer as a common fraction.",
   "n_questions": 6,
   "labels": [

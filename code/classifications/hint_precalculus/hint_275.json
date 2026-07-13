@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $\\mathbf{A} =\\begin{pmatrix}  -1 & 2 \\\\  3 & 4  \\end{pmatrix}.$  Then there exist scalars $p$ and $q$ such that\n\\[\\mathbf{A}^6 = p \\mathbf{A} + q \\mathbf{I}.\\]Enter the ordered pair $(p,q).$",
   "n_questions": 6,
   "labels": [

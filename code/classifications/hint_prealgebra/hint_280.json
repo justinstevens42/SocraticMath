@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Two concentric circles with radii of 19 and 29 units bound a shaded region. A third circle will be drawn with area equal to that of the shaded area. What must the radius of the third circle be? Express your answer in simplest radical form.\n\n[asy]\nfilldraw(circle((0,0),29),gray);\nfilldraw(circle((0,0),19),white);\n\ndot((0,0));\n\ndraw((0,0)--19dir(45),linewidth(1));\n\nlabel(\"19\",9.5dir(45),NW);\n[/asy]",
   "n_questions": 8,
   "labels": [

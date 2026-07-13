@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "If $4x\\equiv 8\\pmod{20}$ and $3x\\equiv 16\\pmod{20}$, then what is the remainder when $x^2$ is divided by $20$?",
   "n_questions": 6,
   "labels": [

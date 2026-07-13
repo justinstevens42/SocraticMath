@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Points $P$ and $R$ are located at (2, 1) and (12, 15) respectively. Point $M$ is the midpoint of segment $\\overline{PR}$. Segment $\\overline{PR}$ is reflected over the $x$-axis. What is the sum of the coordinates of the image of point $M$ (the midpoint of the reflected segment)?",
   "n_questions": 8,
   "labels": [

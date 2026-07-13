@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "What is the volume, in cubic inches, of a rectangular box, whose faces have areas of $24$ square inches, $16$ square inches and $6$ square inches?",
   "n_questions": 6,
   "labels": [

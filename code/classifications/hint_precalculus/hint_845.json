@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Joel selected an acute angle $x$ (strictly between 0 and 90 degrees) and wrote the values of $\\sin x$, $\\cos x$, and $\\tan x$ on three different cards.  Then he gave those cards to three students, Malvina, Paulina, and Georgina, one card to each, and asked them to figure out which trigonometric function (sin, cos, or tan) produced their cards.  Even after sharing the values on their cards with each other, only Malvina was able to surely identify which function produced the value on her card.  Compute the sum of all possible values that Joel wrote on Malvina's card.",
   "n_questions": 8,
   "labels": [

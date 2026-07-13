@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The length of a rectangle is three times its width. The perimeter is 160 cm. What is the number of square centimeters in the area of the rectangle?",
   "n_questions": 8,
   "labels": [

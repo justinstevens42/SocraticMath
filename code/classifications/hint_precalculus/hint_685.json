@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "On the complex plane, the parallelogram formed by the points 0, $z,$ $\\frac{1}{z},$ and $z + \\frac{1}{z}$ has area $\\frac{35}{37}.$  If the real part of $z$ is positive, let $d$ be the smallest possible value of $\\left| z + \\frac{1}{z} \\right|.$  Compute $d^2.$",
   "n_questions": 6,
   "labels": [

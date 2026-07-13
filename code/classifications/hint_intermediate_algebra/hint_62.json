@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The cubic polynomial\n\\[8x^3 - 3x^2 - 3x - 1 = 0\\]has a real root of the form $\\frac{\\sqrt[3]{a} + \\sqrt[3]{b} + 1}{c},$ where $a,$ $b,$ and $c$ are positive integers.  Find $a + b + c.$",
   "n_questions": 7,
   "labels": [

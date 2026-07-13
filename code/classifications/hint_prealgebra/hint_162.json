@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "A sorcerer is concocting a healing potion. In order to do so, he must have one of three roots, and one of five minerals. However, one of the minerals is incompatible with two of the roots. Otherwise, he does not foresee any complications with other combinations of roots and minerals. In how many ways can he brew his potion?",
   "n_questions": 6,
   "labels": [

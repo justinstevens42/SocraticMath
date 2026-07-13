@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "The function $f(x)$ satisfies\n\\[f(x) + f \\left( \\frac{x + 1}{1 - 3x} \\right) = x\\]for all $x \\neq \\frac{1}{3}.$  Find $f(2).$",
   "n_questions": 9,
   "labels": [

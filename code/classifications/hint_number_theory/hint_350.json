@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $N$ be the sum of the divisors of $200$. What is the largest prime factor of $N$?",
   "n_questions": 8,
   "labels": [

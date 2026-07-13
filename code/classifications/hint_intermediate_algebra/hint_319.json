@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Let $t$ be a parameter that varies over all real numbers.  Any parabola of the form\n\\[y = 3x^2 + tx - 2t\\]passes through a fixed point.  Find this fixed point.",
   "n_questions": 6,
   "labels": [

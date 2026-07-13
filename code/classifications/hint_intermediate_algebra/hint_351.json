@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Real numbers $a$ and $b$ are chosen with $1<a<b$ such that no triangle with positive area has side lengths $1, a,$ and $b$ or $\\tfrac{1}{b}, \\tfrac{1}{a},$ and $1$. What is the smallest possible value of $b$?",
   "n_questions": 10,
   "labels": [

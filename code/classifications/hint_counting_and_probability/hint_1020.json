@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "There are 5 yellow pegs, 4 red pegs, 3 green pegs, 2 blue pegs, and 1 orange peg to be placed on a triangular peg board. In how many ways can the pegs be placed so that no (horizontal) row or (vertical) column contains two or more pegs of the same color?  (Any two pegs of the same color are indistinguishable.)\n\n[asy]\ndraw((0,0)--(5.5,0)--(0,5.5)--cycle);\nfor (int i=0; i<5; ++i) {\ndot((0.5,i+0.5));\n}\nfor (int i=0; i<4; ++i) {\ndot((1.5,i+0.5));\n}\nfor (int i=0; i<3; ++i) {\ndot((2.5,i+0.5));\n}\nfor (int i=0; i<2; ++i) {\ndot((3.5, i+0.5));\n}\ndot((4.5,0.5));\n[/asy]",
   "n_questions": 14,
   "labels": [

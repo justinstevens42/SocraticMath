@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Simplify\n\\[\\frac{\\sin{10^\\circ}+\\sin{20^\\circ}}{\\cos{10^\\circ}+\\cos{20^\\circ}}.\\]Enter your answer is a trigonometric function evaluated at an integer, such as \"sin 7\".  (The angle should be positive and as small as possible.)",
   "n_questions": 8,
   "labels": [

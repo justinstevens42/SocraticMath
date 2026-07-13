@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Let $x,$ $y,$ and $z$ be angles such that\n\\begin{align*}\n\\cos x &= \\tan y, \\\\\n\\cos y &= \\tan z, \\\\\n\\cos z &= \\tan x.\n\\end{align*}Find the largest possible value of $\\sin x.$",
   "n_questions": 6,
   "labels": [

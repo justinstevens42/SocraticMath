@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "A real number $a$ is chosen randomly and uniformly from the interval $[-20, 18]$. Find the probability that the roots of the polynomial\n\\[x^4 + 2ax^3 + (2a - 2)x^2 + (-4a + 3)x - 2\\]are all real.",
   "n_questions": 10,
   "labels": [

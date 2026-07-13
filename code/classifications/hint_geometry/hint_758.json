@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "One of the five faces of the triangular prism shown here will be used as the base of a new pyramid. The numbers of exterior faces, vertices and edges of the resulting shape (the fusion of the prism and pyramid) are added. What is the maximum value of this sum?\n\n[asy]\ndraw((0,0)--(9,12)--(25,0)--cycle);\ndraw((9,12)--(12,14)--(28,2)--(25,0));\ndraw((12,14)--(3,2)--(0,0),dashed);\ndraw((3,2)--(28,2),dashed);\n[/asy]",
   "n_questions": 8,
   "labels": [

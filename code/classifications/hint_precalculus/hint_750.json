@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "A curve is described parametrically by\n\\[(x,y) = (2 \\cos t - \\sin t, 4 \\sin t).\\]The graph of the curve can be expressed in the form\n\\[ax^2 + bxy + cy^2 = 1.\\]Enter the ordered triple $(a,b,c).$",
   "n_questions": 7,
   "labels": [

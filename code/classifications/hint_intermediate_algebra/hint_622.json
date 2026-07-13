@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "For a certain hyperbola\n\\[\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1,\\]where $a > b,$ the angle between the asymptotes is $60^\\circ.$  Find $\\frac{a}{b}.$",
   "n_questions": 7,
   "labels": [

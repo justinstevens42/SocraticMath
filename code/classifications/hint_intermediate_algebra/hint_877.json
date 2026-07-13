@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "For what values of the constant $c$ does the graph of $f(x) = \\frac{x^2-x+c}{x^2+x-20}$ have exactly one vertical asymptote?\n\nEnter all possible values, separated by commas.",
   "n_questions": 8,
   "labels": [

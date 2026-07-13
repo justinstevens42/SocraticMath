@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "The projection of $\\begin{pmatrix} 0 \\\\ 1 \\\\ 4 \\end{pmatrix}$ onto a certain vector $\\mathbf{w}$ is $\\begin{pmatrix} 1 \\\\ -1/2 \\\\ 1/2 \\end{pmatrix}.$  Find the projection of $\\begin{pmatrix} 3 \\\\ 3 \\\\ -2 \\end{pmatrix}$ onto $\\mathbf{w}.$",
   "n_questions": 6,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Solve for $x$: $$2^x+6=3\\cdot2^x-26$$",
   "n_questions": 6,
   "labels": [

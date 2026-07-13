@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Jeremy made a Venn diagram showing the number of students in his class who own types of pets. There are 32 students in his class. In addition to the information in the Venn diagram, Jeremy knows half of the students have a dog, $\\frac{3}{8}$ have a cat, six have some other pet and five have no pet at all. How many students have all three types of pets (i.e. they have a cat and a dog as well as some other pet)? [asy]unitsize(50);\nimport graph;\npair A = (0,-1); pair B = (sqrt(3)/2,1/2); pair C = (-sqrt(3)/2,1/2);\ndraw(Circle(A,1.2) ^^ Circle(B,1.2) ^^ Circle(C,1.2));\nlabel(\"10\",A); label(\"2\",B); label(\"9\",C); label(\"$z$\",(0,0)); label(\"$w$\",(B+C)/2); label(\"$y$\",(A+B)/2); label(\"$x$\",(A+C)/2);\nlabel(\"Cats\",1.5C,C); label(\"Other Pets\",2B,C); label(\"Dogs\", 1.7A,A);[/asy]",
   "n_questions": 15,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $\\mathbf{a},$ $\\mathbf{b},$ and $\\mathbf{c}$ be three mutually orthogonal unit vectors, such that\n\\[\\mathbf{a} = p (\\mathbf{a} \\times \\mathbf{b}) + q (\\mathbf{b} \\times \\mathbf{c}) + r (\\mathbf{c} \\times \\mathbf{a})\\]for some scalars $p,$ $q,$ and $r,$ and $\\mathbf{a} \\cdot (\\mathbf{b} \\times \\mathbf{c}) = 1.$  Find $p + q + r.$",
   "n_questions": 9,
   "labels": [

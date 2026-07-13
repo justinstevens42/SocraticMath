@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $\\log_{4}3=x$. Then $\\log_{2}27=kx$. Find $k$.",
   "n_questions": 6,
   "labels": [

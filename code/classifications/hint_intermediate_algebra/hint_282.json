@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Let $x$ and $y$ be nonzero real numbers. Let $m$ and $M$ be the minimium value and maximum value of\n\\[\\frac{|x + y|}{|x| + |y|},\\]respectively.  Find $M - m.$",
   "n_questions": 6,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "If $a\\equiv 18\\pmod{42}$ and $b\\equiv 73\\pmod{42}$, then for what integer $n$ in the set $\\{100,101,102,\\ldots,140,141\\}$ is it true that $$a-b\\equiv n\\pmod{42}~?$$",
   "n_questions": 5,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "If $n = 2^{10} \\cdot 3^{14} \\cdot 5^{8}$, how many of the natural-number factors of $n$ are multiples of 150?",
   "n_questions": 7,
   "labels": [

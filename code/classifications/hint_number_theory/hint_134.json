@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $f(x) = x^2 - x + 2010$. What is the greatest common divisor of $f(100)$ and $f(101)$?",
   "n_questions": 7,
   "labels": [

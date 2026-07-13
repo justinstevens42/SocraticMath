@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "What is the greatest integer $x$ such that $|6x^2-47x+15|$ is prime?",
   "n_questions": 10,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "In the diagram below, $\\|\\overrightarrow{OA}\\| = 1,$ $\\|\\overrightarrow{OB}\\| = 1,$ and $\\|\\overrightarrow{OC}\\| = \\sqrt{2}.$  Also, $\\tan \\angle AOC = 7$ and $\\angle BOC = 45^\\circ.$\n\n[asy]\nunitsize(2 cm);\n\npair A, B, C, O;\n\nA = (1,0);\nB = (-0.6,0.8);\nC = (0.2,1.4);\nO = (0,0);\n\ndraw(O--A,Arrow(6));\ndraw(O--B,Arrow(6));\ndraw(O--C,Arrow(6));\n\nlabel(\"$A$\", A, E);\nlabel(\"$B$\", B, NW);\nlabel(\"$C$\", C, N);\nlabel(\"$O$\", O, S);\n[/asy]\n\nThere exist constants $m$ and $n$ so that\n\\[\\overrightarrow{OC} = m \\overrightarrow{OA} + n \\overrightarrow{OB}.\\]Enter the ordered pair $(m,n).$",
   "n_questions": 9,
   "labels": [

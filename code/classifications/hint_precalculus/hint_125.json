@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find the projection of $\\begin{pmatrix} 1 \\\\ 2 \\\\ 3 \\end{pmatrix}$ onto the plane $3x - y + 4z = 0.$",
   "n_questions": 7,
   "labels": [

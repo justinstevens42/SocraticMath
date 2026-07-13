@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "The nine points of this grid are equally spaced horizontally and vertically.  The distance between two neighboring points is 1 unit.  What is the area, in square units, of the region where the two triangles overlap?\n\n[asy]\nsize(80);\ndot((0,0)); dot((0,1));dot((0,2));dot((1,0));dot((1,1));dot((1,2));dot((2,0));dot((2,1));dot((2,2));\ndraw((0,0)--(2,1)--(1,2)--cycle, linewidth(0.6));\ndraw((2,2)--(0,1)--(1,0)--cycle, linewidth(0.6));\n[/asy]",
   "n_questions": 11,
   "labels": [

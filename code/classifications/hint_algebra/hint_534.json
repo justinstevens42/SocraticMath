@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "The 2007 AMC 10 will be scored by awarding $6$ points for each correct response, $0$ points for each incorrect response, and $1.5$ points for each problem left unanswered. After looking over the $25$ problems, Sarah has decided to attempt the first $22$ and leave only the last $3$ unanswered.\n\nHow many of the first $22$ problems must she solve correctly in order to score at least $100$ points?",
   "n_questions": 12,
   "labels": [

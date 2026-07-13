@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Determine the remainder when $(x^4-1)(x^2-1)$ is divided by $1+x+x^2$.",
   "n_questions": 10,
   "labels": [

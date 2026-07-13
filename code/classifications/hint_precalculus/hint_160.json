@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "For all values of $x$ for which it is defined, $f(x) = \\cot \\frac{x}{4} - \\cot x$ can be written as\n\\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{4} \\sin x}.\\]Find the value of $k.$",
   "n_questions": 6,
   "labels": [

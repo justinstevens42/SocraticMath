@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "The set of all solutions of the system $$\n\\begin{cases}\nx+y\\leq 3 \\\\\n2x+y\\geq 2 \\\\\nx\\geq 0 \\\\\ny\\geq 0\n\\end{cases}\n$$ is a quadrilateral region. Find the number of units in the length of the longest side. Express your answer in simplest radical form.",
   "n_questions": 7,
   "labels": [

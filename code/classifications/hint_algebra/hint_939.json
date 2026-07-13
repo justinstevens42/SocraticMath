@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "The graph of $y=ax^2+bx+c$ is given below, where $a$, $b$, and $c$ are integers.  Find $a$.\n\n[asy]\nsize(140);\nLabel f;\n\nf.p=fontsize(4);\n\nxaxis(-3,3,Ticks(f, 1.0));\n\nyaxis(-4,4,Ticks(f, 1.0));\n\nreal f(real x)\n\n{\n\nreturn -2x^2+4x+1;\n\n}\n\ndraw(graph(f,-.7,2.7),linewidth(1),Arrows(6));\n[/asy]",
   "n_questions": 10,
   "labels": [

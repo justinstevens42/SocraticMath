@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Let $x$ and $y$ be positive real numbers.  Find the minimum value of\n\\[\\frac{\\sqrt{(x^2 + y^2)(3x^2 + y^2)}}{xy}.\\]",
   "n_questions": 5,
   "labels": [

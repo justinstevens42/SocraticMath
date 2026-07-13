@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 1",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
   "problem": "Let $p$ and $q$ satisfy $pq=9$ and $p+q=6$. What is the value of $p^2 + q^2$?",
   "n_questions": 6,
   "labels": [

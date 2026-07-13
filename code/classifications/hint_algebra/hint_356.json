@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A sequence of three real numbers forms an arithmetic progression with a first term of 9. If 2 is added to the second term and 20 is added to the third term, the three resulting numbers form a geometric progression. What is the smallest possible value for the third term of the geometric progression?",
   "n_questions": 10,
   "labels": [

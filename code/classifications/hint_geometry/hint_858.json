@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "When each edge of a cube is increased by $50\\%$, by what percent is the surface area of the cube increased?",
   "n_questions": 9,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Determine the minimum possible value of the sum\n\\[\\frac{a}{2b} + \\frac{b}{4c} + \\frac{c}{8a},\\]where $a,$ $b,$ and $c$ are positive real numbers.",
   "n_questions": 7,
   "labels": [

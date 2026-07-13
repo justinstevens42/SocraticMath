@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $f(x) = \\frac{3}{9^x + 3}.$  Find\n\\[f \\left( \\frac{1}{1001} \\right) + f \\left( \\frac{2}{1001} \\right) + f \\left( \\frac{3}{1001} \\right) + \\dots + f \\left( \\frac{1000}{1001} \\right).\\]",
   "n_questions": 6,
   "labels": [

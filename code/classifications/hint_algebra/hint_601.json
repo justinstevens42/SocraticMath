@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Two parabolas are the graphs of the equations $y=3x^2+4x-5$ and $y=x^2+11$. Give all points where they intersect. List the points in order of increasing $x$-coordinate, separated by semicolons.",
   "n_questions": 6,
   "labels": [

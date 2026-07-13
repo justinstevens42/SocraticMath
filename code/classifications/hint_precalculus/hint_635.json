@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Compute\n\\[\\left( 1 + \\cos \\frac {\\pi}{8} \\right) \\left( 1 + \\cos \\frac {3 \\pi}{8} \\right) \\left( 1 + \\cos \\frac {5 \\pi}{8} \\right) \\left( 1 + \\cos \\frac {7 \\pi}{8} \\right).\\]",
   "n_questions": 6,
   "labels": [

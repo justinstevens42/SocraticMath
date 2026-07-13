@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Determine the number of solutions to\n\\[2\\sin^3 x - 5 \\sin^2 x + 2 \\sin x = 0\\]in the range $0 \\le x \\le 2 \\pi.$",
   "n_questions": 6,
   "labels": [

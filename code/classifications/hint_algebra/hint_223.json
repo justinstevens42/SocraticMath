@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "Evaluate $3x^y + 4y^x$ when $x=2$ and $y=3$.",
   "n_questions": 10,
   "labels": [

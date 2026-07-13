@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 2",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "If $a$ is the smallest positive two-digit multiple of $3$, and $b$ is the smallest positive three-digit multiple of $4$, then find $a+b$.",
   "n_questions": 8,
   "labels": [

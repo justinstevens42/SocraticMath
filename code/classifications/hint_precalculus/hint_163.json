@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "Find the inverse of the matrix\n\\[\\begin{pmatrix} 9 & 18 \\\\ -6 & -12 \\end{pmatrix}.\\]If the inverse does not exist, then enter the zero matrix.",
   "n_questions": 7,
   "labels": [

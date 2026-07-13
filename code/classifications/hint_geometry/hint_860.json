@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 3",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Let $n$ equal the number of sides in a regular polygon. For $3\\leq n < 10$, how many values of $n$ result in a regular polygon where the common degree measure of the interior angles is not an integer?",
   "n_questions": 6,
   "labels": [

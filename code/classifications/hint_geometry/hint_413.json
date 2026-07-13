@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "A semicircle of diameter 1 sits at the top of a semicircle of diameter 2, as shown. The shaded area inside the smaller semicircle and outside the larger semicircle is called a $\\textit{lune}$. Determine the area of this lune. Express your answer in terms of $\\pi$ and in simplest radical form.\n\n[asy]\nfill((0,2.73)..(1,1.73)--(-1,1.73)..cycle,gray(0.7));\ndraw((0,2.73)..(1,1.73)--(-1,1.73)..cycle,linewidth(0.7));\nfill((0,2)..(2,0)--(-2,0)..cycle,white);\ndraw((0,2)..(2,0)--(-2,0)..cycle,linewidth(0.7));\ndraw((-1,1.73)--(1,1.73),dashed);\nlabel(\"2\",(0,0),S);\nlabel(\"1\",(0,1.73),S);\n[/asy]",
   "n_questions": 7,
   "labels": [

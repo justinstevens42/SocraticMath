@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Find the sum of all positive real solutions  $x$ to the equation \\[2\\cos2x \\left(\\cos2x - \\cos{\\left( \\frac{2014\\pi^2}{x} \\right) } \\right) = \\cos4x - 1,\\]where $x$ is measured in radians.",
   "n_questions": 9,
   "labels": [

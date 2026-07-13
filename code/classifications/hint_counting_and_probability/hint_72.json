@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "There are 5 blue chips, 4 red chips and 3 yellow chips in a bag. One chip is drawn from the bag. That chip is placed back into the bag, and a second chip is drawn. What is the probability that the two selected chips are of different colors? Express your answer as a common fraction.",
   "n_questions": 7,
   "labels": [

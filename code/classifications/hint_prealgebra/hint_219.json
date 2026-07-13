@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Four points $B,$ $A,$ $E,$ and $L$ are on a straight line, as shown. The point $G$ is off the line so that $\\angle BAG = 120^\\circ$ and $\\angle GEL = 80^\\circ.$ If the reflex angle at $G$ is $x^\\circ,$ then what does $x$ equal?\n\n[asy]\ndraw((0,0)--(30,0),black+linewidth(1));\ndraw((10,0)--(17,20)--(15,0),black+linewidth(1));\ndraw((17,16)..(21,20)..(17,24)..(13,20)..(14.668,16.75),black+linewidth(1));\ndraw((17,16)..(21,20)..(17,24)..(13,20)..(14.668,16.75),Arrows);\nlabel(\"$B$\",(0,0),S);\nlabel(\"$A$\",(10,0),S);\nlabel(\"$E$\",(15,0),S);\nlabel(\"$L$\",(30,0),S);\nlabel(\"$G$\",(17,20),N);\nlabel(\"$120^\\circ$\",(10,0),NW);\nlabel(\"$80^\\circ$\",(15,0),NE);\nlabel(\"$x^\\circ$\",(21,20),E);\n[/asy]",
   "n_questions": 8,
   "labels": [

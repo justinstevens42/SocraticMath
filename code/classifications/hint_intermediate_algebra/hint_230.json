@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Consider the triangular array of numbers with 0, 1, 2, 3, $\\dots$ along the sides and interior numbers obtained by adding the two adjacent numbers in the previous row.  Rows 1 through 6 are shown.\n\n\\[\n\\begin{array}{ccccccccccc}\n& & & & & 0 & & & & & \\\\\n& & & & 1 & & 1 & & & & \\\\\n& & & 2 & & 2 & & 2 & & & \\\\\n& & 3 & & 4 & & 4 & & 3 & & \\\\\n& 4 & & 7 & & 8 & & 7 & & 4 & \\\\\n5 & & 11 & & 15 & & 15 & & 11 & & 5\n\\end{array}\n\\]Find the sum of the numbers in the 100th row.  Your answer should use exponential notation, in simplest form.",
   "n_questions": 13,
   "labels": [

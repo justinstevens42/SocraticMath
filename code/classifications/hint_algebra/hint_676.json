@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "If a rectangular prism has a length of $l$, a width of $w$, and a height of $h$, then the length of its diagonal is equal to $\\sqrt{l^2 + w^2 + h^2}$. Suppose $l = 3$ and $h = 12$; if the length of the diagonal is $13$, what is the width?",
   "n_questions": 9,
   "labels": [

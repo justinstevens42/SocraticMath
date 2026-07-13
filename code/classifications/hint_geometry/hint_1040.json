@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The area of an equilateral triangle is numerically equal to the length of one of its sides. What is the perimeter of the triangle, in units? Express your answer in simplest radical form.",
   "n_questions": 7,
   "labels": [

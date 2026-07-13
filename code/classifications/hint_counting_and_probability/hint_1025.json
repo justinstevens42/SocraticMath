@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Each of the nine dots in this figure is to be colored red, white or blue. No two dots connected by a segment (with no other dots between) may be the same color. How many ways are there to color the dots of this figure?\n\n[asy]\ndraw((-75,0)--(-45,0)--(-60,26)--cycle);\ndraw((0,0)--(30,0)--(15,26)--cycle);\ndraw((75,0)--(105,0)--(90,26)--cycle);\ndraw((-60,26)--(90,26));\ndraw((-45,0)--(75,0));\ndot((-75,0));\ndot((-45,0));\ndot((-60,26));\ndot((15,26));\ndot((0,0));\ndot((30,0));\ndot((90,26));\ndot((75,0));\ndot((105,0));\n[/asy]",
   "n_questions": 7,
   "labels": [

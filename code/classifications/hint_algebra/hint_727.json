@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Suppose that $f(x)=4x+5$. What is $f^{-1}(f^{-1}(9))$?",
   "n_questions": 7,
   "labels": [

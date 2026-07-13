@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "There is a unique two-digit positive integer $t$ for which the last two digits of $11\\cdot t$ are $36$.\n\nWhat is $t$?",
   "n_questions": 6,
   "labels": [

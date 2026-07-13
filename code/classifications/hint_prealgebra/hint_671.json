@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 1",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "A jar is filled with red, orange and yellow jelly beans.  The probability of randomly selecting a red jelly bean from this jar is $0.2$, and the probability of randomly selecting an orange jelly bean from this jar is $0.5$.  What is the probability of randomly selecting a yellow jelly bean from this jar?",
   "n_questions": 7,
   "labels": [

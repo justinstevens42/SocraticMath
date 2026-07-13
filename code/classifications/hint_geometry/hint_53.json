@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "A right circular cone is sliced into four pieces by planes parallel to its base, as shown in the figure. All of these pieces have the same height. What is the ratio of the volume of the second-largest piece to the volume of the largest piece? Express your answer as a common fraction.\n[asy]\nsize(150);\npair A, B, C, D, E, F, G, H, I, w, x, y, z;\nA=(0,0);\nB=(.25,.75);\nC=(.5,1.5);\nD=(.75,2.25);\nE=(1,3);\nF=(1.25,2.25);\nG=(1.5,1.5);\nH=(1.75,.75);\nI=(2,0);\nw=(A+I)/2;\nx=(B+H)/2;\ny=(C+G)/2;\nz=(D+F)/2;\ndraw(ellipse(w, 1, .25));\ndraw(ellipse(x, .75, .1875));\ndraw(ellipse(y, .5, .125));\ndraw(ellipse(z, .25, .0625));\ndraw(A--E--I);\n[/asy]",
   "n_questions": 10,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "The polynomial $P(x)$ is a monic, quartic polynomial with real coefficients, and two of its roots are $\\cos \\theta + i \\sin \\theta$ and $\\sin \\theta + i \\cos \\theta,$ where $0 < \\theta < \\frac{\\pi}{4}.$  When the four roots of $P(x)$ are plotted in the complex plane, they form a quadrilateral whose area is equal to half of $P(0).$  Find the sum of the four roots.",
   "n_questions": 9,
   "labels": [

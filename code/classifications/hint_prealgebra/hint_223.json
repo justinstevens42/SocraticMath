@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 1",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Bob's favorite number is between $50$ and $100$.  It is a multiple of $11$, but not a multiple of $2$.  The sum of its digits is a multiple of $3$.  What is Bob's favorite number?",
   "n_questions": 8,
   "labels": [

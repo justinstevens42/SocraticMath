@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Let $f(x)=x^2-2x$. What is the value of $f(f(f(f(f(f(-1))))))$?",
   "n_questions": 8,
   "labels": [

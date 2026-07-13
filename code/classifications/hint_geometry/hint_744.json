@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "In the diagram, triangles $ABC$ and $CBD$ are isosceles. The perimeter of $\\triangle CBD$ is $19,$ the perimeter of $\\triangle ABC$ is $20,$ and the length of $BD$ is $7.$ What is the length of $AB?$ [asy]\n\nsize(7cm);\ndefaultpen(fontsize(11));\n\npair b = (0, 0);\npair d = 7 * dir(-30);\npair a = 8 * dir(-140);\npair c = 6 * dir(-90);\n\ndraw(a--b--d--c--cycle);\ndraw(b--c);\n\nlabel(\"$y^\\circ$\", a, 2 * (E + NE));\nlabel(\"$y^\\circ$\", b, 2 * (S + SW));\nlabel(\"$x^\\circ$\", b, 2 * (S + SE));\nlabel(\"$x^\\circ$\", d, 2 * (2 * W));\n\nlabel(\"$A$\", a, W);\nlabel(\"$B$\", b, N);\nlabel(\"$D$\", d, E);\nlabel(\"$C$\", c, S);\n\n[/asy]",
   "n_questions": 10,
   "labels": [

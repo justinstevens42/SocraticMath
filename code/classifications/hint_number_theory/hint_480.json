@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Let $g(n)$ be the product of the proper positive integer divisors of $n$. (Recall that a proper divisor of $n$ is a divisor other than $n$.) For how many values of $n$ does $n$ not divide $g(n)$, given that $2 \\le n \\le 50$?",
   "n_questions": 6,
   "labels": [

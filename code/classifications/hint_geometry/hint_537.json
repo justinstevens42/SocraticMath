@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Two of the altitudes of an acute triangle divide the sides into segments of lengths $5,3,2$ and $x$ units, as shown. What is the value of $x$? [asy]\ndefaultpen(linewidth(0.7)); size(75);\npair A = (0,0);\npair B = (1,0);\npair C = (74/136,119/136);\npair D = foot(B, A, C);\npair E = /*foot(A,B,C)*/ (52*B+(119-52)*C)/(119);\ndraw(A--B--C--cycle);\ndraw(B--D);\ndraw(A--E);\ndraw(rightanglemark(A,D,B,1.2));\ndraw(rightanglemark(A,E,B,1.2));\nlabel(\"$3$\",(C+D)/2,WNW+(0,0.3));\nlabel(\"$5$\",(A+D)/2,NW);\nlabel(\"$2$\",(C+E)/2,E);\nlabel(\"$x$\",(B+E)/2,NE);\n[/asy]",
   "n_questions": 6,
   "labels": [

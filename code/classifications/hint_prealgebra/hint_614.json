@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "What is the greatest common factor of all two-digit palindromes?  (Note: A palindrome is a number that reads the same forwards as backwards.)",
   "n_questions": 6,
   "labels": [

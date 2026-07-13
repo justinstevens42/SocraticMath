@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "A particle is located on the coordinate plane at $(5,0)$. Define a ''move'' for the particle as a counterclockwise rotation of $\\frac{\\pi}{4}$ radians about the origin followed by a translation of $10$ units in the positive $x$-direction.  Find the particle's position after $150$ moves.",
   "n_questions": 11,
   "labels": [

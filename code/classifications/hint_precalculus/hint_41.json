@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Let $\\mathbf{a},$ $\\mathbf{b},$ and $\\mathbf{c}$ be unit vectors such that $\\mathbf{a} \\cdot \\mathbf{b} = \\mathbf{a} \\cdot \\mathbf{c} = 0,$ and the angle between $\\mathbf{b}$ and $\\mathbf{c}$ is $\\frac{\\pi}{4}.$  Then\n\\[\\mathbf{a} = k (\\mathbf{b} \\times \\mathbf{c})\\]for some constant $k.$  Enter all the possible values of $k,$ separated by commas.",
   "n_questions": 9,
   "labels": [

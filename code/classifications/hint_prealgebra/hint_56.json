@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "In convex pentagon $ABCDE$, angles $A$, $B$ and $C$ are congruent and angles $D$ and $E$ are congruent. If the measure of angle $A$ is 40 degrees less than the measure of angle $D$, what is the measure of angle $D$?",
   "n_questions": 10,
   "labels": [

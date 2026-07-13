@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Objects $A$ and $B$ move simultaneously in the coordinate plane via a sequence of steps, each of length one. Object $A$ starts at $(0,0)$ and each of its steps is either right or up, both equally likely. Object $B$ starts at $(5,7)$ and each of its steps is either left or down, both equally likely. Which of the following is closest to the probability that the objects meet?\n\nA. 0.10\n\nB. 0.15\n\nC. 0.20\n\nD. 0.25\n\nE. 0.30\n\n(Type the letter that corresponds to your answer.)",
   "n_questions": 10,
   "labels": [

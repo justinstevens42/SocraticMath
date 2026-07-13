@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Compute the smallest positive value of $x,$ in degrees, for which the function\n\\[f(x) = \\sin \\frac{x}{3} + \\sin \\frac{x}{11}\\]achieves its maximum value.",
   "n_questions": 10,
   "labels": [

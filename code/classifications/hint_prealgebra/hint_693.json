@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "I had $\\$30$ in allowance money and spent it as indicated in the pie graph shown. How many dollars did I spend on burgers?\n\n[asy]\nsize(150);\npair A, B, C, D, O, W, X, Y, Z;\nO=(0,0);\nA=(.707,.707);\nB=(-.966,.259);\nC=(-.707,-.707);\nD=(.342,-.940);\ndraw(Circle(O, 1));\ndraw(O--A);\ndraw(O--B);\ndraw(O--C);\ndraw(O--D);\nW=(-.1,.5);\nlabel(\"Movies\", W, N);\nlabel(\"$\\frac{1}{3}$\", W, S);\nX=(-.55, 0);\nlabel(\"Burgers\", X, S);\nY=(-.17,-.7);\nlabel(\"Ice Cream\", Y, N);\nlabel(\"$\\frac{1}{5}$\", Y, S);\nZ=(.5, -.15);\nlabel(\"Music\", Z, N);\nlabel(\"$\\frac{3}{10}$\", Z, S);\n[/asy]",
   "n_questions": 10,
   "labels": [

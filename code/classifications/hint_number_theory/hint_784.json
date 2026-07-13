@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 2",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
   "problem": "What is the least positive integer that has a remainder of 0 when divided by 2, a remainder of 1 when divided by 3, and a remainder of 2 when divided by 4?",
   "n_questions": 6,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Two siblings, Andy and Alexa, bake 24 cookies. Alexa eats some number of cookies that is a positive multiple of the number of cookies eaten by her brother. If the siblings finish all 24 cookies, then what is the maximum number of cookies that the brother, Andy, could have eaten?",
   "n_questions": 9,
   "labels": [

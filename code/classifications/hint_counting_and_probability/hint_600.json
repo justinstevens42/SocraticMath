@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "On the Saturday of a weekend softball tournament, Team A plays Team B and Team C plays Team D. Then on Sunday, the two Saturday winners play for first and second places while the two Saturday losers play for third and fourth places. There are no ties. One possible ranking of the team from first place to fourth place at the end of the tournament is the sequence ACBD. What is the total number of possible four-team ranking sequences at the end of the tournament?",
   "n_questions": 7,
   "labels": [

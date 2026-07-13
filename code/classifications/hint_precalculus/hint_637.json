@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "The solutions to the equation $(z+6)^8=81$ are connected in the complex plane to form a convex regular polygon, three of whose vertices are labeled $A,B,$ and $C$. What is the least possible area of triangle $ABC$?\n\nEnter your answer in the form $\\frac{a \\sqrt{b} - c}{d},$ and simplified as usual.",
   "n_questions": 7,
   "labels": [

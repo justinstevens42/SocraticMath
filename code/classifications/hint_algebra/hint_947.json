@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Suppose $f$ and $g$ are polynomials, and that $h(x)=f(g(x))+g(x)$.  Find the degree of $g(x)$ given that the degree of $h(x)$ is $6$ and the degree of $f(x)$ is $2$.",
   "n_questions": 6,
   "labels": [

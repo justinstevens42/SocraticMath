@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "The circles $C_1$ and $C_2$ are defined by the equations $x^2 + y^2 = 1$ and $(x - 2)^2 + y^2 = 16,$ respectively.  Find the locus of the centers $(a,b)$ of all circles externally tangent to $C_1$ and internally tangent to $C_2.$  Enter your answer in the form\n\\[Pa^2 + Qb^2 + Ra + Sb + T = 0,\\]where all the coefficients are integers, $P$ is positive, and $\\gcd(|P|,|Q|,|R|,|S|,|T|) = 1.$\n\nNote: The word \"locus\" is a fancy word for \"set\" in geometry, so \"the locus of the centers\" means \"the set of the centers\".",
   "n_questions": 17,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Let $x$, $y$, and $z$ be real numbers such that\n\\[\\cos x + \\cos y + \\cos z = \\sin x + \\sin y + \\sin z = 0.\\]Find the sum of all possible values of $\\cos 2x + \\cos 2y + \\cos 2z.$",
   "n_questions": 6,
   "labels": [

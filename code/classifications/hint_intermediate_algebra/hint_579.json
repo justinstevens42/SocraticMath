@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A line whose $y$-intercept is $(0,5)$ intersects the ellipse $9x^2 + 16y^2 = 144.$  Find all possible slopes of this line.",
   "n_questions": 7,
   "labels": [

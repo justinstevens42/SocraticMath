@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Compute\n\\[\\begin{pmatrix} 0 & c & -b \\\\ -c & 0 & a \\\\ b & -a & 0 \\end{pmatrix} \\begin{pmatrix} a^2 & ab & ac \\\\ ab & b^2 & bc \\\\ ac & bc & c^2 \\end{pmatrix}.\\]",
   "n_questions": 6,
   "labels": [

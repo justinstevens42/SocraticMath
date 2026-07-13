@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "Is $f(x) = \\frac{3}{2x^{6}-5}$ an even function, odd function, or neither?\n\nEnter \"odd\", \"even\", or \"neither\".",
   "n_questions": 9,
   "labels": [

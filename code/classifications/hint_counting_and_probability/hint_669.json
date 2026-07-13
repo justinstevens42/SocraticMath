@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A cube 4 units on each side is composed of 64 unit cubes. Two faces of the larger cube that share an edge are painted blue, and the cube is disassembled into 64 unit cubes. Two of the unit cubes are selected uniformly at random. What is the probability that one of two selected unit cubes will have exactly two painted faces while the other unit cube has no painted faces?",
   "n_questions": 7,
   "labels": [

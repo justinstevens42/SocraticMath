@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "How many positive perfect square integers are factors of the product $\\left(2^{10}\\right)\\left(3^{12}\\right)\\left(5^{15}\\right)$?",
   "n_questions": 8,
   "labels": [

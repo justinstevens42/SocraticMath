@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "The perpendicular bisectors of the sides of triangle $ABC$ meet its circumcircle at points $A',$ $B',$ and $C',$ as shown.  If the perimeter of triangle $ABC$ is 35 and the radius of the circumcircle is 8, then find the area of hexagon $AB'CA'BC'.$\n\n[asy]\nunitsize(2 cm);\n\npair A, B, C, Ap, Bp, Cp, O;\n\nO = (0,0);\nA = dir(210);\nB = dir(60);\nC = dir(330);\nAp = dir(15);\nBp = dir(270);\nCp = dir(135);\n\ndraw(Circle(O,1));\ndraw(A--B--C--cycle);\ndraw((B + C)/2--Ap);\ndraw((A + C)/2--Bp);\ndraw((A + B)/2--Cp);\n\nlabel(\"$A$\", A, A);\nlabel(\"$B$\", B, B);\nlabel(\"$C$\", C, C);\nlabel(\"$A'$\", Ap, Ap);\nlabel(\"$B'$\", Bp, Bp);\nlabel(\"$C'$\", Cp, Cp);\n[/asy]",
   "n_questions": 15,
   "labels": [

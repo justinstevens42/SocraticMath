@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "A line passes through the distinct vectors $\\mathbf{a}$ and $\\mathbf{b}.$  Then for a certain value of $k,$ the vector\n\\[k \\mathbf{a} + \\frac{3}{4} \\mathbf{b}\\]must also lie on the line.  Find $k.$",
   "n_questions": 7,
   "labels": [

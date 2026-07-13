@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Let $C$ be a point not on line $AE$ and $D$ a point on line $AE$ such that $CD \\perp AE.$ Meanwhile, $B$ is a point on line $CE$ such that $AB \\perp CE.$ If $AB = 4,$ $CD = 8,$ and $AE = 5,$ then what is the length of $CE?$",
   "n_questions": 7,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "The function $f : \\mathbb{R} \\to \\mathbb{R}$ satisfies\n\\[f(x) + 2f(1 - x) = 3x^2\\]for all $x.$  Find $f(4).$",
   "n_questions": 6,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $x$ be a positive integer such that $9x\\equiv 1\\pmod{25}$.\n\nWhat is the remainder when $11+x$ is divided by $25$?",
   "n_questions": 9,
   "labels": [

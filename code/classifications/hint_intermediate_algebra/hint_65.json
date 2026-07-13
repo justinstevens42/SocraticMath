@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Solve\n\\[\\sqrt{1 + \\sqrt{2 + \\sqrt{x}}} = \\sqrt[3]{1 + \\sqrt{x}}.\\]",
   "n_questions": 13,
   "labels": [

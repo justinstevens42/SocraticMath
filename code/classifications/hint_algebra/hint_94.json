@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "If the quadratic $x^2+4mx+m$ has exactly one real root, find the positive value of $m$.",
   "n_questions": 7,
   "labels": [

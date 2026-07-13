@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "A square and four circles, each with a radius of 5 inches, are arranged as shown. What is the area, in square inches, of the square? [asy]\nunitsize(1mm);\ndefaultpen(linewidth(0.7pt));\n\ndraw((0,0)--(20,0)--(20,20)--(0,20)--cycle);\ndraw(Circle((5,5),5));\ndraw(Circle((15,5),5));\ndraw(Circle((5,15),5));\ndraw(Circle((15,15),5));\n[/asy]",
   "n_questions": 8,
   "labels": [

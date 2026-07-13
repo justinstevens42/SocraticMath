@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "In the diagram, $l\\|k$. What is the number of degrees in $\\angle SRQ$? [asy]\ndraw((-.4,-.4)--(2,2)--(2,-.4));\ndraw((-.5,0)--(3,0),Arrows);\ndraw((-.5,1)--(3,1),Arrows);\ndraw((1.9,0)--(1.9,.1)--(2,.1));\nlabel(\"$S$\",(1,1),NNW);\nlabel(\"$R$\",(2,2),N);\nlabel(\"$Q$\",(2,1),NE);\nlabel(\"$l$\",(3,1),E);\nlabel(\"$k$\",(3,0),E);\nlabel(\"$130^{\\circ}$\",(1,1),SSE);\n[/asy]",
   "n_questions": 6,
   "labels": [

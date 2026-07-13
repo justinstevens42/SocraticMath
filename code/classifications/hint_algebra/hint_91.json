@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "What is the value of $b$ if $-x^2+bx-5<0$ only when $x\\in (-\\infty, 1)\\cup(5,\\infty)$?",
   "n_questions": 6,
   "labels": [

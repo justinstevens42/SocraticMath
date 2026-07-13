@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Cameron writes down the smallest positive multiple of 20 that is a perfect square, the smallest positive multiple of 20 that is a perfect cube, and all the multiples of 20 between them.  How many integers are in Cameron's list?",
   "n_questions": 10,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "How many ways are there to put 5 balls in 2 boxes if the balls are distinguishable but the boxes are not?",
   "n_questions": 10,
   "labels": [

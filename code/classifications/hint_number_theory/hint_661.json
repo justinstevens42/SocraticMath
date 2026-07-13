@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Two farmers agree that pigs are worth $\\$300$ and that goats are worth $\\$210$. When one farmer owes the other money, he pays the debt in pigs or goats, with ``change'' received in the form of goats or pigs as necessary. (For example, a $\\$390$ debt could be paid with two pigs, with one goat received in change.) What is the amount of the smallest positive debt that can be resolved in this way?",
   "n_questions": 6,
   "labels": [

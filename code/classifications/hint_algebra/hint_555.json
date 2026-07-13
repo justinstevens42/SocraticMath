@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Given that the point $(4,7)$ is on the graph of $y=f(x)$, there is one point that must be on the graph of $2y=3f(4x)+5$. What is the sum of the coordinates of that point?",
   "n_questions": 7,
   "labels": [

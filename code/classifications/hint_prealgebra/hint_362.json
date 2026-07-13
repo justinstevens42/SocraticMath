@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 3",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
   "problem": "For any positive integer $n$, the value of $n!$ is the product of the first $n$ positive integers.  For example, $4! = 4\\cdot 3\\cdot 2\\cdot 1 =24$.  What is the greatest common divisor of $5!$ and $7!$ ?",
   "n_questions": 7,
   "labels": [

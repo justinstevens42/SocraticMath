@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Given vectors $\\mathbf{a}$ and $\\mathbf{b}$ such that $\\|\\mathbf{a}\\| = 6,$ $\\|\\mathbf{b}\\| = 8,$ and $\\|\\mathbf{a} + \\mathbf{b}\\| = 11.$  Find $\\cos \\theta,$ where $\\theta$ is the angle between $\\mathbf{a}$ and $\\mathbf{b}.$",
   "n_questions": 6,
   "labels": [

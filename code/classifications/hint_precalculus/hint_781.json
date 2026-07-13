@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Determine the exact value of\n\\[\\sqrt{\\left( 2 - \\sin^2 \\frac{\\pi}{7} \\right) \\left( 2 - \\sin^2 \\frac{2 \\pi}{7} \\right) \\left( 2 - \\sin^2 \\frac{3 \\pi}{7} \\right)}.\\]",
   "n_questions": 8,
   "labels": [

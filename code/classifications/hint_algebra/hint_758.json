@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Given that\n\n\\begin{align*}\n\\frac{1}{x}+\\frac{1}{y}&=3,\\\\\nxy+x+y&=4,\n\\end{align*}\n\ncompute $x^2y+xy^2$.",
   "n_questions": 10,
   "labels": [

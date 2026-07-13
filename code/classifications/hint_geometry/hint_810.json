@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "In triangle $ABC$, $AB = 5$, $BC = 8$, and the length of median $AM$ is 4.  Find $AC$.",
   "n_questions": 6,
   "labels": [

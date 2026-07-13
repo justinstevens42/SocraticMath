@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "If $23=x^4+\\frac{1}{x^4}$, then what is the value of $x^2+\\frac{1}{x^2}$?",
   "n_questions": 9,
   "labels": [

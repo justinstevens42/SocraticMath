@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "In triangle $ABC$, $AB = 3$, $AC = 5$, and $BC = 4$.  The medians $AD$, $BE$, and $CF$ of triangle $ABC$ intersect at the centroid $G$.  Let the projections of $G$ onto $BC$, $AC$, and $AB$ be $P$, $Q$, and $R$, respectively.  Find $GP + GQ + GR$.\n\n[asy]\nimport geometry;\n\nunitsize(1 cm);\n\npair A, B, C, D, E, F, G, P, Q, R;\n\nA = (0,3);\nB = (0,0);\nC = (4,0);\nD = (B + C)/2;\nE = (C + A)/2;\nF = (A + B)/2;\nG = (A + B + C)/3;\nP = (G + reflect(B,C)*(G))/2;\nQ = (G + reflect(C,A)*(G))/2;\nR = (G + reflect(A,B)*(G))/2;\n\ndraw(A--B--C--cycle);\ndraw(A--G);\ndraw(B--G);\ndraw(C--G);\ndraw(G--P);\ndraw(G--Q);\ndraw(G--R);\n\nlabel(\"$A$\", A, dir(90));\nlabel(\"$B$\", B, SW);\nlabel(\"$C$\", C, SE);\nlabel(\"$G$\", G, SE);\nlabel(\"$P$\", P, S);\nlabel(\"$Q$\", Q, NE);\nlabel(\"$R$\", R, W);\n[/asy]",
   "n_questions": 8,
   "labels": [

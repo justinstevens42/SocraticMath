@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Let $P$ be a point inside triangle $ABC$ such that\n\\[\\overrightarrow{PA} + 2 \\overrightarrow{PB} + 3 \\overrightarrow{PC} = \\mathbf{0}.\\]Find the ratio of the area of triangle $ABC$ to the area of triangle $APC.$",
   "n_questions": 10,
   "labels": [

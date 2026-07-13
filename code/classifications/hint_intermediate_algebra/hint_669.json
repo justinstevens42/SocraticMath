@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Let $0 \\le a,$ $b,$ $c,$ $d \\le 1.$  Find the possible values of the expression\n\\[\\sqrt{a^2 + (1 - b)^2} + \\sqrt{b^2 + (1 - c)^2} + \\sqrt{c^2 + (1 - d)^2} + \\sqrt{d^2 + (1 - a)^2}.\\]",
   "n_questions": 10,
   "labels": [

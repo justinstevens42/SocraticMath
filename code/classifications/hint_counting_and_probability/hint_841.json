@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find the sum of all integers $k$ such that $\\binom{23}{4} + \\binom{23}{5} = \\binom{24}{k}$.",
   "n_questions": 8,
   "labels": [

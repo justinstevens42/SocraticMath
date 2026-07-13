@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "Let \\[f(x) =\n\\begin{cases}\n2x + 9 &\\text{if }x<-2, \\\\\n5-2x&\\text{if }x\\ge -2.\n\\end{cases}\n\\]Find $f(3).$",
   "n_questions": 10,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Each of five, standard, six-sided dice is rolled once. What is the probability that there is at least one pair but not a three-of-a-kind (that is, there are two dice showing the same value, but no three dice show the same value)?",
   "n_questions": 10,
   "labels": [

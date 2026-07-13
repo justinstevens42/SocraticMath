@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A point $P$ is randomly selected from the square region with vertices at $(\\pm 2, \\pm 2)$. What is the probability that $P$ is within one unit of the origin? Express your answer as a common fraction in terms of $\\pi$.",
   "n_questions": 8,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Find the leading coefficient in the polynomial $-3(x^4 - x^3 + x) + 7(x^4 + 2) - 4(2x^4 + 2x^2 + 1)$ after it is simplified.",
   "n_questions": 7,
   "labels": [

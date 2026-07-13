@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $a,b,$ and $c$ be real numbers such that \\[a + b + c = 2\\]and \\[a^2+b^2+c^2=12.\\]What is the difference between the maximum and minimum possible values of $c$?",
   "n_questions": 10,
   "labels": [

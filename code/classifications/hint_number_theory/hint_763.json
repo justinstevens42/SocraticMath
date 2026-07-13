@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "A particular fortune cookie lists four two-digit positive integers as your lucky numbers. The first three are 57, 13, and 72, but you got sauce on the last one and can't read it. If the sum of the digits of all four numbers equals $\\frac{1}{5}$ of the sum of all four numbers, what is the smallest possibility for the fourth lucky number?",
   "n_questions": 11,
   "labels": [

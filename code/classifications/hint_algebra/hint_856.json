@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find $a$ such that $ax^2+12x+9$ is the square of a binomial.",
   "n_questions": 10,
   "labels": [

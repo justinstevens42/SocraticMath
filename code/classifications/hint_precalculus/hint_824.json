@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Compute the least positive value of $t$ such that\n\\[\\arcsin (\\sin \\alpha), \\ \\arcsin (\\sin 2 \\alpha), \\ \\arcsin (\\sin 7 \\alpha), \\ \\arcsin (\\sin t \\alpha)\\]is a geometric progression for some $\\alpha$ with $0 < \\alpha < \\frac{\\pi}{2}.$",
   "n_questions": 6,
   "labels": [

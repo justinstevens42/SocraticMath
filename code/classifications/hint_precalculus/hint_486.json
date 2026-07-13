@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Let $\\mathbf{a} = \\begin{pmatrix} 3 \\\\ 1 \\end{pmatrix}$ and $\\mathbf{b} = \\begin{pmatrix} -5 \\\\ 2 \\end{pmatrix}.$  Find the area of the triangle with vertices $\\mathbf{0},$ $\\mathbf{a},$ and $\\mathbf{b}.$",
   "n_questions": 8,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Each successive term in the sequence $2048, 512, 128, x,\ny, 2, \\frac 12, \\frac 18,...$ is obtained by multiplying the previous term by a constant. What is the value of $x + y$?",
   "n_questions": 7,
   "labels": [

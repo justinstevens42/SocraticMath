@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "What is the matrix $\\mathbf{M}$ that performs the transformation which sends square $ABCD$ to square $A'B'C'D'$?  (In particular, $A$ goes to $A',$ and so on.)\n\n[asy]\n\nsize(200);\nimport graph;\n\npair Z=(0,0), A=(2,3), B=(-3,2), C=(-4,1), D=(-1,-4);\n\nLabel f; \nf.p=fontsize(6); \nxaxis(-1.5,1.5,Ticks(f, 1.0)); \nyaxis(-0.5,2.5,Ticks(f, 1.0));\n\ndraw((0,0)--(1,0)--(1,1)--(0,1)--(0,0),red);\ndot((0,0)); label(\"$A=A'$\", (0,0), SE);\ndot((1,0)); label(\"$D$\", (1,0), NE);\ndot((1,1)); label(\"$C=D'$\", (1,1), E);\ndot((0,1)); label(\"$B$\", (0,1), NE);\n\ndraw((0,0)--(1,1)--(0,2)--(-1,1)--(0,0), blue);\ndot((0,2)); label(\"$C'$\", (0,2), NE);\ndot((-1,1)); label(\"$B'$\", (-1,1), W);\n\n[/asy]",
   "n_questions": 8,
   "labels": [

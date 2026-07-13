@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Compute $i^{-100}+i^{-99}+i^{-98}+\\cdots+i^{-1}+i^0+i^1+\\cdots+i^{99}+i^{100}$.",
   "n_questions": 10,
   "labels": [

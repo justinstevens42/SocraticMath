@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Evaluate $(2-w)(2-w^2)\\cdots(2-w^{10})$ where $w=e^{2\\pi i/11}.$",
   "n_questions": 6,
   "labels": [

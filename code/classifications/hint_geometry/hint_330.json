@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "In right triangle $JKL$, angle $J$ measures 60 degrees and angle $K$ measures 30 degrees. When drawn, the angle bisectors of angles $J$ and $K$ intersect at a point $M$. What is the measure of obtuse angle $JMK$?\n\n[asy]\nimport geometry;\nimport olympiad;\nunitsize(0.8inch);\ndotfactor = 3;\ndefaultpen(linewidth(1pt)+fontsize(10pt));\n\npair J,K,L,M,U,V;\n\nJ = (0,0);\nK = (1,2);\nL = (1,0);\n\ndraw(J--K--L--cycle);\ndraw(rightanglemark(J,L,K,5));\n\nlabel(\"$J$\",J,W);\nlabel(\"$K$\",K,N);\nlabel(\"$L$\",L,E);\n\nU = (1,2/3);\nV = (2/(2+sqrt(3)),0);\n\ndraw(J--U);\ndraw(K--V);\n\nM = intersectionpoint(J--U,K--V);\ndot(\"M\",M,NW);\n[/asy]",
   "n_questions": 7,
   "labels": [

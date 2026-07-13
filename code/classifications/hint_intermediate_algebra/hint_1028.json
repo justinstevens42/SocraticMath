@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Let $m$ be the largest real solution to the equation\n\\[\\dfrac{3}{x-3} + \\dfrac{5}{x-5} + \\dfrac{17}{x-17} + \\dfrac{19}{x-19} = x^2 - 11x - 4\\]There are positive integers $a, b,$ and $c$ such that $m = a + \\sqrt{b + \\sqrt{c}}$. Find $a+b+c$.",
   "n_questions": 10,
   "labels": [

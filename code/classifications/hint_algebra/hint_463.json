@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Suppose that $f(x)$ and $g(x)$ are polynomials of degree $4$ and $5$ respectively.  What is the degree of $f(x^3) \\cdot g(x^2)$?",
   "n_questions": 8,
   "labels": [

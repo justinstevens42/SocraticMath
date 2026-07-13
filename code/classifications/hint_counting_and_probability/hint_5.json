@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "John draws a regular five pointed star in the sand, and at each of the 5 outward-pointing points and 5 inward-pointing points he places one of ten different sea shells. How many ways can he place the shells, if reflections and rotations of an arrangement are considered equivalent?",
   "n_questions": 11,
   "labels": [

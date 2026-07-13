@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Eleanor is making chocolate chip cookies for her friends. If she divides the cookies equally among $11$ of her friends, she'll have $4$ cookies left over. If she divides the cookies equally among $7$ of her friends, she'll have $1$ cookie left over. Assuming that Eleanor made fewer than $100$ cookies, what is the sum of the possible numbers of cookies that she could have made?",
   "n_questions": 7,
   "labels": [

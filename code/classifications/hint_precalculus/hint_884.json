@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Consider two lines: line $l$ parametrized as\n\\begin{align*} \nx &= 1 + 4t,\\\\\ny &=  4 + 3t\n\\end{align*}and the line $m$ parametrized as\n\\begin{align*} \nx &=-5  + 4s\\\\\ny &=  6 + 3s.\n\\end{align*}Let $A$ be a point on line $l$, $B$ be a point on line $m$, and let $P$ be the foot of the perpendicular from $A$ to line $m$.\n\nThen $\\overrightarrow{PA}$ is the projection of $\\overrightarrow{BA}$ onto some vector $\\begin{pmatrix} v_1\\\\v_2\\end{pmatrix}$ such that $v_1+v_2 = 2$. Find $\\begin{pmatrix}v_1 \\\\ v_2 \\end{pmatrix}$.",
   "n_questions": 14,
   "labels": [

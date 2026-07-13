@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "We have a standard deck of 52 cards, with 4 cards in each of 13 ranks.  We call a 5-card poker hand a full house if the hand has 3 cards of one rank and 2 cards of another rank (such as 33355 or AAAKK).  What is the probability that five cards chosen at random form a full house?",
   "n_questions": 9,
   "labels": [

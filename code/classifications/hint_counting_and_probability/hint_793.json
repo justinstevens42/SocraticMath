@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Dr. Math's four-digit house number $ABCD$ contains no zeroes and can be split into two different two-digit primes ``$AB$'' and ``$CD$'' where the digits $A$, $B$, $C$ and $D$ are not necessarily distinct. If each of the two-digit primes is less than 40, how many such house numbers are possible?",
   "n_questions": 9,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Point $A$ is at $(0, 0)$ and point $B$ is on the line $y = 4$. The slope of segment $AB$ is $\\frac{2}{3}$. What is the sum of the $x$- and $y$-coordinates of point $B$?",
   "n_questions": 7,
   "labels": [

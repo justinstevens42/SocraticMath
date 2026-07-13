@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "There are 12 ordered pairs of integers $(x,y)$ that satisfy $x^2 + y^2 = 25$. What is the greatest possible sum $x+y$?",
   "n_questions": 12,
   "labels": [

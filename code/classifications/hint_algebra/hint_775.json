@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "If $f(x)=\\sqrt{x-3}$, what is the smallest real number $x$ in the domain of $f(f(x))$?",
   "n_questions": 6,
   "labels": [

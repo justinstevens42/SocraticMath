@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Let $P(x)$ be a polynomial such that when $P(x)$ is divided by $x - 19,$ the remainder is 99, and when $P(x)$ is divided by $x - 99,$ the remainder is 19.  What is the remainder when $P(x)$ is divided by $(x - 19)(x - 99)$?",
   "n_questions": 6,
   "labels": [

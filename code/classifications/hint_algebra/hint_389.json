@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "A square is divided into nine smaller squares of equal area. The center square is then divided into nine smaller squares of equal area and the pattern continues indefinitely. What fractional part of the figure is shaded? [asy]\nimport olympiad; size(150); defaultpen(linewidth(0.8)); dotfactor=4;\nvoid drawSquares(int n){\n\ndraw((n,n)--(n,-n)--(-n,-n)--(-n,n)--cycle);\n\nfill((-n,n)--(-1/3*n,n)--(-1/3*n,1/3*n)--(-n,1/3*n)--cycle);\n\nfill((-n,-n)--(-1/3*n,-n)--(-1/3*n,-1/3*n)--(-n,-1/3*n)--cycle);\n\nfill((n,-n)--(1/3*n,-n)--(1/3*n,-1/3*n)--(n,-1/3*n)--cycle);\n\nfill((n,n)--(1/3*n,n)--(1/3*n,1/3*n)--(n,1/3*n)--cycle);\n}\n\ndrawSquares(81); drawSquares(27); drawSquares(9); drawSquares(3); drawSquares(1);\n[/asy]",
   "n_questions": 6,
   "labels": [

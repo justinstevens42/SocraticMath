@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "How many different positive three-digit integers can be formed using only the digits in the set $\\{2, 3, 5, 5, 5, 6, 6\\}$ if no digit may be used more times than it appears in the given set of available digits?",
   "n_questions": 10,
   "labels": [

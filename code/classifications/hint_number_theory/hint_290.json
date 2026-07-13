@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "For how many $n=2,3,4,\\ldots,99,100$ is the base-$n$ number $235236_n$ a multiple of $7$?",
   "n_questions": 12,
   "labels": [

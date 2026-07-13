@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Compute $i^{600} + i^{599} + \\cdots + i + 1$, where $i^2=-1$.",
   "n_questions": 8,
   "labels": [

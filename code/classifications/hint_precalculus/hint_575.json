@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Let $x$ and $y$ be distinct real numbers such that\n\\[\n\\begin{vmatrix} 1 & 4 & 9 \\\\ 3 & x & y \\\\ 3 & y & x \\end{vmatrix}\n= 0.\\]Find $x + y.$",
   "n_questions": 9,
   "labels": [

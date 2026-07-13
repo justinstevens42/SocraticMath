@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Rationalize the denominator of $\\displaystyle \\frac{1}{\\sqrt{2} + \\sqrt{3} + \\sqrt{7}}$, and write your answer in the form \\[\n\\frac{A\\sqrt{2} + B\\sqrt{3} + C\\sqrt{7} + D\\sqrt{E}}{F},\n\\]where everything is in simplest radical form and the fraction is in lowest terms, and $F$ is positive. What is $A + B + C + D + E + F$?",
   "n_questions": 7,
   "labels": [

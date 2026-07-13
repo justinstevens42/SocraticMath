@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Let $f(x)=|2\\{x\\}-1|$ where $\\{x\\}$ denotes the fractional part of $x$. The number $n$ is the smallest positive integer such that the equation \\[nf(xf(x))=x\\]has at least $2012$ real solutions. What is $n$?\n\nNote: the fractional part of $x$ is a real number $y=\\{x\\}$ such that $0\\le y<1$ and $x-y$ is an integer.",
   "n_questions": 8,
   "labels": [

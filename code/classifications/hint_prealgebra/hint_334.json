@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Points $A$, $B$, $C$ and $D$ are midpoints of the sides of the larger square.  If the larger square has area 60, what is the area of the smaller square? [asy]\npair a=(0,1),b=(1,0),c=(0,-1),d=(-1,0);\ndraw((-1,-1)--(-1,1)--(1,1)--(1,-1)--cycle);\ndraw(a--b--c--d--cycle);\nlabel(\"$A$\", a, N);\nlabel(\"$B$\", b, E);\nlabel(\"$C$\", c, S);\nlabel(\"$D$\", d, W);\n[/asy]",
   "n_questions": 7,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "The letter T is formed by placing two $2\\:\\text{inch}\\!\\times\\!4\\:\\text{inch}$ rectangles next to each other, as shown.  What is the perimeter of the T, in inches? [asy]\ndraw((1,0)--(3,0)--(3,4)--(4,4)--(4,6)--(0,6)--(0,4)--(1,4)--cycle);\n[/asy]",
   "n_questions": 6,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "The height of a ball when it is thrown off a cliff can be represented by the equation $h=45-7t-6t^2$, where $t$ is time in seconds. In how many seconds will the ball reach a height of 25 feet?",
   "n_questions": 8,
   "labels": [

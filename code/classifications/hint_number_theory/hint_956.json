@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "How many integers $n$ are there such that $3 \\leq n \\leq 10$ and $121_n$ (the number written as $121$ in base $n$) is a perfect square?",
   "n_questions": 6,
   "labels": [

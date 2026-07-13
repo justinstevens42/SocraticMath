@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 1",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "The side lengths of both triangles to the right are given in centimeters. What is the length of segment $AB$?\n\n[asy]\npair A,B,C,D,E,F,G;\n\nA=(0,0);\nB=12*dir(0);\nC=20*dir(120);\nD=8+B;\nE=D+6*dir(0);\nF=D+10*dir(120);\n\ndraw(A--B--C--cycle);\ndraw(D--E--F--cycle);\n\nlabel(\"A\",F,N);\nlabel(\"B\",E+(1.4,0));\nlabel(\"6\",.5*(A+B),S);\nlabel(\"14\",.5*(B+C),NE);\nlabel(\"10\",.5*(A+C),SW);\nlabel(\"\\small{$120^{\\circ}$}\",A,NE);\nlabel(\"3\",.5*(D+E),S);\nlabel(\"5\",.5*(D+F),SW);\nlabel(\"\\tiny{$120^{\\circ}$}\",D+(1.8,0.8));\n\n[/asy]",
   "n_questions": 6,
   "labels": [

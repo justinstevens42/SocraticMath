@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A parabola with equation  $y = x^2 + bx + c$ passes through the points $(2,3)$ and $(4,3)$. What is $c$?",
   "n_questions": 7,
   "labels": [

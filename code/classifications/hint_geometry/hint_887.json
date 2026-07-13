@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Given $DC = 7$, $CB = 8$, $AB = \\frac{1}{4}AD$, and $ED = \\frac{4}{5}AD$, find $FC$. Express your answer as a decimal.   [asy]\ndraw((0,0)--(-20,0)--(-20,16)--cycle);\ndraw((-13,0)--(-13,10.4));\ndraw((-5,0)--(-5,4));\ndraw((-5,0.5)--(-5+0.5,0.5)--(-5+0.5,0));\ndraw((-13,0.5)--(-13+0.5,0.5)--(-13+0.5,0));\ndraw((-20,0.5)--(-20+0.5,0.5)--(-20+0.5,0));\nlabel(\"A\",(0,0),E);\nlabel(\"B\",(-5,0),S);\nlabel(\"G\",(-5,4),N);\nlabel(\"C\",(-13,0),S);\nlabel(\"F\",(-13,10.4),N);\nlabel(\"D\",(-20,0),S);\nlabel(\"E\",(-20,16),N);\n[/asy]",
   "n_questions": 9,
   "labels": [

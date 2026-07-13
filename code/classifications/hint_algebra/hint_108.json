@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Krzysztof solved the quadratic equation $11x^2-44x-99=0$ by completing the square. In the process, he came up with the equivalent equation $$(x+r)^2 = s,$$where $r$ and $s$ are constants.\n\nWhat is $r+s$?",
   "n_questions": 6,
   "labels": [

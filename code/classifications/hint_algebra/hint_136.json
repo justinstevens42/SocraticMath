@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Given that $$(x+y+z)(xy+xz+yz)=25$$and that $$x^2(y+z)+y^2(x+z)+z^2(x+y)=7$$for real numbers $x$, $y$, and $z$, what is the value of $xyz$?",
   "n_questions": 12,
   "labels": [

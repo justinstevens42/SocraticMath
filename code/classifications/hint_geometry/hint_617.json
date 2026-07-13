@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Lisa, a child with strange requirements for her projects, is making a rectangular cardboard box with square bases. She wants the height of the box to be 3 units greater than the side of the square bases. What should the height be if she wants the surface area of the box to be at least 90 square units while using the least amount of cardboard?",
   "n_questions": 10,
   "labels": [

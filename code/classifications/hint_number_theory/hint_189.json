@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "For each positive integer $n$, let $n!$ denote the product $1\\cdot 2\\cdot 3\\cdot\\,\\cdots\\,\\cdot (n-1)\\cdot n$.\n\nWhat is the remainder when $9!$ is divided by $11$?",
   "n_questions": 6,
   "labels": [

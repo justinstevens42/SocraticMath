@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "You have $5$ red shirts, $5$ green shirts, $6$ pairs of pants, $8$ green hats and $8$ red hats, all of which are distinct. How many outfits can you make consisting of one shirt, one pair of pants, and one hat without having the same color of shirts and hats?",
   "n_questions": 10,
   "labels": [

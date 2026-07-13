@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The graph of the quadratic $y = ax^2 + bx + c$ is a parabola that passes through the points $(-1,7)$, $(5,7)$, and $(6,10)$.  What is the $x$-coordinate of the vertex of the parabola?",
   "n_questions": 8,
   "labels": [

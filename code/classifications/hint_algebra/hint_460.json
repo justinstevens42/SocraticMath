@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Let \\[f(x) = \\left\\{\n\\begin{array}{cl}\nax+3 & \\text{ if }x>0, \\\\\nab & \\text{ if }x=0, \\\\\nbx+c & \\text{ if }x<0.\n\\end{array}\n\\right.\\]If $f(2)=5$, $f(0)=5$, and $f(-2)=-10$, and $a$, $b$, and $c$ are nonnegative integers, then what is $a+b+c$?",
   "n_questions": 9,
   "labels": [

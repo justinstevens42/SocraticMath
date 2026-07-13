@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find the number of 10-tuples $(x_1, x_2, \\dots, x_{10})$ of real numbers such that\n\\[(1 - x_1)^2 + (x_1 - x_2)^2 + (x_2 - x_3)^2 + \\dots + (x_9 - x_{10})^2 + x_{10}^2 = \\frac{1}{11}.\\]",
   "n_questions": 8,
   "labels": [

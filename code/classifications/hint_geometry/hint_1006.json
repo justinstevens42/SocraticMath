@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "A scalene triangle has side lengths which are prime numbers and the  length of its perimeter is also prime. What is its smallest possible  perimeter?",
   "n_questions": 10,
   "labels": [

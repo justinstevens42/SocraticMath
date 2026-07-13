@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Alicia has $n$ candies, where $n$ is a positive integer with three digits. If she buys $5$ more, she will have a multiple of $8$. If she loses $8$, she will have a multiple of $5$. What is the smallest possible value of $n$?",
   "n_questions": 9,
   "labels": [

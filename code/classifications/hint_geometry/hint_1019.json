@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 2",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Regions I, II and III are bounded by squares. The perimeter of region I is 12 units and the perimeter of region II is 24 units. What is the ratio of the area of region I to the area of region III? Express your answer as a common fraction.\n\n[asy]\ndraw((0,0)--(9,0)--(9,9)--(0,9)--(0,0)--cycle,linewidth(2));\ndraw((9,0)--(15,0)--(15,6)--(9,6)--(9,0)--cycle,linewidth(2));\ndraw((9,6)--(12,6)--(12,9)--(9,9)--cycle,linewidth(2));\nlabel(\"III\",(4.5,4.5));\nlabel(\"II\",(12,3));\nlabel(\"I\",(10.5,7.5));\n[/asy]",
   "n_questions": 9,
   "labels": [

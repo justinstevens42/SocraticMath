@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "What is the product of the digits in the base 8 representation of $6543_{10}$?",
   "n_questions": 10,
   "labels": [

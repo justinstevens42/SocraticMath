@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Define a $\\it{good\\ word}$ as a sequence of letters that consists only of the letters $A$, $B$, and $C$ --- some of these letters may not appear in the sequence --- and in which $A$ is never immediately followed by $B$, $B$ is never immediately followed by $C$, and $C$ is never immediately followed by $A$. How many seven-letter good words are there?",
   "n_questions": 10,
   "labels": [

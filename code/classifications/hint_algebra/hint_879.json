@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "The expression $3y^2-y-24$ can be written as $(3y + a)(y + b),$ where $a$ and $b$ are integers. What is $a - b$?",
   "n_questions": 7,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The roots of the equation $2x^2-mx+n=0$ sum to 6 and multiply to 10. What is the value of $m+n$?",
   "n_questions": 9,
   "labels": [

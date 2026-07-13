@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Two different prime numbers between $4$ and $18$ are chosen. When their sum is subtracted from their product, which of the following numbers could be obtained? $$\n\\text A. \\ \\ 21 \\qquad \\text B. \\ \\ 60 \\qquad \\text C. \\ \\ 119 \\qquad \\text D. \\ \\ 180 \\qquad \\text E. \\ \\ 231\n$$",
   "n_questions": 10,
   "labels": [

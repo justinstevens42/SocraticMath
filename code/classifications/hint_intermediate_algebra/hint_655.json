@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "The numbers $a,$ $b,$ $c,$ $d$ are equal to 1, 2, 3, 4, in some order.  Find the largest possible value of\n\\[ab + bc + cd + da.\\]",
   "n_questions": 13,
   "labels": [

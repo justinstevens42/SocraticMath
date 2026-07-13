@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "The solid $S$ consists of the set of all points $(x,y,z)$ such that $|x| + |y| \\le 1,$ $|x| + |z| \\le 1,$ and $|y| + |z| \\le 1.$  Find the volume of $S.$",
   "n_questions": 8,
   "labels": [

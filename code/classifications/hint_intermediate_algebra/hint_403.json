@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Compute the unique positive integer $n$ such that\n\\[2 \\cdot 2^2 + 3 \\cdot 2^3 + 4 \\cdot 2^4 + \\dots + n \\cdot 2^n = 2^{n + 10}.\\]",
   "n_questions": 8,
   "labels": [

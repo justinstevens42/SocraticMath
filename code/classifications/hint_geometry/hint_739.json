@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Through a point on the hypotenuse of a right triangle, lines are drawn parallel to the legs of the triangle so that the triangle is divided into a square and two smaller right triangles. The area of one of the two small right triangles is $m$ times the area of the square. What is the ratio of the area of the other small right triangle to the area of the square?  Express your answer as a common fraction in terms of $m$.",
   "n_questions": 7,
   "labels": [

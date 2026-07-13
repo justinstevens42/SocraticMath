@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Let $f : \\mathbb{C} \\to \\mathbb{C} $ be defined by $ f(z) = z^2 + iz + 1 $. How many complex numbers $z $ are there such that $ \\text{Im}(z) > 0 $ and both the real and the imaginary parts of $f(z)$ are integers with absolute value at most $ 10 $?",
   "n_questions": 11,
   "labels": [

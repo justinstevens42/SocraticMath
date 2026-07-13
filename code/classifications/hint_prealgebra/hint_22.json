@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 3",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Which of the following statements are true?\n\nA.  3 is a factor of 18.\n\nB.  17 is a divisor of 187 but not of 52.\n\nC.  24 is neither a divisor of 72 nor 67.\n\nD.  13 is a divisor of 26 but not of 52.\n\nE.  8 is a factor of 160.\n\nWrite your answer with the letters in alphabetical order, separated by commas.  For example, if you think all five are true, you should type \"A,B,C,D,E\" (without the quotes).",
   "n_questions": 7,
   "labels": [

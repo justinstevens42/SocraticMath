@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "If $\\sum_{n = 0}^{\\infty}\\cos^{2n}\\theta = 5$, what is the value of $\\cos{2\\theta}$?",
   "n_questions": 8,
   "labels": [

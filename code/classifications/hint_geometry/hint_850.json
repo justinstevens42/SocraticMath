@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find the number of cubic centimeters in the volume of the cylinder formed by rotating a square with side length 14 centimeters about its vertical line of symmetry. Express your answer in terms of $\\pi$.",
   "n_questions": 10,
   "labels": [

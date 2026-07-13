@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "$k, a_2, a_3$ and $k, b_2, b_3$ are both nonconstant geometric sequences with different common ratios.  We have  $$a_3-b_3=3(a_2-b_2).$$Find the sum of the common ratios of the two sequences.",
   "n_questions": 8,
   "labels": [

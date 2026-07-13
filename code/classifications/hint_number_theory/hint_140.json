@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "In base $b$, there are exactly one hundred three-digit numbers whose digits are all distinct. (That's \"one hundred\" in the ordinary sense, $100_{10}$.)\n\nWhat is $b$?",
   "n_questions": 10,
   "labels": [

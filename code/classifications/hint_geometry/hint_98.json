@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "An equilateral triangle has two vertices at $(0,5)$ and $(8,5)$. If the third vertex is in the first quadrant, what is the y-coordinate? Express your answer in simplest radical form. [asy]\ndraw((-1,0)--(11,0),Arrows);\ndraw((0,-1)--(0,12),Arrows);\nfor(int i=0;i<11;++i)\n{draw((i,-0.1)--(i,0.1));}\nfor(int j=0;j<11;++j)\n{draw((-0.1,j)--(0.1,j));}\ndot((0,5));\ndot((8,5));\nlabel(\"(0,5)\",(0,5),W);\ndraw((0,5)--(8,5));\nlabel(\"(8,5)\",(8,5),E);\nsize(6cm);\n[/asy]",
   "n_questions": 8,
   "labels": [

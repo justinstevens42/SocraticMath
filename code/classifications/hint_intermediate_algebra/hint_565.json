@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Find the coefficient of $x^{70}$ in the expansion of\n\\[(x - 1)(x^2 - 2)(x^3 - 3) \\dotsm (x^{11} - 11)(x^{12} - 12).\\]",
   "n_questions": 9,
   "labels": [

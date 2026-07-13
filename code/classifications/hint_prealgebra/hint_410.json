@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 2",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $\\textrm{A}$ be a digit. If the 7-digit number $353808\\textrm{A}$ is divisible by 2, 3, 4, 5, 6, 8, and 9, then what is $\\textrm{A}$?",
   "n_questions": 9,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "On the island of Mumble, the Mumblian alphabet has only $5$ letters, and every word in the Mumblian language has no more than $3$ letters in it. How many words are possible? (A word can use a letter more than once, but $0$ letters does not count as a word.)",
   "n_questions": 10,
   "labels": [

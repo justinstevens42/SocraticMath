@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "$ABC$ is an equilateral triangle with sides equal to 2cm. $\\overline{BC}$ is extended its own length to $D$, and $E$ is the midpoint of $\\overline{AB}$. Suppose $\\overline{ED}$ meets $\\overline{AC}$ at $F$. Find the area of the quadrilateral $BEFC$ in square centimeters.\n\n[asy]\nsize(200);\ndraw( (0,0) -- (1/2, .866) --(1,0)--cycle); label(\"$B$\", (0,0), W); label(\"$C$\", (1,0), S); label( \"$A$\", (1/2, .866), N);\ndraw( (1/4 , .866/2)--(2,0)); label(\"$E$\", (1/4, .866/2), NW); label(\"$D$\", (2, 0), E); draw((0,0)-- (2,0));\npair t = intersectionpoint( (1/4 , .866/2)--(2,0), (1/2, .866) --(1,0));\nlabel(\"$F$\", t, NE);\n[/asy]",
   "n_questions": 7,
   "labels": [

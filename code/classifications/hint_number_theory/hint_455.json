@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "A certain integer has $4$ digits when written in base $8$. The same integer has $d$ digits when written in base $2$. What is the sum of all possible values of $d$?",
   "n_questions": 9,
   "labels": [

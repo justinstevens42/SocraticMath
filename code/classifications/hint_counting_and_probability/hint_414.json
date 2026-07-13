@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Two cards are dealt at random from a standard deck of 52 cards.  What is the probability that the first card is a King and the second card is a $\\heartsuit$?",
   "n_questions": 7,
   "labels": [

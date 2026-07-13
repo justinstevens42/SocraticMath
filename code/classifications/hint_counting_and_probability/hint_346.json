@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Lark has forgotten her locker combination. It is a sequence of three numbers, each in the range from 1 to 30, inclusive. She knows that the first number is odd, the second number is even, and the third number is a multiple of 3. How many combinations could possibly be Lark's?",
   "n_questions": 7,
   "labels": [

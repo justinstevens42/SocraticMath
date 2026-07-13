@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "If $f(x) = 3x+2$ and $g(x) = (x-1)^2$, what is $f(g(-2))$?",
   "n_questions": 6,
   "labels": [

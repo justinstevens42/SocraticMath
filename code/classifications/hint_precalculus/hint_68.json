@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $x$ be an angle such that $\\tan x = \\frac{a}{b}$ and $\\tan 2x = \\frac{b}{a + b}.$  Then the least positive value of $x$ equals $\\tan^{-1} k.$  Compute $k.$",
   "n_questions": 10,
   "labels": [

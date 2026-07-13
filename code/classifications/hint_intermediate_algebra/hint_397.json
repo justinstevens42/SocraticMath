@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 2",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "In the year 2001, the United States will host the International Mathematical Olympiad. Let $I$, $M$, and $O$ be distinct positive integers such that the product $I\\cdot M\\cdot O=2001$. What is the largest possible value of the sum $I+M+O$?",
   "n_questions": 8,
   "labels": [

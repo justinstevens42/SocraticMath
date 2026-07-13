@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "In tetrahedron $ABCD,$\n\\[\\angle ADB = \\angle ADC = \\angle BDC = 90^\\circ.\\]Also, $x = \\sin \\angle CAD$ and $y = \\sin \\angle CBD.$  Express $\\cos \\angle ACB$ in terms of $x$ and $y.$",
   "n_questions": 10,
   "labels": [

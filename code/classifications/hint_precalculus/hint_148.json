@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Find the range of the function\n\\[f(x) = \\left( \\arccos \\frac{x}{2} \\right)^2 + \\pi \\arcsin \\frac{x}{2} - \\left( \\arcsin \\frac{x}{2} \\right)^2 + \\frac{\\pi^2}{12} (x^2 + 6x + 8).\\]",
   "n_questions": 6,
   "labels": [

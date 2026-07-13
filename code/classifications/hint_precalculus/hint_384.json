@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Find the matrix $\\mathbf{M}$ such that\n\\[\\mathbf{M} \\begin{pmatrix} 1 & -4 \\\\ 3 & -2 \\end{pmatrix} = \\begin{pmatrix} -16 & -6 \\\\ 7 & 2 \\end{pmatrix}.\\]",
   "n_questions": 10,
   "labels": [

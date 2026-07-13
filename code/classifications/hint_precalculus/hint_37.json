@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "In a polar coordinate system, the midpoint of the line segment whose endpoints are $\\left( 8, \\frac{5 \\pi}{12} \\right)$ and $\\left( 8, -\\frac{3 \\pi}{12} \\right)$ is the point $(r, \\theta).$  Enter $(r, \\theta),$ where $r > 0$ and $0 \\le \\theta < 2 \\pi.$",
   "n_questions": 7,
   "labels": [

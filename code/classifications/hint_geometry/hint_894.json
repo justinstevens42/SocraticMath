@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "In triangle $ABC$, $AB$ is congruent to $AC$, the measure of angle $ABC$ is $72^{\\circ}$ and segment $BD$ bisects angle $ABC$ with point $D$ on side $AC$. If point $E$ is on side $BC$ such that segment $DE$ is parallel to side $AB$, and point $F$ is on side $AC$ such that segment $EF$ is parallel to segment $BD$, how many isosceles triangles are in the figure shown?\n\n[asy]\nsize(150);\ndraw((0,0)--(5,15)--(10,0)--cycle,linewidth(1));\ndraw((0,0)--(8,6)--(6.5,0)--(9.25,2.25),linewidth(1));\nlabel(\"B\",(0,0),W);\nlabel(\"A\",(5,15),N);\nlabel(\"D\",(8,6),E);\nlabel(\"E\",(7,0),S);\nlabel(\"F\",(9,3),E);\nlabel(\"C\",(10,0),E);\n\n[/asy]",
   "n_questions": 8,
   "labels": [

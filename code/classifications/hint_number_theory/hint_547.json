@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Find the sum of all positive integers such that their expression in base $7$ digits is the reverse of their expression in base $16$ digits. Express your answer in base $10$.",
   "n_questions": 7,
   "labels": [

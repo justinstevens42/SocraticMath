@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "A four-digit integer $m$ and the four-digit integer obtained by reversing the order of the digits of $m$ are both divisible by 45. If $m$ is divisible by 7, what is the greatest possible value of $m$?",
   "n_questions": 10,
   "labels": [

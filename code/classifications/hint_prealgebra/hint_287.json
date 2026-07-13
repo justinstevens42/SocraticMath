@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Sides $\\overline{AB}$ and $\\overline{EF}$ of regular hexagon $ABCDEF$ are extended to meet at point $P$. What is the degree measure of angle $P$?",
   "n_questions": 6,
   "labels": [

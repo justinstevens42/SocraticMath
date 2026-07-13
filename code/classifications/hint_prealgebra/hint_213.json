@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "A bookstore has a sale on days of the month that are multiples of 5 (such as June 5, June 10...). A shoe store has a sale every 6 days. The shoe store has a sale on July 3. How many times in July do the two stores have sales on the same date?",
   "n_questions": 4,
   "labels": [

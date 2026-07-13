@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "If $|x| + x + y = 10$ and $x + |y| - y = 12,$ find $x + y.$",
   "n_questions": 6,
   "labels": [

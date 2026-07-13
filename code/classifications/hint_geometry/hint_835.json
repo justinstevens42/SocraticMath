@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "What is the area enclosed by the graph of $|x| + |2y|$ = 10 shown here?\n\n[asy]\ndraw((0,-10)--(0,10),Arrows);\ndraw((-15,0)--(15,0),Arrows);\nlabel(\"$y$\",(0,10),NE);\nlabel(\"$x$\",(15,0),SE);\ndraw((10,0)--(0,5)--(-10,0)--(0,-5)--cycle);\n[/asy]",
   "n_questions": 8,
   "labels": [

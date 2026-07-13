@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Find the matrix $\\mathbf{M}$ such that\n\\[\\mathbf{M} \\begin{pmatrix} -3 & 4 & 0 \\\\ 5 & -7 & 0 \\\\ 0 & 0 & 1 \\end{pmatrix} = \\mathbf{I}.\\]",
   "n_questions": 10,
   "labels": [

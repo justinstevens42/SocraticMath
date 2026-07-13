@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Find the least positive four-digit solution to the following system of congruences. \\begin{align*}\n7x &\\equiv 21 \\pmod{14} \\\\\n2x+13 &\\equiv 16 \\pmod{9} \\\\\n-2x+1 &\\equiv x \\pmod{25} \\\\\n\\end{align*}",
   "n_questions": 14,
   "labels": [

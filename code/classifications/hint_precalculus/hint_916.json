@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Find the minimum value of\n\\[\\frac{\\sin^6 x + \\cos^6 x + 1}{\\sin^4 x + \\cos^4 x + 1}\\]over all real values $x.$",
   "n_questions": 7,
   "labels": [

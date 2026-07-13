@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The image of the point with coordinates $(1,1)$ under the reflection across the line $y=mx+b$ is the point with coordinates $(9,5)$.  Find $m+b$.",
   "n_questions": 10,
   "labels": [

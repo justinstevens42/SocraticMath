@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Four red candies and three green candies can be combined to make many different flavors. Flavors are different if the percent red is different, so 3 red / 0 green is the same flavor as 2 red / 0 green; and likewise 4 red / 2 green is the same flavor as 2 red / 1 green. If a flavor is to be made using some or all of the seven candies, how many different flavors are possible?",
   "n_questions": 8,
   "labels": [

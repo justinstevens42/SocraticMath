@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "In the trapezoid shown, the ratio of the area of triangle $ABC$ to the area of triangle $ADC$ is $7:3$. If $AB + CD = 210$ cm, how long is segment $\\overline{AB}$? [asy]\nimport olympiad; size(150); defaultpen(linewidth(0.8));\npair A = (0,0), B = (5,0), C = (3,2), D = (1,2);\ndraw(A--B--C--D--cycle--C);\nlabel(\"$A$\",A,SW); label(\"$B$\",B,SE); label(\"$C$\",C,NE); label(\"$D$\",D,NW);\n[/asy]",
   "n_questions": 10,
   "labels": [

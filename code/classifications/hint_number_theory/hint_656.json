@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "How many 0's are located to the right of the decimal point and before the first non-zero digit in the terminating decimal representation of $\\frac{1}{2^5\\cdot5^8}$?",
   "n_questions": 6,
   "labels": [

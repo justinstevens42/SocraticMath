@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "The equation \\[\\frac{x}{x+1} + \\frac{x}{x+2} = kx\\]has exactly two complex roots. Find all possible complex values for $k.$\n\nEnter all the possible values, separated by commas.",
   "n_questions": 6,
   "labels": [

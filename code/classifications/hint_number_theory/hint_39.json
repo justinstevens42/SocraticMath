@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find the least positive integer $x$ that satisfies $x+4609 \\equiv 2104 \\pmod{12}$.",
   "n_questions": 6,
   "labels": [

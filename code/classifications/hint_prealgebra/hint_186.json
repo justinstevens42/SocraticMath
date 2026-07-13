@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "Three positive integers $a,$ $b,$ and $x$ form an O'Hara triple $(a,b,x)$ if $\\sqrt{a}+\\sqrt{b}=x.$ For example, $(1,4,3)$ is an O'Hara triple because $\\sqrt{1}+\\sqrt{4}=3.$\n\nIf $(36,25,x)$ is an O'Hara triple, determine the value of $x.$",
   "n_questions": 6,
   "labels": [

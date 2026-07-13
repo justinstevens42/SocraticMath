@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Suppose that $p$ is prime and $1007_p+306_p+113_p+125_p+6_p=142_p+271_p+360_p$. How many possible values of $p$ are there?",
   "n_questions": 12,
   "labels": [

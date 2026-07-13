@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "In trapezoid $ABCD$, sides $\\overline{AB}$ and $\\overline{CD}$ are parallel, $\\angle A = 2\\angle D$, and $\\angle C = 3\\angle B$.  Find $\\angle B$.",
   "n_questions": 8,
   "labels": [

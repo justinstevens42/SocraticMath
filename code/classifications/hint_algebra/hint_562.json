@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 2",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Find the greatest value of $a$ such that $a^2-10a+21 \\le 0$.",
   "n_questions": 6,
   "labels": [

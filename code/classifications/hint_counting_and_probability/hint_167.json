@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "I have five apples and ten oranges. If a fruit basket must contain at least one piece of fruit, how many kinds of fruit baskets can I make?  (The apples are identical and the oranges are identical.  A fruit basket consists of some number of pieces of fruit, and it doesn't matter how the fruit are arranged in the basket.)",
   "n_questions": 12,
   "labels": [

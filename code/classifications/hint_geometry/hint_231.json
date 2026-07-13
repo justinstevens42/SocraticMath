@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 1",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "In the diagram, point $E$ lies on line segment $AB$, and triangles $AED$ and $BEC$ are isosceles. Also, $\\angle DEC$ is twice $\\angle ADE$. What is the measure of $\\angle EBC$ in degrees? [asy]\nimport olympiad;\nimport math;\n\nsize(7cm);\n\n// Draw triangles\npair a = (-2 * Cos(70), 0);\npair b = (1, 0);\npair c = dir(30);\npair d = dir(110);\npair e = (0, 0);\ndraw(a--d--e--cycle);\ndraw(e--b--c--cycle);\n\n// Labels\nlabel(\"$A$\", a, W); label(\"$B$\", b, E);\nlabel(\"$C$\", c, N); label(\"$D$\", d, N);\nlabel(\"$E$\", e, S); label(\"$70^\\circ$\", a, 2 * NE+ 0.5 * E);\n\n// Ticks\nadd(pathticks(a--d, s=2));\nadd(pathticks(d--e, s=2));\nadd(pathticks(e--c, 2, spacing=0.7, s=2));\nadd(pathticks(e--b, 2, spacing=0.7, s=2));\n[/asy]",
   "n_questions": 10,
   "labels": [

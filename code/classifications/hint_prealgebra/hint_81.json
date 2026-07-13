@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The isosceles triangle and the square shown here have the same area in square units. What is the height of the triangle, $h$, in terms of the side length of the square, $s$?\n\n[asy]\ndraw((0,0)--(0,10)--(10,10)--(10,0)--cycle);\nfill((0,0)--(17,5)--(0,10)--cycle,white);\ndraw((0,0)--(17,5)--(0,10)--cycle);\nlabel(\"$s$\",(5,10),N);\nlabel(\"$h$\",(6,5),N);\ndraw((0,5)--(17,5),dashed);\ndraw((0,5.5)--(0.5,5.5)--(0.5,5));\n[/asy]",
   "n_questions": 8,
   "labels": [

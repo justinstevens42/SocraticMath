@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "A relatively prime date is a date for which the number of the month and the number of the day are relatively prime. For example, June 17 is a relatively prime date because the greatest common factor of 6 and 17 is 1. How many relatively prime dates are in the month with the fewest relatively prime dates?",
   "n_questions": 10,
   "labels": [

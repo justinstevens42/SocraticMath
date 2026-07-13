@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 2",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
   "problem": "Suppose $77\\cdot 88\\cdot 99 \\equiv n\\pmod{20}$, where $0\\le n<20$.\n\nWhat is the value of $n$?",
   "n_questions": 7,
   "labels": [

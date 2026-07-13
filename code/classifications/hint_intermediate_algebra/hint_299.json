@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "When $p(x) = Ax^5 + Bx^3 + Cx + 4$ is divided by $x - 3,$ the remainder is 11.  Find the remainder when $p(x)$ is divided by $x + 3.$",
   "n_questions": 6,
   "labels": [

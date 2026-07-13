@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "The set of vectors $\\mathbf{v}$ such that\n\\[\\mathbf{v} \\cdot \\mathbf{v} = \\mathbf{v} \\cdot \\begin{pmatrix} 10 \\\\ -40 \\\\ 8 \\end{pmatrix}\\]forms a solid in space.  Find the volume of this solid.",
   "n_questions": 7,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "A right circular cone is inscribed in a right prism as shown. What is the ratio of the volume of the cone to the volume of the prism? Express your answer as a common fraction in terms of $\\pi$. [asy]\nimport three; import graph3;\ndefaultpen(linewidth(0.8));\nsize(200);\ndraw((0,0,0)--(1,0,0)--(1,1,0)--(0,1,0)--cycle);\ndraw((0,0,1)--(1,0,1)--(1,1,1)--(0,1,1)--cycle);\ndraw((0,0,0)--(0,0,1)); draw((1,0,0)--(1,0,1)); draw((1,1,0)--(1,1,1)); draw((0,1,0)--(0,1,1));\ndraw(Circle((0.5,0.5,0),0.5),dashed);\ndraw((0.5,0.5,1)--(0.5,0,0),dashed); draw((0.5,0.5,1)--(0.5,1,0),dashed); draw((0.5,0.5,1)--(1,0.5,0),dashed); draw((0.5,0.5,1)--(0,0.5,0),dashed);\n[/asy]",
   "n_questions": 8,
   "labels": [

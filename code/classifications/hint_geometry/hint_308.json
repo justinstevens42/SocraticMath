@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "A frustum of a right circular cone is formed by cutting a small cone off of the top of a larger cone. If a particular frustum has a lower base radius of 6 inches, an upper base radius of 3 inches, and a height of 4 inches, what is its lateral surface area?  (The lateral surface area of a cone or frustum is the curved surface excluding the base(s).)\n\n[asy]size(200);\nimport three; defaultpen(linewidth(.8)); currentprojection = orthographic(0,-3,0.5); pen dots = linetype(\"0 3\") + linewidth(1);\nreal h = 2.3, ratio = (91-24)/(171-24);\npicture p1, p2; /* p1 is left-hand picture */\ntriple A = (0,0,0), B = (0,0,h); draw(p1,(-1,0,0)..(0,-1,0)..(1,0,0)); draw(p1,(-1,0,0)..(0,1,0)..(1,0,0),dots); draw(p1,(-1,0,0)--B--(1,0,0));\nadd(p1);\n\ntriple vlift = (0,0,0.5);\n\npath3 toparc1 = shift((0,0,h*(1-ratio)))*scale3(ratio)*((-1,0,0)..(0,1,0)..(1,0,0)), toparc2 = shift((0,0,h*(1-ratio)))*scale3(ratio)*((1,0,0)..(0,-1,0)..(-1,0,0));\ndraw(p2,(-1,0,0)..(0,-1,0)..(1,0,0)); draw(p2,(-1,0,0)..(0,1,0)..(1,0,0),dots);\n\ndraw(p2,(-1,0,0)--ratio*(-1,0,0)+(1-ratio)*B^^ratio*(1,0,0)+(1-ratio)*B--(1,0,0));\n\ndraw(p2,shift(vlift)*(ratio*(-1,0,0)+(1-ratio)*B--B--ratio*(1,0,0)+(1-ratio)*B));\n\ndraw(p2,toparc1--toparc2); draw(p2,shift(vlift)*toparc1,dots); draw(p2,shift(vlift)*toparc2);\n\ndraw(p2,shift(vlift)*((1-ratio)*B--B),linewidth(0.7)); dot(p2,shift(vlift)*((1-ratio)*B),linewidth(1.5));\nlabel(p2,\"frustum\",(0,0,h/4));\n\nadd(shift((3.4,0,0))*p2);\n\n[/asy]",
   "n_questions": 10,
   "labels": [

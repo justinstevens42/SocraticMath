@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
   "problem": "There are infinitely many positive integers $k$ which satisfy the equation\n\\[\\cos^2 (k^2 + 6^2)^\\circ = 1.\\]Enter the two smallest solutions, separated by commas.",
   "n_questions": 6,
   "labels": [

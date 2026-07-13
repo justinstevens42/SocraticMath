@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Express $249_{11}+3AB_{12}$ as a base 10 integer. Here $A$ and $B$ denote the digits whose values are 10 and 11, respectively, in base 12.",
   "n_questions": 6,
   "labels": [

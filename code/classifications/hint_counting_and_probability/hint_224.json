@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Two fair, six-sided dice are rolled.  What is the probability that the sum of the two numbers showing is less than 11?",
   "n_questions": 11,
   "labels": [

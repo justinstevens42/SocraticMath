@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "The lengths of two sides of a triangle are 33 units and 42 units. The third side also has an integral length. What is the least possible number of units in the perimeter of the triangle?",
   "n_questions": 6,
   "labels": [

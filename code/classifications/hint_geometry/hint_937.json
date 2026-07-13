@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A square has sides of length 10, and a circle centered at one of its vertices has radius 10.  What is the area of the union of the regions enclosed by the square and the circle? Express your answer in terms of $\\pi$.",
   "n_questions": 14,
   "labels": [

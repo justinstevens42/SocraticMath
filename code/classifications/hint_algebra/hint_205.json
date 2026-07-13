@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The center of the circle with equation $x^2+y^2=8x-6y-20$ is the point $(x,y)$. What is $x+y$?",
   "n_questions": 7,
   "labels": [

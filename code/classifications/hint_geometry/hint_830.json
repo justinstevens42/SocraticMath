@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Point $D$ lies on side $AC$ of equilateral triangle $ABC$ such that the measure of angle $DBC$ is $45$ degrees. What is the ratio of the area of triangle $ADB$ to the area of triangle $CDB$? Express your answer as a common fraction in simplest radical form.",
   "n_questions": 10,
   "labels": [

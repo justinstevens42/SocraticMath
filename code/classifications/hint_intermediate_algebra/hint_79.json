@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $z$ be a complex number such that\n\\[z^2 + |z|^2 = 3 - 5i.\\]Find $|z|^2.$",
   "n_questions": 7,
   "labels": [

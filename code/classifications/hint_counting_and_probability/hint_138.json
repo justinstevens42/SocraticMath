@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "If I roll a fair, regular six-sided die four times, what is the probability that I will roll the number $1$ exactly three times?",
   "n_questions": 9,
   "labels": [

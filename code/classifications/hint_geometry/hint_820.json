@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 2",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Compute $\\tan (-3645^\\circ)$.",
   "n_questions": 10,
   "labels": [

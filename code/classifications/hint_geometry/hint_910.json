@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Quadrilateral $ABCD$ has right angles at $B$ and $D$, and $AC=3$. If $ABCD$ has two sides with distinct integer lengths, then what is the area of $ABCD$? Express your answer in simplest radical form.",
   "n_questions": 10,
   "labels": [

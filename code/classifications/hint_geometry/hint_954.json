@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "A can is in the shape of a right circular cylinder. The circumference of the base of the can is 12 inches, and the height of the can is 5 inches. A spiral strip is painted on the can in such a way that it winds around the can exactly once as it reaches from the bottom of the can to the top. It reaches the top of the can directly above the spot where it left the bottom. What is the length in inches of the stripe? [asy]\n\nsize(120);\ndraw(shift(1.38,0)*yscale(0.3)*Circle((0,0), .38));\n\ndraw((1,0)--(1,-2));\ndraw((1.76,0)--(1.76,-2));\n\ndraw((1,-2)..(1.38,-2.114)..(1.76,-2));\npath p =(1.38,-2.114)..(1.74,-1.5)..(1,-0.5)..(1.38,-.114);\npair a=(1.38,-2.114), b=(1.76,-1.5);\npath q =subpath(p, 1, 2);\npath r=subpath(p,0,1);\npath s=subpath(p,2,3);\ndraw(r);\ndraw(s);\ndraw(q, dashed);\n\nlabel(\"$5$\",midpoint((1.76,0)--(1.76,-2)),E);\n\n[/asy]",
   "n_questions": 10,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "In triangle $ABC$, $AB = 10$ and $AC = 17$.  Let $D$ be the foot of the perpendicular from $A$ to $BC$.  If $BD:CD = 2:5$, then find $AD$.",
   "n_questions": 6,
   "labels": [

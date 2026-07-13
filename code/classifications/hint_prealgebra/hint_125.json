@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The length of a rectangle is increased by $25\\%$, but the width of the rectangle is decreased to keep the area of the rectangle  unchanged.  By what percent was the rectangle's width  decreased?",
   "n_questions": 11,
   "labels": [

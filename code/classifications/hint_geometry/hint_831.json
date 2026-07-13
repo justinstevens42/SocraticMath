@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "In right triangle $ABC$ with $\\angle A = 90^\\circ$, we have $AB = 6$ and $BC = 10$.  Find $\\cos C$.",
   "n_questions": 9,
   "labels": [

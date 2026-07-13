@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "What is the modulo $5$ remainder of the sum $1+2+3+4+5+ \\ldots + 120+121+122+123?$",
   "n_questions": 6,
   "labels": [

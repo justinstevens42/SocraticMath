@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "A two-row triangle is created with a total of 15 pieces: nine unit rods and six connectors, as shown. What is the total number of pieces that would be used to create an eight-row triangle?\n\n[asy]\ndraw((0,0)--(4,0)--(2,2sqrt(3))--(0,0)--cycle,linewidth(1));\ndraw((2,0)--(3,sqrt(3))--(1,sqrt(3))--(2,0)--cycle,linewidth(1));\n\ndot((0,0));\ndot((2,0));\ndot((4,0));\ndot((1,sqrt(3)));\ndot((3,sqrt(3)));\ndot((2,2sqrt(3)));\n\nlabel(\"Row 2\",(-1,1));\nlabel(\"Row 1\",(0,2.5));\n\ndraw((3.5,2sqrt(3))--(2.2,2sqrt(3)),Arrow);\ndraw((4,2.5)--(2.8,2.5),Arrow);\n\nlabel(\"connector\",(5,2sqrt(3)));\nlabel(\"unit rod\",(5.5,2.5));\n[/asy]",
   "n_questions": 10,
   "labels": [

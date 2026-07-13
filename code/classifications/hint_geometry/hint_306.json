@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "The angles of quadrilateral $ABCD$ satisfy  $\\angle A = 2\\angle B =\n3\\angle C = 4\\angle D$.  What is the degree measure of $\\angle A$, rounded to the nearest whole number?",
   "n_questions": 8,
   "labels": [

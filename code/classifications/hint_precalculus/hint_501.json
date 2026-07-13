@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Find the matrix $\\mathbf{M}$ if it satisfies $\\mathbf{M} \\mathbf{i} = \\begin{pmatrix} 2 \\\\ 3 \\\\ -8 \\end{pmatrix},$ $\\mathbf{M} \\mathbf{j} = \\begin{pmatrix} 0 \\\\ 5 \\\\ -2 \\end{pmatrix},$ and $\\mathbf{M} \\mathbf{k} = \\begin{pmatrix} 7 \\\\ -1 \\\\ 4 \\end{pmatrix}.$",
   "n_questions": 7,
   "labels": [

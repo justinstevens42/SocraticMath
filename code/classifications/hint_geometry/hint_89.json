@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "In the diagram below, $WXYZ$ is a trapezoid such that $\\overline{WX}\\parallel \\overline{ZY}$ and $\\overline{WY}\\perp\\overline{ZY}$.  If $YZ = 12$, $\\tan Z = 1.5$, and $\\tan X = 2$, then what is $XY$?\n\n[asy]\n\npair WW,X,Y,Z;\n\nZ = (0,0);\n\nY = (12,0);\n\nWW = (12,18);\n\nX= (18,18);\n\ndraw(WW--X--Y--Z--WW);\n\nlabel(\"$W$\",WW,N);\n\nlabel(\"$X$\",X,N);\n\nlabel(\"$Y$\",Y,S);\n\nlabel(\"$Z$\",Z,S);\n\n[/asy]",
   "n_questions": 7,
   "labels": [

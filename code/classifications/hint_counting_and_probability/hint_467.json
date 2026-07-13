@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 2",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "There are two colors Jessica can use to color this 2 by 2 grid. If non-overlapping regions that share a side cannot be the same color, how many possible ways are there for Jessica to color the grid?\n\n[asy]\nsize(101);\ndraw(unitsquare);\ndraw((0,.5)--(1,.5));\ndraw((.5,0)--(.5,1));\nlabel(\"$A$\",(0,1),NW); label(\"$B$\",(1,1),NE); label(\"$C$\",(1,0),SE); label(\"$D$\",(0,0),SW);\n[/asy]",
   "n_questions": 6,
   "labels": [

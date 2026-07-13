@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "The graph of $y=\\frac{5x^2-9}{3x^2+5x+2}$ has vertical asymptotes at $x = a$ and $x = b$.  Find $a + b$.",
   "n_questions": 8,
   "labels": [

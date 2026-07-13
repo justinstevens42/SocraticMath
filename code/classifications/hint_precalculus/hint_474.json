@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "What is the smallest positive integer $n$ such that all the roots of $z^4 - z^2 + 1 = 0$ are $n^{\\text{th}}$ roots of unity?",
   "n_questions": 10,
   "labels": [

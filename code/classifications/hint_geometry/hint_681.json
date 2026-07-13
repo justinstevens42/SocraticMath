@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 1",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "In the diagram, $RSP$ is a straight line and $\\angle QSP = 80^\\circ$.  What is the measure of $\\angle PQR$, in degrees?\n\n[asy]\ndraw((.48,-.05)--(.48,.05)); draw((.52,-.05)--(.52,.05)); draw((1.48,-.05)--(1.48,.05)); draw((1.52,-.05)--(1.52,.05));\n\ndraw((1.04,.51)--(1.14,.49)); draw((1.03,.47)--(1.13,.45));\ndraw((0,0)--(2,0)--(1.17,.98)--cycle);\nlabel(\"$P$\",(2,0),SE); label(\"$R$\",(0,0),SW); label(\"$Q$\",(1.17,.98),N);\n\nlabel(\"$80^\\circ$\",(1,0),NE);\n\nlabel(\"$S$\",(1,0),S);\ndraw((1,0)--(1.17,.98));\n[/asy]",
   "n_questions": 6,
   "labels": [

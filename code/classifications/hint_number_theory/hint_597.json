@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 3",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "You recently bought more than 100 eggs. The eggs are sorted in containers that can store exactly 12 eggs. However, upon inspecting the containers, you realize that two containers each hold only 11 eggs, while all the other containers hold 12 eggs. What is the smallest number of eggs you could have right now?",
   "n_questions": 8,
   "labels": [

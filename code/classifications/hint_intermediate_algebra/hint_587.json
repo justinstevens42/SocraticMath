@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $a,$ $b,$ $c$ be distinct complex numbers such that\n\\[\\frac{a}{1 - b} = \\frac{b}{1 - c} = \\frac{c}{1 - a} = k.\\]Find the sum of all possible values of $k.$",
   "n_questions": 6,
   "labels": [

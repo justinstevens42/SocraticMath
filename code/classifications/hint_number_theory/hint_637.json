@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 2",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Every bag of Dummies (a chocolate candy) contains the same number of pieces.\n\nThe Dummies in one bag can't be divided equally among $9$ kids, because after each kid gets the same (whole) number of pieces, $7$ pieces are left over.\n\nIf the Dummies in three bags are divided equally among $9$ kids, what is the smallest number of pieces that could possibly be left over?",
   "n_questions": 9,
   "labels": [

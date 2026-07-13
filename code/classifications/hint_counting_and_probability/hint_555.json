@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Bag A has 3 white marbles and 4 black marbles.  Bag B has 6 yellow marbles and 4 blue marbles.  Bag C has 2 yellow marbles and 5 blue marbles.  A marble is drawn at random from Bag A.  If it is white, a marble is drawn at random from Bag B, otherwise, if it is black, a marble is drawn at random from Bag C.  What is the probability that the second marble drawn is yellow?",
   "n_questions": 9,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "A standard deck of cards has 52 cards divided into 4 suits, each of which has 13 cards.  Two of the suits ($\\heartsuit$ and $\\diamondsuit$, called `hearts' and `diamonds') are red, the other two ($\\spadesuit$ and $\\clubsuit$, called `spades' and `clubs') are black.  The cards in the deck are placed in random order (usually by a process called `shuffling').  What is the probability that the first two cards drawn from the deck are both red?",
   "n_questions": 7,
   "labels": [

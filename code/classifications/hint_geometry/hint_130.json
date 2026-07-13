@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "The sides of triangle $PQR$ are tangent to a circle with center $C$ as shown. Given that $\\angle PQR = 63^\\circ$ and $\\angle QPR = 59^\\circ$, find $\\angle QRC$, in degrees.\n\n[asy]\n\nunitsize(1.0 cm);\n\npair Q, P, R, C;\n\nQ = (2.43,3.46);\n\nP = (0,0);\n\nR = (4.43,0);\n\nC = incenter(Q,P,R);\n\ndraw(Q--P--R--cycle);\n\ndraw(incircle(Q,P,R));\n\ndraw(R--C);\n\nlabel(\"$Q$\", Q, N);\n\nlabel(\"$P$\", P, SW);\n\nlabel(\"$R$\", R, SE);\n\nlabel(\"$C$\", C, N);\n\n[/asy]",
   "n_questions": 10,
   "labels": [

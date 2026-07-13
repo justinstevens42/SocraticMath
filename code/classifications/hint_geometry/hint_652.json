@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "A circle with a radius of 2 units has its center at $(0, 0)$. A circle with a radius of 7 units has its center at $(15, 0)$. A line tangent to both circles intersects the $x$-axis at $(x, 0)$ to the right of the origin. What is the value of $x$? Express your answer as a common fraction.",
   "n_questions": 5,
   "labels": [

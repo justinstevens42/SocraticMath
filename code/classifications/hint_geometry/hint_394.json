@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "How many square units are in the area of the parallelogram with vertices at (0, 0), (6, 0), (2, 8) and (8, 8)?",
   "n_questions": 8,
   "labels": [

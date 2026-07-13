@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Find the domain of the function $f(x) = \\tan(\\arccos(x^2)).$",
   "n_questions": 6,
   "labels": [

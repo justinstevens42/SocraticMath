@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Let $A$ and $B$ be the endpoints of a semicircular arc of radius $2$. The arc is divided into seven congruent arcs by six equally spaced points $C_1$, $C_2$, $\\dots$, $C_6$. All chords of the form $\\overline {AC_i}$ or $\\overline {BC_i}$ are drawn. Find the product of the lengths of these twelve chords.",
   "n_questions": 11,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Find the number of functions of the form $f(x) = ax^2 + bx + c$ such that\n\\[f(x) f(-x) = f(x^2).\\]",
   "n_questions": 7,
   "labels": [

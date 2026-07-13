@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Two of the vertices of a regular octahedron are to be chosen at random. What is the probability that they will be the endpoints of an edge of the octahedron? Express your answer as a common fraction. [asy]\nsize(150);\npair A, B, C, D, E, F;\nA=(1,1);\nB=(-1,-1);\nC=(0,6);\nD=(0,-6);\nE=(6, 0);\nF=(-6,0);\ndraw(C--F--D--E--C--B--F);\ndraw(D--B--E);\ndraw(F--A--C, dashed);\ndraw(D--A--E, dashed);\n[/asy]",
   "n_questions": 8,
   "labels": [

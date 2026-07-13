@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Let $f : \\mathbb{R} \\to \\mathbb{R}$ be a function such that $f(1) = 1$ and\n\\[f(x^2 - y^2) = (x - y) (f(x) + f(y))\\]for all real numbers $x$ and $y.$\n\nLet $n$ be the number of possible values of $f(2),$ and let $s$ be the sum of all possible values of $f(2).$  Find $n \\times s.$",
   "n_questions": 10,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "Given $\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix} = 5,$ find $\\begin{vmatrix} 2a & 2b \\\\ 2c & 2d \\end{vmatrix}.$",
   "n_questions": 8,
   "labels": [

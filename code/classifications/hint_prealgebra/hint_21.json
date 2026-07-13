@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 3",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Our club has 10 members, and wishes to pick a president, secretary, treasurer, and morale officer.  In how many ways can we choose the officers, if individual members can only hold at most one office?",
   "n_questions": 10,
   "labels": [

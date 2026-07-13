@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Find the remainder when $3 \\times 13 \\times 23 \\times 33 \\times \\ldots \\times 183 \\times 193$ is divided by $5$.",
   "n_questions": 6,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find the vector $\\mathbf{v}$ such that\n\\[\\operatorname{proj}_{\\begin{pmatrix} 2 \\\\ 1 \\end{pmatrix}} \\mathbf{v} = \\begin{pmatrix} \\frac{38}{5} \\\\ \\frac{19}{5} \\end{pmatrix}\\]and\n\\[\\operatorname{proj}_{\\begin{pmatrix} 2 \\\\ 3 \\end{pmatrix}} \\mathbf{v} = \\begin{pmatrix} \\frac{58}{13} \\\\ \\frac{87}{13} \\end{pmatrix}.\\]",
   "n_questions": 6,
   "labels": [

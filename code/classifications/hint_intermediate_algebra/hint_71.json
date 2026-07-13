@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $x$ and $y$ be real numbers, $y > x > 0,$ such that\n\\[\\frac{x}{y} + \\frac{y}{x} = 6.\\]Find the value of \\[\\frac{x + y}{x - y}.\\]",
   "n_questions": 10,
   "labels": [

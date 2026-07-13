@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Given $w$ and $z$ are complex numbers such that $|w+z|=1$ and $|w^2+z^2|=14,$ find the smallest possible value of $|w^3+z^3|.$",
   "n_questions": 9,
   "labels": [

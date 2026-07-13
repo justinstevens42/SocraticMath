@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "A math teacher requires Noelle to do one homework assignment for each of the first five homework points she wants to earn; for each of the next five homework points, she needs to do two homework assignments; and so on, so that to earn the $n^{\\text{th}}$ homework point, she has to do $n\\div5$ (rounded up) homework assignments. For example, when she has 11 points, it will take $12\\div5=2.4\\rightarrow3$ homework assignments to earn her $12^{\\text{th}}$ point. What is the smallest number of homework assignments necessary to earn a total of 25 homework points?",
   "n_questions": 8,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "For each positive integer $n$, let $f(n) = n^4 - 360n^2 + 400$. What is the sum of all values of $f(n)$ that are prime numbers?",
   "n_questions": 7,
   "labels": [

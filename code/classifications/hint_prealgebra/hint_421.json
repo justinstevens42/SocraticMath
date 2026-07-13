@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "In the diagram, each circle is divided into two equal areas and $O$ is the center of the larger circle. The area of the larger circle is $64\\pi.$ What is the total area of the shaded regions? [asy]\nsize(100);\nimport graph;\nfill(Arc((0,0),2,180,360)--cycle,mediumgray);fill(Arc((0,1),1,0,180)--cycle,mediumgray);\ndraw(Circle((0,0),2));\ndraw(Circle((0,1),1));\n\ndot((0,0)); label(\"$O$\",(0,0),N);\ndraw((-2,0)--(2,0)); draw((-1,1)--(1,1));\n[/asy]",
   "n_questions": 10,
   "labels": [

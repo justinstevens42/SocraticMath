@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Let $n$ be a  positive integer and $a$ be an integer such that $a$ is its own inverse modulo $n$. What is the remainder when $a^2$ is divided by $n$?",
   "n_questions": 6,
   "labels": [

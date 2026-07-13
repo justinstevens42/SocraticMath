@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "The area of rectangle $ABCD$ with vertices $A$(0, 0), $B$(0, 4), $C$($x$, 4) and $D$($x$, 0) is 28 square units. If $x > 0$, what is the value of $x$?",
   "n_questions": 7,
   "labels": [

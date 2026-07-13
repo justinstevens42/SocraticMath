@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Let $a,$ $b,$ $c$ be distinct real numbers such that\n\\[\\frac{a}{b - c} + \\frac{b}{c - a} + \\frac{c}{a - b} = 0.\\]Find all possible values of\n\\[\\frac{a}{(b - c)^2} + \\frac{b}{(c - a)^2} + \\frac{c}{(a - b)^2}.\\]Enter all the possible values, separated by commas.",
   "n_questions": 6,
   "labels": [

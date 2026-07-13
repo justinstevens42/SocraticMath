@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "In pentagon $ABCDE$, $BC=CD=DE=2$ units, $\\angle E$ is a right angle and $m \\angle B = m \\angle C = m \\angle D = 135^\\circ$.  The length of segment $AE$ can be expressed in simplest radical form as $a+2\\sqrt{b}$ units.  What is the value of $a+b$?",
   "n_questions": 8,
   "labels": [

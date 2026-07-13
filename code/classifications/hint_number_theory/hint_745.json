@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "When a positive integer is expressed in base 7, it is $AB_7$, and when it is expressed in base 5, it is $BA_5$.  What is the positive integer in decimal?",
   "n_questions": 6,
   "labels": [

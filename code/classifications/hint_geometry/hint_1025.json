@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "The vertices of a square are the centers of four circles as shown below. Given each side of the square is 6cm and the radius of each circle is $2\\sqrt{3}$cm, find the area in square centimeters of the shaded region. [asy]\nfill( (-1,-1)-- (1,-1) -- (1,1) -- (-1,1)--cycle, gray);\nfill( Circle((1,1), 1.2), white);\nfill( Circle((-1,-1), 1.2), white);\nfill( Circle((1,-1),1.2), white);\nfill( Circle((-1,1), 1.2), white);\ndraw( Arc((1,1),1.2 ,180,270));\ndraw( Arc((1,-1),1.2,90,180));\ndraw( Arc((-1,-1),1.2,0,90));\ndraw( Arc((-1,1),1.2,0,-90));\ndraw( (-1,-1)-- (1,-1) -- (1,1) -- (-1,1)--cycle,linewidth(.8));\n[/asy]",
   "n_questions": 13,
   "labels": [

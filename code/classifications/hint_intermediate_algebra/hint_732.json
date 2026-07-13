@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "You have a rectangular prism box with length $x+5$ units, width $x-5$ units, and height $x^{2}+25$ units. For how many positive integer values of $x$ is the volume of the box less than 700 units?",
   "n_questions": 10,
   "labels": [

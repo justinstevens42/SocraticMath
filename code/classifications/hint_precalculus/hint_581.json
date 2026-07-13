@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let\n\\[\\mathbf{A} = \\renewcommand{\\arraystretch}{1.5} \\begin{pmatrix} \\frac{\\sqrt{3}}{2} & 0 & -\\frac{1}{2} \\\\ 0 & -1 & 0 \\\\ \\frac{1}{2} & 0 & \\frac{\\sqrt{3}}{2} \\end{pmatrix} \\renewcommand{\\arraystretch}{1}.\\]Compute $\\mathbf{A}^{2018}.$",
   "n_questions": 9,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Define $L(x) = x - \\frac{x^2}{2}$ for every real number $x$.  If $n$ is a positive integer, define $a_n$ by\n\\[\n  a_n = L \\Bigl( L \\Bigl( L \\Bigl( \\cdots L \\Bigl( \\frac{17}{n} \\Bigr) \\cdots \\Bigr) \\Bigr) \\Bigr),\n\\]where there are $n$ iterations of $L$.  For example,\n\\[\n  a_4 = L \\Bigl( L \\Bigl( L \\Bigl( L \\Bigl( \\frac{17}{4} \\Bigr) \\Bigr) \\Bigr) \\Bigr).\n\\]As $n$ approaches infinity, what value does $n a_n$ approach?",
   "n_questions": 13,
   "labels": [

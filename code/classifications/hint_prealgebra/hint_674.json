@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 1",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "What digit $A$ will make the number $83A5$ divisible by $9$?",
   "n_questions": 6,
   "labels": [

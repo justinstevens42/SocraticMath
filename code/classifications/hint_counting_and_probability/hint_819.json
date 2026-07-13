@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "In this square array of 16 dots, four dots are to be chosen at random. What is the probability that the four dots will be collinear? Express your answer as a common fraction.\n\n[asy]\nsize(59);\nfor(int i = 0; i<4; ++i)\nfor(int j = 0; j<4; ++j)\ndot((i,j),linewidth(7));\n[/asy]",
   "n_questions": 6,
   "labels": [

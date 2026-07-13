@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "In triangle $ABC$, we have $\\angle A = 90^\\circ$ and $\\sin B = \\frac{4}{7}$.  Find $\\cos C$.",
   "n_questions": 7,
   "labels": [

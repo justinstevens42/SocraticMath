@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "What is the sum of all positive integers $n$ that satisfy $$\\mathop{\\text{lcm}}[n,100] = \\gcd(n,100)+450~?$$",
   "n_questions": 7,
   "labels": [

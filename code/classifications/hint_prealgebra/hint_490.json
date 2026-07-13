@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "The circular region of the sign (below, left) has an area of 154 square inches. Vanessa would like to place a tiny ribbon (shaded) around the circle's edge. To be sure she has enough ribbon, she decides to buy 2 inches more of the ribbon than the original circle's circumference. How many inches of ribbon will Vanessa need to buy if she estimates $\\pi = \\frac{22}{7}$?\n\n[asy]import graph;\nsize(125,72.5);\npicture p;\ndraw(p,unitsquare);\nfilldraw(p,Circle((.5,.5),.3),white);\nlabel(p,\"Enter\",(.5,.5),ZapfChancery(\"m\",\"n\"));\nadd(p);\nfilldraw(Circle((2,.5),.4),gray(.6));\nadd(shift(1.5*right)*p);\ndraw((1.1,.5)--(1.4,.5),EndArrow(5,25));[/asy]",
   "n_questions": 9,
   "labels": [

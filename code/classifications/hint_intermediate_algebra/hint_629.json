@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Suppose that the graph of \\[2x^2 + y^2 + 8x - 10y + c = 0\\]consists of a single point. (In this case, we call the graph a degenerate ellipse.) Find $c.$",
   "n_questions": 6,
   "labels": [

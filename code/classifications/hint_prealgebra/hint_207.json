@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "In the diagram, the square has a perimeter of $48$ and the triangle has a height of $48.$ If the square and the triangle have the same area, what is the value of $x?$ [asy]\ndraw((0,0)--(2,0)--(2,2)--(0,2)--cycle);\ndraw((3,0)--(6,0)--(6,5)--cycle);\ndraw((5.8,0)--(5.8,.2)--(6,.2));\nlabel(\"$x$\",(4.5,0),S);\nlabel(\"48\",(6,2.5),E);\n[/asy]",
   "n_questions": 5,
   "labels": [

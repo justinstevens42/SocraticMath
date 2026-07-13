@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Find the sum of the roots of $\\tan^2x-9\\tan x+1=0$ that are between $x=0$ and $x=2\\pi$ radians.",
   "n_questions": 10,
   "labels": [

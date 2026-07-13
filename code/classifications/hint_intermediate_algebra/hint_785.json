@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Let $a$ and $b$ be real numbers.  One of the roots of $x^3 + ax + b = 0$ is $1 + i \\sqrt{3}.$  Find $a + b.$",
   "n_questions": 10,
   "labels": [

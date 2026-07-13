@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A bag contains 3 tan, 2 pink and 4 violet chips. If the 9 chips are randomly drawn from the bag, one at a time and without replacement, what is the probability that the chips are drawn in such a way that the 3 tan chips are drawn consecutively, the 2 pink chips are drawn consecutively, and the 4 violet chips are drawn consecutively, but not necessarily in the tan-pink-violet order? Express your answer as a common fraction.",
   "n_questions": 13,
   "labels": [

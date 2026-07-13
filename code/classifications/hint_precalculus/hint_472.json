@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "If $\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix} = 5,$ then find\n\\[\\begin{vmatrix} a - c & b - d \\\\ c & d \\end{vmatrix}.\\]",
   "n_questions": 7,
   "labels": [

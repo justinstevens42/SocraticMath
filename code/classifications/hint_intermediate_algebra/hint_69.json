@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Let\n\\[z = \\frac{(-11 + 13i)^3 \\cdot (24 - 7i)^4}{3 + 4i},\\]and let $w = \\frac{\\overline{z}}{z}.$  Compute $|w|.$",
   "n_questions": 7,
   "labels": [

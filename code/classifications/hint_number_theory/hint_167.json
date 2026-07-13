@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Let $a\\equiv (3^{-1}+5^{-1}+7^{-1})^{-1}\\pmod{11}$. What is the remainder when $a$ is divided by $11$?",
   "n_questions": 9,
   "labels": [

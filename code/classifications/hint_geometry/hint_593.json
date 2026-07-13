@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A parallelogram has adjacent sides of lengths $s$ units and $2s$ units forming a 45-degree angle. The area of the parallelogram is $8\\sqrt 2$ square units. What is the value of $s$? Express your answer in simplest radical form.",
   "n_questions": 7,
   "labels": [

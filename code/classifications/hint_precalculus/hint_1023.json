@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Let\n\\[\\mathbf{A} = \\begin{pmatrix} 0 & 0 & 0 \\\\ 0 & 0 & -1 \\\\ 0 & 1 & 0 \\end{pmatrix}.\\]Compute $\\mathbf{A}^{95}.$",
   "n_questions": 8,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Find all $a,$ $0^\\circ < a < 360^\\circ,$ such that $\\cos a,$ $\\cos 2a,$ and $\\cos 3a$ form an arithmetic sequence, in that order.  Enter the solutions, separated by commas, in degrees.",
   "n_questions": 8,
   "labels": [

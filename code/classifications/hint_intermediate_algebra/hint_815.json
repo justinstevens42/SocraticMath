@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Let $a$ and $b$ be real numbers such that\n\\[a^3 - 15a^2 + 20a - 50 = 0 \\quad \\text{and} \\quad 8b^3 - 60b^2 - 290b + 2575 = 0.\\]Compute $a + b.$",
   "n_questions": 15,
   "labels": [

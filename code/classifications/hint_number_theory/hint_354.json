@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 3",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
   "problem": "Find the value of $h$ such that the following equation in base $h$ is true: $$\\begin{array}{c@{}c@{}c@{}c@{}c@{}c} &&6&4&5&3_h\\\\ &+&7&5&1&2_h\\\\ \\cline{2-6} &1&6&1&6&5_h.\\\\ \\end{array}$$",
   "n_questions": 6,
   "labels": [

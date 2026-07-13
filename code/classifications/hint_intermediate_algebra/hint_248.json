@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Find all the solutions to\n\\[\\frac{1}{x^2 + 11x - 8} + \\frac{1}{x^2 + 2x - 8} + \\frac{1}{x^2 - 13x - 8} = 0.\\]Enter all the solutions, separated by commas.",
   "n_questions": 7,
   "labels": [

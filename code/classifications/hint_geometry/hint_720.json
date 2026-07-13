@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "In the triangle shown, $n$ is a positive integer, and $\\angle A > \\angle B > \\angle C$.  How many possible values of $n$ are there? [asy]\ndraw((0,0)--(1,0)--(.4,.5)--cycle);\nlabel(\"$A$\",(.4,.5),N); label(\"$B$\",(1,0),SE); label(\"$C$\",(0,0),SW);\nlabel(\"$2n + 12$\",(.5,0),S); label(\"$3n - 3$\",(.7,.25),NE); label(\"$2n + 7$\",(.2,.25),NW);\n[/asy]",
   "n_questions": 7,
   "labels": [

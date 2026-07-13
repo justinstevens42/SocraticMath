@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The product of two positive integers plus their sum is 95. The integers are relatively prime, and each is less than 20. What is the sum of the two integers?",
   "n_questions": 8,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "If a 3'' by 3'' square is added at each successive stage, what will be the area of the rectangle at Stage 6, in square inches?\n\n[asy]size(250); real textsize = 10pt;\ndraw(unitsquare);\ndraw(shift(1.5*right)*unitsquare);\ndraw(shift(2.5*right)*unitsquare);\ndraw(shift(4*right)*unitsquare);\ndraw(shift(5*right)*unitsquare);\ndraw(shift(6*right)*unitsquare);\nlabel(\"Stage 1\",(.5,0),S,fontsize(textsize));\nlabel(\"Stage 2\",(2.5,0),S,fontsize(textsize));\nlabel(\"Stage 3\",(5.5,0),S,fontsize(textsize));[/asy]",
   "n_questions": 5,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "The solution to the inequality\n\\[y = -x^2 + ax + b \\le 0\\]is $(-\\infty,-3] \\cup [5,\\infty).$  Find the vertex of the parabola $y = -x^2 + ax + b.$",
   "n_questions": 9,
   "labels": [

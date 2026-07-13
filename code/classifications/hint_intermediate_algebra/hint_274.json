@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Let $\\alpha \\neq 1$ be a complex number such that the distance from $\\alpha^2$ to 1 is twice the distance from $\\alpha$ to 1, while the distance from $\\alpha^4$ to 1 is four times the distance from $\\alpha$ to 1.  Enter all possible values of $\\alpha,$ separated by commas.",
   "n_questions": 8,
   "labels": [

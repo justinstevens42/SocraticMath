@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "The figure shows rectangle $ABCD$ with segment $PQ$ dividing the rectangle into two congruent squares. How many right triangles can be drawn using three of the points $\\{A,P,B,C,Q,D\\}$ as vertices? [asy]\ndraw((0,0)--(8,0)--(8,4)--(0,4)--cycle);\ndraw((4,0)--(4,4));\nlabel(\"D\",(0,0),S);\nlabel(\"Q\",(4,0),S);\nlabel(\"C\",(8,0),S);\nlabel(\"B\",(8,4),N);\nlabel(\"P\",(4,4),N);\nlabel(\"A\",(0,4),N);\n[/asy]",
   "n_questions": 8,
   "labels": [

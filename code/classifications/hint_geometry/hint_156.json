@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "Suppose $\\cos Q = 0.4$ in the diagram below.  What is $QR$?\n\n\n\n[asy]\npair P,Q,R;\nP = (0,0);\nQ = (6,0);\nR = (0,6*tan(acos(0.4)));\ndraw(P--Q--R--P);\ndraw(rightanglemark(Q,P,R,18));\nlabel(\"$P$\",P,SW);\nlabel(\"$Q$\",Q,SE);\nlabel(\"$R$\",R,N);\nlabel(\"$12$\",Q/2,S);\n[/asy]",
   "n_questions": 8,
   "labels": [

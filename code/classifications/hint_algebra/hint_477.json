@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "If \\[f(x) =\n\\begin{cases}\nx^2-4 &\\quad \\text{if } x \\ge -4, \\\\\nx + 3 &\\quad \\text{otherwise},\n\\end{cases}\n\\]then for how many values of $x$ is $f(f(x)) = 5$?",
   "n_questions": 8,
   "labels": [

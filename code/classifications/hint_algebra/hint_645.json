@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "A right triangle with integer leg lengths is called \"cool'' if the number of square units in its area is equal to twice the number of units in the sum of the lengths of its legs. What is the sum of all the different possible areas of cool right triangles?",
   "n_questions": 10,
   "labels": [

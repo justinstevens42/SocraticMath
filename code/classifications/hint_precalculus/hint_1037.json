@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The function\n\\[f(z) = \\frac{(-1 + i \\sqrt{3}) z + (-2 \\sqrt{3} - 18i)}{2}\\]represents a rotation around some complex number $c$.  Find $c$.",
   "n_questions": 10,
   "labels": [

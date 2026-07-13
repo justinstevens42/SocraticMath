@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "A solid right prism $ABCDEF$ has a height of $16,$ as shown. Also, its bases are equilateral triangles with side length $12.$ Points $X,$ $Y,$ and $Z$ are the midpoints of edges $AC,$ $BC,$ and $DC,$ respectively. A part of the prism above is sliced off with a straight cut through points $X,$ $Y,$ and $Z.$ Determine the surface area of solid $CXYZ,$ the part that was sliced off.  [asy]\npair A, B, C, D, E, F, X, Y, Z;\nA=(0,0);\nB=(12,0);\nC=(6,-6);\nD=(6,-22);\nE=(0,-16);\nF=(12,-16);\nX=(A+C)/2;\nY=(B+C)/2;\nZ=(C+D)/2;\ndraw(A--B--C--A--E--D--F--B--C--D);\ndraw(X--Y--Z--X, dashed);\nlabel(\"$A$\", A, NW);\nlabel(\"$B$\", B, NE);\nlabel(\"$C$\", C, N);\nlabel(\"$D$\", D, S);\nlabel(\"$E$\", E, SW);\nlabel(\"$F$\", F, SE);\nlabel(\"$X$\", X, SW);\nlabel(\"$Y$\", Y, SE);\nlabel(\"$Z$\", Z, SE);\nlabel(\"12\", (A+B)/2, dir(90));\nlabel(\"16\", (B+F)/2, dir(0));\n[/asy]",
   "n_questions": 10,
   "labels": [

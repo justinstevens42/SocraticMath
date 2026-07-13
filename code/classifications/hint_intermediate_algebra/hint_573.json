@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Let $a,$ $b,$ $c$ be positive real numbers such that $a + b + c = 1.$  Find the minimum value of\n\\[\\frac{1}{a + 2b} + \\frac{1}{b + 2c} + \\frac{1}{c + 2a}.\\]",
   "n_questions": 9,
   "labels": [

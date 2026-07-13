@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find constants $A,$ $B,$ and $C$ so that\n\\[\\frac{x^2 - 7}{(x - 2)(x - 3)(x - 5)} = \\frac{A}{x - 2} + \\frac{B}{x - 3} + \\frac{C}{x - 5}.\\]Enter the ordered triple $(A,B,C).$",
   "n_questions": 10,
   "labels": [

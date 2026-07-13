@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Circle $\\Gamma$ is the incircle of $\\triangle ABC$ and is also the circumcircle of $\\triangle XYZ$.  The point $X$ is on $\\overline{BC}$, the point $Y$ is on $\\overline{AB}$, and the point $Z$ is on $\\overline{AC}$.  If $\\angle A=40^\\circ$, $\\angle B=60^\\circ$, and $\\angle C=80^\\circ$, what is the measure of $\\angle YZX$?",
   "n_questions": 6,
   "labels": [

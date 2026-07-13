@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Let $x_1,$ $x_2,$ $\\dots,$ $x_n$ be nonnegative real numbers such that $x_1 + x_2 + \\dots + x_n = 1$ and\n\\[x_1^2 + x_2^2 + \\dots + x_n^2 \\le \\frac{1}{100}.\\]Find the smallest possible value of $n.$",
   "n_questions": 10,
   "labels": [

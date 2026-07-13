@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Point $C$ is on the segment $AB$ which has endpoints $A(-1, 0)$  and $B(3, 8)$.  Point $C$ is three times as far from point $A$ as it is from  point $B$.  What are the coordinates of point $C$?",
   "n_questions": 6,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "A convex pentagon has interior angles with measures $x+1$, $2x$, $3x$, $4x$, and $5x-1$ degrees.  What is the measure of the largest angle?",
   "n_questions": 6,
   "labels": [

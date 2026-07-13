@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "The hexagon with the R is colored red.  Each hexagon is colored either red, yellow or green, such that no two hexagons with a common side are  colored the same color.  In how many  different ways can the figure be colored?\n\n[asy]\npath a=(0,0)--(10,0)--(15,8.7)--(10,17.3)--(0,17.3)--(-5,8.7)--cycle;\ndraw(a);\ndraw(shift((15,8.7))*a);\ndraw(shift((15,-8.7))*a);\ndraw(shift((30,17.3))*a);\ndraw(shift((30,0))*a);\ndraw(shift((30,-17.3))*a);\ndraw(shift((45,26))*a);\ndraw(shift((45,8.7))*a);\ndraw(shift((45,-8.7))*a);\ndraw(shift((60,17.3))*a);\ndraw(shift((60,0))*a);\ndraw(shift((60,-17.3))*a);\ndraw(shift((75,8.7))*a);\ndraw(shift((75,-8.7))*a);\nlabel(\"$R$\",(5,10),S);\n[/asy]",
   "n_questions": 8,
   "labels": [

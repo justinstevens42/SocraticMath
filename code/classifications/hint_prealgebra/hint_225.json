@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "How many 4-digit positive integers exist that satisfy the following conditions: (A) Each of the first two digits must be 1, 4, or 5, and (B) the last two digits cannot be the same digit, and (C) each of the last two digits must be 5, 7, or 8?",
   "n_questions": 6,
   "labels": [

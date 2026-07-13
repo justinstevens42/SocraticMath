@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "How many four-digit numbers $N = \\underline{a}\\,\\underline{b}\\,\\underline{c}\\,\\underline{d}$ satisfy all of the following conditions?\n\n$4000 \\le N < 6000.$\n$N$ is a multiple of $5.$\n$3 \\le b < c \\le 6.$",
   "n_questions": 6,
   "labels": [

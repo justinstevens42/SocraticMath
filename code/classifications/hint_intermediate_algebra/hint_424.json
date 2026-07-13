@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $x,$ $y,$ and $z$ be real numbers such that\n\\[x^3 + y^3 + z^3 - 3xyz = 1.\\]Find the minimum value of $x^2 + y^2 + z^2.$",
   "n_questions": 7,
   "labels": [

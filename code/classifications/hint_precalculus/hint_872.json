@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Let $\\mathbf{M} = \\begin{pmatrix} 2 & 0 \\\\ 1 & -3 \\end{pmatrix}.$  Find constants $a$ and $b$ so that\n\\[\\mathbf{M}^{-1} = a \\mathbf{M} + b \\mathbf{I}.\\]Enter the ordered pair $(a,b).$",
   "n_questions": 7,
   "labels": [

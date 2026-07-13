@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "The vectors $\\mathbf{a} = \\begin{pmatrix} 3 \\\\ 1 \\\\ -2 \\end{pmatrix}$ and $\\mathbf{b} = \\begin{pmatrix} 0 \\\\ 2 \\\\ -1 \\end{pmatrix}.$  There exist scalars $p,$ $q,$ and $r$ such that\n\\[\\begin{pmatrix} 4 \\\\ 1 \\\\ -4 \\end{pmatrix} = p \\mathbf{a} + q \\mathbf{b} + r (\\mathbf{a} \\times \\mathbf{b}).\\]Find $r.$",
   "n_questions": 9,
   "labels": [

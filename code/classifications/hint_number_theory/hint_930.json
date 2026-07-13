@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "The four consecutive digits $a$, $b$, $c$ and $d$ are used to form the four-digit numbers $abcd$ and $dcba$. What is the greatest common divisor of all numbers of the form $abcd+dcba$?",
   "n_questions": 6,
   "labels": [

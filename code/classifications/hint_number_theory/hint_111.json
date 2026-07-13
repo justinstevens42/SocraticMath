@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "A pirate is counting the loot he has stolen from S.S. AOPS, on which everything is counted in base 5.  A treasure chest contains $3124_{5}$ dollars worth of jewelry, $3122_{5}$ dollars worth of gold coins, and $124_{5}$ dollars worth of rubbing alcohol.  What is the total dollar amount that this pirate has accumulated? Express your answer in base 10.",
   "n_questions": 10,
   "labels": [

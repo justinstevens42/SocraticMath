@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Brad has a cylindrical barrel with radius 10 inches and height 15 inches.  He wants to fill it from a well, using a bucket in the shape of a hemisphere with a radius of 10 inches. How many trips must Brad make to the well in order to fill the barrel?",
   "n_questions": 10,
   "labels": [

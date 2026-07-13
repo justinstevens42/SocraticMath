@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The figure drawn is not to scale. Which of the five segments shown is the longest? [asy]\npair A = (-3,0), B=(0,2), C=(3,0), D=(0,-1);\ndraw(D(MP(\"A\", A, W))--D(MP(\"B\", B, N))--D(MP(\"C\", C, E))--D(MP(\"D\", D, S))--A);\ndraw(B--D);\nMP(\"55^\\circ\", (0,-0.75), NW);\nMP(\"55^\\circ\", (0,-0.75), NE);\nMP(\"40^\\circ\", (0,1.5), SW);\nMP(\"75^\\circ\", (0,1.5), SE);\n[/asy]",
   "n_questions": 10,
   "labels": [

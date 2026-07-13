@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "The number\n\\[e^{7\\pi i/60} + e^{17\\pi i/60} + e^{27 \\pi i/60} + e^{37\\pi i /60} + e^{47 \\pi i /60}\\]is expressed in the form $r e^{i \\theta}$, where $0 \\le \\theta < 2\\pi$.  Find $\\theta$.",
   "n_questions": 11,
   "labels": [

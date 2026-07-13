@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "A positive five-digit integer is in the form $AB,CBA$; where $A$, $B$ and $C$ are each distinct digits. What is the greatest possible value of $AB,CBA$ that is divisible by eleven?",
   "n_questions": 7,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Convert the point $( -2, -2 \\sqrt{3}, -1)$ in rectangular coordinates to cylindrical coordinates.  Enter your answer in the form $(r,\\theta,z),$ where $r > 0$ and $0 \\le \\theta < 2 \\pi.$",
   "n_questions": 10,
   "labels": [

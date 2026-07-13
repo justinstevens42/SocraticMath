@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find the largest value of $c$ such that $1$ is in the range of $f(x)=x^2-5x+c$.",
   "n_questions": 6,
   "labels": [

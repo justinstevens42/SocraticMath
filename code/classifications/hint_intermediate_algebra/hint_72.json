@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Let $a,$ $b,$ and $c$ be the roots of\n\\[x^3 - 5x + 7 = 0.\\]Find the monic polynomial, in $x,$ whose roots are $a - 2,$ $b - 2,$ and $c - 2.$",
   "n_questions": 6,
   "labels": [

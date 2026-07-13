@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The area of a square equals the square of a length of the side of the square. The perimeter of a square equals the sum of the lengths of all four sides. The sum of the areas of two squares is 65, while the difference in their areas is 33.  Find the sum of their perimeters.",
   "n_questions": 11,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "How many different lines pass through at least two points in this 3-by-3 grid of lattice points shown?\n\n[asy]\nsize(30);\ndot((0,0));\ndot((1,0));\ndot((2,0));\ndot((0,1));\ndot((1,1));\ndot((2,1));\ndot((0,2));\ndot((1,2));\ndot((2,2));\n[/asy]",
   "n_questions": 7,
   "labels": [

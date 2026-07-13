@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Compute the smallest positive angle $x,$ in degrees, such that\n\\[\\tan 4x = \\frac{\\cos x - \\sin x}{\\cos x + \\sin x}.\\]",
   "n_questions": 6,
   "labels": [

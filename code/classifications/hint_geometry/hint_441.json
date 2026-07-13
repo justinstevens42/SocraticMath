@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "What is the area, in square units, of a regular hexagon inscribed in a circle whose area is $324\\pi$ square units? Express your answer in simplest radical form.",
   "n_questions": 7,
   "labels": [

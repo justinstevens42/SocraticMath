@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "The polynomial $$P(x)=(1+x+x^2+\\ldots+x^{17})^2-x^{17}$$has 34 complex zeros of the form $z_k=r_k\\left[\\cos(2\\pi\\alpha_k)\n+i\\sin(2\\pi\\alpha_k)\\right]$, $k=1,2,3,\\ldots,34$, with $0<\\alpha_1\\le\\alpha_2\\le\\alpha_3\\le\\dots\\le\\alpha_{34}<1$ and $r_k>0$. Find $\\alpha_1+\\alpha_2+\\alpha_3+\\alpha_4+\\alpha_5.$",
   "n_questions": 8,
   "labels": [

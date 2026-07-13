@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Compute\n\\[\\sum_{n = 2}^\\infty \\frac{4n^3 - n^2 - n + 1}{n^6 - n^5 + n^4 - n^3 + n^2 - n}.\\]",
   "n_questions": 10,
   "labels": [

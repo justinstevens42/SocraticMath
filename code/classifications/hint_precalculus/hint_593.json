@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "One line is described by\n\\[\\begin{pmatrix} 2 \\\\ 3 \\\\ 4 \\end{pmatrix} + t \\begin{pmatrix} 1 \\\\ 1 \\\\ -k \\end{pmatrix}.\\]Another line is described by\n\\[\\begin{pmatrix} 1 \\\\ 4 \\\\ 5 \\end{pmatrix} + u \\begin{pmatrix} k \\\\ 2 \\\\ 1 \\end{pmatrix}.\\]If the lines are coplanar (i.e. there is a plane that contains both lines), then find all possible values of $k.$",
   "n_questions": 11,
   "labels": [

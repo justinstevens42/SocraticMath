@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The number $0.428125$ can be written as a fraction $\\frac{a}{b}$ for positive integers $a$ and $b$. When this fraction is in simplest terms, what is $a+b$?",
   "n_questions": 8,
   "labels": [

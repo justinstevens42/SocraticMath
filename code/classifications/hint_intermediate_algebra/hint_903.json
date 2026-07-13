@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "The foci of the ellipse $\\frac{x^2}{16} + \\frac{y^2}{b^2} = 1$ and the foci of the hyperbola\n\\[\\frac{x^2}{144} - \\frac{y^2}{81} = \\frac{1}{25}\\]coincide.  Find $b^2.$",
   "n_questions": 9,
   "labels": [

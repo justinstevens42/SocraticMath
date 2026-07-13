@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $a,$ $b,$ $c$ be real numbers such that $1 \\le a \\le b \\le c \\le 4.$  Find the minimum value of\n\\[(a - 1)^2 + \\left( \\frac{b}{a} - 1 \\right)^2 + \\left( \\frac{c}{b} - 1 \\right)^2 + \\left( \\frac{4}{c} - 1 \\right)^2.\\]",
   "n_questions": 7,
   "labels": [

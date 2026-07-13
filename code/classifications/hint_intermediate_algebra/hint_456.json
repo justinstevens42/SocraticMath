@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Let $a$ and $b$ be positive real numbers such that each of the equations $x^2 + ax + 2b = 0$ and $x^2 + 2bx + a = 0$ has real roots.  Find the smallest possible value of $a + b.$",
   "n_questions": 6,
   "labels": [

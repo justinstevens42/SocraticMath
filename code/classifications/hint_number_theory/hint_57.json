@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 1",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "When three positive integers are divided by $24$, the remainders are $10,$ $4,$ and $12,$ respectively.\n\nWhen the sum of the three integers is divided by $24$, what is the remainder?",
   "n_questions": 9,
   "labels": [

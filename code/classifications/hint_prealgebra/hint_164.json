@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The figure shown consists of a right triangle and two squares. If the figure's total area equals 850 square inches, what is the value of $x$ in inches? [asy]\nunitsize(5mm);\ndefaultpen(linewidth(.7pt)+fontsize(10pt));\n\ndraw((0,5)--(0,-2)--(-2,-2)--(-2,0)--(5,0)--(5,5)--cycle--(-2,0));\ndraw(scale(0.2)*((-1,0)--(-1,1)--(1,1)--(1,0)));\nlabel(\"$2x$\",(-1,0),S);\nlabel(\"$5x$\",(0,2.5),E);\n[/asy]",
   "n_questions": 8,
   "labels": [

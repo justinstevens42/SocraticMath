@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "How many ways are there to put 4 balls in 3 boxes if the balls are not distinguishable but the boxes are?",
   "n_questions": 7,
   "labels": [

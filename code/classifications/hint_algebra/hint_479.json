@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "For two real values of $n$, the equation $4x^2+nx+25=0$ has exactly one solution in $x$. What is the positive value of $n$?",
   "n_questions": 8,
   "labels": [

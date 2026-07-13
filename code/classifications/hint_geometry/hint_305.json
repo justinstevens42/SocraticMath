@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A sphere is inscribed in a cube. What is the ratio of the volume of the inscribed sphere to the volume of the cube? Express your answer as a common fraction in terms of $\\pi$.",
   "n_questions": 6,
   "labels": [

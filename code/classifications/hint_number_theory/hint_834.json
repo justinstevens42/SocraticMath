@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "For a nonnegative integer $n$, let $r_9(n)$ stand for the remainder left when $n$ is divided by $9.$ For example, $r_9(25)=7.$\n\nWhat is the $22^{\\text{nd}}$ entry in an ordered list of all nonnegative integers $n$ that satisfy $$r_9(5n)\\le 4~?$$(Note that the first entry in this list is $0$.)",
   "n_questions": 6,
   "labels": [

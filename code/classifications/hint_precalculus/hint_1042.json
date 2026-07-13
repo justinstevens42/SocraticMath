@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Evaluate\n\\[\\begin{vmatrix} \\cos \\alpha \\cos \\beta & \\cos \\alpha \\sin \\beta & -\\sin \\alpha \\\\ -\\sin \\beta & \\cos \\beta & 0 \\\\ \\sin \\alpha \\cos \\beta & \\sin \\alpha \\sin \\beta & \\cos \\alpha \\end{vmatrix}.\\]",
   "n_questions": 6,
   "labels": [

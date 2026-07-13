@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A fair coin is tossed six times and the sequence of heads and tails is recorded. What is the probability that the sequence contains exactly two heads? Express your answer as a common fraction.",
   "n_questions": 8,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A palindrome is a number that reads the same forward and backward. How many three-digit perfect squares are palindromes?",
   "n_questions": 8,
   "labels": [

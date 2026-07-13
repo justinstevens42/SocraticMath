@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Let $z_1,$ $z_2,$ $\\dots,$ $z_{20}$ be the twenty (complex) roots of the equation\n\\[z^{20} - 4z^{19} + 9z^{18} - 16z^{17} + \\dots + 441 = 0.\\]Calculate $\\cot \\left( \\sum_{k = 1}^{20} \\operatorname{arccot} z_k \\right).$  Note that the addition formula for cotangent is still valid when working with complex numbers.",
   "n_questions": 5,
   "labels": [

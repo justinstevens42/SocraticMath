@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "In triangle $ABC$, altitudes $AD$, $BE$, and $CF$ intersect at the orthocenter $H$.  If $\\angle ABC = 49^\\circ$ and $\\angle ACB = 12^\\circ$, then find the measure of $\\angle BHC$, in degrees.",
   "n_questions": 6,
   "labels": [

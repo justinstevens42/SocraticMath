@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The Lucas numbers $L_n$ are given by the recursion $L_0 = 2, L_1 = 1$, and $L_n = L_{n-1} + L_{n-2}$. Find the units digit of $L_{L_{10}}$.",
   "n_questions": 8,
   "labels": [

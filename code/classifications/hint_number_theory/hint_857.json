@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "A day can be evenly divided into 86,400 periods of 1 second; 43,200 periods of each 2 seconds; or in many other ways. In total, how many ways are there to divide a day into $n$ periods of $m$ seconds, where $n$ and $m$ are positive integers?",
   "n_questions": 10,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Thirty identical toothpicks were used to create the figure below. There are over 25 triangles in the figure. What is the fewest number of toothpicks that could be removed so that no triangles remain?\n\n[asy]\ndraw((0,0)--(8,0), linewidth(1));\ndraw(2dir(60)--(2dir(60)+(6,0)), linewidth(1));\ndraw(4dir(60)--(4dir(60)+(4,0)), linewidth(1));\ndraw(6dir(60)--(6dir(60)+(2,0)), linewidth(1));\n\ndraw((0,0)--8dir(60),linewidth(1));\ndraw((2,0)--(6dir(60)+(2,0)),linewidth(1));\ndraw((4,0)--(4dir(60)+(4,0)),linewidth(1));\ndraw((6,0)--(2dir(60)+(6,0)),linewidth(1));\n\ndraw(2dir(60)--(2,0),linewidth(1));\ndraw(4dir(60)--(4,0),linewidth(1));\ndraw(6dir(60)--(6,0),linewidth(1));\ndraw(8dir(60)--(8,0),linewidth(1));\n[/asy]",
   "n_questions": 10,
   "labels": [

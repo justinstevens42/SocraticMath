@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Let $O$ and $H$ be the circumcenter and orthocenter of triangle $ABC$, respectively.  Let $a$, $b$, and $c$ denote the side lengths, and let $R$ denote the circumradius.  Find $OH^2$ if $R = 7$ and $a^2 + b^2 + c^2 = 29$.",
   "n_questions": 9,
   "labels": [

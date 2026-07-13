@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 1",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Find the sum of all the integer solutions of  $x^4 - 25x^2 + 144 = 0$.",
   "n_questions": 5,
   "labels": [

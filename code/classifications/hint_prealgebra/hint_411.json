@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "What is the product of the least common multiple and the greatest common factor of $20$ and $90$?",
   "n_questions": 10,
   "labels": [

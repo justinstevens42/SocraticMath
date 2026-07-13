@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "The figure shown represents a plot of land and is drawn using a scale in which 1 cm equals 2 miles. One square mile is 640 acres. How large is the actual plot of land, in acres? [asy]\ndraw((0,0)--(15,0)--(10,10)--(0,10)--cycle);\ndraw((0,1)--(1,1)--(1,0));\ndraw((0,9)--(1,9)--(1,10));\nlabel(\"15 cm\",(7.5,0),S);\nlabel(\"10 cm\",(0,5),W);\nlabel(\"10 cm\",(5,10),N);\n[/asy]",
   "n_questions": 6,
   "labels": [

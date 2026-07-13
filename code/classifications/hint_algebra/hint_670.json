@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Let $C$ be the circle with equation $x^2+12y+57=-y^2-10x$. If $(a,b)$ is the center of $C$ and $r$ is its radius, what is the value of $a+b+r$?",
   "n_questions": 6,
   "labels": [

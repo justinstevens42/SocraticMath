@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "Evaluate\n\\[\\log_{10}(\\tan 1^{\\circ})+\\log_{10}(\\tan 2^{\\circ})+\\log_{10}(\\tan 3^{\\circ})+\\cdots+\\log_{10}(\\tan 88^{\\circ})+\\log_{10}(\\tan 89^{\\circ}).\\]",
   "n_questions": 7,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $\\mathbf{a},$ $\\mathbf{b},$ $\\mathbf{c}$ be unit vectors such that\n\\[\\mathbf{a} \\times (\\mathbf{b} \\times \\mathbf{c}) = \\frac{\\mathbf{b} + \\mathbf{c}}{\\sqrt{2}},\\]and such that $\\{\\mathbf{a}, \\mathbf{b}, \\mathbf{c}\\}$ is a linearly independent set.\n\nFind the angle between $\\mathbf{a}$ and $\\mathbf{b},$ in degrees.",
   "n_questions": 8,
   "labels": [

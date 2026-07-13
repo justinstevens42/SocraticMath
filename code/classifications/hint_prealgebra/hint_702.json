@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "In the figure below, the largest circle has a radius of six meters. Five congruent smaller circles are placed as shown and are lined up in east-to-west and north-to-south orientations. What is the radius in meters of one of the five smaller circles?\n\n[asy]\n\nsize(3cm,3cm);\n\ndraw(Circle((0,0),1));\n\ndraw(Circle((0,2),1));\n\ndraw(Circle((0,-2),1));\n\ndraw(Circle((2,0),1));\n\ndraw(Circle((-2,0),1));\n\ndraw(Circle((0,0),3));\n\n[/asy]",
   "n_questions": 7,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A point $P$ is randomly placed in the interior of the right triangle below.  What is the probability that the area of triangle $PBC$ is less than half of the area of triangle $ABC$?  Express your answer as a common fraction. [asy]\nsize(7cm);\ndefaultpen(linewidth(0.7));\npair A=(0,5), B=(8,0), C=(0,0), P=(1.5,1.7);\ndraw(A--B--C--cycle);\ndraw(C--P--B);\nlabel(\"$A$\",A,NW);\nlabel(\"$B$\",B,E);\nlabel(\"$C$\",C,SW);\nlabel(\"$P$\",P,N);\ndraw((0,0.4)--(0.4,0.4)--(0.4,0));[/asy]",
   "n_questions": 8,
   "labels": [

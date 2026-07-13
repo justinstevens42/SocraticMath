@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $P(x)$ be a polynomial such that when $P(x)$ is divided by $x-17$, the remainder is $14$, and when $P(x)$ is divided by $x-13$, the remainder is $6$. What is the remainder when $P(x)$ is divided by $(x-13)(x-17)$?",
   "n_questions": 8,
   "labels": [

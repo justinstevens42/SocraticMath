@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "What is the maximum possible value of the greatest common divisor of two consecutive terms of the sequence $a_n = n! + n$, where $n \\ge 0$?",
   "n_questions": 14,
   "labels": [

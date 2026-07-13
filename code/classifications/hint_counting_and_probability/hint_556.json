@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 1",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Find $n$ if $n\\cdot n! + n! = 720$, where $n! = n\\cdot (n-1)\\cdot (n-2)\\cdots 2\\cdot 1$.",
   "n_questions": 7,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "Let $\\mathbf{P}$ be the matrix for projecting onto the vector $\\begin{pmatrix} -3 \\\\ -2 \\end{pmatrix}.$  Find $\\mathbf{P}^{-1}.$\n\nIf the inverse does not exist, then enter the zero matrix.",
   "n_questions": 6,
   "labels": [

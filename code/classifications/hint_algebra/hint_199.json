@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "The complete graph of $y=f(x)$, which consists of five line segments, is shown in red below. (On this graph, the distance between grid lines is $1$.)\n\nWhat is the sum of the $x$-coordinates of all points where $f(x) = x+1$?",
   "n_questions": 6,
   "labels": [

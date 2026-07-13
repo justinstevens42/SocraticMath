@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "The three roots of the cubic $ 30 x^3 - 50x^2 + 22x - 1$ are distinct real numbers strictly between $ 0$ and $ 1$.  If the roots are $p$, $q$, and $r$, what is the sum\n\\[ \\frac{1}{1-p} + \\frac{1}{1-q} +\\frac{1}{1-r} ?\\]",
   "n_questions": 6,
   "labels": [

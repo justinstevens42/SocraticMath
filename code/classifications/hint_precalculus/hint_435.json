@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Convert the point $(\\rho,\\theta,\\phi) = \\left( 2, \\pi, \\frac{\\pi}{4} \\right)$ in spherical coordinates to rectangular coordinates.",
   "n_questions": 9,
   "labels": [

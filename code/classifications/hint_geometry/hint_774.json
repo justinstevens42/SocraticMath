@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Eric builds a small pyramid for a school project. His pyramid has a height of twelve inches and a square base that measures ten inches on each side. Eric wants to find the smallest cube-shaped box to put his pyramid in so that he can safely bring it to school right side up. What is the volume of this box, in inches cubed?",
   "n_questions": 7,
   "labels": [

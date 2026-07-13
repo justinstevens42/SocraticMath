@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "The exact amount of fencing that enclosed the four congruent equilateral triangular corrals shown here is reused to form one large equilateral triangular corral. What is the ratio of the total area of the four small corrals to the area of the new large corral? Express your answer as a common fraction.\n\n[asy]\ndraw((0,0)--(1,sqrt(3))--(2,0)--cycle);\ndraw((1,sqrt(3))--(0,2*sqrt(3))--(2,2*sqrt(3))--cycle);\ndraw((0,2*sqrt(3))--(-2,2*sqrt(3))--(-1,3*sqrt(3))--cycle);\ndraw((2,2*sqrt(3))--(4,2*sqrt(3))--(3,3*sqrt(3))--cycle);\nlabel(\"1\", (-1,2.35*sqrt(3)));\nlabel(\"2\", (3,2.35*sqrt(3)));\nlabel(\"3\", (1,1.65*sqrt(3)));\nlabel(\"4\", (1,.35*sqrt(3)));\n[/asy]",
   "n_questions": 6,
   "labels": [

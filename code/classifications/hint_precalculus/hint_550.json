@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "If the matrix $\\mathbf{A}$ has an inverse and $(\\mathbf{A} - 2 \\mathbf{I})(\\mathbf{A} - 4 \\mathbf{I}) = \\mathbf{0},$ then find\n\\[\\mathbf{A} + 8 \\mathbf{A}^{-1}.\\]",
   "n_questions": 7,
   "labels": [

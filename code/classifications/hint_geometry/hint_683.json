@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Points $(1,-5)$ and $(11,7)$ are the opposite vertices of a parallelogram.  What are the coordinates of the point where the diagonals of the parallelogram intersect?",
   "n_questions": 10,
   "labels": [

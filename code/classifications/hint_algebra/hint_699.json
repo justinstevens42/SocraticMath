@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 3",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "The domain of the equation $y = \\frac{3x}{2x^2 - 6x + 4}$ is the set of all real numbers with the exception of the values $x = A$ and $x = B$. What is $A + B$?",
   "n_questions": 6,
   "labels": [

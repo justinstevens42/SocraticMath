@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "For how many positive integers $x$ is $x^2 + 6x + 9$ between 20 and 40?",
   "n_questions": 10,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "How many continuous paths from $A$ to $B$, along segments of the figure, do not revisit any of the six labeled points?\n\n[asy]\ndraw((0,0)--(3,0)--(3,2)--(0,2)--(0,0)--cycle,linewidth(2));\ndraw((0,2)--(1,0)--(3,2)--(0,2)--cycle,linewidth(2));\ndraw((0,2)--(1.5,3.5)--(3,2),linewidth(2));\n\nlabel(\"$A$\",(1.5,3.5),N);\nlabel(\"$B$\",(0,0),SW);\nlabel(\"$C$\",(0,2),W);\nlabel(\"$D$\",(3,2),E);\nlabel(\"$E$\",(3,0),SE);\nlabel(\"$F$\",(1,0),S);\n[/asy]",
   "n_questions": 8,
   "labels": [

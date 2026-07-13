@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find a nonzero $p$ such that $px^2-12x+4=0$ has only one solution.",
   "n_questions": 9,
   "labels": [

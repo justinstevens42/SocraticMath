@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Factor $(x^2 + 3x + 2)(x^2 + 7x + 12) + (x^2 + 5x - 6)$ as the product of two non-constant polynomials.",
   "n_questions": 8,
   "labels": [

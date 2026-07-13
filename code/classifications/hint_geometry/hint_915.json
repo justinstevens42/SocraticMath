@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "In $\\triangle PQR$, we have $PQ = QR = 34$ and $PR = 32$.  Point $M$ is the midpoint of $\\overline{QR}$.  Find $PM$.",
   "n_questions": 9,
   "labels": [

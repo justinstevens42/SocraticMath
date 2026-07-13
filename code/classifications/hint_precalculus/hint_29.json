@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "If $\\mathbf{a},$ $\\mathbf{b},$ and $\\mathbf{c}$ are vectors such that $\\|\\mathbf{a}\\| = \\|\\mathbf{b}\\| = 1,$ $\\|\\mathbf{a} + \\mathbf{b}\\| = \\sqrt{3},$ and\n\\[\\mathbf{c} - \\mathbf{a} - 2 \\mathbf{b} = 3 (\\mathbf{a} \\times \\mathbf{b}),\\]then find $\\mathbf{b} \\cdot \\mathbf{c}.$",
   "n_questions": 10,
   "labels": [

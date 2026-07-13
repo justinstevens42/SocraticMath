@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Let $a,b,c$ be positive real numbers such that $a+b+c=10$ and $ab+bc+ca=25$.  Let $m=\\min\\{ab,bc,ca\\}$.  Find the largest possible value of $m$.",
   "n_questions": 8,
   "labels": [

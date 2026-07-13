@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "A frequency distribution of the scores for Mr. Sampson's algebra class is shown. What percent of the class received a score in the $60\\%$-$69\\%$ range? \\begin{tabular}{|c|c|}\nTest Scores & Frequencies\\\\\n\\hline\n$90\\% - 100\\%$& IIII\\\\\n$80\\% - 89\\%$& IIII IIII\\\\\n$70\\% - 79\\%$& IIII II\\\\\n$60\\% - 69\\%$ & IIII I\\\\\nBelow $60\\%$ & II\n\\end{tabular}",
   "n_questions": 6,
   "labels": [

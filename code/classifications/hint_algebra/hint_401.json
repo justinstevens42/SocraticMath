@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Marina solved the quadratic equation $9x^2-18x-720=0$ by completing the square. In the process, she came up with the equivalent equation $$(x+r)^2 = s,$$where $r$ and $s$ are constants.\n\nWhat is $s$?",
   "n_questions": 9,
   "labels": [

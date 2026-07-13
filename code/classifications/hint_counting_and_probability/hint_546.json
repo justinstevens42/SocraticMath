@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Each outcome on the spinner below has equal probability. If you spin the spinner three times and form a three-digit number from the three outcomes, such that the first outcome is the hundreds digit, the second outcome is the tens digit and the third outcome is the units digit, what is the probability that you will end up with a three-digit number that is divisible by 4? Express your answer as a common fraction.\n\n[asy]\ndraw(Circle((0,0),10));\ndraw((0,0)--(8.7,-5));\ndraw((0,0)--(-8.7,-5));\ndraw((0,0)--(0,10));\nlabel(\"1\",(7,7),SW);\nlabel(\"3\",(-7,7),SE);\nlabel(\"2\",(0,-2),S);\ndraw((0,0)--(3,5),Arrow);\n[/asy]",
   "n_questions": 7,
   "labels": [

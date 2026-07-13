@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "What is the largest integer that is a divisor of \\[\n(n+1)(n+3)(n+5)(n+7)(n+9)\n\\]for all positive even integers $n$?",
   "n_questions": 10,
   "labels": [

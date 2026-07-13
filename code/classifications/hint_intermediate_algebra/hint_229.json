@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Suppose that $a$ and $b$ are nonzero integers such that two of the roots of\n\\[x^3 + ax^2 + bx + 9a\\]coincide, and all three roots are integers.  Find $|ab|.$",
   "n_questions": 7,
   "labels": [

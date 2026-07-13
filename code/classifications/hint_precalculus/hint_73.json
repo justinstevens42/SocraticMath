@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The matrix\n\\[\\begin{pmatrix} a & 3 \\\\ -8 & d \\end{pmatrix}\\]is its own inverse, for some real numbers $a$ and $d.$  Find the number of possible pairs $(a,d).$",
   "n_questions": 5,
   "labels": [

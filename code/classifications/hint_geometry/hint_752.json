@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "Triangle $ABC$ with vertices of $A(6,2)$, $B(2,5)$, and $C(2,2)$ is reflected over the x-axis to triangle $A'B'C'$. This triangle is reflected over the y-axis to triangle $A''B''C''$. What are the coordinates of point $C''$?",
   "n_questions": 7,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Quadrilateral $ABCD$ is inscribed in a circle with segment $AC$ a diameter of the circle. If $m\\angle DAC = 30^\\circ$ and $m\\angle BAC = 45^\\circ$, the ratio of the area of $ABCD$ to the area of the circle can be expressed as a common fraction in simplest radical form in terms of $\\pi$ as $\\frac{a+\\sqrt{b}}{c\\pi}$, where $a,$ $b,$ and $c$ are positive integers. What is the value of $a + b + c$?",
   "n_questions": 9,
   "labels": [

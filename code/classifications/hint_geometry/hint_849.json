@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "The sides of triangle $CAB$ are in the ratio of $2:3:4$. Segment $BD$ is the angle bisector drawn to the shortest side, dividing it into segments $AD$ and $DC$. What is the length, in inches, of the longer subsegment of side $AC$ if the length of side $AC$ is $10$ inches? Express your answer as a common fraction.",
   "n_questions": 7,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Find the area of the region described by $x \\ge 0,$ $y \\ge 0,$ and\n\\[100 \\{x\\} \\ge \\lfloor x \\rfloor + \\lfloor y \\rfloor.\\]Note: For a real number $x,$ $\\{x\\} = x - \\lfloor x \\rfloor$ denotes the fractional part of $x.$  For example, $\\{2.7\\} = 0.7.$",
   "n_questions": 10,
   "labels": [

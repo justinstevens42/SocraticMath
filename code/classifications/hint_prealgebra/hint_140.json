@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "The three-digit integer $63\\underline{\\hphantom{0}}$ is a multiple of 3. What is the greatest possible difference between two of the possibilities for the units digit?",
   "n_questions": 5,
   "labels": [

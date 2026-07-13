@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "When the vectors $\\mathbf{a} = \\begin{pmatrix} 1 \\\\ -1 \\\\ 2 \\end{pmatrix}$ and $\\mathbf{b} = \\begin{pmatrix} 0 \\\\ 3 \\\\ 0 \\end{pmatrix}$ are both projected onto the same vector $\\mathbf{v},$ the result is $\\mathbf{p}$ in both cases.  Furthermore, the vectors $\\mathbf{a},$ $\\mathbf{b},$ and $\\mathbf{p}$ are collinear.  Find $\\mathbf{p}.$",
   "n_questions": 8,
   "labels": [

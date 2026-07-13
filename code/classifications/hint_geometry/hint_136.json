@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "What is the total area, in square units, of the four triangular faces of a right, square-based pyramid that has base edges measuring 6 units and lateral edges measuring 5 units?",
   "n_questions": 10,
   "labels": [

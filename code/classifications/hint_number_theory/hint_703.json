@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "What is the sum of all of the two-digit primes that are greater than 12 but less than 99 and are still prime when their two digits are interchanged?",
   "n_questions": 6,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Joe has exactly enough paint to paint the surface of a cube whose side length is 2.  It turns out that this is also exactly enough paint to paint the surface of a sphere.  If the volume of this sphere is $\\frac{K \\sqrt{6}}{\\sqrt{\\pi}}$, then what is $K$?",
   "n_questions": 10,
   "labels": [

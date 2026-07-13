@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "There exists a scalar $k$ such that for any vectors $\\mathbf{a},$ $\\mathbf{b},$ and $\\mathbf{c}$ such that $\\mathbf{a} + \\mathbf{b} + \\mathbf{c} = \\mathbf{0},$ the equation\n\\[k (\\mathbf{b} \\times \\mathbf{a}) + \\mathbf{b} \\times \\mathbf{c} + \\mathbf{c} \\times \\mathbf{a} = \\mathbf{0}\\]holds.  Find $k.$",
   "n_questions": 7,
   "labels": [

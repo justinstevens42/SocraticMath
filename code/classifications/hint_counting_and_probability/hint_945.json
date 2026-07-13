@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "At the Gooddog Obedience School, dogs can learn to do three tricks: sit, stay, and roll over. Of the dogs at the school: \\begin{tabular}{l@{\\qquad}l}\n50 dogs can sit & 17 dogs can sit and stay \\\\\n29 dogs can stay & 12 dogs can stay and roll over \\\\\n34 dogs can roll over & 18 dogs can sit and roll over \\\\\n9 dogs can do all three & 9 dogs can do none\n\\end{tabular} How many dogs are in the school?",
   "n_questions": 8,
   "labels": [

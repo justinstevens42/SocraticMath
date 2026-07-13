@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Let the operation $\\#$ be defined as $\\#(a, b, c) = b^2 - 4ac$, for all real numbers $a, b$ and $c$. What is the value of $\\#(1, 2, 3)$?",
   "n_questions": 8,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Find the volume of the region in space defined by\n\\[|x + y + z| + |x + y - z| \\le 8\\]and $x,$ $y,$ $z \\ge 0.$",
   "n_questions": 7,
   "labels": [

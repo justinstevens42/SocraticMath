@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "The value $b^n$ has both $b$ and $n$ as positive integers less than or equal to 15. What is the greatest number of positive factors $b^n$ can have?",
   "n_questions": 6,
   "labels": [

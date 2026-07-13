@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "A polynomial with integer coefficients is of the form\n\\[x^3 + a_2 x^2 + a_1 x - 11 = 0.\\]Enter all the possible integer roots of this polynomial, separated by commas.",
   "n_questions": 7,
   "labels": [

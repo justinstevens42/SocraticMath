@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "In trapezoid $ABCD$, the parallel sides $AB$ and $CD$ have lengths of 8 and 20 units, respectively, and the altitude is 12 units. Points $E$ and $F$ are the midpoints of sides $AD$ and $BC$, respectively. What is the area of quadrilateral $EFCD$ in square units?",
   "n_questions": 6,
   "labels": [

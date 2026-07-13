@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "The sequence $(x_n)$ is defined by $x_1 = 115$ and $x_k = x_{k - 1}^2 + x_{k - 1}$ for all $k \\ge 2.$  Compute\n\\[\\frac{1}{x_1 + 1} + \\frac{1}{x_2 + 1} + \\frac{1}{x_3 + 1} + \\dotsb.\\]",
   "n_questions": 11,
   "labels": [

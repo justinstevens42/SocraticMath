@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 2",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
   "problem": "Use each of the digits 3, 4, 6, 8 and 9 exactly once to create the greatest possible five-digit multiple of 6. What is that multiple of 6?",
   "n_questions": 8,
   "labels": [

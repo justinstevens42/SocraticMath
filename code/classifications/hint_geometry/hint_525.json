@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "Rectangle $ABCD$ is the base of pyramid $PABCD$. If $AB = 8$, $BC = 4$, $\\overline{PA}\\perp \\overline{AB}$, $\\overline{PA}\\perp\\overline{AD}$, and $PA = 6$, then what is the volume of $PABCD$?",
   "n_questions": 6,
   "labels": [

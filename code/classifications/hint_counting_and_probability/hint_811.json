@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 2",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "How many different routes are there from point $A$ to point $B$ if you can only move to the right or down along the drawn segments?\n\n[asy]\nunitsize(0.09inch);\ndraw((0,0)--(10,0)--(10,10)--(0,10)--cycle);\ndraw((5,0)--(5,10));\ndraw((0,5)--(10,5));\ndot((0,10));\ndot((10,0));\nlabel(\"$A$\",(0,10),NW);\nlabel(\"$B$\",(10,0),SE);\n[/asy]",
   "n_questions": 9,
   "labels": [

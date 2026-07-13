@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 3",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "What is the smallest positive integer that satisfies the congruence $4x \\equiv 13 \\pmod{27}$?",
   "n_questions": 8,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 1",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "The number $n$ is a prime number between 20 and 30. If you divide $n$ by 8, the remainder is 5. What is the value of $n$?",
   "n_questions": 10,
   "labels": [

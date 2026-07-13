@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "A square with side length 1 is rotated about one vertex by an angle of $\\alpha,$ where $0^\\circ < \\alpha < 90^\\circ$ and $\\cos \\alpha = \\frac{4}{5}.$  Find the area of the shaded region that is common to both squares.\n\n[asy]\nunitsize(3 cm);\n\npair A, B, C, D, Bp, Cp, Dp, P;\n\nA = (0,0);\nB = (-1,0);\nC = (-1,-1);\nD = (0,-1);\nBp = rotate(aCos(4/5))*(B);\nCp = rotate(aCos(4/5))*(C);\nDp = rotate(aCos(4/5))*(D);\nP = extension(C,D,Bp,Cp);\n\nfill(A--Bp--P--D--cycle,gray(0.7));\ndraw(A--B---C--D--cycle);\ndraw(A--Bp--Cp--Dp--cycle);\n\nlabel(\"$\\alpha$\", A + (-0.25,-0.1));\n[/asy]",
   "n_questions": 6,
   "labels": [

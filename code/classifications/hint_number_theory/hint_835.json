@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Suppose that $b$ is a positive integer greater than or equal to $2.$ When $197$ is converted to base $b$, the resulting representation has $4$ digits. What is the number of possible values for $b$?",
   "n_questions": 10,
   "labels": [

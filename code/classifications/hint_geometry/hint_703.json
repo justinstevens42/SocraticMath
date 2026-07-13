@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "The triangle shown is an equilateral triangle with side length 12 cm. A side of the triangle is the diameter of the circle. If the sum of the areas of the two small shaded regions in square centimeters in simplest radical form is $a\\pi - b\\sqrt{c}$, what is $a+b+c$? [asy]\nimport graph;\nsize(2inch);\npair A = dir(60);\npair B = dir(240);\npair C = dir(0);\npair D = dir(300);\npair E = extension(A, C, B, D);\ndraw(A--B); draw(A--E); draw(B--E);\ndraw(Circle( (0,0), 1));\nfill(Arc((0,0), C, A)--cycle, gray);\nfill(Arc((0,0), B, D)--cycle, gray);\n[/asy]",
   "n_questions": 9,
   "labels": [

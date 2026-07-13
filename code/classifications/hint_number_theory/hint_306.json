@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Each letter of the alphabet is assigned a value $(A=1, B=2, C=3, ..., Z=26)$. The product of a four-letter list is the product of the values of its four letters. The product of the list $ADGI$ is $(1)(4)(7)(9) = 252$. What is the only other four-letter list with a product equal to the product of the list $PQRS$? Write the letters of the four-digit list in alphabetical order.",
   "n_questions": 6,
   "labels": [

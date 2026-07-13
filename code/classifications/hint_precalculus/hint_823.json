@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Let $\\mathbf{a}$ and $\\mathbf{b}$ be two vectors such that\n\\[\\|\\mathbf{a} + \\mathbf{b}\\| = \\|\\mathbf{b}\\|.\\]Find the angle between the vectors $\\mathbf{a} + 2 \\mathbf{b}$ and $\\mathbf{a},$ in degrees",
   "n_questions": 5,
   "labels": [

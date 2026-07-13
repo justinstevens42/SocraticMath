@@ -3,6 +3,8 @@
   "domain": "intermediate_algebra",
   "type": "Intermediate Algebra",
   "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
   "problem": "Let $a,$ $b,$ $c$ be complex numbers such that\n\\[a + b + c = ab + ac + bc = abc = 1.\\]Enter the values $a,$ $b,$ $c,$ separated by commas, in any order.",
   "n_questions": 6,
   "labels": [

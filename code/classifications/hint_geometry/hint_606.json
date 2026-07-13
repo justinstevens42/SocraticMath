@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "The line joining $(3,2)$ and $(6,0)$ divides the square shown into two parts. What fraction of the area of the square is above this line? Express your answer as a common fraction.\n\n[asy]\ndraw((-2,0)--(7,0),linewidth(1),Arrows);\ndraw((0,-1)--(0,4),linewidth(1),Arrows);\n\ndraw((1,.25)--(1,-.25),linewidth(1));\ndraw((2,.25)--(2,-.25),linewidth(1));\ndraw((3,.25)--(3,-.25),linewidth(1));\ndraw((4,.25)--(4,-.25),linewidth(1));\ndraw((5,.25)--(5,-.25),linewidth(1));\ndraw((6,.25)--(6,-.25),linewidth(1));\n\ndraw((.25,1)--(-.25,1),linewidth(1));\ndraw((.25,2)--(-.25,2),linewidth(1));\ndraw((.25,3)--(-.25,3),linewidth(1));\n\ndraw((3,0)--(6,0)--(6,3)--(3,3)--(3,0)--cycle,linewidth(2));\n\nlabel(\"$y$\",(0,4),N);\nlabel(\"$x$\",(7,0),E);\nlabel(\"$(3,0)$\",(3,0),S);\nlabel(\"$(6,3)$\",(6,3),N);\n[/asy]",
   "n_questions": 6,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "Phil has 7 green marbles and 3 purple marbles in a bag. He removes a marble at random, records the color, puts it back, and then repeats this process until he has withdrawn 6 marbles. What is the probability that exactly three of the marbles that he removes are green? Express your answer as a decimal rounded to the nearest thousandth.",
   "n_questions": 12,
   "labels": [

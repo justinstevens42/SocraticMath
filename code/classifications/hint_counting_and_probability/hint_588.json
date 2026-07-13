@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "The numbers from 1 to 150, inclusive, are placed in a bag and a number is randomly selected from the bag. What is the probability it is not a perfect power (integers that can be expressed as $x^{y}$ where $x$ is an integer and $y$ is an integer greater than 1. For example, $2^{4}=16$ is a perfect power, while $2\\times3=6$ is not a perfect power)? Express your answer as a common fraction.",
   "n_questions": 7,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Among all the roots of\n\\[z^8 - z^6 + z^4 - z^2 + 1 = 0,\\]the maximum imaginary part of a root can be expressed as $\\sin \\theta,$ where $-90^\\circ \\le \\theta \\le 90^\\circ.$  Find $\\theta.$",
   "n_questions": 8,
   "labels": [

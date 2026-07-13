@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "What is the largest three-digit integer whose digits are distinct and form a geometric sequence?",
   "n_questions": 8,
   "labels": [

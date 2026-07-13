@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 2",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
   "problem": "What is $2^{16} \\div 16^2$? Write your answer as an integer.",
   "n_questions": 6,
   "labels": [

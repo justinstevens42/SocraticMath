@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Find the number of solutions to\n\\[\\cos 4x + \\cos^2 3x + \\cos^3 2x + \\cos^4 x = 0\\]for $-\\pi \\le x \\le \\pi.$",
   "n_questions": 8,
   "labels": [

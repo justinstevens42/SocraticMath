@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "To transmit a positive integer less than 1000, the Networked Number Node offers two options.\n\nOption 1. Pay $\\$$d to send each digit d. Therefore, 987 would cost $\\$$9 + $\\$$8 + $\\$$7 = $\\$$24 to transmit.\n\nOption 2. Encode integer into binary (base 2) first, and then pay $\\$$d to send each digit d. Therefore, 987 becomes 1111011011 and would cost $\\$$1 + $\\$$1 + $\\$$1 + $\\$$1 + $\\$$0 + $\\$$1 + $\\$$1 + $\\$$0 + $\\$$1 + $\\$$1 = $\\$$8.\n\nWhat is the largest integer less than 1000 that costs the same whether using Option 1 or Option 2?",
   "n_questions": 15,
   "labels": [

@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A pyramid is formed on a $6\\times 8$ rectangular base. The four edges joining the apex to the corners of the rectangular base each have length $13$. What is the volume of the pyramid?",
   "n_questions": 7,
   "labels": [

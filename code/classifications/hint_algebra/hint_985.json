@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 4",
+  "problem_type": "IN",
+  "problem_type_name": "Interpretations",
   "problem": "If $f(x)=\\frac{x+4}{x^2+ax+b}$, and $f(x)$ has two vertical asymptotes at $x=1$ and $x=-2$, find the sum of $a$ and $b$.",
   "n_questions": 6,
   "labels": [

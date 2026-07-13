@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 3",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "Find all 6-digit multiples of 22 of the form $5d5,\\!22e$ where $d$ and $e$ are digits. What is the maximum value of $d$?",
   "n_questions": 6,
   "labels": [

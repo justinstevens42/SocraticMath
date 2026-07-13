@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "In $\\triangle PQR$, point $T$ is on side $QR$ such that $QT=6$ and $TR=10$. What is the ratio of the area of $\\triangle PQT$ to the area of $\\triangle PTR$? [asy]\nsize(6cm);\npair q = (0, 0); pair t = (6, 0); pair r = (16, 0);\npair p = (4, 8);\ndraw(p--q--r--cycle--t);\nlabel(\"$P$\", p, N);\nlabel(\"$Q$\", q, SW);\nlabel(\"$T$\", t, S);\nlabel(\"$R$\", r, SE);\nlabel(\"$6$\", midpoint(q--t), S, fontsize(10));\nlabel(\"$10$\", midpoint(t--r), S, fontsize(10));\n[/asy] Write your answer in the form $x:y$, where $x$ and $y$ are relatively prime positive integers.",
   "n_questions": 7,
   "labels": [

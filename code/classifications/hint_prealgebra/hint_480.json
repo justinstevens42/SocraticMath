@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "How many square units are in the area of the pentagon shown here   with sides of length 15, 20, 27, 24 and 20 units?\n\n[asy]\npair a,b,c,d,e;\na=(0,0);\nb=(24,0);\nc=(24,27);\nd=(5.3,34);\ne=(0,20);\ndraw((0,0)--(24,0)--(24,27)--(5.3,34)--(0,20)--cycle);\ndraw((4.8,32.7)--(6.1,32.2)--(6.6,33.5));\nlabel(\"24\",(12,0),S);\nlabel(\"27\",(24,13.5),E);\nlabel(\"20\",(15,30.5),NE);\nlabel(\"15\",(2.6,27),NW);\nlabel(\"20\",(0,10),W);\ndraw((1.5,0)--(1.5,1.5)--(0,1.5));\ndraw((22.5,0)--(22.5,1.5)--(24,1.5));\n[/asy]",
   "n_questions": 9,
   "labels": [

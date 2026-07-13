@@ -3,6 +3,8 @@
   "domain": "number_theory",
   "type": "Number Theory",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "The sum of the positive divisors of a positive integer of the form $2^i3^j$ is equal to $600$. What is $i + j$?",
   "n_questions": 10,
   "labels": [

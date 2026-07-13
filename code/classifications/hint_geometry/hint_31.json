@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "The lengths of the three sides of a triangle are $7$, $x+4$ and $2x+1$.  The perimeter of the triangle is 36.  What is the length of the longest side of the triangle?",
   "n_questions": 6,
   "labels": [

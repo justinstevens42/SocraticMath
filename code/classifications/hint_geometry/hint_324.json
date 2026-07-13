@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Suppose that we are given 40 points equally spaced around the perimeter of a square, so that four of them are located at the vertices and the remaining points divide each side into ten congruent segments.  If $P$, $Q$, and $R$ are chosen to be any three of these points which are not collinear, then how many different possible positions are there for the centroid of $\\triangle PQR$?",
   "n_questions": 11,
   "labels": [

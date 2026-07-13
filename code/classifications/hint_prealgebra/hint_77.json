@@ -3,6 +3,8 @@
   "domain": "prealgebra",
   "type": "Prealgebra",
   "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "Let $a$ be the number of positive multiples of $6$ that are less than $30$. Let $b$ be the number of positive integers that are less than $30$, and a multiple of $3$ and a multiple of $2$. Compute $(a - b)^3$.",
   "n_questions": 6,
   "labels": [

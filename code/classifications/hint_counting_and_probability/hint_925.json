@@ -3,6 +3,8 @@
   "domain": "counting_and_probability",
   "type": "Counting & Probability",
   "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
   "problem": "A zealous geologist is sponsoring a contest in which entrants have to guess the age of a shiny rock. He offers these clues: the age of the rock is formed from the six digits 2, 2, 2, 3, 7, and 9, and the rock's age begins with an odd digit.\n\nHow many possibilities are there for the rock's age?",
   "n_questions": 7,
   "labels": [

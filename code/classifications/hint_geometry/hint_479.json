@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 3",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
   "problem": "Six small circles, each of radius $3$ units, are tangent to a large circle as shown. Each small circle also is tangent to its two neighboring small circles. What is the diameter of the large circle in units? [asy]\ndraw(Circle((-2,0),1));\ndraw(Circle((2,0),1));\ndraw(Circle((-1,1.73205081),1));\ndraw(Circle((1,1.73205081),1));\ndraw(Circle((-1,-1.73205081),1));\ndraw(Circle((1,-1.73205081),1));\ndraw(Circle((0,0),3));\n[/asy]",
   "n_questions": 8,
   "labels": [

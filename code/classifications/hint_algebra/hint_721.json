@@ -3,6 +3,8 @@
   "domain": "algebra",
   "type": "Algebra",
   "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
   "problem": "Evaluate $\\lfloor0.999\\rfloor+\\lceil2.001\\rceil$.",
   "n_questions": 7,
   "labels": [

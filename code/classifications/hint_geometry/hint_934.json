@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "In triangle $ABC$, $AB = 11$, $AC = 13$, and $BC = 20$.  The medians $AD$, $BE$, and $CF$ of triangle $ABC$ intersect at the centroid $G$.  Let $P$ be the foot of the altitude from $G$ to $BC$.  Find $GP$.\n\n[asy]\nunitsize(0.3 cm);\n\npair A, B, C, D, E, F, G, P;\n\nA = (44/5,33/5);\nB = (0,0);\nC = (20,0);\nD = (B + C)/2;\nE = (C + A)/2;\nF = (A + B)/2;\nG = (A + B + C)/3;\nP = (G + reflect(B,C)*(G))/2;\n\ndraw(A--B--C--cycle);\ndraw(A--D);\ndraw(B--E);\ndraw(C--F);\ndraw(G--P);\n\nlabel(\"$A$\", A, dir(90));\nlabel(\"$B$\", B, SW);\nlabel(\"$C$\", C, SE);\nlabel(\"$D$\", D, SE);\nlabel(\"$E$\", E, NE);\nlabel(\"$F$\", F, NW);\nlabel(\"$G$\", G, NE);\nlabel(\"$P$\", P, SSW);\n[/asy]",
   "n_questions": 10,
   "labels": [

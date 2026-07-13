@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
   "problem": "Let $A,$ $B,$ $C$ be the angles of a triangle.  Evaluate\n\\[\\begin{vmatrix} \\sin^2 A & \\cot A & 1 \\\\ \\sin^2 B & \\cot B & 1 \\\\ \\sin^2 C & \\cot C & 1 \\end{vmatrix}.\\]",
   "n_questions": 7,
   "labels": [

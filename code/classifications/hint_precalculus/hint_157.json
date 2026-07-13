@@ -3,6 +3,8 @@
   "domain": "precalculus",
   "type": "Precalculus",
   "level": "Level 3",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
   "problem": "The graph of $r = \\cos \\theta$ is a circle.  Find the smallest value of $t$ so that when $r = \\cos \\theta$ is plotted for $0 \\le \\theta \\le t,$ the resulting graph is the entire circle.",
   "n_questions": 8,
   "labels": [

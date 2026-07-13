@@ -3,6 +3,8 @@
   "domain": "geometry",
   "type": "Geometry",
   "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
   "problem": "A cube has edges of length 1 cm and has a dot marked in the centre of the top face.  The cube is sitting on a flat table.  The cube is rolled, without lifting or slipping, in one direction so that at least two of its vertices are always touching the table.  The cube is rolled until the dot is again on the top face.  The length, in centimeters, of the path followed by the dot is $c\\pi$, where $c$ is a constant.  What is $c$?",
   "n_questions": 7,
   "labels": [
