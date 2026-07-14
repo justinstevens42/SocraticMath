@@ -78,13 +78,31 @@ uv sync
 
 ## Usage
 
+Regex-rubric pipeline (no API key needed; writes to `outputs/` and `classifications/`):
+
 ```bash
 uv run socratic-hints classify       # parse + classify (hint types + problem type) -> per-file JSON + master CSV
 uv run socratic-hints analyze        # per-domain transition matrices + KL + similarity + plots
 uv run socratic-hints analyze-types  # per-problem-type transition matrices + KL + similarity + plots
 uv run socratic-hints evaluate       # rubric vs Cursor's hand-labeled gold set
-uv run socratic-hints all            # all of the above
+uv run socratic-hints plot-types     # problem-type histograms
+uv run socratic-hints all            # classify + analyze + analyze-types + evaluate
 uv run socratic-hints analyze --prior-strength 2.0   # scale the Dirichlet priors
+```
+
+LLM pipeline (same analyses, but hint types are labeled by Claude; writes to
+`outputs_llms/` and `classifications_llms/`). Credentials are resolved from
+`ANTHROPIC_API_KEY` / `ANTHROPIC_AUTH_TOKEN` via the `anthropic` SDK, with a
+Claude Code CLI fallback when no key is set:
+
+```bash
+uv run socratic-hints classify-llm       # label every question with Claude
+uv run socratic-hints analyze-llm        # per-domain analysis on the LLM labels
+uv run socratic-hints analyze-types-llm  # per-problem-type analysis on the LLM labels
+uv run socratic-hints evaluate-llm       # LLM labels vs the gold set
+uv run socratic-hints plot-types-llm     # problem-type histograms (LLM labels)
+uv run socratic-hints all-llm            # all of the above
+uv run socratic-hints classify-llm --model <model-id> --limit 50   # useful for a cheap trial run
 ```
 
 ## Bayesian model
@@ -133,6 +151,10 @@ and problem-type codes in place of domains:
 Per-file classifications (now including `problem_type` / `problem_type_name`)
 are written to `code/classifications/hint_<domain>/`.
 
+The `*-llm` commands write the same set of files to `code/outputs_llms/` and
+`code/classifications_llms/`, plus `problem_type_hist_*.png` comparison
+histograms (e.g. `problem_type_hist_llm_vs_regex.png`).
+
 ## Layout
 
 ```
@@ -142,9 +164,12 @@ code/
     problem_types.py    # the 9 Quarfoot problem types + descriptions
     parse.py            # load hint JSON, split the question chain
     classify.py         # rubric hint-type classifier (+ optional LLM hook)
+    classify_llm.py     # Claude-based hint-type classifier
+    llm_backend.py      # Anthropic SDK / Claude Code CLI backends
     classify_problem.py # heuristic whole-problem type classifier
     gold.py             # Cursor's hand-labeled gold set
+    config.py           # paths; use_llm_paths() switches to the *_llms dirs
     transitions.py      # Dirichlet-Multinomial transition matrices
     kl.py               # row-wise KL divergence + similarity
-    cli.py              # classify / analyze / analyze-types / evaluate / all
+    cli.py              # classify / analyze / analyze-types / evaluate / all (+ *-llm variants)
 ```
