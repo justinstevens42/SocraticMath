@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_996",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "If angle $A$ lies in the second quadrant and $\\sin A = \\frac{3}{4},$ find $\\cos A.$",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of the sine of an angle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "In which quadrants is the sine function positive?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Since angle A lies in the second quadrant, can you determine the sign of the cosine of A? Why?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can you find the value of cosine squared A using information given about sine A?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between the sine and cosine of an angle in a right triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can you use this relationship to determine the value of cosine A?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final value and sign of cosine A based on the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

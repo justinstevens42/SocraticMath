@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_736",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "In triangle $\\triangle JKL$ shown, $\\tan K = \\frac{3}{2}$. What is $KL$?\n\n[asy]\npair J,K,L;\nL = (0,0);\nJ = (0,3);\nK = (2,3);\ndraw(L--J--K--L);\ndraw(rightanglemark(L,J,K,7));\nlabel(\"$L$\",L,SW);\nlabel(\"$J$\",J,NW);\nlabel(\"$K$\",K,NE);\nlabel(\"$2$\",(J+K)/2,N);\n[/asy]",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of the tangent of an angle in a right triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the given information that $\\tan K = \\frac{3}{2}$ to determine the length of side $JL$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the Pythagorean theorem and how can we apply it in this triangle to find the length of side $KL$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What are the values of $JL$ and $JK$ that we substitute into the Pythagorean theorem formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the step-by-step process of calculating the length of side $KL$ using the Pythagorean theorem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we use any other trigonometric ratios, such as sine or cosine, to solve for the length of side $KL$? Why or why not?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other similar triangles or right triangles where we can use the same methods to find missing side lengths?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_844",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "In $\\triangle ABC$ points $D$ and $E$ lie on $\\overline{BC}$ and $\\overline{AC}$, respectively.  If $\\overline{AD}$ and $\\overline{BE}$ intersect at $T$ so that $AT/DT=3$ and $BT/ET=4$, what is $CD/BD$?\n\n[asy]\npair A,B,C,D,I,T;\nA=(0,0);\nB=(6,8);\nC=(11,0);\nD=(9.33,2.66);\nI=(7.5,0);\nT=(6.5,2);\nlabel(\"$T$\",T,NW);\nlabel(\"$D$\",D,NE);\nlabel(\"$E$\",I,S);\nlabel(\"$A$\",A,S);\nlabel(\"$C$\",C,S);\nlabel(\"$B$\",B,N);\ndraw(A--B--C--cycle,linewidth(0.7));\ndraw(A--D,linewidth(0.7));\ndraw(B--I,linewidth(0.7));\n[/asy]",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the relationship between points $D$ and $E$ with respect to the sides of $\\triangle ABC$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the significance of point $T$ in the context of the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we express $AT/DT$ and $BT/ET$ in terms of a single variable?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the given ratios to determine the value of this variable?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between $\\triangle ATE$ and $\\triangle ADF$, and how can we use this to determine the value of $DF$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the similarity of $\\triangle BEC$ and $\\triangle DFC$ to determine the value of $CD/BC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Finally, how can we find the value of $CD/BD$ using the previous ratio, and what is the final answer to the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

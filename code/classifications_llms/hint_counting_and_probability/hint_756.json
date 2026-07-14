@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_756",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "In how many ways can 7 people be seated in a row of chairs if two of the people, Wilma and Paul, refuse to sit next to each other?",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "b",
+    "e",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total number of possible seating arrangements for 7 people in a row of chairs?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Why can't Wilma and Paul sit next to each other?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we arrive at the number of seating arrangements in which Wilma and Paul sit next to each other?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How do we arrive at the number of acceptable arrangements using the subtraction principle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there any other methods to solve this problem besides using the subtraction principle?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "If there were more than 2 people who refused to sit together, would the same method work?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "How does the answer change if the chairs are arranged in a circle instead of a row?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Can the same method be applied if there are more than 7 people?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

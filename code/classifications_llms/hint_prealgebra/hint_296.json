@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_296",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "What is the largest multiple of 7 less than 50?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem we're trying to solve?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the information about the division of 50 by 7 to help us solve this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What options do we have for finding multiples of 7 that are less than 50?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the fact that $7\\cdot 7 +1=50$ to help us solve this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Is there a quicker way to find the largest multiple of 7 less than 50?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other problems that require finding multiples of a certain number and how might we approach those?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "How can we check that our answer of 49 is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

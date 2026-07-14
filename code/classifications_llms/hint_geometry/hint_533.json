@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_533",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Two boards, one four inches wide and the other six inches wide, are nailed together to form an X. The angle at which they cross is 60 degrees. If this structure is painted and the boards are separated what is the area of the unpainted region on the four-inch board? (The holes caused by the nails are negligible.) Express your answer in simplest radical form.\n\n[asy]\ndraw(6dir(150)--15dir(-30),linewidth(1));\ndraw((6dir(150)+12/sqrt(3)*dir(30))--(15dir(-30)+12/sqrt(3)*dir(30)),linewidth(1));\n\ndraw(6dir(210)--(0,0),linewidth(1));\ndraw((9dir(210)+8/sqrt(3)*dir(-30))--8/sqrt(3)*dir(-30),linewidth(1));\n\ndraw(12/sqrt(3)*dir(30)--(12/sqrt(3)+6)*dir(30),linewidth(1));\ndraw(12/sqrt(3)*dir(30)+8/sqrt(3)*dir(-30)--(12/sqrt(3)+9)*dir(30)+8/sqrt(3)*dir(-30),linewidth(1));\n\ndraw(2dir(150)--2dir(150)+6dir(60),dashed);\ndraw(2dir(210)--2dir(210)+4dir(-60),dashed);\n\ndot((2,0));\ndot((4,-1));\ndot((8,1));\ndot((6,2));\n\nlabel(\"$60^{\\circ}$\", (11,1), E);\nlabel(rotate(30)*\"$4^{\\prime\\prime}$\", .5*(2dir(210)+2dir(210)+4dir(-60))+(0,-.5),W);\nlabel(rotate(-30)*\"$6^{\\prime\\prime}$\", .5*(2dir(150)+2dir(150)+6dir(60))+(1,1),W);\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "b",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the shape formed by the two boards when they are nailed together?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the angle between the two boards?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the height of the parallelogram formed by the unpainted region on the four-inch board?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the length of the hypotenuse of the right triangle formed by drawing the height of the parallelogram?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What kind of triangle is formed by drawing the height of the parallelogram?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "What is the ratio of the lengths of the sides of this triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can we determine the length of the hypotenuse of the triangle based on the ratio?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the length of the hypotenuse of the triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we use the length of the hypotenuse to find the area of the parallelogram?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the area of the unpainted region on the four-inch board?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

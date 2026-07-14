@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_911",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "How many ways are there to put 5 balls in 3 boxes if the balls are distinguishable but the boxes are not?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total number of ways you can arrange 5 distinguishable balls in 3 indistinguishable boxes?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we break down the problem into smaller cases?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What are the possible distributions of balls among the boxes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Let's examine the case where all 5 balls are in one box. How many ways can this happen?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Consider the case where 4 balls are in one box and 1 ball is in another. How many ways can this happen?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How about the case where 3 balls are in one box and 2 balls are in another? How many ways can this happen?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What can we say about the case where 3 balls are in one box and 1 ball is in each of the remaining boxes? How many ways can this happen?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Let's explore the case where 2 balls are in one box, 2 balls are in another box, and 1 ball is in the remaining box. How many ways can this happen?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Are there any duplicate arrangements we need to consider? How can we account for them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Finally, let's calculate the total number of arrangements by adding up our results for each case. What is the final answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

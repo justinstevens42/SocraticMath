@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_175",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find the quadratic polynomial, with real coefficients, which has $3 + i$ as a root, and where the coefficient of $x^2$ is 2.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "f",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what the first step should be in finding the quadratic polynomial?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How do you determine the other root of the polynomial if one root is given?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Why does the polynomial have the form $(x - 3 - i)(x - 3 + i)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How did you simplify the expression $((x - 3)^2 - i^2)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the significance of the term $(x - 3)^2$ in the polynomial?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other methods you can think of to find the quadratic polynomial?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

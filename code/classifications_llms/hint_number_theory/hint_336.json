@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_336",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "When the digits in the number $2005$ are reversed we obtain the number $5002,$ and $5002 = a \\cdot b \\cdot c$, such that $a$, $b$ and $c$ are three distinct primes. How many other positive integers are the products of exactly three distinct primes $p_1$, $p_2$ and $p_3$ such that $p_1 + p_2 + p_3 = a+b+c$?",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "b",
+    "f",
+    "f",
+    "e",
+    "f",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the steps you would take to solve this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How would you approach finding the prime factors of the number 5002?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What characteristics must the three primes have in order for their sum to equal the sum of the prime factors of 5002?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Why is it necessary for the prime factors to be distinct?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of any other examples where the sum of three distinct primes is equal to the sum of the prime factors of a different number?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Are there any limitations or constraints on the values of the primes that can be used in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "Is there a specific method or strategy you would use to find pairs of primes that sum to a given number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ],
+  "classifier": "llm"
+}

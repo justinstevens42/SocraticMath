@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_297",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Let $a,$ $b,$ and $c$ be distinct real numbers.  Simplify the expression\n\\[\\frac{(x + a)^3}{(a - b)(a - c)} + \\frac{(x + b)^3}{(b - a)(b - c)} + \\frac{(x + c)^3}{(c - a)(c - b)}.\\]",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you simplify the expression given?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What can you say about the coefficients of the cubed terms?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can you express $p(-a)$ in terms of $a,$ $b,$ and $c,$ and why is this important?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you find the values of $p(-a),$ $p(-b),$ and $p(-c),$ and what do you notice about them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Based on your observations, what can you conclude about the expression $p(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why the expression $p(x)$ simplifies to $a + b + c + 3x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

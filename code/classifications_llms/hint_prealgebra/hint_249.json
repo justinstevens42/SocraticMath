@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_249",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "How many integers between $100$ and $150$ have three different digits in increasing order? One such integer is $129$.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How is the problem broken up into cases based on the second digit?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "For each case, how are the different integers counted?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain why there are no integers if the second digit is 0 or 1?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many integers are there if the second digit is 2? Can you list them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many integers are there if the second digit is 3? Can you list them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many integers are there if the second digit is 4? Can you list them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the total number of integers with three different digits in increasing order between 100 and 150?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

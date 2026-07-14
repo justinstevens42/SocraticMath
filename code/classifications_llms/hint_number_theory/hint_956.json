@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_956",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "How many integers $n$ are there such that $3 \\leq n \\leq 10$ and $121_n$ (the number written as $121$ in base $n$) is a perfect square?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "f",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How is the number 121 written in base $n$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for a number to be a perfect square?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we express the number 121 in terms of $n$ using exponents?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we rewrite $n^2 + 2n + 1$ as a perfect square?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "In which bases (except binary) does the digit string 121 represent a perfect square?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "How many integers between 3 and 10 (inclusive) satisfy the condition that $121_n$ is a perfect square?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

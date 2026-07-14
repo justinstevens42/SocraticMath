@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_769",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "In a right prism with triangular bases, given the sum of the areas of three mutually adjacent faces (that is, of two lateral faces and one base) is 24, find the maximum volume of the prism.\n\n[asy]\nunitsize(1 cm);\n\npair A, B, C, D, E, F;\n\nA = (0,0);\nB = (3,-1);\nC = (-1,-2);\nD = A + (0,-4);\nE = B + (0,-4);\nF = C + (0,-4);\n\ndraw(A--B--C--cycle);\ndraw(E--F);\ndraw(F--D--E,dashed);\ndraw(A--D,dashed);\ndraw(B--E);\ndraw(C--F);\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given problem and identify the variables involved?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What geometric figure is described in the problem? Can you visualize it?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the surface area constraint equation given in the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you express the volume of the prism in terms of the variables and constraints given?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we express the sum of the three areas in terms of the variables and constraints?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we express the product of the three areas in terms of the volume and the sine of the included angle theta?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the AM-GM inequality and how can we use it in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "How can we determine the maximum value for the product XYZ?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the relation between XYZ and the volume of the prism?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you determine the maximum volume of the prism based on the inequality and the constraints given?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

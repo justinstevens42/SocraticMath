@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_325",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "How many distinct digits can appear as the units digit of an integral perfect-square number?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what a perfect square number is and how it is related to the units digit?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the units digit of a perfect square number using modular arithmetic?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you list all the possible units digits of $d^2$ where $d$ is a digit from 0 to 9?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is it that only certain digits appear as the units digit of a perfect square number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How did you verify that the units digits of 0, 1, 4, 5, 6, and 9 are possible for $d^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other scenarios or problems where similar reasoning and steps might be applicable?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

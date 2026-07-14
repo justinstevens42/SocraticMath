@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_193",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 1",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "Let $p$ and $q$ satisfy $pq=9$ and $p+q=6$. What is the value of $p^2 + q^2$?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step towards finding the value of $p^2 + q^2$ in this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the given information to express $p^2 + q^2$ in terms of $p$ and $q$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What are the possible ways to manipulate the equations $pq = 9$ and $p + q = 6$ to get closer to finding the value of $p^2 + q^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "If we choose to use substitution, how would we substitute one equation into the other to eliminate one of the variables?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there any alternative methods we could employ to solve this problem? How would they differ from using substitution?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other equations where a similar thought process and steps might be used to find a solution?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

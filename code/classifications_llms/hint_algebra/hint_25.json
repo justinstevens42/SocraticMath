@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_25",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "If $4^6=8^n$, what is $n$?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we relate the equation $4^6=8^n$ to the concept of exponentiation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between $4^6$ and $8^n$ in terms of their base and exponent?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can we rewrite $8^n$ using the same base as $4^6$? If so, how?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What property of exponents can we use to equate the bases in the equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine the value of $n$ when the bases are equal?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you verify the solution you found by substituting the value of $n$ back into the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other equations where we can apply similar reasoning and steps to find unknown exponents?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

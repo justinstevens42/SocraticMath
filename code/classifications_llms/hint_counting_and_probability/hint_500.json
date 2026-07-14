@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_500",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "How many ways are there to put 4 balls in 3 boxes if the balls are distinguishable and the boxes are distinguishable?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the problem is asking for?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Is the order in which the balls are placed in the boxes important?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many ways are there to place the first ball in the boxes? And the second ball?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "If we have already placed two balls in the boxes, how many ways are there to place the third ball? Why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does the number of ways change when we place the fourth ball in the boxes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other situations where the multiplication rule can be used to count the number of possibilities?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

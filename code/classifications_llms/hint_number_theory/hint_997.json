@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_997",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "For how many integer values of $n$ between 1 and 349 inclusive does the decimal representation of $\\frac{n}{350}$ terminate?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you define what it means for a decimal representation to terminate?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What are the prime factors of 350, and how do they relate to the question being asked?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine if the decimal representation of n/350 terminates based on its factors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many multiples of 7 are there between 1 and 349?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the connection between the number of multiples of 7 and the number of possible values of n that make n/350 a terminating decimal?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other examples where we can use prime factorization to determine if a decimal representation terminates?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

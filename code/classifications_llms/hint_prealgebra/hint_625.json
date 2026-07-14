@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_625",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "What is the value of $x$ in the plane figure shown?\n\n[asy]\npair A;\ndraw(dir(40)--A); draw(dir(200)--A); draw(dir(300)--A);\nlabel(\"$160^{\\circ}$\",A,dir(120)); label(\"$x^{\\circ}$\",A,dir(250)); label(\"$x^{\\circ}$\",A,dir(350));\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given problem asking for?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you identify any relationships between the angles in the figure?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the fact that the angles around a point sum to $360^\\circ$ to help solve for $x$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can we simplify the equation we get from using the fact that the angles around a point sum to $360^\\circ$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we isolate $x$ in the equation we found?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the value of $x$ that we solve for using this method? Can we check our answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

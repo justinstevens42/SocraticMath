@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_512",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "If $\\sin x = 3 \\cos x,$ then what is $\\sin x \\cos x$?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we use the given equation $\\sin x = 3 \\cos x$ to simplify the expression $\\sin x \\cos x$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between $\\sin x$ and $\\cos x$ in the given equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Based on the given equation, can we express $\\sin x$ in terms of $\\cos x$ or vice versa?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the equation that relates $\\sin x$, $\\cos x$, and $\\tan x$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we manipulate the equation $\\sin x = 3 \\cos x$ to find an expression for $\\cos x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Once we have an expression for $\\cos x$, how can we find $\\sin x$ using the Pythagorean identity?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How does the substitution of $\\sin x = 3 \\cos x$ help us simplify the expression $\\sin x \\cos x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we use the derived expression for $\\sin x$ and $\\cos x$ to find the value of $\\sin x \\cos x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the final result for $\\sin x \\cos x$ in terms of a numerical value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

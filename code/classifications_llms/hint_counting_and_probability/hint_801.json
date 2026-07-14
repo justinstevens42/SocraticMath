@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_801",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "In the game Deal or No Deal, participants choose a box at random from a set of $26,$ one containing each of the following values: \\begin{tabular}{|c|c|}\\hline\\$.01&\\$1,000\\\\\\hline\\$1&\\$5,000\\\\\\hline\\$5&\\$10,000\\\\\\hline\\$10&\\$25,000\\\\\\hline\\$25&\\$50,000\\\\\\hline\\$50&\\$75,000\\\\\\hline\\$75&\\$100,000\\\\\\hline\\$100&\\$200,000\\\\\\hline\\$200&\\$300,000\\\\\\hline\\$300&\\$400,000\\\\\\hline\\$400&\\$500,000\\\\\\hline\\$500&\\$750,000\\\\\\hline\\$750&\\$1,000,000\\\\\\hline\\end{tabular} After choosing a box, participants eliminate other boxes by opening them, showing the amount of money in the box to the crowd, and then removing that box (and its money!) from the game. What is the minimum number of boxes a participant needs to eliminate in order to have a half chance of holding at least $\\$100,\\!000$ as his or her chosen box?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the objective of the game Deal or No Deal?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many boxes are there in the game, and what is the value of each box?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "If a participant wants to have a half chance of holding at least $100,000, what is the minimum amount of money he or she needs to have in the chosen box?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How many boxes in the game contain at least $100,000?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "If a participant is going to have a 50% chance of holding a box containing at least $100,000, how many boxes can still be left in the game?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Based on the answers to the previous questions, what is the minimum number of boxes a participant needs to eliminate in order to have a half chance of holding at least $100,000 as his or her chosen box?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other factors that could affect the minimum number of boxes that need to be eliminated?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

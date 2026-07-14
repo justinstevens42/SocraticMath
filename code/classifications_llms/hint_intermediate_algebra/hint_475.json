@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_475",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Let $a,$ $b,$ $c$ be the roots of the cubic $x^3 + 3x^2 + 5x + 7 = 0.$  Given that $P(x)$ is a cubic polynomial such that $P(a) = b + c,$ $P(b) = a + c,$ $P(c) = a + b,$ and $P(a + b + c) = -16,$ find $P(x).$",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the relationship between the roots $a,$ $b,$ and $c$ of the cubic equation $x^3 + 3x^2 + 5x + 7 = 0$ and the values of $P(a),$ $P(b),$ and $P(c)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the value of $P(-3)$ based on the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Why do we define $Q(x) = P(x) + x + 3$? What does this manipulation allow us to do?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What can we conclude about the roots of $Q(x)$ based on the values of $Q(a),$ $Q(b),$ $Q(c),$ and $Q(-3)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we find the constant $k$ in $Q(x) = k(x^3 + 3x^2 + 5x + 7)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the relationship between $P(x)$ and $Q(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we find $P(x)$ from $Q(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the final expression for $P(x)$ based on our calculations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_119",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find the number of positive integers $n$ that satisfy\n\\[(n - 1)(n - 3)(n - 5) \\dotsm (n - 97) < 0.\\]",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given inequality asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you simplify the given expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many factors are there in the product?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "For what range of values of $n$ are all factors in the product negative?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "For what range of values of $n$ does the product become positive?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "For what range of values of $n$ does the product become negative again?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you find a pattern for the values of $n$ for which the inequality holds?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How many integers satisfy the given inequality?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

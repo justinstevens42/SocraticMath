@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_645",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "If $\\mathbf{A} = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix},$ then its transpose is given by\n\\[\\mathbf{A}^T = \\begin{pmatrix} a & c \\\\ b & d \\end{pmatrix}.\\]Given that $\\mathbf{A}^T = \\mathbf{A}^{-1},$ find $a^2 + b^2 + c^2 + d^2.$",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How do you define the transpose of a matrix?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain what the inverse of a matrix is and how it relates to its transpose?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the product of a matrix and its transpose?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the product of a matrix and its transpose to find the inverse of the matrix?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Given $\\mathbf{A}^T = \\mathbf{A}^{-1}$, what can we conclude about the entries of $\\mathbf{A}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can you use the information $\\mathbf{A}^T = \\mathbf{A}^{-1}$ to find $a^2 + b^2 + c^2 + d^2?$",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What properties of the elements $a, b, c,$ and $d$ allow us to simplify the expression $a^2 + b^2 + c^2 + d^2$ in this scenario?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other applications of matrix transposes and inverses in mathematics?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

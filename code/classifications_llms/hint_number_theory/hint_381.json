@@ -1,0 +1,50 @@
+{
+  "problem_id": "hint_381",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The base 5 number $34x1_5$ is divisible by 31.  What is the digit $x$?",
+  "n_questions": 5,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what a base-5 number is and how it differs from a base-10 number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How would you approach determining whether a given number is divisible by 31 in general?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you describe any special properties that 31 might have that we could use to simplify the divisibility check in this specific case?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Based on the given information, what is the value of the base-5 digit $x$ that makes $34x1_5$ divisible by 31?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we verify that our answer for $x$ is correct, and that $34x1_5$ is indeed divisible by 31?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

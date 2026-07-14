@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_767",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "In triangle $ABC$, the angle bisectors are $AD$, $BE$, and $CF$, which intersect at the incenter $I$.  If $\\angle ACB = 38^\\circ$, then find the measure of $\\angle AIE$, in degrees.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the angle bisectors in triangle ABC?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the definition of an angle bisector?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How are the angle bisectors related to the incenter?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the measure of angle AIE using the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between angle AIE and angles BAC and ABC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we calculate the measure of angle AIE based on the information we have?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

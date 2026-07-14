@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_990",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The hyperbola \\[\\frac{(x-3)^2}{5^2} - \\frac{(y-17)^2}{12^2} = 1\\]has two foci, which have different $x-$coordinates. Find the coordinates of the one with the larger $x-$coordinate.",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a hyperbola? Can you describe its basic features and properties?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How is the equation of a hyperbola structured? Can you identify the key components in the given equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What does the center of a hyperbola represent? How does it relate to the foci?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How is the distance from the center to each focus calculated? Can you apply this to the given equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine which focus has the larger x-coordinate? Can you explain your reasoning?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any real-life applications of hyperbolas?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

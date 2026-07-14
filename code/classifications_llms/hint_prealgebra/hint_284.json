@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_284",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Simplify $\\sqrt{25000}$.",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the square root symbol means?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we simplify radicals?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you identify any perfect squares within the number inside the square root in this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why did we choose to break up 25000 into 2500 and 10?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did we simplify $\\sqrt{2500}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the final simplified form of $\\sqrt{25000}$, and how do we know it is simplified?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of other numbers that could be simplified using this method?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "How could we check our answer to make sure it is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

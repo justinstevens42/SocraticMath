@@ -1,0 +1,92 @@
+{
+  "problem_id": "hint_280",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "A student must choose a program of four courses from a list of courses consisting of English, Algebra, Geometry, History, Art, and Latin. This program must contain English and at least one mathematics course. In how many ways can this program be chosen?",
+  "n_questions": 11,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the requirement for the program in terms of courses?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many total courses are there to choose from?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many courses need to be chosen for the program?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain the mathematics requirement for the program?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How many math courses are there to choose from?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "How many non-math courses are there to choose from?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "What is the total number of possible programs if we ignore the mathematics requirement?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How many programs do not satisfy the mathematics requirement?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How do we calculate the number of programs that satisfy both the English and mathematics requirements?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the final answer for the number of ways the program can be chosen?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "Can you think of any other scenarios where similar counting and probability concepts can be applied?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -28,6 +28,20 @@ CLASSIFICATIONS_DIR: Path = CODE_DIR / "classifications"
 # Master CSV of every classified question (shareable, per the proposal).
 CLASSIFIED_CSV: Path = OUTPUT_DIR / "classified_hints.csv"
 
+# LLM-backed variants of the pipeline (same layout, separate folders so the
+# regex and LLM classifications can be compared side by side).
+OUTPUT_LLM_DIR: Path = CODE_DIR / "outputs_llms"
+CLASSIFICATIONS_LLM_DIR: Path = CODE_DIR / "classifications_llms"
+CLASSIFIED_LLM_CSV: Path = OUTPUT_LLM_DIR / "classified_hints.csv"
+
+
+def use_llm_paths() -> None:
+    """Point the shared pipeline at the ``*_llms`` directories."""
+    global OUTPUT_DIR, CLASSIFICATIONS_DIR, CLASSIFIED_CSV
+    OUTPUT_DIR = OUTPUT_LLM_DIR
+    CLASSIFICATIONS_DIR = CLASSIFICATIONS_LLM_DIR
+    CLASSIFIED_CSV = CLASSIFIED_LLM_CSV
+
 
 def domain_dirs() -> list[Path]:
     """All ``hint_*`` domain directories, sorted by name."""

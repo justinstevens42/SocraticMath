@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_781",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Determine the exact value of\n\\[\\sqrt{\\left( 2 - \\sin^2 \\frac{\\pi}{7} \\right) \\left( 2 - \\sin^2 \\frac{2 \\pi}{7} \\right) \\left( 2 - \\sin^2 \\frac{3 \\pi}{7} \\right)}.\\]",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of DeMoivre's Theorem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do we use DeMoivre's Theorem to find a general expression for $\\operatorname{cis} n \\theta$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What are the real and imaginary parts of $\\operatorname{cis} n \\theta$ in terms of $\\cos \\theta$ and $\\sin \\theta?$",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "For what value of $n$ does the real part of $\\operatorname{cis} n \\theta$ include terms up to $\\cos^{n-2} \\theta \\sin^2 \\theta$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can we use $\\sin 7 \\theta$ to find the roots of a cubic equation in terms of $\\sin^2 \\theta?$",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do we relate the cubic equation found in question 5 to the expression we derived for $\\sin 7 \\theta?$",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final expression we obtain by evaluating $64 \\left( 2 - \\sin^2 \\frac{\\pi}{7} \\right) \\left( 2 - \\sin^2 \\frac{2 \\pi}{7} \\right) \\left( 2 - \\sin^2 \\frac{3 \\pi}{7} \\right)$ using the roots found in question 5?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Finally, what is the exact value of $\\sqrt{\\left( 2 - \\sin^2 \\frac{\\pi}{7} \\right) \\left( 2 - \\sin^2 \\frac{2 \\pi}{7} \\right) \\left( 2 - \\sin^2 \\frac{3 \\pi}{7} \\right)}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

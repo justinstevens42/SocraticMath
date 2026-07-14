@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_219",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Four points $B,$ $A,$ $E,$ and $L$ are on a straight line, as shown. The point $G$ is off the line so that $\\angle BAG = 120^\\circ$ and $\\angle GEL = 80^\\circ.$ If the reflex angle at $G$ is $x^\\circ,$ then what does $x$ equal?\n\n[asy]\ndraw((0,0)--(30,0),black+linewidth(1));\ndraw((10,0)--(17,20)--(15,0),black+linewidth(1));\ndraw((17,16)..(21,20)..(17,24)..(13,20)..(14.668,16.75),black+linewidth(1));\ndraw((17,16)..(21,20)..(17,24)..(13,20)..(14.668,16.75),Arrows);\nlabel(\"$B$\",(0,0),S);\nlabel(\"$A$\",(10,0),S);\nlabel(\"$E$\",(15,0),S);\nlabel(\"$L$\",(30,0),S);\nlabel(\"$G$\",(17,20),N);\nlabel(\"$120^\\circ$\",(10,0),NW);\nlabel(\"$80^\\circ$\",(15,0),NE);\nlabel(\"$x^\\circ$\",(21,20),E);\n[/asy]",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What do we know about the points and angles in the given problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the value of the reflex angle at $G$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What relationships between angles can we use to solve the problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the measures of $\\angle GAE$ and $\\angle GEA$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the measures of $\\angle GAE$ and $\\angle GEA$ to find the measure of $\\angle AGE$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the measure of $\\angle AGE$ to find the measure of the reflex angle at $G$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can we use any other methods to find the measure of the reflex angle at $G$?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "How can we apply our method to other problems involving angles on a line or triangle?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

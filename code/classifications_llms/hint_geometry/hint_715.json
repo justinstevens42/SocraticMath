@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_715",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What is the area, in square units, of a trapezoid bounded by the lines $y = x$, $y = 10$, $y = 5$ and the $y$-axis? Express your answer as a decimal to the nearest tenth.",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the trapezoid in terms of its vertices and the equations of the lines that bound it?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the length of the bases of the trapezoid using the given coordinates?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the height of the trapezoid and how can we determine it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we calculate the area of the trapezoid using the formula for the area of a trapezoid?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the formula for the area of a trapezoid and how does it relate to the lengths of the bases and the height?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we calculate the average of the lengths of the bases in order to use in the area formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you calculate the area of the trapezoid using the given lengths of the bases and height?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you round the area to the nearest tenth as requested in the problem statement?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you verify if the calculated area is reasonable based on the sizes and shape of the trapezoid?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

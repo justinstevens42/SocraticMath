@@ -1,0 +1,120 @@
+{
+  "problem_id": "hint_815",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Let $a$ and $b$ be real numbers such that\n\\[a^3 - 15a^2 + 20a - 50 = 0 \\quad \\text{and} \\quad 8b^3 - 60b^2 - 290b + 2575 = 0.\\]Compute $a + b.$",
+  "n_questions": 15,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the given equations that we need to solve for $a$ and $b$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can we simplify the given equations by making any substitutions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we simplify the equation $a^3 - 15a^2 + 20a - 50 = 0$ by substituting $x = a - 5$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the resulting equation after substituting $x = a - 5$? How can we simplify it further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the equation we get after simplifying the equation $a^3 - 15a^2 + 20a - 50 = 0$ using the substitution $x = a - 5$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we simplify the equation $8b^3 - 60b^2 - 290b + 2575 = 0$ by substituting $y = b - \\frac{5}{2}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the resulting equation after substituting $y = b - \\frac{5}{2}$? How can we simplify it further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the equation we get after simplifying the equation $8b^3 - 60b^2 - 290b + 2575 = 0$ using the substitution $y = b - \\frac{5}{2}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we find the real roots of the equation $x^3 - 55x - 200 = 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What can we observe about the function $f(t) = t^3 - 55t$? What are its roots and its graph?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 11,
+      "question": "How can we use the function $f(t)$ to find the roots of the equation $x^3 - 55x - 200 = 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "Why can we use the values of $f(t)$ to determine the number of real roots of the equation $x^3 - 55x - 200 = 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 13,
+      "question": "What can we conclude about the number of real roots of the equation $x^3 - 55x - 200 = 0$? How does this help us find the final answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 14,
+      "question": "How can we find the values of $a$ and $b$ using the roots of the equations $x^3 - 55x - 200 = 0$ and $y^3 - 55y + 200 = 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 15,
+      "question": "What is the final value of $a + b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

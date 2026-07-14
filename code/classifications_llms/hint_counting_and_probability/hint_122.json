@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_122",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The Screamers are coached by Coach Yellsalot.  The Screamers have 12 players, but two of them, Bob and Yogi, refuse to play together.  How many starting lineups (of 5 players) can Coach Yellsalot make, if the starting lineup can't contain both Bob and Yogi?  (The order of the 5 players in the lineup does not matter; that is, two lineups are the same if they consist of the same 5 players.)",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem statement and what is Coach Yellsalot's goal?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many players are on the Screamers team?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Who are the two players that refuse to play together and why?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the condition for the starting lineup that Coach Yellsalot must follow?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How many players are left to choose from in each case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many lineups are there if Bob starts but Yogi doesn't?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How many lineups are there if Yogi starts but Bob doesn't?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How many lineups are there if neither Bob nor Yogi starts?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How do we calculate the total number of starting lineups?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the final answer for the total number of starting lineups that Coach Yellsalot can make?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

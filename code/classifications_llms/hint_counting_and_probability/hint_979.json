@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_979",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "In a single-elimination tournament, each game is between two players. Only the winner of each game advances to the next round. In a particular such tournament there are 256 players. How many individual games must be played to determine the champion?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a single-elimination tournament, and how does it work?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you describe the process of narrowing down the players in each round?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How many players are there in the tournament, and what is the ultimate goal?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How many games must be played in order to determine the champion?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Is there a formula or mathematical equation that can be used to calculate the number of games needed?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain the reasoning behind why 255 games must be played in this particular tournament?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any scenarios in which the number of games needed to determine the champion would be different? If so, what factors would influence this?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

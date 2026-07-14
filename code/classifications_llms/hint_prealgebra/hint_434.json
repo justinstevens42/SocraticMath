@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_434",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "How many degrees are there in the measure of angle $P?$\n\n[asy]\nsize (5cm,5cm);\npair A,B,C,D,E;\n\nA=(0,1.1);\nB=(4.5,0);\nC=(6.4,1.7);\nD=(4.2,5);\nE=(0.5,4.2);\n\ndraw (A--B--C--D--E--A,linewidth(1));\n\nlabel(\"$P$\",A,SW);\nlabel(\"$128^\\circ$\",shift(0,0.6)*B);\n\nlabel(\"$92^\\circ$\",C,W);\nlabel(\"$113^\\circ$\",shift(-0.3,-0.5)*D);\nlabel(\"$111^\\circ$\",shift(0.5,-0.3)*E);\ndraw(anglemark(B,A,E),blue);\n\n[/asy]",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what is meant by the measure of an angle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do we determine the sum of the angle measures in a pentagon?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Why is the sum of the angle measures in a pentagon equal to $540$ degrees?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "In the given diagram, what is the relationship between angle $P$ and the other angles in the pentagon?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the sum of angle measures of the pentagon to find the measure of angle $P$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you show the equation that represents the relationship between angle $P$ and the other angles in the pentagon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we solve this equation to find the measure of angle $P$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Explain why subtracting $444^\\circ$ from both sides of the equation gives us the measure of angle $P$.",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you generalize this process to find the measure of an angle in any polygon?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,92 @@
+{
+  "problem_id": "hint_459",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "There are $2n$ complex numbers that satisfy both $z^{28} - z^{8} - 1 = 0$ and $|z| = 1$. These numbers have the form $z_{m} = \\cos\\theta_{m} + i\\sin\\theta_{m}$, where $0\\leq\\theta_{1} < \\theta_{2} < \\dots < \\theta_{2n} < 360$ and angles are measured in degrees. Find the value of $\\theta_{2} + \\theta_{4} + \\dots + \\theta_{2n}$.",
+  "n_questions": 11,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the given equations and what are we trying to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Considering the equation $z^{28} - z^8 - 1 = 0,$ what can we say about the relationship between $z^{20}$ and $1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we express $z^{20}$ in terms of $z$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the geometric interpretation of $|z^{20} - 1| = 1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "On what circles do the solutions $w = z^{20}$ lie?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are the possible values for $w$ and how do they correspond to the values of $z$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we find the values of $z$ that satisfy $z^{20} = \\text{cis} 60^\\circ$ and $z^{20} = \\text{cis} 300^\\circ$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What are the corresponding values of $z$ for each case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can we generalize this process to find all the solutions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the sum of the angles $\\theta_2 + \\theta_4 + \\dots + \\theta_{2n}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "Calculate the final answer.",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

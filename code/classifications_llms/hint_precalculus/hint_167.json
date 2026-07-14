@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_167",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "In the diagram below, $AB = AC = 115,$ $AD = 38,$ and $CF = 77.$  Compute $\\frac{[CEF]}{[DBE]}.$\n\n[asy]\nunitsize(0.025 cm);\n\npair A, B, C, D, E, F;\n\nB = (0,0);\nC = (80,0);\nA = intersectionpoint(arc(B,115,0,180),arc(C,115,0,180));\nD = interp(A,B,38/115);\nF = interp(A,C,(115 + 77)/115);\nE = extension(B,C,D,F);\n\ndraw(C--B--A--F--D);\n\nlabel(\"$A$\", A, N);\nlabel(\"$B$\", B, SW);\nlabel(\"$C$\", C, NE);\nlabel(\"$D$\", D, W);\nlabel(\"$E$\", E, SW);\nlabel(\"$F$\", F, SE);\n[/asy]",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What do the given values $AB = AC = 115,$ $AD = 38,$ and $CF = 77$ represent in the figure?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you find any triangles in the figure? If so, what are their properties?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we use vectors to find the coordinates of point $E$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the area of triangle $CEF$ and triangle $DBE$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What kind of trigonometric relationship can we set up between angles $\\angle CEF$ and $\\angle BED$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use this relationship, along with the values we have calculated, to find the ratio $\\frac{[CEF]}{[DBE]}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Does this ratio have any geometrical significance?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

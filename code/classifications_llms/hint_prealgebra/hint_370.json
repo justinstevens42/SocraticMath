@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_370",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "How many distinct arrangements of the letters in the word \"basic'' are there?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "f",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the word \"distinct arrangements\" in this context?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How many letters are there in the word \"basic\"?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the total number of arrangements if we only consider rearranging all the letters?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Is it possible to form a new arrangement by repeating any of the letters in \"basic\"?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "If we wanted to create arrangements with a certain letter in a certain position, how would we approach that?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Can you use a similar logic to find the number of distinct arrangements of a word with repeating letters?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

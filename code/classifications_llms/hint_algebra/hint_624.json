@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_624",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "The quadratic equation $ax^2+8x+c=0$ has exactly one solution. If $a+c=10$, and $a<c$ find the ordered pair $(a,c)$.",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you identify what type of quadratic equation this is? What is the condition for a quadratic equation to have exactly one solution?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the discriminant of a quadratic equation? What does the discriminant tell us about the nature of the solutions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Given that the quadratic equation has exactly one solution, what value must the discriminant be equal to? Can you write an equation using the given information to express the discriminant in terms of a and c?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we express the discriminant in terms of a and c? Can you set up an equation using the given information to represent this relationship?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you simplify the equation expressing the relationship between the discriminant, a, and c?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any restrictions on the values of a and c based on the fact that a<c? How can we use this information to solve the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "Can you substitute the expression for (a+c) given in the problem into the equation expressing the relationship between the discriminant, a, and c? What does this equation tell us about the possible values of (a,c)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you find the ordered pair (a,c) that satisfies the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

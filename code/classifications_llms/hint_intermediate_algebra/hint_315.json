@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_315",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "In the coordinate plane, consider points $A = (0, 0)$, $B = (11, 0)$, and $C = (18, 0)$.  Line $\\ell_A$ has slope 1 and passes through $A$.  Line $\\ell_B$ is vertical and passes through $B$.  Line $\\ell_C$ has slope $-1$ and passes through $C$.  The three lines $\\ell_A$, $\\ell_B$, and $\\ell_C$ begin rotating clockwise about points $A$, $B$, and $C$, respectively.  They rotate at the same angular rate.  At any given time, the three lines form a triangle.  Determine the largest possible area of such a triangle.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the initial position of lines $\\ell_A$, $\\ell_B$, and $\\ell_C$ in relation to points $A$, $B$, and $C$? Can you describe the triangle formed by these lines and points?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How do the lines rotate? Do they rotate at the same angular rate?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the angles of triangle $XZY$ as the lines rotate? Can we make any observations about this triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Let's focus on triangle $ABZ$. How can we determine the length of $BZ$ in terms of the angle $\\alpha$ and the given lengths?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between the angle $\\alpha$ and the angles $\\angle AZB$ and $\\angle BCX$? How does this relate to the lengths $BX$ and $XZ$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you find the lengths of $BX$ and $XZ$ in terms of the angle $\\alpha$ and the given lengths?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the relationship between $XY$ and $XZ$? Can we use any mathematical inequality or theorem to find the maximum value of $XY$ and ultimately the maximum area of triangle $XYZ$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we find the maximum possible area of triangle $XYZ$ based on our previous findings?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you confirm that your answer is correct by testing it for the obtuse angle $\\alpha$ that satisfies the condition?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Is there any other way to approach this problem or any similar types of problems that may require the same method of thinking and steps?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

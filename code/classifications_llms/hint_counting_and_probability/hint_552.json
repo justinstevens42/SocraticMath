@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_552",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Compute $\\dbinom{6}{3}$.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does $\\dbinom{6}{3}$ represent?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you describe what a combination is? How is it different from a permutation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How many ways are there to choose a group of 3 items from a set of 6 items? Can you explain why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you generalize the formula for computing combinations, using the example of $\\dbinom{6}{3}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How would the value of $\\dbinom{6}{3}$ change if we wanted to choose a larger or smaller group of items from the set of 6? Can you explain why?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "In what types of problems or real-life scenarios might we use combinations? Can you give examples?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

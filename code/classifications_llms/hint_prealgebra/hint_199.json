@@ -1,0 +1,99 @@
+{
+  "problem_id": "hint_199",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "In Perfectville, the streets are all $20$ feet wide and the blocks they enclose are all squares of side length $400$ feet, as shown.  Sarah runs around the block on the $400$-foot side of the street, while Sam runs on the opposite side of the street.  How many more feet than Sarah does Sam run for every lap around the block?\n\n[asy]\ndraw((0,0)--(10,0));\ndraw((1,1)--(9,1));\ndraw((0,0)--(0,10));\ndraw((0,10)--(10,10));\ndraw((10,10)--(10,0));\ndraw((9,1)--(9,9));\ndraw((9,9)--(1,9));\ndraw((1,9)--(1,1));\nfill((1,1)--(1,9)--(9,9)--(9,1)--cycle,gray);\ndraw((9,10.5)--(9,11));\ndraw((10,10.5)--(10,11));\ndraw((9,10.75)--(10,10.75));\nlabel(\"20'\",(9.5,11),N);\ndraw((10.5,9)--(11,9));\ndraw((10.5,10)--(11,10));\ndraw((10.75,9)--(10.75,10));\nlabel(\"20'\",(11,9.5),E);\nlabel(\"400'\",(5,9),S);\nlabel(\"400'\",(9,5),W);\n[/asy]",
+  "n_questions": 12,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "f",
+    "b",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How wide are the streets in Perfectville?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the shape of the blocks in Perfectville?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How long is each side of the blocks in Perfectville?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Which side of the street does Sarah run on?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Which side of the street does Sam run on?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "How many feet does Sarah run for every lap around the block?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How many more feet does Sam run at each corner of the street?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How many corners are there in each lap around the block?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 9,
+      "question": "How can we calculate the total extra distance Sam runs at each corner?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How many corners are there in total for Sam to run around?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 11,
+      "question": "What is the total extra distance Sam runs for every lap around the block?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "Calculate the total extra distance Sam runs and output the result.",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

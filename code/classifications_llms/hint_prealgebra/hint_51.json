@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_51",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Simplify $\\dfrac{18}{17}\\cdot\\dfrac{13}{24}\\cdot\\dfrac{68}{39}$.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the first step in simplifying this expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Are there any common factors between the numerators and denominators of these fractions?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What factors can we cancel out if there are any common factors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "After canceling out common factors, what does the expression simplify to?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Is there any further simplification that can be done?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we verify that our final answer is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

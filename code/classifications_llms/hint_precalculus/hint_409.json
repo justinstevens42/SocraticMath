@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_409",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Let $\\mathbf{m},$ $\\mathbf{n},$ and $\\mathbf{p}$ be unit vectors such that the angle between $\\mathbf{m}$ and $\\mathbf{n}$ is $\\alpha,$ and the angle between $\\mathbf{p}$ and $\\mathbf{m} \\times \\mathbf{n}$ is also $\\alpha.$  If $\\mathbf{n} \\cdot (\\mathbf{p} \\times \\mathbf{m}) = \\frac{1}{4},$ find the smallest possible value of $\\alpha,$ in degrees.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the given conditions in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How are the vectors $\\mathbf{m},$ $\\mathbf{n},$ and $\\mathbf{p}$ related to each other?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for the angle between two vectors to be $\\alpha$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain the scalar triple product and its significance in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we express the scalar triple product equation using the dot product and cross product?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are the relationships between the magnitudes of the vectors and the angle $\\alpha$ based on the scalar triple product equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we express the magnitude of $\\mathbf{m} \\times \\mathbf{n}$ in terms of the magnitudes of $\\mathbf{m}$ and $\\mathbf{n}$ and the angle $\\alpha$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Substituting these expressions into the scalar triple product equation, how can we determine the value of $\\sin \\alpha \\cos \\alpha$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we proceed from $\\sin \\alpha \\cos \\alpha = \\frac{1}{4}$ to $\\sin 2\\alpha = \\frac{1}{2}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the smallest possible value of $\\alpha$ that satisfies the equation $\\sin 2\\alpha = \\frac{1}{2}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

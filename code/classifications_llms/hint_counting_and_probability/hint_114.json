@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_114",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Bob rolls a fair six-sided die each morning. If Bob rolls a composite number, he eats sweetened cereal. If he rolls a prime number, he eats unsweetened cereal. If he rolls a 1, then he rolls again. In a non-leap year, what is the expected value of the difference between the number of days Bob eats unsweetened cereal and the number of days he eats sweetened cereal? [asy]\nimport olympiad; import geometry; size(50);\n\ndefaultpen(linewidth(0.8));\ndraw(unitsquare);\ndraw((0,1)--(0.5,1.5)--(1.5,1.5)--(1.5,0.5)--(1,0)^^(1.5,1.5)--(1,1));\ndot((0.3,0.2)); dot((0.7,0.2));\ndot((0.3,0.5)); dot((0.7,0.5));\ndot((0.3,0.8)); dot((0.7,0.8));\ndot((1.125,0.375)); dot((1.25,0.75)); dot((1.375,1.125));\ndot((0.5,0.5/3 + 1)); dot((1.0,4/3));\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the problem in your own words? What is it asking for?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How would you define a prime number and a composite number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What are the possible outcomes when Bob rolls the die?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we calculate the probabilities of eating sweetened and unsweetened cereal?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What does it mean to find the expected value in this context?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How would you calculate the expected value of the number of days Bob eats unsweetened cereal?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How would you calculate the expected value of the number of days Bob eats sweetened cereal?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the difference between these two expected values?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Is there a shortcut or pattern we can use to find the difference without calculating each expected value? Why or why not?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any other scenarios or problems where we can apply similar probabilistic reasoning?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

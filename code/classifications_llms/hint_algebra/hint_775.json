@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_775",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "If $f(x)=\\sqrt{x-3}$, what is the smallest real number $x$ in the domain of $f(f(x))$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "f",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the function $f(x)=\\sqrt{x-3}$ represents and its domain?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "When we calculate $f(f(x))$, what do we need to do first?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What does $f(f(x))$ mean in terms of the original function $f(x)$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you find the expressions for $f(f(x))$ by substituting $f(x)$ into the function $f(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What constraints do we have for the domain of $f(f(x))$ based on the original function's domain?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "How can we determine the smallest real number $x$ that satisfies the domain requirements for $f(f(x))$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

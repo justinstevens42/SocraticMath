@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_57",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Lines $l$ and $m$ are parallel to each other. $m\\angle A = 120^\\circ$, and $m\\angle B = 150^\\circ$. What is the number of degrees in $m\\angle C$?\n\n[asy]\nsize(100); real h = 1.2; currentpen = fontsize(10pt);\ndraw(Label(\"$l$\",Relative(1)),(0,0)--(1,0),E);\ndraw(Label(\"$m$\",Relative(1)),(0,-h)--(1,-h),E);\ndraw((0,-h)--h/2*(cos(150*pi/180),sin(150*pi/180)) + (0,-h));\ndraw(Label(\"$C$\",Relative(1)),(0,0)--h*sqrt(3)/2*(cos(-120*pi/180),sin(-120*pi/180)),W);\nlabel(\"$A$\",(0,0),N); label(\"$B$\",(0,-h),S);\nlabel(\"$120^\\circ$\",(0,0),SE); label(\"$150^\\circ$\",(0,-h),NE);\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the relationship between lines $l$ and $m$? How does this relationship affect the angles formed?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the measures of angles $A$ and $B$? How can we use this information to find angle $C$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "If lines $l$ and $m$ are parallel, what can we say about the corresponding angles they form with the transversal line $CD$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we find angle $ACD$? What is its measure and why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we find angle $BCD$? What is its measure and why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What do we get when we add angles $ACD$ and $BCD$? How does this help us find the measure of angle $C$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

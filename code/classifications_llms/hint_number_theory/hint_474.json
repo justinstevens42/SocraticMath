@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_474",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Given that $a$ is a multiple of $456$, find the greatest common divisor of $3a^3+a^2+4a+57$ and $a$.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How did we simplify the expression $3a^3+a^2+4a+57-(3a^2+a+4)a$ in order to use the Euclidean Algorithm?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between the greatest common divisor of $3a^3+a^2+4a+57$ and $a$ and the greatest common divisor of $57$ and $a$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Why did we conclude that the greatest common divisor of $3a^3+a^2+4a+57$ and $a$ is equal to the greatest common divisor of $57$ and $a$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why the greatest common divisor of $57$ and $a$ is equal to $57$ in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "If $a$ was not a multiple of $456$, how would that affect our conclusion about the greatest common divisor of $3a^3+a^2+4a+57$ and $a$?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other situations where using the Euclidean Algorithm might be helpful in finding the greatest common divisor of two numbers?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

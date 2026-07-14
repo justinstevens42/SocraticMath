@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_9",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "A round pizza is $\\frac13$ of an inch thick and has a diameter of 12 inches. It is cut into 12 congruent pieces. What is the number of cubic inches in the volume of one piece? Express your answer in terms of $\\pi$.",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "b",
+    "f",
+    "r",
+    "b",
+    "f",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step to find the volume of one slice of the pizza?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How would you calculate the volume of the entire pizza?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for the pizza to be cut into congruent pieces?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the formula for the volume of a cone?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we express the volume of one slice in terms of π?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why one slice has 1/12th the volume of the whole pizza?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other scenarios where we might need to find the volume of a slice or part of a whole object?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

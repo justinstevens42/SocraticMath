@@ -1,0 +1,92 @@
+{
+  "problem_id": "hint_466",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What is the greatest product obtainable from two integers whose sum is 246?",
+  "n_questions": 11,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we represent the problem mathematically?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you think of any strategies or methods to find the greatest product?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What relationship between the two integers would maximize their product?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we express the sum of the two integers using variables?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "If we have the sum represented as x + y = 246, how can we express their product in terms of x and y?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we find the values of x and y that maximize the product while satisfying the given conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What are the possible values of x and y that we should consider?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any mathematical properties or patterns that might help us find the values of x and y?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "How can we determine which values of x and y result in the greatest product?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you generalize this problem and apply similar thinking to find the greatest product from two integers with any given sum?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 11,
+      "question": "Are there any other factors or constraints we should consider in this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

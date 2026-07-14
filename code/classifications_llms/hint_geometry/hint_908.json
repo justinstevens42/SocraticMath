@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_908",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "A $5 \\times 8$ rectangle can be rolled to form two different cylinders with different maximum volumes. What is the ratio of the larger volume to the smaller volume? Express your answer as a common fraction.",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the two different ways the rectangle can be rolled to form cylinders?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the dimensions of the first cylinder formed when the rectangle is held vertically?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the volume of this cylinder?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the relationship between the base circumference and the radius of a cylinder?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What are the dimensions of the second cylinder formed when the rectangle is held horizontally?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "How can we find the volume of this cylinder?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can we compare the volumes of these two cylinders?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can we simplify the expressions for the volumes of the two cylinders?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the ratio of the larger volume to the smaller volume?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

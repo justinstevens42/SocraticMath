@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_232",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "A circle of radius 1 is surrounded by 4 circles of radius $r$ as shown. What is $r$?\n\n[asy]\nunitsize(0.6cm);\nfor(int i=0; i<2; ++i){\nfor(int j=0; j<2; ++j){\ndraw(Circle((-2.4+4.8i,-2.4+4.8j),2.4),linewidth(0.7));\ndraw((-2.4+4.8i,-2.4+4.8j)--(-0.7+4.8i,-0.7+4.8j));\nlabel(\"$r$\",(-1.5+4.8i,-1.5+4.8j),SE);\n};\n}\ndraw(Circle((0,0),1),linewidth(0.7));\ndraw((0,0)--(1,0));\nlabel(\"1\",(0.5,0),S);\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving the equation $r^2 - 2r - 1 = 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What are the different methods you know for solving a quadratic equation like this?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you choose to use the quadratic formula, how would you apply it to find the value of $r$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why does the equation $2(2r)^2 = (2 + 2r)^2$ come from connecting the centers of the large circles to form a square?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does the equation $1+2r+r^{2}=2r^{2}$ help us find the value of $r$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other geometric concepts or problems that can be solved using similar steps and thinking?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

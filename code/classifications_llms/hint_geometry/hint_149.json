@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_149",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Triangle ABC is an equilateral triangle and O is the center of its inscribed circle. If the area of the circle is $4\\pi$ sq cm, what is the area, in square centimeters, of triangle ABC? Express your answer in simplest radical form.\n\nNote: The area of a circle with radius $r$ is $\\pi r^2.$",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What do we know about the triangle ABC and the inscribed circle? How can this information help us find the area of the triangle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the radius of the inscribed circle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can we use any properties of the triangle or the inscribed circle to find the area of the triangle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine the length of segment CX?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What kind of triangle is triangle COX? How can we use this information to find the length of segment AX?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we find the area of triangle ABC using the measurements we have found for its base and height?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you express the area of triangle ABC in simplest radical form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

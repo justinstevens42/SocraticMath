@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_403",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Solve for $r$: $$\\frac{r+3}{r-2} = \\frac{r-1}{r+1}.$$Express your answer as a fraction.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "e",
+    "b",
+    "b",
+    "f",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step you would take to solve this equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are some different methods you could use to solve an equation like this?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you choose to cross multiply, what would that step look like in this equation? How would you simplify it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is cross multiplying an effective strategy in this case? What does it help us achieve?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "After cross multiplying and simplifying, what do you get as the resulting equation? How can you proceed from there?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other types of equations where a similar approach of cross multiplying might be useful?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Once you have the simplified equation, what steps would you take to isolate the variable $r$? Can you describe the process?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is your final solution for $r$ in this equation? Can you check your answer by substituting it back into the original equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Are there any restrictions on the values of $r$ in this equation? If so, what are they and why?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any real-world applications or scenarios where solving this equation could be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

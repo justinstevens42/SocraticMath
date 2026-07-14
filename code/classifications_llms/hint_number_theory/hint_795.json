@@ -1,0 +1,50 @@
+{
+  "problem_id": "hint_795",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "What percent of the prime numbers less than 12 are divisible by 2?",
+  "n_questions": 5,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you list out the prime numbers less than 12?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How many of these prime numbers are divisible by 2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the total number of prime numbers less than 12?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you express the given number as a fraction or a percentage?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine the fraction/percentage of prime numbers less than 12 that are divisible by 2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

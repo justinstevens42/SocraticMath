@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_807",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "The pages of a book are numbered $1_{}^{}$ through $n_{}^{}$. When the page numbers of the book were added, one of the page numbers was mistakenly added twice, resulting in an incorrect sum of $1986_{}^{}$. What was the number of the page that was added twice?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe how you would approach this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the possible ways to solve this type of problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you choose the method of algebraic manipulation, what equation or equations can you set up?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can you isolate the unknown number in the equation(s) to find the solution?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What strategy can you use to identify the page number that was added twice?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other similar problems that might require a similar line of thinking and steps to solve?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

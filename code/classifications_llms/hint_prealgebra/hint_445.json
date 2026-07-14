@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_445",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "A rhombus has an area of 108 square units. The lengths of its diagonals have a ratio of 3 to 2. What is the length of the longest diagonal, in units?",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a rhombus and what are its properties?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How is the area of a rhombus calculated?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you describe the relationship between the diagonals and the area of a rhombus?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What information does the problem provide about the diagonals of the rhombus?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can we express the lengths of the diagonals using a ratio?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the given ratio and the formula for the area of a rhombus to set up an equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What steps can we take to solve the equation and find the value of x?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we use the value of x to find the length of the longest diagonal?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you verify your answer by checking if the area of the rhombus using the calculated diagonal lengths matches the given area?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

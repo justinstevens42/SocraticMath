@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_408",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "In triangle $ABC$, $AB = 9$, $BC = 12$, $AC = 15$, and $CD$ is the angle bisector.  Find the length of $CD$.",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "e",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the angle bisector theorem, and how is it used here to find the length of $BD$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the Pythagorean theorem, and how is it used to find the length of $CD$ in right triangle $BCD$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can we use a similar approach to find the length of the angle bisector from a vertex to the opposite side in a different triangle? If so, what is that approach and why does it work?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 4,
+      "question": "What would happen to the length of $CD$ if $AB$, $BC$, or $AC$ were changed? Would there be any values of these side lengths that make it impossible to construct triangle $ABC$?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "If we knew the length of $CD$ and wanted to find the length of $AB$, how could we use the angle bisector theorem to do so? Would there be any other ways to find the length of $AB$ in terms of the other side lengths?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "What would happen to the length of $CD$ if angle $C$ were not a right angle? Would the angle bisector theorem and Pythagorean theorem still be useful in finding its length?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

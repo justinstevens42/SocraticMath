@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_694",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Let $\\mathbf{A} = \\begin{pmatrix} 2 & 3 \\\\ 0 & 1 \\end{pmatrix}.$  Find $\\mathbf{A}^{20} - 2 \\mathbf{A}^{19}.$",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in finding $\\mathbf{A}^{20} - 2 \\mathbf{A}^{19}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What can we do to simplify the expression $\\mathbf{A}^{20} - 2 \\mathbf{A}^{19}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we express $\\mathbf{A}^{20} - 2 \\mathbf{A}^{19}$ using matrix multiplication?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you compute the matrix $\\mathbf{A} - 2 \\mathbf{I}$ and explain why we are subtracting $2\\mathbf{A}^{19}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we express $\\mathbf{A}^{n} (\\mathbf{A} - 2 \\mathbf{I})$ for any positive integer $n \\ge 2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are the implications of $\\mathbf{A}^{20} (\\mathbf{A} - 2 \\mathbf{I}) = \\mathbf{A}^{19} (\\mathbf{A} - 2 \\mathbf{I})$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we find $\\mathbf{A}^{20} (\\mathbf{A} - 2 \\mathbf{I})$ using the previous step's result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can we simplify our result further using the obtained expression for $\\mathbf{A}^{20} (\\mathbf{A} - 2 \\mathbf{I})$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,99 @@
+{
+  "problem_id": "hint_166",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Wanda, Darren, Beatrice, and Chi are tutors in the school math lab. Their schedule is as follows: Darren works every third school day, Wanda works every fourth school day, Beatrice works every sixth school day, and Chi works every seventh school day. Today they are all working in the math lab. In how many school days from today will they next be together tutoring in the lab?",
+  "n_questions": 12,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "f",
+    "f",
+    "f",
+    "r",
+    "b",
+    "f",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem that needs to be solved in this scenario?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you identify the work schedule of each tutor?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How frequently does Darren work in the math lab?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How frequently does Wanda work in the math lab?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How frequently does Beatrice work in the math lab?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "How frequently does Chi work in the math lab?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "What is the concept of the least common multiple?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "Can you determine the prime factorization of each number in this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Why do we need to find the least common multiple of these numbers?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 10,
+      "question": "How did we find the least common multiple in this scenario?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "Can you think of any real-life situations where finding the least common multiple could be useful?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 12,
+      "question": "Can you apply this same problem-solving method to different sets of numbers with different prime factorizations?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

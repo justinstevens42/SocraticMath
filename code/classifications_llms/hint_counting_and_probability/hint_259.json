@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_259",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Suppose we flip four coins simultaneously: a penny, a nickel, a dime, and a quarter.  What is the probability that at least 15 cents worth of coins come up heads?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem we are trying to solve?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many possible outcomes are there when flipping four coins simultaneously?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "If we want to calculate the probability of getting at least 15 cents worth of coins coming up heads, what are the successful outcomes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the difference between a successful outcome and an unsuccessful outcome in this scenario?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How do we calculate the probability of success in this scenario?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is the probability of success higher or lower than 50%? Why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can we change the problem to calculate the probability of getting exactly 15 cents worth of coins coming up heads? How would the approach change?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

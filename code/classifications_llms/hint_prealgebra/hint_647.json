@@ -1,0 +1,50 @@
+{
+  "problem_id": "hint_647",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "If $\\frac{4}{3} (r + s + t) = 12$, what is the average of $r$, $s$, and $t$?",
+  "n_questions": 5,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you approach finding the average of $r$, $s$, and $t$ in general?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean when the equation $\\frac{4}{3} (r + s + t) = 12$ is given?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you algebraically manipulate the given equation to isolate the expression for the average of $r$, $s$, and $t$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What happens when you multiply both sides of the equation by $\\frac{3}{4}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does dividing both sides of the equation by 3 show that the average of $r$, $s$, and $t$ is 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

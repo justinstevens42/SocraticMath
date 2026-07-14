@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_735",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "How many integers between 100 and 300 have both 11 and 8 as factors?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we determine if a number has both 11 and 8 as factors?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for a number to be a multiple of another number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you list the first few multiples of 88?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many of these multiples fall between 100 and 300?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why only multiples of 88 have 11 and 8 as factors?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other numbers between 100 and 300 that have both 11 and 8 as factors? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

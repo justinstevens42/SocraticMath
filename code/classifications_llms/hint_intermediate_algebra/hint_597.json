@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_597",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Compute the number of ordered pairs of integers $(x,y)$ with $1\\le x<y\\le 100$ such that $i^x+i^y$ is a real number.",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the range of possible values for $x$ and $y$ in the given problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What values of $x$ and $y$ will make $i^x + i^y$ a real number?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many pairs of even numbers between 1 and 100 are there, and why do they all satisfy the given condition?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we find all pairs of integers $x$ and $y$ such that $i^x = i$ and $i^y = -i$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many pairs of integers satisfy the conditions in question 4, and why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we find all pairs $x$ and $y$ such that $i^x = -i$ and $i^y = i$, and how many pairs satisfy this condition?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How do we get the final answer for the number of ordered pairs of integers $(x,y)$ with $1\\le x<y\\le 100$ such that $i^x+i^y$ is a real number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other mathematical problems that involve finding solutions that satisfy particular conditions?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

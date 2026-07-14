@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_217",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Let $f(x) = Ax + B$ and $g(x) = Bx + A$, where $A \\neq B$. If $f(g(x)) - g(f(x)) = B - A$, what is $A + B$?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the expression $f(g(x))$ means? How about $g(f(x))$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Given that $f(x) = Ax + B$ and $g(x) = Bx + A$, can you determine the values of $f(g(x))$ and $g(f(x))$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Now, substitute the expressions for $f(g(x))$ and $g(f(x))$ into the equation $f(g(x)) - g(f(x)) = B - A$. What does the equation look like now?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we simplify the equation further? Can you combine like terms or rearrange the equation in any way?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the coefficient of $x$ on both sides of the equation? What does this tell us about the values of $A$ and $B$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "Using the information from the previous question, can you determine the values of $A$ and $B$ separately?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Finally, what is the sum of $A$ and $B$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

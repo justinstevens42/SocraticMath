@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_946",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Tony will paint 16 right, cylindrical columns. The top face and bottom face of each column will be covered, so those parts will  not be painted.  Each column is 18 feet tall and has a diameter  of 10 feet. One gallon of paint will cover 350 square feet. If paint is sold only in full gallons, how many gallons of paint must Tony buy to paint all 16 columns?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "f",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the dimensions of each cylindrical column Tony needs to paint?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the total number of columns that Tony needs to paint?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "If Tony covers both the top and bottom face of each column, what is the total surface area that he does not need to paint?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we calculate the lateral surface area of one cylindrical column?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the lateral surface area and the number of columns to find the total surface area that needs to be painted?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many square feet can one gallon of paint cover?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "How can we use the information about the coverage of one gallon of paint to find the total number of gallons needed to paint the 16 columns?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

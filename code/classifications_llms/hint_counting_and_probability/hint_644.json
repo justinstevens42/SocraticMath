@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_644",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Bob rolls a fair six-sided die each morning. If Bob rolls a composite number, he eats sweetened cereal. If he rolls a prime number, he eats unsweetened cereal. If he rolls a 1, then he rolls again. In a non-leap year, what is the expected number of times Bob will roll his die?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the scenario being described in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the rules for Bob's cereal choices based on his die rolls?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How does Bob determine which type of cereal to eat each morning?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean for a number to be composite or prime?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the probability of rolling a composite number on a fair six-sided die?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the probability of rolling a prime number on a fair six-sided die?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How does the outcome of rolling a 1 affect Bob's die rolling process?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "What is the expected number of rolls for a single day, and how is it determined?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we calculate the expected number of rolls over the course of a non-leap year?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the final answer to the problem, and why is it meaningful in this context?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

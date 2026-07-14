@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_660",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Find all values of $x$ that satisfy\n\\[5x - 1 < (x + 1)^2 < 7x - 3.\\]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this inequality?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Are there any specific strategies or methods that you know of for solving inequalities like this one?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you choose to factorize the quadratic expressions, how would you approach finding the appropriate factors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is it possible to factorize this inequality? What characteristics make it suitable for this method?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What are the factors that you found, and how can you verify that they satisfy the inequality?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other types of inequalities where similar thinking and steps might be applied in solving them?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_241",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Compute $2011 \\cdot 2012 \\cdot 2013 \\cdot 2014$ modulo 5.",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what it means to compute a number modulo 5?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What properties of modular arithmetic can we use to simplify the expression $2011 \\cdot 2012 \\cdot 2013 \\cdot 2014$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we apply these properties to rewrite the expression in a simpler form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What can we say about the product $1 \\cdot 2 \\cdot 3 \\cdot 4$ modulo 5?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why the product $1 \\cdot 2 \\cdot 3 \\cdot 4$ is equivalent to 4 modulo 5?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other examples where similar steps and reasoning can be applied to compute a product modulo a number?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Finally, what is the value of $2011 \\cdot 2012 \\cdot 2013 \\cdot 2014$ modulo 5 based on our calculations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

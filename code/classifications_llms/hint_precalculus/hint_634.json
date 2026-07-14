@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_634",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Compute $\\begin{pmatrix} \\sqrt{3} & -1 \\\\ 1 & \\sqrt{3} \\end{pmatrix}^6.$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How is the matrix $\\begin{pmatrix} \\sqrt{3} & -1 \\\\ 1 & \\sqrt{3} \\end{pmatrix}$ related to the concept of rotation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the purpose of expressing this matrix as a product of $\\begin{pmatrix} \\cos \\frac{\\pi}{6} & -\\sin \\frac{\\pi}{6} \\\\ \\sin \\frac{\\pi}{6} & \\cos \\frac{\\pi}{6} \\end{pmatrix}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What properties does the matrix $\\begin{pmatrix} \\cos \\theta & -\\sin \\theta \\\\ \\sin \\theta & \\cos \\theta \\end{pmatrix}$ have? How does it relate to rotation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we generalize the formula for raising a rotation matrix to the power of $k$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Applying the formula, what is the result of $\\begin{pmatrix} \\sqrt{3} & -1 \\\\ 1 & \\sqrt{3} \\end{pmatrix}^6$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we express the result in a more simplified form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

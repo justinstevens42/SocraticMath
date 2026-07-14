@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_136",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "The average of 12, 21 and $x$ is 18. What is the value of $x$?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the average of 12, 21, and $x$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we express the average mathematically in terms of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for the average of these numbers to be 18?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the equation $\\frac{12+21+x}{3}=18$ to solve for $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why we divide by 3 in the equation and why the sum is divided by the number of values?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What steps can we take to isolate $x$ in the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "After simplification, what is the resulting equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What operation should we apply to both sides of the equation to solve for $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the value of $x$ that satisfies the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can we check if our solution is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_883",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Let $a,$ $b,$ $c$ be complex numbers such that\n\\[a + b + c = ab + ac + bc = abc = 1.\\]Enter the values $a,$ $b,$ $c,$ separated by commas, in any order.",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are Vieta's formulas and how are they used to find the roots of a polynomial equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we apply Vieta's formulas to find the values of $a,$ $b,$ and $c$ in the equation $a + b + c = ab + ac + bc = abc = 1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the significance of the equation $x^3 - x^2 + x - 1 = 0$ in relation to the values of $a,$ $b,$ and $c$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we verify that the values $a = 1,$ $b = i,$ and $c = -i$ actually satisfy the equation $a + b + c = ab + ac + bc = abc = 1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there any other complex values of $a,$ $b,$ and $c$ that satisfy the given conditions? How can we prove that these are the only solutions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are some other examples of problems that can be solved using Vieta's formulas or related techniques? How do these relate to the concept of the roots of a polynomial equation?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

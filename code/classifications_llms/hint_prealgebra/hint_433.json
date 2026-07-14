@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_433",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The fenced area of a yard is a 15-foot by 12-foot rectangular region with a 3-foot by 3-foot square cut out, as shown. What is the area of the region within the fence, in square feet?\n\n[asy]draw((0,0)--(16,0)--(16,12)--(28,12)--(28,0)--(60,0)--(60,48)--(0,48)--cycle);\nlabel(\"15'\",(30,48),N);\nlabel(\"12'\",(60,24),E);\nlabel(\"3'\",(16,6),W);\nlabel(\"3'\",(22,12),N);\n[/asy]",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the fenced area of the yard in this question?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the total area of the rectangular region outside of the cut-out square?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the area of the cut-out square, and how did you calculate it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why are we subtracting the area of the cut-out square from the total area of the rectangular region?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the equation or expression that describes the area of the region inside of the fence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use what we know about the total area and the cut-out square to calculate the area inside of the fence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any alternative methods you can think of to calculate the area inside of the fence?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Can you explain, step by step, how you arrived at your final answer for the area inside of the fence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

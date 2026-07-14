@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_885",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "There are $20n$ members in the Trumpington marching band, and when they line up in rows of 26, there are 4 band members left over. If $n$ is an integer and there are fewer than 1000 band members, what is the maximum number of people that could be in the Trumpington marching band?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you write the given information as a congruence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for there to be 4 band members left over when they line up in rows of 26?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Can you write the given information as a congruence involving the number of band members?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can you manipulate the congruence to find a smaller congruence involving $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the inverse of 5 modulo 13? Can you explain why this is useful?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How do you use the inverse of 5 modulo 13 to solve the congruence for $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you find all possible values of $n$ that satisfy the congruence and the condition $n<50$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the largest possible number of band members that satisfies the given conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

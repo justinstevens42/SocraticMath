@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_94",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "What is the constant term in the expansion of $\\left(\\sqrt{x}+\\dfrac5x\\right)^{9}$?",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does it mean for a term to have a constant term in its expansion?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the constant term in the expansion of a binomial expression?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Given the expression $\\left(\\sqrt{x}+\\dfrac{5}{x}\\right)^{9}$, what does it suggest we do in order to find the constant term?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we manipulate the binomial expression to cancel out the $\\sqrt{x}$'s and $5/x$'s?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Which terms in the expansion will have $\\sqrt{x}$ raised to a power of 6 and $5/x$ raised to a power of 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the coefficient of the term with six $\\sqrt{x}$'s and three $5/x$'s?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How do we calculate the coefficient using the binomial coefficient formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Substituting the values computed in the formula, what is the final result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

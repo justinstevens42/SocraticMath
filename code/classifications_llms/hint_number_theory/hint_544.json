@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_544",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "When Claire divides her cupcakes into groups of 5, she has 3 remaining, and when she divides her cupcakes into groups of 7, she has 4 remaining. If Claire has fewer than 60 cupcakes, what is the sum of all possible quantities of cupcakes that she could have?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "f",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the given conditions for the number of cupcakes Claire has?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you write an equation that relates the number of cupcakes Claire has, with the conditions given in the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can you use the equation to find the possible values of the number of cupcakes Claire has?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean when we say that $N$ is of the form $5x$ or $7y+1$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Why are we only considering the values of $7y+1$ that are less than $60$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "How did you determine that the only possible values for $N$ are 18 and 53?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the sum of all possible quantities of cupcakes Claire could have?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

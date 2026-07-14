@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_17",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What is the area, in square inches, of a right triangle with a 24-inch leg and a 25-inch hypotenuse?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "f",
+    "r",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you identify the lengths of the legs of the right triangle given the hypotenuse and one leg?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Why is it necessary to find the length of the other leg in order to calculate the area?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain why we use the Pythagorean theorem to find the length of the other leg?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How does the formula for the area of a right triangle relate to the lengths of its legs?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "In this specific case, how did you use the formula to calculate the area?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you imagine a scenario where you might need to use a different method to calculate the area of a right triangle?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

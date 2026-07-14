@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_929",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "A pyramid is formed on a $6\\times 8$ rectangular base. The four edges joining the apex to the corners of the rectangular base each have length $13$. What is the volume of the pyramid?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "f",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the shape of the pyramid in question?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you describe the rectangular base of the pyramid and find its area?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the length of each edge joining the apex of the pyramid to the corners of the rectangular base?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Using the Pythagorean theorem, what is the distance between the apex of the pyramid and the center of the rectangular base?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did you determine the height of the pyramid?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the formula for finding the volume of a pyramid, and how does it relate to the area of the base and the height?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Using the formula, what is the volume of the pyramid in question?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

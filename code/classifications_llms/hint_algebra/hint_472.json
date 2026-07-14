@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_472",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 1",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "A ball is dropped from 10 feet high and always bounces back up half the distance it just fell. After how many bounces will the ball first reach a maximum height less than 1 foot?",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the initial step in solving this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What do you understand by \"maximum height\" in this context?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you determine the height of the ball after the first bounce? How about after the second bounce?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Is there a pattern that you notice in the heights of the ball after each bounce?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How would you represent the number of bounces and the corresponding height of the ball in a mathematical equation or expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you devise a general formula or rule that relates the number of bounces to the maximum height the ball reaches?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can you use this formula to determine the number of bounces it takes for the ball to reach a maximum height less than 1 foot?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any assumptions or constraints that need to be considered in solving this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

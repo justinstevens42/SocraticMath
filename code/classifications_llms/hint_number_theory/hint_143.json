@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_143",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What is the first nonzero digit to the right of the decimal point of the fraction $\\frac{1}{129}$?",
+  "n_questions": 10,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What happens if we multiply the fraction $\\frac{1}{129}$ by 10?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Why do we shift all the digits one place to the left when we multiply by 10?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we use this idea to find the first nonzero digit to the right of the decimal point of $\\frac{1}{129}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can we multiply the fraction by a larger power of 10 to get a clearer picture?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we determine the result of $\\frac{1000}{129}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What does it mean when we have a fraction as the result of a division?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How does the result help us find the first nonzero digit to the right of the decimal point?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the first nonzero digit to the right of the decimal point of $\\frac{1}{129}$ based on our calculations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Are there other fractions or numbers where we can use this method to find the first nonzero digit to the right of the decimal point?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "How does this process relate to the concept of decimal representation and place value?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

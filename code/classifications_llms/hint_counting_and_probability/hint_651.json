@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_651",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Alex has 5 pieces of paper, each with a different math problem. In how many ways can he give these problems to his 10 friends (he can give each friend more than one problem)?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the total number of papers Alex has?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many friends does Alex have?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How many options does Alex have for his first paper, given that he can give it to any of his 10 friends?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the total number of options for Alex's second paper, given that he can give it to any of his 10 friends?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the total number of options for Alex's third paper?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the total number of options for Alex's fourth paper?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the total number of options for Alex's fifth paper?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How do we combine the number of options for each paper to find the total number of ways Alex can distribute the problems to his friends?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you apply this same method to a similar but slightly different problem, such as if Alex had 6 papers and only 8 friends to give them to?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

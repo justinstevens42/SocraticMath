@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_313",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "In the diagram, the smaller circles touch the larger circle and touch each other at the center of the larger circle. The radius of the larger circle is $6.$ What is the area of the shaded region?\n\n[asy]\nsize(100);\nimport graph;\nfilldraw(Circle((0,0),2),mediumgray);\nfilldraw(Circle((-1,0),1),white);\nfilldraw(Circle((1,0),1),white);\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "f",
+    "b",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given figure and the elements involved?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What do you notice about the smaller circles and their relationship with the larger circle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the radius of the smaller circles based on the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the significance of the common tangents between the larger and smaller circles?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Why is the diameter through $A$ of the smaller circle the same as that of the larger circle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why the radius of the smaller circle on the left is $3$ and the radius of the smaller circle on the right is also $3$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we find the total area of the two smaller circles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the formula for the area of a circle, and how can we use it to find the areas of the larger and smaller circles?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "How can we find the area of the shaded region using the areas of the circles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Are there any other geometric concepts or situations that are similar to this problem? If so, how can we apply the same reasoning and steps to solve them?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

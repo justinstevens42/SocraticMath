@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_63",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "When three positive integers are divided by $47$, the remainders are $25$, $20$, and $3$, respectively.\n\nWhen the sum of the three integers is divided by $47$, what is the remainder?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you restate the problem in your own words? What do we know and what do we need to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How do we represent the three integers in this problem? What are their possible values?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What do the remainders tell us about the three integers? Can we write these relationships as congruences?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we use these congruences to find the sum of the three integers? What is the sum congruent to modulo 47?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can we use any other method to find the sum of the three integers? What would be the advantages or disadvantages of these methods?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Are there any similar problems that we could solve using the same techniques? Can you think of an example?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

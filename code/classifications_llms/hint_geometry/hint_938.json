@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_938",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "The rules for a race require that all runners start at $A$, touch any part of the 1200-meter wall, and stop at $B$. What is the number of meters in the minimum distance a participant must run? Express your answer to the nearest meter. [asy]\nimport olympiad; import geometry; size(250);\ndefaultpen(linewidth(0.8));\ndraw((0,3)--origin--(12,0)--(12,5));\nlabel(\"300 m\",(0,3)--origin,W); label(\"1200 m\",(0,0)--(12,0),S); label(\"500 m\",(12,0)--(12,5),E);\ndraw((0,3)--(6,0)--(12,5),linetype(\"3 3\")+linewidth(0.7));\nlabel(\"$A$\",(0,3),N); label(\"$B$\",(12,5),N);\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the rules for the race stated in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How does reflecting point $B$ across the wall to point $B'$ help in solving the problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How does choosing point $C$ on line segment $AB'$ minimize the distance a participant must run?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the minimum distance a participant must run, and how is it calculated using the Pythagorean theorem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Is there any other possible way to solve this problem besides the method described above? If so, what is it and how does it compare to the previous method in terms of simplicity and efficiency?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Are there any real-life scenarios where understanding the concept of shortest distance between two points may be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

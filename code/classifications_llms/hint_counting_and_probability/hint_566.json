@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_566",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "A fair coin is flipped $7$ times. What is the probability that at least $5$ consecutive flips come up heads?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the possible outcomes of flipping a fair coin once?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many total outcomes are possible when flipping a fair coin seven times?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the probability that the first flip is heads?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many different ways can you get a string of five consecutive heads in seven coin flips?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Which cases did we consider when counting the number of outcomes with at least five consecutive heads?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "What is the total number of successful outcomes in all the cases we considered?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How do we use the total number of outcomes and the number of successful outcomes to calculate the probability of getting at least five consecutive heads in seven flips of a fair coin?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

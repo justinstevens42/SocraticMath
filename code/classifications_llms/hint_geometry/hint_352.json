@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_352",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "The measure of angle $ACB$ is 40 degrees. If ray $CA$ is rotated 480 degrees about point $C$ in a clockwise direction, what will be the positive measure of the new acute angle $ACB$, in degrees?\n\n[asy]\ndraw((0,0)--dir(40),linewidth(1),Arrow);\ndraw((0,0)--dir(0),linewidth(1),Arrow);\ndot(.8dir(40));\ndot(.8dir(0));\ndot((0,0));\nlabel(\"A\",.8dir(40),NW);\nlabel(\"B\",.8dir(0),S);\nlabel(\"C\",(0,0),W);\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "f",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the measure of angle ACB initially?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many degrees is the ray CA rotated in a clockwise direction?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the positive measure of the new acute angle ACB after the rotation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we calculate the measure of the new angle using the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between the initial angle and the new angle after the rotation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "Why do we subtract 360 degrees from the rotation angle of 480 degrees?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How many degrees of the rotation will be used to decrease the angle ACB to 0 degrees?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we determine the remaining degrees of the rotation after decreasing the angle to 0 degrees?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What does it mean for an angle to be acute?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 10,
+      "question": "How can we determine the positive measure of the new acute angle ACB using the unused degrees of the rotation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

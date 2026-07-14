@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_70",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Let $f(n)$ be the sum of the positive integer divisors of $n$. For how many values of $n$, where $1 \\le n \\le 25$, is $f(n)$ prime?",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the function $f(n)$ and what it represents in terms of the divisors of $n$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Based on the given information, when is $f(n)$ prime?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the value of $f(n)$ when $n$ is a prime number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Are there any restrictions on the value of $n$ for which $n+1$ is also prime?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "If $n$ is a power of a prime, what is the formula for calculating $f(n)$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the formula mentioned in question 5 to determine if $f(n)$ is prime?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you provide an example of a power of 2 for which $f(n)$ is prime?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you provide an example of a power of 3 for which $f(n)$ is prime?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What happens when $n$ is a composite number made up of two distinct primes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you explain why $f(n)$ is composite when $n$ is a composite number with two distinct primes?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ],
+  "classifier": "llm"
+}

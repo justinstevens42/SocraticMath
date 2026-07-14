@@ -1,0 +1,120 @@
+{
+  "problem_id": "hint_851",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "George flips an unfair coin 7 times. The coin has a $\\frac{1}{4}$ probability of coming up heads and a $\\frac{3}{4}$ probability of coming up tails. What is the probability that he flips exactly 2 tails?",
+  "n_questions": 15,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the probability of getting tails on a single flip of the unfair coin?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many times does George flip the coin?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we calculate the probability of getting exactly 2 tails in 7 flips?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can the two tails occur in any order, or is there a specific order in which they must appear?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can we calculate the probability of getting tails on 2 specific flips and heads on the remaining 5 flips?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the formula for calculating the probability of a specific sequence of coin flips?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How many ways can we choose 2 flips out of the 7 flips to be tails?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we calculate this combination using the binomial coefficient?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the probability of getting exactly 2 tails in 7 flips, considering all possible combinations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can we calculate the final probability by multiplying the probability of each combination by the number of ways it can occur?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "What is the significance of the result being expressed as a fraction?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 12,
+      "question": "Can we simplify or reduce the fraction to a simpler form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 13,
+      "question": "How would the probability change if the coin were fair instead of unfair?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 14,
+      "question": "Can we generalize this approach to calculate probabilities for different numbers of tails in a given number of flips?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 15,
+      "question": "Are there any other factors or variables that could affect the probability in this scenario?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

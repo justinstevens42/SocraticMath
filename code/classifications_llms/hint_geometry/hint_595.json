@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_595",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "In right triangle $ABC$ with $\\angle B = 90^\\circ$, we have $$2\\sin A = 3\\cos A.$$What is $\\sin A$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you restate the given equation in terms of the ratios of the side lengths in the right triangle? What relationship between $\\sin A$ and $\\cos A$ does the equation represent?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the length of side $AB$ in terms of side $BC$ using the equation $2\\sin A = 3\\cos A$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can we use the Pythagorean theorem to express side $AB$ in terms of side $AC$ and side $BC$? If so, what does the equation become?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How do we simplify the equation $\\left(\\frac{2}{3}BC\\right)^2 + BC^2 = AC^2$? What relationship between side lengths does it reveal?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we express $\\sin A$ in terms of $BC$ and $AC$ using the ratios of the side lengths? What is the value of $\\sin A$ in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there another approach or method we could have used to solve this problem? Can you think of any similar types of equations involving trigonometric ratios that could be solved using a similar thought process and steps?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

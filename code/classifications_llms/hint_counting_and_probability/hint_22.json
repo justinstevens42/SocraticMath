@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_22",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "The Smith family has 4 sons and 3 daughters. In how many ways can they be seated in a row of 7 chairs such that at least 2 boys are next to each other?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Why is it difficult to count the number of seatings directly?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How does the BGBGBGB arrangement help us in solving the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How is the total number of seatings without any restrictions calculated?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is complementary counting and how is it used in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Why do we subtract the number of seatings we don't want from the total number of seatings to get the final answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of other problems that can be solved using complementary counting?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

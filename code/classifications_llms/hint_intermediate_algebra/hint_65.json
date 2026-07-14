@@ -1,0 +1,106 @@
+{
+  "problem_id": "hint_65",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Solve\n\\[\\sqrt{1 + \\sqrt{2 + \\sqrt{x}}} = \\sqrt[3]{1 + \\sqrt{x}}.\\]",
+  "n_questions": 13,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does the equation express? Can you describe it in words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the key operation in the equation? What does it instruct us to do?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Let's focus on the right side of the equation. How can we simplify the expression inside the cube root?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we express the left side of the equation in a simplified form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "By substitution, what can we rewrite the equation as using the variable y? What does this new equation represent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the relationship between the original equation and the new equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "By squaring both sides of the new equation, what do we obtain? Is there anything we need to be cautious about when squaring equations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we simplify the expressions on both sides after squaring?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How does the equation change after simplification? How does this relate to the solution(s) of the original equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What are the possible values of y that satisfy the simplified equation? How do they correspond to solutions of the original equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "By substituting the value of y back into the equation, what can we conclude about the value of x?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "Are there any extraneous solutions that we need to check for?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 13,
+      "question": "By solving the simplified equation for y, can we determine the unique value for y? What does this tell us about the value of x?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

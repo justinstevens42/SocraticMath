@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_782",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Let $a,$ $b,$ $c$ be real numbers such that $a + b + c = 0.$  Find the set of all possible values of $ab + ac + bc.$",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you restate the problem in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How did we obtain the equation $a^2 + b^2 + c^2 + 2(ab+ac+bc) = 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What can we conclude from the equation derived in step 2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How do we get the inequality $ab+ac+bc\\leq0$ from the equation in step 2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can we have any values of $a,$ $b,$ or $c$ that would make the inequality $ab+ac+bc>0$ true? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "By setting $c = 0,$ what did we simplify the expression $ab + ac + bc$ to?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What values can $ab$ take on when $c = 0$ and $a = -b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the set of all possible values of $ab+ac+bc$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any applications of this concept in real life situations or other mathematical problems?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

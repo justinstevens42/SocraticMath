@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_391",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "If $f(x)=\\frac{16}{5+3x}$, what is the value of $\\left[f^{-1}(2)\\right]^{-2}$?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what it means for a function to have an inverse?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How do we find the inverse of a given function?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "In this case, what is the inverse of the function f(x)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we evaluate f^-1(2)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Once we have the value of f^-1(2), what does it mean to raise it to the power of -2?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we calculate [f^-1(2)]^-2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you simplify the expression [f^-1(2)]^-2 further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the final value of [f^-1(2)]^-2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

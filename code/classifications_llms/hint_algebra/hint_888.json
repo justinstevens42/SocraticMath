@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_888",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "An infinite geometric series has a first term of $12$ and a second term of $4.$ A second infinite geometric series has the same first term of $12,$ a second term of $4+n,$ and a sum of four times that of the first series. Find the value of $n.$",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what an infinite geometric series is and what it means?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the common ratio of a geometric series? Can you determine the common ratio for the given series?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "For the second series, how can we find its common ratio? Is there any relationship between the common ratio of the second series and the value of \"n\"?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean for the sum of the second series to be four times the sum of the first series? How can we express this relationship mathematically?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you create equations using the given information and the concepts discussed so far? What equations can we set up to represent the sum of each series and their relationship?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we solve the system of equations to find the value of \"n\"? Are there any additional steps or techniques that we need to apply?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_197",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The four-digit numeral $3AA1$ is divisible by 9. What digit does $A$ represent?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How does divisibility by 9 relate to the sum of the digits of a number? Can you explain this relationship?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the sum of the digits of the number $3AA1$? How can we express this sum in terms of $A$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you think of any values of $A$ that would make the sum of the digits divisible by 9? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Let's consider the equation $2A + 4 = 9k$, where $k$ is an integer. How would we solve this equation for $A$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "By testing different values of $A$, can you find any value that satisfies the equation $2A + 4 = 9k$? What does this value of $A$ represent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other situations in which the sum of the digits and divisibility play a role in solving a problem? How might similar thinking and steps be applied in those cases?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

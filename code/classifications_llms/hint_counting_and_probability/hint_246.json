@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_246",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "A pizza parlor offers six toppings. What is the greatest number of four-topping pizzas that can be made such that no two pizzas have the same topping combination?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many toppings does the pizza parlor offer?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many toppings are needed for each pizza?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the formula for calculating the number of combinations, given a set of choices and the number of items to select?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How many combinations are there when choosing 4 toppings from the available 6 toppings?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the greatest number of four-topping pizzas that can be made without repetition for any topping combination?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there a different approach or formula that can be used to solve this problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

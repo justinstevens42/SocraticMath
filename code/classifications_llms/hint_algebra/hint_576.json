@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_576",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The quadratic $10x^2+100x+1000$ can be written in the form $a(x+b)^2+c$, where $a$, $b$, and $c$ are constants. What is $a+b+c$?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we rewrite the quadratic expression $10x^2+100x+1000$ in the form $a(x+b)^2+c$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Are there any specific hints or patterns we can use to guide us in rewriting the expression?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the purpose of writing the quadratic in the form $a(x+b)^2+c$? What benefits does it offer in terms of understanding the expression?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you identify the values of $a$, $b$, and $c$ in the quadratic expression $10x^2+100x+1000$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine the sum of $a$, $b$, and $c$ based on the given form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other quadratics that can be expressed in the form $a(x+b)^2+c$ and explore the sum of their corresponding constants?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_675",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "Four prime numbers are randomly selected without replacement from the first ten prime numbers. What is the probability that the sum of the four selected numbers is odd? Express your answer as a common fraction.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the task asking us to find the probability of?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many prime numbers are on the list?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Why is it necessary for the sum of the four selected numbers to include 2 in order for the sum to be odd?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How many ways can we choose 4 prime numbers from the given list?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many ways can we choose 3 prime numbers from the list if 2 is already chosen?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How did we determine the total number of ways to select 4 prime numbers from the list?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the probability that the sum of the four selected numbers is odd?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

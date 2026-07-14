@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_343",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "In triangle $ABC,$ angle bisectors $\\overline{AD}$ and $\\overline{BE}$ intersect at $P.$  If $AB = 7,$ $AC = 5,$ and $BC = 3,$ find $\\frac{BP}{PE}.$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "f",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we find the intersection point $P$ of the angle bisectors $\\overline{AD}$ and $\\overline{BE}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the Angle Bisector Theorem and how can we apply it in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What equations can we set up using the Angle Bisector Theorem to find the coordinates of $\\mathbf{d}$ and $\\mathbf{e}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the equations involving $\\mathbf{d}$ and $\\mathbf{e}$ to find the coordinates of $\\mathbf{p}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the significance of the fact that the coefficients on both sides of the equation involving $\\mathbf{p}$ add up to 1?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "How can we determine the ratio $\\frac{BP}{PE}$ using the coordinates of $\\mathbf{p}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

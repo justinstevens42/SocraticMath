@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_283",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find $x$, where $x$ is a square number which is divisible by four, and between 39 and 80.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How do we know that $x$ is between 39 and 80?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between the square of a number and divisibility by four?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How did we determine that $6^2 < x < 9^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why did we eliminate 49 as a possibility for $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did we determine that 64 is divisible by four?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other square numbers between 39 and 80 that are divisible by four?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

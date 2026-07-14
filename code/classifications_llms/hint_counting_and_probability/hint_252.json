@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_252",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "How many ways are there to put 4 distinguishable balls into 2 distinguishable boxes?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "f",
+    "f",
+    "f",
+    "f",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many balls are there in total that need to be placed into the boxes?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Are the balls all the same or do they have some distinguishing features?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many boxes are available to place the balls into?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Are the boxes all the same or do they have some distinguishing features?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Can a box be left empty, or are all the balls required to be placed in a box?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "Are there any restrictions or limitations on how the balls can be placed in the boxes?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "Can more than one ball be placed in the same box?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "How many choices are there for placing each individual ball into a box?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Are the choices for placing each ball independent of each other?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 10,
+      "question": "How can we calculate the total number of ways to place the balls into the boxes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

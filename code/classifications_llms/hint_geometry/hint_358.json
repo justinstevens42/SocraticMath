@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_358",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "In $\\triangle XYZ$, we have $\\angle X = 90^\\circ$ and $\\tan Z = 3$.  What is $\\cos Z$?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What do you know about the relationships among the angles and sides of a right triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Based on the given information, what can you determine about the values of XY and XZ?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the Pythagorean Theorem to find the length of YZ?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between the cosine of an angle and the lengths of the adjacent and hypotenuse sides in a right triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we apply this relationship to find the value of cos Z in this triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other properties or theorems that could be useful in solving this problem?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "How can we use the given information about the value of tangent Z to find the value of cosine Z?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

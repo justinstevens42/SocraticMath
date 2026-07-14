@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_811",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "How many different routes are there from point $A$ to point $B$ if you can only move to the right or down along the drawn segments?\n\n[asy]\nunitsize(0.09inch);\ndraw((0,0)--(10,0)--(10,10)--(0,10)--cycle);\ndraw((5,0)--(5,10));\ndraw((0,5)--(10,5));\ndot((0,10));\ndot((10,0));\nlabel(\"$A$\",(0,10),NW);\nlabel(\"$B$\",(10,0),SE);\n[/asy]",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the possible moves to get from point A to point B?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we represent the moves using letters? What does each letter stand for?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many total moves do we need to make from A to B? What does this represent in terms of letters?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many ways can we arrange the letters (moves) to get from A to B?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Why do we only need to count the number of ways to arrange the downward moves (D's)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How many slots are there for the first downward move (D)? How many for the second downward move?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Why do we need to divide by 2 after counting the number of ways to arrange the D's?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the final count of the different routes from A to B?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

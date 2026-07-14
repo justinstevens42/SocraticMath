@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_845",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "How many positive two-digit integers have an odd number of positive factors?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "r",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Why are we only considering positive two-digit integers?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for a number to have an odd number of positive factors?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you identify any two-digit numbers that have an odd number of factors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the relationship between the number of factors a number has and whether it is a square or not?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine if a positive two-digit integer is a perfect square?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you provide a method to find all the two-digit square numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How many two-digit square numbers do we have?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you explain why only square numbers have an odd number of factors?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other types of numbers that have an odd number of factors?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "How does our understanding of square numbers and factors help us answer the initial question?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

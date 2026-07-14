@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_681",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Let \\[f(x) = \\left\\{\n\\begin{array}{cl}\n\\sqrt{x} &\\text{ if }x>4, \\\\\nx^2 &\\text{ if }x \\le 4.\n\\end{array}\n\\right.\\]Find $f(f(f(2)))$.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what the function $f(x)$ does for values greater than 4?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What about for values less than or equal to 4? How does the function behave in that case?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How would you evaluate $f(2)$? Which part of the function would you use?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Now, evaluate $f(f(2))$. What values do you substitute into the function at each step?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Based on the previous steps, what do you think is the value of $f(f(f(2)))$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other similar functions that involve different rules for different ranges of $x$? How would you approach evaluating those functions in a similar way?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

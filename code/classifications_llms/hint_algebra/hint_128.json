@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_128",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Evaluate $99\\times 99$ in your head.",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "b",
+    "r",
+    "f",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What strategies or concepts could you use to mentally evaluate the product of 99 multiplied by 99?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can you break down 99 to make the calculation easier?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you think of any properties of multiplication that might make this calculation simpler?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Is there any relationship between the given numbers (99) and any commonly known numbers that you can utilize?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can you organize the multiplication process to simplify the calculation mentally?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you apply any mental arithmetic shortcuts or tricks to help you evaluate this product more efficiently?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain why your mental calculation of 99 multiplied by 99 is accurate?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Can you generalize your approach to mentally multiply other similar numbers?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

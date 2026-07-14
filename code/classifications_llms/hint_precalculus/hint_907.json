@@ -1,0 +1,99 @@
+{
+  "problem_id": "hint_907",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Simplify\n\\[\\cos \\frac{2 \\pi}{13} + \\cos \\frac{6 \\pi}{13} + \\cos \\frac{8 \\pi}{13}.\\]",
+  "n_questions": 12,
+  "labels": [
+    "f",
+    "b",
+    "f",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given expression that we want to simplify?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you rewrite the expression using the exponential form of complex numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the relationship between the given expression and $x$ defined as $\\cos \\frac{2 \\pi}{13} + \\cos \\frac{6 \\pi}{13} + \\cos \\frac{8 \\pi}{13}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can you express the given expression in terms of $x$ using the properties of complex numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can you simplify the expression $\\omega + \\omega^3 + \\omega^4 + \\omega^9 + \\omega^{10} + \\omega^{12}$ where $\\omega = e^{2 \\pi i/13}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any facts about the roots of unity that can help simplify the expression?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Is there a way to express the expression $\\omega + \\omega^3 + \\omega^4 + \\omega^9 + \\omega^{10} + \\omega^{12}$ in terms of the roots of unity?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What properties can you observe about the coefficients of the roots of unity when expressing $\\omega + \\omega^3 + \\omega^4 + \\omega^9 + \\omega^{10} + \\omega^{12}$ in terms of $\\alpha$ and $\\beta$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can you find the roots of $z^2 + z - 3 = 0$ using the coefficients of $\\alpha$ and $\\beta$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the relationship between the roots of $z^2 + z - 3 = 0$ and the value of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "How can you determine the value of $x$ using the roots of $z^2 + z - 3 = 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "What is the final simplified value of the given expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

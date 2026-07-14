@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_849",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The sides of triangle $CAB$ are in the ratio of $2:3:4$. Segment $BD$ is the angle bisector drawn to the shortest side, dividing it into segments $AD$ and $DC$. What is the length, in inches, of the longer subsegment of side $AC$ if the length of side $AC$ is $10$ inches? Express your answer as a common fraction.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the ratio of the sides of triangle CAB and the lengths of each side?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the importance of segment BD and its relationship to the triangle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the lengths of segments AD and CD in relation to each other?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the Angle Bisector Theorem to find the ratio of AD to CD?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Based on the given ratio of sides, which segment of side AC is longer, AD or CD?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we express the length of the longer subsegment of AC using the given ratio and the length of AC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you calculate the length, in inches, of the longer subsegment of side AC given the length of AC as 10 inches?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

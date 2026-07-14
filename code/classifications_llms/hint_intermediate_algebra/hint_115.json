@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_115",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Let $P(z)=x^3+ax^2+bx+c$, where $a,$ $b,$ and $c$ are real. There exists a complex number $w$ such that the three roots of $P(z)$ are $w+3i$, $w+9i$, and $2w-4$, where $i^2=-1$. Find $a+b+c$.",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the roots of $P(z)$ given in the problem? Can you express them in terms of $w$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for a polynomial to have complex roots? How are complex roots related to conjugate pairs?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you determine the sum of the three roots of $P(z)$? How does this relate to the coefficients of the polynomial?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we use Vieta's formulas to relate the coefficients of the polynomial to its roots?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "If $w = x + yi$, what can we deduce about the values of $x$ and $y$ based on the given roots?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the information about the values of $x$ and $y$ to express $P(z)$ in factored form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the value of $P(1)$? How can we use this to determine the values of $a$, $b$, and $c$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the final value of $a + b + c$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

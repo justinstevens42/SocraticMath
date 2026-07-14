@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_92",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Evaluate $\\log_7\\sqrt7$.",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "f",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of the logarithm of a number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we rewrite $\\sqrt{7}$ in exponential form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Which exponent should we raise 7 to in order to get $\\sqrt{7}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the base of the logarithm in this problem, and what is the argument?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "According to the logarithmic properties, what happens when the base and the argument are the same?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you simplify the expression $\\log_7\\sqrt7$ now?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What value do you obtain after simplifying the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

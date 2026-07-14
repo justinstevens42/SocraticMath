@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_463",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "MP",
+  "problem_type_name": "Masterpieces",
+  "problem": "In right triangle $ABC$, $AB=9$, $BC=13$, and $\\angle B = 90^\\circ$.  Points $D$ and $E$ are midpoints of $\\overline{AB}$ and $\\overline{AC}$ respectively; $\\overline{CD}$ and $\\overline{BE}$ intersect at point $X$.  Compute the ratio of the area of quadrilateral $AEXD$ to the area of triangle $BXC$.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you provide a description of the given figure and the points involved?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What do you know about the properties of the medians in a triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can you determine the point of intersection of the medians in this triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How is the area of the six smaller triangles related to each other?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What can you say about the area of quadrilateral AEXD and triangle BXC based on the properties of the medians?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you generalize this result to any type of triangle?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

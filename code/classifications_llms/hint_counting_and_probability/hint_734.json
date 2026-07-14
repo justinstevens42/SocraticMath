@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_734",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Given the equation $a + b = 30$, where $a$ and $b$ are positive integers, how many distinct ordered-pair solutions $(a, b)$ exist?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "f",
+    "f",
+    "f",
+    "b",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the equation $a + b = 30$ represents?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How would you approach finding the solutions $(a, b)$ for this equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Are there any restrictions on the values of $a$ and $b$ in this equation? If so, what are they?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How does the fact that $a$ and $b$ are positive integers affect the solutions of the equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Can you identify any patterns or observations about the possible values of $(a, b)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "How would you count the number of distinct ordered-pair solutions? Why does your method work?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you generalize the approach you used to count the solutions to equations of similar form?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Are there any other equations that you can think of where a similar method can be used to count the solutions?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "How does the number of distinct ordered-pair solutions change if there was a different constraint on the values of $a$ and $b$?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

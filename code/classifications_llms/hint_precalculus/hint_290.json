@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_290",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "Let $\\mathbf{v}$ and $\\mathbf{w}$ be vectors such that\n\\[\\operatorname{proj}_{\\mathbf{w}} \\mathbf{v} = \\begin{pmatrix} 3 \\\\ 2 \\end{pmatrix}.\\]Compute $\\operatorname{proj}_{\\mathbf{w}} (5 \\mathbf{v}).$",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the first step in computing $\\operatorname{proj}_{\\mathbf{w}} (5 \\mathbf{v})$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the formula for a projection? How can we apply this formula in this scenario?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we calculate the dot product of $5 \\mathbf{v}$ and $\\mathbf{w}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What does the magnitude of $\\mathbf{w}$ represent in the formula? How can we compute it?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the result of $\\operatorname{proj}_{\\mathbf{w}} \\mathbf{v}$? How can we use this result to compute $\\operatorname{proj}_{\\mathbf{w}} (5 \\mathbf{v})$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other similar scenarios where we might use a similar thought process and steps?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

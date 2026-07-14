@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_208",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Below is the graph of $y = a \\sin (bx + c) + d$ for some positive constants $a,$ $b,$ $c,$ and $d.$  Find $a.$\n\n[asy]import TrigMacros;\n\nsize(400);\n\nreal f(real x)\n{\n\treturn 2*sin(3*x + pi) + 1;\n}\n\ndraw(graph(f,-3*pi,3*pi,n=700,join=operator ..),red);\ntrig_axes(-3*pi,3*pi,-4,4,pi/2,1);\nlayer();\nrm_trig_labels(-5,5, 2);\n\nlabel(\"$1$\", (0,1), E);\nlabel(\"$2$\", (0,2), E);\nlabel(\"$3$\", (0,3), E);\nlabel(\"$-1$\", (0,-1), E);\nlabel(\"$-2$\", (0,-2), E);\nlabel(\"$-3$\", (0,-3), E);\n[/asy]",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "f",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what the graph represents?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the amplitude of the graph?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What does the maximum value of the graph represent?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What does the minimum value of the graph represent?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can we find the difference between the maximum and minimum values?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why we divide the difference by 2?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "What does the resulting value of 2 represent in the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

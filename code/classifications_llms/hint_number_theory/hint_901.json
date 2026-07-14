@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_901",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "How many distinct positive factors does 32 have?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "f",
+    "f",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of a positive factor of a number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you list all the factors of 32?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How did you determine that 32 is a power of 2?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Why are the only factors of 32 the powers of 2 less than or equal to it?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How did you come up with the list of factors 1, 2, 4, 8, 16, and 32?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other numbers that are powers of 2, and if so, what are their factors?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

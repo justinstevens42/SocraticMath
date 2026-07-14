@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_2",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find the product of $0.\\overline{6}$ and 6.",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the decimal representation of $0.\\overline{6}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we convert a repeating decimal to a fraction?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain why multiplying both sides of the equation $p=0.\\overline{6}$ by 10 helps us to convert the repeating decimal to a fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the value of $10p$ and $6.\\overline{6}$ after multiplying both sides of the equation $p=0.\\overline{6}$ by 10?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we solve for $p$ after subtracting the left-hand sides and right-hand sides of the equations $10p=6.\\overline{6}$ and $p=0.\\overline{6}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the simplified fraction form of $p$ after solving for $p$ in the equation $9p=6$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we use the fraction form of $0.\\overline{6}$ to find the product of $0.\\overline{6}$ and 6?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the product of $\\frac{2}{3}$ and 6?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of another example where we need to convert a decimal to a fraction in order to solve a problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_809",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "What is the modular inverse of $11$, modulo $1000$?\n\nExpress your answer as an integer from $0$ to $999$, inclusive.",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what a modular inverse is and why it is important in Number Theory?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine whether a modular inverse exists for a given number modulo another number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "In this specific problem, why do we know that the modular inverse of 11 exists modulo 1000?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Can you describe the relationship between 10^3 and 11 in terms of their modular inverse?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "What is the potential sum of cubes factorization that can be used to find the modular inverse of 11?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How did we choose the value of k in the expression (10+1)·11^(-1) = 10^3k + 1?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you verify that 11^(-1) ≡ 91 (mod 1000) is indeed the correct answer by performing the necessary multiplication?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

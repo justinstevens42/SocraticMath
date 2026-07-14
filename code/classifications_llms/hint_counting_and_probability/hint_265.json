@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_265",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Phil rolls 6 fair 6-sided dice. What is the probability that at least two dice show the same number?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the main scenario we want to consider in order to find the probability that at least two dice show the same number?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "If we want at least two dice to show the same number, what is the complementary scenario we should consider instead?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the total number of possible outcomes if all 6 dice show different numbers? How does this relate to the concept of permutations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the total number of possible outcomes when rolling 6 fair 6-sided dice? How does this relate to the concept of independent events?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we express the probability of all 6 dice showing different numbers in terms of these total numbers of outcomes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you calculate the probability of all 6 dice showing different numbers? What is the result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we find the probability that at least two dice show the same number by using the probability of all 6 dice showing different numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you calculate the probability that at least two dice show the same number? What is the result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

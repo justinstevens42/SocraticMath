@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_219",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "In $\\Delta ABC$, $\\overline{DE} \\parallel \\overline{AB}, CD = 4$ cm, $DA = 10$ cm, and $CE = 6$ cm. What is the number of centimeters in the length of $\\overline{CB}$?\n\n[asy]pair A,B,C,D,E;\nA = (-2,-4); B = (4,-4); C = (0,0); D = A/3; E = B/3;\ndraw(E--D--C--B--A--D);\nlabel(\"A\",A,W); label(\"B\",B,dir(0)); label(\"C\",C,N); label(\"D\",D,W);\n\nlabel(\"E\",E,dir(0));\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "f",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain why $\\triangle ABC$ is similar to $\\triangle DEC$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we use this similarity to find the length of $\\overline{CB}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What information do we need to find $\\overline{CB}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the length of $\\overline{CD}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain how we can use the similarity ratios to find the length of $\\overline{CB}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other similar triangles in this diagram that we can use to verify our result?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

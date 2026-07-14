@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_690",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find all values of $r$ such that $\\lfloor r \\rfloor + r = 16.5$.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the notation $\\lfloor r \\rfloor$ represents in this equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How would you approach solving an equation that involves both an integer part ($\\lfloor r \\rfloor$) and a decimal part ($r$)?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "In general, what values can $\\lfloor r \\rfloor$ take on?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Based on the equation $\\lfloor r \\rfloor + r = 16.5$, can you think of any restrictions or conditions that $r$ must satisfy?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can we rewrite the equation $\\lfloor r \\rfloor + r = 16.5$ without the floor function, to make it easier to solve?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What strategies or methods can we use to solve equations involving both integers and decimals? Can we isolate $r$ in this case?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Based on the equation $\\lfloor r \\rfloor + r = 16.5$, what possible values can $\\lfloor r \\rfloor$ have to satisfy the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you find any values of $r$ that satisfy the equation? How can you verify that these values are correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "If you were to graph the function $\\lfloor x \\rfloor + x$ on a coordinate plane, what does the equation $\\lfloor r \\rfloor + r = 16.5$ represent geometrically?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any other types of equations where both integers and decimals are involved, and a similar approach may be used to solve them?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

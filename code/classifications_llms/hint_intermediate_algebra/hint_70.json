@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_70",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Is $f(x) = 3^{x^2-3} - |x|$ an even function, odd function, or neither?\n\nEnter \"odd\", \"even\", or \"neither\".",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you define an even function?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the difference between an even function and an odd function?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine if a given function is even or odd?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Let's consider the function $f(x) = 3^{x^2-3} - |x|$. How can we check if it's even or odd?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "To determine if $f(x)$ is even, what property do we need to investigate?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Let's substitute $-x$ into the function: $f(-x) = 3^{(-x)^2-3} - |-x|$. Can we simplify this expression further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Simplifying $f(-x)$, what do we observe?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Based on the result, what conclusion can we draw about the function $f(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can we generalize this conclusion to all functions of the form $f(x) = 3^{x^2-3} - |x|$?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "Are there any other approaches we can use to determine if a function is even or odd?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_938",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Compute the product of the roots of the equation \\[3x^3 - x^2 - 20x + 27 = 0.\\]",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "f",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe Vieta's formulas for finding the product of the roots of a polynomial equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain why the product of the roots is found by dividing the negation of the constant term by the leading coefficient of the polynomial?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the constant term in the given equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the leading coefficient of the polynomial?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Using Vieta's formulas, what is the product of the roots of the given equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Why is it important to divide the product of the roots by the leading coefficient of the polynomial?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other applications of Vieta's formulas in solving polynomial equations?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

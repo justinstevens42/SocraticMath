@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_252",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "The integers $G$ and $H$ are chosen such that\n\\[\\frac{G}{x+5}+\\frac{H}{x^2-4x}=\\frac{x^2-2x+10}{x^3+x^2-20x}\\]for all real values of $x$ except $-5$, $0$, and $4$. Find $H/G$.",
+  "n_questions": 10,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you simplify the equation by finding a common denominator for the fractions on the left side?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What can you notice about the denominators on the left side and the right side of the equation? Is there any relationship between them?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "If we multiply both sides of the equation by $(x^3+x^2-20x)$, what happens to the denominators? Can you explain why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "After multiplying and simplifying, what equation do you get? Can you identify any patterns or factors in this equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "According to the given information, what values of $x$ are not allowed in the equation? How does this affect the validity of the equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "Can you express the simplified equation in the form $Ax^2 + Bx + C = 0$? What are the values of $A$, $B$, and $C$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How does the equation $Ax^2 + Bx + C = 0$ relate to finding the values of $x$ that make the original equation true?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What methods do you know for solving quadratic equations? Which one would you choose to solve $Ax^2 + Bx + C = 0$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "If you found the values of $x$ that satisfy $Ax^2 + Bx + C = 0$, what should you do next to find the values of $G$ and $H$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Finally, what is the relationship between $H$ and $G$? How can you find the value of $H/G$ based on the solutions you found?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_544",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "The polynomial $x^3 - 2004 x^2 + mx + n$ has integer coefficients and three distinct positive zeros.  Exactly one of these is an integer, and it is the sum of the other two.  How many values of $n$ are possible?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the conditions for a polynomial to have three distinct positive zeros and only one of them being an integer?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we express the three zeros of the polynomial in terms of the integer zero $a$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the expanded form of the given polynomial based on the expression of its zeros?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the value of $a$ and express the polynomial solely in terms of $a$ and $r$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What are the requirements for the coefficients of the polynomial to be integers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we determine the range of values for $r$ to satisfy the conditions of the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How many possible values of $n$ are there, based on the valid range of $r$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_820",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find all values of $b$ such that $b+\\lceil b\\rceil=17.8$.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the equation $b + \\lceil b\\rceil = 17.8$ means and what it represents in real-world terms?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does the symbol $\\lceil b\\rceil$ represent? How does it affect the equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What are the possible values of $\\lceil b\\rceil$? How does that limit the range of possible values for $b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "If $b$ is an integer, what can you conclude about the value of $\\lceil b\\rceil$ and how it affects the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does the decimal part of $17.8$ affect the possible values of $b$? Is there any restriction on the range of values?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other equations that involve the ceiling function and require similar reasoning and steps to solve?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

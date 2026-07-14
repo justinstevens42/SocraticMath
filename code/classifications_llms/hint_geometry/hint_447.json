@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_447",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "The image of the point with coordinates $(-3,-1)$ under the reflection across the line $y=mx+b$ is the point with coordinates $(5,3)$.  Find $m+b$.",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "r",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of reflection across a line?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the equation of the line of reflection given the coordinates of a point and its image?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the relationship between the slope of the line of reflection and the slope of the line connecting the point and its image under the reflection?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do we use the midpoint formula to help find the equation of the line of reflection?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How do we use the perpendicularity of the line of reflection to the line connecting the point and its image to find its equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the equation of the line of reflection to find other reflected points?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

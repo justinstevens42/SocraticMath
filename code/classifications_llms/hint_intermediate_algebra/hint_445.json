@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_445",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "For any positive integer $n,$ let $\\langle n \\rangle$ denote the closest integer to $\\sqrt{n}.$  Evaluate\n\\[\\sum_{n = 1}^\\infty \\frac{2^{\\langle n \\rangle} + 2^{-\\langle n \\rangle}}{2^n}.\\]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How is the expression $\\langle n \\rangle$ defined?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does $\\langle n \\rangle$ represent for a positive integer $n$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we rewrite the given series using $\\langle n \\rangle$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What can we say about the values of $n$ such that $\\langle n \\rangle = k$ for a given positive integer $k$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we express the sum using the values of $n$ such that $\\langle n \\rangle = k$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How does the inner sum in the expression change as $k$ varies?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we simplify the inner sum for a fixed value of $k$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How does the outer sum change as we sum over different values of $k$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the resulting series after evaluating the outer sum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the final value of the sum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

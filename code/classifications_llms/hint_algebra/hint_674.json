@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_674",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "If $f(x) = x^4 + x^2 + 5x$, evaluate $f(5) - f(-5)$.",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the term \"evaluate\" means in the context of this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How would you express $f(x)$ using mathematical notation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What does $f(5)$ mean, and how would you calculate it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Similarly, what does $f(-5)$ mean, and how would you calculate it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Given the values of $f(5)$ and $f(-5)$, what operation do you need to perform to find $f(5) - f(-5)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you simplify the expression $f(5) - f(-5)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "If we encounter a similar expression in the future, what steps can we take to calculate its value using function notation?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Are there any other functions that can be used to evaluate expressions similar to $f(5) - f(-5)$?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

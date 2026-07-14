@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_119",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Two more than three times $B$ is equal to 20. What is the value of $B$?",
+  "n_questions": 9,
+  "labels": [
+    "b",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you represent the information given in the problem using an equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What does the expression \"two more than three times B\" mean? Can you rewrite it in mathematical terms?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What property or operation allows us to represent \"two more than three times B\" as an equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the goal of the problem? What are we trying to find? How can we manipulate the equation to isolate the variable B?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What steps do we need to take to solve the equation? Can you explain each step in detail?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you verify that the value of B you obtained is correct by substituting it back into the original equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any alternative methods you could have used to solve the equation? What are the advantages and disadvantages of each method?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any real-life scenarios where this type of equation might be useful? How can you apply this problem-solving method to those scenarios?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Can you create similar equations for your classmates to solve using the same problem-solving approach?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

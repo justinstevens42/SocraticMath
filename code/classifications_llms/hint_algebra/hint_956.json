@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_956",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What is the greatest possible sum of two consecutive integers whose product is less than 400?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "f",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the key components of this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you express the problem in mathematical terms?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How would you approach finding consecutive integers with a product less than 400?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What strategies could be used to determine the sum of two consecutive integers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can you use inequalities to solve this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you identify any patterns or relationships between the product and sum of consecutive integers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "What is the significance of the limitation \"less than 400\" in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any similar math problems that require a similar kind of thinking and approach?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

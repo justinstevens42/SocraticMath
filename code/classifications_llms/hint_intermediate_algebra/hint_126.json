@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_126",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find the distance between the foci of the hyperbola\n\\[\\frac{y^2}{18} - \\frac{x^2}{2} = 1.\\]",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "r",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the general equation of a hyperbola and how does it differ from other conic sections?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What are the standard forms for a hyperbola and which one is being used in this problem? How are the constants in this equation related to the shape of the hyperbola?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we identify the values of a, b, and c for this hyperbola based on the given equation? What are their meanings in terms of the shape and orientation of the hyperbola?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the relationship between a, b, and c in a hyperbola? How does this relationship help us find the distance between the foci?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the values of a and b to calculate the value of c in this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the formula for finding the distance between the foci of a hyperbola? How does it depend on the value of c?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Using the calculated value of c, what is the distance between the foci in this specific hyperbola?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

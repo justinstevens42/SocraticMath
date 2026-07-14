@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_140",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "In base $b$, there are exactly one hundred three-digit numbers whose digits are all distinct. (That's \"one hundred\" in the ordinary sense, $100_{10}$.)\n\nWhat is $b$?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "f",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many total digits are in a three-digit number in base $b$ with distinct digits?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the possible choices for the first digit? How many choices are there?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "After choosing the first digit, what are the possible choices for the second digit? How many choices are there?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many choices are left for the third digit? Why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you express the number of three-digit numbers with distinct digits in terms of $b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we find the value of $b$ given the equation $(b-1)^2(b-2) = 100$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you list all the possible values of $b$ that satisfy the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Why do we only consider the positive solutions for $b$ in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What does it mean for a base $b$ to have exactly one hundred three-digit numbers with distinct digits?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of other scenarios or problems where considering distinct digits and a particular base would be relevant?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

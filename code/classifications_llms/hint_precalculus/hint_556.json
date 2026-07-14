@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_556",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Two transformations are applied to the complex number $-3 - 8i$:\n\nA $45^\\circ$ rotation around the origin in the counter-clockwise direction.\nA dilation, centered at the origin, with scale factor $\\sqrt{2}.$\n\nWhat is the resulting complex number?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "f",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the starting complex number that the transformations are applied to?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the rotation angle and direction of the first transformation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the complex number that corresponds to the rotation transformation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the scale factor of the second transformation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "What is the complex number that corresponds to the dilation transformation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the resulting complex number after applying both transformations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other ways to achieve the same result?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

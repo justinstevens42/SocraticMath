@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_212",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Suppose that $f(x)$ is a function such that\n\\[f(xy) + x = xf(y) + f(x)\\]for all real numbers $x$ and $y.$  If $f(-1) = 5$ then compute $f(-1001).$",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the given functional equation in your own words? What does it tell us about the function $f(x)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What can we learn by substituting $y = 0$ into the functional equation? How does this help us characterize the function $f(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Based on the information obtained from substituting $y = 0$, what form does the function $f(x)$ take? Can you express $f(x)$ as a linear function? If so, can you determine the values of $m$ and $b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Substituting the linear form of $f(x)$ into the original functional equation, what additional information can we gather about the function parameters $m$ and $b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "By simplifying the equation obtained in question 4, what values can we deduce for the parameter $m$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Using the values of $m$ and $b$ obtained above, what is the explicit expression for the function $f(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "To find $f(-1001)$, how do we evaluate the function $f(x)$ at $x = -1001$? What value does that give us?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

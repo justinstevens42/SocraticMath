@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_264",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What is the largest possible distance between two points, one on the sphere of radius 19 with center $(-2,-10,5),$ and the other on the sphere of radius 87 with center $(12,8,-16)$?",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of the center of a sphere?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you find the midpoint between the centers of the two spheres? What are its coordinates?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the equation of the line passing through the centers of the two spheres?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you find the distance between the two centers of the spheres using the distance formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can you determine the distance between two points on a line using the distance formula?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Is it possible for the distance between two points on the line to be greater than the distance between the centers of the spheres?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Can you find the largest possible distance between two points on the spheres using the center-to-center distance and distances between the centers and the points on the spheres?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can you determine the distance between a point on the sphere and the line connecting the centers of the spheres?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you shorten the distance between the centers of the spheres while keeping the distance between the point on the sphere and the line connecting the centers of the spheres the same?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you determine the largest possible distance by finding the difference between the center-to-center distance and the distance between a point on the sphere and the line connecting the centers of the spheres?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

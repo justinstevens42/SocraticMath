@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_475",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What is the value of $x$ if \\begin{align*}x &= y+5,\\\\\ny &= z+10,\\\\\nz &= w+20,\\\\\n\\text{and }\\qquad w &= 80?\n\\end{align*}",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "f",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the value of $w$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you find the value of $z$ using the given equations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the value of $y$ using the information provided?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What does the equation $x = y + 5$ represent?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine the value of $x$ in terms of $w$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there a specific order in which we should solve the equations? Why or why not?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Is there a way to check if our solution for $x$ is correct? If so, how?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other scenario where a similar problem-solving approach can be utilized?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

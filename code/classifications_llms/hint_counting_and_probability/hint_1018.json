@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_1018",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "We flip a fair coin 10 times.  What is the probability that we get heads in exactly 8 of the 10 flips?",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "b",
+    "r",
+    "e",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total number of possible outcomes when flipping a fair coin 10 times?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How many outcomes would result in exactly 8 heads in the 10 flips?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain why we use the combination formula $\\binom{n}{k}$ to determine the number of ways to get exactly k heads out of n flips?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you think of any other scenarios where the combination formula could be useful in counting possibilities?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "What is the specific value of $\\binom{10}{8}$, and how does it relate to the number of outcomes with exactly 8 heads?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do we calculate the probability of getting exactly 8 heads out of 10 flips? What is the formula for probability?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "If we substitute the values from the previous questions into the probability formula, what is the probability of getting exactly 8 heads in 10 flips?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

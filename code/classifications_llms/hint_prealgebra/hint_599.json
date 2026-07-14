@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_599",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "What is the least positive whole number divisible by four different prime numbers?",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "b",
+    "r",
+    "r",
+    "b",
+    "f",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what it means for a number to be divisible by another number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Why do we need to find the least common multiple of four different prime numbers in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you list the four smallest prime numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the least common multiple of these four prime numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you describe the process of finding the least common multiple of two numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we apply that process to find the least common multiple of more than two numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "What is the product of the four prime numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you explain why their product is the least whole number divisible by the four primes?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 9,
+      "question": "How does the concept of least common multiple relate to finding the least whole number divisible by multiple primes?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 10,
+      "question": "Can you come up with a similar problem where we need to find the least whole number divisible by a different set of prime numbers?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

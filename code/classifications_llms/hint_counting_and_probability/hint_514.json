@@ -1,0 +1,92 @@
+{
+  "problem_id": "hint_514",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "License plates from different states follow different alpha-numeric formats, which dictate which characters of a plate must be letters and which must be numbers. Florida has license plates with an alpha-numeric format like the one pictured. North Dakota, on the other hand, has a different format, also pictured. Assuming all 10 digits are equally likely to appear in the numeric positions, and all 26 letters are equally likely to appear in the alpha positions, how many more license plates can Florida issue than North Dakota? [asy]\nimport olympiad; size(240); defaultpen(linewidth(0.8)); dotfactor=4;\ndraw((0,0)--(3,0)--(3,1)--(0,1)--cycle);\nlabel(\"\\LARGE HJF 94K\",(1.5,0.6)); label(\"Florida\",(1.5,0.2));\ndraw((4,0)--(7,0)--(7,1)--(4,1)--cycle);\nlabel(\"\\LARGE DGT 317\",(5.5,0.6)); label(\"North Dakota\",(5.5,0.2));\n[/asy]",
+  "n_questions": 11,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the format of the license plates in Florida?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you describe the format of the license plates in North Dakota?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many characters are there in each license plate in Florida?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How many characters are there in each license plate in North Dakota?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "If all digits and letters are equally likely to appear, how many possible letter combinations are there for the alpha positions in Florida?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many possible digit combinations are there for the numeric positions in Florida?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Using the product rule, how many total possible license plates are there in Florida?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How many possible letter combinations are there for the alpha positions in North Dakota?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How many possible digit combinations are there for the numeric positions in North Dakota?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Using the product rule, how many total possible license plates are there in North Dakota?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "What is the difference between the total possible license plates in Florida and North Dakota?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

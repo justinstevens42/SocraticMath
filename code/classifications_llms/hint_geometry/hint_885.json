@@ -1,0 +1,92 @@
+{
+  "problem_id": "hint_885",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Suppose $ABC$ is a scalene right triangle, and $P$ is the point on   hypotenuse $\\overline{AC}$ such that $\\angle{ABP} =\n45^{\\circ}$. Given that $AP = 1$ and $CP = 2$, compute the area of   $ABC$.",
+  "n_questions": 11,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What kind of triangle is triangle ABC?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Where is point P located in triangle ABC?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the measure of angle ABP?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the relationship between AP and CP?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine the lengths of AB and BC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the Angle Bisector Theorem in this context?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "What equation can we set up using the Angle Bisector Theorem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we solve the equation to find the value of x?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the area of triangle ABC in terms of x?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can we calculate the area of triangle ABC given the value of x?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "What is the final result for the area of triangle ABC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

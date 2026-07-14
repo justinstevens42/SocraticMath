@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_88",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "A parabola with equation $y=x^2+bx+c$ passes through the points $(-1,-11)$ and $(3,17)$. What is $c$?",
+  "n_questions": 10,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "r",
+    "r",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step you would take to find the value of $c$ in this equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What do you know about the points through which the parabola passes? Are there any equations or conditions that can help you find the value of $c$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "If you substitute the coordinates of one of the given points into the equation, what information do you get?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can you use the information from one of the points to create an equation that can help you solve for $c$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What happens when you substitute the coordinates of the other given point into the equation? Can you find a relationship or equation involving $c$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other properties or characteristics of parabolas that could help you find the value of $c$ in this equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Are there any strategies or methods you can use to solve for $c$ besides substituting the given points into the equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "How can you make sure that the value of $c$ you find satisfies the equation for both given points?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you generalize any insights or approaches from this problem to solve similar problems involving parabolas passing through given points?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "What other information or techniques would be helpful in fully understanding and solving this problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

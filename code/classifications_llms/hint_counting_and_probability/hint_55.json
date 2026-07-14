@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_55",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "A point $(x,y)$ is randomly picked from inside the rectangle with vertices  $(0,0)$, $(3,0)$, $(3,2)$, and $(0,2)$.  What is the probability that  $x < y$?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the problem statement in your own words? What are we trying to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the possible values for the coordinates of the randomly chosen point inside the rectangle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the points where $x = y$ and $x = 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we represent the shaded triangle in terms of inequalities?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why the shaded triangle represents the region where $x < y$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "How can we find the area of the shaded triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we find the area of the rectangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we use the areas of the shaded triangle and the rectangle to calculate the probability?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you simplify the probability expression to obtain a final answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any other scenarios or shapes where we could apply similar reasoning to find probabilities?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

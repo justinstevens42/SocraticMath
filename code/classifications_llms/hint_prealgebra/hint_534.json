@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_534",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The greatest common divisor of 21 and some number between 50 and 60 is 7. What is the number?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of greatest common divisor (GCD)?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you determine the GCD of 21 and a number between 50 and 60?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How do you know that the number must be a multiple of 7?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why 56 is the only multiple of 7 between 50 and 60?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can you verify that 56 is in fact the correct answer to the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other problems that involve finding the GCD of two numbers and apply similar techniques to solve them?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

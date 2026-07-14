@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_59",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Let $a,$ $b,$ $c$ be distinct real numbers such that\n\\[\\frac{a}{b - c} + \\frac{b}{c - a} + \\frac{c}{a - b} = 0.\\]Find all possible values of\n\\[\\frac{a}{(b - c)^2} + \\frac{b}{(c - a)^2} + \\frac{c}{(a - b)^2}.\\]Enter all the possible values, separated by commas.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "f",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you restate the problem in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What can we substitute for $a,$ $b,$ and $c$ to simplify the expressions? How does this relate to the given equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we simplify the expression $\\frac{a}{x^2} + \\frac{b}{y^2} + \\frac{c}{z^2}$ using the previously derived information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Is there a way to simplify the expression $\\frac{a}{x^2} + \\frac{b}{y^2} + \\frac{c}{z^2}$ even further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What do we notice about the expression $\\frac{a}{x^2} + \\frac{b}{y^2} + \\frac{c}{z^2}$ in relation to the initial given equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "Based on our observations, what can we conclude about the possible values of $\\frac{a}{(b - c)^2} + \\frac{b}{(c - a)^2} + \\frac{c}{(a - b)^2}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

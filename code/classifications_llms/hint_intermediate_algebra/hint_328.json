@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_328",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Let \\[g(x) = \\left\\{ \\begin{aligned} 3x+6 & \\quad \\text{ if } x < 0 \\\\ 2x - 13 & \\quad \\text{ if } x \\ge 0 \\end{aligned} \\right.\\]Find all solutions to the equation $g(x) = 3.$",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the value of $g(x)$ when $x$ is less than 0? And when $x$ is greater than or equal to 0?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain why we need to consider two separate cases in order to find the solutions to the equation $g(x) = 3$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Let's start with the case $x < 0.$ How can we rewrite the equation $g(x) = 3$ in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What steps can we take to solve this linear equation $3x + 6 = 3$? Can you show your work?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What value of $x$ did you find as a solution in the case $x < 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Now let's move on to the case $x \\geq 0.$ How can we rewrite the equation $g(x) = 3$ in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What steps can we take to solve this linear equation $2x - 13 = 3$? Can you show your work?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What value of $x$ did you find as a solution in the case $x \\geq 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Are there any other possible solutions to the equation $g(x) = 3$ that we haven't considered yet? How can we be sure?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

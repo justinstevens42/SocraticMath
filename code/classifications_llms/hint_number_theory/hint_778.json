@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_778",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "If $a$, $b$, and $c$ are positive integers such that $\\gcd(a,b) = 168$ and $\\gcd(a,c) = 693$, then what is the smallest possible value of $\\gcd(b,c)$?",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of \"greatest common divisor (gcd)\"?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain how the gcd relates to the divisibility of integers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Given that gcd(a, b) = 168 and gcd(a, c) = 693, what can you infer about the factors of a, b, and c?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How does the fact that gcd(a, b) = 168 = 8 * 21 and gcd(a, c) = 693 = 21 * 33 help us identify the possible factors of a, b, and c?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why is the gcd(b, c) at least 21 based on the information given?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you show that the gcd(b, c) can indeed be 21? Provide an example where a, b, and c satisfy the given conditions and their gcd values are as specified.",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Is 21 the smallest possible value for gcd(b, c)? Can you reason why no smaller value can be achieved?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

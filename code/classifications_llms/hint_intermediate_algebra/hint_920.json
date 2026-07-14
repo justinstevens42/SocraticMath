@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_920",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Given that $x - \\frac{1}{x} = i \\sqrt{2},$ find $x^{2187} - \\frac{1}{x^{2187}}.$",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How did you determine the equation $(x - \\frac{1}{x}) = i\\sqrt{2}$ and why is it helpful in finding the value of $x^{2187} - \\frac{1}{x^{2187}}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What technique did you use to eliminate the complex term $i$ in the equation $(x - \\frac{1}{x}) = i\\sqrt{2}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How did squaring the equation help simplify and solve the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can you express $x^{2187}$ in terms of $x$ using the equation $(x^4 + 1) = 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the relationship between $x^{2187}$ and $x^3$? How did you derive that relationship?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How did you determine the final expression $x^{2187} - \\frac{1}{x^{2187}} = i\\sqrt{2}$ and what does it represent in the context of the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

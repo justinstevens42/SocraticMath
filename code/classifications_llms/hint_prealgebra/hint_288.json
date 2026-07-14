@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_288",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "What is the product of the two largest one-digit primes and the largest two-digit prime?",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are one-digit primes and two-digit primes?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you name the two largest one-digit primes and the largest two-digit prime?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the product of the two largest one-digit primes and the largest two-digit prime?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How did you arrive at the answer in step 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Is there a faster way to calculate this product?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How could you use this method to find the product of other combinations of primes?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other interesting questions related to prime numbers and their products?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

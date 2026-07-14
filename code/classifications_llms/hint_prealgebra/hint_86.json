@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_86",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What is the 100th digit to the right of the decimal point in the decimal representation of $\\frac{13}{90}$?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "f",
+    "b",
+    "f",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given problem asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we rewrite the fraction $\\frac{13}{90}$ using the given recall about repeating decimals?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Why did we rewrite the fraction as $\\frac{1}{10}\\left(1\\frac{4}{9}\\right)$? What is the significance of this representation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we express the fraction $\\frac{1}{10}(1.\\overline{4})$ in decimal form? How does this relate to the original problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why is the digit \"4\" repeating in the decimal representation of $\\frac{13}{90}$? What does this tell us about the pattern of digits?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "Since the digit \"4\" repeats, how can we determine the 100th digit to the right of the decimal point?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other similar problems involving repeating decimals where these concepts and steps might be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_81",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "What number must we add to $3-5i$ to get $2+7i$? Here, $i^2 = -1.$",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we represent the number $3-5i$ and the number $2+7i$ in the form of $a+bi$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean to add two complex numbers? Can you provide an example?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we set up an equation to find the number we need to add?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What happens when we add the real parts of the numbers $3-5i$ and the unknown number? And what happens when we add the imaginary parts?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can we create an equation for the real parts and another equation for the imaginary parts of the numbers being added? How would we combine them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we isolate the variable in the equations to find the unknown number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "If we find the unknown number, how can we verify that it is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

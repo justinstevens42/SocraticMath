@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_1023",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Evaluate $|7-24i|$.",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of absolute value?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How is the absolute value of a complex number calculated?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the real part and imaginary part of the complex number 7-24i?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the formula to calculate the absolute value of a complex number in terms of its real and imaginary parts?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How do you simplify the expression to find the absolute value of 7-24i?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other examples where you can use the formula to find the absolute value of a complex number?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

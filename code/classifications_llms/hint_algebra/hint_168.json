@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_168",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Given the function $y=x^2+10x+21$, what is the least possible value of $y$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "r",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the process of finding the least possible value of y for this function?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Are there any specific strategies or methods that you would consider using to find the least value of y?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can the structure of the quadratic function help us determine the minimum value of y?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What are the characteristics or properties of a quadratic function that can help identify its minimum value?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Is it possible to find the minimum value without graphing the function? If so, how?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain the significance of the term \"least possible value\"? How does it relate to the concept of a minimum?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ],
+  "classifier": "llm"
+}

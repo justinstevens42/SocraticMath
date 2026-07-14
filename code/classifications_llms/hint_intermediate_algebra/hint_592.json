@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_592",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Let $a,$ $b,$ $c$ be real numbers such that $1 \\le a \\le b \\le c \\le 4.$  Find the minimum value of\n\\[(a - 1)^2 + \\left( \\frac{b}{a} - 1 \\right)^2 + \\left( \\frac{c}{b} - 1 \\right)^2 + \\left( \\frac{4}{c} - 1 \\right)^2.\\]",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the QM-AM inequality? Can you state it in your own words?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How did we apply the QM-AM inequality to simplify the expression we are trying to minimize?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the AM-GM inequality? Can you state it in your own words?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How did we use the AM-GM inequality to find a lower bound for the expression we are trying to minimize?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did we determine when the lower bound would be achieved?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why the minimum value of the expression is $12-8\\sqrt{2}$, and how we arrived at this answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of other inequalities that could be useful for minimizing expressions involving squares?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_588",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "The numbers from 1 to 150, inclusive, are placed in a bag and a number is randomly selected from the bag. What is the probability it is not a perfect power (integers that can be expressed as $x^{y}$ where $x$ is an integer and $y$ is an integer greater than 1. For example, $2^{4}=16$ is a perfect power, while $2\\times3=6$ is not a perfect power)? Express your answer as a common fraction.",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "To solve this problem, what should be our first step?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the number of perfect powers in the range of 1 to 150?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Why do we count the perfect fourth powers as perfect squares and the perfect sixth powers as perfect squares as well?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Are there any perfect powers that we may have counted twice? If so, which ones and how many times were they counted?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine the total number of integers from 1 to 150 that are not perfect powers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the probability of selecting a number from the bag that is not a perfect power?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you express the probability as a simplified fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

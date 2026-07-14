@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_582",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "If $f(1)=5$, $f(2)=8$ and $f(x)=ax+bx+2$, what is the value of $f(3)$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the general form of the function f(x)?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the given information about f(1) and f(2) to find the values of a and b?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "If we substitute x=3 into the function f(x), what would be the expression for f(3)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we simplify the expression for f(3) using the values of a, b, and the given expression for f(x)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "If we substitute the calculated values of a, b, and x=3 into the simplified expression for f(3), what would be the numerical value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we generalize this method to find the value of f(n) for any given n?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

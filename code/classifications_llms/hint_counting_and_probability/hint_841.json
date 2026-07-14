@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_841",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find the sum of all integers $k$ such that $\\binom{23}{4} + \\binom{23}{5} = \\binom{24}{k}$.",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "r",
+    "f",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the formula for calculating combinations (binomials)?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we use Pascal's Identity in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Why does Pascal's Identity work for combinations?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How does the symmetry of combinations play a role in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What is the significance of the fact that $\\binom{24}{5} = \\binom{24}{19}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other values of $k$ that satisfy the equation $\\binom{23}{4} + \\binom{23}{5} = \\binom{24}{k}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Why or why not is it a coincidence that the sum of the integers is 24? Can we make any generalizations about the sum of the integers for similar problems?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

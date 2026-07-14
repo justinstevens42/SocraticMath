@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_604",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "As a prank, Tim decides to steal Nathan's fork at dinner, but so he doesn't get caught, he convinces other people to do it for him. On Monday, he convinces Joe to do it. On Tuesday, he could get either Ambie or John to do it. On Wednesday, he can't convince any of those three people to do it, but there are five other people he could convince to do it. On Thursday, none of those five will do it, nor the first three, but there are four others who are willing. Finally, on Friday, Tim does it himself. How many different combinations of people could Tim involve in the prank?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "f",
+    "f",
+    "f",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the scenario in this problem? Can you describe it in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many people does Tim convince to steal Nathan's fork each day of the week?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "On which days can Tim not convince Joe, Ambie, or John to steal the fork?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "On Wednesday, how many other people are there besides Joe, Ambie, and John that Tim could convince to steal the fork?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How many people are willing to steal the fork on Thursday? Are any of them the same as the ones willing to do it on Wednesday or the first three days of the week?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "Finally, on Friday, who steals the fork?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "By multiplying the number of options each day, how many different combinations of people could Tim involve in the prank?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

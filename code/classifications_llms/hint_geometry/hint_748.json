@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_748",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "The circumference of a circle $A$ is 60 feet. How many feet long is $\\widehat{BC}$? [asy]\nimport markers;\n\nimport olympiad; import geometry; import graph; size(150); defaultpen(linewidth(0.9));\ndraw(Circle(origin,1));\ndraw(dir(90)--origin--dir(30));\nlabel(\"$B$\",dir(90),N);\nlabel(\"$A$\",origin,S);\nlabel(\"$C$\",dir(30),E);\nmarkangle(Label(\"$60^{\\circ}$\"),dir(30),origin,(0,1),radius=20);\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the relationship between the circumference of a circle and the length of an arc?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain why $\\widehat{BC}$ is $\\frac{60}{360}$ of the circle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we calculate the length of $\\widehat{BC}$ using this relationship?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the formula for calculating the length of an arc given the angle it subtends and the circumference of the circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How do we apply this formula to find the length of $\\widehat{BC}$ in this scenario?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other situations where you might need to calculate the length of an arc using similar principles?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

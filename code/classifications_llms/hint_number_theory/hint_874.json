@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_874",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "A group of 25 friends were discussing a large positive integer. ``It can be divided by 1,'' said the first friend. ``It can be divided by 2,'' said the second friend. ``And by 3,'' said the third friend. ``And by 4,'' added the fourth friend. This continued until everyone had made such a comment. If exactly two friends were incorrect, and those two friends said consecutive numbers, what was the least possible integer they were discussing?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the problem and what is being asked?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the smallest possible integer the friends were discussing?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Why do we want to maximize the incorrect numbers?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Can the two incorrect numbers be 24 and 25? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can the two incorrect numbers be 22 and 23? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can the two incorrect numbers be 20 and 21? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can the two incorrect numbers be 18 and 19? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can the two incorrect numbers be 16 and 17? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you find the least possible integer the friends were discussing?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How did you determine that the smallest possible value of N is 787386600?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

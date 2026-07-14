@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_607",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Three fair, standard six-sided dice are rolled. What is the probability that the sum of the numbers on the top faces is 18? Express your answer as a common fraction.",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "f",
+    "f",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the possible range of numbers that can appear on a standard six-sided dice?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How many dice are being rolled in this scenario?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain what it means for the sum of the numbers on the top faces to be 18?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Are there any limitations or restrictions on how the numbers on the dice can be combined to achieve a sum of 18?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "If we consider each dice roll as an independent event, what is the probability of rolling a 6 on a single die?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we calculate the probability of multiple independent events occurring together?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Applying the concept of independence, what would be the probability of getting a 6 on all three dice?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Considering the previous answer, can you express the probability as a fraction in simplest form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_245",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "What is the coefficient of $x^4$ in the expansion of $(1-2x^2)^5$?",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "f",
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what the binomial theorem is and how it can be applied in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the given expression to be expanded using the binomial theorem? Can you break it down into its components?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many terms will be in the expansion of $(1-2x^2)^5$? How can we determine this using the binomial theorem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Can you identify the term that contains $x^4$ in the expansion? How can we determine this?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "What is the general form of a term in the expansion of $(1-2x^2)^5$? Can you write out an arbitrary term?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we calculate the coefficient of the $x^4$ term using the binomial coefficients and exponents in the expansion?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you identify the specific binomial coefficient that corresponds to the $x^2$ term in the expansion? How does it relate to the coefficient of the $x^4$ term?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "By substituting the values into the formula, what is the value of the coefficient of the $x^4$ term?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Are there any other similar types of problems where we can apply the binomial theorem and explore the concept further?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

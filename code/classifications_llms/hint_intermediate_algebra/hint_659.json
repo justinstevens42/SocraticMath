@@ -1,0 +1,99 @@
+{
+  "problem_id": "hint_659",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Except for the first two terms, each term of the sequence $1000, x, 1000 - x,\\ldots$ is obtained by subtracting the preceding term from the one before that. The last term of the sequence is the first negative term encountered. What positive integer $x$ produces a sequence of maximum length?",
+  "n_questions": 12,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given sequence?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How is each term in the sequence related to the preceding terms?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for the last term to be the first negative term encountered?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the maximum length of the sequence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Let's start by calculating a few terms of the sequence. Can you find the values of $a_4,$ $a_5,$ and $a_6$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we find a pattern in the values of the terms?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we generalize the sequence for any term $a_n$? Can you write a general formula for $a_n$ in terms of $n$ and $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we determine the maximum length of the sequence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the condition for reaching the 12th term of the sequence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can we find the range of values for $x$ that satisfy this condition?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "How can we find the value of $x$ that produces the maximum length of the sequence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "By considering the given conditions, what is the integer value of $x$ that satisfies the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

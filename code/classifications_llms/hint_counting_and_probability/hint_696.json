@@ -1,0 +1,99 @@
+{
+  "problem_id": "hint_696",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Suppose we want to divide the 10 dogs into three groups, one with 3 dogs, one with 5 dogs, and one with 2 dogs.  How many ways can we form the groups such that Fluffy is in the 3-dog group and Nipper is in the 5-dog group?",
+  "n_questions": 12,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem at hand?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many dogs do we want in each group?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Which dogs do we want to put in the 3-dog and 5-dog groups?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How many dogs are left to put in the 3-dog group after Fluffy is placed there?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many ways can we choose these 2 remaining dogs to put in Fluffy's group?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many dogs are left to put in the 5-dog group after Nipper is placed there?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How many ways can we choose these 4 remaining dogs to put in Nipper's group?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How many dogs are left after the 3-dog and 5-dog groups are formed?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How are we forming the last 2-dog group?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How many ways can we choose the last 2 dogs to put in the 2-dog group?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "How do we calculate the total number of possibilities?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "Can this method be applied to dividing a different number of dogs into different-sized groups?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

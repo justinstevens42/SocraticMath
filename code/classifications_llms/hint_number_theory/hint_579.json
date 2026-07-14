@@ -1,0 +1,92 @@
+{
+  "problem_id": "hint_579",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Winnie has 17 red balloons, 33 white balloons, 65 green balloons, and 83 chartreuse balloons.  With no regard to color, Winnie gives each of her 8 nearest and dearest friends some balloons.  Each friend gets the same number of balloons and she hands out as many balloons as possible.  How many balloons does Winnie end up keeping for herself?",
+  "n_questions": 11,
+  "labels": [
+    "f",
+    "b",
+    "f",
+    "f",
+    "b",
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many balloons does Winnie have in total?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many friends does Winnie have?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the relationship between the number of balloons Winnie has and the number of friends she has?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine the number of balloons Winnie gives to each friend?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What does it mean to hand out \"as many balloons as possible\"?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "What does it mean for each friend to get the same number of balloons?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "Why do we need to consider the remainder when dividing the total number of balloons by the number of friends?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "How can we find the remainder when adding the numbers 17, 33, 65, and 83, and dividing the sum by 8?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can we simplify the computation by considering the remainders of each individual number first?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "What is the final answer to the problem, and how can we verify it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

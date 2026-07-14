@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_579",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Given two real numbers $p>1$ and $q>1$ so that $\\frac{1}{p} + \\frac{1}{q} = 1$ and $pq = 4$, what is $q$?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the equation $\\frac{1}{p} + \\frac{1}{q} = 1$ represents in terms of the relationship between the given numbers $p$ and $q$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we rewrite the equation $\\frac{1}{p} + \\frac{1}{q} = 1$ to isolate $q$ on one side of the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What steps can we take to find a common denominator and simplify the equation $\\frac{1}{p} + \\frac{1}{q} = 1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "By substituting $pq = 4$ into the equation $\\frac{1}{p} + \\frac{1}{q} = 1$, can we derive a new equation involving only $p$ or $q$? If so, what is that equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What approach can we use to solve the derived equation for $q$? Can we rearrange it in a more familiar form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we apply the given condition that $p>1$ and $q>1$ to narrow down the possible values of $q$ in the derived equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "After finding the possible values of $q$, how can we determine the specific value of $q$ that satisfies both $q>1$ and $pq = 4$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

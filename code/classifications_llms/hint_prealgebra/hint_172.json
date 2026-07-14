@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_172",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Using the digits 1, 2, 3, 4, 5, how many even three-digit numbers less than 500 can be formed if each digit can be used more than once?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "b",
+    "f",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the possible values for the hundreds digit in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Why is the tens digit unrestricted in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What are the possible values for the units digit in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How did you determine the number of possible combinations for the three-digit numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why the number of even three-digit numbers less than 500 is restricted to a certain range?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other similar problems involving digit combinations and restrictions?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

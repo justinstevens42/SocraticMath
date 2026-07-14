@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_890",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "If $f(n) = n^2 + n + 17$, what is the value of $f(11)$?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How is the function f(n) defined?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the purpose of assigning a value to the variable n in the function f(n)?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How does the expression n^2 + n + 17 represent the function f(n)?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we calculate the value of f(11) using the given function?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the first step you would take to find the value of f(11)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you simplify the expression n^2 + n + 17 further before substituting n with 11? If so, how?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final result after substituting n with 11 in the expression n^2 + n + 17?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you identify any patterns or characteristics of the function f(n) based on the calculated value of f(11)?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "How could you verify the correctness of your answer for f(11)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you generalize the process used to find f(11) to calculate the value of f(n) for any given n?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

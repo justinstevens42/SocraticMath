@@ -1,0 +1,50 @@
+{
+  "problem_id": "hint_369",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Assume that $f$ and $g$ are functions for which $f^{-1}(g(x))=5x+3$.  Find $g^{-1}(f(-7))$.",
+  "n_questions": 5,
+  "labels": [
+    "f",
+    "b",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the expression $f^{-1}(g(x))=5x+3$ means in terms of functions?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we rewrite the equation $f^{-1}(g(x))=5x+3$ to isolate the function $g$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How does the equation $x=g^{-1}(f(5x+3))$ relate to the original equation $f^{-1}(g(x))=5x+3$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Based on the expression $x=g^{-1}(f(5x+3))$, what is the value of $x$ when $f(-7)$ is used as the input for $f(5x+3)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "According to our calculation, what is the solution for $g^{-1}(f(-7))$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_130",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "Given that $13^{-1} \\equiv 29 \\pmod{47}$, find $34^{-1} \\pmod{47}$, as a residue modulo 47.  (Give a number between 0 and 46, inclusive.)",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of finding the inverse of a number modulo some value?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the given congruence to find the inverse of 34 modulo 47?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can we rewrite 34 as an equivalent congruence that we can work with more easily?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we express (-13)^{-1} in terms of 13^{-1}?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between (-1)^{-1} and -1 when working with modular arithmetic?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we calculate the value of (-1) \\cdot 29 as a residue modulo 47?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final result of finding 34^{-1} \\pmod{47} as a residue modulo 47?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

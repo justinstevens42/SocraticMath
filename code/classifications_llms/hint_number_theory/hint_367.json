@@ -1,0 +1,50 @@
+{
+  "problem_id": "hint_367",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "How many integers between 0 and 8 inclusive have an inverse modulo 9?",
+  "n_questions": 5,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is meant by \"inverse modulo 9\"?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How might we determine the inverse modulo 9 for a given integer?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "By testing integers between 1 and 8, we found that 6 of them have inverses modulo 9. Is there a mathematical property or rule we can use to prove this without explicitly testing each integer?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you provide an example of using modular inverse to solve a problem?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "What happens if an integer does not have an inverse modulo 9? Is it possible for an integer to have more than one inverse modulo 9?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

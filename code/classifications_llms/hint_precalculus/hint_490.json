@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_490",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Find the sum of all angles $x \\in [0^\\circ, 360^\\circ]$ that satisfy\n\\[\\sin^5 x - \\cos^5 x = \\frac{1}{\\cos x} - \\frac{1}{\\sin x}.\\]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "f",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the first step in solving this equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are some different methods you know for solving equations involving trigonometric functions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you choose to write the right-hand side in terms of trigonometric functions, what expression would you use?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why can we factor the equation in the given form? What properties or characteristics make it suitable for factoring?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "What is the value of $p$ and how does it relate to the equation? How does factoring help us find the solutions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other types of equations where similar thinking and steps may be useful in solving them?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

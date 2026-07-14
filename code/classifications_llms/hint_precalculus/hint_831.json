@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_831",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Let $\\mathbf{p}$ be the projection of $\\mathbf{v}$ onto $\\mathbf{w},$ and let $\\mathbf{q}$ be the projection of $\\mathbf{p}$ onto $\\mathbf{v}.$  If $\\frac{\\|\\mathbf{p}\\|}{\\|\\mathbf{v}\\|} = \\frac{5}{7},$ then find $\\frac{\\|\\mathbf{q}\\|}{\\|\\mathbf{v}\\|}.$",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What do the points $O,$ $P,$ $Q,$ and $V$ represent in terms of vectors $\\mathbf{p},$ $\\mathbf{q},$ and $\\mathbf{v}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How are the triangles $OQP$ and $OPV$ related? What can we conclude about their angles and sides?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the similarity of triangles $OQP$ and $OPV$ to find the value of $\\frac{\\|\\mathbf{q}\\|}{\\|\\mathbf{v}\\|}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between $\\frac{OQ}{OP}$ and $\\frac{OP}{OV}$? How does this help us find $\\frac{\\|\\mathbf{q}\\|}{\\|\\mathbf{v}\\|}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Finally, what is the value of $\\frac{\\|\\mathbf{q}\\|}{\\|\\mathbf{v}\\|}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

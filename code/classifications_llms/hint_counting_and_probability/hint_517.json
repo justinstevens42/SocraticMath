@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_517",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "If I expand $25\\cdot 24\\cdot 23 \\cdots 3 \\cdot 2 \\cdot 1$, how many zeros are there at the end of the number I get?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does it mean for a number to have zeros at the end?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine if a number is divisible by 10?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you express 10 as a product of prime factors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the factors of 10 in the given multiplication?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How many pairs of 2s and 5s can we make from the numbers 25 to 1?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you determine how many factors of 5 are available for pairing?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we account for the numbers with more than one factor of 5?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the final number of zeros at the end of the multiplication?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

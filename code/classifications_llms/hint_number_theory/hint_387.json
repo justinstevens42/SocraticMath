@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_387",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "On a $12$-hour clock, an elapsed time of four hours looks the same as an elapsed time of $16$ hours. Because of this, we can say that four hours is \"clock equivalent'' to its square number of hours. What is the least whole number of hours that is greater than $4$ hours and is \"clock equivalent'' to its square number of hours?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does it mean for two times to be \"clock equivalent\" on a 12-hour clock?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the fact that elapsed times of 4 hours and 16 hours are clock equivalent to determine that 4 hours is clock equivalent to its square number of hours?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain why the difference between two clock equivalent times must be a multiple of 12?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Using the table of hours, squares, and differences, can you identify the smallest hour greater than 4 that is clock equivalent to its square number of hours?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we know that we can stop at 9 as the smallest hour that satisfies the conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you provide other examples where the concept of clock equivalence can be applied?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

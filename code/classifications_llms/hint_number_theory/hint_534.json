@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_534",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Cory made a complete list of the prime numbers between 1 and 25. What is the sum of the smallest prime number and the largest prime number on his list?",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "f",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you define what a prime number is?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How many prime numbers are there between 1 and 25?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you list the prime numbers between 1 and 25? What is the smallest and largest number on the list?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How did you determine that the smallest prime number is 2 and the largest is 23?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the sum of the smallest prime number and the largest prime number on the list?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why the sum of the smallest and largest prime numbers is the answer to the given question?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "Is there any specific property or characteristic of prime numbers that helped you find the answer?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other examples or problems where considering prime numbers could be helpful in finding a solution?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

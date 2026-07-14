@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_290",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find the greatest value of $b$ such that $-b^2+7b-10 \\ge 0$.",
+  "n_questions": 10,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "e",
+    "b",
+    "e",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this inequality?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Do you know what methods can be used to solve this kind of inequality?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you choose to factorize, how would you find the appropriate factors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why can this inequality be factorized? What characteristics make it suitable for this method?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What are the factors you found, and how do they confirm that your solution is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other types of inequalities where similar thinking and steps may be used in solving them?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "How would you graphically represent this inequality and determine the greatest value of b?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the significance of finding the greatest value of b in this inequality?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "How can you apply the principles of algebra to verify if your answer is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What insights have you gained from solving this inequality and how could you apply them to other algebraic problems?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

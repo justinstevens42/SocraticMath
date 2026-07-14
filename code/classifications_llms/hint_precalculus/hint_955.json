@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_955",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Two lines are perpendicular.  One line has a direction vector of $\\begin{pmatrix} 3 \\\\ -7 \\end{pmatrix}.$  The other line has a direction vector of $\\begin{pmatrix} a \\\\ 2 \\end{pmatrix}.$  Find $a.$",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the dot product of two vectors?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do you determine if two lines are perpendicular using their direction vectors?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Why does the dot product of two orthogonal vectors equal 0?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain the algebraic steps for finding $a$ in the given problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there any other methods you could use to find the value of $a$?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Can you apply the concept of orthogonal vectors to solve any other problems in geometry or physics?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

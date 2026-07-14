@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_477",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Find $a$ if $a$ and $b$ are integers such that $x^2 - x - 1$ is a factor of $ax^{17} + bx^{16} + 1$.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What conditions must be satisfied for $x^2-x-1$ to be a factor of $ax^{17}+bx^{16}+1$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we express higher powers of $s$ in terms of $s$ and $s+1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How does the Fibonacci sequence relate to the expression $s^n = F_ns + F_{n-1}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between $a$ and $b$ in the equation $as^{17} + bs^{16} + 1 = 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we solve the system of equations $1597a + 987b = 0$ and $987a + 610b =- 1$ to find the value of $a$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

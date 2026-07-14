@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_950",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "A right cylindrical oil tank is $15$ feet tall and its circular bases have diameters of $4$ feet each. When the tank is lying flat on its side (not on one of the circular ends), the oil inside is $3$ feet deep. How deep, in feet, would the oil have been if the tank had been standing upright on one of its bases? Express your answer as a decimal to the nearest tenth.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the height of the oil when the tank is lying flat on its side?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the area of the part of the circle covered with oil?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the ratio of the area of the oil-covered part to the entire area of the circle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the length of half the base of the isosceles triangle formed within the circle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the area of the isosceles triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the total area of the part of the circle covered with oil?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the fraction of the cylinder the oil covers when the tank is lying flat on its side?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the fraction of the height the oil covers when the tank is upright?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we determine the depth of the oil when the tank is standing upright?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the final depth of the oil when the tank is upright?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

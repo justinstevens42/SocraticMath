@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_222",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "Simplify $2w+4w+6w+8w+10w+12$.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "f",
+    "b",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the terms in the given expression?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can we combine the terms in any way? If yes, how?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many $w$ terms are there in the expression?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Can we simplify the coefficients of the $w$ terms? If yes, how?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the simplified form of the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How did we know that we could combine the $w$ terms but not the constant term?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other ways to simplify this expression? If yes, what are they?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

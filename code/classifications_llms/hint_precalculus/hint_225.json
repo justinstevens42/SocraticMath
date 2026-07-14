@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_225",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Compute $\\tan\\left(\\frac{\\pi}{7}\\right)\\tan\\left(\\frac{2\\pi}{7}\\right)\\tan\\left(\\frac{3\\pi}{7}\\right)$.",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the value we are asked to compute? How can we represent $\\tan\\left(\\frac{\\pi}{7}\\right)\\tan\\left(\\frac{2\\pi}{7}\\right)\\tan\\left(\\frac{3\\pi}{7}\\right)$ using trigonometric identities?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Do we know any trigonometric identities that involve products of tangents?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can we express $\\tan\\theta$ in terms of $\\sin\\theta$ and $\\cos\\theta$? If so, what trigonometric identity can be used to rewrite $\\tan\\left(\\frac{\\pi}{7}\\right)\\tan\\left(\\frac{2\\pi}{7}\\right)\\tan\\left(\\frac{3\\pi}{7}\\right)$ in terms of $\\sin$ and $\\cos$ of angles $\\frac{\\pi}{7}$, $\\frac{2\\pi}{7}$, and $\\frac{3\\pi}{7}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is DeMoivre's Theorem? How can we apply DeMoivre's Theorem to simplify $\\operatorname{cis}n\\theta$, where $n$ is a positive integer?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What are the real and imaginary parts of $\\operatorname{cis}n\\theta$? Can we obtain any useful expressions for $\\cos n\\theta$ or $\\sin n\\theta$ by considering these parts?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "By setting $n=7$, we get an expression for $\\tan 7\\theta$ in terms of $\\tan\\theta$. How does this expression help us compute the value of $\\tan\\left(\\frac{\\pi}{7}\\right)\\tan\\left(\\frac{2\\pi}{7}\\right)\\tan\\left(\\frac{3\\pi}{7}\\right)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "In particular, what is the value of $\\tan\\theta$ when $\\theta=\\frac{\\pi}{7}$, $\\frac{2\\pi}{7}$, or $\\frac{3\\pi}{7}$? How can we use this information to find the value of $\\tan\\left(\\frac{\\pi}{7}\\right)\\tan\\left(\\frac{2\\pi}{7}\\right)\\tan\\left(\\frac{3\\pi}{7}\\right)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we determine the signs of $\\tan\\left(\\frac{\\pi}{7}\\right)$, $\\tan\\left(\\frac{2\\pi}{7}\\right)$, and $\\tan\\left(\\frac{3\\pi}{7}\\right)$? What does this tell us about the signs of the factors in the expression we need to compute?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Finally, how can we use the fact that $\\tan^2\\left(\\frac{\\pi}{7}\\right)\\tan^2\\left(\\frac{2\\pi}{7}\\right)\\tan^2\\left(\\frac{3\\pi}{7}\\right)=7$ to find the value of $\\tan\\left(\\frac{\\pi}{7}\\right)\\tan\\left(\\frac{2\\pi}{7}\\right)\\tan\\left(\\frac{3\\pi}{7}\\right)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

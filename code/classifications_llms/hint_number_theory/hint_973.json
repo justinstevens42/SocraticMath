@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_973",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "The time right now is 9 o'clock. On a 12-hour clock, what time will it be 2004 hours from now?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "f",
+    "r",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the current time on a 12-hour clock?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many hours are there in a day?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If we want to determine the time 2004 hours from now, do we need to consider the days as well?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Are there any specific patterns or properties of the given number 2004 that we can use to our advantage?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine if a number is divisible by 4 or 3?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Why is it important to know that 2004 is divisible by 4 and 3 in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What happens when a number is divisible by 12 on a 12-hour clock?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other numbers that would result in the same time on a 12-hour clock after a certain number of hours?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

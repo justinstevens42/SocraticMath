@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_312",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Cameron writes down the smallest positive multiple of 20 that is a perfect square, the smallest positive multiple of 20 that is a perfect cube, and all the multiples of 20 between them.  How many integers are in Cameron's list?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain why we are looking for perfect squares and cubes that are multiples of 20 in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the smallest perfect square that is a multiple of 20? How did you arrive at this answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How about the smallest perfect cube that is a multiple of 20? How did you arrive at this answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the relationship between a number that is a perfect square or cube and its prime factorization?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "By using the prime factorization of 20, we concluded that any perfect square or cube that is a multiple of 20 must be a multiple of a certain number. What is this number? How did we obtain it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How did we use this number to determine the numbers that we need to count in Cameron's list?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain how we arrived at the inequality $100 \\le 20n \\le 1000$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the range of possible values for $n$ based on this inequality?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How did we use this range to determine the number of integers in Cameron's list?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of other similar problems that involve finding certain kinds of numbers in a given range? What strategies might be useful in those problems?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

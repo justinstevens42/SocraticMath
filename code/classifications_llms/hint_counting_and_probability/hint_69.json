@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_69",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "An eight-sided die has its faces numbered from 1 to 8. What is the expected value of the roll of the die?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "f",
+    "e",
+    "e",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is an eight-sided die, and how does it work?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What do we mean by \"expected value\" of a die roll?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How do we calculate the expected value of a single roll of an eight-sided die?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Are all the outcomes equally likely when rolling an eight-sided die, and why or why not?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How does the range of numbers on a die affect its expected value?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "What is the significance of the expected value in probability theory and statistics?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Can manipulating the number of sides on a die affect its expected value, and if so, how?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Is the expected value of rolling multiple eight-sided dice equivalent to rolling one eight-sided die multiple times, and why or why not?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Can you give examples of scenarios where calculating the expected value of a die roll would be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_202",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Evaluate $\\left\\lceil\\left(-\\frac{5}{3}\\right)^2\\right\\rceil$.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you simplify the expression $\\left(-\\frac{5}{3}\\right)^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What does the symbol $\\lceil \\rceil$ represent in mathematics?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How do you evaluate the square of a fraction?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the value of $\\left(-\\frac{5}{3}\\right)^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How would you express the result of $\\left(-\\frac{5}{3}\\right)^2$ without using the ceiling function?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the v",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

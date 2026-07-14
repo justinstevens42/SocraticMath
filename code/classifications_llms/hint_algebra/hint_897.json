@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_897",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "Suppose $f(z)$ and $g(z)$ are polynomials in $z$, and the degree of $g(z)$ is less than the degree of $f(z)$.  If the degree of $f(z)$ is two, what is the degree of $f(z)+g(z)$?",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "r",
+    "f",
+    "r",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the concept of degree in relation to polynomials?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the degree of a polynomial?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for one polynomial to have a higher degree than another?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How does the degree of a polynomial affect its behavior or properties?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Given that the degree of $f(z)$ is two, what can we conclude about its highest power term?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "How does adding two polynomials together affect the degrees of the polynomials?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Based on the information given, what can we infer about the degree of $f(z)+g(z)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Is it always true that the sum of two polynomials has a degree equal to or greater than the individual degrees? Why or why not?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any real-life situations or applications where understanding the degree of a polynomial is important?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

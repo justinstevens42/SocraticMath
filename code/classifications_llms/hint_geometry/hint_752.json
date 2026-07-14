@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_752",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Triangle $ABC$ with vertices of $A(6,2)$, $B(2,5)$, and $C(2,2)$ is reflected over the x-axis to triangle $A'B'C'$. This triangle is reflected over the y-axis to triangle $A''B''C''$. What are the coordinates of point $C''$?",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "r",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the process of reflecting a point over the x-axis and how it affects its coordinates?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the result of negating the y-coordinate of point $C$ when reflecting it over the x-axis?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What happens to the x-coordinate of point $C$ when it is reflected over the y-axis?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why reflecting a point over the x-axis negates its y-coordinate?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How does reflecting a point over the y-axis affect its x-coordinate?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What are the coordinates of point $C''$ after reflecting point $C$ over both the x-axis and the y-axis? How did you arrive at that answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other operations or transformations you can think of that would affect the coordinates of a point in a similar way?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

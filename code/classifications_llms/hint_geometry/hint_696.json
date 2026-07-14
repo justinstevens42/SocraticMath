@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_696",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find $\\cos C$ in the right triangle shown below.\n\n\n[asy]\npair A,B,C;\nA = (0,0);\nB = (6,0);\nC = (0,8);\ndraw(A--B--C--A);\ndraw(rightanglemark(B,A,C,10));\nlabel(\"$A$\",A,SW);\nlabel(\"$B$\",B,SE);\nlabel(\"$C$\",C,N);\nlabel(\"$10$\",(B+C)/2,NE);\nlabel(\"$6$\",B/2,S);\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "r",
+    "f",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the Pythagorean Theorem and how is it used to solve for sides in right triangles?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain how we found the length of side AC using the Pythagorean Theorem in this specific triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How does the cosine function relate to the sides of a right triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you determine which angle in the triangle corresponds to angle C and why?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How does the value of cosine change as the angle C varies in this triangle?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other applications of the Pythagorean Theorem and cosine function in geometry or other fields?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_456",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "What is the perimeter, in cm, of quadrilateral $ABCD$ if $\\overline{AB} \\perp \\overline{BC}$, $\\overline{DC} \\perp \\overline{BC}$, $AB=9$ cm, $DC=4$ cm, and $BC=12$ cm?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the given properties of quadrilateral $ABCD$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What can we conclude about the shape of quadrilateral $ABCD$ based on the given information?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we create a trapezoid using the given sides of the quadrilateral?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What additional shape can we create by extending side $\\overline{DC}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we find the length of side $\\overline{AD}$ using the extended $\\overline{DC}$ and the right triangle formed?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What other method could we have used to find the length of side $\\overline{AD}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we calculate the perimeter of quadrilateral $ABCD$ using the given side lengths?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

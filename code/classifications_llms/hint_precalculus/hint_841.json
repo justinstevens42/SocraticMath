@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_841",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Let $\\mathbf{a} = \\begin{pmatrix} 2 \\\\ 1 \\\\ 5 \\end{pmatrix}.$  Find the vector $\\mathbf{b}$ such that $\\mathbf{a} \\cdot \\mathbf{b} = 11$ and\n\\[\\mathbf{a} \\times \\mathbf{b} = \\begin{pmatrix} -13 \\\\ -9 \\\\ 7 \\end{pmatrix}.\\]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the equation we are given in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we represent the vector $\\mathbf{a}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the dot product between vectors $\\mathbf{a}$ and $\\mathbf{b}$? How can we write an equation using the dot product?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What does the equation $\\mathbf{a} \\cdot \\mathbf{b} = 11$ tell us about the relationship between $\\mathbf{a}$ and $\\mathbf{b}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we represent the cross product between vectors $\\mathbf{a}$ and $\\mathbf{b}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What do the components of the cross product $\\mathbf{a} \\times \\mathbf{b}$ represent?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can we find the individual components of the cross product using the given equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can we write a system of equations using the components of the cross product and solve for $x$, $y$, and $z$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What other equation can we write using the dot product of $\\mathbf{a}$ and $\\mathbf{b}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can we combine the equations involving the dot product and the cross product to solve for $x$, $y$, and $z$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

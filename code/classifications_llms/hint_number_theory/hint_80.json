@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_80",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "A $\\textit{composite number}$ is a number that has two or more prime factors. The number 87 can be expressed as the sum of two composite numbers in many ways. What is the minimum positive difference between two such numbers?",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a composite number? Can you give an example?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you think of any properties or characteristics that composite numbers have in common?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we express a number as a sum of two composite numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the given number that we are trying to express as the sum of two composite numbers?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "What is the approach to find the minimum positive difference between two composite numbers that sum up to the given number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Why is it more efficient to choose composite numbers that are close to half of the given number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Can you determine the two closest numbers to half of the given number that are composite?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are these two numbers the best choice, or should we consider other pairs?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we verify if a number is composite or prime?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 10,
+      "question": "What is the minimum positive difference between the composite numbers that sum up to the given number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

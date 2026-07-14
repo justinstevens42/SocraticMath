@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_278",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "How many ways can change be made for a quarter using standard U.S. coins?  (Don't count \"1 quarter\" as making change for a quarter.)",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the standard U.S. coins and what are their values?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How many cents are in a quarter?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Why did we break down the quarter into five 5-cent blocks?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How many ways can we fill one 5-cent block using standard U.S. coins?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What are the possible cases based on how many dimes we use?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many ways can we fill up the remaining block if we have two dimes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How many ways can we fill up the remaining three blocks if we have one dime?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How many ways can we fill up five blocks if we have no dimes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How do we calculate the total number of ways?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of other ways to solve this problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

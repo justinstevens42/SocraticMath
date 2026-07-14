@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_552",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Compute $\\sin 150^\\circ$.",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "r",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of sin of an angle in a right triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we apply the definition of sin to a point on the unit circle to find its y-coordinate?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the x-coordinate of the point on the unit circle given its y-coordinate and the fact that it lies on the circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the relationship between the angle formed by the origin, the x-axis, and a point on the unit circle and the reference angle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How does the reference angle help us determine the sign of the trigonometric function in each quadrant?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why the coordinates of $P$ are $\\left(-\\frac{\\sqrt{3}}{2}, \\frac12\\right)$ using the unit circle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "If we changed the angle to 210 degrees, how would that change the coordinates of the point on the unit circle and our calculation of sin?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

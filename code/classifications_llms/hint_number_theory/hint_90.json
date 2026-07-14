@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_90",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "What is the remainder when the product $1734\\times 5389 \\times 80,\\!607$ is divided by 10?",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How do we define \"remainder\" in a division operation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "In this case, what are we looking for when we ask for the remainder of the product?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What technique can we use to find the units digit of a product?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Applying this technique, what is the units digit of the product $1734\\times 5389$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we use the units digit of the first two factors to find the units digit of the entire product?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the units digit of $80,607$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Combining the units digit of the first two factors and the units digit of the third factor, what is the units digit of the entire product?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the remainder when this product is divided by 10?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

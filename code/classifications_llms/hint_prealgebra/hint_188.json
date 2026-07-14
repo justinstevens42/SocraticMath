@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_188",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The area of this region formed by six congruent squares is 294 square centimeters. What is the perimeter of the region, in centimeters?\n\n[asy]\ndraw((0,0)--(-10,0)--(-10,10)--(0,10)--cycle);\ndraw((0,10)--(0,20)--(-30,20)--(-30,10)--cycle);\ndraw((-10,10)--(-10,20));\ndraw((-20,10)--(-20,20));\ndraw((-20,20)--(-20,30)--(-40,30)--(-40,20)--cycle);\ndraw((-30,20)--(-30,30));\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in finding the perimeter of the region formed by these congruent squares?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the area of one of the congruent squares?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What can we say about the side length of each square based on the given area?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many horizontal sides are there in the perimeter of the region? How about vertical sides?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the total number of sides in the perimeter?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we calculate the perimeter using the side length and total number of sides?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

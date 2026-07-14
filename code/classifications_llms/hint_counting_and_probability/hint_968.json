@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_968",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "A fair, twenty-faced die has $19$ of its faces numbered from $1$ through $19$ and has one blank face. Another fair, twenty-faced die has $19$ of its faces numbered from $1$ through $8$ and $10$ through $20$ and has one blank face. When the two dice are rolled, what is the probability that the sum of the two numbers facing up will be $24?$ Express your answer as a common fraction.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the goal of this problem? What are we trying to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many faces does the first die have? How many faces does the second die have?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you determine the number of possible outcomes for rolling each die individually? And what is the total number of possible outcomes when rolling both dice?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What combinations of numbers on the two dice can result in a sum of 24? Explain your reasoning.",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there any restrictions or limitations for the numbers on each die? If so, how do they affect the possible combinations?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "How many valid combinations are there for summing up to 24, considering the restrictions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the probability of getting a sum of 24? Express it as a fraction.",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

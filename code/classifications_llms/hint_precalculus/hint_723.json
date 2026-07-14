@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_723",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Let $S$ be the set of complex numbers of the form $x + yi,$ where $x$ and $y$ are real numbers, such that\n\\[\\frac{\\sqrt{2}}{2} \\le x \\le \\frac{\\sqrt{3}}{2}.\\]Find the smallest positive integer $m$ such that for all positive integers $n \\ge m,$ there exists a complex number $z \\in S$ such that $z^n = 1.$",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the set $S$ defined as in the problem statement?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain what the condition $\\frac{\\sqrt{2}}{2} \\le x \\le \\frac{\\sqrt{3}}{2}$ means for a complex number $z \\in S$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What are the 15th roots of unity and how can we express them in polar form?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Why does none of the 15th roots of unity lie in $S$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the value of $m$ such that for all positive integers $n \\ge m,$ there exists a complex number $z \\in S$ such that $z^n = 1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we find an $n$th root of unity that lies in $S$ when $16 \\le n \\le 24$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "For which values of $n \\ge 24$ can we guarantee that there exists an $n$th root of unity whose argument lies in the interval $15^\\circ \\le \\theta \\le 30^\\circ$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How do we use the fact that there exist $n$th roots of unity in $S$ to determine the value of $m$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

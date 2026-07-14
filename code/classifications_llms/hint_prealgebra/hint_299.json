@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_299",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "In the diagram, what is the value of $x?$ [asy]\ndraw(Arc((0,0),1,-120,42));\n\ndraw((-2,-2*sqrt(3))--(3,3*sqrt(3))--(3,-2*sqrt(3))--(-2*sqrt(3)/.9,-2*sqrt(3))--(3,2.7));\ndraw((2.7,-2*sqrt(3))--(2.7,-2*sqrt(3)+.3)--(3,-2*sqrt(3)+.3));\nlabel(\"$48^\\circ$\",(3,1.5),W);\nlabel(\"$60^\\circ$\",(-1.2,-2*sqrt(3)),N);\nlabel(\"$x^\\circ$\",(1,-1));\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "f",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you identify any key angles or triangles in the diagram? How are they related to each other?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What do you know about the angles in a triangle? How can you use that information to find the value of $x$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain why $\\angle ADE = 180^{\\circ} - \\angle CDE$? What geometric property allows you to make this statement?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Based on the angles mentioned in the problem, can you calculate the value of $\\angle DEB$? How does it relate to $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you identify any other relationships or properties in the diagram that can help you determine the value of $x$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "Can you generalize the process or approach you used to find the value of $x$? Are there similar triangles or properties that could be used in other problems?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

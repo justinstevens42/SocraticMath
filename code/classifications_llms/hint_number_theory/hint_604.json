@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_604",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Express $\\frac{165_7}{11_2}+\\frac{121_6}{21_3}$ in base 10.",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the initial step to solve this problem? How can we convert the given numbers to base 10?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain the process of converting a number from base 7 to base 10? How about from base 2 to base 10?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the result of converting 165 base 7 to base 10? Can you show me the calculation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we convert 11 base 2 to base 10? Can you demonstrate the calculation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "After converting both numbers to base 10, what is the next step to add them together?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you simplify the fractions $\\frac{96}{3}$ and $\\frac{49}{7}$ before adding them? What are the simplified fractions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How do we add the two fractions together? Can you show me step by step?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the final result of the addition in base 10? Can you calculate and express it in base 10?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

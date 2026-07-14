@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_425",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "The polynomial $P(x)$ is a monic, quartic polynomial with real coefficients, and two of its roots are $\\cos \\theta + i \\sin \\theta$ and $\\sin \\theta + i \\cos \\theta,$ where $0 < \\theta < \\frac{\\pi}{4}.$  When the four roots of $P(x)$ are plotted in the complex plane, they form a quadrilateral whose area is equal to half of $P(0).$  Find the sum of the four roots.",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the four roots of the quartic polynomial $P(x)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Why do these four roots form a quadrilateral when plotted on the complex plane?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the area of this quadrilateral?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the relationship between the area of the quadrilateral and the value of $P(0)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can we express $P(x)$ in factored form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we determine the value of $P(0)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the value of $\\cos 2 \\theta$ in terms of the area of the quadrilateral?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we solve the equation $\\cos 2 \\theta = \\frac{1}{2}$ for $\\theta$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the sum of the four roots of $P(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

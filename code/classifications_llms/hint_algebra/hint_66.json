@@ -1,0 +1,92 @@
+{
+  "problem_id": "hint_66",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The area of a square equals the square of a length of the side of the square. The perimeter of a square equals the sum of the lengths of all four sides. The sum of the areas of two squares is 65, while the difference in their areas is 33.  Find the sum of their perimeters.",
+  "n_questions": 11,
+  "labels": [
+    "r",
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the concept of area and how it relates to a square?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we represent the length of a side of a square using a variable?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the formula for the area of a square in terms of its side length?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we represent the perimeter of a square using a variable?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the formula for the perimeter of a square in terms of its side length?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we express the area of one square in terms of the side length?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we express the area of the other square in terms of the side length?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we set up the given information as equations using the formulas for the areas and the difference in their areas?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we solve the equation(s) to find the side lengths of the squares?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can we calculate the perimeters of the squares using the side lengths?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "How can we find the sum of the perimeters of the two squares?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

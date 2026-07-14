@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_896",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Gretchen has eight socks, two of each color: magenta, cyan, black, and white. She randomly draws four socks. What is the probability that she has exactly one pair of socks with the same color?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many socks does Gretchen have in total? Can you list the colors of the socks?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many socks does Gretchen need to randomly draw?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean for Gretchen to have exactly one pair of socks with the same color?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can we calculate the total number of combinations of socks that Gretchen can draw?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do we determine the combinations that have exactly one pair of socks with the same color?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain the reasoning behind the formula used to calculate the number of these combinations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we calculate the probability of Gretchen drawing a combination with exactly one pair of socks with the same color?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you simplify the expression representing the probability?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Based on your calculations, what is the probability that Gretchen has exactly one pair of socks with the same color?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

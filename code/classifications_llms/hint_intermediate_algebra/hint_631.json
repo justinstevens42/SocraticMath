@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_631",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Let $S = \\{2^0,2^1,2^2,\\ldots,2^{10}\\}$. Consider all possible positive differences of pairs of elements of $S$. Let $N$ be the sum of all of these differences. Find $N.$",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of set S and what are its elements?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many elements are there in set S and how can we represent them using exponential notation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "When we take the difference between two elements of set S, what is the minimum and maximum possible value for each difference?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the general formula for the difference between two elements $2^a$ and $2^b$ of set S where $a$ and $b$ are non-negative integers such that $a>b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the formula from question 4 to compute the sum of all possible positive differences of pairs of elements of set S?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we simplify the expression for the sum by using algebraic techniques such as factoring or distributing?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final result of the sum and how can we interpret it in the context of the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

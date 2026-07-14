@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_682",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "If $\\frac{5}{33}$ is expressed in decimal form, what digit is in the 92nd place to the right of the decimal point?",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "f",
+    "r",
+    "b",
+    "f"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we express the fraction $\\frac{5}{33}$ in decimal form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What method can we use to convert a fraction into a decimal?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "When using long division to convert $\\frac{5}{33}$ into a decimal, what steps should we take?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you describe the pattern we observe when performing long division for this fraction?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How do we determine the digit at a specific place to the right of the decimal point using long division?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we determine the digit at the 92nd place to the right of the decimal point in the decimal representation of $\\frac{5}{33}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the relationship between the position of a digit and whether the value of $n$ is odd or even?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    }
+  ],
+  "classifier": "llm"
+}

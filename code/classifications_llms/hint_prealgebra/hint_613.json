@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_613",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "My date tonight made reservations for us at his favorite Italian restaurant.  He didn't know that I am a vegetarian with a gluten allergy.  There are four dishes here without meat in them.  That's just one fifth of the menu.  And three of those meatless dishes are made with pasta, which contains gluten.  What fraction of the items on the menu at this restaurant can I eat?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "f",
+    "f",
+    "b",
+    "f",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many total dishes are on the menu at this Italian restaurant?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How many of the dishes on the menu are vegetarian?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Out of the vegetarian dishes, how many of them contain gluten?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What fraction of the vegetarian dishes on the menu are gluten-free?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What fraction of all the dishes on the menu are vegetarian?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "What fraction of the menu items are both vegetarian and gluten-free?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

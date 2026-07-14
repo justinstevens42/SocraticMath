@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_267",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Let $a$, $b$, $c$, and $d$ be real numbers with $|a-b|=2$, $|b-c|=3$, and $|c-d|=4$. What is the sum of all possible values of $|a-d|$?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the relationship between the given numbers $|a-b|$, $|b-c|$, and $|c-d|$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does the symbol $|x-y|$ represent?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Using the given information, can you draw a diagram illustrating the placement of $a$, $b$, $c$, and $d$ on the number line?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many possible locations are there for $a$ on the number line, given that $|a-b|=2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many possible locations are there for $b$ on the number line, given that $|b-c|=3$, assuming a specific location for $a$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many possible locations are there for $c$ on the number line, given that $|c-d|=4$, assuming specific locations for $a$ and $b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How many possible locations are there for $d$ on the number line, given that we have determined the possible locations for $a$, $b$, and $c$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What are the possible values of $|a-d|$ that we can obtain from our diagram?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Are there any values of $|a-d|$ that we cannot obtain from our diagram? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can you use the information from our diagram to find the sum of all possible values of $|a-d|$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

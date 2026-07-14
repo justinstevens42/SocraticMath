@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_727",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "What is the smallest positive integer that can be written in the form $2002m + 44444n$, where $m$ and $n$ are integers?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "f",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we express the given form $2002m + 44444n$ in terms of the greatest common divisor (gcd) of $2002$ and $44444$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for a number to be divisible by the gcd of two given numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the process of finding the gcd of two numbers using the Euclidean algorithm?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How does the Euclidean algorithm help us find the values of $m$ and $n$ in the given form?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you demonstrate the steps of the Euclidean algorithm to find the gcd of $2002$ and $44444$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the result of the Euclidean algorithm to determine the smallest positive integer that can be written in the given form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any special properties or characteristics of the numbers $2002$ and $44444$ that make it possible to find their gcd easily?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other situations where the Euclidean algorithm can be applied to find the gcd and solve similar problems?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

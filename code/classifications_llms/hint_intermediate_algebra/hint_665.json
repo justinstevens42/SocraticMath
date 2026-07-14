@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_665",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Find the positive solution to\n\\[\\sqrt[3]{x + \\sqrt[3]{x + \\sqrt[3]{x + \\dotsb}}} = \\sqrt[3]{x \\sqrt[3]{x \\sqrt[3]{x \\dotsm}}}.\\]",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step to solve this equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are some different methods you know to solve equations like this?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you choose to let $y = \\sqrt[3]{x \\sqrt[3]{x \\sqrt[3]{x \\dotsm}}}$, how can you simplify the equation using this substitution?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the relationship between $y$ and $x$ based on the equation $y^3 = xy$? How can we further simplify this relationship?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "If we let $z = \\sqrt[3]{x + \\sqrt[3]{x + \\sqrt[3]{x + \\dotsb}}}$, what is the relationship between $z$ and $x$ based on the equation $z^3 - z = x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we relate $y$ and $z$ based on their definitions? Can we find a relationship between $y$, $z$, and $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "For what values of $y$ does the equation $y^2 - y - 1 = 0$ hold? And thus, what is the positive solution for $x$ in the given equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

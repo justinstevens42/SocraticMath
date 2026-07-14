@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_96",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Fifty ping-pong-balls are numbered 1, 2, 3, ..., 49, 50. A ball is chosen at random. What is the probability that the number on the selected ball is a multiple of 5 or 7 or both? Express your answer as a common fraction.",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the set of numbers on the ping-pong balls?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many of the balls have numbers divisible by 5?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many of the balls have numbers divisible by 7?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Are there any balls that have numbers divisible by both 5 and 7?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many balls in total have numbers divisible by 5 or 7?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the probability of selecting a ball with a number divisible by 5 or 7?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you express the probability as a simplified common fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any other methods or approaches that can be used to solve this problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_824",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What is the sum of the 2009 fractions of the form $\\frac{2}{n(n+2)}$ if the values of $n$ are the positive integers from 1 through 2009? Express your answer as a decimal to the nearest thousandth.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given sum of fractions?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we rewrite each fraction in the form of a difference of two terms?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the formula we are using to rewrite the fractions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we simplify the initial sum using the rewritten fractions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the pattern we observe in the simplified sum after canceling out the negative terms?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "How can we apply it to find the final sum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final sum rounded to the nearest thousandth?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

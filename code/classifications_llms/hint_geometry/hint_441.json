@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_441",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "What is the area, in square units, of a regular hexagon inscribed in a circle whose area is $324\\pi$ square units? Express your answer in simplest radical form.",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the shape of a regular hexagon?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How is the area of a circle related to its radius?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the radius of the circle inscribing the regular hexagon, given its area is $324\\pi$ square units?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the radius of the circle to find the side length of the hexagon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the formula for the area of an equilateral triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the side length of the hexagon to find the area of each equilateral triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the total area of the regular hexagon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_722",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The side of a triangle are 2, 2, and $\\sqrt{6} - \\sqrt{2}.$  Enter the angles of the triangle in degrees, separated by commas.",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the Law of Cosines and how does it relate to calculating the angles of a triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the Law of Cosines to solve for the angles of a triangle with given side lengths?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How do we apply the Law of Cosines to the given triangle with sides 2, 2, and $\\sqrt{6} - \\sqrt{2}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the formula we use to find the cosine of one of the angles in the given triangle using the Law of Cosines?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How do we simplify the expression to find the cosine of one of the angles in the given triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the value of the cosine of the angle we found using the Law of Cosines? How do we use this value to find the measure of the angle in degrees?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How do we know that the other two angles in the triangle are equal?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the measure of the other two angles in the triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How do we check that the measures of the angles we found add up to 180 degrees, as expected for a triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

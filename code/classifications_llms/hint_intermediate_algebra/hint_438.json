@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_438",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "The polynomial $P(x) = x^3 + ax^2 + bx +c$ has the property that the mean of its zeros, the product of its zeros, and the sum of its coefficients are all equal. If the $y$-intercept of the graph of $y=\nP(x)$ is 2, what is $b$?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "r",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given property of the polynomial $P(x)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we express the mean of the zeros, the product of the zeros, and the sum of the coefficients using variables?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What clue does the question provide about the $y$-intercept of the graph of $y=P(x)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we express the $y$-intercept using variables and the coefficients of $P(x)$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "By equating the expressions for the mean of the zeros, the product of the zeros, and the sum of the coefficients, can we find any relationships between the variables $a$, $b$, and $c$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What does the equation $-\\frac{a}{3}=-c=1+a+b+c$ represent in terms of the given polynomial $P(x)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "How can we determine the values of $a$, $b$, and $c$ from the equation $-\\frac{a}{3}=-c=1+a+b+c$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the value of $c$ and how does it relate to the $y$-intercept of the graph?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "With the value of $c=2$, can we determine the value of $a$ and $b$ from the equation $-\\frac{a}{3}=-c=1+a+b+c$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Finally, what is the value of $b$ based on the determined values of $a$ and $c$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

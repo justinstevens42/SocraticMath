@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_774",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "Eric builds a small pyramid for a school project. His pyramid has a height of twelve inches and a square base that measures ten inches on each side. Eric wants to find the smallest cube-shaped box to put his pyramid in so that he can safely bring it to school right side up. What is the volume of this box, in inches cubed?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the dimensions of Eric's pyramid for his school project?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the height of the pyramid and the length of each side of the square base?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Why does Eric want to find a cube-shaped box for the pyramid?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What are the minimum dimensions for the length, width, and height of the box based on the dimensions of the pyramid?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why the height of the pyramid determines the minimum height of the box?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "If we chose a box that measures the same length and width as the base of the pyramid, could it accommodate the height of the pyramid? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the volume of the cube-shaped box that can accommodate the pyramid?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

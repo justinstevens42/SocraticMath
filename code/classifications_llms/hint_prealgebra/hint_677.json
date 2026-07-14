@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_677",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "A standard deck of 52 cards has 13 ranks (Ace, 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, King) and 4 suits ($\\spadesuit$, $\\heartsuit$, $\\diamondsuit$, and $\\clubsuit$), such that there is exactly one card for any given rank and suit.  Two of the suits ($\\spadesuit$ and $\\clubsuit$) are black and the other two suits ($\\heartsuit$ and $\\diamondsuit$) are red.  The deck is randomly arranged. What is the probability that the top card is a 5?",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "f",
+    "f",
+    "b",
+    "b",
+    "f",
+    "f",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the probability defined as in general?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How many cards are there in a standard deck and how many of them are 5's?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "If you randomly select a card from the deck, can you describe the sample space of possible outcomes?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How many favorable outcomes are there for drawing a 5?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "If you have equally likely outcomes, can you calculate the probability of drawing a 5?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there any additional information given that might affect the probability of drawing a 5?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "Is the probability affected by the color or suit of the cards?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "Can you simplify the fraction representing the probability of drawing a 5?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Are there any other similar probability problems you can think of where the same reasoning and steps may apply?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

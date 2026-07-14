@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_939",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "In pentagon $ABCDE$, $BC=CD=DE=2$ units, $\\angle E$ is a right angle and $m \\angle B = m \\angle C = m \\angle D = 135^\\circ$.  The length of segment $AE$ can be expressed in simplest radical form as $a+2\\sqrt{b}$ units.  What is the value of $a+b$?",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "b",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step you would take to find the length of segment AE?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the given information about angles and side lengths to find the length of segment AE?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What type of triangle can we identify within pentagon ABCDE, and how can that help us in finding the length of segment AE?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the properties of a right triangle to find the length of segment AE?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between the side lengths of the right triangle and the length of segment AE?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we find the length of segment AE using the properties of the square GBFE?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can we simplify the expression for the length of segment AE using radical form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the value of a and b if the length of segment AE can be expressed as a+2√b?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

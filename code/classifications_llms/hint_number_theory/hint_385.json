@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_385",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "What integer $n$ satisfies $0\\le n<{101}$ and $$100n\\equiv 72\\pmod {101}~?$$",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given congruence equation and its modulo value?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we rewrite the expression $100n$ in terms of its modulo value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Based on the given relation $100\\equiv-1\\pmod{101}$, what can we conclude about the congruence equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the simplified congruence equation we want to solve?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we find the value of $n$ in the simplified congruence equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we add or subtract any value to the congruence equation without changing its solution set?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "What is the final solution for the congruence equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Is there any other integer value for $n$ that satisfies the given congruence equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

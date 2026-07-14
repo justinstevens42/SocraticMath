@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_558",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Triangle $\\triangle ABC$ has a right angle at $C$, $\\angle A = 60^\\circ$, and $AC=10$.  Find the radius of the incircle of $\\triangle ABC$.",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information about triangle $\\triangle ABC$ and what do we need to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the angles of $\\triangle ABC$ given the information about the right angle and $\\angle A$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What type of triangle is $\\triangle ABC$ and how can we determine the length of $BC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we compute the area of $\\triangle ABC$ using the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between the inradius $r$ and the area of $\\triangle ABC$ and how can we use it to find $r$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What is the formula for the area of a triangle in terms of its inradius and semiperimeter, and how can we use it to relate $r$ to the side lengths of $\\triangle ABC$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can we solve the equation $50\\sqrt{3} = r(15+5\\sqrt{3})$ for $r$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the final answer for the radius of the incircle of $\\triangle ABC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can we generalize this method for finding the inradius of a right triangle with a given leg and acute angle?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

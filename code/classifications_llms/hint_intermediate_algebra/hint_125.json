@@ -1,0 +1,92 @@
+{
+  "problem_id": "hint_125",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Let $f : \\mathbb{R} \\to \\mathbb{R}$ be a function such that\n\\[f(f(x) + y) = f(x + y) + xf(y) - xy - x + 1\\]for all real numbers $x$ and $y.$\n\nLet $n$ be the number of possible values of $f(1),$ and let $s$ be the sum of all possible values of $f(1).$  Find $n \\times s.$",
+  "n_questions": 11,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this functional equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the given equation to determine the value of $f(1)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What happens when we substitute $x = 0$ into the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "By setting $y$ as $f(0)$ in the equation, what additional information can we obtain?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we simplify the equation $f(f(x)) = f(x) + 1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the significance of the equation $f(x+1) = f(x) + 1$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "Can we use any other values of $x$ or $y$ to simplify the functional equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we verify that $f(x) = x + 1$ satisfies the given functional equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What are the possible values of $f(1)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the sum of all possible values of $f(1)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "What is the product of the number of possible values of $f(1)$ and the sum of all possible values of $f(1)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_79",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What is the sum of the whole-number factors of 24?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you define what we mean by \"whole-number factors\"?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you list all of the factors of 24?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can you determine which of these factors are whole numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can you find the sum of these whole-number factors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there any patterns or shortcuts you can use to make this calculation easier?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other numbers for which you could use this same process to find the sum of the whole-number factors?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

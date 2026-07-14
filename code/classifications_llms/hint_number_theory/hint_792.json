@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_792",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What is the remainder when $2^{2005}$ is divided by 7?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "f",
+    "f",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain why we are starting from $2^1$ and considering the remainder when successive powers of 2 are divided by 7?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What pattern do you notice in the remainders when we divide successive powers of 2 by 7?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we use this pattern to determine the remainder when $2^{2005}$ is divided by 7?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the significance of the fact that the pattern repeats every 3 powers of 2?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why we can use the remainder of $2^3$ (which is 1) to find the remainder of $2^{2005}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "Based on the pattern we observed, what is the remainder when $2^{2005}$ is divided by 7?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

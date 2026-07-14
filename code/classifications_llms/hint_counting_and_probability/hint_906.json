@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_906",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "How many numbers are in the first $20$ rows of Pascal's Triangle (from the $0$th row to the $19$th row)?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "e",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How is Pascal's Triangle constructed and what is special about it?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between the row number and the number of elements in each row?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If we were looking for the sum of numbers in rows 3 to 10, how would we approach the problem?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 4,
+      "question": "Can you give an example of a real-world scenario where knowledge of Pascal's Triangle and its properties could be useful?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "How does the counting use in Pascal's Triangle relate to other concepts in mathematics such as combinatorics and probability?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Are there any exceptions or limitations to the rules of Pascal's Triangle, and if so, what are they?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

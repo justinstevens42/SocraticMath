@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_585",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "A club has 15 members and needs to choose 2 members to be co-presidents.  In how many ways can the club choose its co-presidents?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total number of members in the club?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many members does the club need to choose as co-presidents?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many choices does the club have for the first co-president?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many choices does the club have for the second co-president?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why do we divide the product of the choices for the co-presidents by 2?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other scenarios where we need to divide by a certain number when counting possibilities?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

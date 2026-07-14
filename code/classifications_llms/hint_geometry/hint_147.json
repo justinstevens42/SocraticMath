@@ -1,0 +1,50 @@
+{
+  "problem_id": "hint_147",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Let $AB$ be a diameter of a circle centered at $O$.  Let $E$ be a point on the circle, and let the tangent at $B$ intersect the tangent at $E$ and $AE$ at $C$ and $D$, respectively.  If $\\angle BAE = 43^\\circ$, find $\\angle CED$, in degrees.\n\n[asy]\nimport graph;\n\nunitsize(2 cm);\n\npair O, A, B, C, D, E;\n\nO = (0,0);\nA = (0,1);\nB = (0,-1);\nE = dir(-6);\nD = extension(A,E,B,B + rotate(90)*(B));\nC = extension(E,E + rotate(90)*(E),B,B + rotate(90)*(B));\n\ndraw(Circle(O,1));\ndraw(B--A--D--cycle);\ndraw(B--E--C);\n\nlabel(\"$A$\", A, N);\nlabel(\"$B$\", B, S);\nlabel(\"$C$\", C, S);\nlabel(\"$D$\", D, SE);\nlabel(\"$E$\", E, dir(0));\ndot(\"$O$\", O, W);\n[/asy]",
+  "n_questions": 5,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "f",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you start tackling this problem? What information and concepts can we use to help us?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you describe the relationship between the angles $\\angle BAE$ and $\\angle CBE$? How does this help us find the measure of $\\angle CBE$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What do we know about triangle $BCE$? How can this information help us find the measure of $\\angle CEB$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the relationship between $\\angle AEB$ and $\\angle BED$? How can we find the measure of $\\angle BED$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "What is the final step to find the measure of $\\angle CED$? How does this step follow from our previous findings?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

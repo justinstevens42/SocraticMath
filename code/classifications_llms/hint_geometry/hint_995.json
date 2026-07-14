@@ -1,0 +1,99 @@
+{
+  "problem_id": "hint_995",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "A certain circle's area is $x$ square units, and its circumference is $y$ units. The value of $x + y$ is $80\\pi$. What is the radius of the circle, in units?",
+  "n_questions": 12,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What formulas can we use to relate the area, circumference, and radius of a circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we express the given area and circumference of the circle in terms of the radius?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What equation can we set up using the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did we arrive at the equation $r(r + 2) = 80$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we determine the value of $r$ from this equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What integers multiply to 80 while having a difference of 2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can we factorize 80 in any other ways?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Why do we choose the factors 8 and 10?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can we conclude that the radius of the circle is 8 units?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "Is there another way to solve this problem using geometry principles or properties?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 12,
+      "question": "Can you explain why the radius is an important concept in understanding the properties of a circle?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

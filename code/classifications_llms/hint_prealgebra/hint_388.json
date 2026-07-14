@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_388",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "The four partners in a business decide to split the profits of their company in the ratio 2:3:3:5. If the profit one year is $\\$26,\\!000$ what is the largest number of dollars received by any of the four partners?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the ratio in which the profits of the company are being split among the partners?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we think of dividing the money into equal parts for each partner based on the given ratio?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many parts does the total money get divided into?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the value of each part?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we find the largest share received by any of the partners based on the given ratio?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the largest amount of money received by any of the four partners in this scenario?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

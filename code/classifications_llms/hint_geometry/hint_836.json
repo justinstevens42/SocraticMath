@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_836",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "What is the area of the portion of the circle defined by $x^2-12x+y^2=28$ that lies above the $x$-axis and to the right of the line $y=6-x$?",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you define the equation of the circle in standard form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can you rewrite the equation in completed square form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the center of the circle and how did you find it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How does the line $y=6-x$ relate to the center of the circle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "What is the measure of the portion of the circle above the $x$-axis and to the right of the line $y=6-x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How did you calculate the area of the entire circle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final answer for the desired area of the region?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_847",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "If $x - y = 6$ and $x + y = 12$, what is the value of $y$?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the relationship between the two given equations?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What method or approach would you use to solve this system of equations?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain why the elimination method is suitable for solving this system of equations?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What steps would you take to eliminate one variable in order to solve for the other?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "After eliminating one variable, what does the resulting equation look like?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How would you solve the resulting equation to find the value of the remaining variable?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain why substituting the value of the solved variable back into one of the original equations is a valid step?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "What is the value of y that you find through this process? How do you verify that it is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of other scenarios or problems where a similar approach, like elimination, can be used to solve a system of equations?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

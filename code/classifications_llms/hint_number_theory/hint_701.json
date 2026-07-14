@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_701",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Find the product of $218_9 \\cdot 5_9$.  Express your answer in base 9.",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e",
+    "e",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step in finding the product of two numbers in base 9 using multiplication?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do you multiply the units digits of the two numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What do you do when the product of the units digits is greater than or equal to 9?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the process for carrying over a value to the next digit?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the next digit in the product of $218_9 \\cdot 5_9$ after evaluating the product of the units digits?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do you find the leftmost digits of the product?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of other situations where you would need to multiply numbers in a different base?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "How does the process of multiplication change when working with different bases?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Is there a general rule you can follow for multiplying numbers in any base?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "What is the final answer when finding the product of $218_9 \\cdot 5_9$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

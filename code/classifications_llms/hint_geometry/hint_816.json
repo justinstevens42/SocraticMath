@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_816",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "A square sheet of paper has area $6 \\text{ cm}^2$. The front is white and the back is black. When the sheet is folded so that point $A$ rests on the diagonal as shown, the visible black area is equal to the visible white area. How many centimeters is $A$ from its original position? Express your answer in simplest radical form.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "f",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem? What information do we know and what are we trying to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we represent the black and white areas on the folded sheet of paper using variables or expressions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we set up an equation to represent the given condition that the visible black area is equal to the visible white area?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why do we set the equation $\\frac{1}{2}x^2 = 6 - x^2$? What does each side of the equation represent?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How do we solve the equation $\\frac{1}{2}x^2 = 6 - x^2$ to find the value of $x$? What steps are involved?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What does it mean when we find that $x = 2$? How does this relate to the length of a leg of the black isosceles triangle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "How do we determine the distance from point A to its original position? What type of triangle can we form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How do we use the Pythagorean theorem to find the length from point A to its original position?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can we simplify the resulting length to its simplest radical form? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the final answer to the problem? How many centimeters is point A from its original position?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

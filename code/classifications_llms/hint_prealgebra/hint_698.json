@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_698",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "What is the arithmetic mean of $\\frac{2}{5}$ and $\\frac{4}{7}$ ? Express your answer as a common fraction.",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of arithmetic mean?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do we find the arithmetic mean of two numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you identify the two numbers given in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the sum of the two numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we divide the sum by 2 to find the arithmetic mean?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you simplify the fraction $\\frac{14+20}{35}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Why do we simplify the fraction before giving our final answer?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of a real-life situation where you would need to find the arithmetic mean of two numbers?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

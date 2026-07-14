@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_905",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Compute $\\dbinom{5}{1}$.",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "r",
+    "e",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you define what \"combinations\" mean in counting and probability?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How many ways can you choose 1 item from a pool of 5 items?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you describe the difference between combinations and permutations?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How would you modify your approach if you wanted to choose 2 items instead of 1 from the pool of 5 items?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between the calculation of $\\dbinom{5}{1}$ and the formula for combinations $\\dbinom{n}{k}=\\dfrac{n!}{k!(n-k)!}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you provide an example scenario where the calculation of $\\dbinom{5}{1}$ would be useful in calculating probability?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_91",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Thirteen blue and six green hexagonal tiles were used to create the figure below. If a new figure is created by attaching a border of green tiles with the same size and shape as the others, what will be the difference between the total number of green tiles and the total number of blue tiles in the new figure? [asy]\n/* AMC8 2004 #15 Problem */\npath hex=rotate(30)*(dir(360)--dir(60)--dir(120)--dir(180)--dir(240)--dir(300)--cycle);\npen lightcolor=lightgreen;\npen darkcolor=heavyblue;\nfilldraw(hex, darkcolor,black);\nfilldraw(shift(sqrt(3),0)*hex, darkcolor,black);\nfilldraw(shift(sqrt(3)*2,0)*hex, darkcolor,black);\nfilldraw(shift(sqrt(3)*2.5,1.5)*hex, darkcolor,black);\nfilldraw(shift(sqrt(3)*3,3)*hex,darkcolor,black);\nfilldraw(shift(sqrt(3)*2.5,4.5)*hex, darkcolor,black);\nfilldraw(shift(sqrt(3)*2,6)*hex, darkcolor,black);\nfilldraw(shift(sqrt(3),6)*hex, darkcolor,black);\nfilldraw(shift(0,6)*hex, darkcolor,black);\nfilldraw(shift(sqrt(3)*-0.5,4.5)*hex, darkcolor,black);\nfilldraw(shift(sqrt(3)*-1,3)*hex, darkcolor,black);\nfilldraw(shift(sqrt(3)*-0.5,1.5)*hex, darkcolor,black);\nfilldraw(shift(sqrt(3),3)*hex,darkcolor,black);\nfilldraw(shift(sqrt(3)*.5,1.5)*hex,lightcolor,black);\nfilldraw(shift(sqrt(3)*1.5,1.5)*hex,lightcolor,black);\nfilldraw(shift(sqrt(3)*2,3)*hex,lightcolor,black);\nfilldraw(shift(sqrt(3)*1.5,4.5)*hex,lightcolor,black);\nfilldraw(shift(sqrt(3)*.5,4.5)*hex,lightcolor,black);\nfilldraw(shift(0,3)*hex,lightcolor,black);\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the figure that is given in the problem? How many blue tiles and green tiles are there in the original figure?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean to \"attach a border of green tiles with the same size and shape as the others\"? Can you visualize what the new figure will look like?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many green tiles are needed to create the border around the original figure? How did you arrive at that number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many total green tiles and blue tiles will be used in the new figure? Can you calculate the difference between the two?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why the difference between the total number of green tiles and the total number of blue tiles is 11? Is there a general pattern or formula that can be applied here?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other scenarios or figures where a similar approach can be used to find the difference between the total number of green tiles and blue tiles?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

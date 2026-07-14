@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_409",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "A circle has a radius of three inches. The distance from the center of the circle to chord $CD$ is two inches. How many inches long is chord $CD$? Express your answer in simplest radical form.",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the problem and identify the given information?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the length of chord CD?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Could you explain the relationship between the center of the circle, the chord CD, and the point E where the radius bisects the chord?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we utilize the given information about the triangle ODE to find the length of DE?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Once we have the length of DE, how can we find the length of chord CD?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Why is the length of DE equal to half of the length of chord CD?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Can you simplify the expression for the length of chord CD, using simplest radical form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any other methods or concepts from geometry that could be helpful in solving this problem?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other scenarios in which the given information would be useful in solving a similar problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_822",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What is the area, in square units, of triangle $ABC$? [asy]\nunitsize(1.5mm);\ndefaultpen(linewidth(.7pt)+fontsize(8pt));\ndotfactor=4;\n\npair A=(-3,1), B=(7,1), C=(5,-3);\npair[] dots={A,B,C};\nreal[] xticks={-4,-3,-2,-1,1,2,3,4,5,6,7,8};\nreal[] yticks={3,2,1,-1,-2,-3,-4,-5,-6,-7};\n\ndraw(A--B--C--cycle);\ndot(dots);\n\nlabel(\"A(-3,1)\",A,N);\nlabel(\"B(7,1)\",B,N);\nlabel(\"C(5,-3)\",C,S);\n\nxaxis(-5,9,Ticks(\" \", xticks, 3),Arrows(4));\nyaxis(-8,4,Ticks(\" \", yticks, 3),Arrows(4));\n[/asy]",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the formula for finding the area of a triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do we determine the base and height of a triangle to use the area formula?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you identify the base and height of triangle ABC given its coordinates?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the length of the base AB?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we find the length of the height CD?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the process for using the area formula to find the area of triangle ABC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there other methods to find the area of a triangle? How do they compare to using the area formula?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "If the coordinates of the triangle were different, how would we approach finding the area using the area formula?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_535",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "We have a cube with 4 blue faces and 2 red faces.  What's the probability that when it is rolled, a blue face will be facing up?",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "b",
+    "f",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of probability?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How would you determine the total number of possible outcomes when rolling a cube?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Why are all faces of the cube considered equally likely outcomes?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How would you count the total number of successful outcomes in this scenario?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why there are only 4 successful outcomes (blue faces) out of the 6 total outcomes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What method can we use to calculate the probability in this case?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "By calculating the ratio of successful outcomes to total outcomes, can you determine the probability of a blue face being facing up?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

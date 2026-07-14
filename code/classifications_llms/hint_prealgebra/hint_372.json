@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_372",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find $\\left(\\sqrt{(\\sqrt3)^3}\\right)^4$.",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you simplify the expression $\\left(\\sqrt{(\\sqrt3)^3}\\right)^4$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What does squaring the square root of any number give us?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we rewrite $\\left(\\sqrt{(\\sqrt3)^3}\\right)^4$ using this concept?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can we simplify $(\\sqrt3)^3$? If so, how?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the value of $(\\sqrt3)^6$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we rewrite $(\\sqrt3)^6$ in a different form using a different exponent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Is $3^3$ equal to $(\\sqrt3)^6$? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other expressions or equations where similar thinking and steps may be used?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

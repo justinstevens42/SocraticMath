@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_131",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "A fair coin is tossed six times and the sequence of heads and tails is recorded. What is the probability that the sequence contains exactly two heads? Express your answer as a common fraction.",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total number of possible sequences that can be recorded when tossing a fair coin six times?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Are all the possible sequences equally likely? Why or why not?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How many sequences have exactly two heads? Can you explain why this is the case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we calculate the number of sequences with exactly two heads? Can you explain the reasoning behind it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the specific formula or concept we can use to solve this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain the meaning of the notation \"$\\dbinom{n}{k}$\" that was used to count the number of sequences with exactly two heads?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How did we use the formula \"$\\dbinom{n}{k}$\" in this scenario to calculate the desired probability?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the final probability that the sequence contains exactly two heads? Can you explain how we arrived at this fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

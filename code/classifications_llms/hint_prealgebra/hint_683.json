@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_683",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Rosie can make two pies out of nine apples. How many pies can she make out of twenty-seven apples?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many apples does Rosie need to make one pie?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How many pies can Rosie make with 9 apples?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many times does 27 apples exceed the number of apples needed for one pie?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many times does 27 apples exceed the number of apples needed for two pies?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Based on the previous answers, how many pies can Rosie make with 27 apples?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of a general rule for determining how many pies Rosie can make based on the number of apples she has?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

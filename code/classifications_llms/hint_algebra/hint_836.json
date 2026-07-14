@@ -1,0 +1,106 @@
+{
+  "problem_id": "hint_836",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "A rectangle is called cool if the number of square units in its area is equal to twice the number of units in its perimeter. A cool rectangle also must have integer side lengths. What is the sum of all the different possible areas of cool rectangles?",
+  "n_questions": 13,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you define a rectangle in mathematical terms?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the formula for finding the area of a rectangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you provide an example of finding the area of a rectangle using the given formula?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the formula for finding the perimeter of a rectangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you provide an example of finding the perimeter of a rectangle using the given formula?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How would you express the given condition for a rectangle to be called cool algebraically?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you represent the area and perimeter of a rectangle as algebraic expressions in terms of its side lengths?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How would you set up the equation based on the given condition that the area is equal to twice the perimeter?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What strategies could you use to solve the equation and find the possible side lengths for the cool rectangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How would you determine if the side lengths of the rectangle are integers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "Can you list all the possible integer side lengths that satisfy the equation and represent cool rectangles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "How would you calculate the areas corresponding to each set of side lengths?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 13,
+      "question": "What are the different possible areas of cool rectangles, and how would you find their sum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

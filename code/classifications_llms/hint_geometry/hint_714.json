@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_714",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "A sphere is inscribed in a cube, and the cube has a surface area of 24 square meters. A second cube is then inscribed within the sphere. What is the surface area in square meters of the inner cube?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "f",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in determining the surface area of the inner cube?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How does the surface area of the original cube relate to the side length of the cube?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the diameter of the sphere inscribed within the cube? How does it relate to the side length of the inscribed cube?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can the Pythagorean Theorem be applied to find the side length of the inscribed cube?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between the surface area of a face and the side length of a cube?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the side length of the inscribed cube to find its surface area?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

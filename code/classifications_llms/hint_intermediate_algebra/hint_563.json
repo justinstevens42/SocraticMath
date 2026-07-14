@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_563",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "For how many real values of $c$ do we have $\\left|\\frac12-ci\\right| = \\frac34$?",
+  "n_questions": 9,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "f",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can you represent $\\left|\\frac{1}{2}-ci\\right|= \\frac{3}{4}$ in terms of the distance from the origin in the complex plane?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for a complex number to be $\\frac{3}{4}$ units away from the origin? How does this relate to the equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can you rewrite the equation $\\left|\\frac{1}{2}-ci\\right|= \\frac{3}{4}$ in terms of distance and the variable $c$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can you simplify the expression $\\sqrt{c^2 + \\frac{1}{4}}$ to solve for $c$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are the possible values of $c$ that satisfy the equation? Why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain the geometric interpretation of the equation and how it relates to the values of $c$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "Are there any other methods or approaches that could be used to solve this equation? How would they relate to the concept of distance?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other equations or situations where the idea of distance might be important in solving and understanding the problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

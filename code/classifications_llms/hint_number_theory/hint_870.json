@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_870",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Suppose that  $a$ and $b$ are digits, not both nine and not both zero, and the repeating decimal  $0.\\overline{ab}$ is expressed as a fraction in lowest terms. How many different denominators are possible?",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe how the decimal $0.\\overline{ab}$ can be expressed as a fraction? What does the numerator and denominator represent in this fraction?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What conditions must the digits $a$ and $b$ satisfy in order to express $0.\\overline{ab}$ as a fraction in lowest terms?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the prime factorization of $99$, and why is it relevant to this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many factors does $99$ have, and why is the number of factors important in determining the number of possible denominators?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "If $a$ and $b$ cannot both be $9$ or $0$, what are the possible digit combinations for $a$ and $b$? How many different combinations are there?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "For each possible combination of $a$ and $b$, what is the corresponding denominator of the fraction? Can you explain why each denominator is valid?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any denominators that are not possible? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other similar fractions or situations where the same kind of thinking and steps would be applicable?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

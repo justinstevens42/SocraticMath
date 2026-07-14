@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_603",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Two lines have the same non-zero $y$-intercept. The first line has a slope of 10 and an $x$-intercept of $(s, 0)$. The second line has a slope of 6 and an $x$-intercept of $(t, 0)$. What is the ratio of $s $ to $t$? Express your answer as a common fraction.",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of a $y$-intercept?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the equation of a line given its slope and $y$-intercept?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you write down the equation of the first line in terms of $s$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the definition of an $x$-intercept?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we find the $x$-intercept of the first line?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you write down the equation of the second line in terms of $t$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the relationship between the $x$-intercept and the slope of a line?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "How can we find the $x$-intercept of the second line given its slope?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What are the conditions for two lines to have the same $y$-intercept?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 10,
+      "question": "How can we find the ratio of $s$ to $t$ using the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

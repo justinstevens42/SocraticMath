@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_460",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "What is the remainder when $5^{207}$ is divided by 7?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking for?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the pattern we observe when we find the remainders of increasing powers of 5 divided by 7?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the pattern to find the remainder when $5^{207}$ is divided by 7?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can we check our answer using a different method?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there other interesting patterns we can discover when looking at remainders of powers of other numbers divided by 7?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Can you generalize the method we used to find the remainder when a large power is divided by a different number?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

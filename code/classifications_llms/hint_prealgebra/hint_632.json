@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_632",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "How many prime positive integers are divisors of 555?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "f",
+    "e",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we find the prime factorization of 555?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the definition of a prime number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine if a number is a factor of 555?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can we find any prime factors of 555 larger than 37? Why or why not?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Are there any negative prime divisors of 555? Why or why not?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "How do we determine the number of positive prime divisors of a given number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ],
+  "classifier": "llm"
+}

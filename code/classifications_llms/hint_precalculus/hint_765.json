@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_765",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 1",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "What is the period of $y = \\tan x + \\cot x$?",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what the period of a function represents?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the period of a function?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What are the periods of $\\tan x$ and $\\cot x$ individually? Why?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "When we add these two functions together, does the period change? Why or why not?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can we express $\\tan x + \\cot x$ in terms of trigonometric functions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you simplify $\\frac{1}{\\sin x \\cos x}$ further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What happens to the value of $\\frac{1}{\\sin x \\cos x}$ when $x$ is in different intervals?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How does the behavior of $\\frac{1}{\\sin x \\cos x}$ relate to the period of $y = \\tan x + \\cot x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you explain why the period of $y = \\tan x + \\cot x$ is $\\pi$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What does the graph of $y = \\tan x + \\cot x$ look like?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

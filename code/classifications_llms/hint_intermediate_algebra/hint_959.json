@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_959",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Let $x,$ $y,$ and $z$ be positive real numbers.  Find the minimum value of\n\\[\\frac{4z}{2x + y} + \\frac{4x}{y + 2z} + \\frac{y}{x + z}.\\]",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we rewrite the given expression using the variables $a$, $b$, and $c$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "If we let $S$ represent the expression $\\frac{a}{b + c} + \\frac{b}{a + c} + \\frac{c}{a + b}$, what does the original expression become in terms of $S$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we rewrite $S + 3$ in terms of $a$, $b$, and $c$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "By applying Cauchy-Schwarz inequality, what lower bound can we establish for $S$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What can we conclude about the minimum value of the given expression based on the minimum value of $S$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "When does equality occur in the Cauchy-Schwarz inequality, and how does this relate to the minimum value of the given expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

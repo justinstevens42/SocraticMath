@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_683",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "The function $f(x)$ takes positive real numbers to real numbers, such that\n\\[xf(y) - yf(x) = f \\left( \\frac{x}{y} \\right)\\]for all positive real numbers $x$ and $y.$  Find all possible values of $f(100).$  Enter all possible values, separated by commas.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you rewrite the given functional equation in terms of $f(x)$ and $f(y)$ only?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Are there any restrictions or assumptions we can make about the values of $x$ and $y$ that would simplify the given functional equation or make it easier to work with?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What happens if we set $x=y$ in the given functional equation? What conclusion can we draw from this?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What happens if we set $y=1$ in the given functional equation? What conclusion can we draw from this?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you show that $f(x) = 0$ for all positive real numbers $x$ satisfies the given functional equation? Is there any other function that can satisfy the given functional equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you find any other possible values of $f(100)$ besides $0$? If not, why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

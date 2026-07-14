@@ -1,0 +1,92 @@
+{
+  "problem_id": "hint_729",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Amy and Belinda each roll a sheet of 6-inch by 8-inch paper to form a cylindrical tube. Amy tapes the two 8-inch sides together without overlap. Belinda tapes the two 6-inch sides together without overlap. What is $\\pi$ times the positive difference of the volumes of the two tubes?",
+  "n_questions": 11,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the dimensions of Amy's cylindrical tube?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the base circumference of Amy's cylinder and how can we find the radius?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the formula for the volume of a cylinder and how can we apply it to find $V_A$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you calculate the volume of Amy's cylinder using the given information and the formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What are the dimensions of Belinda's cylindrical tube?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "What is the base circumference of Belinda's cylinder and how can we find the radius?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the formula for the volume of a cylinder and how can we apply it to find $V_B$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "Can you calculate the volume of Belinda's cylinder using the given information and the formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the positive difference between the volumes of the two tubes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can we express this difference using $\\pi$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "Can you calculate the value of $\\pi$ times the positive difference of the volumes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_359",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Compute the number of degrees in the smallest positive angle $x$ such that\n\\[8 \\sin x \\cos^5 x - 8 \\sin^5 x \\cos x = 1.\\]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What properties or identities could we possibly use to simplify the equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What are the possible values for $\\sin 4x$ when it equals $\\frac{1}{2}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we express the equation in terms of $\\sin 4x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we find the smallest positive angle $x$ that satisfies $\\sin 4x = \\frac{1}{2}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other trigonometric equations that might require similar types of thinking or steps to solve?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

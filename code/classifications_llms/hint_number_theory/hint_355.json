@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_355",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "One digit of the decimal representation of $\\frac{5}{7}$ is randomly selected. What is the probability that the digit is a 4? Express your answer as a common fraction.",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "b",
+    "r",
+    "f",
+    "r",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you define probability in this context?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain what is meant by \"the decimal representation of $\\frac{5}{7}$\"?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for a digit to be \"randomly selected\" from a decimal representation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Based on the given information, what digits are possible to be selected? How many digits are there in total?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine the probability of selecting a specific digit?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you identify a pattern or rule in the decimal representation of $\\frac{5}{7}$ that can help us find the probability of selecting a particular digit?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "How does the length of the repeating block in the decimal representation affect the probability of selecting a specific digit?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "If the decimal representation had a different repeating block length, would the probability of selecting a specific digit change?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "How can we express the probability of selecting a 4 as a common fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

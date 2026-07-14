@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_570",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Following the directions of the arrows, how many different paths are there from $A$ to $C$?\n\n[asy]\npair A,B,C;\nA=(0,0);\nB=(5,0);\nC=(10,0);\ndot(A);\ndot(B);\ndot(C);\nlabel(\"$A$\",A,S);\nlabel(\"$B$\",B,S);\nlabel(\"$C$\",C,S);\ndraw((0,0)--(2.5,1)--(5,0),Arrow);\ndraw((0,0)--(2.5,-1)--(5,0),Arrow);\ndraw(B--(7.5,1)--C,Arrow);\ndraw(B--(7.5,-1)--C,Arrow);\ndraw(A--(5,3)--C,Arrow);\n[/asy]",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the starting point and the ending point for this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many paths are there from point A to point C in total?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Are there any restrictions on the paths that can be taken?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How many ways are there to get from point A to point B?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many ways are there to get from point B to point C?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can the paths be combined to find a total number of paths?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is an alternate way to get from point A to point C without going through point B?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How does the knowledge of the paths from point A to B and point B to C help in finding the total number of paths?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Are there any other similar problems that could use the same approach?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

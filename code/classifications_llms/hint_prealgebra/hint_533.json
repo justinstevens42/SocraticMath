@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_533",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Compute $7\\left(\\frac{1}{5}\\right)^3$.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the question asking you to do?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you recall the formula related to the given expression? What is it?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can you simplify the expression using the formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you identify the values for each element in the formula? What are they?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can you solve the expression once you have simplified it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any real-world situations where you may need to use this formula or a similar one? What are they, and how would you go about using the formula in those situations?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain this concept to someone who has never encountered it before? What would you say to help them understand it?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

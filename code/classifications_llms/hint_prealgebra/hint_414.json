@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_414",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "For a sale, a store owner reduces the price of a $\\$10$ scarf by $30\\%$. Later the price is lowered again, this time by $50\\%$ of the reduced price. What is the current price, in dollars?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the problem in your own words? What are we trying to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we represent the original price of the scarf mathematically?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean when the store owner reduces the price by 30%? How can we calculate the new price?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "After the first reduction, what is the price of the scarf?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we represent the second reduction mathematically? What percentage of the reduced price is being subtracted?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the final price of the scarf after the second reduction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain why the final price is one-half the sale price of $\\$7.00?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the current price of the scarf, in dollars?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

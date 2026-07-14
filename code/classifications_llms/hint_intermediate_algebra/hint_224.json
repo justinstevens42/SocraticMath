@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_224",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Positive integers $a$, $b$, and $c$ are chosen so that $a<b<c$, and the system of equations \\[\n2x + y = 2003\\quad\\text{and}\\quad y = |x-a| + |x-b| + |x-c|\n\\]has exactly one solution. What is the minimum value of $c$?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the given equations in the problem statement?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many solutions are allowed for the given system of equations?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "According to the problem statement, what is the relationship between the chosen integers $a$, $b$ and $c$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What can we infer about the graph of the equation $2x + y = 2003$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine the graph of the equation $y = |x-a| + |x-b| + |x-c|$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are the different cases we need to consider while drawing the graph of $y = |x-a| + |x-b| + |x-c|$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What are the slopes of the four lines in the graph of $y = |x-a| + |x-b| + |x-c|$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we find the coordinates of the corners of the graph of $y = |x-a| + |x-b| + |x-c|$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we find the point of intersection between the graphs of $2x + y = 2003$ and $y = |x-a| + |x-b| + |x-c|$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the minimum value of $c$ that satisfies the given conditions in the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

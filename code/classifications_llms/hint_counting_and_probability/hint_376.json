@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_376",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "2 distinct vertices of an octagon are chosen at random.  What is the probability that they are adjacent?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the problem statement in your own words? What are we trying to find the probability of?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is an octagon? How many vertices does it have?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "When we choose the first vertex, how many options do we have for the second vertex?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many of these options would result in adjacent vertices? Can you list them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What does it mean for two vertices to be adjacent? How do we determine if two vertices are adjacent in an octagon?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Based on our previous discussions, how would you calculate the probability of choosing two adjacent vertices?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "If there are 2 adjacent vertices out of 7 possible options, what is the probability that the two vertices are adjacent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you generalize this concept? What if we have a different number of vertices or a different shape?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Are there any other similar probability problems you can think of that might use a similar thought process and steps?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_146",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "The sequence 12, 15, 18, 21, 51, 81, $\\ldots$ consists of all positive multiples of 3 that contain at least one digit that is a 1. What is the $50^{\\mathrm{th}}$ term of the sequence?",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we determine if a number is a multiple of 3?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "According to the rule for divisibility by 3, what property do the digits of a multiple of 3 have?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What numbers are listed in the problem statement that are multiples of 3 and contain at least one digit that is a 1?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Are there any two-digit numbers that meet the given conditions beyond the ones listed in the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can we determine the range of three-digit numbers that meet the given conditions? If so, what is the range?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the rule for divisibility by 3 to find the remaining terms of the sequence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you list out the remaining terms of the sequence using the rule for divisibility by 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the 50th term of the sequence based on the given conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

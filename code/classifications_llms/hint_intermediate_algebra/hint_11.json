@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_11",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Find the number of functions of the form $f(x) = ax^2 + bx + c$ such that\n\\[f(x) f(-x) = f(x^2).\\]",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the function $f(x) = ax^2 + bx + c$ looks like in general?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for two functions to be equal? How does that relate to $f(x) f(-x) = f(x^2)$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What can we determine about the coefficients $a,$ $b,$ and $c$ by expanding $f(x) f(-x)$ and comparing to $f(x^2)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How do we use the relationships between the coefficients to find all possible solutions for $f(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you walk me through the different cases where $a$ and $c$ are either 0 or 1, respectively? How many solutions do we get in each case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other values of $a$ and $c$ that we haven't considered yet? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How do we know that we've found all the possible solutions for $f(x)$? Is there a way to check our answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

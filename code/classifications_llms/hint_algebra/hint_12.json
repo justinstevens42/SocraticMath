@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_12",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 1",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "After traveling 50 miles by taxi, Ann is charged a fare of $\\$120$. Assuming the taxi fare is directly proportional to distance traveled, how much would Ann be charged (in dollars) if she had traveled 70 miles?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the relationship between the taxi fare and the distance traveled based on the given information?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain what it means for two quantities to be directly proportional?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What mathematical equation represents the direct proportionality between the taxi fare and the distance traveled?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Using the equation you mentioned, how can we find the constant of proportionality in this scenario?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Once we have determined the constant of proportionality, how can we use it to calculate the fare for a different distance, such as 70 miles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any assumptions or limitations in this model of direct proportionality between taxi fare and distance traveled that we should be aware of?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

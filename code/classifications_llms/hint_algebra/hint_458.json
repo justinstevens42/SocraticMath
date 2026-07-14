@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_458",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "Suppose $f(x)$ is a function defined for all real $x$, and suppose $f$ is invertible (that is, $f^{-1}(x)$ exists for all $x$ in the range of $f$).\n\nIf the graphs of $y=f(x^2)$ and $y=f(x^4)$ are drawn, at how many points do they intersect?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "f",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you graph the functions $y=f(x^2)$ and $y=f(x^4)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain the concept of inverting a function and what it means for $f$ to be invertible?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for two graphs to intersect?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the points of intersection between these two graphs?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there any specific values of $x$ for which $f(x^2)=f(x^4)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How does the concept of even and odd exponents relate to the problem at hand?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other examples where we might encounter similar situations or questions related to intersecting graphs?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

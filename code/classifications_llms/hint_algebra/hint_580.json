@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_580",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Rationalize the denominator of $\\frac{\\sqrt{32}}{\\sqrt{16}-\\sqrt{2}}$. The answer can be written as $\\frac{A\\sqrt{B}+C}{D}$, where $A$, $B$, $C$, and $D$ are integers, $D$ is positive, and $B$ is not divisible by the square of any prime.  Find the minimum possible value of $A+B+C+D$.",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does it mean to rationalize a denominator? Can you explain it in your own words?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How would you approach rationalizing the denominator of this expression? Can you describe the first step?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What do you know about simplifying square roots? How can you apply that knowledge to simplify $\\sqrt{32}$ and $\\sqrt{16}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can you combine $\\sqrt{32}$ and $\\sqrt{16}$ to create a common denominator in the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What strategy can you use to eliminate the square root symbol in the denominator?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Are there any properties or rules of rationalizing denominators that may be helpful in this situation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Can you simplify the expression further once the denominator has been rationalized? What steps would you take?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Based on the given answer format, what terms could potentially be present in the simplified expression? How can we determine their values?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can you find the minimum possible value of $A+B+C+D$ in the simplified expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Are there any alternative methods or approaches to rationalizing the denominator in this expression?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

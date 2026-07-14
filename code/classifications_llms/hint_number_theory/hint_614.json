@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_614",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Let $n$ be an odd integer with exactly 11 positive divisors.  Find the number of positive divisors of $8n^3$.",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "b",
+    "b",
+    "f",
+    "f"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of an odd integer?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the number of positive divisors a number has?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can a number with prime factorization in the form $p^{10}$ have any other divisors besides $1, p, p^2, ..., p^{10}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the prime factorization of $8n^3$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the prime factorization to determine the number of positive divisors of $8n^3$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is it possible for $8n^3$ to have any divisors other than those derived from its prime factorization?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "What is the relationship between the number of positive divisors of $n$ and the number of positive divisors of $8n^3$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    }
+  ],
+  "classifier": "llm"
+}

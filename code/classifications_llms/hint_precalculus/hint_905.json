@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_905",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "Find the number of ordered quadruples $(a,b,c,d)$ of real numbers such that\n\\[\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}^{-1} = \\renewcommand{\\arraystretch}{1.5} \\begin{pmatrix} \\frac{1}{a} & \\frac{1}{b} \\\\ \\frac{1}{c} & \\frac{1}{d} \\end{pmatrix} \\renewcommand{\\arraystretch}{1}.\\]",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the inverse of a matrix, and why is it important in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we simplify the equation $\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} \\begin{pmatrix} \\frac{1}{a} & \\frac{1}{b} \\\\ \\frac{1}{c} & \\frac{1}{d} \\end{pmatrix} = \\mathbf{I}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What are the entries in the resulting matrix when we multiply the two matrices together?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How do these entries relate to the original variables $a$, $b$, $c$, and $d$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What conditions must be met for the resulting matrix to equal the identity matrix $\\mathbf{I}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we solve the equation $1 + \\frac{b}{c} = 1$ for $b$ and $c$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What does the solution $b = 0$ tell us about the number of ordered quadruples $(a,b,c,d)$ that satisfy the given equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

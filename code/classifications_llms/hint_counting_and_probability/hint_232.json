@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_232",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "A point $(x,y)$ is randomly and uniformly chosen inside the square with vertices (0,0), (0,2), (2,2), and (2,0).  What is the probability that $x+y < 3$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given scenario and what are we trying to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you interpret the condition $x+y < 3$ geometrically? How does it relate to the square and the line $y = -x + 3$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Why are we interested in the points below the line $y = -x + 3$? What do these points represent in terms of the given condition?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Can you visualize and describe the shaded region in the diagram? What is the area of this shaded region?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the total area of the square and how can we find it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we determine the probability of choosing a point that satisfies $x+y < 3$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

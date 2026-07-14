@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_82",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The volume of a given sphere is $36\\pi$ cubic inches. How many square inches are in its surface area? Express your answer in terms of $\\pi$.",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem? What do you need to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the formula for the volume of a sphere? How can you use this formula to find the radius of the given sphere?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can you solve the equation $\\frac{4}{3}\\pi r^3 = 36\\pi$ for the value of $r$? What operations do you need to perform?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why do we divide both sides of the equation by $\\frac{4}{3}\\pi$? What does this step help us find?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the significance of cube rooting both sides of the equation $r^3 = 27$? How does this relate to the radius of the sphere?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the formula for the surface area of a sphere? How can you use this formula to find the surface area of the sphere with a radius of 3?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Can you calculate the surface area of the sphere using the formula $4\\pi r^2$? What is your answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How does the surface area relate to the volume of a sphere? Can you explain any connections or patterns you observe?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_698",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "A teacher wants to arrange 3 copies of Introduction to Geometry and 4 copies of Introduction to Number Theory on a bookshelf. In how many ways can he do that?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the problem statement? What is the teacher trying to do with the books?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many copies of Introduction to Geometry and Introduction to Number Theory does the teacher have?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many locations are there on the bookshelf where the teacher can place the books?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the approach we can use to solve this problem? Is it a combination or permutation problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why we are using combination here and not permutation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How many spots does the teacher need to select for the Introduction to Geometry books, and how many spots will be left for the Introduction to Number Theory books?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you calculate the combination based on the given information? What is the result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

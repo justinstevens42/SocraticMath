@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_1020",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Suppose $a$ is an integer such that $0 \\le a \\le 14$, and $235935623_{74}-a$ is a multiple of $15$. What is $a$?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "f",
+    "r",
+    "f",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given problem asking you to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How is the number $235935623_{74}$ expressed in base 10?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the significance of $a$ being between 0 and 14?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean for a number to be a multiple of 15?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How does the fact that $74 \\equiv -1 \\mod{15}$ help simplify the expression of $235935623_{74}$ in base 10?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why the sum of the base 10 digits of $235935623_{74}$ is congruent to 0 mod 15?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Why is $a=\\boxed{0}$ the only possible value for this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can this method of converting between different bases be applied to other problems in number theory?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

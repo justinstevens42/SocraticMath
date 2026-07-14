@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_687",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "A regular hexagon is inscribed in a circle of radius 2 units. In square units, what is the area of the hexagon? Express your answer in simplest radical form.",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "f",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the relationship between the regular hexagon and the circle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the side length of each triangle formed by connecting the opposite vertices of the hexagon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the formula for finding the area of an equilateral triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we divide the equilateral triangle into two smaller 30-60-90 triangles?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the side length of each equilateral triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the formula for finding the area of the hexagon using the area of each triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we simplify the expression for the area of the hexagon in simplest radical form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you explain the reason behind each step in obtaining the final answer?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 9,
+      "question": "Are there any other similar geometric problems where we can use similar concepts and steps?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

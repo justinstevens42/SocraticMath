@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_719",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Laura is training for a triathlon, but she doesn't feel like swimming. She bikes $20$ miles at $2x+1$ miles per hour, spends five minutes parking her bike, changing to her running shoes, and catching a drink of water, and then runs $5$ miles at $x$ miles per hour. Her total workout lasts $110$ minutes. How fast did Laura run, to the nearest hundredth of a mile per hour?  (You may use a calculator on this problem.)",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "f",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we represent Laura's biking speed in terms of \"x\"?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What formula can we use to calculate the time it takes for Laura to bike $20$ miles?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we express the time Laura spends changing and taking a break after the bike ride in terms of minutes?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we represent Laura's running speed in terms of \"x\"?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "What formula can we use to calculate the time it takes for Laura to run $5$ miles?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we express the total time Laura spent on her workout in terms of minutes?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "What equation can we set up to represent the total time Laura spent on her workout?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we solve the equation to find the value of \"x\"?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Once we find the value of \"x\", how can we calculate the speed at which Laura ran?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can we round the answer to the nearest hundredth of a mile per hour?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

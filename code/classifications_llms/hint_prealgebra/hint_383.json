@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_383",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "The stem-and-leaf plot shows the number of minutes and seconds of one ride on each of the $17$ top-rated roller coasters in the world. In the stem-and-leaf plot, $2 \\ 20$ represents $2$ minutes, $20$ seconds, which is the same as $140$ seconds. What is the median of this data set? Express your answer in seconds.\n\n\\begin{tabular}{c|ccccc}\n0&28&28&50&&\\\\\n1&00&02&&&\\\\\n2&20&25&35&43&45\\\\\n3&00&00&00&30&36\\\\\n4&00&00&&&\\\\\n\\end{tabular}",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "f",
+    "b",
+    "b",
+    "e",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a stem-and-leaf plot, and how does it organize the data?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the median from a stem-and-leaf plot?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Why do we need to convert the minutes to seconds before finding the median?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How many data points are there in the stem-and-leaf plot?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Why do we choose the ninth data point to find the median?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we convert the time of 2 minutes and 43 seconds to seconds?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other methods we can use to find the median in this context?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "How does finding the median help us understand the data set better?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any limitations or assumptions when using the stem-and-leaf plot to find the median?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "Can we find any other measures of central tendency, such as the mean or mode, from the stem-and-leaf plot?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

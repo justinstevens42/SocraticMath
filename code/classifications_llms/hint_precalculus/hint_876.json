@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_876",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "The dilation, centered at $2 + 3i,$ with scale factor 3, takes $-1 - i$ to which complex number?",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "r",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a dilation, and how does it transform points in the complex plane?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do we specify a dilation, and what does its scale factor represent?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for a dilation to be centered at a particular complex number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the formula for dilations to find the image of a point under the transformation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the image of $-1 - i$ under the given dilation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How does the location of the center of dilation affect the resulting image?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "What other types of transformations might we use in combination with dilations to generate more complex mappings of the complex plane?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

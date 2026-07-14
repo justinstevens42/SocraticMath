@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_426",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Find $2^{\\frac{1}{2}} \\cdot 4^{\\frac{1}{4}} \\cdot 8^{\\frac{1}{8}} \\cdot 16^{\\frac{1}{16}} \\dotsm.$",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you rewrite the expression $2^{\\frac{1}{2}} \\cdot 4^{\\frac{1}{4}} \\cdot 8^{\\frac{1}{8}} \\cdot 16^{\\frac{1}{16}} \\dotsm$ in a different form?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between the exponents of each term in the expression and the corresponding power of 2?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we rewrite the exponent of each term in a common fraction with denominator 2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can we simplify the expression by combining the fractions in the exponents?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the value of the sum $S = \\frac{1}{2} + \\frac{2}{4} + \\frac{3}{8} + \\frac{4}{16} + \\dotsb,$ and how is it related to the expression we are trying to evaluate?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the value of $2S,$ and how is it related to the expression we are trying to evaluate?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we use $S$ and $2S$ to find the value of the expression $2^{\\frac{1}{2}} \\cdot 4^{\\frac{1}{4}} \\cdot 8^{\\frac{1}{8}} \\cdot 16^{\\frac{1}{16}} \\dotsm$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the final answer, and how does it compare to the initial expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

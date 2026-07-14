@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_763",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The parabolas defined by the equations $y=2x^2-4x+4$ and $y=-x^2-2x+4$ intersect at points $(a,b)$ and $(c,d)$, where $c\\ge a$. What is $c-a$? Express your answer as a common fraction.",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the general process for finding the points of intersection between two parabolas?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the coordinates of the points of intersection between the parabolas defined by the equations $y=2x^2-4x+4$ and $y=-x^2-2x+4$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Are there any special techniques or methods that we can use to find the points of intersection between the given parabolas?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do we find the x-coordinates of the points of intersection between the two parabolas?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Once we have the x-coordinates, how can we find the corresponding y-coordinates of the points of intersection?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we determine which point of intersection has a larger x-coordinate, and which has a smaller x-coordinate?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Given the coordinates of the points of intersection, how can we find the difference between the x-coordinates of those points?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you find the specific values of $a$ and $c$ that correspond to the x-coordinates of the points of intersection?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Once we have the values of $a$ and $c$, how can we calculate the difference $c-a$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you express the difference $c-a$ as a simplified fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

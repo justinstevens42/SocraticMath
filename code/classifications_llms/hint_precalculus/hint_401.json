@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_401",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Compute $\\begin{pmatrix} 1 & 0 \\\\ 1 & 1 \\end{pmatrix}^{2018}.$",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "f",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we write the given matrix as a product of two matrices?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the result of multiplying the two matrices in general? Can you write it in matrix form?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we represent the given matrix raised to the power of 2018 using matrix multiplication?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why the pattern of the second column of the resulting matrix is always 0 and 2018?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Can you describe the steps involved in multiplying two matrices to find the resulting matrix?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other examples where a similar pattern might emerge when raising a matrix to a high power?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

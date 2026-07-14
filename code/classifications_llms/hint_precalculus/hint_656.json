@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_656",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find the matrix $\\mathbf{M}$ such that\n\\[\\mathbf{M} \\begin{pmatrix} -3 & 4 & 0 \\\\ 5 & -7 & 0 \\\\ 0 & 0 & 1 \\end{pmatrix} = \\mathbf{I}.\\]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem we are trying to solve in this question, and what are the given matrices?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you express the matrix $\\mathbf{M}$ in the form $\\begin{pmatrix} a & b & c \\\\ d & e & f \\\\ g & h & i \\end{pmatrix}$, and understand what each entry represents?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Based on the given equation, what conditions must $\\mathbf{M}$ satisfy in order to solve the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why do we want $c = f = 0$ and $i = 1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What conditions do we get for the remaining entries in $\\mathbf{M}$ after setting $c=f=0$ and $i=1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we write the remaining portion of the matrix $\\mathbf{M}$ as the product of two $2 \\times 2$ matrices?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What conditions does the matrix $\\begin{pmatrix} a & b \\\\ d & e \\end{pmatrix}$ need to satisfy in order for it to be the inverse of $\\begin{pmatrix} -3 & 4 \\\\ 5 & -7 \\end{pmatrix}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the inverse of $\\begin{pmatrix} -3 & 4 \\\\ 5 & -7 \\end{pmatrix}$, and how do we get this result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How do we use this inverse matrix to find $\\mathbf{M}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you verify that the resulting matrix satisfies the original equation, and what does this tell us about the solution?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

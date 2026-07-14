@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_893",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Every 5 months, Hal has to replace the batteries in his calculator. He changed them the first time in May. In what month will they be changed the 25th time?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the pattern for when Hal has to replace the batteries in his calculator?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "When did Hal change the batteries in his calculator for the first time?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many months after May will it be when Hal changes the batteries in his calculator for the fifth time?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the formula for finding the month when Hal will change the batteries for the nth time?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How many months will it have been since May when Hal changes the batteries in his calculator for the 25th time?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the remainder when $5\\cdot24$ is divided by 12?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What does the remainder from question 6 represent in terms of months?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "In what month will Hal change the batteries in his calculator for the 25th time?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

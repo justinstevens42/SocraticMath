@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_736",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "The greatest integer function of $x$ is expressed as $[x]$ and is defined to be the greatest integer less than or equal to $x$. Find $[\\pi - 4]$",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "f",
+    "b",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the greatest integer function is and how it is defined?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the value of $[\\pi]$? How does this relate to finding $[\\pi - 4]$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we interpret $[\\pi - 4]$ in terms of the greatest integer function?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the value of $\\pi - 4$, and how does it compare to the nearest integers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Based on the definition of the greatest integer function, can you determine the value of $[\\pi - 4]$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any properties or rules of the greatest integer function that can help us simplify calculations involving it?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other examples where the greatest integer function could be used to solve a problem or simplify an expression?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

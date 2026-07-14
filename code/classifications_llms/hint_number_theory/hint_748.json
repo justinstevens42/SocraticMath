@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_748",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The fraction $\\frac{a}{a+27}$, where $a$ is a positive integer, equals $0.865$.  What is the value of $a$?",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How did we rewrite $0.865$ in terms of fractions and what is the significance of doing so?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the equation we need to solve to find the value of $a$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How did we obtain the expression $10^3a=865a+865\\cdot27$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why we chose to subtract $865a$ from both sides of the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did we simplify the equation to solve for $a$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any restrictions on the possible values of $a$? If so, what are they and why do they exist?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other problems that can be solved using similar techniques?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

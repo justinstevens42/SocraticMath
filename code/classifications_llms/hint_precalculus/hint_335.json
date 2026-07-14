@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_335",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "Let $\\mathbf{a} = \\begin{pmatrix} 1 \\\\ -2 \\\\ -5 \\end{pmatrix},$ $\\mathbf{b} = \\begin{pmatrix} \\sqrt{7} \\\\ 4 \\\\ -1 \\end{pmatrix},$ and $\\mathbf{c} = \\begin{pmatrix} 13 \\\\ -4 \\\\ 17 \\end{pmatrix}.$  Find the angle between the vectors $\\mathbf{a}$ and $(\\mathbf{a} \\cdot \\mathbf{c}) \\mathbf{b} - (\\mathbf{a} \\cdot \\mathbf{b}) \\mathbf{c},$ in degrees.",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you define the dot product of two vectors?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you describe the geometric interpretation of the dot product?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can the dot product be used to find the angle between two vectors?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How would you calculate the dot product of vectors $\\mathbf{a}$ and $\\mathbf{c}$ in this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How would you calculate the dot product of vectors $\\mathbf{a}$ and $(\\mathbf{a} \\cdot \\mathbf{b}) \\mathbf{c}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How would you calculate the dot product of vectors $\\mathbf{a}$ and $(\\mathbf{a} \\cdot \\mathbf{c}) \\mathbf{b}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the difference between $(\\mathbf{a} \\cdot \\mathbf{b}) \\mathbf{c}$ and $(\\mathbf{a} \\cdot \\mathbf{c}) \\mathbf{b}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How would you use the dot product to find the angle between vectors $\\mathbf{a}$ and $(\\mathbf{a} \\cdot \\mathbf{c}) \\mathbf{b} - (\\mathbf{a} \\cdot \\mathbf{b}) \\mathbf{c}$ in this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the final answer for the angle between vectors $\\mathbf{a}$ and $(\\mathbf{a} \\cdot \\mathbf{c}) \\mathbf{b} - (\\mathbf{a} \\cdot \\mathbf{b}) \\mathbf{c}$ in degrees?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

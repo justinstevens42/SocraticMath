@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_165",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The prime factorization of 2007 is $3^{2}\\times223$. How many ordered pairs of positive integers $(x,y)$ satisfy the equation $xy=2007$?",
+  "n_questions": 9,
+  "labels": [
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "f",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem? What do we need to consider when finding the prime factorization of 2007?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the prime factorization of 2007? What methods or strategies can we use?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain why we need to consider both the factors of 3 and 223 in order to find the prime factorization of 2007?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How many factors of 3 can there be in the prime factorization of 2007? How many factors of 223 can there be?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we determine the total number of factors or divisors of 2007? What are the possible combinations of factors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why each divisor corresponds to a unique ordered pair of positive integers $(x, y)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "How can we use the prime factorization to determine the number of ordered pairs that satisfy the equation $xy=2007$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other similar problems that involve finding divisors or prime factorization and require a similar thought process and steps?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Can you summarize your findings and explain how you arrived at the answer of 6 ordered pairs?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

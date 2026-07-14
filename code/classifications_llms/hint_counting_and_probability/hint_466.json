@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_466",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "A Senate committee has 5 Democrats and 5 Republicans.  In how many ways can they sit around a circular table if each member sits next to two members of the other party? (Two seatings are the same if one is a rotation of the other.)",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the setup of the problem? Can you describe the seating arrangement of the Senate committee?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many Democrats and Republicans are there in the Senate committee?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for each member to sit next to two members of the other party? Can you provide an example of a valid seating arrangement?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How many ways can the senators be seated around a circular table without any restrictions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why is it necessary to fix the rotation by placing the youngest Democrat in the top seat?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How many ways are there to place the remaining Democrats in the other Democratic seats after fixing the rotation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How many ways are there to place the Republicans in the Republican seats?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the total number of valid seating arrangements when considering both the Democrats and Republicans?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you explain why we multiply the number of ways to place Democrats and Republicans to obtain the total arrangements?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 10,
+      "question": "What is the final answer to the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

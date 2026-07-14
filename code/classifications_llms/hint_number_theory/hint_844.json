@@ -1,0 +1,50 @@
+{
+  "problem_id": "hint_844",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Express $0.\\overline{1}+0.\\overline{02}+0.\\overline{003}$  as a common fraction.",
+  "n_questions": 5,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a repeating decimal? Can you give an example?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we convert a repeating decimal to a fraction? Can you walk me through the process for one of the decimals given in the problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can we use the same method to convert any repeating decimal to a fraction? Are there any limits or restrictions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How did you add the fractions together to get the final result? Is there a specific strategy or technique you used?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of other situations where converting a repeating decimal to a fraction would be useful? How could it be applied in real-life situations?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

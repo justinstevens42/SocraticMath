@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_379",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "What is the smallest positive integer that ends in 9 and is divisible by 7?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the problem in your own words? What are we being asked to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How would you approach finding a positive integer that ends in 9 and is divisible by 7? Can you think of any initial steps?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for a number to be divisible by 7? Can you think of any properties or characteristics that numbers divisible by 7 might have?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Let's start with 9 and keep adding 10 until we find a number that is divisible by 7. Can you try this method and see if you can find a number that meets the criteria?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What did you find? Is there a number that ends in 9 and is divisible by 7 among the numbers you tried?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "If the numbers you tried so far didn't work, what other integers could you try that end in 9? Can you think of a pattern or rule that could help you find the smallest integer that meets the given conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other problem scenarios where a similar approach of trying different integers and looking for a specific property might be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

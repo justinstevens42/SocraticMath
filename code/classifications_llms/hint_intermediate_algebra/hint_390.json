@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_390",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "A slant asymptote of the rational expression $y = \\frac{2x^2 + 3x - 7}{x-3}$ is the line approached by the equation as $x$ approaches $\\infty$ or $-\\infty$. If this line is of the form $y = mx + b$, find $m+b$.",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of a slant asymptote of a rational expression?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do we find the slant asymptote of $y = \\frac{2x^2 + 3x - 7}{x-3}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can we use long division or synthetic division to evaluate the quotient of the given rational expression? If so, how can we do this?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How do we rewrite the numerator as $2x^2 + 3x - 7$ $ = 2x^2 + 3x - 7 - 9x + 9x$ $ = 2x(x-3) + 9x - 7 - 20 + 20$ $ = 2x(x-3) + 9(x-3) + 20$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we use the rewritten numerator to find the slant asymptote of the given rational expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What happens to the fraction $\\frac{20}{x-3}$ as $x$ approaches infinity or negative infinity?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How do we determine the equation of the slant asymptote using the limit of the given rational expression as $x$ approaches infinity or negative infinity?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the form of the equation of the slant asymptote of the given rational expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the value of $m+b$ for the equation of the slant asymptote of the given rational expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

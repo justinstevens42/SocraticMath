@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_23",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Abe, Bobby, Charles, Devin and Edwin are the participants in a race. How many different 1st-2nd-3rd place outcomes are possible if there are no ties? Two different outcomes to include are Bobby-Devin-Edwin and Devin-Bobby-Edwin.",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "f",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in determining the number of different 1st-2nd-3rd place outcomes in this race situation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many possibilities are there for the first place finisher?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "After the first place is determined, how many possibilities are there for the second place finisher?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Once the first two places are determined, how many possibilities are there for the third place finisher?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we find the total number of different 1st-2nd-3rd place outcomes by combining the possibilities for each place?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other ways to approach this problem and come up with the same result?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "What assumptions are we making about the race, such as no ties or equal chance for each participant? How do these assumptions affect our calculations?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other similar situations where we need to count the number of possible outcomes in a certain order?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

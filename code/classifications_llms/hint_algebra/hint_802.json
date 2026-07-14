@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_802",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Compute $i^{600} + i^{599} + \\cdots + i + 1$, where $i^2=-1$.",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the first step in computing the given expression?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the properties of the imaginary unit, i, and how can they be applied in this situation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Is there a pattern or relationship between the exponents of i? If so, how can it be utilized in simplifying the expression?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you identify any simplification techniques or identities that can be used to simplify the given expression?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can you group terms in the expression to facilitate computation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any strategies or shortcuts that can be employed to simplify the expression efficiently?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "What is the simplified form of each term in the expression, and how do they contribute to the overall value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you generalize or extend this problem to other expressions involving powers of i? What insights or strategies can be applied in those cases?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

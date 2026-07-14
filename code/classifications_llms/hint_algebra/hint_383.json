@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_383",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "What is $a-2b$, where $a=4-2i$ and $b=3+2i$?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the value of $a$ in the expression $a - 2b$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the value of $b$ in the expression $a - 2b$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Given that $a = 4 - 2i$ and $b = 3 + 2i$, how can we substitute these values into the expression $a - 2b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the result of subtracting $2b$ from $a$ using the given values of $a$ and $b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we perform subtraction with complex numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you express the expression $a - 2b$ in simplified form, where the real and imaginary parts are separated?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you simplify the expression $a - 2b$ to obtain a single complex number? What is its real part and imaginary part?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How does the value of $a-2b$ relate to the given complex numbers $a$ and $b$?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "What is the significance of the result obtained for $a-2b$ in terms of understanding complex number operations?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any other similar expressions involving complex numbers where the same reasoning and steps can be applied?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

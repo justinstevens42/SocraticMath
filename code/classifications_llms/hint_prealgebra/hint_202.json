@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_202",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "What is the measure, in degrees, of one interior angle of a regular hexagon?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what a regular hexagon is?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the sum of the interior angles of a regular hexagon?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What formula can we use to calculate the sum of the interior angles of any polygon?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the measure of one interior angle of a regular hexagon using the formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you calculate the measure of one interior angle of a regular hexagon using the given formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why the measure of one interior angle of a regular hexagon is equal to 120 degrees?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

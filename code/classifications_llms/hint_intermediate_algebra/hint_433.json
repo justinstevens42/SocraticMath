@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_433",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "The expression $\\log_{y^6}{x}\\cdot\\log_{x^5}{y^2}\\cdot\\log_{y^4}{x^3}\\cdot\\log_{x^3}{y^4}\\cdot\\log_{y^2}{x^5}$ can be written as $a\\log_y{x}$ for what constant $a$?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given expression?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we simplify the given expression using the formula $\\log_a{b}=\\frac{\\log_c{b}}{\\log_c{a}}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the next formula we can use to simplify the expression?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we apply the formula $a\\log_b{x}=\\log_b{x^a}$ to the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the final expression we get after simplifying?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What constant $a$ do we need to find in the expression $a\\log_y{x}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "How can we equate the expression we got after simplifying to the expression $a\\log_y{x}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the value of $a$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

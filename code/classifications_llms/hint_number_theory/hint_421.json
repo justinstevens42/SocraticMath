@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_421",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "What is the remainder when 369,963 is divided by 6?",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what it means for a number to be divisible by 6?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Why is it important to determine if a number is divisible by 2 and 3 in order to know if it is divisible by 6?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we check if a number is divisible by 2 or 3?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Is 369,963 divisible by 2? If not, why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Is 369,963 divisible by 3? If so, what is the result of the division?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "If a number is divisible by 6, what can we say about the remainder when dividing by 6?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain why the remainder after dividing 369,963 by 6 must be an odd, non-negative multiple of 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What are the possible remainders when dividing by 6?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "Given the above information, what is the remainder when 369,963 is divided by 6?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

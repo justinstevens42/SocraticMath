@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_258",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find $r$ such that $\\log_{81} (2r-1) = -1/2$.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the first step to solve this equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What different methods do you know that can be used to solve equations like this?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If we choose to rewrite the equation in exponential form, what would it look like? How can we use this form to find the value of r?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is logarithm used in this equation? What properties of logarithms make it applicable here?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the equivalent exponential form of the given equation? How can we use it to solve for r?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other types of equations where logarithms might be involved? How can a similar approach be applied to solve them?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

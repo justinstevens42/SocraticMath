@@ -1,0 +1,99 @@
+{
+  "problem_id": "hint_443",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Phil has 7 green marbles and 3 purple marbles in a bag. He removes a marble at random, records the color, puts it back, and then repeats this process until he has withdrawn 6 marbles. What is the probability that exactly three of the marbles that he removes are green? Express your answer as a decimal rounded to the nearest thousandth.",
+  "n_questions": 12,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total number of marbles in the bag?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the total probability of pulling out a green marble on the first pull?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the total probability of pulling out a purple marble on the first pull?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many marbles does Phil remove in total?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "What is the probability of pulling out a green marble on any single pull, assuming the marble is replaced after each pull?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the probability of pulling out a purple marble on any single pull, assuming the marble is replaced after each pull?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How many ways are there to choose 3 green marbles out of the 7 green marbles in the bag?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How many ways are there to choose 3 purple marbles out of the 3 purple marbles in the bag?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the total number of ways to choose 3 marbles out of the 10 marbles in the bag?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Why do we use the combination formula to calculate the number of ways to choose 3 out of 6 marbles to be green?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 11,
+      "question": "Why do we multiply the probability of pulling out 3 green marbles by the number of ways to choose 3 out of 6 marbles to be green?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 12,
+      "question": "What is the final probability of exactly 3 out of 6 marbles being green?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

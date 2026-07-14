@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_770",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Alex has 12 friends and 63 coins. What is the minimum number of additional coins he needs so that he can give each friend at least one coin and no two friends receive the same number of coins?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "f",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the problem in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the initial step you would take to solve this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Are there any specific strategies or methods that you think could be useful in solving this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can you ensure that each friend receives at least one coin?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "What is the maximum number of coins that Alex can give to any single friend?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can you distribute the remaining coins to ensure that no two friends receive the same number of coins?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Is there only one possible solution to this problem? Why or why not?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any similar problems that involve distributing a certain quantity amongst a group of individuals?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

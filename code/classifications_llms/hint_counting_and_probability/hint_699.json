@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_699",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "What is the value of $\\sqrt{3! \\cdot 3!}$ expressed as a positive integer?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the factorial symbol (!) represents in mathematics?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How would you calculate the value of 3 factorial (3!)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean when we have two factorials multiplied together, like in the expression 3! * 3!?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Can you simplify the expression (3!)^2 using the properties of exponents?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the simplified form of (3!)^2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Finally, what is the positive integer value of the square root of (3! * 3!) expressed as an answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

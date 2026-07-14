@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_377",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level ?",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "We have a triangle $\\triangle ABC$ and a point $K$ on $BC$ such that $AK$ is an altitude of $\\triangle ABC$. If $AC = 10,$ $BK = 7$, and $BC = 13,$ then what is the area of $\\triangle ABC$?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What do we know about the triangle and point K?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the length of AK?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Given that AC = 10 and AK is perpendicular to BC, what can we determine about the lengths of AK and CK?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What kind of triangle is AKC? How do we know?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can we find the length of AK?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Using the given lengths, what is the length of AK?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the formula for finding the area of a triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "How can we apply the formula to find the area of triangle ABC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the final answer for the area of triangle ABC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

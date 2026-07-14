@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_81",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Alice and Bob play a game with a baseball. On each turn, if Alice has the ball, there is a 1/2 chance that she will toss it to Bob and a 1/2 chance that she will keep the ball. If Bob has the ball, there is a 2/5 chance that he will toss it to Alice, and if he doesn't toss it to Alice, he keeps it. Alice starts with the ball. What is the probability that Alice has the ball again after two turns?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the initial probability of Alice having the ball at the start of the game?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "If Alice tosses the ball to Bob on the first turn, what is the probability that Bob will toss it back to Alice on the second turn?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "If Alice keeps the ball on the first turn, what is the probability that she will also keep it on the second turn?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can we calculate the probability of Alice having the ball after two turns by considering these two cases separately? Why or why not?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Take a moment to calculate the probability for each case and explain your reasoning.",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do we combine the probabilities of the two cases to find the overall probability of Alice having the ball after two turns?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Calculate the final probability using the given probabilities and explain the steps involved.",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other situations or similar problems where we can apply similar thinking and steps?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Reflecting on the problem-solving process, how can understanding probabilities help us in real-life scenarios?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

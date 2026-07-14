@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_618",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Find the equation of the plane passing through $(-1,1,1)$ and $(1,-1,1),$ and which is perpendicular to the plane $x + 2y + 3z = 5.$  Enter your answer in the form\n\\[Ax + By + Cz + D = 0,\\]where $A,$ $B,$ $C,$ $D$ are integers such that $A > 0$ and $\\gcd(|A|,|B|,|C|,|D|) = 1.$",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the given points that the plane passes through?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the normal vector of the plane we are interested in?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Why does the normal vector have to be orthogonal to both the given vector and the normal vector of the given plane?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do we find the normal vector by taking the cross product of the given vector and the normal vector of the given plane?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we scale the resulting vector to obtain the normal vector of the desired plane?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the general form of the equation of a plane?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can we substitute the coordinates of one of the given points into the equation to determine the value of D in the equation of the plane?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other applications or scenarios where finding the equation of a plane and its normal vector would be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

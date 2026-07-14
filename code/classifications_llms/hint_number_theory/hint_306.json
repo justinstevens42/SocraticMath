@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_306",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Each letter of the alphabet is assigned a value $(A=1, B=2, C=3, ..., Z=26)$. The product of a four-letter list is the product of the values of its four letters. The product of the list $ADGI$ is $(1)(4)(7)(9) = 252$. What is the only other four-letter list with a product equal to the product of the list $PQRS$? Write the letters of the four-digit list in alphabetical order.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem? What information do you need to consider?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the possible values of each letter? How can you use these values to calculate the product?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How did you determine the product of the list $ADGI$? What are the values of the letters in this list?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why must the product of the other four-letter list be equal to the product of $PQRS$? What is the significance of this requirement?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "What can you deduce from the prime factorization of the product of $PQRS$? How does this help in finding the other four-letter list?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How did you identify the letters in the four-letter list $\\boxed{LQSX}$? Can you explain the reasoning behind each letter's value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

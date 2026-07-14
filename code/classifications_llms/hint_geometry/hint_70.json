@@ -1,0 +1,50 @@
+{
+  "problem_id": "hint_70",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Triangle $ABC$ with vertices $A(-2, 0)$, $B(1, 4)$ and $C(-3, 2)$ is reflected over the $y$-axis to form triangle $A'B'C'$. What is the length of a segment drawn from $C$ to $C'$?",
+  "n_questions": 5,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "f",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the process of reflecting a point over the y-axis?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What are the coordinates of C and C'?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How do we find the length of the segment from C to C'?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why the segment is a horizontal line?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "What is the length of the segment from C to C'?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

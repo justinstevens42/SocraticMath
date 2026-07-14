@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_403",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Compute the unique positive integer $n$ such that\n\\[2 \\cdot 2^2 + 3 \\cdot 2^3 + 4 \\cdot 2^4 + \\dots + n \\cdot 2^n = 2^{n + 10}.\\]",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of $S$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Why is it helpful to compute $2S$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the purpose of subtracting the equation for $S$ from $2S$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain each step of subtracting the equations and simplifying?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did we end up with $(n-1)2^{n+1}$ at the end of the simplification?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use this expression to solve for $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final answer for $n$ and how do you know it is unique?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other problems where the sum of a finite series can be expressed in terms of a power of 2?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

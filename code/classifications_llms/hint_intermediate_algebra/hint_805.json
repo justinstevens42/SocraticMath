@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_805",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Let $f(n)$ be the integer closest to $\\sqrt[4]{n}.$ Find $\\sum_{k=1}^{1995}\\frac 1{f(k)}.$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How do we define the function $f(n)$ for a given integer $n$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between $f(n)$ and $\\sqrt[4]{n}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you derive the inequality $\\left(m - \\frac{1}{2}\\right)^4 < n < \\left(m + \\frac{1}{2}\\right)^4$ from the given expression for $f(n)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many values of $n$ satisfy the inequality $\\left(m - \\frac{1}{2}\\right)^4 < n < \\left(m + \\frac{1}{2}\\right)^4$ for a given integer $m$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the contribution to the sum $\\sum_{k=1}^{1995}\\frac 1{f(k)}$ from the terms where $f(k)=m$ for a given integer $m$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do we calculate the final answer for the sum $\\sum_{k=1}^{1995}\\frac 1{f(k)}$ using the contributions from each integer $m$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_711",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "A set of three numbers has both a mean and median equal to 4. If the smallest number in the set is 1, what is the range of the set of numbers?",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does it mean for a set of numbers to have a mean and median equal to 4?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How is the mean of a set of numbers calculated? And what about the median?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Given that the smallest number in the set is 1, can you determine any possible values for the other two numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the sum of the three numbers if we know that their mean is 4?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why can we subtract the sum of 1 and 4 from 12 to find the third number? Is this a valid approach?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What does the term \"range\" mean in the context of a set of numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can we calculate the range of a set of numbers? Can you walk me through the steps?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "Based on the given information, what is the range of the set of numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

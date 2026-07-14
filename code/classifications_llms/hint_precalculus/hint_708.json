@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_708",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Let triangle $ABC$ be a right triangle with right angle at $C.$ Let $D$ and $E$ be points on $\\overline{AB}$ with $D$ between $A$ and $E$ such that $\\overline{CD}$ and $\\overline{CE}$ trisect $\\angle C.$ If $\\frac{DE}{BE} = \\frac{8}{15},$ then find $\\tan B.$",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given problem and identify the important information or variables involved?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the significance of the right triangle and the right angle at point C in relation to the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How does the trisection of angle C affect the positions of points D and E on side AB?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the relationship between the lengths of DE and BE? How does this relate to the given ratio of 8/15?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can we set up a specific scenario by setting CB = 1? What implications does this have for the other sides and angles of the triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we apply the Angle Bisector Theorem to determine the length of CD?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What formula can we use to find the length of BD in terms of CD and BE? Can we simplify this expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we use the Law of Cosines to find the cosine of angle B in triangle DCB? What information do we need for this calculation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we find the sine of angle B using the Pythagorean identity? What is the significance of the positive sign for sine in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Finally, with the cosine and sine of angle B, how can we determine the tangent of B and what is its value based on the given problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

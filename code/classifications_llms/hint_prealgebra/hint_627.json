@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_627",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "If Jeff picks one letter randomly from the alphabet, what is the probability that the letter is in the word `PROBABILITY'?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you list the letters that are used in the word PROBABILITY?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many letters are there in the alphabet?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Since the word PROBABILITY uses 9 different letters, what is the probability that Jeff will choose one of these letters if he picks one letter randomly out of the alphabet?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Is there any difference in the probability if Jeff picks a letter from a set that includes only the letters used in the word PROBABILITY?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "If Jeff has already picked a letter, what is the probability that it is one of the letters used in the word PROBABILITY?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other words that use a similar set of letters? Would the probability be the same or different?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

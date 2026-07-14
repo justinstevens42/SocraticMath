@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_159",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The function $f : \\mathbb{R} \\to \\mathbb{R}$ satisfies\n\\[f(x) + 2f(1 - x) = 3x^2\\]for all $x.$  Find $f(4).$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what the given functional equation represents in terms of function values?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Are there any specific values of $x$ that we can substitute into the functional equation to simplify it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What happens when we substitute $x = 4$ into the functional equation? Can you show the steps to get the resulting equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Similarly, what happens when we substitute $x = -3$ into the functional equation? Can you show the steps to get the resulting equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What can we deduce from the two resulting equations involving $f(4)$ and $f(-3)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use these two equations to solve for $f(4)$? Can you explain the steps and reasoning behind the solution?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

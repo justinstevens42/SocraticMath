@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_959",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Math City has eight streets, all of which are straight. No street is parallel to another street. One police officer is stationed at each intersection. What is the greatest number of police officers needed?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is Math City and what is the problem we are trying to solve?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many streets are there in Math City and what is special about them?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many intersections are there when there are only two streets in Math City?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can we generalize the number of intersections for any given number of streets in Math City? If so, how?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we use combinatorics to find the maximum number of intersections when eight streets are built in Math City?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there any possibility of having less than 28 intersections when eight streets are built? If so, how?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we extend this problem to different scenarios, such as having parallel streets or curved streets?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

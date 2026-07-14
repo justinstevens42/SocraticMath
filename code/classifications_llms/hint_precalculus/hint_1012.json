@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_1012",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Let $\\mathbf{A} = \\begin{pmatrix} a & 1 \\\\ -2 & d \\end{pmatrix}$ for some real numbers $a$ and $d.$  If\n\\[\\mathbf{A} + \\mathbf{A}^{-1} = \\mathbf{0},\\]then find $\\det \\mathbf{A}.$",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "When solving for the determinant of a matrix, what methods do you know that can be used?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you choose to use the formula for the inverse matrix, how would you find the appropriate values for the inverse matrix components?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is it possible to add the matrix and its inverse to get the zero matrix? What properties enable this method?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the determinant of the matrix you are given, and how does this value validate your solution?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other types of matrices where similar thinking and steps might be used to solve for the determinant?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

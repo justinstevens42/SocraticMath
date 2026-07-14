@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_329",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "How many degrees are in the measure of the smaller angle formed by the hour and minute hands of a clock when the time is 7 p.m.?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the position of the hour hand and the minute hand on the clock at 7 p.m.?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many degrees does the hour hand move in one hour? And how many degrees does the minute hand move in one hour?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the difference in degrees between the position of the hour hand at 7 p.m. and the position of the hour hand at 12?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the difference in degrees between the position of the minute hand at 7 p.m. and the position of the minute hand at 12?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can you use the differences in degrees to calculate the angle between the hour and minute hands at 7 p.m.?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other times throughout the day where the angle between the hour and minute hands would be the same? If so, what are they?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other ways to determine the measure of the angle between the hour and minute hands at 7 p.m. on a clock?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

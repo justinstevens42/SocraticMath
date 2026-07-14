@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_409",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "The areas of two squares are in the ratio $25:36$. What is the ratio of their perimeters? Express your answer in the form $a:b$.",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "e",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what is meant by the ratio of perimeters?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for two figures to be similar?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How are the perimeters of similar figures related?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you think of an example where the ratio of perimeters is different from the ratio of areas?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "How can we find the ratio of areas using the given ratio of perimeters?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you generalize the relationship between the ratios of perimeters and areas for any similar figures?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

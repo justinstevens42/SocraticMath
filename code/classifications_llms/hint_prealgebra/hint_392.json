@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_392",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "In this diagram, both polygons are regular. What is the value, in degrees, of the sum of the measures of angles $ABC$ and $ABD$?\n\n[asy]\ndraw(10dir(0)--10dir(60)--10dir(120)--10dir(180)--10dir(240)--10dir(300)--10dir(360)--cycle,linewidth(2));\ndraw(10dir(240)--10dir(300)--10dir(300)+(0,-10)--10dir(240)+(0,-10)--10dir(240)--cycle,linewidth(2));\n\ndraw(10dir(300)+(-1,0)..9dir(300)..10dir(300)+dir(60),linewidth(2));\ndraw(10dir(300)+(-1.5,0)..10dir(300)+1.5dir(-135)..10dir(300)+(0,-1.5),linewidth(2));\n\nlabel(\"A\",10dir(240),W);\nlabel(\"B\",10dir(300),E);\nlabel(\"C\",10dir(0),E);\nlabel(\"D\",10dir(300)+(0,-10),E);\n\ndraw(10dir(300)+2dir(-135)--10dir(300)+dir(-135),linewidth(2));\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of a regular polygon?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you identify the regular polygons in the given diagram?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the measure of the interior angle of a regular hexagon? How about a regular square?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the sum of the interior angles of a regular hexagon? How about a regular square?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the formula for calculating the measure of the interior angles of a regular polygon?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the formula to find the sum of the measures of angles $ABC$ and $ABD$ in the given diagram?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

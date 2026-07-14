@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_636",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "Two sides of an isosceles triangle are 10 inches and 20 inches. If the shortest side of a similar triangle is 50 inches, what is the perimeter of the larger triangle?",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you identify the essential characteristics of an isosceles triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do you determine if two triangles are similar?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What properties of similar triangles can you apply in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can you determine the lengths of the sides of the smaller triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Based on the given information, what lengths do the sides of the smaller triangle have?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are the corresponding lengths of the sides in the larger triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can you calculate the perimeter of the larger triangle using the lengths of its sides?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the final result for the perimeter of the larger triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

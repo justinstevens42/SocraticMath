@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_896",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find the number of solutions to\n\\[\\sin x = \\left( \\frac{1}{2} \\right)^x\\]on the interval $(0,100 \\pi).$",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many solutions are there to the equation $\\sin x = \\left(\\frac{1}{2}\\right)^x$ on the interval $(0, 100 \\pi)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you identify any patterns in the graph of $y = \\sin x$ and $y = \\left(\\frac{1}{2}\\right)^x$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What are the x-intercepts of the graphs $y = \\sin x$ and $y = \\left(\\frac{1}{2}\\right)^x$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "In what intervals does the graph of $y = \\sin x$ intersect the graph of $y = \\left(\\frac{1}{2}\\right)^x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine the number of intersections between the two graphs on the interval $(0, 100 \\pi)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why the two graphs intersect twice on each interval of the form $(2 \\pi n, 2 \\pi n + \\pi)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Why do the two graphs not intersect on each interval of the form $(2 \\pi n + \\pi, 2 \\pi n + 2 \\pi)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any other intervals on which the two graphs intersect? If so, where are they located?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the total number of intersections between the two graphs on the interval $(0, 100 \\pi)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any other equations or functions that might have similar intersection patterns on a given interval?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

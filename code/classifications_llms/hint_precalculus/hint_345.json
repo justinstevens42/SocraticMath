@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_345",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Find the matrix that corresponds to reflecting over the vector $\\begin{pmatrix} 3 \\\\ 2 \\end{pmatrix}.$",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "r",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the concept of reflection in linear algebra?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does reflecting over a vector differ from reflecting over a line or plane?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How do we compute the projection of a vector onto another vector?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the relationship between the projection of a vector and its reflection over another vector?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the midpoint of a vector and its reflection to find the reflection matrix?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other applications in which we use reflection matrices?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "How can reflection matrices help us solve problems in geometry or physics?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

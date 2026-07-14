@@ -1,0 +1,50 @@
+{
+  "problem_id": "hint_105",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "It is currently $3\\!:\\!00\\!:\\!00 \\text{ p.m.}$ What time will it be in $6666$ seconds?  (Enter the time in the format \"HH:MM:SS\", without including \"am\" or \"pm\".)",
+  "n_questions": 5,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total number of seconds in a minute?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How many minutes are there in an hour?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you calculate how many minutes are in 6666 seconds? What is the quotient and the remainder?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How would you convert the minutes obtained in the previous step to hours and minutes? What is the resulting quotient and the remainder?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you determine the time in the format \"HH:MM:SS\" after converting 6666 seconds to hours, minutes, and seconds?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

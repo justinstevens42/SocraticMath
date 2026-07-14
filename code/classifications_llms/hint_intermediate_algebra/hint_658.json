@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_658",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "The graph of \\[\\sqrt{(x-1)^2+(y+2)^2} - \\sqrt{(x-5)^2+(y+2)^2} = 3\\]consists of one branch of a hyperbola. Compute the positive value for the slope of an asymptote of the hyperbola.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How does the given equation \\[\\sqrt{(x-1)^2+(y+2)^2} - \\sqrt{(x-5)^2+(y+2)^2} = 3\\] relate to the definition of a hyperbola?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you describe the geometric interpretations of the terms in the equation? What do they represent in the coordinate plane?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Based on the distances between points $P$, $A$, and $B$, how can we determine the shape of the graph?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the distance between the foci $A$ and $B$? How does this distance relate to the values of $a$ and $b$ in the hyperbola form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you calculate the value of $a$? How about $b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Since the foci $A$ and $B$ lie along a horizontal axis, what is the slope of the asymptote?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the positive value of the slope of the asymptote?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

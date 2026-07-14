@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_184",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "The equation\n\\[\\frac{1}{x} + \\frac{1}{x + 2} - \\frac{1}{x + 4} - \\frac{1}{x + 6} - \\frac{1}{x + 8} - \\frac{1}{x + 10} + \\frac{1}{x + 12} + \\frac{1}{x + 14} = 0\\]has four roots of the form $-a \\pm \\sqrt{b \\pm c \\sqrt{d}},$ where $a,$ $b,$ $c,$ $d$ are positive integers, and $d$ is not divisible by the square of a prime.  Find $a + b + c + d.$",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we pair the terms in this equation to potentially simplify it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "After pairing the terms, what does the equation look like? Can we simplify it further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What substitution can we make to simplify the equation even more?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What values of $z$ satisfy the simplified equation? How can we find these values?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the relationship between $z$ and $y$? How can we find the values of $y$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the relationship between $y$ and $x$? How can we find the values of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_97",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The complex number $z$ traces a circle centered at the origin with radius 2.  Then $z + \\frac{1}{z}$ traces a:\n(A) circle\n(B) parabola\n(C) ellipse\n(D) hyperbola\n\nEnter the letter of the correct option.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does the complex number $z$ trace when plotted on a graph?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we express $z$ in terms of its real and imaginary components?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we express $\\frac{1}{z}$ in terms of $z$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the relationship between $z + \\frac{1}{z}$ and $a$ and $b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we rewrite $z + \\frac{1}{z}$ in terms of $a$ and $b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the equation for the circle traced by $z$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "What happens to the equation for the circle when we substitute $z + \\frac{1}{z}$ for $z$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we express $x$ and $y$ in terms of $a$ and $b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the equation for the ellipse traced by $z + \\frac{1}{z}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the correct option that describes the shape traced by $z + \\frac{1}{z}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

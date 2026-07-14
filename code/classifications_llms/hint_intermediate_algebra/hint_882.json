@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_882",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Compute\n\\[\\frac{2 + 6}{4^{100}} + \\frac{2 + 2 \\cdot 6}{4^{99}} + \\frac{2 + 3 \\cdot 6}{4^{98}} + \\dots + \\frac{2 + 98 \\cdot 6}{4^3} + \\frac{2 + 99 \\cdot 6}{4^2} + \\frac{2 + 100 \\cdot 6}{4}.\\]",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the initial steps to solve the expression $\\frac{2 + 6}{4^{100}} + \\frac{2 + 2 \\cdot 6}{4^{99}} + \\frac{2 + 3 \\cdot 6}{4^{98}} + \\dots + \\frac{2 + 99 \\cdot 6}{4^2} + \\frac{2 + 100 \\cdot 6}{4}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you think of any other ways to simplify or rewrite this expression?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Why does subtracting the expression $4S$ from $S$ help us in solving for $S$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What technique or formula did we use to simplify the geometric series $\\frac{6}{4} + \\frac{6}{4^2} + \\dots + \\frac{6}{4^{98}} + \\frac{6}{4^{99}}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How did we apply the formula for the geometric series to simplify the expression in question?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you come up with other types of problems where similar thinking and steps are required to solve them?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

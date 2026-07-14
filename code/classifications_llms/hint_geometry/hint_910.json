@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_910",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Quadrilateral $ABCD$ has right angles at $B$ and $D$, and $AC=3$. If $ABCD$ has two sides with distinct integer lengths, then what is the area of $ABCD$? Express your answer in simplest radical form.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the given properties of quadrilateral $ABCD$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the length of $AC$ and how does it help us?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the constraint on the lengths of the sides of $ABCD$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How do we determine which legs of $\\triangle ABC$ and $\\triangle ADC$ have length $1$ and $2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What are the lengths of the other legs of $\\triangle ABC$ and $\\triangle ADC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How is quadrilateral $ABCD$ divided by its diagonal $AC$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "What are the areas of the resulting right triangles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the formula for the area of a quadrilateral?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "How do we use the areas of the right triangles to find the area of $ABCD$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the final answer for the area of quadrilateral $ABCD$ and can it be simplified?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

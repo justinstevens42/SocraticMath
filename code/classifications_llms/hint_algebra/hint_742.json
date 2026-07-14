@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_742",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The points $(x, y)$ represented in this table lie on a straight line. The point $(28, t)$ lies on the same line. What is the value of $t?$ \\begin{tabular}{c|c}\n$x$ & $y$ \\\\ \\hline\n1 & 7 \\\\\n3 & 13 \\\\\n5 & 19 \\\\\n\\end{tabular}",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "r",
+    "b",
+    "f",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we determine if the points in the table lie on a straight line?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain what it means for a set of points to lie on the same line?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What observations can we make about the relationship between the values of $x$ and $y$ in the table?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the slope of the line connecting any two points in the table?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you calculate the slope between any two points in the table using the given data?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "If (28, t) lies on the same line, what can we conclude about the relationship between the values of 28 and t?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "How can we determine the value of t using the information we have about the slope and the point (28, t)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

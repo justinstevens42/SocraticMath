@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_291",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find the greatest common divisor of $7!$ and $(5!)^2.$",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "r",
+    "b",
+    "r",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a common divisor? Can you give an example?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do we usually find the greatest common divisor of two numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you factorize 7! and $(5!)^2$ into their prime factors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How does prime factorization help us find the greatest common divisor?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the highest power of each prime factor that appears in both 7! and $(5!)^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the highest power of each prime factor to find the greatest common divisor?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other methods to find the greatest common divisor? How do they work?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Can you find the greatest common divisor of other pairs of numbers using similar steps?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

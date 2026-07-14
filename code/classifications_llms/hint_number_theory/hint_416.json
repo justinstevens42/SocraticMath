@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_416",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What is the remainder when 1,234,567,890 is divided by 99?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the initial step when finding the remainder of a large number divided by 99?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the fact that $10^8-1$, $10^6-1$, $10^4-1$, and $10^2-1$ are all divisible by 99 to simplify the calculation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Why is it possible to subtract the sum of the digits from the sum of each group of five digits multiplied by its corresponding power of 10?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why the remainder is the same when we subtract the sum of the digits from the sum of each group of five digits multiplied by its corresponding power of 10?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there similar methods that can be used to find the remainder when a large number is divided by other integers besides 99?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "How can we verify that the remainder obtained using this method is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_18",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "When a polynomial is divided by $2x^2 - 7x + 18,$ what are the possible degrees of the remainder?  Enter all the possible values, separated by commas.",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what the process of dividing a polynomial by another polynomial entails?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What properties of polynomials can we use to determine the degrees of the remainder after division?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Considering the degree of the divisor polynomial in this case is 2, what are the possible degrees for the remainder?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you think of any examples where the remainder has a degree of 0? How about a degree of 1?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine the degree of the remainder after the division is done?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other scenarios where polynomial division could result in remainder degrees of 0 and 1?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

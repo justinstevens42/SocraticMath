@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_626",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "How many 3-digit numbers have the property that the units digit is at least twice the tens digit?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the problem in your own words? What are we trying to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for the units digit to be at least twice the tens digit? Can you give an example of a number that satisfies this condition?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Let's consider the different cases based on the choice of the tens digit. For the first case (tens digit = 0), what are the possible units digits that satisfy the given condition?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many choices do we have for the tens digit in this case? And how many options do we have for the hundreds digit?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can we generalize this process for the other cases (tens digit = 1, 2, 3, 4)? What are the possible units digits for each case, and how many choices do we have for the tens and hundreds digits?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Based on our analysis, how many numbers do we have in each case? What is the total number of 3-digit numbers that satisfy the given condition?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other problem that involves similar thinking and steps in solving? How would you approach that problem using the same method?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

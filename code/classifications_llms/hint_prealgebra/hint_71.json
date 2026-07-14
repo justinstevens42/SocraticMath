@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_71",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "If $15\\%$ of $N$ is $45\\%$ of 2003, what is the value of $N$?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How do we express $15\\%$ and $45\\%$ as fractions or decimals?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If $15\\%$ of $N$ is equal to $45\\%$ of 2003, how can we set up an equation to represent this relationship?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why do we multiply both sides of the equation by 20?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does multiplying by 20 help us solve for the value of $N$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Why do we divide both sides of the resulting equation by 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How does this step help us find the value of $N$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "If we had a different percentage of $N$, would the steps for finding its value be the same? Why or why not?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of a real-world situation where you might need to use this type of problem-solving?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

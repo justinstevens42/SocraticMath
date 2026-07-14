@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_792",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Find the projection of the vector $\\begin{pmatrix} 3 \\\\ 0 \\\\ -2 \\end{pmatrix}$ onto the line\n\\[\\frac{x}{2} = y = \\frac{z}{-1}.\\]",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the direction vector of the given line?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we compute the dot product between the given vector and the direction vector of the line?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Why do we multiply the dot product by the direction vector of the line?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the dot product between the given vector and the direction vector of the line?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the dot product of the direction vector of the line with itself?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we simplify the expression for the projection using these dot products?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final result of the projection in vector form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

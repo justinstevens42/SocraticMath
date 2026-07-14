@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_399",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The surface area of a sphere with radius $r$ is $4\\pi r^2$. Including the area of its circular base, what is the total surface area of a hemisphere with radius 6 cm? Express your answer in terms of $\\pi$.\n\n[asy]\n\nimport markers;\nsize(150);\nimport geometry;\ndraw((0,-7)--(0,-1),Arrow);\ndraw((10,10)--(5,5),Arrow);\nlabel(\"half of sphere\",(10,10),N);\nlabel(\"circular base\",(0,-7),S);\n\ndraw(scale(1,.2)*arc((0,0),10,0,180),dashed);\ndraw(scale(1,.2)*arc((0,0),10,180,360));\ndraw(Arc((0,0),10,0,180));\n\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in finding the total surface area of the hemisphere?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the area of the circular base of the hemisphere?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the formula for calculating the surface area of a full sphere?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the surface area of the curved top of the hemisphere?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we obtain the surface area of the curved top if we only have the surface area of a full sphere?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the relationship between the surface area of the curved top and the surface area of a full sphere?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "What is the total surface area of the hemisphere? How did you arrive at that answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you express the total surface area of the hemisphere in terms of pi?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Are there any other ways to find the total surface area of a hemisphere? If so, what are they?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any other geometric shapes where we might need to calculate the total surface area using similar reasoning and steps?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

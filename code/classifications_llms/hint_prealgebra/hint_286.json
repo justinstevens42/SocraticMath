@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_286",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "A bag contains 5 red, 6 green, 7 yellow, and 8 blue jelly beans.   A jelly bean is selected at random.  What is the probability that it is blue?",
+  "n_questions": 10,
+  "labels": [
+    "b",
+    "f",
+    "r",
+    "b",
+    "b",
+    "e",
+    "e",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total number of jelly beans in the bag?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How many blue jelly beans are there in the bag?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the formula for calculating probability?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the formula to calculate the probability of selecting a blue jelly bean?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you simplify the fraction to its lowest terms?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "If there were more blue jelly beans in the bag, how would that affect the probability?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "If we selected two jelly beans from the bag without replacement, how would that change the probability of selecting a blue jelly bean?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Are there any other factors that could affect the probability of selecting a blue jelly bean from the bag?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "How can we apply this probability concept to real-life situations?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any other probability problems that involve similar principles?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

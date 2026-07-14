@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_162",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "A sorcerer is concocting a healing potion. In order to do so, he must have one of three roots, and one of five minerals. However, one of the minerals is incompatible with two of the roots. Otherwise, he does not foresee any complications with other combinations of roots and minerals. In how many ways can he brew his potion?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many roots does the sorcerer need in order to brew the healing potion?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many minerals does the sorcerer need in order to brew the healing potion?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Are there any combinations of roots and minerals that are not compatible?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How many possible combinations of roots and minerals are there initially?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many combinations of roots and minerals are not valid due to incompatibility?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we calculate the number of valid ways to brew the potion?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

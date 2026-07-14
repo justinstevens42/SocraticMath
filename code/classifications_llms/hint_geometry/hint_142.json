@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_142",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Compute $\\sin 60^\\circ$.",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "f",
+    "f",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the unit circle and how is it used to define trigonometric functions like sine and cosine?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does the angle $60^\\circ$ relate to the unit circle and the coordinates of point $P$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How is the altitude from $P$ to the $x$-axis related to the angle $60^\\circ$ and the side lengths of triangle $POD$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the ratio of the length of the side opposite the angle $60^\\circ$ to the length of the hypotenuse in a 30-60-90 triangle? How is this ratio used to find the length of $DP$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How are the coordinates of $P$ used to determine the value of $\\sin 60^\\circ$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other ways to compute trigonometric functions for angles like $60^\\circ$ using geometry or algebra?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_21",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Suppose\n$$a(2+i)^4 + b(2+i)^3 + c(2+i)^2 + b(2+i) + a = 0,$$where $a,b,c$ are integers whose greatest common divisor is $1$.  Determine $|c|$.",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we use the symmetry of the coefficients to find another root of the polynomial $f(x)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the standard form of the root $\\frac{1}{2+i}$? How did we obtain it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What method did we use to find the other two nonreal roots of $f(x)$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the quadratic equations whose roots are $2\\pm i$ and $\\frac{2}{5}\\pm\\frac{1}{5}i$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can we express $f(x)$ as a product of two quadratics using these roots? If so, what would be the corresponding equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we determine the ratios of $a$, $b$, and $c$ based on the equation $f(x) = a(x^2-4x+5)(x^2-\\frac{4}{5}x+\\frac{1}{5})$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "From the given information, what can we conclude about the values of $a$, $b$, and $c$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Is there any other possible combination for $a$, $b$, and $c$ that satisfies the conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Based on our findings, what is the value of $|c|$ in the equation $a(2+i)^4 + b(2+i)^3 + c(2+i)^2 + b(2+i) + a = 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

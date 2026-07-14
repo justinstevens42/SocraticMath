@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_142",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Among all the roots of\n\\[z^8 - z^6 + z^4 - z^2 + 1 = 0,\\]the maximum imaginary part of a root can be expressed as $\\sin \\theta,$ where $-90^\\circ \\le \\theta \\le 90^\\circ.$  Find $\\theta.$",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "r",
+    "b",
+    "f",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you define what a root of a polynomial is?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we express the equation $z^8 - z^6 + z^4 - z^2 + 1 = 0$ in terms of its roots?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean to have a maximum imaginary part?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the imaginary parts of the roots of the polynomial using trigonometry?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you sketch a rough graph of the roots of the polynomial on the complex plane? How can we use this graph to identify the roots with the maximum imaginary part?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Why do we need to consider the factorization $(z^2 + 1)(z^8 - z^6 + z^4 - z^2 + 1) = z^{10} + 1 = 0$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "How can we use this factorization to simplify the problem and find the roots with the maximum imaginary part?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any other techniques that we can use to solve similar problems involving polynomials with complex roots?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_937",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "If $e^{i \\alpha} = \\frac{3}{5}  +\\frac{4}{5} i$ and $e^{i \\beta} = -\\frac{12}{13} + \\frac{5}{13} i,$ then find $\\sin (\\alpha + \\beta).$",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How is the value of $e^{i \\alpha}$ related to the trigonometric functions sine and cosine?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What do the real and imaginary parts of $e^{i \\alpha}$ represent in the complex plane?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the given values of $e^{i \\alpha}$ and $e^{i \\beta}$ to find $\\sin(\\alpha + \\beta)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we relate multiplication of complex numbers to addition of angles in trigonometry?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain the steps involved in calculating $e^{i (\\alpha + \\beta)}$ using the given equations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Why is the imaginary part of $e^{i (\\alpha + \\beta)}$ in the form $-\\frac{33}{65}$? What does this value represent in trigonometry?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

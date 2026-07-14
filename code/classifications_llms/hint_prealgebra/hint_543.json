@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_543",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "In the diagram, what is the value of $y$?\n\n[asy]\ndraw((0,0)--(18,0),black+linewidth(1));\ndraw((18,0)--(18,-6),black+linewidth(1));\ndraw((0,0)--(4,6)--(18,-6),black+linewidth(1));\ndraw((18,0)--(18,-0.5)--(17.5,-0.5)--(17.5,0)--cycle,black+linewidth(1));\nlabel(\"$80^{\\circ}$\",(4.5,5),S);\nlabel(\"$60^{\\circ}$\",(1,0),NE);\nlabel(\"$y^{\\circ}$\",(18.25,-5),NW);\n[/asy]",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "f",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the measure of angle BCA in the diagram?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain why angle BCA is equal to 40 degrees?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the relationship between angles BCA, ABC, and BAC in triangle ABC?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the information about angles BCA, ABC, and BAC to find the measure of angle CED?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What type of triangle is CDE? How can we use this information to find the measure of angle CDE?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "What is the relationship between angles DCE and CED in triangle CDE?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can we use the relationship between angles DCE and CED to find the measure of angle y?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other situations where you might need to use angle relationships to find an unknown angle?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

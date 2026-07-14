@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_1003",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Evaluate $\\left\\lceil3\\left(6-\\frac12\\right)\\right\\rceil$.",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does the symbol $\\left\\lceil \\right\\rceil$ represent in mathematical notation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do we evaluate the expression inside the parentheses, $6-\\frac12$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "After evaluating the expression in step 2, what is the result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What happens when we multiply the result from step 3 by 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we determine the value of $\\left\\lceil \\right\\rceil$ for a given number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What is the final result when we apply the function $\\left\\lceil \\right\\rceil$ to the product obtained in step 4?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_108",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Let $A = (8,0,0),$ $B = (0,-4,0),$ $C = (0,0,6),$ and $D = (0,0,0).$  Find the point $P$ such that\n\\[AP = BP = CP = DP.\\]",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the condition for a point $P$ to satisfy $AP = BP = CP = DP$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Let $P = (x, y, z)$. Use the equation $AP = DP$ to find the value of $x$.",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Use the equation $BP = DP$ to find the value of $y$.",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Use the equation $CP = DP$ to find the value of $z$.",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Verify that $P = (4, -2, 3)$ satisfies all the given conditions, $AP = BP = CP = DP$.",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other points that satisfy $AP = BP = CP = DP$? Explain why or why not.",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

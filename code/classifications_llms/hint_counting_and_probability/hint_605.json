@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_605",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "How many natural-number factors does $N$ have if $N = 2^4 \\cdot 3^3 \\cdot 5^2 \\cdot 7^2$?",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "r",
+    "b",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what it means for a number to be a factor of another number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the factors of a given number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What are the prime factors of $N$? And what are their powers?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the prime factorization of $N$ to find the total number of factors it has?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the range of possible powers for each prime factor?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "If a factor of $N$ has a power of 0 for any prime factor, what does that mean?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "How many choices do we have for the power of each prime factor to create a different factor of $N$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we calculate the total number of natural-number factors of $N$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

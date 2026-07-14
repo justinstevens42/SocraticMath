@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_613",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "On an old-fashioned bicycle the front wheel has a radius of $2.5$ feet and the back wheel has a radius of $4$ inches.  If there is no slippage, how many revolutions will the back wheel make while the front wheel makes $100$ revolutions?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the difference in radius between the front and back wheels?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the circumference formula to determine the distance traveled by each wheel?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the total distance traveled by the front wheel after 100 revolutions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why must the back wheel also travel the same distance as the front wheel?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How do we calculate the circumference of the back wheel?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What equation can we use to set up and solve for the number of revolutions made by the back wheel?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final answer to the problem and how can we check it for accuracy?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any other factors that could affect the result of this problem, such as slippage or uneven terrain?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

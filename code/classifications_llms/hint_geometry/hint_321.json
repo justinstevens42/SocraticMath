@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_321",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "We have a triangle $\\triangle ABC$ such that $AB = AC = 8$ and $BC = 10.$ What is the length of the median $AM$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step you would take to find the length of the median $AM$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "When dealing with an isosceles triangle like $\\triangle ABC$, do you know any properties or theorems we can use to find the length of the median?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the length of $BM$ and $MC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Which theorem can we apply to find the length of $AM$ in terms of the side lengths of $\\triangle ABM$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you apply the Pythagorean theorem to find the length of $AM$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the value of $AM$ in the given problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

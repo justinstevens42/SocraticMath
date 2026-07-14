@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_673",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The measures of the angles of a triangle are in the ratio 5:6:7. What is the number of degrees in the largest of these angles?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information about the measures of the angles of the triangle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the given ratio to find the measures of the angles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the total sum of the measures of the angles in a triangle? Can we use this information to find $x$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the value of $x$? How did we arrive at this value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the measure of the largest angle in terms of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the measure of the largest angle in degrees?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

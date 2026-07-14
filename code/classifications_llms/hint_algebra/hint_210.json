@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_210",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What is the sum of the first ten positive multiples of $13$?",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "r",
+    "b",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you list the first ten positive multiples of 13?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What pattern do you notice in the multiples of 13?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can you find the sum of these ten multiples?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Is there a formula or method you can apply to calculate the sum of a given number of multiples?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you calculate the sum of the first ten multiples of 13 using the formula/method you mentioned earlier?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any alternative approaches you can think of to find the sum of these multiples?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "How does the sum change if we consider a different number of multiples?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Can you generalize a formula or pattern for finding the sum of any number of multiples of 13?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

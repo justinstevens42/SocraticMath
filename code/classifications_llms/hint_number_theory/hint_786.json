@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_786",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "If $n$ is an integer, what is the remainder when the sum of $7 - n$ and $n + 3$ is divided by $7$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given problem asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you identify any relevant concepts related to number theory that could help us solve this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we represent the sum of (7 - n) and (n + 3) mathematically?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean for a number to be divided by 7?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you simplify the expression (7 - n) + (n + 3) and explain why it is congruent to 3 modulo 7?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Why does the remainder of the sum when divided by 7 represent the answer to the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

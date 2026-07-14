@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_19",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "In a class of $40$ students, $18$ said they liked apple pie, $15$ said they liked chocolate cake, and $12$ said they did not like either. How many students in the class liked both?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "f",
+    "b",
+    "f",
+    "b",
+    "b",
+    "f",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you summarize the problem and what information is given?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many students in the class are there in total?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many students said they liked only apple pie?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How many students said they liked only chocolate cake?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the information we have to determine how many students liked both desserts?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any students who didn't give an answer or whose preferences are unknown?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "Can we represent the information with a Venn diagram? If so, how would we label the different regions of the diagram?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How does the fact that there are $40$ total students and $12$ who like neither dessert help us in solving the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Are there any other pieces of information or assumptions that we need to make in order to solve the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 10,
+      "question": "How can we check our answer to make sure it makes sense with the information given?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

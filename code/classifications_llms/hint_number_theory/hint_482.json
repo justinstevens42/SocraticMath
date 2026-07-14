@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_482",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Given that $x$ is a positive integer less than 100, how many solutions does the congruence $x + 13 \\equiv 55 \\pmod{34}$ have?",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a congruence in number theory?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you restate the given congruence using modular arithmetic notation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many possible values of $x$ are there if we consider all positive integers?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How did we determine that the smallest positive integer solution is $x=8$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we find the other solutions to the congruence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is $x=101$ a solution to the congruence? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How does the range of possible values of $x$ change if we change the modulus of the congruence?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

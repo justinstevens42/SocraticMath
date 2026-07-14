@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_501",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Find the matrix $\\mathbf{M}$ if it satisfies $\\mathbf{M} \\mathbf{i} = \\begin{pmatrix} 2 \\\\ 3 \\\\ -8 \\end{pmatrix},$ $\\mathbf{M} \\mathbf{j} = \\begin{pmatrix} 0 \\\\ 5 \\\\ -2 \\end{pmatrix},$ and $\\mathbf{M} \\mathbf{k} = \\begin{pmatrix} 7 \\\\ -1 \\\\ 4 \\end{pmatrix}.$",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "f",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we find the matrix $\\mathbf{M}$ in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for $\\mathbf{M} \\mathbf{i}$ to be equal to $\\begin{pmatrix} 2 \\\\ 3 \\\\ -8 \\end{pmatrix}$? What does this tell us about the first column of $\\mathbf{M}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for $\\mathbf{M} \\mathbf{j}$ to be equal to $\\begin{pmatrix} 0 \\\\ 5 \\\\ -2 \\end{pmatrix}$? What does this tell us about the second column of $\\mathbf{M}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean for $\\mathbf{M} \\mathbf{k}$ to be equal to $\\begin{pmatrix} 7 \\\\ -1 \\\\ 4 \\end{pmatrix}$? What does this tell us about the third column of $\\mathbf{M}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can we use this information to determine the entire matrix $\\mathbf{M}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Could there be any other matrices that satisfy $\\mathbf{M} \\mathbf{i} = \\begin{pmatrix} 2 \\\\ 3 \\\\ -8 \\end{pmatrix},$ $\\mathbf{M} \\mathbf{j} = \\begin{pmatrix} 0 \\\\ 5 \\\\ -2 \\end{pmatrix},$ and $\\mathbf{M} \\mathbf{k} = \\begin{pmatrix} 7 \\\\ -1 \\\\ 4 \\end{pmatrix}$? Why or why not?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other situations where we might have to find a matrix based on specific column-vector products? How would the approach be similar or different?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

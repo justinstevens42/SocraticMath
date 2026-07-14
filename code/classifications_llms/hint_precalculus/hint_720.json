@@ -1,0 +1,50 @@
+{
+  "problem_id": "hint_720",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Let $O$ be the origin.  There exists a scalar $k$ so that for any points $A,$ $B,$ $C,$ and $D$ such that\n\\[3 \\overrightarrow{OA} - 2 \\overrightarrow{OB} + 5 \\overrightarrow{OC} + k \\overrightarrow{OD} = \\mathbf{0},\\]the four points $A,$ $B,$ $C,$ and $D$ are coplanar.  Find $k.$",
+  "n_questions": 5,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the equation given in the problem, and what are the vectors $\\overrightarrow{OA},$ $\\overrightarrow{OB},$ $\\overrightarrow{OC},$ and $\\overrightarrow{OD}$ representing?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we rewrite the equation to isolate the vectors on one side and a zero vector on the other side?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Define the point $P$ such that $\\overrightarrow{OP} = 3 \\overrightarrow{OA} - 2 \\overrightarrow{OB} = -5 \\overrightarrow{OC} - k \\overrightarrow{OD}.$ How is $P$ related to the vectors in the original equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Show that point $P$ lies on the line through $A$ and $B.$ How does this relate to the coplanarity of $A,$ $B,$ $C,$ and $D$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What must be true about $k$ for point $P$ to also lie on the line through $C$ and $D$? How does this lead to the value of $k$ such that $A,$ $B,$ $C,$ and $D$ must be coplanar?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

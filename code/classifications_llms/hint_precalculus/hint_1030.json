@@ -1,0 +1,99 @@
+{
+  "problem_id": "hint_1030",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Rational numbers $a$ and $b$ are chosen at random among all rational numbers in the interval $[0,2)$ that can be written as fractions $\\frac{n}{d}$ where $n$ and $d$ are integers with $1 \\le d \\le 5$. What is the probability that \\[(\\text{cos}(a\\pi)+i\\text{sin}(b\\pi))^4\\]is a real number?",
+  "n_questions": 12,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of a rational number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we represent a rational number as a fraction? Can you give an example?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the interval [0,2)? Can you give some examples of rational numbers that belong to this interval?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How many possible values of a and b are there in the given problem? Can you list them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What does the expression (cos(aπ) + i sin(bπ))^4 represent?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "In order for (cos(aπ) + i sin(bπ))^4 to be a real number, what condition(s) must be satisfied?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Let's examine the case when cos(aπ) = 0. How many possible values of a are there? Can you give some examples?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What happens when sin(bπ) = 0? How many possible values of b are there? Can you provide any examples?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What are the conditions when cos(aπ) = sin(bπ)? How many solutions are there for a and b in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Similarly, what are the conditions when cos(aπ) = -sin(bπ)? How many solutions are there for a and b in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "How many total pairs of (a, b) satisfy the conditions for (cos(aπ) + i sin(bπ))^4 to be a real number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "Given the total number of possible pairs from the previous question, what is the probability of selecting a pair that satisfies the given conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

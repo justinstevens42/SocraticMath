@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_456",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The set of vectors $\\left\\{ \\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix}, \\begin{pmatrix} 3 \\\\ k \\end{pmatrix} \\right\\}$ is linearly dependent.  Find all possible values of $k.$  Enter all the possible values, separated by commas.",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what it means for a set of vectors to be linearly dependent?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine if a set of vectors is linearly dependent?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "In this particular problem, what do we know about the set of vectors $\\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix}$ and $\\begin{pmatrix} 3 \\\\ k \\end{pmatrix}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Using the definition of linear dependence, can you set up an equation involving the constants $c_1$ and $c_2$ that represents the linear dependence of these vectors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What conditions must be met for the equation $c_1 \\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix} + c_2 \\begin{pmatrix} 3 \\\\ k \\end{pmatrix} = \\begin{pmatrix} 0 \\\\ 0 \\end{pmatrix}$ to hold?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Solve the system of equations $c_1 + 3c_2 = 0$ and $2c_1 + kc_2 = 0$. What values can $k$ take in order for this system to have a nontrivial solution?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the relationship between the value of $k$ and the linear dependence of the set of vectors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Based on your previous answers, what are all possible values for $k$ that satisfy the condition that the set of vectors is linearly dependent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

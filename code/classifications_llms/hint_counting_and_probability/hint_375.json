@@ -1,0 +1,99 @@
+{
+  "problem_id": "hint_375",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Ice-cream-o-rama is eager to advertise how many flavors it has. But it really only has three basic flavors: chocolate, vanilla, and strawberry. However, they can make \"new\" flavors by taking four scoops of ice cream of those basic flavors and blending them together. Different proportions of the basic flavors give different new flavors.\n\nHow many total flavors can Ice-cream-o-rama create by combining four scoops?\n(Note that every possible way of combining four scoops counts as a \"flavor;\" even, for example, chocolate-chocolate-chocolate-chocolate.)",
+  "n_questions": 12,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "f",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the three basic flavors available at Ice-cream-o-rama?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How is a new flavor created by Ice-cream-o-rama?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain the concept of distinguishable and indistinguishable items in this context?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we represent the flavors and scoops using sticks and dots?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the significance of using sticks as separators?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How many sticks do we need to separate the four scoops into three boxes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How many dots (balls) do we have to arrange in between the sticks?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we calculate the total number of arrangements of sticks and dots?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you explain the concept of combinations and how it relates to our problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 10,
+      "question": "Based on your understanding of combinations, how many ways are there to arrange the sticks and dots?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "What does each arrangement of sticks and dots represent in terms of flavors?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 12,
+      "question": "Therefore, how many total flavors can Ice-cream-o-rama create by combining four scoops?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

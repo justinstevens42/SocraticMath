@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_491",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Marcus has two numbers, $a$ and $b$.  When he divides $a$ by 45 he gets a remainder of 37.  When he divides $b$ by 30 he gets a remainder of $9$.  What remainder does he get when he divides $a+b$ by 15?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "To find the remainder when dividing $a+b$ by 15, what is the first step you would take?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you describe any strategies or methods you know that can help find the remainder in this type of problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you were to work with the given equations, what information can you gather about the remainders of $a$ and $b$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can you combine the equations for $a$ and $b$ to determine the remainder when $a+b$ is divided by 15?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why adding the equations gives you a multiple of 15 plus a remainder?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Based on the equation you derived, what can you conclude about the remainder when dividing $a+b$ by 15? How can you prove this?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

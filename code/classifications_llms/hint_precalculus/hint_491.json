@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_491",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "For some complex number $\\omega$ with $|\\omega| = 2,$ there is some real $\\lambda > 1$ such that $\\omega,$ $\\omega^2,$ and $\\lambda \\omega$ form an equilateral triangle in the complex plane.  Find $\\lambda.$",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does it mean for three complex numbers to form an equilateral triangle in the complex plane?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Let's consider the complex number $\\omega$. Can you find its magnitude using the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Suppose $\\omega$ has a positive imaginary part. Can you write $\\omega$ in terms of its real and imaginary parts?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "If $\\omega$, $\\omega^2$, and $\\lambda \\omega$ form an equilateral triangle, what is the distance between any two of these points?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Using the distance formula in the complex plane, can you express the distance between $\\omega$ and $\\omega^2$ in terms of $\\lambda$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "By equating this distance with the given side length of the equilateral triangle, can you derive an equation involving $\\lambda$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Solve the equation and find the possible values of $\\lambda$. Are there any restrictions on its value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "We are interested in the value of $\\lambda$ that is greater than $1$. Which solution satisfies this condition?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_1014",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "We know the following to be true:\n\n$\\bullet$ 1.  $Z$ and $K$ are integers with $500 < Z < 1000$ and $K > 1;$\n\n$\\bullet$ 2.  $Z$ = $K \\times K^2.$\n\nWhat is the value of $K$ for which $Z$ is a perfect square?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "f",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the range of possible values for integer $Z$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the constraint on the integer $K$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we rewrite $Z$ in terms of $K$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Under what condition does $Z$ become a perfect square?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between $K$ and the prime factorization of $Z$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What is the smallest value of $K$ that makes $Z$ a perfect square?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you generalize a method for finding values of $K$ that make $Z$ a perfect square for similar problems?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

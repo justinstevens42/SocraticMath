@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_338",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Let $d$ be a positive number such that when $109$ is divided by $d$, the remainder is $4.$ Compute the sum of all possible two-digit values of $d$.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the problem and what it is asking for?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What do we know about the remainder when 109 is divided by d?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How does subtracting 4 from 109 help us in solving the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Why can we say that the two-digit numbers that divide 109 with a remainder of 4 will also divide 105 exactly?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "What are the prime factors of 105 and how do they help us find the divisors of 105?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you list all the two-digit divisors of 105?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the sum of all possible two-digit values of d?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

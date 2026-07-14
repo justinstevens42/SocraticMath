@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_837",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "When a car's brakes are applied, it travels 7 feet less in each  second than the previous second until it comes to a complete stop.  A car goes 28 feet in the first second after the brakes are applied.  How many feet does the car travel from the time the  brakes are applied to the time the car stops?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "f",
+    "b",
+    "f",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we represent the distance traveled by the car at each second after the brakes are applied?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What would be the equation to represent the distance traveled by the car at a particular second after the brakes are applied?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can we find a pattern or a relationship between the distance traveled in each second and the time elapsed since the brakes were applied?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we use this pattern to determine the total distance traveled by the car until it comes to a complete stop?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the distance traveled by the car in the first second after the brakes are applied? And how does this relate to the pattern we identified earlier?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "Can we express the total distance traveled by the car as a sum of distances traveled in each second? If so, how can we determine this sum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

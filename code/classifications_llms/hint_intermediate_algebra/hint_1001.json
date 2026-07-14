@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_1001",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Let $a$ and $b$ be nonzero real numbers.  Find the minimum value of\n\\[a^2 + b^2 + \\frac{1}{a^2} + \\frac{b}{a}.\\]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you identify the given expression and clearly state what we are asked to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we make the given expression more convenient to work with? Can we simplify it using any algebraic methods?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What technique can we use to minimize the expression? Can you explain why completing the square is a useful approach in this case?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How did we complete the square for the terms $b^2$ and $\\frac{b}{a}$? Can you demonstrate the steps involved?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "When is the completed square expression minimized? Can you explain why setting $b = -\\frac{1}{2a}$ yields the minimum value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Once we have minimized the expression for one part of the given expression, how can we combine it with the remaining terms to find the overall minimum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What assumptions can we make about the value of $a$? How does this help us simplify the expression further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you apply the AM-GM inequality to minimize the expression? How did you arrive at the value $\\sqrt{3}$ as the minimum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Is it possible to achieve equality in the AM-GM inequality? If so, what value of $a$ should we use?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you summarize the final result and state the minimum value of the given expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

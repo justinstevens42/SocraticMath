@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_380",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "For each positive integer $p$, let $b(p)$ denote the unique positive integer $k$ such that $|k-\\sqrt{p}|<\\frac{1}{2}$. For example, $b(6)=2$ and $b(23)=5$. Find $S=\\sum_{p=1}^{2007} b(p)$.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the function $b(p)$ represents?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Given a positive integer $p$, what does $|k-\\sqrt{p}|<\\frac{1}{2}$ tell us about the possible values of $k$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you provide an example of finding $b(p)$ for a specific value of $p$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the range of values for $k$ given a specific $p$ and the inequality $|k-\\sqrt{p}|<\\frac{1}{2}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "For a fixed $k$, how many unique values of $p$ satisfy the condition $b(p) = k$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you express the sum $S = \\sum_{p=1}^{2007} b(p)$ using the above information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we find the value of $S$ by breaking it down into smaller sums?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the relationship between $S$ and the values of $b(p)$ for $p$ ranging from 1 to 44?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we calculate the sum of the squares of integers from 1 to 44?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Lastly, what is the final value of $S$ based on your calculations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

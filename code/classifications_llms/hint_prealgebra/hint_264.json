@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_264",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "$ABCD$ is a rectangle whose area is 12 square units. How many square units are contained in the area of trapezoid $EFBA$?\n\n[asy]\n\nsize(4cm,4cm);\n\nfor(int i=0; i < 4; ++i){\nfor(int k=0; k < 5; ++k){\ndraw((0,i)--(4,i));\ndraw((k,0)--(k,3));\n} }\n\ndraw((0,0)--(1,3));\ndraw((3,3)--(4,0));\n\nlabel(\"$A$\",(0,0),SW);\nlabel(\"$B$\",(4,0),SE);\nlabel(\"$C$\",(4,3),NE);\nlabel(\"$D$\",(0,3),NW);\nlabel(\"$E$\",(1,3),N);\nlabel(\"$F$\",(3,3),N);\n\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given figure and its dimensions, including the rectangle and trapezoid?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we calculate the area of a rectangle? Can you show this using the given rectangle $ABCD$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we calculate the area of a trapezoid? Can you show this using the given trapezoid $EFBA$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we decompose $EFBA$ into simpler shapes to make it easier to calculate its area?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can we use the areas of the rectangles and triangles in the decomposed $EFBA$ to determine its total area? How?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you now determine the area of the trapezoid $EFBA$ using the strategy of adding areas? What is the final result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

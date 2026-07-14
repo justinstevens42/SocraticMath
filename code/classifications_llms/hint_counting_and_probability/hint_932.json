@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_932",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "How many even three-digit integers  have the property that their digits, read left to right, are in strictly increasing order (each digit is greater than the previous digit)?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the restrictions on the digits of the three-digit integer in order for it to have the desired property?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Why can't any of the digits be zero in the three-digit integer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "If the largest digit is 4, what are the possible choices for the other two digits?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many different ways can we choose two digits from the set {1, 2, 3}?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "For each choice of the other two digits, is there only one valid order that satisfies the given condition? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Following the same reasoning, what are the possible choices for the other two digits if the largest digit is 6 or 8?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How many different ways can we choose two digits from the set {1, 2, 3, 4, 5} or {1, 2, 3, 4, 5, 6, 7}?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How many three-digit integers satisfy the desired property with each of the largest digits (4, 6, and 8)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the total number of three-digit integers that have the property of strictly increasing digits?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

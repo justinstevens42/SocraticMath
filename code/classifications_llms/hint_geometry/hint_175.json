@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_175",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "Triangle $ABC$ has sides of length 5, 12 and 13 units, and triangle $DEF$ has sides of length 8, 15 and 17 units. What is the ratio of the area of triangle $ABC$ to the area of triangle $DEF$? Express your answer as a common fraction.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "e",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the Pythagorean triples that form the sides of triangle $ABC$ and triangle $DEF$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between the length of the sides of a right triangle and its area?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you use the Pythagorean theorem to verify that triangle $ABC$ and triangle $DEF$ are indeed right triangles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we calculate the area of a triangle given the lengths of its sides?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Is it necessary to use the same method to calculate the areas of both triangles, or are there different methods that can be used?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "How can we simplify the calculation of the ratio of the areas of triangle $ABC$ and triangle $DEF$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Is this ratio affected by the size or shape of the triangles, or is it solely determined by the ratio of their side lengths?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

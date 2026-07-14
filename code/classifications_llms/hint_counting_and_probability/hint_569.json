@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_569",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Each page number of a 488-page book is printed one time in the book.  The first page is page 1 and the last page is page 488. When printing all of the page numbers, how many more 4's are printed than 8's?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total number of pages in the book?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain the pattern of how the page numbers are printed? How are the leading zeros used?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many digits are used to represent each page number? Why is it important to have three digits for each page number?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "From page 1 to page 399, are the numbers of 4's and 8's used in the page numbers equal? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "From page 400 to page 488, how many times is the digit 4 used as the hundreds digit, and how many times is the digit 8 used as the hundreds digit? Explain your reasoning.",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "From page 400 to page 488, how many times is the digit 4 used as the tens digit, and how many times is the digit 8 used as the tens digit? Can you calculate this?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any extra 4's or 8's used in the units digit from page 400 to page 488? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Finally, how many more 4's are printed than 8's in total? Can you explain your answer based on your findings from the previous questions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

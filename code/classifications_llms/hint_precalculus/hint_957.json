@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_957",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find the smallest positive integer $n$ such that\n\\[\\begin{pmatrix} \\cos 170^\\circ & -\\sin 170^\\circ \\\\ \\sin 170^\\circ & \\cos 170^\\circ \\end{pmatrix}^n = \\mathbf{I}.\\]",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "f",
+    "f",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the significance of the given matrix? How does it relate to rotating the origin?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What does the given condition mean in terms of angles and rotations?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the fact that $170n$ is a multiple of $360$ to find the smallest positive integer $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between the angles $170^\\circ$ and $360^\\circ$ in terms of the equation $17n = 36m$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other situations where similar thinking and steps might be used to solve a problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_164",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "The figure shown consists of a right triangle and two squares. If the figure's total area equals 850 square inches, what is the value of $x$ in inches? [asy]\nunitsize(5mm);\ndefaultpen(linewidth(.7pt)+fontsize(10pt));\n\ndraw((0,5)--(0,-2)--(-2,-2)--(-2,0)--(5,0)--(5,5)--cycle--(-2,0));\ndraw(scale(0.2)*((-1,0)--(-1,1)--(1,1)--(1,0)));\nlabel(\"$2x$\",(-1,0),S);\nlabel(\"$5x$\",(0,2.5),E);\n[/asy]",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the figure shown and its components? What shapes do you see?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we calculate the area of each component (the two squares and the triangle)?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What information or equations can we set up based on the given total area of 850 square inches?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we express the area of each component in terms of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What equation can we set up using the areas of the components and the given total area?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we solve the equation to find the value of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can we check our solution to ensure it is valid?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any other possible values for $x$ in this context?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

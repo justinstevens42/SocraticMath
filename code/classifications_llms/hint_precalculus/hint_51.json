@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_51",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "In triangle $ABC,$ $D$ is on $\\overline{AB}$ such that $AD:DB = 3:2,$ and $E$ is on $\\overline{BC}$ such that $BE:EC = 3:2.$  If lines $DE$ and $AC$ intersect at $F,$ then find $\\frac{DE}{EF}.$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "In triangle ABC, can you describe the position of point D and point E? How are they related to the sides AB and BC?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What information is given about the ratios AD:DB and BE:EC? How can we represent these ratios using vectors?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Using the given ratios, how can we express vector D in terms of vectors A and B? Similarly, how can we express vector E in terms of vectors B and C?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "By equating the expressions for vector B in terms of vectors A and C, what relationship can we establish among vectors A, C, D, and E?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we express vector F in terms of vectors D and E? What does this expression represent geometrically?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "By rearranging the expression for vector E in terms of vectors D and F, what is the relationship between vectors DE and EF?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

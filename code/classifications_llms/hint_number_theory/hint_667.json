@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_667",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What is the least positive integer with exactly five distinct positive factors?",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the key concept we need to understand in order to determine the number of factors of a positive integer?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain the method of determining the number of factors using prime factorization?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Why do we add 1 to each exponent in the prime factorization to find the number of factors?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How does working backwards from the desired number of factors help us find the smallest positive integer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why is the exponent in the prime factorization of the smallest positive integer with 5 factors equal to 4?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Why is 5 the only prime number that leads to a positive integer with exactly 5 factors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How did we determine that $2^4$ is the smallest fourth power of a prime number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you explain why $2^4$ is indeed the correct answer and how it satisfies the conditions of having exactly five distinct positive factors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other scenario where working backwards from the desired number of factors could be useful?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "Are there any other concepts or scenarios in number theory where prime factorization and the count of factors play a significant role?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

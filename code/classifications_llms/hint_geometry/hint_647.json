@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_647",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "In $\\Delta ABC$, $AC = BC$, $m\\angle DCB = 40^{\\circ}$, and $CD \\parallel AB$. What is the number of degrees in $m\\angle ECD$?\n\n[asy] pair A,B,C,D,E; B = dir(-40); A = dir(-140); D = (.5,0); E = .4 * dir(40);\ndraw(C--B--A--E,EndArrow); draw(C--D,EndArrow);\nlabel(\"$A$\",A,W); label(\"$C$\",C,NW);label(\"$B$\",B,E);label(\"$D$\",D,E);label(\"$E$\",E,E);\n[/asy]",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information about triangle ABC?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between angle DCB and angle B?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How do we know that angle B is congruent to angle DCB?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Why is angle A equal to angle B?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How do we determine the measure of angle ECD?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What angle relationship allows us to conclude that angle ECD is congruent to angle A?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "What is the final measure of angle ECD in degrees?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

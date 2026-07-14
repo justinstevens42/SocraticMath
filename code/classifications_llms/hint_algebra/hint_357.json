@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_357",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "If $y=kx^{\\frac{1}{4}}$ and $y=3\\sqrt{2}$ at $x=81$, what is the value of $y$ at $x=4$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the equation $y=kx^{\\frac{1}{4}}$ represents?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does the value of $k$ tell us about the relationship between $y$ and $x$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the value of $k$ if we know that $y=3\\sqrt{2}$ when $x=81$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain the process of substituting the given values into the equation to solve for $k$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Once we have determined the value of $k$, how can we use it to find the value of $y$ when $x=4$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you describe the steps involved in substituting $x=4$ and the value of $k$ into the equation to calculate $y$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

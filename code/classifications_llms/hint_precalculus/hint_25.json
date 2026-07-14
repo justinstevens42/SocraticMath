@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_25",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "In triangle $ABC,$ $D$ lies on $\\overline{BC}$ and $F$ lies on $\\overline{AB}.$  Let $\\overline{AD}$ and $\\overline{CF}$ intersect at $P.$\n\n[asy]\nunitsize(0.8 cm);\n\npair A, B, C, D, F, P;\n\nA = (1,4);\nB = (0,0);\nC = (6,0);\nD = interp(B,C,7/12);\nF = interp(A,B,5/14);\nP = extension(A,D,C,F);\n\ndraw(A--B--C--cycle);\ndraw(A--D);\ndraw(C--F);\n\nlabel(\"$A$\", A, N);\nlabel(\"$B$\", B, SW);\nlabel(\"$C$\", C, SE);\nlabel(\"$D$\", D, S);\nlabel(\"$F$\", F, W);\nlabel(\"$P$\", P, SW);\n[/asy]\n\nIf $AP:PD = 4:3$ and $FP:PC = 1:2,$ find $\\frac{AF}{FB}.$",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given information about the triangle and its intersection points?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between the ratios of AP:PD and FP:PC in the given problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we express the vectors AP, PD, FP, and PC using the vectors A, B, C, D, and F?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "By manipulating the vector equations from step 3, can we find a relationship between vectors b, a, and f?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can we express vector f solely in terms of vectors a and b using the equation from step 4?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the relationship between the magnitudes of vectors AF and FB?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Based on the equation from step 5, what is the value of AF:FB?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

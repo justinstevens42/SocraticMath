@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_327",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The square with vertices $(-a, -a), (a, -a), (-a, a), (a, a)$ is cut by the line $y = x/2$ into congruent quadrilaterals.  The perimeter of one of these congruent quadrilaterals divided by $a$ equals what?  Express your answer in simplified radical form.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the shape of the square and the line that cuts it into congruent quadrilaterals?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many congruent quadrilaterals are formed and why are they congruent?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How do you calculate the perimeter of the quadrilateral?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you simplify the expression for the perimeter by combining like terms and using the Pythagorean theorem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the resulting expression when the perimeter is divided by $a$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you show that the resulting expression is equivalent to $4 + \\sqrt{5}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

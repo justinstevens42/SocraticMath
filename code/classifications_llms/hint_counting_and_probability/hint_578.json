@@ -1,0 +1,50 @@
+{
+  "problem_id": "hint_578",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "If three coins are tossed at the same time, what is the probability of getting two tails and one head? Express your answer as a common fraction.",
+  "n_questions": 5,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the probability of getting two tails and one head when three coins are tossed at the same time?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How many different outcomes are possible when three coins are tossed simultaneously?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Why is the probability of getting two tails and one head expressed as $\\frac{3}{8}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the probability of getting three heads when three coins are tossed simultaneously?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of any other scenarios where the probability calculation can be applied in a similar manner?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_854",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Find $\\cot 45^\\circ.$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what $\\cot 45^\\circ$ represents in terms of trigonometry?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How would you define tangent and reciprocal functions in trigonometry?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the relationship between $\\cot 45^\\circ$ and $\\tan 45^\\circ$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Are there any trigonometric identities that relate cotangent and tangent?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Using the identities, why can we express $\\cot 45^\\circ$ as the reciprocal of $\\tan 45^\\circ$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why the value of $\\cot 45^\\circ$ is equal to 1?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

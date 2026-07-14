@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_124",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The expression $x^2 - 16x + 60$ can be written in the form $(x - a)(x - b)$, where $a$ and $b$ are both nonnegative integers and $a > b$. What is the value of $3b - a$?",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we begin to rewrite the expression $x^2 - 16x + 60$ in the form $(x - a)(x - b)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What properties of the expression can we use to determine the values of $a$ and $b$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can we factor out any common factors from the expression? If so, what are they?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the factored form to determine the values of $a$ and $b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we find the value of $3b - a$ using the values of $a$ and $b$ that we found?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we check if our values of $a$ and $b$ satisfy the conditions $a > b$ and if they are nonnegative integers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any alternative ways to factorize the expression that may yield different values of $a$ and $b$?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other algebraic expressions where a similar approach can be used to find the value of an expression involving variables?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

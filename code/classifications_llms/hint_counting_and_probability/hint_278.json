@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_278",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "After a gymnastics meet, each gymnast shook hands once with every gymnast on every team (except herself). Afterwards, a coach came down and only shook hands with each gymnast from her own team. There were a total of 281 handshakes. What is the fewest number of handshakes the coach could have participated in?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the scenario described in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many gymnasts are there in total and how many teams are there?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many handshakes are there between just the gymnasts?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "In addition to the gymnast-gymnast handshakes, how many handshakes does the coach have to participate in?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How do we express the number of handshakes between just the gymnasts using a formula?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can we express the total number of handshakes (including the coach) using a formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How do we derive the inequality $n^2 - n - 562 \\leq 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How do we solve the inequality $n^2 - n - 562 \\leq 0$ to find the maximal $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How do we calculate the number of handshakes the coach participated in using the maximal $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the fewest number of handshakes the coach could have participated in, based on our calculations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

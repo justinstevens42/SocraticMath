@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_881",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "A box contains 5 white balls and 6 black balls.  Five balls are drawn out of the box at random.  What is the probability that they all are white?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "r",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total number of balls in the box and what is the ratio of white balls to black balls?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many possible ways are there to draw 5 balls out of the box and why do we use combination to calculate this?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the probability of drawing one white ball out of the box and how does this relate to the probability of drawing 5 white balls?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain the difference between drawing with replacement and drawing without replacement, and which method is being used in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the difference in probability of drawing 5 white balls if the box contained 10 white balls and 6 black balls instead?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Is there any difference in probability of drawing 5 white balls if we draw them one by one instead of all at once, and why or why not?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any real-life situations where probability calculation is important, and how can we use the principles we learned in this problem to solve those situations?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_541",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "Evaluate $\\lfloor (12.1)^2 \\rfloor - \\lfloor 12.1 \\rfloor \\cdot \\lfloor 12.1 \\rfloor .$",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "e",
+    "b",
+    "r",
+    "f",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you define the floor function and its properties?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What happens when we square a number? How does it affect the decimal part?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How does the floor function behave with regards to real numbers and integers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain the significance of using the floor function in this expression?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "What is the value of squaring 12.1? How does it differ from the floor of 12.1 squared?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How does the floor function affect the multiplication of two values?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "What is the importance of subtracting the product of the floor of 12.1 by itself?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "Can you simplify the expression by applying the floor function to each term separately?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can you evaluate the expression step by step, considering the order of operations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Are there any other mathematical concepts or functions that can be related to this expression and its solution?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

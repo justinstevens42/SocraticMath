@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_832",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Let $a \\bowtie b = a+\\sqrt{b+\\sqrt{b+\\sqrt{b+...}}}$. If $7\\bowtie g = 9$, find the value of $g$.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of the operation $\\bowtie$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain how the operation $\\bowtie$ is being applied repeatedly in the expression $a+\\sqrt{b+\\sqrt{b+\\sqrt{b+...}}}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the value of $7\\bowtie g$ in terms of $g$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Given that $7\\bowtie g = 9$, can you set up an equation to solve for the value of $g$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can you isolate the variable $g$ in the equation you set up?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the value of $g$ when you solve the equation from the previous step?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

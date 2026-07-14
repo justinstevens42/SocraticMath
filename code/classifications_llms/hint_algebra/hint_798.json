@@ -1,0 +1,99 @@
+{
+  "problem_id": "hint_798",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "I randomly pick an integer $p$ between $1$ and $10$ inclusive. What is the probability that I choose a $p$ such that there exists an integer $q$ so that $p$ and $q$ satisfy the equation $pq - 4p - 2q = 2$? Express your answer as a common fraction.",
+  "n_questions": 12,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does it mean for an integer p to satisfy the equation pq - 4p - 2q = 2?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can p and q both be positive integers? If so, how does this impact the possible values of p?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can p and q both be negative integers? If so, how does this impact the possible values of p?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can p and q have opposite signs (one positive, one negative)? If so, how does this impact the possible values of p?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can p and q be zero? If so, how does this impact the possible values of p?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we rewrite the equation pq - 4p - 2q = 2 to isolate p on one side?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can we use factoring to solve this equation? If so, how would we proceed?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "If factoring is not suitable, what other methods could we use to solve this equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "How can we determine the values of q that satisfy the equation for a given p?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the relationship between p and q that allows the equation to be satisfied?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 11,
+      "question": "Can we find any specific values of p that satisfy the equation? If so, how would we find them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "How many values of p between 1 and 10 inclusive satisfy the given equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_462",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Five standard six-sided dice are rolled.  We are told there is no three-of-a-kind, but there is a pair of dice that show the same number.  These two dice are set aside, and the other three dice are re-rolled.  What is the probability that after re-rolling these three dice, at least three of the five dice show the same value?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you restate the problem in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What information do we know from the problem? Can you summarize it?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the total number of possible outcomes when rolling five dice?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we approach the problem by considering the outcomes where at least three dice show the same value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Let's focus on the first case - when at least one of the three re-rolled dice matches the pair. How many ways are there for none of the three dice to match the pair?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we calculate the number of ways for at least one of the three dice to match the pair?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Now, let's consider the second case - when all three re-rolled dice match each other. How many ways are there to select the value for these three dice?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Have we counted all the possible outcomes correctly, or have we overcounted in any way? Can you explain?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the final number of ways to have at least three dice match after re-rolling?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the probability of having at least three dice show the same value after re-rolling?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

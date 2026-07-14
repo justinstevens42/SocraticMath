@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_870",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Find the only real number that can be expressed in the form \\[(a + bi)^3 - 107i,\\]where $i^2 = -1,$ and $a$ and $b$ are positive integers.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the expression \\((a+bi)^3 - 107i\\) represents?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we simplify the expression \\((a+bi)^3 - 107i\\) using the given properties of \\(i\\)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What conditions must be satisfied for the expression \\((a+bi)^3 - 107i\\) to be a real number?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What are the different possible values for \\(b\\) in the equation \\(107 = b(3a^2 - b^2)\\)? How did you determine these possibilities?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain how you obtained the equation \\(a^2 = 36\\) when \\(b=1\\)? What does this imply about the value of \\(a\\)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What happens when \\(b=107\\) in terms of the equation \\(1 = 3a^2 - 107^2\\)? Is it possible to find a positive integer solution for \\(a\\) in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final answer and how did you arrive at it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

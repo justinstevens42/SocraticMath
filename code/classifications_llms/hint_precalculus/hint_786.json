@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_786",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Compute\n\\[\\begin{vmatrix} 2 & 0 & -1 \\\\ 7 & 4 & -3 \\\\ 2 & 2 & 5 \\end{vmatrix}.\\]",
+  "n_questions": 9,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "f",
+    "f",
+    "e",
+    "r",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the initial step to compute the determinant in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain the process of expanding the determinant using cofactor expansion?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What are the steps involved in calculating the determinants of 2x2 matrices?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How did you decide which elements to choose for expanding the determinant?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Why did you choose to expand the determinant using the second row?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other methods or techniques for computing determinants?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "How does the value of the determinant relate to the properties of the matrix?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "What would happen if you changed the order of the rows or columns in the given matrix?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Can you explain the geometric interpretation of the determinant in this context?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

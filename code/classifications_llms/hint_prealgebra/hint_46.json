@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_46",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "What is the $87^{\\mathrm{th}}$ odd positive integer?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the formula for expressing every odd positive integer?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does the formula work? Can you explain the logic behind it?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain why we subtract 1 from the formula $2x - 1$ to get the odd positive integer?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do we find the $87$th odd positive integer using the formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you find the value of $x$ that corresponds to the $87$th odd positive integer using the formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the formula to find any odd positive integer?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

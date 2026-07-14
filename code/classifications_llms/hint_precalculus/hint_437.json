@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_437",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Find $\\cos \\frac{5 \\pi}{4}.$",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "r",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the concept of cosine and its relationship to angles?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we convert an angle from radians to degrees?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How did we convert $\\frac{5 \\pi}{4}$ to $225^\\circ$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the reference angle for $225^\\circ$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "In which quadrant does the angle $225^\\circ$ lie?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the general approach to finding the cosine of an angle in a specific quadrant?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How does the cosine value change as we move through different quadrants?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "What is the exact value of $\\cos 45^\\circ$ and how did we use it to find $\\cos 225^\\circ$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other angles or trigonometric functions that we can explore using a similar thought process?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "How can understanding the concept of cosine help us solve problems in precalculus and other mathematical disciplines?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

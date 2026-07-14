@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_958",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Find all the real solutions to\n\\[\\frac{(x - 1)(x - 2)(x - 3)(x - 4)(x - 3)(x - 2)(x - 1)}{(x - 2)(x - 4)(x - 2)} = 1.\\]Enter all the solutions, separated by commas.",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the initial step in solving the given equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Why is it important to consider cases where the fraction is undefined? What values of $x$ do we need to exclude?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "After canceling the common factor, what does the equation reduce to? Why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How did we arrive at the expression $(x-1)^2(x-3)^2 - 1 = 0$? What is the significance of this expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we proceed from here to find the solutions? What method do we use?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are the solutions of the equation? Are there any extraneous solutions? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any similar equations that can be solved using the same method?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

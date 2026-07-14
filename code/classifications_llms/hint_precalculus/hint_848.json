@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_848",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Convert the point $(0, -3 \\sqrt{3}, 3)$ in rectangular coordinates to spherical coordinates.  Enter your answer in the form $(\\rho,\\theta,\\phi),$ where $\\rho > 0,$ $0 \\le \\theta < 2 \\pi,$ and $0 \\le \\phi \\le \\pi.$",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "r",
+    "r",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the spherical coordinate system is and how it is different from rectangular coordinates?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How would you describe the process of converting a point from rectangular coordinates to spherical coordinates?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What formulas or relationships do you know that can help us convert between these coordinate systems?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the significance of the value of $\\rho$ in the spherical coordinate representation of a point?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain how to determine the value of $\\phi$ in spherical coordinates?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we find the value of $\\theta$ in spherical coordinates for this particular point?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any restrictions or limitations on the values that $\\theta$ and $\\phi$ can take in spherical coordinates? If so, what are they?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "Can you verify the calculation of $\\rho,$ $\\theta,$ and $\\phi$ for the given point using the equations we discussed?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

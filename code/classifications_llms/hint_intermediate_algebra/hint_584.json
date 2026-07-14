@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_584",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Let $P(x)$ be a polynomial such that when $P(x)$ is divided by $x-17$, the remainder is $14$, and when $P(x)$ is divided by $x-13$, the remainder is $6$. What is the remainder when $P(x)$ is divided by $(x-13)(x-17)$?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step you should take to solve this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Do you know any methods that can be used to find the remainder when dividing by a quadratic?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we eliminate the $Q(x)$ term in the equation $P(x) = (x-13)(x-17)Q(x) + ax+b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What equations can we obtain by plugging in $x=13$ and $x=17$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we solve the system of equations $13a+b=6$ and $17a+b=14$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the value of $a$ and $b$ after solving the system?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final form of the remainder when $P(x)$ is divided by $(x-13)(x-17)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other types of problems where similar thinking and steps might be used?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

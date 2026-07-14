@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_272",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "What is the least positive integer which when divided by 5 gives a remainder of 4, when divided by 6 gives a remainder of 5, when divided by 7 gives a remainder of 6, when divided by 8 gives a remainder of 7, when divided by 9 gives a remainder of 8, and when divided by 10 gives a remainder of 9?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you approach finding the least positive integer that satisfies the given conditions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What can we deduce about the value of the remainder when the integer is divided by 5, based on the information given?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How does the concept of the least common multiple (LCM) connect with finding the least possible value for the integer?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can we determine the LCM of 6, 7, 8, 9, and 10? If so, what is it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How is the LCM used to determine the least possible value for the integer satisfying the conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other ways or concepts similar to the approach used here that we can apply to solve similar problems?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

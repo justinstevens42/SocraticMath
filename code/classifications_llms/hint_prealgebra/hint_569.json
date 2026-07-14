@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_569",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 1",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "What is $(5^{-2})^0 + (5^0)^3$?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what it means for a number raised to the power of 0 to be equal to 1?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Why do we have $5^{-2}$ raised to the power of 0? What does that mean?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How do we simplify the expression $(5^{-2})^0$ using the rule for exponents?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the result when we simplify $(5^0)^3$ using the same rule for exponents?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we combine the simplified expressions $(5^{-2})^0$ and $(5^0)^3$ to find the final answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other examples where we might encounter expressions involving zero exponents and multiple exponentiations?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

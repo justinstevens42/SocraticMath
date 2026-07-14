@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_767",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Let $A = (-4,0,6),$ $B = (-5,-1,2),$ and $C = (-6,-1,3).$  Compute $\\angle ABC,$ in degrees.",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the distance formula used to compute the lengths AB, AC, and BC?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do we find the angle ABC using the Law of Cosines?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain why we square the lengths and subtract them in the numerator of the Law of Cosines formula?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean if the cosine of the angle ABC is equal to 1/2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of other situations where we can use the Law of Cosines to find angles?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "How would the angle ABC change if the coordinates of points A, B, and C were different?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "What other concepts or formulas related to angles or distances could we explore within the context of this problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

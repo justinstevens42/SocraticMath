@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_266",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "If $x$ is a number between 0 and 1, which of the following represents the smallest value?\n\nA). $x$\nB). $x^2$\nC). $2x$\nD). $\\sqrt{x}$\nE). $\\frac{1}{x}$\n\nExpress your answer as A, B, C, D, or E.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given problem and what is being asked?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the given constraints for the variable $x$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Are you able to determine the smallest value by looking at the options?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the relationship between the different expressions ($x$, $x^2$, $2x$, $\\sqrt{x}$, and $\\frac{1}{x}$) when $0 < x < 1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can you compare the values of $x$, $x^2$, $2x$, $\\sqrt{x}$, and $\\frac{1}{x}$ to determine which is the smallest?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why $x^2$ is always the smallest value in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any similar problems or scenarios where you might use similar reasoning and steps?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

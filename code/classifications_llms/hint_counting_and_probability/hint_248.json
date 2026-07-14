@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_248",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Suppose two distinct integers are chosen from between 5 and 17, inclusive.  What is the probability that their product is odd?",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "f",
+    "f",
+    "b",
+    "r",
+    "f",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what is meant by \"probability\" in this context?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How many integers are there between 5 and 17 inclusive? How did you arrive at that number?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Why do we need to consider choosing two distinct integers? What happens if we choose the same integer twice?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How many ways can we choose two distinct integers from the given range without regard to order? Can you explain your reasoning?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "In order for the product of two integers to be odd, what condition(s) must be met in terms of the integers themselves?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How many odd integers are there between 5 and 17 inclusive? Can you explain how you determined that number?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "What is the relationship between choosing two odd integers and the desired probability? Can you explain why?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "How many ways can we choose two odd integers without regard to order? Can you explain your reasoning?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Using the information we've gathered, what is the probability that the product of two integers chosen is odd? Can you show the calculations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

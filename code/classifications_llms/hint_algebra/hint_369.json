@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_369",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "An investment of $\\$$10,000 is made in a government bond that will pay 6$\\%$ interest compounded annually. At the end of five years, what is the total number of dollars in this investment? Express your answer to the nearest whole number.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "b",
+    "f",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you approach calculating the total number of dollars in the investment after five years?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is compound interest and how does it work in this scenario?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain the formula used to calculate compound interest?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How would you apply the formula to find the total amount in the investment after five years?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there any other factors or variables that need to be considered in this calculation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "If the interest rate was compounded semi-annually instead of annually, would the final amount be different? How would you adjust the calculation?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

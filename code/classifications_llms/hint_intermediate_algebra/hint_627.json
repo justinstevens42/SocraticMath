@@ -1,0 +1,120 @@
+{
+  "problem_id": "hint_627",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Let $\\omega$ be a nonreal root of $z^3 = 1.$  Find the number of ordered pairs $(a,b)$ of integers such that $|a \\omega + b| = 1.$",
+  "n_questions": 15,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given equation that we need to solve? What are we trying to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain why we focus on the equation $z^3 - 1 = 0$? What properties does it have?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we factorize the equation $z^3 - 1 = 0$? What method or techniques can we use?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What are the possible values of $z$ that satisfy the factorized equation? How did you determine them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why do we need to compute the absolute value of $a\\omega + b$? What does this represent in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain how we derived the equation $|a\\omega + b|^2 = 1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How did you simplify the expression $|a\\omega + b|^2$? What steps did you take?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How did you arrive at the equation $a^2 - ab + b^2 = 1$? What happened to the other terms?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you identify the possible values of $a$ and $b$ that satisfy the equation $a^2 - ab + b^2 = 1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Why did you only consider the values $a = -1, 0, 1$? What properties do these values have?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "Can you explain why there are only 6 possible pairs $(a, b)$ that satisfy the equation $a^2 - ab + b^2 = 1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "What is the significance of the two values of $\\omega$? How does it relate to the possible pairs $(a, b)$?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 13,
+      "question": "What do you notice about the complex numbers in the form $a\\omega + b$? How are they represented in the complex plane?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 14,
+      "question": "Why does the triangular lattice formed by these complex numbers help us understand the total number of possible pairs $(a, b)$?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 15,
+      "question": "Can you explain why there are 6 possible pairs $(a, b)$? How does this relate to the problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

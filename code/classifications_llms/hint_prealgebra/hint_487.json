@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_487",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "What is the smallest positive integer that is both a multiple of $7$ and a multiple of $4$?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of a multiple of a number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine if a number is a multiple of another number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What are the common multiples of 7 and 4?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the smallest positive integer that is both a multiple of 7 and a multiple of 4?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why is 28 the smallest positive integer that satisfies both of these conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other scenarios or problems where finding the smallest common multiple is important?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_727",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Suppose that $f(x)=4x+5$. What is $f^{-1}(f^{-1}(9))$?",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "r",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what it means to find the inverse of a function?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the inverse of a given function algebraically?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Given the function $f(x) = 4x+5$, what is the inverse of $f(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain the steps you would take to find $f^{-1}(f^{-1}(9))$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does the concept of function composition relate to finding $f^{-1}(f^{-1}(9))$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you identify any potential misconceptions or pitfalls when solving this problem?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "What is the final result of $f^{-1}(f^{-1}(9))$ and how does it relate to the original problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

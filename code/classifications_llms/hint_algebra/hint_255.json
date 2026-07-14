@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_255",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Real numbers $a$ and $b$ satisfy the equations $3^a=81^{b+2}$ and $125^b=5^{a-3}$.  What is $ab$?",
+  "n_questions": 10,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you simplify the equations and express them using the same base?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What property of exponents allows us to equate the exponents when the bases are equal? How does it apply in this case?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we simplify the equations further using the properties of exponents?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you find the values of $a$ and $b$ that satisfy the simplified equations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Once you find the values of $a$ and $b$, how can you determine the value of $ab$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any restrictions or special cases we need to consider when solving these equations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of other similar problems where the same concepts and strategies can be applied?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "How can understanding exponent properties and simplifying equations help in solving more complex algebraic problems?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "What insights does solving this problem offer about the relationship between exponents and real numbers?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "Can you explain the significance of the value of $ab$ in the context of the given equations?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

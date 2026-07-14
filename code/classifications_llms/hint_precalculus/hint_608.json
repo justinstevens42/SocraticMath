@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_608",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Triangle $ABC$ has a right angle at $B$, and contains a point $P$ for which $PA = 10$, $PB = 6$, and $\\angle APB = \\angle BPC = \\angle CPA$. Find $PC$.\n\n[asy]\nunitsize(0.2 cm);\n\npair A, B, C, P;\n\nA = (0,14);\nB = (0,0);\nC = (21*sqrt(3),0);\nP = intersectionpoint(arc(B,6,0,180),arc(C,33,0,180));\n\ndraw(A--B--C--cycle);\ndraw(A--P);\ndraw(B--P);\ndraw(C--P);\n\nlabel(\"$A$\", A, NW);\nlabel(\"$B$\", B, SW);\nlabel(\"$C$\", C, SE);\nlabel(\"$P$\", P, NE);\n[/asy]",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given problem in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What do we know about triangle ABC and point P?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we represent the length of PC in terms of z?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why angles APB, BPC, and CPA are equal to 120 degrees?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What equations can we set up using the Law of Cosines for triangles BPC, APB, and APC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the Pythagorean Theorem to relate the lengths of AB, BC, and AC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you solve the equation we set up and find the value of z?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

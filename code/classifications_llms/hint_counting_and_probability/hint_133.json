@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_133",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Erika, who is 14 years old, flips a fair coin whose sides are labeled 10 and 20, and then she adds the number on the top of the flipped coin to the number she rolls on a standard die. What is the probability that the sum equals her age in years? Express your answer as a common fraction.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How old is Erika?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the possible outcomes of the coin flip? Describe the probabilities associated with each outcome.",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What are the possible outcomes of rolling a standard die? Describe the probabilities associated with each outcome.",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we calculate the sum of the number on the coin and the roll of the die?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What sum is required for Erika's age to be represented?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "How can we determine the likelihood of the sum equaling Erika's age?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Is there a specific combination of coin flip and die roll that would result in a sum equal to Erika's age? If so, what is it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the probability of obtaining that specific combination of coin and die roll?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can we simplify the probability by multiplying the probabilities of the individual events together?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the final probability of the sum equaling Erika's age in years?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_444",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "In the prime factorization of $24!$, what is the exponent of $3$?  (Reminder: The number $n!$ is the product of the integers from 1 to $n$.  For example, $5!=5\\cdot 4\\cdot3\\cdot2\\cdot 1= 120$.)",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what prime factorization means?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How would you find the prime factorization of $24!$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you identify the prime factors of $24$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many multiples of $3$ are there between $1$ and $24$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does the number of multiples of $3$ help determine the exponent of $3$ in the prime factorization of $24!$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What is the exponent of $3$ for each of the multiples of $3$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any numbers between $1$ and $24$ that have $3$ as a factor two times? If so, how does this affect the exponent of $3$ in the prime factorization?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Why don't we need to consider numbers with $3$ as a factor three times?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the final exponent of $3$ in the prime factorization of $24!$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_834",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "A rectangular prism has dimensions 8 inches by 2 inches by 32 inches. If a cube has the same volume as the prism, what is the surface area of the cube, in square inches?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the dimensions of the rectangular prism?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the formula for the volume of a rectangular prism?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the volume of the rectangular prism in cubic inches?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the formula for the volume of a cube?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How do you find the edge length of the cube with the same volume as the rectangular prism?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the surface area formula for a cube?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "What is the surface area of a cube with an edge length of 8 inches?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How does the surface area of the cube compare to the surface area of the rectangular prism?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other real-life examples where you can apply similar concepts of volume and surface area?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

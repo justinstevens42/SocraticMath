@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_602",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What is the greatest common divisor of $654321$ and $543210$?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step in solving this problem using the Euclidean Algorithm?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain why we subtracted the numbers in each step of the algorithm?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How did we determine which number to subtract from the other in each step?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What did we do after performing the subtraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did we determine the greatest common divisor in the final step?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other numbers for which you can use the Euclidean Algorithm to find the greatest common divisor?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Is there a more efficient way to find the greatest common divisor of these two numbers? If so, what is it?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "How does the Euclidean Algorithm help in finding the greatest common divisor in general?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

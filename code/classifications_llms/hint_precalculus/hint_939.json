@@ -1,0 +1,99 @@
+{
+  "problem_id": "hint_939",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "The sides of an isosceles triangle are $\\cos x,$ $\\cos x,$ and $\\cos 7x,$ and its vertex angle is $2x.$  (All angle measurements are in degrees.)  Enter all possible values of $x,$ separated by commas.",
+  "n_questions": 12,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given isosceles triangle and its angle measurements?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between the sides and angle of an isosceles triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the value of $\\sin x$ in terms of $\\cos 7x$ and $\\cos x$ using the right triangles formed by dropping the altitude from the vertex of the isosceles triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the relationship between $\\cos 7x$ and $\\sin 2x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the relationship between $\\cos 7x$ and $\\cos (90^\\circ - 2x)$ to find the possible values of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are the possible values of $x$ obtained from the first case where $7x + 90^\\circ - 2x = 180^\\circ k$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we determine if the possible values of $x$ obtained from the first case are acute angles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Why does $\\cos 7x < 0$ for some values of $x$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 9,
+      "question": "What are the possible values of $x$ obtained from the second case where $7x - (90^\\circ - 2x) = 180^\\circ k$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can we determine if the possible values of $x$ obtained from the second case are acute angles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "Which possible values of $x$ work and why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "What are the final possible values of $x$ for the given isosceles triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

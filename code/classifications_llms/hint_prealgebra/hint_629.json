@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_629",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "For what value of $a$ does the equation $3(2x-a) = 2(3x+12)$ have infinitely many solutions $x$?",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the first step in solving the equation $3(2x-a) = 2(3x+12)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the process of distributing on both sides? How does it help simplify the equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How did you simplify the equation after distributing?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What do you notice about the terms that contain $x$ on both sides of the equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine the value of $a$ for which the equation has infinitely many solutions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why the equation is true for all $x$ when $a=-8$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What happens to the equation if $a$ is not equal to $-8$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any similar equations that might require a similar approach to find the value of $a$ for infinitely many solutions?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

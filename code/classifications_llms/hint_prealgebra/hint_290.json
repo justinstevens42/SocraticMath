@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_290",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "What is the area, in square units, of triangle $ABC$ in the figure shown if points $A$, $B$, $C$ and $D$ are coplanar, angle $D$ is a right angle, $AC = 13$, $AB = 15$ and $DC = 5$? [asy]\npair A, B, C, D;\nA=(12,0);\nD=(0,0);\nC=(0,5);\nB=(0,9);\ndraw(A--B--C--A--D--C);\ndraw((0,.5)--(.5,.5)--(.5,0));\nlabel(\"$A$\", A, dir(-45));\nlabel(\"$B$\", B, dir(135));\nlabel(\"$C$\", C, dir(180));\nlabel(\"$D$\", D, dir(-135));\n[/asy]",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "f",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given triangle $ACD$? What type of triangle is it?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can you use the lengths $AC$ and $DC$ to find the length of $AD$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What formula or theorem can you use to find the length of $BD$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can you then find the lengths of $AB$ and $BC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the formula for calculating the area of a triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you calculate the area of triangle $ABD$ and triangle $ACD$ using the given lengths?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the relationship between the areas of triangle $ABD$ and triangle $ACD$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "How can you find the area of triangle $ABC$ using the areas of triangle $ABD$ and triangle $ACD$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

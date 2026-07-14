@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_1034",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "There exist two distinct unit vectors $\\mathbf{v}$ such that the angle between $\\mathbf{v}$ and $\\begin{pmatrix} 2 \\\\ 2 \\\\ -1 \\end{pmatrix}$ is $45^\\circ,$ and the angle between $\\mathbf{v}$ and $\\begin{pmatrix} 0 \\\\ 1 \\\\ -1 \\end{pmatrix}$ is $60^\\circ.$  Let $\\mathbf{v}_1$ and $\\mathbf{v}_2$ be these vectors.  Find $\\|\\mathbf{v}_1 - \\mathbf{v}_2\\|.$",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a unit vector and how is it related to the magnitude of a vector?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What do we know about the angle between two vectors and how can we express it mathematically?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the given information about the angles between $\\mathbf{v}$ and the two given vectors to set up equations for the components of $\\mathbf{v}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Once we have equations for the components of $\\mathbf{v}$, how can we solve for $x$, $y$, and $z$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we check that a vector $\\mathbf{v}$ satisfies the given conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the distance between the two distinct unit vectors $\\mathbf{v}_1$ and $\\mathbf{v}_2$ and how can we calculate it using the solutions we found for $\\mathbf{v}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

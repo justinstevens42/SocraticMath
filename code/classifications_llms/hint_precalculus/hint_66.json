@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_66",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "If $\\mathbf{a},$ $\\mathbf{b},$ and $\\mathbf{c}$ are unit vectors, then find the largest possible value of\n\\[\\|\\mathbf{a} - \\mathbf{b}\\|^2 + \\|\\mathbf{a} - \\mathbf{c}\\|^2 + \\|\\mathbf{b} - \\mathbf{c}\\|^2.\\]Note: A unit vector is a vector of magnitude 1.",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of a unit vector?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain what the dot product of two vectors represents geometrically?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How do we compute the square of the norm of a vector in terms of its components?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we express the distance between two vectors in terms of their components?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How do we derive the expression $\\|\\mathbf{a} - \\mathbf{b}\\|^2 = 2 - 2 \\mathbf{a} \\cdot \\mathbf{b}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the inequality we obtain by expanding $\\|\\mathbf{a} + \\mathbf{b} + \\mathbf{c}\\|^2 \\ge 0$ and simplifying?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How do we obtain the final upper bound of $9$ for the expression we want to maximize?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you explain why equality occurs when $\\mathbf{a},$ $\\mathbf{b},$ and $\\mathbf{c}$ are equally spaced on a circle with radius 1?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

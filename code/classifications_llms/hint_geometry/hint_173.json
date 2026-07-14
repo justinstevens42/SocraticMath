@@ -1,0 +1,99 @@
+{
+  "problem_id": "hint_173",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "The region shown is bounded by the arcs of circles having radius 4 units, having a central angle measure of 60 degrees and intersecting at points of tangency. The area of the region can be expressed in the form $a\\sqrt{b}+c\\pi$ square units, where $\\sqrt{b}$ is a radical in simplest form. What is the value of $a + b + c$?\n[asy]\nsize(150);\ndraw(arc((-2,0),2,0,60));\ndraw(arc((0,3.464),2,-60,-120));\ndraw(arc((2,0),2,120,180));\n[/asy]",
+  "n_questions": 12,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "f",
+    "b",
+    "f",
+    "f",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given region and its boundaries?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What do you notice about the circles in the diagram?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the significance of the central angle measure of 60 degrees?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How are the circles intersecting at points of tangency related to the region?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How would you find the area of the region using the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you identify any special shapes or properties within the diagram that might help calculate the area?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "What can you say about the area of the region compared to the area of the hexagon?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "How can you use the properties of triangles to find the area of the hexagon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you derive the formula for the area of the hexagon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How does the area of the hexagon relate to the area of the original region?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 11,
+      "question": "What is the final expression for the area of the region in terms of pi and the square root?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "What is the value of a + b + c in the final expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

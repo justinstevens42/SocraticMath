@@ -1,0 +1,99 @@
+{
+  "problem_id": "hint_974",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "The Cookie Monster encounters a cookie whose boundary is the equation $x^2+y^2 + 21 = 4x + 18 y$ and is very confused. He wants to know if this cookie is a lunch-sized cookie or a snack-sized cookie. What is the radius of this cookie?",
+  "n_questions": 12,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the equation and its components in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How would you start in determining the type and size of the cookie based on the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for a circle to have a particular equation in terms of x and y?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What steps can you take to transform the given equation into the standard form of a circle equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can you identify the center and radius of the circle based on its equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Are there any special techniques or theorems you can use to simplify the equation and determine the radius?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Can you apply the completing the square method to convert the equation to the standard form, and what insights can you gain from doing so?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can you compare the given equation to the standard form of a circle equation to determine the center and radius?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you identify the values of h and k in the equation and explain their significance in terms of the center of the circle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Once you have the equation in standard form, how can you determine the radius and its relationship to the coefficients of x and y?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "How would you calculate the radius based on the given equation? What other information might you need?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "Can you now determine if the cookie is lunch-sized or snack-sized based on the derived radius?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

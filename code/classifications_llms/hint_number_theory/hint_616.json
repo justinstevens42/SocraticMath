@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_616",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "What is the remainder of $19^{1999}$ divided by 25?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "f",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Why did we investigate the first few powers of 19? Are there any patterns or observations that can be made?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How do we determine when the powers of 19 start repeating? What does this tell us about finding the remainder?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What did we notice about the power of 19 when it was congruent to 24 modulo 25? How did we use this to simplify our calculation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How did we rewrite $19^{1999}$ in terms of powers of 19 that are congruent to 1 modulo 25?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the significance of $19^4 \\equiv 21 \\equiv -4 \\pmod{25}$ and $19^5 \\equiv -1 \\pmod{25}$? How did we use these congruences to find our final answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of other similar problems where investigating powers of a number modulo another number can help determine remainders?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

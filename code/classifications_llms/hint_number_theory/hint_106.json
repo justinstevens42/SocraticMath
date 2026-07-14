@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_106",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Base prime representation of a natural number is defined using the exponents of its prime factorization as follows. Each place in a base prime represents a prime number, and it is occupied by the corresponding exponent of that prime, starting on the right side with the smallest prime number and proceeding to the left with the next largest prime number. For instance, since $84 = 7^1 \\times 5^0 \\times 3^1 \\times 2^2$, then $84$ would be written as $1012$ in base prime. What is $225$ written in base prime?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "f",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what base prime representation is and how it is calculated?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the prime factorization of $225$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Which primes divide into $225$, and what are their corresponding exponents in the prime factorization?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the reasoning behind treating $2$ as having a $0$ exponent in the base prime representation of $225$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How do we determine the order in which the exponents are written in base prime representation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why the base prime representation of $225$ would be $\\boxed{220}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

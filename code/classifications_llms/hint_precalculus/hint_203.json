@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_203",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Let $O$ be the origin.  A variable plane has a distance of 1 from the origin, and intersects the $x$-axis, $y$-axis, and $z$-axis at $A,$ $B,$ and $C,$ respectively, all distinct from $O.$  Let $(p,q,r)$ be the centroid of triangle $ABC.$  Find\n\\[\\frac{1}{p^2} + \\frac{1}{q^2} + \\frac{1}{r^2}.\\]",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the equation of plane ABC in terms of the variables alpha, beta, and gamma?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do we determine the distance between the origin and plane ABC using the equation of a plane?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for the distance between the origin and plane ABC to be 1?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Based on the equation, what can we infer about the relationship between alpha, beta, and gamma?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we express the centroid (p, q, r) of triangle ABC in terms of alpha, beta, and gamma?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How is the distance between the origin and the centroid (p, q, r) related to the equation of plane ABC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Using the relationship between the distance and the coordinates of the centroid, what does the equation 1/alpha^2 + 1/beta^2 + 1/gamma^2 = 1 imply about the values of alpha, beta, and gamma?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the value of 1/p^2 + 1/q^2 + 1/r^2 based on the given expressions for p, q, and r?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we simplify the expression for 1/p^2 + 1/q^2 + 1/r^2 using the relationship between alpha, beta, and gamma?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the final numerical result for 1/p^2 + 1/q^2 + 1/r^2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

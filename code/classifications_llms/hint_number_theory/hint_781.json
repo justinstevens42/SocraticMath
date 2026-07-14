@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_781",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The number $0.428125$ can be written as a fraction $\\frac{a}{b}$ for positive integers $a$ and $b$. When this fraction is in simplest terms, what is $a+b$?",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you express the number $0.428125$ as a fraction in the form $\\frac{a}{b}$, where $a$ and $b$ are positive integers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can we simplify the fraction $\\frac{428,125}{1,000,000}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Is there a common factor between the numerator and denominator that we can divide out?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What can we obtain by dividing the numerator and denominator by this common factor?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can we simplify the fraction $\\frac{428,125}{1,000,000}$ further by dividing out any other common factors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the simplest form of the fraction $\\frac{428,125}{1,000,000}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the numerator and denominator when the fraction $\\frac{428,125}{1,000,000}$ is in simplest terms?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the sum of the numerator and denominator in the simplest form of the fraction $\\frac{428,125}{1,000,000}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

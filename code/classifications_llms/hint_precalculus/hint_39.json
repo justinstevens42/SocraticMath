@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_39",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 1",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "For real numbers $t,$ the point\n\\[(x,y) = (2^t - 3, 4^t - 5 \\cdot 2^t - 1)\\]is plotted.  All the plotted points lie on what kind of curve?\n\n(A) Line\n(B) Circle\n(C) Parabola\n(D) Ellipse\n(E) Hyperbola\n\nEnter the letter of the correct option.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How are the coordinates of the plotted points related to the value of $t$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "If we let $x = 2^t - 3$, what are the advantages of this substitution in analyzing the curve?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "By substituting $x = 2^t - 3$ into the given expression for $y$, how can we simplify the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What kind of curve does the simplified equation represent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What are the general characteristics of a parabola?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we further analyze the equation $y = x^2 + x - 7$ to determine the specific properties of this parabola?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other equations that might have similar properties or require similar steps to analyze?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

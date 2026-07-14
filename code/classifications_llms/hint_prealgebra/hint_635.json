@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_635",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Stephan has been busy at work writing all the possible rearrangements of the letters in his name. He is one bored boy. If he can write twelve rearrangements of his name every minute, how many hours does it take to write all the possible rearrangements of his name?",
+  "n_questions": 10,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "r",
+    "r",
+    "e",
+    "e",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total number of rearrangements possible for Stephan's name?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How many rearrangements can Stephan write in one minute?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "If Stephan can write 12 rearrangements every minute, how long does it take him to write all the possible rearrangements of his name?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How did we determine the total number of rearrangements possible for Stephan's name?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can we explain why the number of rearrangements is calculated by multiplying the number of letters together?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Is there a pattern or formula that we can use to calculate the number of rearrangements for a name with different numbers of letters?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other assumptions we made when calculating the time it takes Stephan to write all the rearrangements?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Are there any other factors that could affect the time it takes to write all the rearrangements?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "What if Stephan could only write 8 rearrangements every minute? How would that change the calculation?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any real-life scenarios where understanding permutations and calculating total possibilities could be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_931",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What is the sum of the integers from $-30$ to $50$, inclusive?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "f",
+    "f",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you approach finding the sum of these integers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you think of any shortcuts or formulas that could help in this situation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What are some strategies you could use to make the calculation process more efficient?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Are there any patterns or relationships you notice among the integers from -30 to 50?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How could you verify the accuracy of your calculation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other scenarios where finding the sum of a sequence of integers would be useful, and how would you approach solving them?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

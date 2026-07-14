@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_134",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Let $f(x) = x^2 - x + 2010$. What is the greatest common divisor of $f(100)$ and $f(101)$?",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of greatest common divisor?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we write the function $f(x)$ in another form that is more convenient for finding its values at specific points?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can we express $f(101)$ and $f(100)$ in terms of the new form of $f(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the Euclidean algorithm, and how can we use it to find the greatest common divisor of two numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the greatest common divisor of $2\\cdot 100$ and $100\\cdot 119 + 10$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the results of the Euclidean algorithm to express the greatest common divisor of $f(100)$ and $f(101)$ as a combination of the two values we found earlier?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final answer to the problem, and how can we check that it is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

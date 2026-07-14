@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_501",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "An isosceles, obtuse triangle has one angle with a degree measure that is 50$\\%$ larger than the measure of a right angle. What is the measure, in degrees, of one of the two smallest angles in the triangle? Express your answer as a decimal to the nearest tenth.",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What type of triangle are we dealing with in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the measure of one of the two smallest angles in the triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the measure of a right angle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do we calculate $50\\%$ larger than the measure of a right angle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What does it mean for a triangle to be obtuse?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we determine the combined measure of the other two angles in the obtuse triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we find the measure of each of the two smallest angles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How do we express our answer as a decimal to the nearest tenth?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

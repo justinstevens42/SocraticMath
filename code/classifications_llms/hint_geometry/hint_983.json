@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_983",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Trapezoid $ABCD$ has base $AB = 20$ units and base $CD = 30$ units. Diagonals $AC$ and $BD$ intersect at $X$. If the area of trapezoid $ABCD$ is $300$ square units, what is the area of triangle $BXC$?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information in the problem? Can you identify the main geometric figures involved?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the height of the trapezoid using the given formula for its area? Could you explain the steps involved?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the value of the height of the trapezoid in this case? How did you calculate it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the area of triangle ADC? How did you find it using the height and the longer base?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did you determine the area of triangle ABC, or the upper portion of the trapezoid?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why the ratio of the heights of triangles DXC and AXB is 2:3? How did you arrive at this conclusion?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How did you set up and solve the equation to find the height of triangle DXC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Using the heights and the bases, can you calculate the area of triangle AXB?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Finally, what is the area of triangle BXC? How did you calculate it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

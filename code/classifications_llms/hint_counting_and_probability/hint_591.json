@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_591",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "A club has $5$ members from each of $3$ different schools, for a total of $15$ members. How many possible ways are there to arrange a presidency meeting under the following conditions:\n\ni. The club must choose one of the $3$ schools at which to host the meeting, and\n\nii. The host school sends $2$ representatives to the meeting, and each of the other two schools sends $1$ representative.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "f",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many members are there in total in the club?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many schools are there in the club?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for a school to host the meeting?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How many representatives does the host school send to the meeting?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How many representatives do the other two schools send to the meeting?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "How many ways are there to choose the two representatives from the host school?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How many ways are there to choose a representative from each of the other two schools?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Once the representatives have been selected, how many ways are there to arrange the meeting?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can any of the three schools be the host? Why or why not?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 10,
+      "question": "How can we calculate the total number of ways to arrange the meeting under the given conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

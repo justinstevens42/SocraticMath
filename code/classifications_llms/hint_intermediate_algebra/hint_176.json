@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_176",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Find all positive real numbers $x$ that satisfy\n\\[x \\sqrt{12 - x} + \\sqrt{12x - x^3} \\ge 12.\\]Enter all solutions, separated by commas.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step you would take to solve this inequality?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How would you rewrite the left-hand side of the expression to make it more manageable?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What inequality principle or theorem could you apply next in order to solve the inequality?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How did you come up with the inequality bound of 12?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why the two inequalities we derived from Cauchy-Schwarz must be equal to each other?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How did you use the equality condition in Cauchy-Schwarz to find the expression for $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other inequalities or equations that are similar in nature and could be solved using similar techniques?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

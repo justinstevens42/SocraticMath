@@ -1,0 +1,113 @@
+{
+  "problem_id": "hint_748",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "A parabola and an ellipse share a focus, and the directrix of the parabola is the line containing the minor axis of the ellipse. The parabola and ellipse intersect at two points. Given that the equation of the ellipse is $\\frac{x^2}{25} + \\frac{y^2}{9} = 1,$ find the distance between those two points.",
+  "n_questions": 14,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we describe the relationship between the parabola and ellipse in terms of their focuses and directrix?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the equations of the parabola and ellipse in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the coordinates of the foci of the ellipse?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why do we assume that the focus of the parabola is at (4,0)?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can we find the equation of the parabola given its focus and directrix?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the equation of the system we need to solve to find the intersection points?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we eliminate the variable y from the system of equations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the resulting quadratic equation after eliminating y?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How do we factor the quadratic equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Why do we choose the positive value of x as our solution?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 11,
+      "question": "How do we solve for y given the value of x?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "What are the coordinates of the intersection points?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 13,
+      "question": "How do we find the distance between the two points?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 14,
+      "question": "What is the final answer to the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

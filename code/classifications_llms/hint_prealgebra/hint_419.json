@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_419",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Triangles $BAD$ and $BDC$ are right triangles with $AB = 12$ units, $BD = 15$ units, and $BC = 17$ units. What is the area, in square units, of quadrilateral $ABCD$?\n\n[asy]\ndraw((0,0)--(9,0)--(9,0)+8dir(36.87)--(0,12)--cycle,linewidth(1));\ndraw((0,12)--(9,0),linewidth(1));\n\nlabel(\"A\",(0,0),SW);\nlabel(\"B\",(0,12),W);\nlabel(\"C\",(9,0)+8dir(36.87),NE);\nlabel(\"D\",(9,0),S);\n\ndraw((1,0)--(1,1)--(0,1),linewidth(1));\ndraw((9,0)+dir(36.87)--(9,0)+sqrt(2)*dir(45+36.87)--(9,0)+dir(36.87+90),linewidth(1));\n[/asy]",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the given figure in terms of triangles $BAD$ and $BDC$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What do we know about the lengths of the sides of triangles $BAD$ and $BDC$? How can we use this information to find the area of each triangle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the area of a triangle using the lengths of its sides?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What are the lengths of the sides of triangle $BAD$? How can we use these lengths to find its area?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What are the lengths of the sides of triangle $BDC$? How can we use these lengths to find its area?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we find the area of quadrilateral $ABCD$ using the areas of triangles $BAD$ and $BDC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the area, in square units, of quadrilateral $ABCD$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

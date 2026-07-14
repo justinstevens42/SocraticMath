@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_856",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "How many digits are there in the base-7 representation of $956$?",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of base-7 representation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain how to convert a number from base-10 to base-7?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "In the base-7 representation of a number, what does each digit represent?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the largest power of 7 that is less than the given number, 956?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine the number of digits in the base-7 representation of 956 based on the largest power of 7 less than it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Why do we add 1 to the power of 7 when calculating the number of digits?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you apply this reasoning to find the number of digits in the base-7 representation of 1000?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "What is the base-7 representation of 956, and how does it demonstrate our reasoning?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other number representations (e.g., base-2, base-16) and discuss how their digit count would be determined?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

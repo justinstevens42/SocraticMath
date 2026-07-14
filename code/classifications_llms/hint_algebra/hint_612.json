@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_612",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Let  \\begin{align*}\nf(x) &= 2x + 5 \\\\\ng(x) &= \\sqrt{f(x)} - 2 \\\\\nh(x) &= f(g(x))\n\\end{align*} What is $h(2)$?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the function $f(x)$ in terms of its input and output?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does the function $g(x)$ do to the output of $f(x)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the value of $g(2)$ and how did you arrive at that value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How does the function composition $h(x) = f(g(x))$ work?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you simplify the expression $h(2)$ to a single value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are the intermediate steps involved in evaluating $h(2)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How does the order of function composition affect the result? Would $h(g(x))$ yield the same value?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other functions where function composition can be applied in a similar way?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "How would the values of $h(x)$ change if the functions $f(x)$ or $g(x)$ were different?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "What other observations or connections can you make about the concepts of function composition and evaluation?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_909",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find\n\\[\\sin \\left( \\sin^{-1} \\frac{3}{5} + \\tan^{-1} 2 \\right).\\]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the value of $a$ in the equation $a = \\sin^{-1} \\frac{3}{5}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the value of $b$ in the equation $b = \\tan^{-1} 2$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you express $\\sin a$ in terms of a simplified fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you express $\\cos a$ in terms of a simplified fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you express $\\sin b$ in terms of a simplified fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you express $\\cos b$ in terms of a simplified fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the value of $\\sin (a + b)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you apply the angle addition formula to find $\\sin (a + b)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can you express $\\sin (a + b)$ in terms of $\\sin a$, $\\cos a$, $\\sin b$, and $\\cos b$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 10,
+      "question": "What is the final simplified result of $\\sin (a + b)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

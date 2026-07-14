@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_252",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Each vertex of this parallelogram has integer coordinates. The perimeter of this parallelogram is $p$ units, while the area is $a$ square units. What is the value of the sum $p + a$?\n\n[asy]\nsize(5cm,5cm);\ndraw((-2,0)--(11,0));\ndraw((0,-1)--(0,6));\ndraw((0,0)--(3,4)--(10,4)--(7,0)--cycle);\nlabel(\"$(3,4)$\",(3,4),NW);\nlabel(\"$(7,0)$\",(7,0),S);\n[/asy]",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "r",
+    "r",
+    "e",
+    "f",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a parallelogram and what are its properties?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the length of the third side of the parallelogram?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the given information to find the area of the parallelogram?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the relationship between the base and the height of a parallelogram?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we show that the opposite sides of a parallelogram are congruent?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other geometric shapes where we can use similar methods to find their perimeter and area?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "How can we show that the coordinates of the vertices of this parallelogram are integers?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "How can we check our work to make sure that our answer is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_445",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "In triangle $PQR,$ $\\angle Q = 30^\\circ,$ $\\angle R = 105^\\circ,$ and $PR = 4 \\sqrt{2}.$  Find $QR.$",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "f",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain why the sum of angles in a triangle is always 180 degrees? How can we use this information to find the measure of angle P in triangle PQR?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the Law of Sines? How can we apply it to find the length of QR in triangle PQR?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Why do we use the sine function in the Law of Sines? Is there any other trigonometric function that can help us solve this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can we rely on the given information about angles Q and R to determine the length of PR? How?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Can you describe the relationship between the sides and angles of a triangle in general? How does this relate to our current problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "If the measure of angle Q was different, would this change the length of QR? How can we explore this using the Law of Sines?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

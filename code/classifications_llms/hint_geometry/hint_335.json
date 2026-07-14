@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_335",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Circle $T$ has a circumference of $12\\pi$ inches, and segment $XY$ is a diameter. If the measure of angle $TXZ$ is $60^{\\circ}$, what is the length, in inches, of segment $XZ$?\n\n[asy]\nsize(150);\ndraw(Circle((0,0),13),linewidth(1));\ndraw((-12,-5)--(-5,-12)--(12,5)--cycle,linewidth(1));\ndot((0,0));\n\nlabel(\"T\",(0,0),N);\nlabel(\"X\",(-12,-5),W);\nlabel(\"Z\",(-5,-12),S);\nlabel(\"Y\",(12,5),E);\n\n[/asy]",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "f",
+    "f",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between the circumference of a circle and its radius?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How did we use the circumference to find the length of the radius in this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is angle TXZ important in solving this problem? What does it tell us about triangle TXZ?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How did we determine that triangle TXZ is equilateral? What properties did we use?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "How does the fact that triangle TXZ is equilateral help us find the length of segment XZ?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other properties or theorems that might be useful in solving similar geometry problems?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

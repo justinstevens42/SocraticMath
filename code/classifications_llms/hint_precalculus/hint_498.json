@@ -1,0 +1,50 @@
+{
+  "problem_id": "hint_498",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "The matrix\n\\[\\begin{pmatrix} \\frac{4}{29} & -\\frac{10}{29} \\\\ -\\frac{10}{29} & \\frac{25}{29} \\end{pmatrix}\\]corresponds to projecting onto a certain vector $\\begin{pmatrix} x \\\\ y \\end{pmatrix}.$  Find $\\frac{y}{x}.$",
+  "n_questions": 5,
+  "labels": [
+    "f",
+    "r",
+    "e",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the matrix describing and what vector is it projecting onto?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How does projecting a vector onto itself help us find the value of y/x?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can we use other matrices to project onto the same vector, and if so, how would their corresponding values of y/x compare to the one we found?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 4,
+      "question": "How does the matrix multiplication involved in the projection relate to solving the system of equations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What other applications does projecting a vector onto another vector have in mathematics and physics?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

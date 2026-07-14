@@ -1,0 +1,113 @@
+{
+  "problem_id": "hint_570",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "If Greg rolls four fair six-sided dice, what is the probability that he rolls more 1's than 6's?",
+  "n_questions": 14,
+  "labels": [
+    "r",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of probability?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How many sides does each die have?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What are the possible outcomes when rolling one die?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the total number of outcomes when rolling four dice?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many ways are there for Greg to roll more 1's than 6's?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many ways are there for Greg to roll more 6's than 1's?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Why is the probability of rolling more 1's than 6's the same as the probability of rolling more 6's than 1's?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "How can we find the probability of Greg rolling the same number of 1's and 6's?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How many ways are there for Greg to roll two 1's and two 6's?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How many ways are there for Greg to roll one 1 and one 6, and what are the possible values of the other two dice?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "How many ways are there for Greg to roll no 1's or 6's?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "What is the total number of ways for Greg to roll the same number of 1's and 6's?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 13,
+      "question": "How can we use the above information to find the probability that Greg rolls more 1's than 6's?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 14,
+      "question": "Can you think of any other situations where we might need to find the probability of one event occurring more than another event?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_468",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Compute $\\arcsin 1.$  Express your answer in radians.",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e",
+    "r",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you define the function $\\arcsin$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the range of the $\\arcsin$ function?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you recall any special values of the sine function?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Based on the special values of the sine function, what do you think is the value of $\\arcsin 1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you express this value in radians?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is it possible for $\\arcsin 1$ to have multiple values? If so, what are they?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Considering the range of $\\arcsin$ and the given input value of $1$, can you conclude that $\\arcsin 1$ has a unique value?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "What does the value of $\\arcsin 1$ tell us about an angle in the unit circle?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Can you visualize the angle corresponding to $\\arcsin 1$ in the unit circle?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "How does the value of $\\arcsin 1$ relate to the concept of an inverse function?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

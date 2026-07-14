@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_703",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "The triangle shown is an equilateral triangle with side length 12 cm. A side of the triangle is the diameter of the circle. If the sum of the areas of the two small shaded regions in square centimeters in simplest radical form is $a\\pi - b\\sqrt{c}$, what is $a+b+c$? [asy]\nimport graph;\nsize(2inch);\npair A = dir(60);\npair B = dir(240);\npair C = dir(0);\npair D = dir(300);\npair E = extension(A, C, B, D);\ndraw(A--B); draw(A--E); draw(B--E);\ndraw(Circle( (0,0), 1));\nfill(Arc((0,0), C, A)--cycle, gray);\nfill(Arc((0,0), B, D)--cycle, gray);\n[/asy]",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given figure and identify any key information that is provided to us?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What kind of triangle is shown in the figure? How can we use this information to find the area of the shaded regions?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "One of the sides of the equilateral triangle is given as the diameter of the circle. What does this tell us about the circle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the fact that $\\angle AEB=60^\\circ$ to find the measure of the arc $\\widehat{CD}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why are triangles $AOC$ and $DOB$ equilateral? How can we use this fact to find their areas?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we find the areas of the shaded regions by subtracting the area of an equilateral triangle from the area of a sector?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final result for the sum of the areas of the shaded regions in simplest radical form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we use this result to find the values of $a$, $b$, and $c$, and ultimately find the sum $a+b+c$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Are there any other geometric concepts or theorems that you can relate to this problem or that are relevant in finding the solution?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

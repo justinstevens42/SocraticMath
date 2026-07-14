@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_1012",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Let $a,$ $b,$ and $t$ be real numbers such that $a + b = t.$  Find, in terms of $t,$ the minimum value of $a^2 + b^2.$",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the concept of QM-AM and how it is used in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does the QM-AM inequality help in finding the minimum value of $a^2 + b^2$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain the steps taken to derive the inequality $\\frac{a^2 + b^2}{2} \\ge \\frac{t^2}{4}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How is the minimum value of $a^2 + b^2$ determined from the derived inequality?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain the conditions for equality in the QM-AM inequality and how they are applied in this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any alternative methods that could be used to find the minimum value of $a^2 + b^2$? How do they compare to the QM-AM method?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other mathematical problems where the QM-AM inequality could be applied?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

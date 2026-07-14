@@ -1,0 +1,50 @@
+{
+  "problem_id": "hint_883",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "For how many integer values of $n$ between 1 and 1000 inclusive does the decimal representation of $\\frac{n}{1400}$ terminate?",
+  "n_questions": 5,
+  "labels": [
+    "r",
+    "f",
+    "f",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what it means for the decimal representation of a fraction to terminate or not terminate?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the prime factorization of 1400? Why is this important for determining when the decimal representation of a fraction simplifies?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How do we know that in order for the fraction $\\frac{n}{1400}$ to simplify to having only the primes 2 and 5 in the denominator, there must be a factor of 7 in the numerator?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How many multiples of 7 are there between 1 and 1000? Why is this relevant for determining the number of integer values of n between 1 and 1000 inclusive for which the decimal representation of $\\frac{n}{1400}$ terminates?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why the answer to the problem is equal to the number of multiples of 7 between 1 and 1000? Is there any other way to approach this problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

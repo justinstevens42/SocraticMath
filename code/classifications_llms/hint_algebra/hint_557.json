@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_557",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What is the minimum possible value for $y$ in the equation $y = x^2 + 12x + 5$?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "r",
+    "f",
+    "b",
+    "e",
+    "e",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you identify the key aspects of the equation $y = x^2 + 12x + 5$ that relate to finding the minimum value?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the minimum value of $y$ in the equation? What steps should we follow?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Are there any specific mathematical properties or concepts that could help us in this situation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean for $y$ to have a minimum value? How does it relate to the graph of the equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of any strategies or techniques that might be useful in finding the minimum value of $y$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "If we wanted to graph the equation, what features of the graph may be relevant to finding the minimum value of $y$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "Can you provide any initial values for $x$ that you think could lead to a minimum value for $y$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What would happen if we change the coefficients of the equation? Would it affect the minimum value of $y$?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "How might the presence or absence of certain terms in the equation affect the possibility of finding the minimum value?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "Are there any other mathematical principles or concepts that we should consider when determining the minimum value of $y$ in this equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ],
+  "classifier": "llm"
+}

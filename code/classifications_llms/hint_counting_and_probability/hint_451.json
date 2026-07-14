@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_451",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "What is the value of $\\frac{14!}{5!9!}$ ?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does the expression $\\frac{14!}{5!9!}$ represent?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain the significance of the exclamation mark (!) in this expression?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Why are we dividing $14!$ by $5!$ and $9!$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean to cancel before multiplying? How does it apply in this context?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How many ways can we interpret the canceling process in this expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you provide an alternative method to simplify $\\frac{14!}{5!9!}$ without canceling?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the significance of the resulting expression being equal to $\\frac{14 \\cdot 13 \\cdot 12 \\cdot 11}{4 \\cdot 3}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the connection between the simplified expression and probability?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of a real-life scenario where counting and probability calculations can be involved using similar principles?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

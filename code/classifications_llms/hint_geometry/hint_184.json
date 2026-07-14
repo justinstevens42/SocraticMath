@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_184",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "In right triangle $ABC$, shown below, $\\cos{C}=\\frac{9\\sqrt{130}}{130}$.  Find $AC$.\n\n[asy]\ndraw((0,0)--(7,0)--(0,9)--cycle,black+linewidth(1));\ndraw(rightanglemark((7,0),(0,0),(0,9),20),black+linewidth(1));\nlabel(\"$A$\",(0,0),W);\nlabel(\"$B$\",(7,0),E);\nlabel(\"$C$\",(0,9),W);\nlabel(\"$\\sqrt{130}$\",(7,0)--(0,9),NE);\n[/asy]",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "f",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of a right triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain the Pythagorean theorem and how it relates to right triangles?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How do we define the cosine of an angle in a right triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the given value of cos C to determine the ratio of AC to BC?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "What is the final step to solve for AC once we have the ratio of AC to BC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you relate this problem to other trigonometric concepts, such as sine and tangent?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "How would the problem change if we were given a different trigonometric ratio or side length measurement?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

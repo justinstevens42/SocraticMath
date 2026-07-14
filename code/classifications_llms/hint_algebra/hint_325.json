@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_325",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "If $a$ is a constant such that $9x^2 + 24x + a$ is the square of a binomial, then what is $a$?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "b",
+    "f",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you determine if the given quadratic expression is the square of a binomial?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What characteristics should the binomial have in order for its square to be equal to the given expression?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you recall any methods or techniques that can help you determine if the given expression is a perfect square?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "If the given quadratic expression is indeed the square of a binomial, how could you find the value of the unknown constant \"a\"?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there any specific patterns or properties that you can identify within the expression that might assist you in finding the value of \"a\"?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other scenarios where you might encounter a quadratic expression that is the square of a binomial? What similarities or differences do you notice compared to the given problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

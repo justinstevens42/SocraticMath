@@ -1,0 +1,50 @@
+{
+  "problem_id": "hint_984",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Two lines defined by the equations $y = mx + 4$ and $y = 3x + b$, where $m$ and $b$ are constants, intersect at the point $(6, 10)$. What is the value of $b + m$?",
+  "n_questions": 5,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How do you determine the point of intersection between two lines given their equations?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What information does the point of intersection $(6, 10)$ provide us about the two lines?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you express the equations $y = mx + 4$ and $y = 3x + b$ in a form that allows us to find their intersection point more easily?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Using the point $(6, 10)$, can you substitute the values into the equations $y = mx + 4$ and $y = 3x + b$ to find the values of $m$ and $b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Once you find the values of $m$ and $b$, how can you calculate the value of $b + m$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

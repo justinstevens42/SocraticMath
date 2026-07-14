@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_976",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Compute $\\sin 270^\\circ$.",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what it means to rotate a point counterclockwise by a certain number of degrees?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does rotating a point relate to the trigonometric functions like sine?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "In this specific case, why are we rotating the point $(1, 0)$ by $270^\\circ$ counterclockwise?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Can you recall the values of the sine function for any other commonly used angles?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "Based on the result we obtained, what can we say about the relationship between the angle measure and the resulting sine value?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Can you envision any other scenarios where we might need to calculate the sine of an angle obtained through rotation?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

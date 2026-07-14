@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_348",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Find $\\begin{pmatrix} 3 \\\\ -7 \\end{pmatrix} + \\begin{pmatrix} -6 \\\\ 11 \\end{pmatrix}.$",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "r",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step in performing vector addition?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain the rules and properties of vector addition?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How would you determine the sum of the x-components of the two given vectors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What about the sum of the y-components?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the significance of adding the x-components separately and the y-components separately?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any real-life scenarios where vector addition is applicable?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Are there any alternative methods to calculate the sum of two vectors? If so, what are they and how do they compare to the method shown here?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Can you generalize the process of vector addition for vectors of different dimensions? If so, explain how.",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

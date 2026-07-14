@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_490",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "The circular region of the sign (below, left) has an area of 154 square inches. Vanessa would like to place a tiny ribbon (shaded) around the circle's edge. To be sure she has enough ribbon, she decides to buy 2 inches more of the ribbon than the original circle's circumference. How many inches of ribbon will Vanessa need to buy if she estimates $\\pi = \\frac{22}{7}$?\n\n[asy]import graph;\nsize(125,72.5);\npicture p;\ndraw(p,unitsquare);\nfilldraw(p,Circle((.5,.5),.3),white);\nlabel(p,\"Enter\",(.5,.5),ZapfChancery(\"m\",\"n\"));\nadd(p);\nfilldraw(Circle((2,.5),.4),gray(.6));\nadd(shift(1.5*right)*p);\ndraw((1.1,.5)--(1.4,.5),EndArrow(5,25));[/asy]",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we represent the area of the circular region in terms of the radius?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Given that the area is 154 square inches, what equation can we set up to find the value of the radius?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the estimated value of π that we are using in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the estimated value of π and the equation from question 2 to solve for the radius?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the value of the radius that we obtain from solving the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we find the circumference of the circle using the radius?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What additional length of ribbon does Vanessa want to purchase?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "How can we calculate the total length of ribbon Vanessa needs to buy?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the final result of our calculations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

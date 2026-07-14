@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_140",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 1",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "Compute $\\sqrt{(31)(30)(29)(28)+1}.$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we simplify the given expression, $\\sqrt{(31)(30)(29)(28)+1}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What pattern or structure do you notice in the expression $(31)(30)(29)(28)+1$? How can this help us simplify it?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Why did we choose $x=29$? How does this substitution help us express the given expression in a simpler form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How does rewriting $(31)(30)(29)(28)+1$ as $(x^2+x-1)^2$ help us in finding its square root?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we evaluate $(x^2+x-1)^2$ given that $x=29$? What is the final result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other similar problems where substitution or pattern recognition could be helpful in simplifying the expression?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_835",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "Find the matrix $\\mathbf{M}$ that doubles the first column of a matrix.  In other words,\n\\[\\mathbf{M} \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} = \\begin{pmatrix} 2a & b \\\\ 2c & d \\end{pmatrix}.\\]If no such matrix $\\mathbf{M}$ exists, then enter the zero matrix.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "f"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the task of finding the matrix that doubles the first column of another matrix?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the general form of the matrix that we want to find? Can you write it as a 2x2 matrix with unknown coefficients?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we represent the multiplication between matrices in general? Can you write the product of the matrix we want to find and the given matrix?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What are the entries in the resulting matrix that we want to achieve? Compare them with the entries in the product of the matrices. What conditions need to be satisfied?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Express the resulting matrix as a system of equations in terms of the unknown coefficients. What values do the coefficients need to have in order to satisfy the system?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there a solution to the system of equations? If so, what are the values of the coefficients and what is the matrix that satisfies the conditions? If not, what is the matrix that represents no such transformation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How does the zero matrix relate to the concept of doubling the first column of a matrix?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    }
+  ],
+  "classifier": "llm"
+}

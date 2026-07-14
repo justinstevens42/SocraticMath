@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_940",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What is the remainder when the sum $1 + 7 + 13 + 19 + \\cdots + 253 + 259$ is divided by $6$?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "f",
+    "f",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain why every term in the given series has a remainder of $1$ when divided by $6$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How did you determine the expression for the nth term as $6n - 5$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Why did you set $259 = 6n - 5$? What are you trying to find by doing this?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How did you solve the equation $259 = 6n - 5$ to find the value of $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why is it important to find the number of terms in the sum?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why the remainder of the sum is the same as the remainder of $44$ when divided by $6$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "What is the remainder when $44$ is divided by $6$ and how does it relate to the remainder of the sum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

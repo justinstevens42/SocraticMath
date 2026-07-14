@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_700",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Compute $\\sin(-60^\\circ)$.",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "r",
+    "f",
+    "b",
+    "f",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the steps to compute $\\sin(-60^\\circ)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between rotating $60^\\circ$ clockwise and rotating $360^\\circ - 60^\\circ$ counterclockwise? How does this relate to $\\sin$ values?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain why we can use the angle $300^\\circ$ to find $\\sin(-60^\\circ)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the unit circle to determine the coordinates of point $P$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "In triangle $POD$, why is it a 30-60-90 triangle? How does this help us find the length of the sides?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "What are the coordinates of point $P$? How does this relate to $\\sin(-60^\\circ)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other angles where a similar thought process and steps could be used to compute the sine value?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

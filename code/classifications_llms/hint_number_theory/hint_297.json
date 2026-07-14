@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_297",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "When $555_{10}$ is expressed in this base, it has 4 digits, in the form ABAB, where A and B are two different digits.  What base is it?",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "f",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the minimum value of base b that can result in 4 digits when $555_{10}$ is expressed in base b?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the maximum value of base b that can result in 4 digits when $555_{10}$ is expressed in base b?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How did we determine that b can range from 5 to 8, inclusive, in order for $555_{10}$ to have 4 digits?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why did we need to find all bases that result in 4 digits for $555_{10}$ before attempting to find the specific base that satisfies the condition \"in the form ABAB\"?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How did we determine that base 6 satisfies the condition \"in the form ABAB\"?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the significance of the digits \"2323\" in the base-6 expression of $555_{10}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "If $555_{10}$ were expressed in a different base, would the resulting digits have the same significance as \"2323\" does in base-6?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of other scenarios where we need to find the base of a number given certain conditions on its digits in that base?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

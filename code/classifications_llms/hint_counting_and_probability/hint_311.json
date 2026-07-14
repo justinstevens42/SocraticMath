@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_311",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Cory has $3$ apples, $2$ oranges and $2$ bananas. If Cory eats one piece of his fruit per day for a week and the pieces of fruit within each category are indistinguishable, in how many orders can Cory eat the fruit? One such order is $AAAOOBB.$",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "r",
+    "r",
+    "r",
+    "f",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total number of fruits that Cory has?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many days will Cory eat fruit?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for the pieces within each category to be indistinguishable?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "If all the fruits were distinct, how many ways could Cory eat them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why do we need to divide by the factorial of the number of repeat fruits in each category?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain the concept of factorial and why it is used here?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Why do we multiply the factorial values instead of adding them?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "Are there any other restrictions or conditions that we need to consider in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of a similar situation where we need to use the concept of factorial and combinations?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "How does the number of ways Cory can eat the fruit change if he has a different number of fruits in each category?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

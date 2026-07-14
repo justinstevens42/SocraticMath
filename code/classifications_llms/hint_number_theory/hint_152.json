@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_152",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What is the 308th digit to the right of the decimal point when $\\frac{12}{37}$ is expressed as a decimal?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step in finding the decimal representation of $\\frac{12}{37}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain why long division is used to find the decimal representation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the repeating pattern in the decimal representation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean when a digit repeats? How is it represented in the decimal form?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine the number of digits that repeat in the decimal representation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "If we want to find the 1,000th digit to the right of the decimal point, what steps would we take? Can you generalize the approach?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

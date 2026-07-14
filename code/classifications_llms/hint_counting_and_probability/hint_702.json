@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_702",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find the largest integer $n$ for which $12^n$ evenly divides $20!$.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does $12^n$ represent in terms of its prime factorization?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "In order to find the value of $n$, what divisors of $20!$ do we need to consider?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many times does 2 divide into $20!$? How did you arrive at this number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many times does 3 divide into $20!$? What steps did you take to determine this?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Based on the prime factorization of $12^n$, what is the maximum value of $n$ that satisfies both the divisibility of 2 and 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of a different scenario where we would need to find the largest power of a number that divides a factorial? How would the steps for finding the value of $n$ be similar or different in that case?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

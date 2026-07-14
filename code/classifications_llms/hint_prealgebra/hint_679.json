@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_679",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Adjacent sides of Figure 1 are perpendicular. Four sides of Figure 1 are removed to form Figure 2. What is the total length, in units, of the segments in Figure 2?\n\n[asy]\ndraw((0,0)--(4,0)--(4,6)--(3,6)--(3,3)--(1,3)--(1,8)--(0,8)--cycle);\ndraw((7,8)--(7,0)--(11,0)--(11,6)--(10,6));\nlabel(\"Figure 1\",(2,0),S);\nlabel(\"Figure 2\",(9,0),S);\nlabel(\"8\",(0,4),W);\nlabel(\"2\",(2,3),S);\nlabel(\"6\",(4,3),E);\nlabel(\"1\",(.5,8),N);\nlabel(\"1\",(3.5,6),N);\n\n[/asy]",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "f",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information about Figure 1 and Figure 2?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many sides are removed from Figure 1 to form Figure 2?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the length of the bottom segment in Figure 2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the length of the bottom segment in Figure 2 based on the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the sum of the top horizontal segments in Figure 1?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How does that sum relate to the length of the bottom segment in Figure 2?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "How do we calculate the total length of the segments in Figure 2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_20",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Given that $\\binom{23}{3}=1771$, $\\binom{23}{4}=8855$, and $\\binom{23}{5}=33649$, find $\\binom{25}{5}$.",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain Pascal's identity and how it relates to combinations?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How did you use Pascal's identity to find $\\binom{24}{4}$ and $\\binom{24}{5}$ in terms of $\\binom{23}{3}$, $\\binom{23}{4}$, and $\\binom{23}{5}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the value of $\\binom{24}{4}$ and how did you calculate it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the value of $\\binom{24}{5}$ and how did you calculate it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did you use Pascal's identity again to find $\\binom{25}{5}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain the steps you took to calculate $\\binom{25}{5}$ using Pascal's identity?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final value of $\\binom{25}{5}$ and how did you arrive at that result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

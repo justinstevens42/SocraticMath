@@ -1,0 +1,50 @@
+{
+  "problem_id": "hint_534",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Find the remainder when $x^{44} + x^{33} + x^{22} + x^{11} + 1$ is divided by $x^4 + x^3 + x^2 + x + 1.$",
+  "n_questions": 5,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the polynomial we want to find the remainder of, and what is the polynomial we want to divide by?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between the roots of the second polynomial and the value of $\\alpha$ in the first polynomial?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the relationship between the roots of the second polynomial and $\\alpha$ to simplify the expression we are trying to find the remainder of?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Could we have used synthetic division or long division instead of the method presented in the given solution? How do these methods work?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "If the remainder was not equal to zero, what would that tell us about the roots of the second polynomial?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_608",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "Find the smallest three-digit palindrome whose product with 101 is not a five-digit palindrome.",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a palindrome and how is it related to this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain the process of multiplying a three-digit palindrome by 101 using the distributive property?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Why does carrying occur in the product of the multiplication?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the smallest value of $a$ such that $2a \\ge 10$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the significance of finding the smallest possible value of $b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why the product of the smallest three-digit palindrome with 101 is not a five-digit palindrome?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other scenarios where carrying might occur in this calculation?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "How does this problem showcase the concept of the distributive property in Number Theory?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Are there any other interesting patterns or properties you notice in this problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

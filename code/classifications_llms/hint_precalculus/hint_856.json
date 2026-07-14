@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_856",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Below is the graph of $y = a \\sin bx$ for some constants $a < 0$ and $b > 0.$  Find $a.$\n\n[asy]import TrigMacros;\n\nsize(400);\n\nreal g(real x)\n{\n\treturn (-2*sin(x/3));\n}\n\ndraw(graph(g,-3*pi,3*pi,n=700,join=operator ..),red);\ntrig_axes(-3*pi,3*pi,-3,3,pi/2,1);\nlayer();\nrm_trig_labels(-5, 5, 2);\n\nlabel(\"$1$\", (0,1), E);\nlabel(\"$2$\", (0,2), E);\nlabel(\"$-1$\", (0,-1), E);\nlabel(\"$-2$\", (0,-2), E);\n[/asy]",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "r",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the equation that represents the graph shown?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does the negative value of $a$ indicate about the graph?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What does the positive value of $b$ indicate about the graph?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the range of the function $y = a \\sin bx$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How does the value of $a$ affect the amplitude of the graph?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How does the value of $b$ affect the period of the graph?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can we determine the maximum value of $a \\sin bx$ based on the graph?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_964",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "Find the sum of the values of $x$ which satisfy $x^2 +1992x = 1993$.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step you would take to solve this equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Are there any different methods you know of that can be used to solve equations like this?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you choose to complete the square, what steps would you take to find the appropriate values?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why can this equation be solved by completing the square? What characteristics make it suitable for this method?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the completed square form of this equation, and how can it be used to verify your solutions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other types of equations where similar thinking and steps might be used to solve them?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

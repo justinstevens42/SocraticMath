@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_700",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What is the degree measure of an interior angle of a regular pentagon?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "r",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what a regular pentagon is and how it is different from other polygons?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between the number of sides in a regular polygon and the sum of its interior angles?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the sum of the interior angles of a convex pentagon using triangles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "If we know the sum of the interior angles of a convex pentagon, how can we find the degree measure of each angle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the formula to calculate the sum of the interior angles of any convex polygon? How does it apply to a regular pentagon?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why the degree measure of each interior angle of a regular pentagon is equal?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ],
+  "classifier": "llm"
+}

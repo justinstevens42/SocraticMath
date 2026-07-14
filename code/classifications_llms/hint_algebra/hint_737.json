@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_737",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Let $f(x)=3x+4$ and $g(x)=2x-3$.  If $h(x)=f(g(x))$, then what is the inverse of $h(x)$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the function $h(x)$ represents? How is it related to the functions $f(x)$ and $g(x)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the definition of an inverse function? How can we determine if two functions are inverses of each other?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the inverse of a composite function like $h(x)$? What steps do we need to take?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you simplify the expression $h(x)$ by substituting the functions $f(x)$ and $g(x)$ into it? What do you get?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "In order to find the inverse of $h(x)$, what should we do to isolate $x$ on one side of the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What happens when we interchange $x$ and $h(x)$ in the equation $h(x) = f(g(x))$? Can we solve this new equation for $h(x)$ in terms of $x$ to find the inverse function?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

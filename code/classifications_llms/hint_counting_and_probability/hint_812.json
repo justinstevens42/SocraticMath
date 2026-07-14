@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_812",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "To take quizzes, each of 30 students in a class is paired with another student. If the pairing is done randomly, what is the probability that Margo is paired with her best friend, Irma? Express your answer as a common fraction.",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "f",
+    "b",
+    "r",
+    "r",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of probability?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean to say that the pairing of students is done randomly?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How many total possibilities are there for who Margo could be paired with?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is it mentioned that there are 29 equally likely possibilities for Margo's partner?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "In how many of the total possibilities is Margo paired with her best friend, Irma?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the relationship between the number of favorable outcomes and the number of total outcomes in calculating probability?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How do we express the probability of an event as a fraction?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "Can you simplify the fraction expression for the probability of Margo being paired with Irma?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Is the probability of Margo being paired with Irma a high or low probability? Can you provide any reasoning to support your answer?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "If the pairing was not done randomly, how might that affect the probability of Margo being paired with Irma?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

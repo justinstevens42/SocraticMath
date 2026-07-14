@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_389",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "A square is divided into nine smaller squares of equal area. The center square is then divided into nine smaller squares of equal area and the pattern continues indefinitely. What fractional part of the figure is shaded? [asy]\nimport olympiad; size(150); defaultpen(linewidth(0.8)); dotfactor=4;\nvoid drawSquares(int n){\n\ndraw((n,n)--(n,-n)--(-n,-n)--(-n,n)--cycle);\n\nfill((-n,n)--(-1/3*n,n)--(-1/3*n,1/3*n)--(-n,1/3*n)--cycle);\n\nfill((-n,-n)--(-1/3*n,-n)--(-1/3*n,-1/3*n)--(-n,-1/3*n)--cycle);\n\nfill((n,-n)--(1/3*n,-n)--(1/3*n,-1/3*n)--(n,-1/3*n)--cycle);\n\nfill((n,n)--(1/3*n,n)--(1/3*n,1/3*n)--(n,1/3*n)--cycle);\n}\n\ndrawSquares(81); drawSquares(27); drawSquares(9); drawSquares(3); drawSquares(1);\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what the shaded area represents in terms of the smaller squares?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many smaller squares are there in the first iteration of the pattern?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What fraction of the total area does the shaded area represent in the first iteration?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you see any patterns in the relationship between the number of smaller squares in each iteration and the total area they cover?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "If the pattern continues indefinitely, what can you say about the total area covered by the shaded squares?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we express the fractional part of the figure that is shaded?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_409",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Compute $10^{-1}\\pmod{1001}$. Express your answer as a residue from $0$ to $1000$, inclusive.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How does the fact that $1001=10\\cdot 100+1$ help us find the inverse of $10\\pmod{1001}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the meaning of finding the inverse of a number $\\pmod{n}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Are there any restrictions on the possible values of the inverse of a number $\\pmod{n}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do we check that a number is the inverse of another number $\\pmod{n}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can we find the inverse of any number $\\pmod{n}$? If not, what are the conditions that must be satisfied to guarantee the existence of an inverse?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the concept of inverse to solve equations and simplify calculations in modular arithmetic?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

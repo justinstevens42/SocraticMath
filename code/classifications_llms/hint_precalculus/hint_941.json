@@ -1,0 +1,113 @@
+{
+  "problem_id": "hint_941",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "For each integer $n$ greater than 1, let $F(n)$ be the number of solutions of the equation $\\sin x = \\sin nx$ on the interval $[0, \\pi]$.  What is $\\sum_{n=2}^{2007} F(n)$?",
+  "n_questions": 14,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of $F(n)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain how $F(n)$ relates to the intersection points of the graphs of $y=\\sin x$ and $y=\\sin nx$ on the interval $[0,\\pi]$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "When is $\\sin nx\\geq 0$ on the interval $\\left[ \\frac{(2k-2) \\pi}{n}, \\frac{(2k-1) \\pi}{n} \\right]$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many intervals are there in which $\\sin nx\\geq 0$ on the interval $[0,\\pi]$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why do the graphs intersect twice on each interval unless $\\sin x=1=\\sin nx$ at some point in the interval?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "When does the equation $\\sin x=1=\\sin nx$ hold true on the interval $[0,\\pi]$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How does the value of $F(n)$ change depending on whether $n$ is even or odd?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the formula for $F(n)$ when $n$ is even?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the formula for $F(n)$ when $n$ is odd and $n\\equiv 3\\pmod 4$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the formula for $F(n)$ when $n$ is odd and $n\\equiv 1\\pmod 4$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "What is the value of $\\sum_{n=2}^{2007} F(n)$ using the formulas for the different cases of $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "How can you simplify the expression $\\sum_{n=2}^{2007} (n+1)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 13,
+      "question": "Why do we need to subtract $\\left\\lfloor \\frac{2007-1}{4}\\right\\rfloor$ from the sum in the previous question?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 14,
+      "question": "What is the final answer to the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

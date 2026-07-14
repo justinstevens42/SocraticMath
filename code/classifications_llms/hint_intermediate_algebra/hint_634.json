@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_634",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "How many positive integers $n$ satisfy \\[(n + 8)(n - 3)(n-12)<0\\]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the conditions under which the expression $(n + 8)(n - 3)(n-12)$ would be less than zero (negative)?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the possible sign combinations for the factors $(n + 8)$, $(n - 3)$, and $(n-12)$ that would result in a negative product?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "If $n$ is less than $3$, what would be the signs of $(n + 8)$, $(n - 3)$, and $(n-12)$? What would be the effect on their product?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "If $n$ is strictly between $3$ and $12$, what would be the signs of $(n + 8)$, $(n - 3)$, and $(n-12)$? What would be the effect on their product?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "If $n$ is greater than $12$, what would be the signs of $(n + 8)$, $(n - 3)$, and $(n-12)$? What would be the effect on their product?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many possible integer solutions can we have between $3$ and $12$ inclusive?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

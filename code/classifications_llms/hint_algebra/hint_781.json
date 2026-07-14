@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_781",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Find the common ratio of the infinite geometric series: $$\\frac{-3}{5}-\\frac{5}{3}-\\frac{125}{27}-\\dots$$",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you define an infinite geometric series?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the general formula for finding the nth term of an infinite geometric series?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you determine the first term and the common ratio of the given series?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can you express the series in terms of powers of the common ratio?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Based on the given terms, what is the common ratio of the infinite geometric series?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you verify your answer by substituting the common ratio into the series equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other ways to find the common ratio of an infinite geometric series? How are they related to the given terms?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "What would happen to the series if the common ratio was greater than 1? Smaller than 1? Equal to 1?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any real-life examples or applications where understanding infinite geometric series and their common ratios would be useful?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "Suppose you were given a different infinite geometric series. How would you proceed to find its common ratio?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

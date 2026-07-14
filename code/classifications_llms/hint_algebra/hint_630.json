@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_630",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "How many units long is a segment whose endpoints are (2,3) and (7,15)?",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you identify the formula or method to calculate the length of a segment between two points in a coordinate plane?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Based on the formula or method you mentioned, what information or values do you need to find the length of the segment?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can you use the given endpoints (2,3) and (7,15) to calculate the length of the segment?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Can you determine the difference between the x-coordinates and the y-coordinates of the given endpoints?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can you utilize the differences between the coordinates to calculate the length of the segment?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What steps would you take to find the length of the segment using the differences in x and y coordinates?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you calculate the difference in x-coordinates and the difference in y-coordinates?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Based on the differences you calculated, can you apply the formula or method you mentioned earlier to find the length of the segment?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the final result after applying the formula or method? Can you provide the length of the segment?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Are there any variations or similar problems where you can apply the same reasoning and steps to find the length of a segment?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

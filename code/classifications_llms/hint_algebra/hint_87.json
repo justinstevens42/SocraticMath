@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_87",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Simplify $\\dfrac{3+4i}{1+2i}$. Your answer should be of the form $a+bi$, where $a$ and $b$ are both real numbers and written as improper fractions (if necessary).",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in simplifying the given expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Are you familiar with any properties or rules that can be applied to simplify complex numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you were to start by multiplying both the numerator and denominator of the fraction by the conjugate of the denominator, what values would you get?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is multiplying by the conjugate of the denominator helpful in this case? What does it allow us to simplify or eliminate?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "After multiplying the numerator and denominator, what are the resulting expressions? Can you simplify further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you express the final answer in the form $a+bi$, where $a$ and $b$ are real numbers, potentially written as improper fractions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

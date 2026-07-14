@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_49",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Find the largest integer less than 80 that leaves a remainder of 3 when divided by 5.",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of an integer that leaves a remainder of 3 when divided by 5?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you express such an integer in the form of 5n + 3? Why is this representation useful?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the largest value that n can have if the expression is less than 80?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we solve the inequality 5n + 3 < 80 to find the largest permissible value of n?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "After solving the inequality, what is the largest permissible value of n?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the expression for the largest integer value that leaves a remainder of 3 when divided by 5?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain why this is the largest value less than 80 that satisfies the given condition?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

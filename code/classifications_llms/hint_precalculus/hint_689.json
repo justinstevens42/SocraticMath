@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_689",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "For real numbers $t,$ the point\n\\[(x,y) = \\left( e^t + e^{-t}, 3 (e^t - e^{-t}) \\right)\\]is plotted.  All the plotted points lie on what kind of curve?\n\n(A) Line\n(B) Circle\n(C) Parabola\n(D) Ellipse\n(E) Hyperbola\n\nEnter the letter of the correct option.\n\nNote: $e$ is a mathematical constant that is approximately $2.71828.$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the coordinates of the point in terms of $t$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you simplify the expressions for $x$ and $y$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the equation for the hyperbola? Can you identify the center, vertices, and asymptotes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How did you determine that the plotted points lie on a hyperbola? Can you explain the reasoning behind it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there any restrictions on the values of $t$? What happens to the shape of the hyperbola as $t$ approaches positive or negative infinity?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other examples or situations where the concepts of exponential functions and hyperbolas might be related?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

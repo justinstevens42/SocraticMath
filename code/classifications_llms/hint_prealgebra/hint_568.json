@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_568",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The value of $\\sqrt{73}$ is between two positive, consecutive integers. What is the product of these two integers?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the concept of finding the square root of a number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine whether a number is between two consecutive integers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the significance of the two consecutive integers in this context?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How did you determine that $\\sqrt{73}$ is between 8 and 9?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of any other examples where we might need to find the square root of a number between two consecutive integers?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "How does finding the product of the two consecutive integer values help us understand the relationship to $\\sqrt{73}$ in this problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

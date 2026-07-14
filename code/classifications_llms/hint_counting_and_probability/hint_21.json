@@ -1,0 +1,92 @@
+{
+  "problem_id": "hint_21",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Six green balls and four red balls are in a bag.  A ball is taken from the bag, its color recorded, then placed back in the bag.  A second ball is taken and its color recorded.  What is the probability the two balls are the same color?",
+  "n_questions": 11,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the different possibilities for the first ball that can be drawn from the bag?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What are the different possibilities for the second ball that can be drawn from the bag?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we calculate the probability of drawing two balls of the same color?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the probability of drawing two green balls?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the probability of drawing two red balls?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How do we find the final probability of drawing two balls of the same color?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How do we add the probabilities of drawing two green balls and two red balls?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you simplify the final answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How does this probability relate to the concept of counting and probability in general?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 11,
+      "question": "Can you think of other situations where similar thinking and steps might be used in solving probability problems?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

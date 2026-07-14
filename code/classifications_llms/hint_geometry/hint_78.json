@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_78",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Compute $\\sin 0^\\circ$.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "e",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in computing $\\sin 0^\\circ$ using the given information about rotating a point counterclockwise?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does the point $(1,0)$ represent in terms of angles and trigonometric functions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Why does rotating the point $(1,0)$ by $0^\\circ$ keep the point at the same location? How does this relate to the value of $\\sin 0^\\circ$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Are there any other trigonometric functions that we can determine the value of using this same reasoning? If so, which ones?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "How does the concept of rotating a point relate to the concept of finding trigonometric values?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other scenarios where we might use a similar approach to determine the value of a trigonometric function?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

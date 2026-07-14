@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_300",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "What is the sum of the $x$-values that satisfy the equation $5=\\frac{x^3-2x^2-8x}{x+2}$?",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "r",
+    "b",
+    "e",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you simplify the equation by canceling any common factors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Are there any restrictions on the variable $x$ that we need to consider in this equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the values of $x$ that satisfy the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean for two values of $x$ to satisfy the equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "After finding the values of $x$ that satisfy the equation, what should we do next to find the sum of those values?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other methods or approaches you can think of to solve this equation? How would they differ from the current method?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "How can we ensure that we have found all possible values of $x$ that satisfy the equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "Can you explain the significance of summing the $x$-values in relation to the equation?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

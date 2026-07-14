@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_637",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What is the slope of the line that is tangent to a circle at point (5,5) if the center of the circle is (3,2)? Express your answer as a common fraction.",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "r",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the concept of a tangent line to a circle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine if a line can be drawn tangent to a circle at a certain point?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the definition of the slope of a line? How can we calculate it?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "In this problem, what is the slope of the radius from the center of the circle to the point (5,5)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why are tangents to a circle at a certain point perpendicular to the radius drawn from the center to that point?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What is the relationship between the slope of the radius and the slope of the tangent line?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can we determine the slope of the tangent line using the slope of the radius?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you identify any other scenarios or problems where the concept of slope and tangents to circles might be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

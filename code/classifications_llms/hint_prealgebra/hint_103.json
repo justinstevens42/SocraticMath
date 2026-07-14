@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_103",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "Six positive integers from a list of nine positive integers are $6, 7, 2, 4, 8, 5$. What is the largest possible value of the median of this list of nine positive integers?",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "f",
+    "b",
+    "b",
+    "r",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we find the median of a list of numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the definition of a median in a list of numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How does sorting the numbers help us in finding the median?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain the process of sorting the given list of numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why do we want to maximize the median in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "How many numbers should we add to the given list to maximize the median?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What numbers should we add to the given list to maximize the median?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you justify why adding those numbers will result in the maximum median?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "Can you explain why the value of the median in this case is the largest possible?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any other strategies we could use to find the maximum median in this problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_322",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "What is the remainder when 1,493,824 is divided by 4?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain why we only need to check the last two digits to determine if a number is divisible by 4?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine if a two-digit number is divisible by 4?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How does this concept apply to the number 1,493,824? What are its last two digits?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Based on the previous question, can you determine if 1,493,824 is divisible by 4? If yes, what is the remainder?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of any other numbers where we can use a similar approach to determine if they are divisible by 4?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "What strategies or methods could we use to check if a number is divisible by a different divisor?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

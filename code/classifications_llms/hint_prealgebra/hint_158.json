@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_158",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "In how many ways can four people sit in a row of five chairs?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "f",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step in solving this problem using the given condition?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Why does the first person have 5 choices for a seat?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "If the first person sits in a specific seat, how many choices does the second person have for their seat?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why the third person only has 3 choices for a seat, given the condition?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How do we calculate the total number of ways for the four people to sit using the given condition?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other scenarios where we can apply similar thinking and steps to solve a seating arrangement problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

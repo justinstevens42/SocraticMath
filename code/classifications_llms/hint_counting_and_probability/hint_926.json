@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_926",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
+  "problem": "In the rectangle below, line segment $MN$ separates the rectangle into $2$ sections. What is the largest number of sections into which the rectangle can be separated when $4$ line segments (including $MN$) are drawn through the rectangle? [asy]\nsize(3cm,3cm);\npair A,B,C,D,M,N;\nA=(0,0);\nB=(1.5,0);\nC=(1.5,1);\nD=(0,1);\ndraw (A--B--C--D--A);\nM=(0.8,0);\nN=(1.2,1);\ndraw(M--N);\nlabel(\"M\",M,S);\nlabel(\"N\",N,NNE);\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many sections are there in the rectangle before any lines are drawn?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What happens to the total number of sections when the first line is drawn?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How does the addition of each subsequent line affect the total number of sections?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What pattern can you observe in the relationship between the number of lines drawn and the total number of sections?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why the fourth line increases the total number of sections by 4?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "If you were to add a fifth line, how many sections would there be in total?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other patterns or relationships that you notice in the diagram or table?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Can you generalize the relationship between the number of lines drawn and the total number of sections in a formula or equation?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "How would the situation change if the initial rectangle was not a square?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any real-life scenarios where counting and probability concepts similar to this would be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_171",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "Find the matrix $\\mathbf{M}$ that swaps the columns of a matrix.  In other words,\n\\[\\mathbf{M} \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} = \\begin{pmatrix} b & a \\\\ d & c \\end{pmatrix}.\\]If no such matrix $\\mathbf{M}$ exists, then enter the zero matrix.",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking us to find? Can you restate it in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How would you approach this problem? Can you break it down into smaller steps?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Let's start by considering the matrix multiplication between $\\mathbf{M}$ and $\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$. What does this result in?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we express this result in terms of the variables $p$, $q$, $r$, and $s$? Can you write out the resulting matrix?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Now let's compare this result with the desired matrix $\\begin{pmatrix} b & a \\\\ d & c \\end{pmatrix}$. Are there any constraints or conditions on the variables that need to be satisfied for the matrices to be equal?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there a combination of $p$, $q$, $r$, and $s$ that makes the matrices equal? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What happens if we try different values for $p$, $q$, $r$, and $s$? Can you find any values that satisfy the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Based on our exploration, what can we conclude about the existence of a matrix $\\mathbf{M}$ that swaps the columns of a matrix?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How does this concept relate to other matrix properties or transformations that you have learned?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

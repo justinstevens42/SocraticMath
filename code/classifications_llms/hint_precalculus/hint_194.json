@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_194",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Find the sum of all positive real solutions  $x$ to the equation \\[2\\cos2x \\left(\\cos2x - \\cos{\\left( \\frac{2014\\pi^2}{x} \\right) } \\right) = \\cos4x - 1,\\]where $x$ is measured in radians.",
+  "n_questions": 9,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step to solve the given equation using the substitution $x = \\frac{\\pi y}{2}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you simplify the given equation after substituting $x = \\frac{\\pi y}{2}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How did you use the double-angle formula in the simplification process?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why did you divide the equation by 2 and expand it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did you conclude that $\\cos (\\pi y) \\cos \\left( \\frac{4028 \\pi}{y} \\right) = 1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What values of $y$ satisfy the equation $\\cos (\\pi y) \\cos \\left( \\frac{4028 \\pi}{y} \\right) = 1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How did you use the prime factorization of 4028 to find the possible values of $y$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the sum of all positive real solutions $x$ to the given equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you generalize this method to solve similar trigonometric equations?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

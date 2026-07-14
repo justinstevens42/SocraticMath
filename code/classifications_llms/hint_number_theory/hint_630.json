@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_630",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "Convert $813_9$ to base 3.",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "e",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is base 9 and base 3, and how do they differ from each other?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does the fact that 9 is equal to $3^2$ help us in converting $813_9$ to base 3?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain the process of expanding each base 9 digit into two base 3 digits?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Are there any other bases that can be converted directly to base 3 with this method? Can you provide an example?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "How do you know the final base 3 number is correct? Is there a way to check?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can this method of converting between bases be applied to other numbers and bases differently from what we have done here?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

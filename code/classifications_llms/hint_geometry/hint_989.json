@@ -1,0 +1,92 @@
+{
+  "problem_id": "hint_989",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "A square is inscribed in a circle.  A smaller square has one side coinciding with a side of the larger square and has two vertices on the circle, as shown.  What percent of the area of the larger square is the area of the smaller square?\n\n[asy]\ndraw(Circle((0,0),1.4142));\ndraw((1,1)--(1,-1)--(-1,-1)--(-1,1)--cycle);\ndraw((0.2,1)--(0.2,1.4)--(-0.2,1.4)--(-0.2,1));\n[/asy]",
+  "n_questions": 11,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the relationship between the two squares in terms of their positions?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you identify any specific points or lines of the larger square that intersect with the smaller square?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How does the positioning of the smaller square within the larger square affect their dimensions?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What information can you gather from the labeled points A and B? How does this relate to the lengths of the sides of the squares?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Let's consider the right triangle OAB. How can the Pythagorean theorem be applied to this triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we express the side lengths of the squares and the radius of the circle in terms of x? What equation can be formed using the Pythagorean theorem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we simplify and solve this equation to find the possible values for x?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any restrictions or considerations for the value of x in terms of lengths?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "If we find a solution for x, what does it represent in terms of the side length of the smaller square?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can we calculate the area of the smaller square using the found value of x?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "By comparing the areas of the smaller and larger squares, what conclusion can we draw about the percent of the smaller square's area relative to the larger square's area?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

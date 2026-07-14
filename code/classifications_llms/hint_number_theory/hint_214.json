@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_214",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "How many digits are located to the right of the decimal point when $\\frac{3^6}{6^4\\cdot625}$ is expressed as a decimal?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in finding the decimal expression of $\\frac{3^6}{6^4\\cdot625}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the significance of finding a denominator of the form $2^a\\cdot5^a=10^a$ in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How does the numerator simplify in the expression $\\frac{3^6}{2^4\\cdot3^4\\cdot5^4}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can you simplify the denominator in the expression $\\frac{3^6}{2^4\\cdot3^4\\cdot5^4}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the final simplified expression of $\\frac{3^6}{6^4\\cdot625}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many digits are there to the right of the decimal point in the decimal representation of $0.0009$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain why there are four digits to the right of the decimal point in the result?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ],
+  "classifier": "llm"
+}

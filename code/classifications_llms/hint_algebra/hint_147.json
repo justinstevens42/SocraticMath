@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_147",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Simplify $16^{\\frac{1}{2}}-625^{\\frac{1}{2}}$.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "f",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step you would take to simplify the expression $16^{\\frac{1}{2}}-625^{\\frac{1}{2}}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Are there any rules or properties of exponents that you can apply to simplify this expression?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can you express $16$ and $625$ as perfect powers or perfect squares?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Can you simplify each square root separately and then subtract the results?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why do you think it is important to simplify the square roots individually before subtracting them?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other expressions involving square roots where a similar approach would be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

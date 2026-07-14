@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_271",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Let $a_1,$ $a_2,$ $\\dots,$ $a_{12}$ be positive real numbers such that $a_1 + a_2 + \\dots + a_{12} = 1.$  Find the minimum value of\n\\[\\frac{1}{a_1} + \\frac{1}{a_2} + \\dots + \\frac{1}{a_{12}}.\\]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given problem asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the significance of the fact that $a_1,$ $a_2,$ $\\dots,$ $a_{12}$ are positive real numbers?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "The solution uses Cauchy-Schwarz inequality. How does the inequality work and why is it applicable in this context?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How did the solution arrive at the lower bound of $\\frac{1}{a_1} + \\frac{1}{a_2} + \\dots + \\frac{1}{a_{12}} \\ge 144$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "When does equality occur in the inequality and what does this result imply about the values of $a_1,a_2,...,a_{12}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other problems that can be solved using similar techniques or concepts?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

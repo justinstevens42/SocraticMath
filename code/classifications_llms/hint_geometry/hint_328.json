@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_328",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "When plotted in the standard rectangular coordinate system, trapezoid $ABCD$ has vertices $A(1, -2)$, $B(1, 1)$, $C(5, 7)$ and $D(5, 1)$. What is the area of trapezoid $ABCD$?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "f",
+    "f",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the basic properties of a trapezoid? What are its defining characteristics?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the lengths of the bases of trapezoid ABCD given the coordinates of its vertices? Can you explain how we can calculate the lengths of AB and CD in this case?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is meant by the height of a trapezoid? How can we determine the height of trapezoid ABCD in this scenario?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the formula for finding the area of a trapezoid? Can you explain why this formula works?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Now let's calculate the area of trapezoid ABCD using the formula. Can you walk me through the steps of applying the formula to find the area?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other scenarios or shapes in which we can apply similar thinking and steps to find their area?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

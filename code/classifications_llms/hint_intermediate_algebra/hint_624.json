@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_624",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "What is the value of $\\frac12\\cdot\\frac41\\cdot\\frac18\\cdot\\frac{16}{1} \\dotsm \\frac{1}{512}\\cdot\\frac{1024}{1}$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "b",
+    "f",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what is the purpose of calculating the value of this expression?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "When multiplying fractions, what is the rule for multiplying the numerators and denominators?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What are some of the numbers in this expression that can be simplified?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we group the ten fractions in this expression to make it easier to simplify?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What do you notice about the product of the fractions in each of the pairs we grouped in the previous step?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "How can we calculate the final answer from the product of these pairs of fractions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

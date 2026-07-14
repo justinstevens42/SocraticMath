@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_943",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "What is the greatest common divisor of $2^{1998}-1$ and $2^{1989}-1$?",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "r",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the greatest common divisor (GCD) represents in terms of the given numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the GCD of two numbers using the Euclidean algorithm?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the relationship between the GCD of two numbers and their difference?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Based on the given expressions, can you rewrite $m$ as a combination of $n$ and another term?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "According to the Euclidean algorithm, what is the new GCD value when we calculate the GCD of $n$ and $m - 2^9n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any properties or patterns that can help us determine the GCD of $n$ and $2^9-1$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Can you discuss the significance of the factorization $2^{1989}-1 = (2^9-1) \\times \\text{something}$ in relation to finding the GCD?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "What is the GCD of $n$ and $2^9-1$ based on the properties mentioned earlier?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Therefore, what is the GCD of $2^{1998}-1$ and $2^{1989}-1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

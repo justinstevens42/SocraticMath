@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_962",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Find $\\tan \\left( -\\frac{3 \\pi}{4} \\right).$",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of the tangent function?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does the tangent function relate to the sine and cosine functions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you determine the reference angle for an angle of -135 degrees?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How does the value of the tangent function change for angles in the third quadrant?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you express -135 degrees in terms of a positive angle within the unit circle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the value of the tangent function for an angle of 45 degrees?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How does the value of the tangent function justify your solution for $\\tan \\left( -\\frac{3 \\pi}{4} \\right)$ as 1?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

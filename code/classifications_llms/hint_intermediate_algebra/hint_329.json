@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_329",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "When a polynomial $p(x)$ is divided by $x + 1,$ the remainder is 5.  When $p(x)$ is divided by $x + 5,$ the remainder is $-7.$  Find the remainder when $p(x)$ is divided by $(x + 1)(x + 5).$",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the remainder when a polynomial is divided by $(x+1)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the remainder when the same polynomial is divided by $(x+5)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we express the polynomial in terms of its quotient and remainder when divided by $(x+1)(x+5)$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the expression for the remainder when the polynomial is divided by $(x+1)(x+5)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we use the Remainder Theorem to solve for the remainder?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What are the values of $a$ and $b$ in the expression for the remainder?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we verify that the expression for the remainder is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

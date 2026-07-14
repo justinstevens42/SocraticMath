@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_659",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find the sum of $555_6$, $55_6$ and $5_6$ in base $6$.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "f",
+    "r",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in finding the sum of $555_6$, $55_6$, and $5_6$ in base $6$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What are the different columns you need to consider when adding these numbers in base $6$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How do you handle carrying over values from one column to the next in base $6$ addition?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Why is it necessary to set up the terms in descending order before adding them in base $6$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the residue in each column after adding the numbers? How do you determine the digit for the sum and the carry-over?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other numbers or expressions where you would use a similar process of adding in base $6$?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_985",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Define the sequence $a_1, a_2, a_3, \\ldots$ by $a_n = \\sum\\limits_{k=1}^n \\sin{k}$, where $k$ represents radian measure. Find the index of the 100th term for which $a_n < 0$.",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of the sequence $a_n$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How is each term $a_n$ calculated using the sum notation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain the product-to-sum formula used in the derivation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How does the telescoping property of the sum allow us to simplify the expression for $a_n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we determine the condition for $a_n$ to be negative?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the inequality that needs to be satisfied for $a_n < 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain the process of converting the inequality involving cosine to an inequality involving $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How do we determine the index $n$ that satisfies the inequality?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the value of the 100th index that satisfies the condition $a_n < 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

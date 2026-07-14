@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_932",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "A polynomial with integer coefficients is of the form\n\\[9x^4 + a_3 x^3 + a_2 x^2 + a_1 x + 15 = 0.\\]Find the number of different possible rational roots of this polynomial.",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "According to the Rational Root Theorem, how can we determine the possible rational roots of the given polynomial?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What are the conditions for a number to be considered as a possible rational root?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain why the number must satisfy the conditions in order to be a possible rational root?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do the divisors of 15 and 9 play a role in finding the possible rational roots?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Can you list all the possible rational roots for the given polynomial?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many different possible rational roots are there in total for this polynomial?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

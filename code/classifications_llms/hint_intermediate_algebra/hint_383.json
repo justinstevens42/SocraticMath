@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_383",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "Find the number of complex solutions to\n\\[\\frac{z^3 - 1}{z^2 + z - 2} = 0.\\]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we start solving the given equation $\\frac{z^3 - 1}{z^2 + z - 2} = 0$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What can we say about the numerator $z^3 - 1$? Can we factor it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What are the possible factors of $z^2 + z + 1$? How did you obtain them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why can we set $z^2 + z + 1 = 0$ as an equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How many solutions does the equation $z^2 + z + 1 = 0$ have? Are they real or complex numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we determine the number of solutions to the original equation $\\frac{z^3 - 1}{z^2 + z - 2} = 0$ based on the solutions of $z^2 + z + 1 = 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

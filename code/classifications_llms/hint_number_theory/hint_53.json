@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_53",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "Jenny has 8 stamp books that each contain 42 pages.  Each page in her books contains 6 stamps.  Jenny decides to reorganize her stamp books such that each page contains 10 stamps.  This will give her more space to collect stamps without having to buy new books.  Under her new system, Jenny fills up 4 complete books, still with 42 pages per book.  Her fifth book now contains 33 pages filled with 10 stamps per page and 1 last page with the remaining stamps.  How many stamps are on that last page?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "f",
+    "f",
+    "f",
+    "f",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe how Jenny organizes her stamp books in her new system?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many stamps are on each page in Jenny's original stamp books?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many pages are there in each of Jenny's original stamp books?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How many stamp books does Jenny fill up completely under her new system?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How many pages are there in each of the completely filled stamp books under Jenny's new system?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "How many stamps are on each page in the completely filled stamp books under Jenny's new system?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "How many pages are there in the fifth stamp book under Jenny's new system?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "How many stamps are on each page in the fifth stamp book under Jenny's new system?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 9,
+      "question": "How many stamps are on the last page of the fifth stamp book under Jenny's new system?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the units digit of the total number of stamps under Jenny's new system?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

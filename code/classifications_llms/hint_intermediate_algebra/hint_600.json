@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_600",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find $x,$ given that $x$ is nonzero and the numbers $\\{x\\},$ $\\lfloor x \\rfloor,$ and $x$ form an arithmetic sequence in that order. (We define $\\{x\\} = x - \\lfloor x\\rfloor.$)",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the problem in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is an arithmetic sequence? Can you write down the formula for an arithmetic sequence?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How does the given information $\\{x\\}, \\lfloor x \\rfloor, x$ being in arithmetic sequence help us in solving for $x$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the relationship between $\\{x\\}$ and $\\lfloor x \\rfloor$ based on the given information? How can we use this to express $\\lfloor x \\rfloor$ in terms of $\\{x\\}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can $\\{x\\}$ be any value? What are the possible values of $\\{x\\}$ based on the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are the possible values of $\\lfloor x \\rfloor$ based on the possible values of $\\{x\\}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you use the relationship we found earlier to determine the value of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How do we know that the value we obtained for $x$ is indeed a solution to the given problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

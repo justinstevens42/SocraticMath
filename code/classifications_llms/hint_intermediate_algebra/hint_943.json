@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_943",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Let $ a$, $ b$, $ c$ be nonzero real numbers such that $ a+b+c=0$ and $ a^3+b^3+c^3=a^5+b^5+c^5$. Find the value of\n$ a^2+b^2+c^2$.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What information can we gather from the given factorization?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the fact that $a+b+c=0$ to simplify the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How did we use the equation $a^3 + b^3 + c^3 = 3abc$ to simplify the expression $a^5 + b^5 + c^5$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did we arrive at the expression $a^2 + ab + b^2 = \\frac{3}{5}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use this expression to find the value of $a^2 + b^2 + c^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_7",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "Compute $\\arccos (\\cos 7).$  All functions are in radians.",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "r",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does $\\arccos$ represent in trigonometry?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the range of the cosine function?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain what the inverse function of cosine is and how it can be used to solve a problem like this?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How does the identity $\\cos (x - 2\\pi) = \\cos x$ relate to the problem at hand?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Why is it important to consider the range of the cosine function in finding the inverse function?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we verify that $7-2\\pi$ is indeed the correct solution to the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you provide an example of another problem where the inverse function of cosine could be used to find a solution?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

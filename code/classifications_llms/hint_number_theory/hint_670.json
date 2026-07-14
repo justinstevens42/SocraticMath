@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_670",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What is the units digit of $31^3+13^3$?",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "b",
+    "f",
+    "f",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain how to find the units digit of a number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we apply this concept to determine the units digit of $31^3$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the units digit of $31$? How does this help us find the units digit of $31^3$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Similarly, what is the units digit of $13$? How can we use this to find the units digit of $13^3$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "After finding the units digit of $31^3$ and $13^3$, how can we combine them to find the units digit of their sum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there anything special about the units digit of a sum? How can this knowledge help us in finding the units digit of $31^3+13^3$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Using the information we have, can you determine the units digit of $31^3+13^3$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

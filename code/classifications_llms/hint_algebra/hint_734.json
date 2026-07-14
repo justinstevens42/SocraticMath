@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_734",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "If $g(x) = x^2$ and $f(x) = 2x - 1$, what is the value of $f(g(2))$?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does the notation $f(g(2))$ represent in this context?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the value of $g(2)$? What does this yield?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the value of $f(g(2))$ using the given functions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can we simplify the expression $f(g(2))$ by applying the function $f(x)$ to the result of $g(2)$? If so, what does that give us?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can we further simplify the expression $f(g(2))$ by substituting the value of $g(2)$ into the function $f(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the final value of $f(g(2))$ after evaluating the expression using the given functions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_323",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find the remainder when $1^3 + 2^3 + 3^3 + \\dots + 100^3$ is divided by 6.",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "f"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe how to find the sum of the cubes from $1^3$ to $n^3$, where $n$ is any positive integer?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the pattern you observe when finding the remainders of the first few cubes when divided by 6?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we use this pattern to simplify the expression $1^3 + 2^3 + 3^3 + \\dots + 100^3$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we express each individual cube $n^3$ in terms of its remainder when divided by 6?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Based on the pattern we observed, can you simplify the expression $1^3 + 2^3 + 3^3 + \\dots + 100^3$ further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the sum of the sequence $1 + 2 + 3 + \\dots + 100$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you find the remainder when $5050$ is divided by $6$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How does the remainder of the simplified expression relate to the original expression $1^3 + 2^3 + 3^3 + \\dots + 100^3$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    }
+  ],
+  "classifier": "llm"
+}

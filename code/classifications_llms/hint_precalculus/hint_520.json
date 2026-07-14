@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_520",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "For a positive constant $c,$ in spherical coordinates $(\\rho,\\theta,\\phi),$ find the shape described by the equation\n\\[\\rho = c.\\](A) Line\n(B) Circle\n(C) Plane\n(D) Sphere\n(E) Cylinder\n(F) Cone\n\nEnter the letter of the correct option.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "f",
+    "b",
+    "f",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does it mean for $\\rho$ to equal a constant value $c$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How does the value of $\\rho$ vary as we move away from the origin?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What shape does $\\rho = c$ represent in three-dimensional space?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Can you describe the properties of this shape in terms of its dimensions and symmetry?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How does this shape relate to the options given: Line, Circle, Plane, Sphere, Cylinder, Cone?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "In which options does the distance from the origin play a crucial role?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "What happens if the value of $c$ is negative? How does it affect the shape?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

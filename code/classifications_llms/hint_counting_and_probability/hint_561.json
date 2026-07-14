@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_561",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What is the coefficient of $x^5$ in the expansion of $(2x+3)^7$?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the Binomial Theorem and how is it used to expand expressions like $(2x+3)^7$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does the coefficient formula for the Binomial Theorem apply to finding the coefficient of a specific term, such as the $x^5$ term in this expression?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain the steps involved in using the coefficient formula to find the coefficient of the $x^5$ term?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Are there any shortcuts or tricks you could use to find the coefficient without calculating the entire expansion?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "How does changing the power or coefficients affect the terms in the expansion?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Are there any real-life applications or examples where the Binomial Theorem is used?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

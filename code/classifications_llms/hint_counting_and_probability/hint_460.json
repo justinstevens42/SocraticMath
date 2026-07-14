@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_460",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "If six people decide to come to a basketball game, but three of them are only 2/5 sure that they will stay for the entire time (the other three are sure they'll stay the whole time), what is the probability that at the end, at least 5 people stayed the entire time?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the scenario presented in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the probability that someone who is not sure if they will stay the whole time actually stays the whole time?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many different ways can we choose 5 or 6 people to stay the whole time?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you calculate the probability that exactly 1 person who is unsure stays the whole time?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does the probability change if we require that all six people stay the whole time?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of similar scenarios where probability calculations are relevant?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

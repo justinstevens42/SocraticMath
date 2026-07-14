@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_312",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Let $n$ be a positive integer.  The sequence $(x_k)$ is defined by $x_0 = 0,$ $x_1 = 1,$ and\n\\[x_{k + 2} = \\frac{(n - 1) x_{k + 1} - (n - k) x_k}{k + 1}\\]for $k \\ge 0.$  Find $x_0 + x_1 + x_2 + \\dotsb$ as a function of $n.$",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the given values of $x_0$ and $x_1$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you find a pattern for the recursive formula $x_{k+2} = \\frac{(n - 1)x_{k+1} - (n - k)x_k}{k + 1}$ when $k$ is greater than or equal to 0?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How do the values of $x_2$, $x_3$, and $x_4$ relate to $n$ and $k$? Can you write a general formula for $x_k$ in terms of $n$ and $k$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the relationship between each term $x_k$ and the previous terms $x_{k-1}$ and $x_{k-2}$? Is there a recursive pattern?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you prove the general formula for $x_k = \\frac{(n-1)!}{(k-1)!(n-k)!}$ using mathematical induction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you determine the value of $x_0 + x_1 + x_2 + \\dotsb$ as a function of $n$ using the general formula for $x_k$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What does the sum $x_0 + x_1 + x_2 + \\dotsb$ simplify to?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

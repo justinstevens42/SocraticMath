@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_927",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Assume that $x_1,x_2,\\ldots,x_7$ are real numbers such that\n\\[\\begin{aligned} x_1+4x_2+9x_3+16x_4+25x_5+36x_6+49x_7 &= 1 \\\\ \n4x_1+9x_2+16x_3+25x_4+36x_5+49x_6+64x_7 &= 12 \\\\\n9x_1+16x_2+25x_3+36x_4+49x_5+64x_6+81x_7 &= 123. \\end{aligned}\\]Find the value of $16x_1+25x_2+36x_3+49x_4+64x_5+81x_6+100x_7$.",
+  "n_questions": 9,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "f",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this system of equations using the given function $f(t)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the significance of setting $f(t) = At^2 + Bt + C$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the values of $f(0)$, $f(1)$, and $f(2)$ to determine the values of $A$, $B$, and $C$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What are the equations we get by substituting $C=1$ into the second and third equations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we solve the system of equations involving $A$, $B$, and $C$ to find their values?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Once we have the values of $A$, $B$, and $C$, how can we find the value of $f(3)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain the steps involved in finding the value of $f(3)$ using the values of $A$, $B$, and $C$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How does solving the given system of equations relate to finding the value of $16x_1+25x_2+36x_3+49x_4+64x_5+81x_6+100x_7$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 9,
+      "question": "Can you summarize the final answer to the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

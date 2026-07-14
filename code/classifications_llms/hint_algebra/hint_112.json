@@ -1,0 +1,92 @@
+{
+  "problem_id": "hint_112",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "I have the following terms of an arithmetic sequence: $\\frac{1}{2}, x-1, 3x, \\ldots$. Solve for $x$.",
+  "n_questions": 11,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of an arithmetic sequence?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How would you find the common difference in an arithmetic sequence?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you determine the common difference in the given sequence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the formula for the nth term of an arithmetic sequence?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Using the formula, can you find the expression for the nth term of the given sequence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the expression for the nth term to find the value of x that satisfies the sequence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "If we substitute the value of x back into the sequence terms, do they still form an arithmetic sequence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any other possible values of x that would satisfy the given sequence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other properties or characteristics of arithmetic sequences that might be relevant to this problem?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "How can you check if your solution is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "Are there any other similar types of arithmetic sequence problems that could involve similar thinking and steps?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_41",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "If $k$ and $\\ell$ are positive 4-digit integers such that $\\gcd(k,\\ell)=3$, what is the smallest possible value for $\\mathop{\\text{lcm}}[k,\\ell]$?",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for two numbers to have a greatest common divisor? How can we find it?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How is the least common multiple related to the product of two numbers and their greatest common divisor? Why does the identity hold?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Based on the information given, what restrictions do we have on the possible values for $k$ and $\\ell$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can we minimize the least common multiple in this case? What values of $k$ and $\\ell$ would give us the smallest possible least common multiple?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is it possible to choose $k$ and $\\ell$ both as $1002$? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "By setting $k=1002$ and $\\ell=1005$, can you calculate the least common multiple for these values? What is the smallest possible value for the least common multiple in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

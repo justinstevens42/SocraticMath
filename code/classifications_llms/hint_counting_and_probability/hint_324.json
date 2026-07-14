@@ -1,0 +1,92 @@
+{
+  "problem_id": "hint_324",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Michael has never taken a foreign language class, but is doing a story on them for the school newspaper.  The school offers French and Spanish.  Michael has a list of all 25 kids in the school enrolled in at least one foreign language class. He also knows that 18 kids are in the French class and 21 kids are in the Spanish class.  If Michael chooses two kids at random off his list and interviews them, what is the probability that he will be able to write something about both the French and Spanish classes after he is finished with the interviews? Express your answer as a fraction in simplest form.",
+  "n_questions": 11,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total number of kids in the school enrolled in at least one foreign language class?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the two foreign language classes offered by the school?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many kids are enrolled in the French class?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How many kids are enrolled in the Spanish class?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How many kids are enrolled in both the French and Spanish classes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many ways can Michael choose two kids from his list?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "In how many ways can Michael choose two kids who are only enrolled in the French class?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "In how many ways can Michael choose two kids who are only enrolled in the Spanish class?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How many ways can Michael choose two kids such that he can write something about both French and Spanish classes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the probability that Michael will not be able to write about both classes after the interviews?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "What is the probability that Michael can write about both classes after the interviews?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

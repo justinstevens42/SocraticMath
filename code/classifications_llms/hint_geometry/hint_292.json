@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_292",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "What is the smallest possible perimeter, in units, of a triangle whose side-length measures are consecutive integer values?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you provide a description of the problem's context? What is the question asking for specifically?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the side-length measures of the smallest possible triangle according to the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Why does the triangle with side lengths 1, 2, and 3 not work? Can you explain why it violates the Triangle Inequality?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you identify the next smallest triangle with consecutive integer side lengths? How does it satisfy the Triangle Inequality?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the perimeter of the next smallest triangle? Can you explain how you obtained this value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other triangles with consecutive integer side lengths that you can think of? If so, how would you determine if they satisfy the Triangle Inequality?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Based on your observations, what can you conclude about the smallest possible perimeter of a triangle with consecutive integer side lengths?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

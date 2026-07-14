@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_926",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Solve for $z$ in the following equation: $2-iz = -1 + 3iz$.\n\nExpress your answer in standard form.",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step you would take to solve this equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can you simplify both sides of the equation to make it easier to solve?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you combine like terms on both sides? If so, what is the resulting equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What technique can you use to isolate the variable z on one side of the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can you manipulate the equation to have the form x + yi = a + bi, where x, y, a, and b are real numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Once you have the equation in standard form, what can you determine about the real and imaginary parts?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the value of z that satisfies the equation in standard form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you check your solution by substituting the value of z back into the original equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

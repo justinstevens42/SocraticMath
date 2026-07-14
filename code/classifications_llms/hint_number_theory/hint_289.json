@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_289",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Let $n$ be the integer such that $0 \\le n < 31$ and $3n \\equiv 1 \\pmod{31}$. What is $\\left(2^n\\right)^3 - 2 \\pmod{31}$?\n\nExpress your answer as an integer from $0$ to $30$, inclusive.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "f",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we find the value of $n$ in the given equation $3n \\equiv 1 \\pmod{31}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the modular inverse of $3$ modulo $31$? How do we find it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we simplify the expression $\\left(2^n\\right)^3 - 2 \\pmod{31}$ using the value of $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is $2^n \\equiv 2^{21} \\pmod{31}$? What is the significance of this equivalence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What pattern do we notice when calculating powers of $2$ modulo $31$? How does this help in simplifying $\\left(2^{21}\\right)^3 \\pmod{31}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "How do we calculate $\\left(2^{21}\\right)^3 - 2 \\pmod{31}$? What is the final result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

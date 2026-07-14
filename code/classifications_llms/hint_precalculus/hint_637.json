@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_637",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "The solutions to the equation $(z+6)^8=81$ are connected in the complex plane to form a convex regular polygon, three of whose vertices are labeled $A,B,$ and $C$. What is the least possible area of triangle $ABC$?\n\nEnter your answer in the form $\\frac{a \\sqrt{b} - c}{d},$ and simplified as usual.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the equation we need to solve for? Can you describe the solutions to this equation in the complex plane?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How do we obtain the solutions to the equation $z^8 = 81$? Can you provide a geometric interpretation for these solutions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How are the solutions distributed in the complex plane? Can you provide a visualization for this distribution?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the relationship between the solutions and the vertices of the regular octagon in the complex plane? Can you describe this relationship using mathematical expressions?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "What is the strategy we can use to obtain the triangle with the minimal area from the regular octagon? Why does this strategy work?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do we calculate the area of the triangle formed by the vertices $A,$ $B,$ and $C$? Can you provide a step-by-step approach for this calculation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final answer for the minimum area of triangle $ABC$? How can we check the correctness of our answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

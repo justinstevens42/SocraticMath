@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_177",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Compute the smallest positive angle $x,$ in degrees, such that\n\\[\\tan 4x = \\frac{\\cos x - \\sin x}{\\cos x + \\sin x}.\\]",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this equation using the given equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How did you simplify the equation by converting the trigonometric functions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Why did you decide to use the sum-to-product identities in this equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How did you determine that $\\sin 5x = \\cos 5x$ in the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the significance of solving $\\tan 5x = 1$ in finding the smallest positive angle $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other similar equations where applying similar trigonometric identities and steps would be necessary to solve?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

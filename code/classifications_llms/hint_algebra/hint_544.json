@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_544",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "In solving the system of equations $y = 7$ and $x^2+ y^2= 100,$ what is the sum of the solutions for $x?$",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "f",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this system of equations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What methods do you know for solving systems of equations? Which method would you choose in this case?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you choose the substitution method, how would you substitute the value of y into the second equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why does substituting the value of y into the second equation lead to a quadratic equation in terms of x? What is the significance of this quadratic equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How would you solve the quadratic equation to find the possible values of x? Are any of these values extraneous solutions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other types of equations where a similar approach could be used to solve them?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

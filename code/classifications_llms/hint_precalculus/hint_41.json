@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_41",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Let $\\mathbf{a},$ $\\mathbf{b},$ and $\\mathbf{c}$ be unit vectors such that $\\mathbf{a} \\cdot \\mathbf{b} = \\mathbf{a} \\cdot \\mathbf{c} = 0,$ and the angle between $\\mathbf{b}$ and $\\mathbf{c}$ is $\\frac{\\pi}{4}.$  Then\n\\[\\mathbf{a} = k (\\mathbf{b} \\times \\mathbf{c})\\]for some constant $k.$  Enter all the possible values of $k,$ separated by commas.",
+  "n_questions": 9,
+  "labels": [
+    "b",
+    "f",
+    "f",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What properties or conditions are given about the vectors $\\mathbf{a}$, $\\mathbf{b}$, and $\\mathbf{c}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How are the dot products of $\\mathbf{a}$ with $\\mathbf{b}$ and $\\mathbf{c}$ related to the angle between $\\mathbf{b}$ and $\\mathbf{c}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Since $\\mathbf{a}$ is orthogonal to both $\\mathbf{b}$ and $\\mathbf{c}$, what can we say about the relationship between $\\mathbf{a}$ and the cross product of $\\mathbf{b}$ and $\\mathbf{c}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we calculate the magnitude of the cross product $\\mathbf{b} \\times \\mathbf{c}$ in terms of the magnitudes of $\\mathbf{b}$ and $\\mathbf{c}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What does it mean for a vector to be a unit vector, and how does that relate to the possible values of the constant $k$ in the expression $\\mathbf{a} = k (\\mathbf{b} \\times \\mathbf{c})$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "What is the magnitude of $\\mathbf{a}$ in terms of $k$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Since $\\mathbf{a}$ is a unit vector, what does that tell us about the possible values of $k$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Based on the above information, what are all the possible values of $k$ that satisfy the given conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

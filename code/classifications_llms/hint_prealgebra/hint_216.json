@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_216",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Convex hexagon $ABCDEF$ has exactly two distinct side lengths. Side $AB$ measures 5 units, and side $BC$ measures 6 units. The perimeter of hexagon $ABCDEF$ is 34 units. How many sides of hexagon $ABCDEF$ have measure 6 units?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given problem and identify the key information provided?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How would you represent the lengths of the sides of the hexagon mathematically?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the formula to calculate the perimeter of a polygon?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "If all sides of the hexagon measured 6 units, what would the perimeter be?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why is the perimeter given as 34 units instead of 36 units?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "How many sides of the hexagon need to be changed from 6 units to 5 units to account for the difference in perimeter?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How did you determine that 2 sides need to be changed to 5 units?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How many sides of the hexagon have a length of 6 units?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

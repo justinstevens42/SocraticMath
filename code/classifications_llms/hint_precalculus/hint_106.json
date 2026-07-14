@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_106",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Find the sum of the roots of $\\tan^2x-9\\tan x+1=0$ that are between $x=0$ and $x=2\\pi$ radians.",
+  "n_questions": 10,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we find the roots of the equation $\\tan^2x-9\\tan x+1=0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the quadratic formula and how can we apply it to this equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What are the possible values of $\\tan x$ based on the quadratic formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the roots of the equation that are between $x=0$ and $x=2\\pi$ radians?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you describe the relationship between the roots $r_1$ and $r_2$ and the values of $\\tan x$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "How can we find the corresponding angles for the values of $\\tan x$ in the range of $[0,2\\pi]$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What are the values of $\\alpha$ and $\\beta$ in terms of $r_1$ and $r_2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we find the sum of two angles $\\alpha$ and $\\beta$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What are the other two solutions and how can we find their sum with the first two solutions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the final answer for the sum of the roots between $x=0$ and $x=2\\pi$ radians?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

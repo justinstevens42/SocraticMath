@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_218",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Let \\[f(x) =\n\\begin{cases}\n9x+16 &\\text{if }x<2, \\\\\n2x-14&\\text{if }x\\ge2.\n\\end{cases}\n\\]If $f(x)=-2$, find the sum of all possible values of $x$.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of the function f(x) in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you identify the conditions or constraints for the values of x in the function definition?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the first step you would take to find the values of x when f(x) = -2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you identify any possible methods or strategies for solving this equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "If you choose to solve it graphically, how would you plot the function to find its intersection with the value -2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the significance of the conditions given in the function definition? How does it affect the possible values of x?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "Can you express the function f(x) as a composite function or combination of two separate functions for different ranges of x?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can you determine the possible values of x by analyzing the different cases defined in the function?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Once you find the possible values of x, how would you calculate their sum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any similar scenarios where you might encounter such conditions or constraints when finding the sum of possible values in an equation?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_705",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "A line is parameterized by\n\\[\\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} 2 \\\\ 3 \\end{pmatrix} + t \\begin{pmatrix} -1 \\\\ 5 \\end{pmatrix}.\\]A second line is parameterized by\n\\[\\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} 0 \\\\ 7 \\end{pmatrix} + u \\begin{pmatrix} -1 \\\\ 4 \\end{pmatrix}.\\]Find the point where the lines intersect.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given parameterization for the first line and the second line in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for two lines to intersect? How can we find the point of intersection?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine if two lines intersect by setting their parameterizations equal to each other? What does this equation represent?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What are the values of $t$ and $u$ that satisfy the equation $2 - t = -u$ and $3 + 5t = 7 + 4u$? How did you find these values?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "By substituting the values of $t$ and $u$ back into either of the original parameterizations, what are the coordinates of the point where the lines intersect?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there any other way to find the point of intersection of two lines, or is parameterization the only method? If so, how would you approach it?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

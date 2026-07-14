@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_762",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "For what positive value of $t$ is $|{-4+ti}| = 2\\sqrt{13}$?",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "r",
+    "r",
+    "r",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the absolute value of a complex number means?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we express the distance between two complex numbers using their absolute values?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for the absolute value of a complex number to be equal to a specific value?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the Pythagorean theorem to simplify expressions containing complex numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we solve equations involving absolute values of complex numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What is the relationship between the absolute value and the conjugate of a complex number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can we use properties of absolute values to simplify complex expressions and solve equations?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ],
+  "classifier": "llm"
+}

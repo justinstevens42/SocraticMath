@@ -1,0 +1,50 @@
+{
+  "problem_id": "hint_975",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "The projection of $\\begin{pmatrix} 0 \\\\ 3 \\end{pmatrix}$ onto a certain vector $\\mathbf{w}$ is $\\begin{pmatrix} -9/10 \\\\ 3/10 \\end{pmatrix}.$  Find the projection of $\\begin{pmatrix} 4 \\\\ 1 \\end{pmatrix}$ onto $\\mathbf{w}.$",
+  "n_questions": 5,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of projection of a vector onto another vector?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain in your own words why the projection of a vector onto a scalar multiple of another vector is the same as the projection onto the original vector?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How do we find the scalar multiple of $\\begin{pmatrix} -9/10 \\\\ 3/10 \\end{pmatrix}$ that corresponds to $\\mathbf{w}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is the dot product used in finding the projection of $\\begin{pmatrix} 4 \\\\ 1 \\end{pmatrix}$ onto $\\begin{pmatrix} 3 \\\\ -1 \\end{pmatrix}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you find the projection of $\\begin{pmatrix} 4 \\\\ 1 \\end{pmatrix}$ onto a vector that is orthogonal to $\\begin{pmatrix} -9/10 \\\\ 3/10 \\end{pmatrix}$? If so, how?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

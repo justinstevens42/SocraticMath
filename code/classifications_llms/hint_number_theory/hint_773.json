@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_773",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "What is the value of $0.\\overline{789}-0.\\overline{456}-0.\\overline{123}?$ Express your answer as a fraction in lowest terms.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step in finding the value of $0.\\overline{789}-0.\\overline{456}-0.\\overline{123}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can we express the repeating decimal $0.\\overline{789}$ as a fraction? What is the numerator and denominator?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you do the same for $0.\\overline{456}$ and $0.\\overline{123}$? What are their corresponding fractions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How do we subtract fractions? Can you use the fractions you found in the previous steps to subtract the decimals?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the result of subtracting $\\frac{789}{999}$, $\\frac{456}{999}$, and $\\frac{123}{999}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is the resulting fraction in lowest terms? How can we simplify it further, if needed?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

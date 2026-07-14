@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_87",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Alex has 10 different kinds of lunch meat and 9 different kinds of cheese. If he wants to make a sandwich with one kind of meat and two kinds of cheese, how many different sandwiches could he make?  (It does not matter in which order he chooses the two types of cheese.)",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "r",
+    "r",
+    "f",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking for?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many different kinds of lunch meat and cheese does Alex have?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the formula for calculating the total number of different sandwiches Alex can make?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How do we calculate the number of ways for Alex to choose which kind of lunch meat to put on his sandwich?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we calculate the number of ways for Alex to choose which kinds of cheese to put on his sandwich?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Why do we use combinations instead of permutations in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "What is the difference between a combination and a permutation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "Can Alex choose the same kind of cheese twice in his sandwich? Why or why not?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 9,
+      "question": "What if Alex wanted to make a sandwich with two kinds of lunch meats and one kind of cheese? How many different sandwiches could he make using the same ingredients?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "How can we apply the concept of combinations to other real-life situations besides sandwich-making?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

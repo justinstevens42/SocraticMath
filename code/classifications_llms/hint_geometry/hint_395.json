@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_395",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Let $\\triangle ABC$ be a right triangle such that $B$ is a right angle. A circle with diameter of $BC$ meets side $AC$ at $D.$ If the area of $\\triangle ABC$ is $150$ and $AC = 25,$ then what is $BD$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What do you know about the properties of a right triangle and a circle with a diameter?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can you relate the area of a triangle to the length of its base and height?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What formula can you use to calculate the area of this particular triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can you use the given information about the area and the length of $AC$ to find $BD$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other similar problems that involve finding the length of an altitude in a triangle?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

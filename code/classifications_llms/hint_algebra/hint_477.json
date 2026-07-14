@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_477",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "If \\[f(x) =\n\\begin{cases}\nx^2-4 &\\quad \\text{if } x \\ge -4, \\\\\nx + 3 &\\quad \\text{otherwise},\n\\end{cases}\n\\]then for how many values of $x$ is $f(f(x)) = 5$?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what $f(x)$ represents for values of $x$ that are greater than or equal to $-4$? And how about for values of $x$ that are less than $-4$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How would you approach finding the values of $x$ for which $f(f(x)) = 5$? What steps would you take?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What do you think $f(f(x)) = 5$ implies about the values of $x$? In other words, what kind of values for $x$ would satisfy this equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Can you determine the conditions under which $f(f(x)) = 5$ could be satisfied based on the different cases defined for $f(x)$? What are the ranges of $x$ where each case is valid?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "For each case (where $f(x)$ takes on a different form), can you find the values of $x$ that satisfy $f(f(x)) = 5$? How would you go about solving each case separately?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any values of $x$ that satisfy $f(f(x)) = 5$ in both cases (where $x\\geq-4$ and $x<-4$)? If so, how would you identify and verify them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other types of equations where similar thinking and steps might be useful in finding the solutions?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "What insights have you gained from this process of solving $f(f(x)) = 5$ that could be applied to other problems involving composite functions?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_871",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Ramanujan and Hardy played a game where they both picked a complex number. If the product of their numbers was $32-8i$, and Hardy picked $5+3i$, what number did Ramanujan pick?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step you would take in solving this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What methods do you know for finding the product of complex numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you were to use the distributive property to multiply two complex numbers, how would you do it?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can you use the given information about the product and Hardy's number to solve for Ramanujan's number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What steps can you take to isolate Ramanujan's number and solve for it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any similar problems where you would need to use similar thinking and steps to find a missing complex number?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

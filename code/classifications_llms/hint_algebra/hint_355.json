@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_355",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "What is the least positive integer value of $x$ such that $(2x)^2 + 2\\cdot 37\\cdot 2x + 37^2$ is a multiple of 47?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you identify any patterns or relationships in the expression $(2x)^2 + 2 \\cdot 37 \\cdot 2x + 37^2$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What properties or characteristics make a number a multiple of 47?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can you determine whether $(2x)^2 + 2 \\cdot 37 \\cdot 2x + 37^2$ is divisible by 47?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you think of any strategies or methods that might help you find the least positive integer value of $x$ that satisfies the given condition?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "If you substitute specific values for $x$ and evaluate the expression $(2x)^2 + 2 \\cdot 37 \\cdot 2x + 37^2$, what do you notice?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any constraints or limitations on the values of $x$ that you should consider?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any alternative approaches or strategies that might lead to the same solution?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

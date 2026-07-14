@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_368",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "Let $\\mathbf{P}$ be the matrix for projecting onto the vector $\\begin{pmatrix} -3 \\\\ -2 \\end{pmatrix}.$  Find $\\mathbf{P}^{-1}.$\n\nIf the inverse does not exist, then enter the zero matrix.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "f",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a projection matrix, and how is it used in linear algebra?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Why is a projection matrix always of the form given in the problem statement?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine whether the inverse of a projection matrix exists?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the formula for finding the inverse of a matrix, and how can we apply it to this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Since the inverse does not exist for this projection matrix, what does that tell us about the vector it projects onto?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other matrices or operations in linear algebra where the inverse may not exist?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

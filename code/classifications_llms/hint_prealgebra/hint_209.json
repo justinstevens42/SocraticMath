@@ -1,0 +1,50 @@
+{
+  "problem_id": "hint_209",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "I have a bag with only red, blue, and green marbles.  The ratio of red marbles to blue marbles to green marbles is $1:5:3$.  There are 27 green marbles in the bag.  How many marbles are there  in the bag?",
+  "n_questions": 5,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what is meant by the ratio of the red, blue, and green marbles in the bag?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the ratio of the green marbles to the total number of marbles in the bag?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Why do we multiply the ratio of the green marbles to the total number by the actual number of green marbles to find the total number of marbles?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Would the total number of marbles change if we had a different number of green marbles? Why or why not?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of another situation where we might use ratios and proportions to solve a problem like this?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

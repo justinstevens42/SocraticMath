@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_213",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Let $n$ be a  positive integer and $a$ be an integer such that $a$ is its own inverse modulo $n$. What is the remainder when $a^2$ is divided by $n$?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what it means for $a$ to be its own inverse modulo $n$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we express the condition $a \\equiv a^{-1} \\pmod n$ algebraically?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If $a^2 \\equiv 1 \\pmod n$, what can we say about the remainder when $a^2$ is divided by $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How does the fact that $a$ is its own inverse modulo $n$ help us simplify the expression $a \\cdot a^{-1}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of any examples where a number is its own inverse modulo a specific modulus? How does this property relate to the remainder when squaring the number modulo the modulus?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other properties or theorems in number theory that might be useful in solving this problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_250",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "A circle is tangent to the lines $4x - 3y = 30$ and $4x - 3y = -10.$  The center of the circle lies on the line $2x + y = 0.$  Find the center of the circle.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "f",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What can you tell me about the lines $4x - 3y = 30$ and $4x - 3y = -10$? How does this information help us find the center of the circle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Since the center of the circle lies on the line $2x + y = 0$, can you find the coordinates of the center by solving a system of equations? If so, what are the values of $x$ and $y$ for the center?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How did you determine that the center of the circle lies exactly halfway between the parallel lines $4x - 3y = 30$ and $4x - 3y = -10$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the significance of the line $4x - 3y = 10$ in relation to the center of the circle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "Suppose the lines $4x - 3y = 30$ and $4x - 3y = -10$ were not parallel. How could we find the center of the circle in this case? Can you generalize the process for finding the center of a circle tangent to two non-parallel lines?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

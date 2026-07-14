@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_210",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "What is the least positive integer with exactly $10$ positive factors?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what it means for an integer to have \"exactly 10 positive factors\"?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Are there any restrictions on the value of the integer we are trying to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you list some examples of integers with fewer than 10 factors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why the two forms given in the problem statement are the only possibilities for an integer with exactly 10 factors?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How did we determine that $48$ is the smallest integer with exactly 10 factors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other ways to approach this problem, or any related problems that might use similar techniques?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

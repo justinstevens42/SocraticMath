@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_298",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The sides of triangle $PQR$ are tangent to a circle with center $C$ as shown. Given that $\\angle PQR = 65^\\circ$ and $\\angle QRC = 30^\\circ$, find $\\angle QPR$, in degrees.\n\n[asy]\nunitsize(1.0 cm);\n\npair Q, P, R, C;\n\nQ = (2.43,3.46);\nP = (0,0);\nR = (4.43,0);\nC = incenter(Q,P,R);\n\ndraw(Q--P--R--cycle);\ndraw(incircle(Q,P,R));\ndraw(R--C);\n\nlabel(\"$Q$\", Q, N);\nlabel(\"$P$\", P, SW);\nlabel(\"$R$\", R, SE);\nlabel(\"$C$\", C, N);\n\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How is the circle with center $C$ related to triangle $PQR$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain why any segment from a vertex of $PQR$ to $C$ is an angle bisector?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How do we use the fact that $RC$ is an angle bisector to find $\\angle QRP$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the sum of the measures of the internal angles of triangle $PQR$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why we subtract the measures of $\\angle PQR$ and $\\angle QRP$ from $180^\\circ$ to find $\\angle QPR$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there other relationships or formulas involving the measures of angles in a triangle that we can use in this problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

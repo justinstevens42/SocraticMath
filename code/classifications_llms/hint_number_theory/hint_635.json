@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_635",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "How many unordered pairs of prime numbers have a sum of 40?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "f",
+    "f",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what an unordered pair of prime numbers means in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How might we determine which prime numbers we need to check in order to find pairs that add up to 40?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Why do we only need to check prime numbers less than 20 in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the significance of checking whether the difference between 40 and a prime number is also prime?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How many pairs of prime numbers did we find that add up to 40?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other problems in number theory that might involve similar thinking and techniques?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

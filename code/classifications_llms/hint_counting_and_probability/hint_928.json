@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_928",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "There are 30 students in Mrs. Taylor's kindergarten class.  If there are twice as many students with blond hair as with blue eyes, 6 students with blond hair and blue eyes, and 3 students with neither blond hair nor blue eyes, how many students have blue eyes?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem describing?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the unknown quantity in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How did we represent the number of blue-eyed students?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the relationship between the number of blue-eyed students and the number of blond students?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How did we represent the number of blue-eyed students with blond hair?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the sum of the number of blue-eyed blond students, blue-eyed non-blond students, blond non-blue-eyed students, and non-blue-eyed non-blond students?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How did we use this sum to set up an equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How did we solve for the number of blue-eyed students?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can this method be applied to similar problems with different values?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "What other methods can be used to approach problems involving counting and probability?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

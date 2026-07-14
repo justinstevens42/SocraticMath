@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_445",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "A dump truck delivered sand to a construction site. The sand formed a conical pile with a diameter of $8$ feet and a height that was $75\\%$ of the diameter. How many cubic feet of sand were in the pile? Express your answer in terms of $\\pi$.",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "r",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain how the sand formed a conical shape in this scenario?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How did you determine the diameter of the sand pile to be 8 feet?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Why did you calculate the height of the cone as 75% of the diameter?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How did you find the radius of the cone based on the given diameter?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why did you use the formula for the volume of a cone to calculate the amount of sand in the pile?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain the steps you took to calculate the volume of the cone?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Is there a reason why you expressed the answer in terms of π?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other real-life scenarios where we can use similar mathematical concepts to find volumes?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

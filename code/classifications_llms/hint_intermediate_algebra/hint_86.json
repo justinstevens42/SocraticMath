@@ -1,0 +1,148 @@
+{
+  "problem_id": "hint_86",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Find all values of $x$ that satisfy \\[\\frac{x^2}{x+1} \\ge \\frac{2}{x-1} + \\frac{5}{4}.\\]",
+  "n_questions": 19,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step in solving this inequality?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can we combine the terms on the right-hand side of the inequality?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "After combining the terms, what is the resulting expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we move all the terms to the left-hand side of the inequality?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can we simplify the expression further by combining denominators?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the numerator of the resulting expression after combining denominators?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can we factor the numerator of the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we use the rational root theorem to test for rational roots?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "What are the roots of the numerator?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "After dividing the numerator by $x - 3,$ what is the resulting quadratic expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "What is the discriminant of the quadratic expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "What does the value of the discriminant tell us about the quadratic expression?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 13,
+      "question": "How does the quadratic expression affect the overall inequality?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 14,
+      "question": "What is the simplified inequality after factoring the numerator?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 15,
+      "question": "How can we analyze the sign of the function $f(x) = \\frac{x-3}{(x+1)(x-1)}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 16,
+      "question": "What are the critical points of the function $f(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 17,
+      "question": "What are the intervals where $f(x)$ is positive or negative?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 18,
+      "question": "How can we determine the solution to the inequality based on the sign of $f(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 19,
+      "question": "How can we represent the solution to the inequality using interval notation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_452",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Calculate the product $\\left(\\frac{3}{6}\\right)\\left(\\frac{6}{9}\\right)\\left(\\frac{9}{12}\\right)\\cdots\\left(\\frac{2001}{2004}\\right)$. Express your answer as a common fraction.",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step we should take to solve this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can we simplify the fractions in the product? If so, how?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we simplify the product so that we only deal with integers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the pattern we observe in the numerators and denominators of the fractions?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can we use this pattern to simplify the product?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Do we need to worry about the sign of the product? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other problems where we might need to simplify a product of fractions in a similar way?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

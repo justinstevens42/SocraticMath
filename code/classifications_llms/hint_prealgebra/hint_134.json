@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_134",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "I flip a fair coin once and roll a regular six-sided die.  What is the probability the coin will show heads and the die will show a 2?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the possible outcomes when flipping a fair coin and rolling a regular six-sided die?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many total outcomes are there when flipping a coin and rolling a die?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many of these outcomes result in the coin showing heads and the die showing 2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the relationship between the number of successful outcomes and the total number of possible outcomes?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Based on the number of successful outcomes and the total number of possible outcomes, how would you calculate the probability of the coin showing heads and the die showing 2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other similar probability scenarios where you would calculate the probability using a similar thought process and steps as this one?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

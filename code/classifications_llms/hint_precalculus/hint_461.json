@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_461",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "In triangle $ABC,$ $M$ is the midpoint of $\\overline{BC},$ $AB = 12,$ and $AC = 16.$  Let $E$ be on $\\overline{AC},$ and $F$ be on $\\overline{AB},$ and let $G$ be the intersection of $\\overline{EF}$ and $\\overline{AM}.$  If $AE = 2AF,$ then find $\\frac{EG}{GF}.$\n\n[asy]\nunitsize(0.3 cm);\n\npair A, B, C, E, F, G, M;\nreal x = 4;\n\nB = (0,0);\nC = (18,0);\nA = intersectionpoint(arc(B,12,0,180),arc(C,16,0,180));\nM = (B + C)/2;\nF = interp(A,B,x/12);\nE = interp(A,C,2*x/16);\nG = extension(E,F,A,M);\n\ndraw(A--B--C--cycle);\ndraw(E--F);\ndraw(A--M);\n\nlabel(\"$A$\", A, N);\nlabel(\"$B$\", B, SW);\nlabel(\"$C$\", C, SE);\nlabel(\"$E$\", E, NE);\nlabel(\"$F$\", F, NW);\nlabel(\"$G$\", G, SW);\nlabel(\"$M$\", M, S);\n[/asy]",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What information are we given in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can we identify any relevant patterns or relationships in the given information?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What do we know about the midline of a triangle and the concept of a midpoint?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the fact that $AE = 2AF$ to find the coordinates of point $E$ and point $F$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we express vector $\\mathbf{b}$ in terms of $x$ and vector $\\mathbf{a}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we express vector $\\mathbf{c}$ in terms of $x$ and vector $\\mathbf{a}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we express vector $\\mathbf{m}$ in terms of $x$, vector $\\mathbf{a}$, vector $\\mathbf{e}$, and vector $\\mathbf{f}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we prove that vector $\\mathbf{g}$ lies on both line $AM$ and line $EF$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we find the value of $\\frac{EG}{GF}$ using the knowledge we have obtained so far?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

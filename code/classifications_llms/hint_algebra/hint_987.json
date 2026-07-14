@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_987",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "If the roots of the quadratic equation $\\frac32x^2+11x+c=0$ are $x=\\frac{-11\\pm\\sqrt{7}}{3}$, then what is the value of $c$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "f",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you first analyze the given quadratic equation and determine its coefficient values of $a$, $b$, and $c$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can the roots of a quadratic equation be determined from its coefficients?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you apply the quadratic formula to the given equation and show how it leads to the given roots $x=\\frac{-11\\pm\\sqrt{7}}{3}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What can you deduce about the discriminant of the quadratic equation based on the given roots? How does the discriminant affect the number and nature of the solutions?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Using the quadratic formula, can you express the general formula for the roots of a quadratic equation with coefficients $a$, $b$, and $c$? What role does the discriminant play in this formula?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Given that the discriminant of the quadratic equation $\\frac32x^2+11x+c=0$ is $7$, what can you conclude about the value of $c$? How can you use this information to solve the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

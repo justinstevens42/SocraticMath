@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_489",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Two congruent cylinders each have radius 8 inches and height 3 inches. The radius of one cylinder and the height of the other are both increased by the same nonzero number of inches. The resulting volumes are equal. How many inches is the increase? Express your answer as a common fraction.",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the initial volume of each cylindrical object?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How does increasing the radius of one cylinder and the height of the other affect their volumes?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you write out an equation representing the new volume of each cylinder after the increase?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why do we set the two volumes to be equal?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "What is the resulting quadratic equation we obtain from setting the volumes equal?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do we solve for the value of x using the quadratic equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Why do we disregard the solution x=0?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the final answer and how do we express it as a common fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_308",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "$f(x)$ is a monic polynomial such that $f(0)=4$ and $f(1)=10$. If $f(x)$ has degree $2$, what is $f(x)$? Express your answer in the form $ax^2+bx+c$, where $a$, $b$, and $c$ are real numbers.",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a monic polynomial and why is it significant in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Given that $f(0)=4$ and $f(1)=10$, can you determine any relationships or constraints on the coefficients of the polynomial?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Since $f(x)$ has degree 2, what can we determine about the form of the polynomial?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the given information to set up an equation or system of equations to solve for the coefficients?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "If $f(x)$ is of the form $ax^2+bx+c$, how can we relate the coefficients to the given conditions $f(0)=4$ and $f(1)=10$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you derive an equation or system of equations that relates the coefficients $a$, $b$, and $c$ to the given conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can you solve these equations to find the values of $a$, $b$, and $c$ for $f(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Finally, can you express the polynomial $f(x)$ in the form $ax^2+bx+c$ using the calculated coefficients?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

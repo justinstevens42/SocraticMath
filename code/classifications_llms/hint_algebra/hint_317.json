@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_317",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "For what value of $x$ will $\\frac{3+x}{5+x}$ and $\\frac{1+x}{2+x}$ be equal?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "f",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the first step in solving this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Are there any restrictions or conditions on the values of x that we need to consider for this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you think of any techniques or approaches that could help us solve the equation $\\frac{3+x}{5+x} = \\frac{1+x}{2+x}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "If we were to cross-multiply and solve the resulting equation, what strategies could we employ to simplify the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How would you verify that the value of x we find actually satisfies the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other types of equations where a similar approach or line of thinking could be applied?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

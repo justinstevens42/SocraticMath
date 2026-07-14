@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_592",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "If $0.8= \\frac{y}{186+x}$, find the smallest value of $x$, if $x$ and $y$ are positive integers.",
+  "n_questions": 9,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we rewrite the fraction 0.8 as a simplified form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for two fractions to be equal? How can we use that in our problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What does the equation $\\frac{4}{5} = \\frac{y}{186+x}$ tell us about the relationship between $y$ and $186+x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "If $x$ is a positive integer, what is the smallest value it can have?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we find the value of $x$ that satisfies $\\frac{4}{5} = \\frac{y}{186+x}$ while also being the smallest positive integer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any restrictions or conditions for $y$ in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "How can we determine the smallest value of $x$ that satisfies the equation by considering the factors of 186+x and the numerator of the fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How does the fact that $\\frac{8}{10} = \\frac{4}{5}$ help us find the solution to the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can we generalize this problem and apply similar concepts to other equations involving fractions and unknown variables?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

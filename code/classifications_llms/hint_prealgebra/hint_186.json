@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_186",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Three positive integers $a,$ $b,$ and $x$ form an O'Hara triple $(a,b,x)$ if $\\sqrt{a}+\\sqrt{b}=x.$ For example, $(1,4,3)$ is an O'Hara triple because $\\sqrt{1}+\\sqrt{4}=3.$\n\nIf $(36,25,x)$ is an O'Hara triple, determine the value of $x.$",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is an O'Hara triple and how is it formed with three positive integers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain how the equation $\\sqrt{a}+\\sqrt{b}=x$ represents an O'Hara triple?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Given the O'Hara triple $(36,25,x)$, what are the values of $a$ and $b$ in this case?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the value of $x$ in the O'Hara triple $(36,25,x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you take the square root of $36$ and $25$ and determine the value of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is the sum of the square roots of $36$ and $25$ equal to $x$? If so, what is the value of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

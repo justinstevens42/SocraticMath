@@ -1,0 +1,92 @@
+{
+  "problem_id": "hint_839",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "For what values of $j$ does the equation $(2x+7)(x-5) = -43 + jx$ have exactly one real solution? Express your answer as a list of numbers, separated by commas.",
+  "n_questions": 11,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you identify the given equation? What are the key expressions and operators involved?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many solutions does an equation typically have? What does it mean for an equation to have exactly one real solution?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What methods or techniques do you know that can help solve equations with multiple terms and variables?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you identify any methods or techniques that might be useful for solving this specific equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can you compare the left-hand side (LHS) and the right-hand side (RHS) of the equation to determine if they are equivalent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Isolate the variable on one side of the equation. What steps do you think you should take to do that?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you simplify or expand the expressions on both sides of the equation to make it easier to interpret and analyze?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Once you have the equation in a simplified form, how can you determine the values of j that result in a single real solution?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Are there any restrictions or conditions on the values of j that you need to consider? If so, what are they?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you solve the equation for different values of j to verify your answer and ensure that it only has one real solution?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "Can you think of any other types of equations where a similar thought process and steps might be applicable?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

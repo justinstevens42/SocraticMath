@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_132",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "In the diagram, $\\triangle XYZ$ is right-angled at $X,$ with $YX=60$ and $XZ=80.$ The point $W$ is on $YZ$ so that $WX$ is perpendicular to $YZ.$ Determine the length of $WZ.$ [asy]\npair X, Y, Z, W;\nY=(0,0);\nX=(36,48);\nZ=(100,0);\nW=(36,0);\ndraw(X--Y--Z--X--W);\nlabel(\"Y\", Y, SW);\nlabel(\"X\", X, N);\nlabel(\"W\", W, S);\nlabel(\"Z\", Z, SE);\nlabel(\"60\", (X+Y)/2, NW);\nlabel(\"80\", (X+Z)/2, NE);\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "e",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what is given in this problem? What is the context?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Why is $\\triangle XYZ$ called a right-angled triangle? What does this term mean?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the Pythagorean Theorem to find the length of $YZ$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Is there another way to find $YZ$ without using the Pythagorean Theorem? How? Why does this method work?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "What is special about the relationship between $\\triangle XYZ$ and a 3-4-5 triangle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why the area of $\\triangle YXZ$ is equal to $\\frac{1}{2}\\cdot 100\\cdot XW$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we use this relationship to find the length of $XW$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we use the Pythagorean Theorem to find the length of $WZ$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Is there another way to relate the lengths $WZ,$ $XZ,$ and $YZ$ using the geometry of the problem? How? Why does this relationship hold true?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any other problems or scenarios where we might use similar triangles and the Pythagorean Theorem to find unknown lengths?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

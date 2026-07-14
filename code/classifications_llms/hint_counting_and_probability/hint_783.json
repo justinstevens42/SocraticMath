@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_783",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Jane and her brother each spin this spinner once. The spinner has five congruent sectors. If the non-negative difference of their numbers is less than 3, Jane wins. Otherwise, her brother wins. What is the probability that Jane wins? Express your answer as a common fraction.\n\n[asy]\nsize(101);\ndraw(scale(2)*unitcircle);\nfor(int i = 0; i<5; ++i)\n{\ndraw((0,0)--2dir(90+i/5*360));\nlabel(string(i+1),1.3dir(45-i/5*360));\n}\ndraw((0,0)--1.5dir(75),EndArrow(4));\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does it mean for Jane to win in this game? How is the winner determined?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the possible outcomes when both Jane and her brother spin the spinner?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the difference between their numbers for each outcome?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the condition for Jane to win in this game? What does it mean for the non-negative difference to be less than 3?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Can you identify which outcomes would result in Jane winning? Which ones would make her lose?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we represent the outcomes where Jane loses using sets or unordered pairs?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "According to the given solution, which sets or unordered pairs of spins result in Jane losing? How many are there?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How many total outcomes are there in this game? How many in each set or unordered pair result in Jane losing?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Using the information above, how can we find the probability of Jane winning the game? Can you express it as a common fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any other strategies or approaches that could be used to solve this problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

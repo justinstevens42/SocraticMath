@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_159",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Compute $\\tan 20^\\circ + 4 \\sin 20^\\circ.$",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "e",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What trigonometric identities or formulas do you know that can be helpful in simplifying expressions involving trigonometric functions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we rewrite the given expression using these identities or formulas?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why are we able to use the double angle formula in simplifying the expression? What conditions or factors make it applicable?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain how we utilized the sum-to-product formula in simplifying the expression further? What was the reasoning behind it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other types of trigonometric problems where similar thinking and steps might be applicable?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any alternative methods to solve this problem? How confident are you in the accuracy of the final result?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "How can we validate our answer to ensure it is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

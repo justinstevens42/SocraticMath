@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_488",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "A bookstore is deciding what price it should charge for a certain book. After research, the store finds that if the book's price is $p$ dollars (where $p \\le 26$), then the number of books sold per month is $130-5p$. What price should the store charge to maximize its revenue?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the variable in this problem and what does it represent?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you identify the equation that relates the book's price and the number of books sold per month?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we express the revenue in terms of the book's price?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What does \"maximize revenue\" mean and how can we achieve it?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we express the revenue function using the given equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the revenue function in this case and how can we determine its maximum value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you find the critical points of the revenue function and determine if they are maximum or minimum points?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we determine which critical point represents the maximum revenue?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you explain the significance of the price that maximizes revenue in terms of the bookstore's profits?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

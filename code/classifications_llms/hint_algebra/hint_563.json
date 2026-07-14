@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_563",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "For the graph of a certain quadratic $y = ax^2 + bx + c$, the vertex of the parabola is $(3,7)$ and one of the $x$-intercepts is $(-2,0)$.  What is the $x$-coordinate of the other $x$-intercept?",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the significance of the vertex of a parabola and how it relates to the quadratic equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Given that the vertex is (3,7) and one of the x-intercepts is (-2,0), what information can we gather about the quadratic equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the equation of a parabola when given the coordinates of the vertex and one point on the parabola?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the general form of a quadratic equation and how can we relate it to the given information?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you derive a formula or equation that relates the coordinates of the vertex with the coefficients of the quadratic equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "If we substitute the coordinates of the vertex into the equation, how can we use it to find the value of the coefficient 'a'?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "After finding the equation of the parabola, how can we find the x-coordinate of the other x-intercept?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other scenarios in which the given information about the vertex and one x-intercept can be used to find the other x-intercept?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

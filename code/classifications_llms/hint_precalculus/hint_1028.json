@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_1028",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "In convex quadrilateral $ABCD$, $\\angle A = \\angle C$, $AB=CD=180$, and $AD \\ne BC$.  The perimeter of $ABCD$ is 640. Find $\\cos A$.",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e",
+    "f",
+    "f",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of a convex quadrilateral?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Is it possible for a convex quadrilateral to have two angles that are equal?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the definition of the cosine function?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we apply the Law of Cosines to solve for $\\cos \\alpha$ in this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why do we set the expressions for $BD^2$ equal to each other in the Law of Cosines equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we solve for $\\cos \\alpha$ without using the Law of Cosines?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "What is the significance of $AD \\ne BC$ in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "How does the fact that the perimeter of $ABCD$ is given factor into finding $\\cos \\alpha$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other strategies or formulas that could be used to solve this problem?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "How can we check our answer for $\\cos \\alpha$ to ensure it is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

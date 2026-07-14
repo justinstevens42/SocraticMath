@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_721",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Evaluate $\\lfloor0.999\\rfloor+\\lceil2.001\\rceil$.",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "f",
+    "f",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the purpose of floor and ceiling functions in mathematics?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain what the floor and ceiling functions do to a real number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How would you simplify the expression $\\lfloor0.999\\rfloor$? And what about $\\lceil2.001\\rceil$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you provide any real numbers that are close to 0.999 and 2.001, but slightly less than and greater than them respectively? How does this relate to the floor and ceiling functions?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "What is the significance of the brackets used in $\\lfloor0.999\\rfloor$ and $\\lceil2.001\\rceil$? How do they affect the value of the expression?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "Using the values you obtained from simplifying the individual expressions, how would you evaluate the final expression $\\lfloor0.999\\rfloor+\\lceil2.001\\rceil$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other examples where the floor and ceiling functions could be applied to solve a problem or simplify an expression?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

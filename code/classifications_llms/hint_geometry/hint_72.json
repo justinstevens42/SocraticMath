@@ -1,0 +1,36 @@
+{
+  "problem_id": "hint_72",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "In convex quadrilateral $ABCD$, $AB=8$, $BC=4$, $CD=DA=10$, and $\\angle CDA=60^\\circ$.  If the area of $ABCD$ can be written in the form $\\sqrt{a}+b\\sqrt{c}$ where $a$ and $c$ have no perfect square factors (greater than 1), what is $a+b+c$?",
+  "n_questions": 3,
+  "labels": [
+    "f",
+    "f",
+    "f"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the shape of quadrilateral ABCD? Is it a convex quadrilateral?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the lengths of AB, BC, CD, and DA?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the measure of angle CDA?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    }
+  ],
+  "classifier": "llm"
+}

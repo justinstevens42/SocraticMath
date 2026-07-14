@@ -1,0 +1,43 @@
+{
+  "problem_id": "hint_483",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The sequence $a_1,$ $a_2,$ $a_3,$ $\\dots$ satisfies $a_1 = 19,$ $a_9 = 99,$ and for all $n \\ge 3,$ $a_n$ is the arithmetic mean of the first $n - 1$ terms.  Find $a_2.$",
+  "n_questions": 4,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the formula for finding the arithmetic mean of a sequence?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the given information to set up an equation for $a_2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the fact that $a_n$ is the arithmetic mean of the first $n-1$ terms to find a relationship between $a_2$ and $a_3$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the given equation $\\frac{19 + a_2}{2} = 99$ to solve for $a_2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

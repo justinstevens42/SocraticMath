@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_348",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "A right pyramid has a square base that measures 10 cm on each side. Its peak is 12 cm above the center of its base. What is the sum of the lengths of the pyramid's eight edges? Express your answer to the nearest whole number.\n\n[asy]\nsize(150);\ndraw((0,0)--(3,3)--(13,3)--(10,0)--cycle,linewidth(1));\ndraw((0,0)--(6.5,15)--(3,3),linewidth(1));\ndraw((13,3)--(6.5,15)--(10,0),linewidth(1));\ndraw((6.5,15)--(6.5,1.5),linewidth(1));\nlabel(\"12\",(6.5,5),E);\n\ndraw((6.6,15)..(6.7,14.9)..(6.8,14.7)--(6.8,5.3)..(6.9,5.2)..(7,5)..(6.9,4.8)..(6.8,4.7)--(6.8,1.8)..(6.7,1.6)..(6.6,1.5),linewidth(.7));\n\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you visualize the shape of the pyramid described in the problem? What are its characteristics?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the length of the edge connecting the vertex to the corner of the base?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What concept or formula can we use to find the length of the diagonal of the square base?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we calculate half the length of the diagonal?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What relationship does the altitude of the pyramid form with respect to the edge length?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "How can we apply the Pythagorean theorem to find the length of the edge connecting the vertex to the base?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you calculate the length of this edge using the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we find the sum of all eight edges of the pyramid?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you write an expression to represent the sum of the lengths of the eight edges? What is the result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

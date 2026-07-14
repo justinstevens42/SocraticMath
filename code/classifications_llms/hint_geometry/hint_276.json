@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_276",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find $AX$ in the diagram.\n\n[asy]\n\nimport markers;\n\nreal t=.56;\n\npair A=(0,0);\n\npair B=(3,2);\n\npair C=(.5,1.5);\n\npair X=t*A+(1-t)*B;\n\ndraw(C--A--B--C--X);\n\nlabel(\"$A$\",A,SW);\n\nlabel(\"$B$\",B,E);\n\nlabel(\"$C$\",C,N);\n\nlabel(\"$X$\",X,SE);\n\nmarkangle(n=1,radius=15,A,C,X,marker(markinterval(stickframe(n=1),true)));\n\nmarkangle(n=1,radius=15,X,C,B,marker(markinterval(stickframe(n=1),true)));\n\nlabel(\"$24$\",.5*(B+X),SE);\n\nlabel(\"$28$\",.5*(B+C),N);\n\nlabel(\"$21$\",.5*(A+C),NW);\n\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "r",
+    "f",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the Angle Bisector Theorem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do we apply the Angle Bisector Theorem to find $AX$ in the given diagram?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain why $\\frac{AC}{AX} = \\frac{BC}{BX}$ in the Angle Bisector Theorem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How does the measurement of $\\angle ACX$ relate to $AX$ and the other segments in the diagram?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "What would happen if we extended segment $AX$ to meet $BC$? How would that relate to the Angle Bisector Theorem?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other geometric concepts or theorems that could be applied to this diagram? How would they relate to finding $AX$?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_485",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Express .$\\overline{28}$ as a common fraction.",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "e",
+    "r",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a repeating decimal and how is it typically represented or written?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you describe how to convert a repeating decimal into a fraction using algebraic manipulation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Is it possible to convert any repeating decimal into a fraction? Are there any limitations or restrictions?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 4,
+      "question": "How would you verify that the fraction obtained from a repeating decimal is in lowest terms?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of other situations or contexts where converting a repeating decimal to a fraction may be useful or important?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Are there any patterns or properties of repeating decimals that can be generalized or applied to other mathematical concepts?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

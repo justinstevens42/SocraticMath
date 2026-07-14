@@ -1,0 +1,50 @@
+{
+  "problem_id": "hint_243",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Find the phase shift of the graph of $y =  3 \\sin \\left( x - \\frac{\\pi}{5} \\right).$",
+  "n_questions": 5,
+  "labels": [
+    "r",
+    "e",
+    "r",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you define what a phase shift is in the context of graphing a sine function?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How would you determine the phase shift of $y = 2 \\sin(3x + \\pi/4)$?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 3,
+      "question": "What effect does changing the coefficient in front of the sine function have on the phase shift of the graph?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you describe a situation where understanding the phase shift of a sine function would be useful or relevant?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "How would the phase shift of the graph of $y = -4 \\sin \\left(2x - \\frac{\\pi}{3}\\right)$ compare to the phase shift of $y = 3 \\sin \\left(x - \\frac{\\pi}{2}\\right)$?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

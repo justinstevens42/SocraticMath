@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_448",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "At Frank's Fruit Market, 3 bananas cost as much as 2 apples, and 6 apples cost as much as 4 oranges.  How many oranges cost as much as 18 bananas?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given information about the costs of bananas, apples, and oranges at Frank's Fruit Market?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the given information to find the number of oranges that cost as much as 18 bananas?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What steps can we take to relate the costs of bananas, apples, and oranges in order to find the desired quantity?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Based on the given information, how many apples would 18 bananas cost?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many oranges would the equivalent number of apples cost, according to the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Therefore, based on the calculations, how many oranges would cost as much as 18 bananas?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

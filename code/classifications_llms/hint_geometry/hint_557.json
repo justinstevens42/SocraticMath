@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_557",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "A cone is formed from a 300-degree sector of a circle of radius 18 by aligning the two straight sides. [asy]\nsize(110);\ndraw(Arc((0,0),1,0,300));\ndraw((1,0)--(0,0)--(.5,-.5*sqrt(3)));\nlabel(\"18\",(.5,0),S); label(\"$300^\\circ$\",(0,0),NW);\n[/asy] What is the result when the volume of the cone is divided by $\\pi$?",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a cone and how is it formed from a sector of a circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between the radius of the sector and the slant height of the cone?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the arc length of the sector to find the circumference of the base of the cone?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What equations can we set up to solve for the height and radius of the cone?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we use the equations to find the height and radius of the cone?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the formula to find the volume of a cone?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How do we apply the formula to find the volume of the given cone?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the final result when the volume of the cone is divided by $\\pi$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How does the process of finding the volume of a cone from a sector of a circle relate to other concepts in geometry such as area and circumference?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

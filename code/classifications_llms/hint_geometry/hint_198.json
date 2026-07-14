@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_198",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "In a circle with center $O$, $AD$ is a diameter, $ABC$ is a chord, $BO = 5$, and $\\angle ABO = \\text{arc } CD = 60^\\circ$.  Find the length of $BC$.\n\n[asy]\nimport graph;\n\nunitsize(2 cm);\n\npair O, A, B, C, D;\n\nO = (0,0);\nA = dir(30);\nC = dir(160);\nB = (2*C + A)/3;\nD = -A;\n\ndraw(Circle(O,1));\ndraw(C--A--D);\ndraw(B--O);\n\nlabel(\"$A$\", A, NE);\nlabel(\"$B$\", B, N);\nlabel(\"$C$\", C, W);\nlabel(\"$D$\", D, SW);\nlabel(\"$O$\", O, SE);\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the center of the circle and what role does it play in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the significance of angle ABO being equal to 60 degrees?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How does the information about angle ABO help us determine the length of BC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is triangle BCO classified as an isosceles triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What property of isosceles triangles allows us to conclude that BC is equal to BO?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Is there any other information in the problem that we can use to confirm our answer for the length of BC?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

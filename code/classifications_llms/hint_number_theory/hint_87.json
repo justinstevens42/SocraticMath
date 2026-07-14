@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_87",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "If $$1+6+11+16+21+26+\\cdots+91+96+101 \\equiv n\\pmod{15},$$where $0\\le n<15$, what is the value of $n$?",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we rewrite the given expression using modulo 15?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can we simplify the expression by replacing each term with its modulo 15 equivalent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the modulo 15 equivalent of the terms 1, 6, and 11?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many times are these modulo 15 equivalent terms repeated in the given expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the result of adding the modulo 15 equivalent terms 1, 6, and 11?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we express the repeated addition of these modulo 15 equivalent terms?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the value of the repeated addition of 1, 6, and 11 modulo 15?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we represent this value using the range 0 to 15?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

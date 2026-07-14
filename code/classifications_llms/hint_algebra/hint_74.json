@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_74",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Points $A(3,5)$ and $B(7,10)$ are the endpoints of a diameter of a circle graphed in a coordinate plane. How many square units are in the area of the circle? Express your answer in terms of $\\pi$.",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step to finding the area of the circle using the given endpoints?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the radius of the circle using the given endpoints?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Once you have the radius, how can you find the area of the circle using the formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the formula for the area of a circle and how does it relate to the radius?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you calculate the distance between points A and B to find the radius?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can you use the radius to find the area of the circle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What value of $\\pi$ should you use in the calculation of the area?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you express the area of the circle in terms of $\\pi$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

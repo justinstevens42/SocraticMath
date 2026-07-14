@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_819",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "In this square array of 16 dots, four dots are to be chosen at random. What is the probability that the four dots will be collinear? Express your answer as a common fraction.\n\n[asy]\nsize(59);\nfor(int i = 0; i<4; ++i)\nfor(int j = 0; j<4; ++j)\ndot((i,j),linewidth(7));\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what it means for the four dots to be collinear? How would you describe this concept in your own words?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How many possible sets of four dots can be chosen from the given square array? Can you explain your reasoning?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you identify the different types of collinear sets of four dots that can be formed? How many sets are there for each type?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How could you calculate the total number of possible sets of four dots? Can you explain the formula you would use and why it works?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the probability of randomly choosing a collinear set of four dots? Can you show step-by-step how you would calculate this probability using the information given?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other geometric scenarios where the concept of collinear sets could be applied? How might the probability calculations differ in those situations?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

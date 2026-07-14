@@ -1,0 +1,92 @@
+{
+  "problem_id": "hint_357",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "The function $f(x),$ defined for $0 \\le x \\le 1,$ has the following properties:\n\n(i) $f(0) = 0.$\n(ii) If $0 \\le x < y \\le 1,$ then $f(x) \\le f(y).$\n(iii) $f(1 - x) = 1 - f(x)$ for all $0 \\le x \\le 1.$\n(iv) $f \\left( \\frac{x}{3} \\right) = \\frac{f(x)}{2}$ for $0 \\le x \\le 1.$\n\nFind $f \\left( \\frac{2}{7} \\right).$",
+  "n_questions": 11,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the given properties of the function $f(x)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the value of $f(0)$ based on the given properties?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What does property (ii) tell us about the behavior of the function?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How does property (iii) relate $f(x)$ to $f(1-x)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Using property (iv), what is the value of $f(\\frac{1}{3})$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How does property (iii) allow us to find the value of $f(\\frac{2}{3})$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we use property (ii) and $f(\\frac{1}{3}) = f(\\frac{2}{3}) = \\frac{1}{2}$ to find the value of $f(x)$ for $\\frac{1}{3} \\leq x \\leq \\frac{2}{3}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the value of $f(\\frac{3}{7})$ based on our previous findings?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we use property (iv) and $f(\\frac{3}{7}) = \\frac{1}{2}$ to find the value of $f(\\frac{1}{7})$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can we use property (iii) and $f(\\frac{1}{7})$ to find the value of $f(\\frac{6}{7})$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "Finally, how can we use property (iv) and $f(\\frac{6}{7})$ to find the value of $f(\\frac{2}{7})$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

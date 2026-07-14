@@ -1,0 +1,92 @@
+{
+  "problem_id": "hint_113",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What is the degree measure of angle $LOQ$ when polygon $\\allowbreak LMNOPQ$ is a regular hexagon? [asy]\ndraw((-2,0)--(-1,1.73205081)--(1,1.73205081)--(2,0)--(1,-1.73205081)--(-1,-1.73205081)--cycle);\ndraw((-1,-1.73205081)--(1,1.73205081)--(1,-1.73205081)--cycle);\nlabel(\"L\",(-1,-1.73205081),SW);\nlabel(\"M\",(-2,0),W);\nlabel(\"N\",(-1,1.73205081),NW);\nlabel(\"O\",(1,1.73205081),N);\nlabel(\"P\",(2,0),E);\nlabel(\"Q\",(1,-1.73205081),S);\n[/asy]",
+  "n_questions": 11,
+  "labels": [
+    "r",
+    "b",
+    "f",
+    "f",
+    "f",
+    "b",
+    "f",
+    "f",
+    "b",
+    "f",
+    "f"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the sum of the interior angles of a polygon with n sides?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the formula for the sum of interior angles to find the degree measure of each interior angle in a regular hexagon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the degree measure of angle LOQ?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the fact that triangle POQ is isosceles to find the degree measure of angle LOQ?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between angle LOQ and the base angles of triangle POQ?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the information about the base angles of triangle POQ to find the degree measure of angle LOQ?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can we use the fact that trapezoid PQLO is isosceles to find the degree measure of angle LOQ? If so, how?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "What is the relationship between angle LOQ and the base angles of trapezoid PQLO?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 9,
+      "question": "How can we use the information about the base angles of trapezoid PQLO to find the degree measure of angle LOQ?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can we use the fact that trapezoid LMNO is isosceles to find the degree measure of angle LOQ? If so, how?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 11,
+      "question": "What is the relationship between angle LOQ and the base angles of trapezoid LMNO?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    }
+  ],
+  "classifier": "llm"
+}

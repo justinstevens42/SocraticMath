@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_404",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Line $m$ is parallel to line $n$ and the measure of $\\angle 1$ is $\\frac 18$ the measure of $\\angle 2$. What is the degree measure of $\\angle 5$? [asy] size(100); defaultpen(linewidth(0.7)+fontsize(9));\npath m = (-1.35,0.72)--(0.45,0.72), n = (-1,0)--(1,0), k = (-0.67,1.09)--(0.27,-0.48);\n\npair A = intersectionpoints(m,k)[0], B = intersectionpoints(n,k)[0];\ndraw(m,Arrows(4)); draw(n,Arrows(4)); draw(k,Arrows(4));\n\nlabel(\"$k$\",(0.27,-0.48),SE); label(\"$n$\",(1,0),NE); label(\"$m$\",(0.45,0.72),NE);\nlabel(\"$1$\",A,(-2.5,1.5));\nlabel(\"$2$\",B,(1,1));\nlabel(\"$3$\",B,(-2.5,1.5));\nlabel(\"$4$\",B,(-1,-1));\nlabel(\"$5$\",B,(2.5,-1.5));\n[/asy]",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information about lines $m$ and $n$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the measure of $\\angle 1$ in terms of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How is $\\angle 5$ related to $\\angle 1$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the relationship between $\\angle 2$ and $\\angle 5$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Can you write an equation relating $\\angle 2$, $\\angle 5$, and their sum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can you use this equation to solve for $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the value of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can you use the value of $x$ to find the measure of $\\angle 5$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

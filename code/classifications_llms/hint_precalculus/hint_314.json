@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_314",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Find the range of $f(x) = \\sin^4 x - \\sin x \\cos x  +\\cos^4 x.$",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you define the range of a function?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain what the function $f(x)$ represents in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the range of the sine and cosine functions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What can we say about the values of $f(x)$ when $\\sin 2x = 1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Is it possible for $f(x)$ to be negative? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you find any values of $x$ where the maximum value of $f(x)$ is achieved? What is the corresponding range value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

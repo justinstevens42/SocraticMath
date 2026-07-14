@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_712",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Suppose $11^5\\equiv n\\pmod 9$, where $0\\le n<9$.\n\nWhat is the value of $n$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given problem asking us to find or determine?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does the notation \"≡\" (congruence) mean in the context of modular arithmetic?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we simplify the expression $11^5$ in mod 9? What property or rule can we apply?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the remainder when $2^5$ is divided by 9? How did we arrive at this result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of any other examples where modular arithmetic can be used as a problem-solving strategy?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "How can we verify that our answer of $n=5$ is correct? Is there a way to double-check our solution?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

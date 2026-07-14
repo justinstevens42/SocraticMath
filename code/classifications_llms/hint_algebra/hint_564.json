@@ -1,0 +1,113 @@
+{
+  "problem_id": "hint_564",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "A rectangular cow pasture is enclosed on three sides by a fence and the fourth side is part of the side of a barn that is $400$ feet long. The fence costs $\\$5$ per foot, and $\\$1,\\!200$ altogether. To the nearest foot, find the length of the side parallel to the barn that will maximize the area of the pasture.",
+  "n_questions": 14,
+  "labels": [
+    "f",
+    "b",
+    "f",
+    "b",
+    "r",
+    "b",
+    "r",
+    "r",
+    "b",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the problem and what we are trying to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How would you represent the length of the side parallel to the barn?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the relationship between the length of the side parallel to the barn and the area of the pasture?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How would you express the cost of the fence in terms of the length of the side parallel to the barn?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the formula for calculating the area of a rectangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Based on the given information, can you write an equation to represent the relationship between the length of the side parallel to the barn and the cost of the fence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "If we want to maximize the area of the pasture, what do we need to do with the equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "How can we use calculus to find the maximum value of the area?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "What is the derivative of the area equation with respect to the length of the side parallel to the barn?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How do we find the critical points of the derivative equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 11,
+      "question": "What do we do with the critical points to determine if they are a maximum or minimum?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 12,
+      "question": "What does it mean for the derivative to be equal to zero?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 13,
+      "question": "How can we determine the maximum value of the area from the critical point?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 14,
+      "question": "Can you calculate the length of the side parallel to the barn that will maximize the area using the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

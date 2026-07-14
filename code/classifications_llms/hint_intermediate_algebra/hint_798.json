@@ -1,0 +1,50 @@
+{
+  "problem_id": "hint_798",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Find the minimum value of\n\\[\\frac{x^2}{y - 1} + \\frac{y^2}{x - 1}\\]for real numbers $x > 1$ and $y > 1.$",
+  "n_questions": 5,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does the expression \\[\\frac{x^2}{y - 1} + \\frac{y^2}{x - 1}\\] represent?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the given conditions for $x$ and $y$ in this expression?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can we simplify the expression by substituting $a = x - 1$ and $b = y - 1$? If so, what does the expression become?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we apply the AM-GM inequality in this expression?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the minimum value that the expression can achieve? Is this minimum attainable?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

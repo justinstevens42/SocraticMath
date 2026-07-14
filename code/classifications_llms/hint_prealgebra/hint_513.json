@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_513",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "We have that $2a + 1 = 1$ and $b - a = 1.$ What is the value of $b$?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the given equations in this problem and what is the unknown variable?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you simplify the equation $2a + 1 = 1$? If so, what is the simplified form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What does $a = 0$ tell us about the value of $2a + 1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the equation $b - a = 1$ to solve for the value of $b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can we substitute the value of $a$ into the equation $b - a = 1$ to obtain an expression for $b$? If so, what is that expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the value of $b$ that satisfies the equations $2a + 1 = 1$ and $b - a = 1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can we check our solution for $b$ by plugging in the values of $a$ and $b$ into the original equations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

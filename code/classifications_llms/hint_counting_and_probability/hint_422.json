@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_422",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "We have a standard deck of 52 cards, with 4 cards in each of 13 ranks.  We call a 5-card poker hand a full house if the hand has 3 cards of one rank and 2 cards of another rank (such as 33355 or AAAKK).  What is the probability that five cards chosen at random form a full house?",
+  "n_questions": 9,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total number of outcomes if we choose 5 cards from a standard deck of 52 cards?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can we define a full house in terms of a 5-card poker hand?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many ways can we choose a rank for the 3 cards in our constructed full house?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "In how many ways can we choose 3 specific cards of the rank chosen in (c)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "If we choose a rank for the other 2 cards, how many ways are there to make this choice?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many ways can we choose 2 specific cards of the rank chosen in (e)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How do we use constructive counting to find the total number of successful outcomes that result in a full house?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "Using the results from (c)-(f) and the principle of constructive counting, what is the total number of full houses that can be constructed?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the probability that a 5-card hand chosen at random will be a full house?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

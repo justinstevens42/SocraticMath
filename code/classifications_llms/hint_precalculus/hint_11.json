@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_11",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find the distance between the planes $x - 3y + 3z = 8$ and $2x - 6y + 6z = 2.$",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "f",
+    "r",
+    "b",
+    "f",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we find the distance between two planes?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What information do we need to determine the distance between two planes?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we express the equations of the given planes in a more convenient form?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Why can we write the equation of the second plane as $x - 3y + 3z = 1$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How do we calculate the distance between a plane and a point?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we determine a point on the second plane to use in our distance formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the equation for the normal vector to both planes?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "What is the formula for the distance between a point and a plane?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "What steps do we need to follow to calculate the distance between the two planes using the given formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any other situations where finding the distance between planes or a plane and a point could be useful in precalculus or other areas of math?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

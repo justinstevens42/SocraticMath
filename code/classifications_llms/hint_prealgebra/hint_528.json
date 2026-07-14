@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_528",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "What is the measure of angle 4 if $m\\angle 1 = 76^{\\circ}, m\\angle 2 = 27^{\\circ}$ and $m\\angle 3 = 17^{\\circ}$?\n\n[asy]\ndraw((0,0)--(4,8)--(10,0)--cycle,linewidth(1));\ndraw((0,0)--(5,3)--(10,0),linewidth(1));\nlabel(\"2\",(1,1.2));\nlabel(\"1\",(4,7.75),S);\nlabel(\"4\",(5,3),S);\nlabel(\"3\",(8,1.8));\n\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain step by step how to find the measure of angle 4 in the given triangle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Are there any properties or theorems related to angles in a triangle that you can apply to find angle 4?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you know the measures of angles 1, 2, and 3, what other information do you need to determine the measure of angle 4?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Can you determine the measures of angles 5 and 6 using the given information? How are they related to angle 4?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What does the angle sum property tell us about the relationship between angles 1, 2, 3, 4, 5, and 6 in the triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the angle sum property to find the measure of angle 4? What equation can we set up and solve?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

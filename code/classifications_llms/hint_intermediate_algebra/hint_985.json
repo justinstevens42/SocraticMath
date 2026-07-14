@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_985",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "A sequence $(a_n)$ is defined as follows: $a_1 = 1,$ $a_2 = \\frac{1}{2},$ and\n\\[a_n = \\frac{1 - a_{n - 1}}{2a_{n - 2}}\\]for all $n \\ge 3.$  Find $a_{120}.$",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given sequence defined by? Can you identify any patterns or initial values?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between successive terms in the sequence? How can we obtain each term from the previous ones?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can we rewrite the recursive definition of the sequence in a more simplified form? What manipulations can be done to achieve this?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What happens if we substitute a new sequence, $(b_n)$, defined as $b_n = 2a_n - 1$? How does this relate to the original sequence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does the new sequence, $(b_n)$, evolve as $n$ increases? Are there any patterns or recurring values?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we find a relationship between the terms of $(b_n)$ and $(b_{n+m})$, where $m$ is a positive integer? What does this tell us about the behavior of $(b_n)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we determine the terms of the original sequence, $(a_n)$, using the terms of $(b_n)$? Is there a formula that relates $a_n$ to $b_n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How does the value of $a_n$ change as $n$ increases? Are there any specific values of $n$ that yield interesting results?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What can we conclude about the behavior of the sequence $(a_n)$ based on our observations from the new sequence $(b_n)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Finally, what is the value of $a_{120}$? How can we use our previous findings to determine this value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

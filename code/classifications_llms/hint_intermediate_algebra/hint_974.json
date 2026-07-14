@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_974",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Say that an integer $A$ is yummy if there exist several consecutive integers, including $A$, that add up to 2014.  What is the smallest yummy integer?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "e",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of a yummy integer in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you give an example of a sequence of consecutive integers that adds up to 2014?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Why is it important to find the smallest yummy integer?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 4,
+      "question": "How do we know that there is a sequence of consecutive integers that add up to 2014 including any yummy integer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "According to the solution, why is it impossible for there to be a yummy integer less than -2013?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is it possible to have more than one yummy integer in this problem? Why or why not?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Can this same approach be used to find the smallest yummy integer for other sums besides 2014?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

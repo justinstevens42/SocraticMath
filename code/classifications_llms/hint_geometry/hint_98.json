@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_98",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "An equilateral triangle has two vertices at $(0,5)$ and $(8,5)$. If the third vertex is in the first quadrant, what is the y-coordinate? Express your answer in simplest radical form. [asy]\ndraw((-1,0)--(11,0),Arrows);\ndraw((0,-1)--(0,12),Arrows);\nfor(int i=0;i<11;++i)\n{draw((i,-0.1)--(i,0.1));}\nfor(int j=0;j<11;++j)\n{draw((-0.1,j)--(0.1,j));}\ndot((0,5));\ndot((8,5));\nlabel(\"(0,5)\",(0,5),W);\ndraw((0,5)--(8,5));\nlabel(\"(8,5)\",(8,5),E);\nsize(6cm);\n[/asy]",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "f",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the side length of the equilateral triangle in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How does the altitude of an equilateral triangle relate to the side length?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What type of triangles are created when we draw the altitude of an equilateral triangle, and what are the side lengths of these triangles?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the length of the altitude of an equilateral triangle with side length 8?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does the $y$-coordinate of the third vertex of the equilateral triangle relate to the altitude of the equilateral triangle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "What is the $y$-coordinate of the third vertex of the equilateral triangle in this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we use the $30-60-90$ triangle to find the $y$-coordinate of the third vertex?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can we generalize this method to find the $y$-coordinate of the third vertex of an equilateral triangle with different side lengths or base coordinates?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

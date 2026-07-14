@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_644",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "A particular convex polygon with seven sides has exactly one right angle. How many diagonals does this seven-sided polygon have?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many sides does the convex polygon have?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many diagonals are there in a convex polygon with $n$ sides, if there are no restrictions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How many vertices are there in the given polygon?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How many non-adjacent vertices can be connected to a particular vertex?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the formula to calculate the number of diagonals in a polygon with $n$ sides?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How does the formula handle over-counting of diagonals?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How many diagonals does the particular convex polygon with seven sides have, according to the given restrictions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Using the formula, what is the number of diagonals in the given polygon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

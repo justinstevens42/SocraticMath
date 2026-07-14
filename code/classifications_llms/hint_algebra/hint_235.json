@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_235",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "How many $y$-intercepts does the graph of the parabola $x = 2y^2 - 3y + 7$ have?",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "b",
+    "b",
+    "f",
+    "e",
+    "r",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you define the concept of a y-intercept in the context of a graph?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Could you identify the equation of the parabola in standard form? How does this form help in finding the y-intercept?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What does the x-coordinate of the y-intercept represent? How can we find it from the equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "By substituting x with 0 in the equation, what expression can we obtain to determine the y-intercept?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we solve the resulting expression to find the y-intercept(s)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you identify any special characteristics or patterns in the parabola's equation that might affect the number of y-intercepts it has?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "Is it possible for the graph of a parabola to have more than one y-intercept? Why or why not?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "What does the presence or absence of a real solution for the y-intercept expression tell us about the number of y-intercepts?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other types of equations where you could apply similar thinking and steps to identify the number of y-intercepts?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "How does understanding the concept of y-intercepts contribute to our overall understanding of algebraic equations and graphs?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

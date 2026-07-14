@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_908",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "All triangles have the same value, and all circles have the same value. What is the sum of three circles? \\begin{align*}\n\\Delta + \\bigcirc + \\Delta + \\bigcirc + \\Delta&= 21\\\\\n\\bigcirc + \\Delta+\\bigcirc+\\Delta+\\bigcirc &= 19\\\\\n\\bigcirc + \\bigcirc + \\bigcirc &= \\ ?\n\\end{align*}",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "f",
+    "f",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the steps required to find the value of each shape individually in the given equations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Is there a relationship between the values assigned to triangles and circles in the equations? If so, can you explain it?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you identify any patterns or similarities in the equations that might help you find the value of three circles together?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What strategies or mathematical operations could be used to find the value of three circles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How would you approach solving for the value of three circles based on the given equations and the information provided?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other shapes or equations where a similar thought process and steps might be used to find the combined value of multiple shapes?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

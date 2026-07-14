@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_435",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Determine the remainder when $(x^4-1)(x^2-1)$ is divided by $1+x+x^2$.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the relationship between the given expression $(x^4-1)(x^2-1)$ and the divisor $1+x+x^2$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you factorize the given divisor $1+x+x^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How does the factorization of the divisor help in determining the remainder?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you express $(x^4-1)(x^2-1)$ in a simplified form using the factorization of the divisor?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can you use long division or synthetic division to divide $(x^4-1)(x^2-1)$ by $1+x+x^2$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What is the resulting quotient and remainder when $(x^4-1)(x^2-1)$ is divided by $1+x+x^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can you express the remainder in terms of the divisor $1+x+x^2$ and the given expression $(x^4-1)(x^2-1)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Is there any relationship between the remainder and the factors of the given expression or the divisor?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "Can you explain why the remainder in this case is the same as the remainder of $(x - 1)(x^2 - 1)$ divided by $x^2 + x + 1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any other similar problems where determining the remainder involves similar thinking and steps?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

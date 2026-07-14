@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_467",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "There are two colors Jessica can use to color this 2 by 2 grid. If non-overlapping regions that share a side cannot be the same color, how many possible ways are there for Jessica to color the grid?\n\n[asy]\nsize(101);\ndraw(unitsquare);\ndraw((0,.5)--(1,.5));\ndraw((.5,0)--(.5,1));\nlabel(\"$A$\",(0,1),NW); label(\"$B$\",(1,1),NE); label(\"$C$\",(1,0),SE); label(\"$D$\",(0,0),SW);\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the main restriction for coloring the grid? Can you explain why non-overlapping regions sharing a side cannot have the same color?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Based on the given restriction, how many colors can Jessica use to color each square? Why?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many possible color choices are there for the top left square? What about the top right, bottom left, and bottom right squares? Explain your reasoning.",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the total number of possible ways to color the grid using these color choices for each square?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of another way to visualize the coloring possibilities for the grid? How does it relate to the previous approach?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Can you generalize this concept to a larger grid size, such as a 3 by 3 grid? How would the number of possible ways to color the grid change?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

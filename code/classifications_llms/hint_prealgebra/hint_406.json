@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_406",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "In Mrs. Marsh's algebra class, 30 of the 36 students took the Chapter 4 test, and their mean score was $72 \\%$. The next day the other six students took the test and their mean score was $78 \\%$. What is the new class mean? Express your answer as a percent.",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the problem is asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the class mean score?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What information do we have about the first group of students?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we calculate the mean score of the first group of students?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the information about the second group of students to calculate the new class mean?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we incorporate the concept of scaling to simplify our calculations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain why we divide the total score by the number of students to find the mean?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "How can we express the new class mean as a percentage?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

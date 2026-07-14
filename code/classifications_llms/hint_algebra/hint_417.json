@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_417",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The values of a function $f(x)$ are given in the table below.  \\begin{tabular}{|r||c|c|c|c|c|c|} \\hline $x$ & 1 & 2 & 3 & 5 & 8 & 13 \\\\ \\hline $f(x)$ & 3 & 13 & 8 & 1 & 0 & 5 \\\\ \\hline \\end{tabular}If $f^{-1}$ exists, what is $f^{-1}\\left(\\frac{f^{-1}(5) +f^{-1}(13)}{f^{-1}(1)}\\right)$?",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we determine if the inverse function, $f^{-1}$, exists for the given function $f(x)$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What do we need to find in order to evaluate $f^{-1}\\left(\\frac{f^{-1}(5) +f^{-1}(13)}{f^{-1}(1)}\\right)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you find the inverse function, $f^{-1}$, for the given function $f(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How would you find $f^{-1}(5)$, $f^{-1}(13)$, and $f^{-1}(1)$ using the given table?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What are the values of $f^{-1}(5)$, $f^{-1}(13)$, and $f^{-1}(1)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Substituting the values from the previous question into $\\frac{f^{-1}(5) +f^{-1}(13)}{f^{-1}(1)}$, what is the resulting expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Finally, using the value from the previous question, what is $f^{-1}\\left(\\frac{f^{-1}(5) +f^{-1}(13)}{f^{-1}(1)}\\right)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

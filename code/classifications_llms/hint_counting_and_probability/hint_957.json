@@ -1,0 +1,134 @@
+{
+  "problem_id": "hint_957",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "George is planning a dinner party for three other couples, his wife, and himself. He plans to seat the four couples around a circular table for 8, and wants each husband to be seated opposite his wife. How many seating arrangements can he make, if rotations and reflections of each seating arrangement are not considered different?  (Note: In this problem, if one seating is a reflection of another, then the two are considered the same!)",
+  "n_questions": 17,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many couples are there in total at the dinner party?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the seating arrangement George wants for the couples at the circular table?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many seats does the circular table have?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Why do we need to consider rotations and reflections of each seating arrangement?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the first step in solving this problem according to George's approach?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many choices does George have for his own seat? Why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Once George chooses his seat, what happens with the seat opposite to him?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How many choices does the second husband have for his seat? Why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can the second husband sit in any available seat, or are there some restrictions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How many choices does the last husband have for his seat? Why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "How do we calculate the total number of seating arrangements according to George's approach?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "How many identical arrangements have we counted so far?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 13,
+      "question": "Why do we need to account for rotations and reflections?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 14,
+      "question": "How many arrangements are considered identical due to rotations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 15,
+      "question": "How many arrangements are considered identical if we include reflections?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 16,
+      "question": "How can we adjust the previously calculated total number of seating arrangements to account for rotations and reflections?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 17,
+      "question": "What is the final number of seating arrangements according to the problem's requirements?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

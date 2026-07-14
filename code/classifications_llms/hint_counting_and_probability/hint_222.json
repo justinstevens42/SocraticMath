@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_222",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The three-digit positive integer $N$ has a ones digit of 3. What is the probability that $N$ is divisible by 3? Express your answer as a common fraction.",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the problem is asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we represent the three-digit number $N$ with the digits $x$, $y$, and 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "In order for a number to be divisible by 3, what property or properties must the digits of the number have?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you think of any examples of two-digit numbers that are divisible by 3? How would this knowledge help us in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How many two-digit numbers are there in total? And how many of those are divisible by 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we express the probability of a randomly chosen two-digit number being divisible by 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How does the probability we found in the previous question relate to the probability of $N$ being divisible by 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Does our final answer of $\\frac{1}{3}$ make sense in the context of the problem? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other scenarios or problems where similar logic or steps might be used to determine the probability of a certain event happening?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

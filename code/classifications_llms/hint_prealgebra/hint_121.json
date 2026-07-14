@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_121",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "What is the ratio of the numerical value of the area, in square units, of an equilateral triangle of side length 8 units to the numerical value of its perimeter, in units? Express your answer as a common fraction in simplest radical form.",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the properties of an equilateral triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does drawing an altitude of an equilateral triangle help in finding its area and perimeter?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the length of the altitude of an equilateral triangle with side length 8 units?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How do you use the altitude and side length to find the area of the equilateral triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do you find the perimeter of the equilateral triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you express the ratio of the area to the perimeter of the equilateral triangle as a simplified radical fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

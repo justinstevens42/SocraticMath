@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_478",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What is the smallest positive integer that has exactly eight distinct positive factors?",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you define what a factor is in the context of number theory?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How many factors does the number 1 have? Why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What are the factors of the number 2? How do you know?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many factors does the number 3 have? Why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you find a pattern in the number of factors for consecutive positive integers? If so, what is it?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What is the definition of a prime number? How does it relate to the number of factors a number has?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How many factors does the number 4 have? How do you know?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you find a number with exactly 8 factors by multiplying two prime numbers? If so, what are those prime numbers and the resulting number with 8 factors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Are there any other ways to get a number with exactly 8 factors? If so, can you find one?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can you be sure that the number you found is the smallest positive integer with exactly 8 distinct positive factors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

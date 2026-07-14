@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_784",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "In triangle $ABC$, $AB = 3$, $AC = 5$, and $BC = 4$.  The medians $AD$, $BE$, and $CF$ of triangle $ABC$ intersect at the centroid $G$.  Let the projections of $G$ onto $BC$, $AC$, and $AB$ be $P$, $Q$, and $R$, respectively.  Find $GP + GQ + GR$.\n\n[asy]\nimport geometry;\n\nunitsize(1 cm);\n\npair A, B, C, D, E, F, G, P, Q, R;\n\nA = (0,3);\nB = (0,0);\nC = (4,0);\nD = (B + C)/2;\nE = (C + A)/2;\nF = (A + B)/2;\nG = (A + B + C)/3;\nP = (G + reflect(B,C)*(G))/2;\nQ = (G + reflect(C,A)*(G))/2;\nR = (G + reflect(A,B)*(G))/2;\n\ndraw(A--B--C--cycle);\ndraw(A--G);\ndraw(B--G);\ndraw(C--G);\ndraw(G--P);\ndraw(G--Q);\ndraw(G--R);\n\nlabel(\"$A$\", A, dir(90));\nlabel(\"$B$\", B, SW);\nlabel(\"$C$\", C, SE);\nlabel(\"$G$\", G, SE);\nlabel(\"$P$\", P, S);\nlabel(\"$Q$\", Q, NE);\nlabel(\"$R$\", R, W);\n[/asy]",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the concept of medians in a triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the centroid of a triangle using medians?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "In this specific triangle, what are the lengths of the medians $AD$, $BE$, and $CF$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How do we find the area of triangle $ABC$ using the lengths of the sides, and what is its value in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does the area of triangle $BCG$ relate to the area of triangle $ABC$? What is its value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we find the length of $GP$ using the area of triangle $BCG$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Using the same method, can you find the lengths of $GQ$ and $GR$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the value of $GP + GQ + GR$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

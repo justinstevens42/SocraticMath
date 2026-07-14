@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_532",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "Which of the following quantities is the largest?  (Write $A$, $B$, or $C$.) \\[ A.\\ \\ \\frac{2006}{2005}+\\frac{2006}{2007} \\qquad B.\\ \\ \\frac{2006}{2007}+\\frac{2008}{2007} \\qquad C.\\ \\ \\frac{2007}{2006}+\\frac{2007}{2008} \\]",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking you to compare?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Why is it difficult to compare these quantities directly?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How did the algebraic rewrite make the comparison easier?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How did you determine that choices A and C were both larger than 2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why is choice B equal to 2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How did you ascertain that choice A was the largest?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you generalize the strategy used in this problem to compare other types of expressions?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

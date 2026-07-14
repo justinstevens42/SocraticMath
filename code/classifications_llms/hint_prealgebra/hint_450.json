@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_450",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Simplify: $\\sqrt{50} + \\sqrt{18}$ . Express your answer in simplest radical form.",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step in simplifying $\\sqrt{50} + \\sqrt{18}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can prime factorization be used to simplify radical expressions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can we simplify $\\sqrt{50}$ and $\\sqrt{18}$ further? If so, how?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How do we add two radical expressions with different radicands?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the simplified form of $\\sqrt{50} + \\sqrt{18}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we simplify the result further? If not, why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of another example where prime factorization can be used to simplify a radical expression?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

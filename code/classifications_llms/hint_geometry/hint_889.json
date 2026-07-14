@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_889",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "In the figure, $ABCD$ is a rectangle, $AZ=WC=6$ units, $AB=12$ units and the area of trapezoid $ZWCD$ is 120 square units. What is the area of triangle $BQW$? [asy]\ndraw((0,0)--(12,0)--(12,20)--(0,20)--(0,0)--(12,20));\ndraw((0,14)--(12,6));\nlabel(\"$A$\",(0,20),W);\nlabel(\"$Z$\",(0,14),W);\nlabel(\"$D$\",(0,0),W);\nlabel(\"$Q$\",(6,10),2S);\nlabel(\"$B$\",(12,20),E);\nlabel(\"$W$\",(12,6),E);\nlabel(\"$C$\",(12,0),E);\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "b",
+    "b",
+    "f",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the area of triangle BQW in terms of the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the relationship between triangle BZQ and triangle BWQ?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Why do triangles BZQ and BWQ have the same area?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can we use this information to find the area of triangle BQW?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the formula for calculating the area of a trapezoid?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can we use the formula for the area of a trapezoid to find the area of trapezoid ZWCD?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we use the area of trapezoid ZWCD to find the area of triangle BZW?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we use the areas of triangle BZW and triangle BZQ to find the area of triangle BQW?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you find the area of triangle BQW using the given information and the steps we discussed?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

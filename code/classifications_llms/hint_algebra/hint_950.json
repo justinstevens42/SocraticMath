@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_950",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "For how many values of $a$ is it true that the line $y=x+a$ passes through the vertex of parabola $y=x^2+a^2$?",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "r",
+    "f",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the equation of the line and the parabola in terms of their general forms?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the vertex of a parabola based on its equation? What do we need to find in order to locate the vertex?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the coordinates of the vertex of the parabola $y=x^2+a^2$? Can we represent it in terms of $a$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "If a line passes through the vertex of a parabola, can we make any observations about the relationship between their equations? What conditions must be met?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What does the equation $y=x+a$ tell us about the slope and intercept of the line? How can these characteristics be related to the vertex of the parabola?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "Can you set up an equation to represent the coordinates of the vertex of the parabola and the line passing through it? What can you deduce from this equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How many values of $a$ satisfy the equation you derived in the previous step? Can you find those values?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other scenarios or mathematical situations where determining the intersection point(s) between a line and a curve is relevant? How does the thought process and steps involved in solving this problem apply to those scenarios?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

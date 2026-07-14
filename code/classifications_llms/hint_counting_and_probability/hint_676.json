@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_676",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "I have 10 distinguishable socks in my drawer: 4 white, 4 brown, and 2 blue.  In how many ways can I choose a pair of socks, provided that I get two socks of the same color?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the problem statement and what we're trying to find in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for the socks to be distinguishable? How does this affect the number of choices we have?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "In this problem, we are looking for a pair of socks of the same color. Can you explain how we can approach this problem using counting principles?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Let's start by considering the case when the socks are white. How many ways can we choose 2 white socks from the 4 white socks?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Now let's consider the case when the socks are brown. How many ways can we choose 2 brown socks from the 4 brown socks?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What about the case when the socks are blue? How many ways can we choose 2 blue socks from the 2 blue socks?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain why we need to add up the number of choices for each color to get the total number of choices for socks?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "Based on the calculations we made, what is the total number of choices?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Are there any other possible approaches we could use to solve this problem? Can you explain how they might be different from our current approach?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any similar problems or scenarios where the same counting principles and steps might be applicable?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

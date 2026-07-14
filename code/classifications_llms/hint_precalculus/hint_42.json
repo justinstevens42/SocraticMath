@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_42",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Find $\\begin{pmatrix} 2 \\\\ -5 \\end{pmatrix} - 4 \\begin{pmatrix} -1 \\\\ 7 \\end{pmatrix}.$",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Could you describe the first step in solving this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "When subtracting two matrices, what happens to their corresponding entries?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What operation do you need to perform on the second matrix before subtracting it from the first matrix?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the resulting matrix after performing the subtraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why we multiply the second matrix by 4 before subtracting it?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What would happen if we subtracted the first matrix from the second matrix instead?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

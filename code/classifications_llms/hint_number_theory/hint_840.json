@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_840",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What is the smallest integer $n$, greater than $1$, such that $n^{-1}\\pmod{1050}$ is defined?",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what it means for an integer to have an inverse $\\pmod{1050}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "According to the given information, what is the condition that an integer must satisfy in order to have an inverse $\\pmod{1050}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine whether an integer is relatively prime to $1050$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you provide a list of the integers from $2$ to $10$ that do not have an inverse $\\pmod{1050}$? Why don't they have an inverse?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Which integer from $2$ to $10$ has the highest common factor with $1050$? Why does this factor prevent the integer from having an inverse $\\pmod{1050}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the smallest integer greater than $1$ that is relatively prime to $1050$? How do you know it has an inverse $\\pmod{1050}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other ways to determine whether an integer has an inverse $\\pmod{1050}$ besides checking whether it is relatively prime to $1050$?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Can you give an example of another number besides $1050$ where we need to check for relatively prime integers in order to determine if an inverse exists? What is the general rule for determining this?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

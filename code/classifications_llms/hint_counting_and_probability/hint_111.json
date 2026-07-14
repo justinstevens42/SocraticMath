@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_111",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "How many positive, three-digit integers contain at least one $3$ as a digit but do not contain a $5$ as a digit?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the set of three-digit integers that do not contain the digits 3 and 5?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many possible choices are there for the hundreds digit in a three-digit integer without the digits 3 and 5?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What are the possible choices for the tens and ones digits in a three-digit integer without the digits 3 and 5?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we calculate the number of three-digit integers without a 3 or 5 using the choices for the hundreds, tens, and ones digits?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the count of three-digit integers without a 3 or 5?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Now let's consider the set of three-digit integers that just do not contain a 5 as a digit. Let's call this set T. What are the possible choices for the hundreds, tens, and ones digits in this set?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we calculate the number of three-digit integers without a 5 using the choices for the hundreds, tens, and ones digits in set T?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the count of three-digit integers without a 5?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "According to the complementary principle, how can we find the count of three-digit integers with at least one 3 and no 5s?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the count of three-digit integers with at least one 3 and no 5s?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

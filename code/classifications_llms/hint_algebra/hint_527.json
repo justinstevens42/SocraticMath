@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_527",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Evaluate $\\lfloor-2.54\\rfloor+\\lceil25.4\\rceil$.",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "e",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you explain the concept of evaluating expressions involving the floor and ceiling functions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the definition of the floor function? How does it work with positive and negative numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the definition of the ceiling function? In what scenarios is it useful?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Why would we need to consider the floor and ceiling functions when evaluating an expression like this?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How would you calculate the floor of -2.54? What about the ceiling of 25.4?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "After calculating the individual values, what would be the next step in evaluating the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How do you combine the floor and ceiling values to obtain the final result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any specific rules or properties of the floor and ceiling functions that we need to consider in this evaluation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other situations where the floor and ceiling functions might come into play in algebraic expressions?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "What is your understanding of the overall concept of evaluating expressions involving the floor and ceiling functions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ],
+  "classifier": "llm"
+}

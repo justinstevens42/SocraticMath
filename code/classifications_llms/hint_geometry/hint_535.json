@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_535",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "In rectangle $ABCD$, $AB = 3$ and $BC = 9$. The rectangle is folded so that points $A$ and $C$ coincide, forming the pentagon $ABEFD$. What is the length of segment $EF$? Express your answer in simplest radical form.\n\n[asy]\nsize(200);\ndefaultpen(linewidth(.8pt)+fontsize(10pt));\ndraw((0,0)--(9,0)--(9,3)--(0,3)--(0,0)--cycle);\ndraw((17,3)--(12,3)--(12,0)--(21,0),dashed);\ndraw((21,3)--(17,3)--(16,0)--(16+3.2,-2.4)--(21,0)--(21,3)--cycle);\ndraw((17,3)--(21,0));\n\nlabel(\"A\", (0,3), NW);\nlabel(\"B\", (0,0), SW);\nlabel(\"C\", (9,0), SE);\nlabel(\"D\", (9,3), NE);\nlabel(\"B\", (19.2,-2.4), SE);\nlabel(\"D\", (21,3), NE);\nlabel(\"E\", (16,0), SW);\nlabel(\"F\", (17,3), N);\nlabel(\"A$\\&$C\", (21,0), SE);\n[/asy]",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the initial rectangle $ABCD$? What are the dimensions of the rectangle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between rectangle $ABCD$ and pentagon $ABEFD$? How was pentagon $ABEFD$ formed from rectangle $ABCD$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What are the lengths of $FA$ and $DF$ in pentagon $ABEFD$? How did you find these lengths?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What are the lengths of $EA$ and $EB$ in pentagon $ABEFD$? How did you determine these lengths?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did you determine that triangle $FPE$ is a right triangle? What is the length of segment $FP$ or $DA$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the length of segment $PE$ in pentagon $ABEFD$? How did you determine this length?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How did you use the Pythagorean Theorem to find segment $FE$? What is the length of segment $FE$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

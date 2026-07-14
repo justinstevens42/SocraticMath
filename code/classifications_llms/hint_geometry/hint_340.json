@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_340",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "In the trapezoid shown, the ratio of the area of triangle $ABC$ to the area of triangle $ADC$ is $7:3$. If $AB + CD = 210$ cm, how long is segment $\\overline{AB}$? [asy]\nimport olympiad; size(150); defaultpen(linewidth(0.8));\npair A = (0,0), B = (5,0), C = (3,2), D = (1,2);\ndraw(A--B--C--D--cycle--C);\nlabel(\"$A$\",A,SW); label(\"$B$\",B,SE); label(\"$C$\",C,NE); label(\"$D$\",D,NW);\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "f"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How is the ratio of the areas of triangle ABC to triangle ADC related to the lengths of AB and CD?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Why can we set up the equation AB + CD = 210 cm?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How did we determine that the area ratio is 7:3?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How did we use the area ratio to set up the equation AB:CD = 7:3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How did we solve for the value of x in the equation 7x + 3x = 210?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the value of x that satisfies the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How did we find the length of AB using the value of x?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other situations in geometry where the ratio of areas can be used to solve for lengths or other quantities?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "How does the concept of height play a role in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    }
+  ],
+  "classifier": "llm"
+}

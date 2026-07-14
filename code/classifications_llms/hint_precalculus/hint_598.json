@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_598",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Express $\\sin (a + b) - \\sin (a - b)$ as the product of trigonometric functions.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the expression $\\sin(a + b) - \\sin(a - b)$ represents? What is the difference between these two trigonometric functions?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we apply the sum-to-product trigonometric identity to simplify this expression? Are there any specific steps involved in using this identity?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What are the key components of the sum-to-product identity? How does it relate to the given expression?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you elaborate on why the expression simplifies to $2\\sin b \\cos a$ using the sum-to-product identity? What is the reasoning behind this result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you show the steps that lead to the final expression of $2\\sin b \\cos a$? What intermediate steps or substitutions were made?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any limitations or conditions for applying the sum-to-product identity? Can you think of any scenarios where this identity might not be applicable?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_741",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "$\\triangle ABC$ and $\\triangle DBC$ share $BC$. $AB = 5\\ \\text{cm}$, $AC = 12\\ \\text{cm}$, $DC = 8\\ \\text{cm}$, and $BD = 20\\ \\text{cm}$. What is the least possible integral number of centimeters in $BC$?\n\n[asy]\nsize(100); import graph; currentpen = fontsize(10pt);\npair B = (0,0), C = (13,0), A = (-5,7), D = (16,10);\n\ndraw(B--A--C--cycle); draw(B--D--C);\nlabel(\"$A$\",A,W); label(\"$B$\",B,W); label(\"$C$\",C,E); label(\"$D$\",D,E);\n[/asy]",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "e",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the relationships between the triangles and the sides given?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the triangle inequality to determine a lower bound for BC?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do we apply the triangle inequality to triangle ABC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we apply the triangle inequality to triangle BCD?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the significance of finding the minimum integral number of centimeters in BC?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain why BC must be greater than 7 centimeters?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you explain why BC must be greater than 12 centimeters?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Why is the minimum possible integral number of centimeters in BC 13?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

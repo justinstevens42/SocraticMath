@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_230",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What is the value of the least positive base ten number which requires six digits for its binary representation?",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the binary representation of a base ten number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the number of digits needed for the binary representation of a base ten number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean when we say a number requires six digits for its binary representation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain how binary numbers work and how they are related to base ten numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How do we convert a base ten number to its binary representation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What is the least positive base ten number that requires six digits in its binary representation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we find the value of this number using binary representation and base ten conversion?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you show step-by-step how to convert $100000_2$ to base ten representation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Is there a pattern or formula we can use to determine the value of a binary number in base ten?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any other scenarios where we may need to convert between different number systems and apply similar thinking and steps?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

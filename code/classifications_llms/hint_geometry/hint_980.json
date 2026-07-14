@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_980",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "The diagonals of rectangle $PQRS$ intersect at point $X$.  If $PS = 10$ and $RS=24$, then what is $\\cos \\angle PXS$?",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How are the diagonals of a rectangle related to each other?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the length of $PS$ and $RS$ in the given rectangle $PQRS$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the definition of cosine? How can we use it to find $\\cos \\angle PXS$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Why do we draw altitude $\\overline{SF}$ from $S$ to diagonal $\\overline{PR}$? What does this help us find?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the Pythagorean Theorem to find $XS$ and $FX$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Why do we have $\\triangle FPS \\sim \\triangle SPR$ by AA Similarity? How does this help us find $FP$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we calculate the length of $FP$ using the given information and the similar triangles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the formula for cosine in terms of the lengths of the sides of a right triangle? How can we use this formula to find $\\cos \\angle PXS$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the final answer for $\\cos \\angle PXS$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_1022",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "The center of a circle has coordinates $(6,-5)$. The circle is reflected about the line $y=x$. What are the $x,y$ coordinates of the center of the image circle? State the $x$ coordinate first.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the coordinates of the center of the original circle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is a reflection over a line?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How do we reflect a point over the line $y=x$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What happens to the $x$ and $y$ coordinates when a point is reflected over the line $y=x$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the process for determining the coordinates of the image center?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you provide a geometric interpretation of what happens when a circle is reflected over the line $y=x$?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

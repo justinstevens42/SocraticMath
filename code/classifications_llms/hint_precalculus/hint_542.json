@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_542",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Let $z_1$ and $z_2$ be the complex roots of $z^2 + az + b = 0,$ where $a$ and $b$ are complex numbers.  In the complex plane, 0, $z_1,$ and $z_2$ form the vertices of an equilateral triangle.  Find $\\frac{a^2}{b}.$",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we find the complex roots of the equation $z^2 + az + b = 0$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What are the properties of an equilateral triangle in the complex plane, and how can we use these properties in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we express $z_2$ in terms of $z_1$ using the given condition $z_2 = \\omega z_1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we apply Vieta's formulas to find the values of $a$ and $b$ in terms of $z_1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the value of $\\frac{a^2}{b}$ in terms of $z_1$ and $\\omega$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we simplify the expression $\\frac{a^2}{b}$ using the properties of complex numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final result for $\\frac{a^2}{b}$ in this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

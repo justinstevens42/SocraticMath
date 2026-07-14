@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_460",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "A box contains 5 white balls and 6 black balls.  A ball is drawn out of the box at random.  What is the probability that the ball is white?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "r",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in finding the probability of drawing a white ball?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Are there any other ways to find the probability in this situation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "If you were to use a different method, how would you approach finding the probability?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is it important to consider the total number of balls in the box when calculating probability?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What would happen to the probability if there were more white balls in the box? How about if there were more black balls?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other scenarios where probability can be calculated in a similar manner?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

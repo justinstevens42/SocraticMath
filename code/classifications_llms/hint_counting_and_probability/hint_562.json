@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_562",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Coach Grunt is preparing the 5-person starting lineup for his basketball team, the Grunters.  There are 12 players on the team.  Two of them, Ace and Zeppo, are league All-Stars, so they'll definitely be in the starting lineup.  How many different starting lineups are possible?  (The order of the players in a basketball lineup doesn't matter.)",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "r",
+    "r",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem statement and what do we need to find in this scenario?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many players are on the team, and how many of them are guaranteed to be in the starting lineup?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Since the order of players in a lineup doesn't matter, should we consider permutations or combinations?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How many players are left to choose from once Ace and Zeppo have been accounted for?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many players need to be chosen to complete the starting lineup?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What formula can we use to calculate the number of possible combinations for choosing players?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain how the formula for combinations works in this scenario?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "What is the value for ${10\\choose3}$ and how did you calculate it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Is there any other way to approach this problem using different counting methods?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "How would the answer change if Coach Grunt wanted to choose 4 players from the remaining 10 instead of 3?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

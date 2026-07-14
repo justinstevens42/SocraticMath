@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_818",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "What is the value of $101^{4} - 4 \\cdot 101^{3} + 6 \\cdot 101^2 - 4 \\cdot 101 + 1$?  (No calculators!)",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the pattern you see in the coefficients of the powers of 101?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How does recognizing the coefficients as binomial coefficients help in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the Binomial Theorem and how does it relate to this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you write out the expanded form of $(101 + (-1))^4$ using the Binomial Theorem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does this expanded form match the expression $101^{4} - 4 \\cdot 101^{3} + 6 \\cdot 101^2 - 4 \\cdot 101 + 1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the value of $(101 + (-1))^4$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How does this value lead to the final answer of $100^4$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you apply a similar approach to other expressions or problems?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

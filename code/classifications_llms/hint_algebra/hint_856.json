@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_856",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find $a$ such that $ax^2+12x+9$ is the square of a binomial.",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "f",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does it mean for a quadratic expression to be the square of a binomial?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we represent the square of a binomial algebraically?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you write the square of a binomial in the form of $(x+c)^2$? What would $c$ represent?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Assuming $ax^2+12x+9$ is the square of a binomial, what would be the value of $c$ in $(x+c)^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Expanding $(x+c)^2$, how can we determine the coefficient of the $x$ term in the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Comparing the expanded form of $(x+c)^2$ with $ax^2+12x+9$, what equation can we form to find the value of $c$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "After finding the value of $c$, how can we determine the value of $a$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any other values of $a$ that could make $ax^2+12x+9$ the square of a binomial?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other techniques or strategies that might be useful for finding values of $a$ in similar problem types?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "How can we verify that our solution is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

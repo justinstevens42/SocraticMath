@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_844",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Compute $i^{-100}+i^{-99}+i^{-98}+\\cdots+i^{-1}+i^0+i^1+\\cdots+i^{99}+i^{100}$.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "f",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you simplify any of the terms in the expression $i^{-100}+i^{-99}+i^{-98}+\\cdots+i^{-1}+i^0+i^1+\\cdots+i^{99}+i^{100}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the value of $i^2$? Can you simplify $i^2$ further?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can you express $i$ raised to powers greater than $2$? Are there any patterns you notice?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you determine the value of $i^{100}$? How about $i^{-100}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What happens when you add the terms $i^{99}$ and $i^{-99}$? Can you simplify this expression further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How does $i^0$ affect the overall sum? Can you simplify the expression further by grouping terms?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you identify any repeating patterns in the sum of the terms? How do these patterns contribute to the overall value of the expression?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "What do you notice about the terms that have positive exponents versus the terms with negative exponents? How does this affect the final result?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 9,
+      "question": "Can you simplify the expression further now that you've considered these patterns and observations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the final value of the expression $i^{-100}+i^{-99}+i^{-98}+\\cdots+i^{-1}+i^0+i^1+\\cdots+i^{99}+i^{100}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

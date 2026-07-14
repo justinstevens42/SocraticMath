@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_740",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 1",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Jordan ran 2 miles in half the time it took Steve to run 3 miles. If it took Steve 24 minutes to run 3 miles, using the same rates, how many minutes would it take Jordan to run 5 miles?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the relationship between the distances Jordan and Steve ran?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Based on the given information, what can you infer about Jordan's running rate compared to Steve's?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "If it took Steve 24 minutes to run 3 miles, how long did it take Jordan to run 2 miles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the ratio of Jordan's running time to Steve's running time for the same distance?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can you use this ratio to determine how long it would take Jordan to run 5 miles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you generalize this problem and apply the same reasoning to find how long it would take Jordan to run any given distance?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

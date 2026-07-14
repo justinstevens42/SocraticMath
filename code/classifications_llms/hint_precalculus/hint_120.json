@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_120",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "If $\\tan \\alpha = 8$ and $\\tan \\beta = 7,$ then find $\\tan (\\alpha - \\beta).$",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you generally approach finding the value of $\\tan (\\alpha - \\beta)$ when given the values of $\\tan \\alpha$ and $\\tan \\beta$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain what the angle subtraction formula is and how it relates to finding $\\tan (\\alpha - \\beta)$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "In this specific problem, what are the given values for $\\tan \\alpha$ and $\\tan \\beta$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What does the angle subtraction formula tell us about finding $\\tan (\\alpha - \\beta)$ in this case?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How would you apply the angle subtraction formula to find the value of $\\tan (\\alpha - \\beta)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain the reasoning behind each step in the calculation for $\\tan (\\alpha - \\beta)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final result and how would you interpret the value of $\\frac{1}{57}$ in the context of this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other scenarios where you might use the angle subtraction formula to find trigonometric values?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

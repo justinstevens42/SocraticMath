@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_848",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The deli has four kinds of bread, six kinds of meat, and five kinds of cheese. A sandwich consists of one type of bread, one type of meat, and one type of cheese. Ham, chicken, cheddar cheese, and white bread are each offered at the deli. If Al never orders a sandwich with a ham/cheddar cheese combination nor a sandwich with a white bread/chicken combination, how many different sandwiches could Al order?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many different types of bread does the deli offer?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many different types of meat does the deli offer?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many different types of cheese does the deli offer?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the total number of potential sandwiches that can be made from the available choices?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "If Al never orders a sandwich with a ham/cheddar cheese combination, how many sandwiches does he need to exclude from the total number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "If Al never orders a sandwich with a white bread/chicken combination, how many sandwiches does he need to exclude from the total number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How many different sandwiches could Al order after discarding the excluded combinations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you explain why the ham/cheddar cheese combination and the white bread/chicken combination were excluded?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 9,
+      "question": "Is there any other combination of ingredients that Al should exclude? If so, how many additional sandwiches would need to be excluded?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the final number of different sandwiches that Al can order after excluding all restricted combinations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

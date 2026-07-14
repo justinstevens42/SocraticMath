@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_590",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Triangle $ABC$ is a right isosceles triangle. Points $D$, $E$ and $F$ are the midpoints of the sides of the triangle. Point $G$ is the midpoint of segment $DF$ and point $H$ is the midpoint of segment $FE$. What is the ratio of the shaded area to the non-shaded area in triangle $ABC$? Express your answer as a common fraction.\n\n[asy]\ndraw((0,0)--(1,0)--(0,1)--(0,0)--cycle,linewidth(1));\nfilldraw((0,0)--(1/2,0)--(1/2,1/2)--(0,1/2)--(0,0)--cycle,gray, linewidth(1));\nfilldraw((1/2,0)--(1/2,1/4)--(1/4,1/2)--(0,1/2)--(1/2,0)--cycle,white,linewidth(1));\n\nlabel(\"A\", (0,1), W);\nlabel(\"B\", (0,0), SW);\nlabel(\"C\", (1,0), E);\nlabel(\"D\", (0,1/2), W);\nlabel(\"E\", (1/2,0), S);\nlabel(\"F\", (1/2,1/2), NE);\nlabel(\"G\", (1/4,1/2), N);\nlabel(\"H\", (1/2,1/4), E);\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information for this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What do we know about triangle $ABC$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you show that $DFEB$ is a square? How does this information help us with the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the area of triangle $ABC$? How do we know this?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the area of triangle $FGH$? How do we know this?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the area of triangle $DBE$? How do we know this?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the formula for finding the area of a triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "How can we find the shaded area in triangle $ABC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we find the non-shaded area in triangle $ABC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the ratio of shaded to non-shaded areas in triangle $ABC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

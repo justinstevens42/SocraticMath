@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_625",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Five identical rectangles are arranged to form a larger rectangle $PQRS$, as shown.  The area of $PQRS$ is $4000$.  What is the length, $x$, rounded off to the nearest integer? [asy]\nreal x = 1; real w = 2/3;\n\n// Draw outer square and labels\npair s = (0, 0); pair r = (2 * x, 0); pair q = (3 * w, x + w); pair p = (0, x + w);\ndraw(s--r--q--p--cycle);\nlabel(\"$S$\", s, SW); label(\"$R$\", r, SE); label(\"$Q$\", q, NE); label(\"$P$\", p, NW);\n\n// Draw other segments\ndraw((x, 0)--(x, w));\ndraw((0, w)--(2 * x, w));\ndraw((w, x + w)--(w, w)); draw((2 * w, x + w)--(2 * w, w));\n\n// length labels\npair upper = (-0.1, x + w);\npair lower = (-0.1, w);\ndraw(lower--upper);\ndraw((-0.1 - 0.03, x + w)--(-0.1 + 0.03, x + w));\ndraw((-0.1 - 0.03, w)--(-0.1 + 0.03, w));\nlabel(\"$x$\", midpoint((-0.1, w)--(-0.1, x + w)), W);\n\npair left = (0, -0.1); pair right = (x, -0.1);\ndraw((0, -0.1 + 0.03)--(0, -0.1 - 0.03));\ndraw((x, -0.1 - 0.03)--(x, -0.1 + 0.03));\ndraw(left--right);\nlabel(\"$x$\", (x/2, -0.1), S);\n\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what the problem is asking for in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What relationships do you notice between the different parts of the larger rectangle and the smaller identical rectangles?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How did you use the given information about the area of $PQRS$ to set up an equation or expression to solve for $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What other mathematical concepts or equations did you use to solve for $x$, and why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did you know to round your final answer to the nearest integer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other math problems or situations that involve dividing a larger shape into identical smaller shapes, and how would you approach solving those problems?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

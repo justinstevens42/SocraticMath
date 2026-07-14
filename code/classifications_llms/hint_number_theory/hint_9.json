@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_9",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What is the sum of the greatest common divisor of $50$ and $5005$ and the least common multiple of $50$ and $5005$?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "b",
+    "r",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the prime factorization of 50 and 5005?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the definition of greatest common divisor? How is it calculated using the prime factorization?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the definition of least common multiple? How is it calculated using the prime factorization?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you calculate the greatest common divisor and least common multiple of 50 and 5005 using their prime factorizations? If so, what are the values?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between the greatest common divisor and least common multiple of two numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can you use the prime factorizations of two numbers to calculate their greatest common divisor and least common multiple?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ],
+  "classifier": "llm"
+}

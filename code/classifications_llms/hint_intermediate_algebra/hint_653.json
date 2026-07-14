@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_653",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "If $a$,$b$, and $c$ are positive real numbers such that $a(b+c) = 152$, $b(c+a) = 162$, and $c(a+b) = 170$, then find $abc.$",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What strategies or methods do you know for solving systems of equations like these?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If we consider the given equations, can you identify a pattern or relationship between the three equations?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Why are we able to add the given equations together to get $2(ab+bc+ca) = 484$? What is the significance of this result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the information $ab+bc+ca = 242$ to find the values of $ab$, $bc$, and $ca$ individually?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "If we multiply the equations $bc=90$, $ca=80$, and $ab=72$, what do we obtain and how does it relate to finding $abc$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we determine the value of $abc$ using the relationships we have established so far?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

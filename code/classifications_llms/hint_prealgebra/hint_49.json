@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_49",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Jane's quiz scores were 98, 97, 92, 85 and 93. What was her mean score?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "f",
+    "r",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of mean score in this context?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do we calculate the mean score using the given quiz scores?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you identify any patterns or similarities in the given quiz scores that might help calculate the mean score more efficiently?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Why is it necessary to add up all the quiz scores before dividing by the number of scores?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why the mean score represents a measure of central tendency? How does it provide information about the overall performance?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Are there any potential limitations or biases in using the mean score as a measure of Jane's performance?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

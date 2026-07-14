@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_298",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Forty cards are placed into a box, each bearing a number 1, 2, 3, 4, 5, 6, 7, 8, 9, or 10, with each number entered on four cards. Four cards are drawn from the box at random and without replacement. Let $p$ be the probability that all four cards bear the same number. Let $q$ be the probability that three of the cards bear a number $a$ and the other bears a number $b$ that is not equal to $a$. What is the value of $q/p$?",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total number of ways that four cards can be drawn from the box, considering that each card bears a number from 1 to 10, with four cards for each number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How many of these possibilities result in all four cards bearing the same number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Let's focus on the case where three cards have the number \"a\" and the fourth card has the number \"b\" (where \"b\" is different from \"a\"). How many ways can we choose distinct numbers \"a\" and \"b\" from the 10 available numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "For each chosen pair of numbers \"a\" and \"b,\" how many ways are there to select the three cards with number \"a\" and the one card with number \"b\"?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the probability of drawing four cards with the same number? How does this probability relate to the total number of ways to draw four cards?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Similarly, what is the probability of drawing three cards with number \"a\" and one card with number \"b\"? How does this probability relate to the total number of ways to draw four cards?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Calculate the ratio of these probabilities, i.e., q/p. What is the numerical value of this ratio?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_464",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Solve for $x$: $\\frac{3x - 1}{4x-4} = \\frac23$.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you identify the first step in solving this equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Do you know any different methods that can be used to solve equations like this?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you choose to cross-multiply, what would be the resulting equation? Why is this method appropriate in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How would you simplify the resulting equation after cross-multiplying? What can you deduce from this simplification?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What solution(s) did you find for this equation? How can you verify the correctness of your solution(s)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other types of equations where a similar approach or steps might be used?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

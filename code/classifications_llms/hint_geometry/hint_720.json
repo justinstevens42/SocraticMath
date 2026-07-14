@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_720",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "In the triangle shown, $n$ is a positive integer, and $\\angle A > \\angle B > \\angle C$.  How many possible values of $n$ are there? [asy]\ndraw((0,0)--(1,0)--(.4,.5)--cycle);\nlabel(\"$A$\",(.4,.5),N); label(\"$B$\",(1,0),SE); label(\"$C$\",(0,0),SW);\nlabel(\"$2n + 12$\",(.5,0),S); label(\"$3n - 3$\",(.7,.25),NE); label(\"$2n + 7$\",(.2,.25),NW);\n[/asy]",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the triangle inequality and how does it relate to the given triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do we use the given side lengths to express the triangle inequality?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What are the resulting inequalities and how do we solve them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How does the constraint $\\angle A > \\angle B > \\angle C$ further restrict the possible values of $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we express these restrictions as inequalities involving the side lengths of the triangle and solve them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the final interval of possible values for $n$? How do we obtain it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How many integers satisfy the interval found in question 6?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_680",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "If $|x| + x + y = 10$ and $x + |y| - y = 12,$ find $x + y.$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "f",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this system of equations?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "When solving systems of equations like this, are there any different methods that you know of?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you choose to use the method of substitution, how would you go about substituting one equation into the other?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why can we substitute one equation into the other? What characteristics of these equations make this method applicable?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "What values did you find for x and y when you substituted and solved the system of equations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other types of systems of equations where similar thinking and steps might be used to solve them?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

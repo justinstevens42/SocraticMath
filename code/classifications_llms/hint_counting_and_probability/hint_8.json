@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_8",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Sue owns 11 pairs of shoes: six identical black pairs, three identical brown pairs and two identical gray pairs. If she picks two shoes at random, what is the probability that they are the same color and that one is a left shoe and the other is a right shoe? Express your answer as a common fraction.",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step we need to take in order to find the probability that Sue picks two shoes of the same color and one is a left shoe and the other is a right shoe?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you identify the different cases or scenarios we need to consider in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Let's consider the case where the first shoe picked is black. What is the probability that the second shoe picked is also black and for the opposite foot?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Now, let's consider the case where the first shoe picked is brown. What is the probability that the second shoe picked is also brown and for the opposite foot?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Finally, let's consider the case where the first shoe picked is gray. What is the probability that the second shoe picked is also gray and for the opposite foot?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we calculate the overall probability of picking two shoes of the same color and one is a left shoe and the other is a right shoe?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you simplify the fractional expression to express the overall probability as a common fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

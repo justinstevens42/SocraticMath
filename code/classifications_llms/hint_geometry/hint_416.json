@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_416",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "A pentagon is formed by cutting a triangular corner from a rectangular piece of paper. The five sides of the pentagon have lengths $13,$ $19,$ $20,$ $25$ and $31,$ in some order. Find the area of the pentagon.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What information do we know about the sides of the pentagon? Can you identify any relationships between these side lengths?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How does the Pythagorean theorem relate to the given information about the sides of the pentagon and the legs of the triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What are the possible Pythagorean triples that could be used in this problem? How can we determine which triple is the correct one?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What are the relationships between the lengths of the legs of the triangle and the differences between the given side lengths? How does this help us find the values of $a$, $b$, $c$, $d$, and $e$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we calculate the area of the pentagon using the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_393",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "A bag has 4 red marbles, 5 white marbles, and 6 blue marbles.  Three marbles are drawn from the bag (without replacement).  What is the probability that they are all the same color?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the problem statement in your own words? What are the given information and what are we trying to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many different possibilities are there when drawing three marbles from the bag? Can you explain why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Let's consider the probability of drawing all red marbles. What is the probability of drawing the first red marble? And what happens to the probability of drawing the second and third red marbles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you generalize the probability of drawing all red marbles using the multiplication principle? How does it relate to the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Similarly, what is the probability of drawing all white marbles and all blue marbles? How can we express this probability using the multiplication principle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Based on the probabilities calculated for each color, what should we do next to find the probability of drawing marbles of the same color?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Finally, can you calculate the probability of drawing marbles of the same color? Is it consistent with the results obtained earlier?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

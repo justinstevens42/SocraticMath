@@ -1,0 +1,92 @@
+{
+  "problem_id": "hint_1039",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "The expression \\[(x+y+z)^{2006}+(x-y-z)^{2006}\\]is simplified by expanding it and combining like terms. How many terms are in the simplified expression?",
+  "n_questions": 11,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given expression and what must be done to simplify it?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is a monomial and what is its form in this context?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What are the restrictions on the non-negative integers $a,b,$ and $c$ in the monomials?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How many even values can $a$ have, and what are they?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the range of values that $b$ can assume for each even value of $a$, and what is the implied value of $c$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we compute the total number of monomials in the simplified expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How is the formula for the sum of the first $n$ odd positive integers derived, and what is its value for $n=1004$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "What is the alternate form of the given expression using the binomial coefficient notation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Why do we only consider the terms where $b$ and $c$ have the same parity?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the relationship between the nested sums in the two different forms of the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "How do we arrive at the final answer for the number of terms in the simplified expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

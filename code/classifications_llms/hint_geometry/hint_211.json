@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_211",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "The volume of a cylinder is $54\\pi$ $\\text{cm}^3$. How many cubic centimeters are in the volume of a cone with the same radius and height as the cylinder? Express your answer in terms of $\\pi$. [asy]\nimport solids; currentprojection=orthographic(0,100,25); defaultpen(linewidth(0.8));\nrevolution cyl = cylinder((5,0,0),1,5,Z);\nrevolution cone = cone((0,0,0),1,5,Z);\ndraw(cyl,backpen=dashed);\ndraw(cone,backpen=dashed);\n\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the problem is asking for?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How would you calculate the volume of the cylinder?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How does the formula for the volume of a cone compare to the formula for the volume of a cylinder?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can you use the volume of the cylinder to find the volume of the cone?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between the volumes of the cylinder and cone with the same radius and height?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can you express the volume of the cone in terms of pi?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

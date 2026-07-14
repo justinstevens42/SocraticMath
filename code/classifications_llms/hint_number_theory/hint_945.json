@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_945",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Suppose that $a$ and $b$ are positive integers for which $a$ has $3$ factors and $b$ has $a$ factors. If $b$ is divisible by $a$, then what is the least possible value of $b?$",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of a factor of a number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How many factors does a prime number have? How about the square of a prime?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you find the smallest value of $a$ that has exactly 3 factors? What is its square?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the definition of a divisor of a number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "If $a$ has 3 factors, what can you say about its prime factorization?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you find the smallest positive integer $b$ that has exactly 4 factors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can you determine if $b$ is divisible by $a$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you find the least possible value of $b$ that satisfies the given conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

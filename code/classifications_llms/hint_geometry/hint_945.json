@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_945",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "In the figure, the visible gray area within the larger circle is equal to three times the area of the white circular region. What is the ratio of the radius of the small circle to the radius of the large circle? Express your answer as a common fraction.\n\n[asy]size(101);\nfilldraw(Circle((0,0),2)^^Circle((.8,-.3),1),gray(.6)+fillrule(1),black);[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what the first step would be to solve this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Are you familiar with any methods that can be used to solve this type of problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you were to use the equation provided to find the radius ratio, what steps would you take?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is it possible to equate the areas and set up the equation $\\pi b^2 - \\pi a^2 = 3 (\\pi a^2)$? What property or concept allows us to do this?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "What is the value of $b^2$ in terms of $a^2$? How can this be simplified?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Given that $b^2 = 4a^2$ and both $a$ and $b$ are positive, what can we determine about the relationship between $a$ and $b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

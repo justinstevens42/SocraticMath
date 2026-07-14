@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_172",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Below is the graph of $y = a \\sin (bx + c) + d$ for some positive constants $a,$ $b,$ $c,$ and $d.$  Find $d.$\n\n[asy]import TrigMacros;\n\nsize(400);\n\nreal f(real x)\n{\n\treturn 2*sin(3*x + pi) + 1;\n}\n\ndraw(graph(f,-3*pi,3*pi,n=700,join=operator ..),red);\ntrig_axes(-3*pi,3*pi,-4,4,pi/2,1);\nlayer();\nrm_trig_labels(-5,5, 2);\n\nlabel(\"$1$\", (0,1), E);\nlabel(\"$2$\", (0,2), E);\nlabel(\"$3$\", (0,3), E);\nlabel(\"$-1$\", (0,-1), E);\nlabel(\"$-2$\", (0,-2), E);\nlabel(\"$-3$\", (0,-3), E);\n[/asy]",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the general form of the function $y = a \\sin (bx + c) + d$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Looking at the given graph, what can you observe about the range of the function?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can you determine the amplitude of the function from the given graph?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can we determine the phase shift and period of the function from the given information? If so, how?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What can you conclude about the value of $d$ (the vertical shift) based on the given graph?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How would the graph change if we modify the value of $d$? Can you provide an example?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Is it possible to determine the values of $a$, $b$, and $c$ from the given graph alone? Why or why not?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

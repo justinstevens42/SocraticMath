@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_163",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Find the inverse of the matrix\n\\[\\begin{pmatrix} 9 & 18 \\\\ -6 & -12 \\end{pmatrix}.\\]If the inverse does not exist, then enter the zero matrix.",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a matrix, and how do you represent a matrix in mathematics?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain what is meant by the inverse of a matrix?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the formula for finding the inverse of a 2x2 matrix, and how does it work?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Using the given matrix, can you calculate the determinant? What does the determinant tell us about the matrix?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Based on the determinant, does the given matrix have an inverse? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "If the inverse does not exist, what is the solution to the problem? Can you explain why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of an example of a matrix that does have an inverse? How would you go about finding the inverse for that matrix?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

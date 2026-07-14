@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_121",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Find $\\begin{pmatrix} -5 \\\\ 1 \\\\ -4 \\end{pmatrix} + \\begin{pmatrix} 0 \\\\ 8 \\\\ -4 \\end{pmatrix}.$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step to add these two vectors together?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the different methods or techniques you know for adding vectors?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you choose the component-wise method, how would you add the corresponding components of the two vectors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why do you think vector addition is done component-wise? What properties of vectors make this method appropriate?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the result of adding the corresponding components of these two vectors? How does it validate your solution?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other types of vector operations or calculations where similar thinking and steps might be involved?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_169",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Let \\[f(x) =\n\\begin{cases}\n2x + 9 &\\text{if }x<-2, \\\\\n5-2x&\\text{if }x\\ge -2.\n\\end{cases}\n\\]Find $f(-7).$",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "f"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what the function $f(x)$ represents in this scenario?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How would you determine which equation to use to find $f(-7)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the value of $x$ in the first equation, and what does it tell us about the range of values for which the first equation is valid?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Now, let's focus on the second equation. What is the value of $x$ in the second equation, and how does it relate to the range of values for which the second equation is valid?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Given that $-7$ falls in the range of the second equation, which expression would you use to find $f(-7)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you substitute $-7$ into the chosen equation and calculate the value of $f(-7)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any restrictions or limitations we need to consider when evaluating this function at $-7$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How would you interpret the result or value obtained for $f(-7)$ in the context of the function $f(x)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    }
+  ],
+  "classifier": "llm"
+}

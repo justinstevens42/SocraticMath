@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_889",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "In polar coordinates, the point $\\left( -2, \\frac{3 \\pi}{8} \\right)$ is equivalent to what other point, in the standard polar coordinate representation?  Enter your answer in the form $(r,\\theta),$ where $r > 0$ and $0 \\le \\theta < 2 \\pi.$",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "f",
+    "r",
+    "r",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "In polar coordinates, how are points represented?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do we specify the position of a point in polar coordinates?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you describe how to obtain the point $(-2, \\frac{3\\pi}{8})$ in polar coordinates?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the angle of rotation required to obtain the point $(-2, \\frac{3\\pi}{8})$ from the positive $x$-axis?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "What does a negative value for $r$ signify in polar coordinates?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Why do we reflect the point when $r$ is negative?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Can you specify the equivalent point of $(-2, \\frac{3\\pi}{8})$ in the standard polar coordinate representation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What are the conditions that must be met for a point to be in standard polar form?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of other transformations in polar coordinates that involve reflecting or rotating the point?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

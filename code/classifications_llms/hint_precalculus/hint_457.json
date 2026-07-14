@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_457",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Find the $3 \\times 3$ matrix $\\mathbf{M}$ such that\n\\[\\mathbf{M} \\mathbf{v} = -4 \\mathbf{v}\\]for all three-dimensional vectors $\\mathbf{v}.$",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "f",
+    "f",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you define the concept of a matrix to someone who has never encountered it before?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for a matrix $\\mathbf{M}$ to satisfy the equation $\\mathbf{M} \\mathbf{v} = -4 \\mathbf{v}$ for all $\\mathbf{v}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the significance of the fact that the columns of $\\mathbf{M}$ are all scalar multiples of $\\begin{pmatrix} -4 \\\\ 0 \\\\ 0 \\end{pmatrix}$, $\\begin{pmatrix} 0 \\\\ -4 \\\\ 0 \\end{pmatrix}$, and $\\begin{pmatrix} 0 \\\\ 0 \\\\ -4 \\end{pmatrix}$, respectively?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Can you think of any other matrices that satisfy the same equation as $\\mathbf{M}$, and how would you go about finding them?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between matrix multiplication and the operation of composing linear transformations? In what sense can we think of a matrix as representing a linear transformation?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "How can we use matrix operations to solve the system of equations $\\mathbf{M} \\mathbf{x} = \\mathbf{b}$ for a given vector $\\mathbf{b}$? What properties of matrices and linear transformations are important for understanding this process?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

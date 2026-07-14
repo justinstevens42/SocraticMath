@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_893",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "The second hand on the clock pictured below is 6 cm long.  How far in centimeters does the tip of this second hand travel during a period of 30 minutes? Express your answer in terms of $\\pi$.\n\n[asy]\ndraw(Circle((0,0),20));\nlabel(\"12\",(0,20),S);\nlabel(\"9\",(-20,0),E);\nlabel(\"6\",(0,-20),N);\nlabel(\"3\",(20,0),W);\ndot((0,0));\ndraw((0,0)--(12,0));\ndraw((0,0)--(-8,10));\ndraw((0,0)--(-11,-14),linewidth(1));\nlabel(\"6cm\",(-5.5,-7),SE);\n[/asy]",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the length of the second hand in this clock?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many times does the second hand go around the clock in 30 minutes?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the formula for the circumference of a circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do you calculate the length of the circumference using the given radius?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the formula for calculating the distance traveled by the tip of the second hand?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can you express your answer in terms of $\\pi$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

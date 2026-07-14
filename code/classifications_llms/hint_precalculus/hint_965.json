@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_965",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "If $\\det \\mathbf{M} = -2,$ then find $ \\det (\\mathbf{M}^4).$",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How does finding the determinant of a matrix relate to its properties or characteristics?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the significance of the value of the determinant in determining properties of a matrix?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain the relationship between the determinant of a matrix and its powers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "When finding the determinant of a matrix raised to a power, what key relationship or property allows us to simplify the calculation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "In the given problem, what is the value of the determinant of matrix M? How does this value help us find the determinant of M^4?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you generalize the relationship between the determinant of a matrix and its powers? Are there any patterns or rules that we can apply to any matrix?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

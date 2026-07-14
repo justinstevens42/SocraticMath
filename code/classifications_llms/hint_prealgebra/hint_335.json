@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_335",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What is the largest prime factor of 999?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you start the process of finding the largest prime factor of 999?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Why is dividing out 9 the first step? Is there any significance to the number 9 in this context?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Why did we divide 111 by 3? What property of the sum of its digits allows us to determine divisibility by 3?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain the significance of finding that 111 can be written as 3 multiplied by 37? How does this relate to finding the largest prime factor?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "What is the prime factorization of 999 in terms of its prime factors? How did you arrive at this factorization?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the largest prime factor among the factors you obtained? Can you explain why this is the largest?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

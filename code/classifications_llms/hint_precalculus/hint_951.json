@@ -1,0 +1,92 @@
+{
+  "problem_id": "hint_951",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Points $A,$ $B,$ $C,$ and $D$ are equally spaced along a line such that $AB = BC = CD.$  A point $P$ is located so that $\\cos \\angle APC = \\frac{4}{5}$ and $\\cos \\angle BPD = \\frac{3}{5}.$  Determine $\\sin (2 \\angle BPC).$",
+  "n_questions": 11,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the given problem in your own words? What do you understand about the given points and angles?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the given information to determine the value of sin(2𝛾)? What concepts or equations can we apply here?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What relationships can we find between the lengths of AP, BP, CP, and DP? How do these lengths relate to the given angles and trigonometric functions?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we express the areas of triangles ABP, BCP, and CDP in terms of their base and height?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can we derive any relationships between the areas of these triangles using the given conditions? What can we conclude from them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we relate the area of triangle APC to the lengths of AP and CP and the angle 𝛼? Can we find a similar relationship for triangle BPD?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we express the area of triangle APC in terms of the lengths of AP and CP and the sine of 𝛼? How about the area of triangle BPD in terms of the lengths of BP and DP and the sine of 𝛽?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can we set up an equation using the information obtained from steps 6 and 7? How can we simplify this equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What relation can we establish between the lengths of AP, BP, CP, and DP using the equation from step 8? Can we further simplify this relation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can we use the equation relating the lengths of AP, BP, CP, and DP to find the value of sin(𝛾)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "What can we conclude about the value of sin(2𝛾) based on the value of sin(𝛾) obtained in step 10?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

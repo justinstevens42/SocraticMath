@@ -1,0 +1,50 @@
+{
+  "problem_id": "hint_169",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "Round $54.\\overline{54}$ to the nearest hundredth.",
+  "n_questions": 5,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what is meant by \"rounding to the nearest hundredth\"?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we represent 54.5454... in a more simplified way that still retains the same value?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How do we determine whether to round up or down the hundreds digit of a repeating decimal like 54.5454... ?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the final rounded value of 54.5454... to the nearest hundredth and how did you arrive at it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you provide an example of a situation in which rounding to the nearest hundredth would be important or useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

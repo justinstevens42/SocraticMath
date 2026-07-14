@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_1016",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "Solve\n\\[\\frac{x + 6}{x^2 + 2x + 7} \\ge 0.\\]Enter your answer using interval notation.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "b",
+    "f",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step in solving the inequality $\\frac{x + 6}{x^2 + 2x + 7} \\ge 0?$",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How do you determine the sign of $\\frac{x + 6}{x^2 + 2x + 7}$ based on the denominator $x^2 + 2x + 7?$",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you find the critical points of the function $\\frac{x + 6}{x^2 + 2x + 7}$ and what do they represent in terms of the solution to the inequality?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How do you use test points to determine the intervals where the inequality $\\frac{x + 6}{x^2 + 2x + 7} \\ge 0$ is satisfied?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there any restrictions on the value of $x$ based on the denominator $x^2 + 2x + 7$ and why?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "Can you generalize the process of solving rational inequalities like this to other examples and what considerations should be taken into account?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

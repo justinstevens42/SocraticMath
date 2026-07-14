@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_12",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Each person marked the table with an X on the day(s) he/she would not be able to attend a meeting. On which day can the most people attend a meeting?\n\n\\begin{tabular}{|l|c|c|c|c|c|}\n\\multicolumn{6}{c}{}\\\\\\hline\n&Mon&Tues&Wed&Thurs&Fri\\\\\\hline\nAnna&X&&X&&\\\\\\hline\nBill&&X&&X&X\\\\\\hline\nCarl&X&X&&X&X\\\\\\hline\n\\end{tabular}",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the purpose of marking the table with X for each person?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many people are able to attend the meeting each day?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Which day has the least number of people able to attend the meeting?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "On which day can the highest number of people attend the meeting?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do you determine the day with the most attendees based on the table provided?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can the scheduling be rearranged to accommodate more attendees on certain days? If so, how?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "If one more person is added to the table on Monday with an X mark, will it affect the day with the most attendees? Why or why not?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "How would you prioritize which day to schedule the meeting based on the table provided?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

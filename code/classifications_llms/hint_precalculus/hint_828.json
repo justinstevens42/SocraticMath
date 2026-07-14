@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_828",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "If the angle between the vectors $\\mathbf{a}$ and $\\mathbf{b}$ is $43^\\circ,$ what is the angle between the vectors $-\\mathbf{a}$ and $\\mathbf{b}$?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "f",
+    "r",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given angle between the vectors $\\mathbf{a}$ and $\\mathbf{b}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "If $\\mathbf{a}$ and $-\\mathbf{a}$ point in opposite directions, what can we say about the angle between them?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the angle between $-\\mathbf{a}$ and $\\mathbf{b}$ using the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the relationship between the angle between $\\mathbf{a}$ and $\\mathbf{b}$ and the angle between $-\\mathbf{a}$ and $\\mathbf{b}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "By subtracting the angle between $\\mathbf{a}$ and $\\mathbf{b}$ from $180^\\circ,$ what angle do we find?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you provide a visual representation of the vectors $\\mathbf{a}$, $\\mathbf{b}$, and $-\\mathbf{a}$ that illustrates their directions and the angle between them?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "How does the sign or direction of a vector affect the angle calculations in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "Are there any other relevant concepts or properties of vectors that could help us solve this problem?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of a similar scenario where we can apply the same line of reasoning to find the angle between vectors?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "How can understanding the relationship between the angles of vectors help us in other areas of mathematics or physics?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

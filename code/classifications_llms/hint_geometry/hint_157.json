@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_157",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "When the height of a cylinder is doubled and its radius is increased by $200\\%$, the cylinder's volume is multiplied by a factor of $X$. What is the value of $X$?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you define what a cylinder is and its characteristic properties?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does changing the height of the cylinder affect its volume? Can you explain using mathematical equations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How does increasing the radius of the cylinder by 200% affect its volume? Can you explain using mathematical equations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the new volume of the cylinder after doubling its height and increasing its radius by 200%? Can you provide the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you simplify the equation for the new volume in terms of the original volume and the value of the factor X?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the value of X, the factor by which the new volume is multiplied relative to the original volume?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_523",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "From a circular piece of paper with radius $BC$, Jeff removes the unshaded sector shown.  Using the larger shaded sector, he joins edge $BC$ to edge $BA$ (without overlap) to form a cone of radius 12 centimeters and of volume $432\\pi$ cubic centimeters.  What is the number of degrees in the measure of angle $ABC$ of the sector that is not used? [asy]\nimport graph;\ndefaultpen(linewidth(0.7));\nfill((0,0)--dir(20)..dir(60)..dir(100)..dir(140)..dir(180)..dir(220)..dir(260)..dir(300)--cycle,gray);\ndraw((0,0)--dir(20)..dir(60)..dir(100)..dir(140)..dir(180)..dir(220)..dir(260)..dir(300)--(0,0));\ndraw(dir(300)..dir(320)..dir(340)..dir(360)..dir(20),dotted);\nlabel(\"$C$\",dir(20),E);\nlabel(\"$A$\",dir(300),SE);\nlabel(\"$B$\",(0,0),W);[/asy]",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information in the problem and what is being asked to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How is the cone formed using the larger shaded sector?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How did we find the height and slant height of the cone?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why did we use the circumference of the cone to find the length of major arc $AC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did we find the measure of the central angle of major arc $AC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the relationship between the central angle of minor arc $AC$ and angle $ABC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How did we use the measure of the central angle of major arc $AC$ to find the measure of angle $ABC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

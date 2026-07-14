@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_957",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "In the figure with circle $Q$, angle $KAT$ measures 42 degrees. What is the measure of minor arc $AK$ in degrees? [asy]\nimport olympiad; size(150); defaultpen(linewidth(0.8)); dotfactor=4;\ndraw(unitcircle);\ndraw(dir(84)--(-1,0)--(1,0));\ndot(\"$A$\",(-1,0),W); dot(\"$K$\",dir(84),NNE); dot(\"$T$\",(1,0),E); dot(\"$Q$\",(0,0),S);\n[/asy]",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does the measure of angle KAT tell us about the corresponding arc?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the measure of arc KT using the given angle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How does the measure of arc KT help us find the measure of arc AK?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between arc AK and the semicircle in this figure?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "How can we find the measure of arc AK using the information about the semicircle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you calculate the measure of arc AK using the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

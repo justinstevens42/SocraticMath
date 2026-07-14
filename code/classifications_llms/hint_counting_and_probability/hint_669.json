@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_669",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "A cube 4 units on each side is composed of 64 unit cubes. Two faces of the larger cube that share an edge are painted blue, and the cube is disassembled into 64 unit cubes. Two of the unit cubes are selected uniformly at random. What is the probability that one of two selected unit cubes will have exactly two painted faces while the other unit cube has no painted faces?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the problem in your own words? What is given and what are we trying to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many unit cubes are there in total in the larger cube?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many unit cubes have exactly two painted faces? How many have one painted face? And how many have no painted faces?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the total number of ways to choose two unit cubes from the 64 cubes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many ways are there to choose one unit cube with exactly two painted faces and one unit cube with no painted faces? Why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the number of successful outcomes? How did you determine that?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Finally, what is the probability that one of the selected unit cubes will have exactly two painted faces while the other unit cube has no painted faces?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

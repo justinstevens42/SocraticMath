@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_500",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "One caterer charges a basic fee of $\\$100$ plus $\\$15$ per person. A second caterer charges a basic fee of $\\$200$ plus $\\$12$ per person. What is the least number of people for which the second caterer is cheaper?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given problem asking you to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can you represent the cost of the first caterer as a function of the number of people attending?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can you represent the cost of the second caterer as a function of the number of people attending?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the inequality that needs to be solved to find the minimum number of people for which the second caterer is cheaper?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did you solve the inequality to find the answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there a possibility of the two caterers charging the same amount? If so, how can you find that number of people?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Can this problem be generalized to compare the costs of more than two caterers? If so, what would be the steps to solve it?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_198",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Brian writes down four integers $w > x > y > z$ whose sum is $44$. The pairwise positive differences of these numbers are $1, 3, 4, 5, 6,$ and $9$. What is the sum of the possible values for $w$?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking you to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What relationships can you draw between the given positive pairwise differences?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can you use the largest difference to set an upper limit on the largest integer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many different sequences of four integers with the given pairwise differences are possible?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What can you say about the sum of the four integers given that the pairwise differences are all positive?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can you use the information about the pairwise differences to set up equations involving the four integers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What are the possible values of the largest integer w given the given pairwise differences?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can you use the equations found earlier to check if the possible values of w are valid?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can you determine the sum of all possible values of w?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

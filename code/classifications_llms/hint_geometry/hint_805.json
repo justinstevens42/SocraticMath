@@ -1,0 +1,99 @@
+{
+  "problem_id": "hint_805",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "The point $A$ $(3,4)$ is reflected over the $x$-axis to $B$. Then $B$ is reflected over the line $y=x$ to $C$. What is the area of triangle $ABC$?",
+  "n_questions": 12,
+  "labels": [
+    "f",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the reflection of point $A$ over the $x$-axis called?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How do we find the coordinates of point $B$ if we reflect point $A$ over the $x$-axis?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the line of reflection when we reflect point $B$ over the line $y=x$ to get point $C$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How do we find the coordinates of point $C$ if we know the coordinates of point $B$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the distance between points $A$ and $B$? How do we find it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the distance from point $C$ to the line connecting $A$ and $B$? How do we find it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the formula for the area of a triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "How do we apply the formula for the area of a triangle in this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the base of triangle $ABC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the height of triangle $ABC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "How do we use the height and base to find the area of triangle $ABC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "Can you think of any other transformations that can be applied to a point in a coordinate plane? How would they affect the coordinates of the point?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_858",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Calculate $\\frac{3 \\cdot 5! + 15\\cdot 4!}{6!}$",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "f",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the first step in calculating $\\frac{3 \\cdot 5! + 15 \\cdot 4!}{6!}$ in terms of simplification or rearrangement?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What are the different ways you know of to simplify or rearrange factorials in an equation like this?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you chose to factor and rearrange the terms as shown, what motivated you to do so? Are there any characteristics or patterns in the expression that suggest this approach?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why the terms in the denominator and numerator can be factored and rearranged in such a way that allows for cancellation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What does the equation look like after you factor and rearrange the terms? How does this help verify that the final result is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other types of expressions or equations where a similar thought process and steps might be used to simplify or solve?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

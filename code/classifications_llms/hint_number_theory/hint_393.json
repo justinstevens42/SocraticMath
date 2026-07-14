@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_393",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "An arithmetic sequence with first term $1$ has a common difference of $6$. A second sequence begins with $4$ and has a common difference of $7$. In the range of $1$ to $100$, what is the largest number common to both sequences?",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what an arithmetic sequence is? How would you define it?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Given the first term and common difference of an arithmetic sequence, how would you find the nth term of the sequence?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Let's consider the first arithmetic sequence with a first term of 1 and a common difference of 6. What are the first few terms of this sequence? Can you find a pattern?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Now let's focus on the second arithmetic sequence with a first term of 4 and a common difference of 7. What are the first few terms of this sequence? Can you find a pattern here as well?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How would you determine the common terms between these two sequences? What is the condition that needs to be satisfied for a number to be a common term?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Let's use the Chinese Remainder Theorem to solve the congruence equations: 1 mod 6 and 4 mod 7. Can you explain the steps involved in finding the smallest common term?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "If we find the smallest common term, can we determine the other common terms in the two sequences? How would you go about doing that?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "In the given range from 1 to 100, how can we find the largest number that satisfies both sequences? Is there a systematic approach we can use?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you determine a general formula to find the largest common term between any two arithmetic sequences? How would you prove its correctness?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of other scenarios where the concept of arithmetic sequences and finding common terms might be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

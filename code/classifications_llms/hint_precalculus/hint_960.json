@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_960",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Let $\\mathbf{a},$ $\\mathbf{b},$ $\\mathbf{c}$ be unit vectors such that\n\\[\\mathbf{a} \\times (\\mathbf{b} \\times \\mathbf{c}) = \\frac{\\mathbf{b} + \\mathbf{c}}{\\sqrt{2}},\\]and such that $\\{\\mathbf{a}, \\mathbf{b}, \\mathbf{c}\\}$ is a linearly independent set.\n\nFind the angle between $\\mathbf{a}$ and $\\mathbf{b},$ in degrees.",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given equation using vector triple product identity?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How did we simplify the equation obtained using vector triple product identity?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean if neither side of the equation represents the zero vector?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the condition we obtain from equating both sides of the equation to the zero vector?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did we obtain the value of $\\mathbf{a} \\cdot \\mathbf{b}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we calculate the angle between $\\mathbf{a}$ and $\\mathbf{b}$ using the obtained value of $\\mathbf{a} \\cdot \\mathbf{b}$? If so, how?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "If we assume $\\mathbf{b}$ to be the standard unit vector along $x$-axis, what would be the resulting vectors for $\\mathbf{a}$ and $\\mathbf{c}$?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Would the angle between $\\mathbf{a}$ and $\\mathbf{b}$ change if we assume $\\mathbf{b}$ to be some other standard unit vector?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

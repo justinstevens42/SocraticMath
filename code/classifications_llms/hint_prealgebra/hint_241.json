@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_241",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
+  "problem": "What is the ratio of the area of the shaded square to the area of the large square? (The figure is drawn to scale.) [asy]\n/* AMC8 1998 #13P */\nsize(1inch,1inch);\npair r1c1=(0,0), r1c2=(10,0), r1c3=(20,0), r1c4=(30, 0), r1c5=(40, 0);\npair r2c1=(0,10), r2c2=(10,10), r2c3=(20,10), r2c4=(30, 10), r2c5=(40, 10);\npair r3c1=(0,20), r3c2=(10,20), r3c3=(20,20), r3c4=(30, 20), r3c5=(40, 20);\npair r4c1=(0,30), r4c2=(10,30), r4c3=(20,30), r4c4=(30, 30), r4c5=(40, 30);\npair r5c1=(0,40), r5c2=(10,40), r5c3=(20,40), r5c4=(30, 40), r5c5=(40, 40);\ndraw(r1c1--r5c1--r5c5--r1c5--r1c1--r5c5);\ndraw(r5c1--r3c3);\ndraw(r4c4--r2c4--r3c5);\nfill(r2c2--r3c3--r2c4--r1c3--cycle);\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "f",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we determine the area of the shaded square?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What do we know about the smaller squares and the larger square?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the given information to find the ratio of the areas?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can we divide the larger square in different ways to calculate the ratio?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can we verify that our answer is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other shapes or figures where we could apply similar thinking and steps?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

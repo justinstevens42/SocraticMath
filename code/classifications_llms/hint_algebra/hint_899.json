@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_899",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The range of the function $g(x) = \\frac{2}{2+4x^2}$ can be written as an interval $(a,b]$. What is $a+b$?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "f",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the function $g(x)$ represents and how it is defined?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the purpose of finding the range of a function? How does it help us understand the behavior of the function?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How do you approach determining the range of a function? Are there any specific steps or strategies that you use?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you describe the limitations or restrictions, if any, on the values that $x$ can take in this function?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "What is the significance of the fraction $\\frac{2}{2+4x^2}$ in the function $g(x)$? What does it tell us about the range?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "How would you begin finding the range of the function $g(x)$? What initial observations or insights can you make?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What do you think the interval notation $(a,b]$ implies about the range of the function? Can you explain why we use this notation instead of other possibilities like $(a,b)$ or [a,b]?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "How do you determine the lower bound of the range, denoted as $a$ in the interval $(a,b]$? What calculations or reasoning do you employ?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Similarly, how do you determine the upper bound of the range, denoted as $b$ in the interval $(a,b]$? What steps or methods can be used to find this value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Once you have obtained the values for $a$ and $b$, how would you compute their sum $a+b$ to find the final answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

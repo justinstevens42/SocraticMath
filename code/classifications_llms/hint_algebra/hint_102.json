@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_102",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Let \\[f(x) =\n\\begin{cases}\nx/2 &\\quad \\text{if } x \\text{ is even}, \\\\\n3x+1 &\\quad \\text{if } x \\text{ is odd}.\n\\end{cases}\n\\]What is $f(f(f(f(1))))$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the function $f(x)$ and its different cases?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does the expression $f(1)$ evaluate to? How did you arrive at this result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Now, let's evaluate $f(f(1))$. What is the value of this expression? How did you calculate it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Moving on, what is the value of $f(f(f(1)))$? Explain your steps in evaluating this expression.",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Finally, what is the value of $f(f(f(f(1))))$? How did you arrive at this result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other expressions involving $f(x)$ that you could evaluate using a similar thought process?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

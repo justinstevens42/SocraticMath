@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_239",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "An equilateral triangle shares a common side with a square as shown. What is the number of degrees in $m\\angle CDB$? [asy] pair A,E,C,D,B; D = dir(60); C = dir(0); E = (0,-1); B = C+E; draw(B--D--C--B--E--A--C--D--A); label(\"D\",D,N); label(\"C\",C,dir(0)); label(\"B\",B,dir(0));\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the angle relationships between triangle $BCD$ and square $ABCD$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the sum of interior angles of a triangle? And of a square?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the measure of angle $BCD$? How did you find it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How did you use the fact that triangle $BCD$ is isosceles to find the measure of angle $CBD$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Based on the angle measurements you found, what is the measure of angle $CDB$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of another way to solve this problem besides using angle relationships? What is it?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

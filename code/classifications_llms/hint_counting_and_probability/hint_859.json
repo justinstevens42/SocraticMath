@@ -1,0 +1,99 @@
+{
+  "problem_id": "hint_859",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Automobile license plates for a state consist of four letters followed by a dash and two single digits. How many different license plate combinations are possible if exactly one letter is repeated exactly once, but digits cannot be repeated? [asy]\nsize(150);\ndraw((0,0)--(0,5)--(10,5)--(10,0)--cycle);\nlabel(\"\\Huge{CHIC - 03}\",(1,3)--(9,3),S);\nlabel(\"\\small\\emph{State of Excellence}\",(1,1)--(9,1),S);\ndraw((0.5,3.5)--(0.5,4.5)--(2,4.5)--(2,3.5)--cycle);\nlabel(\"\\footnotesize 5-03\",(1.25,4));\ndraw((9.5,3.5)--(9.5,4.5)--(8,4.5)--(8,3.5)--cycle);\nlabel(\"\\footnotesize FX\",(8.75,4));\n[/asy]",
+  "n_questions": 12,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what a license plate for this state consists of?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many letters are on a license plate for this state?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many digits are on a license plate for this state?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the condition for a letter to be repeated on a license plate?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How many ways are there to choose the repeated letter from the alphabet?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many ways are there to choose the other two letters on the license plate?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "In how many ways can the repeated letters be arranged on the license plate?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "In how many ways can the remaining two letters be arranged on the license plate?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How many ways are there to choose the first digit on the license plate?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How many ways are there to choose the second digit on the license plate?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "Can you explain why we multiply all of these values together to find the total number of possible license plate combinations?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 12,
+      "question": "Can you think of any variations to this problem that could change the number of possible license plates?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

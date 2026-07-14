@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_272",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Define the operation $\\spadesuit$ as $a\\,\\spadesuit\\,b = |a- b|$ . What is the value of $2\\, \\spadesuit\\,(4\\,\\spadesuit\\,7)$?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "e",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you define the operation $\\spadesuit$ using mathematical notation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does the operation $\\spadesuit$ represent conceptually? Can you think of any real-life examples or applications?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 3,
+      "question": "Can you rewrite $2\\,\\spadesuit\\,(4\\,\\spadesuit\\,7)$ using the definition of the $\\spadesuit$ operation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the value of $4\\,\\spadesuit\\,7$? How did you arrive at this value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the value of $2\\,\\spadesuit\\,(4\\,\\spadesuit\\,7)$? Can you explain your reasoning and steps to get this value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there any other way to represent the expression $2\\,\\spadesuit\\,(4\\,\\spadesuit\\,7)$ using other mathematical operations or properties?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other values for $a$ and $b$ that could be used to further explore the properties of the $\\spadesuit$ operation?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "How does the operation $\\spadesuit$ compare to other mathematical operations you are familiar with? Are there any similarities or differences?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Are there any special properties or characteristics of the $\\spadesuit$ operation that you can identify?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "Can you come up with a real-life scenario where the $\\spadesuit$ operation could be useful or relevant?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

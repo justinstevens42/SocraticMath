@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_776",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The foot of the perpendicular from the origin to a plane is $(12,-4,3).$  Find the equation of the plane.  Enter your answer in the form\n\\[Ax + By + Cz + D = 0,\\]where $A,$ $B,$ $C,$ $D$ are integers such that $A > 0$ and $\\gcd(|A|,|B|,|C|,|D|) = 1.$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "e",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the significance of finding the foot of the perpendicular from the origin to the plane? Why is this point important in determining the equation of the plane?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How did we determine that the vector (12, -4, 3) can be taken as the normal vector of the plane?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How does substituting the coordinates of the foot of the perpendicular into the equation of the plane help us in finding the value of D?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you think of any other methods or approaches to find the equation of a plane given a point and a normal vector? How are they similar or different from the method used here?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "What is the meaning and significance of each coefficient (A, B, C, D) in the equation of the plane? How do they relate to the geometry or properties of the plane?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we verify that the equation 12x - 4y + 3z - 169 = 0 represents the correct equation of the plane?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

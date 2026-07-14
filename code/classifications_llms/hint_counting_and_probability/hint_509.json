@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_509",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "A board game spinner is divided into three regions labeled $A$, $B$ and $C$.  The probability of the arrow stopping on region $A$ is $\\frac{1}{2}$ and on region $B$ is $\\frac{1}{5}$.  What is the probability of the arrow stopping on region $C$?  Express your answer as a common fraction.",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you restate the problem in your own words to ensure you understand it?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How would you approach finding the probability of the arrow stopping on region C? What steps would you take?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Why is it important to find the total probability of stopping on regions A and B first before determining the probability for region C?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why the sum of the three probabilities must equal 1?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "If the probability of stopping on region A is $\\frac{1}{2}$, and on region B is $\\frac{1}{5}$, what would the probability need to be for the arrow to stop on region C in order for the sum to equal 1?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How did you calculate the probability of stopping on region C using the given probabilities for regions A and B?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other ways to calculate the probability of stopping on region C? If so, what are they?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of a real-life scenario where understanding and calculating probabilities, like in this problem, would be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

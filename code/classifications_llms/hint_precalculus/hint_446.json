@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_446",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Convert the point $\\left( 8, \\frac{\\pi}{4}, \\sqrt{3} \\right)$ in cylindrical coordinates to rectangular coordinates.",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "r",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are cylindrical coordinates and rectangular coordinates, and how are they different?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you describe the given point in cylindrical coordinates? How about in rectangular coordinates?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How do we convert a point from cylindrical coordinates to rectangular coordinates? What are the steps involved?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Why do we use cosine and sine in the conversion formula for cylindrical coordinates?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Are there any restrictions on the values that r, theta, and z can take in cylindrical coordinates? How do these restrictions affect the conversion process?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you give an example of a real-world situation where cylindrical coordinates might be more useful than rectangular coordinates?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

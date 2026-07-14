@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_465",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Two cubes with the faces numbered 1 through 6 are tossed and the numbers shown on the top faces are added. What is the probability that the sum is even? Express your answer as a common fraction.",
+  "n_questions": 9,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many different outcomes are possible when tossing two cubes with faces numbered 1 through 6?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What are the possible sums that can be obtained by adding the numbers shown on the top faces of the two cubes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many of these possible sums would be considered even numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why there are three possible sums that are even and three possible sums that are odd?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "If we rolled a single cube, what would be the probability of getting an even number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How does the answer to the previous question help us determine the probability of getting an even sum when rolling two cubes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Is the probability of getting an even sum the same as the probability of getting an odd sum? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other scenarios or situations where the concept of even and odd numbers can be applied to probability calculations?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "How would the probability change if we were tossing three cubes instead of two?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_687",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Let $G$ be the centroid of triangle $ABC.$  If $GA^2 + GB^2 + GC^2 = 58,$ then find $AB^2 + AC^2 + BC^2.$",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of the centroid of a triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we represent the position vector of the centroid using the position vectors of the vertices?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the expression for the squared distance between a point and the centroid in terms of position vectors?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "By substituting the given expression into the squared distance formula for each vertex, how can we obtain an equation involving the position vectors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What are the dot products among the position vectors in the obtained equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we simplify the equation involving the dot products?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "By comparing the simplified equation to the given condition, what can we conclude about the relationship between the dot products?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we interpret the expression for the squared distance between two vertices in terms of dot products?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "By adding up the squared distances between the vertices, what can we determine about the sum of the squared lengths of the triangle's sides?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

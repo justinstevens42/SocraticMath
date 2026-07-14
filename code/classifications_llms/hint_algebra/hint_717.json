@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_717",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "If $x^2- 2x = 0$ and $x \\neq 0$, what is the value of $x$?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "f",
+    "b",
+    "b",
+    "e",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you start solving this equation, considering that it is quadratic?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you identify any common factoring techniques that can be used for quadratic equations?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you were to use factoring, what would be the first step in factoring out the common factor?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is it necessary to check the validity of the assumption that x is not equal to 0 in this equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Once you have factored out the common factor, what are the possible values for x that would make the equation true?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How would you verify your solution to ensure it is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other methods you could use to solve this equation, and what steps would be involved in those methods?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any real-life scenarios where this type of equation might be applicable?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "How does understanding the solution to this equation contribute to your overall understanding of algebraic principles?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "Can you generalize the steps or strategies involved in solving this type of equation to other similar equations?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

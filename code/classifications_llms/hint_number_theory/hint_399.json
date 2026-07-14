@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_399",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "What perfect-square integer is closest to 273?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "f",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you approach finding a perfect square integer closest to 273?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Are there any properties of perfect squares that you can use to guide your search?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can you determine if a number is a perfect square?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Are there any known perfect squares close to 273 that can help you narrow down your search?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain your reasoning for comparing the squares of 16 and 17 to 273?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What other strategies could you try if the closest perfect square was not immediately apparent?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

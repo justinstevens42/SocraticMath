@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_32",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "In the diagram, $PQ$ and $RS$ are diameters of a circle with radius 4.  If $PQ$ and $RS$ are perpendicular, what is the area of the shaded region?\n\n[asy]\nsize(120);\nimport graph;\nfill((-1,-1)--(-1,1)--(1,1)--(1,-1)--cycle,mediumgray);\nfill(Arc((0,0),sqrt(2),45,135)--cycle,mediumgray);fill(Arc((0,0),sqrt(2),225,315)--cycle,mediumgray);\ndraw(Circle((0,0),sqrt(2)));\ndraw((-1,-1)--(1,1)--(1,-1)--(-1,1)--cycle);\nlabel(\"$P$\",(-1,1),NW); label(\"$R$\",(1,1),NE); label(\"$S$\",(-1,-1),SW); label(\"$Q$\",(1,-1),SE);\n\n[/asy]",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the shape of the shaded region in the diagram?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the known measurements in the diagram that we can use to calculate the shaded area?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the area of each triangle, $\\triangle POS$ and $\\triangle ROQ$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is the area of each triangle equal to $\\frac{1}{2}(4)(4)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we find the area of each sector $POR$ and $SOQ$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Why is the area of each sector equal to $\\frac{1}{4}(\\pi(4^2))$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What do we do with the areas of the triangles and sectors to find the total shaded area?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you calculate the total shaded area using the given measurements and formulas?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

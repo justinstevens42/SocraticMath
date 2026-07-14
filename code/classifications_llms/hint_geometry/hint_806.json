@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_806",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 1",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "What is the smallest possible area, in square units, of a right triangle with two sides measuring $4$ units and $5$ units?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "f",
+    "r",
+    "r",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you identify the given information in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Based on the information given, what do we know about the right triangle in question?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the given information to find the missing measurement of the triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Once we have all three side lengths, how can we determine the area of the triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Is it possible to create a right triangle with sides of length 4 and 5? Why or why not?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "What is the significance of the right angle in a right triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How does the Pythagorean Theorem relate to right triangles and their side lengths?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "Is there a relationship between the area of a triangle and the lengths of its sides? If so, what is it?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of a real-life situation where knowledge of right triangles and their properties would be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

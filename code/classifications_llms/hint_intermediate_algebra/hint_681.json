@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_681",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "A function $f$ has domain $[0,2]$ and range $[0,1]$. (The notation $[a,b]$ denotes $\\{x:a \\le x \\le b \\}$.) Let\n\\[g(x) = 1 - f(x + 1).\\]Then the domain of $g(x)$ is $[a,b],$ and the range of $g(x)$ is $[c,d].$  Enter the ordered quadruple $(a,b,c,d).$",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "f",
+    "f",
+    "f",
+    "b",
+    "f"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of the domain of a function? How is it related to the values of $x$ for which the function is defined?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What does the given interval notation $[0, 2]$ represent? How does it help us understand the domain of $f(x)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the range of a function? What does the interval notation $[0, 1]$ tell us about the range of $f(x)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What does the expression $g(x) = 1 - f(x + 1)$ represent? Can we simplify this expression further?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "What are the possible values of $x$ that make $g(x)$ defined? How does this relate to the domain of $g(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How does the domain of $g(x)$ relate to the domain of the original function $f(x)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    }
+  ],
+  "classifier": "llm"
+}

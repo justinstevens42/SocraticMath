@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_88",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "The sequence $\\{a_n\\}$ satisfies $a_1 = 1$ and $5^{a_{n + 1} - a_n} - 1 = \\frac {1}{n + \\frac {2}{3}}$ for $n \\geq 1$. Find the least integer $k$ greater than $1$ for which $a_k$ is an integer.",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "b",
+    "f",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How is the given sequence defined? Can you provide the formula for $a_n$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the equation that describes the relationship between consecutive terms of the sequence?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we rewrite the given equation to simplify it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain the concept of telescoping products and how they relate to this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How do we use telescoping products to express $5^{a_n}$ in terms of $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Under what condition does $a_k$ become an integer?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "What is the relationship between $a_k$ being an integer and $3k + 2$ being a power of $5$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you find the least integer value of $k$ for which $3k + 2$ is a power of $5$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How does the solution to this problem demonstrate the application of critical thinking skills?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

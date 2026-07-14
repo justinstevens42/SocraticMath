@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_976",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What is the 100th digit after the decimal point of the decimal representation of 1/7?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "f",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you approach finding the decimal representation of 1/7?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for a decimal to be repeating, and how can we determine the repeating block in this case?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the fact that 96 is a multiple of 6 to determine the last digit of the repeating block?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What method can we use to find the next digital after the repeating block ends?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of other fractions whose decimal representation is repeating, and how would you find the repeating block for those fractions?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "How does this concept of repeating decimals relate to other concepts in number theory, such as rational and irrational numbers?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

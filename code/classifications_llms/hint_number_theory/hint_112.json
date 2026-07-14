@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_112",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Given that $n$ is a positive integer, and given that $\\mathop{\\text{lcm}}[24,n]=72$ and $\\mathop{\\text{lcm}}[n,27]=108$, what is $n$?",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "r",
+    "f",
+    "f",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What are the different methods you know that can be used to solve this type of problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If we consider the first given condition, how does the fact that the least common multiple of 24 and n is 72 help us narrow down the possibilities for n?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Why is it significant that the least common multiple of n and 27 is 108? What does this tell us about the possible values of n?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Based on the information we have so far, what can we conclude about the factors of n?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we determine the correct value of n by considering the factors and the conditions given?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other types of problems that might involve similar thinking and steps to solve?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

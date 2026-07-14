@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_333",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Let $A$, $M$, and $C$ be nonnegative integers such that $A+M+C=12$. What is the maximum value of \\[A\\cdot M\\cdot C+A\\cdot M+M\\cdot\nC+C\\cdot A?\\]",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the given conditions in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we rewrite the given expression in terms of $A$, $M$, and $C$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can we use any algebraic identities or techniques to simplify the expression?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the AM-GM inequality and how can we apply it in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How do we use the inequality to find an upper bound for the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "When does equality occur in the inequality?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What values of $A$, $M$, and $C$ maximize the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can we generalize this problem to a similar expression with different values for the coefficients? How would the solution approach change, if at all?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

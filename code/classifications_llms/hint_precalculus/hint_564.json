@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_564",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The dilation, centered at $-1 + 4i,$ with scale factor $-2,$ takes $2i$ to which complex number?",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "f",
+    "r",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a dilation in the context of complex numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How is the center and scale factor of the dilation determined?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the image of a complex number under a dilation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do we find the image of $2i$ under the given dilation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why is the complex number $-1+4i$ important in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "What is the formula for the image of a complex number $w$ under a dilation centered at $c$ with scale factor $k$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Can you solve for the image of another complex number under the same dilation using the formula?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "How can dilations be used in other areas of mathematics or real-life applications?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

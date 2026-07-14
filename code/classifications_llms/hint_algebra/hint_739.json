@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_739",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Compute the domain of the function  $$f(x)=\\frac{1}{\\lfloor x^2-7x+13\\rfloor}.$$",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "f",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the function represents and what its purpose is?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the possible values for the expression inside the absolute value function, i.e., for the quantity x^2 - 7x + 13?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What does the absolute value function do to the expression inside it? How does it affect the range of possible values?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What happens if the expression inside the absolute value function equals zero? How does it affect the function?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Can you find the values of x for which the expression inside the absolute value function is negative? How does it affect the function?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the relationship between the domain of the function and the values that make the expression inside the absolute value function undefined?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Can you summarize the domain of the function based on the range of possible values for the expression inside the absolute value function?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other functions where determining the domain involves similar considerations and steps?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

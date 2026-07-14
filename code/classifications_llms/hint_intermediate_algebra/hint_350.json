@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_350",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "The function \\[f(x) = \\left\\{ \\begin{aligned} x-2 & \\quad \\text{ if } x < 4 \\\\ \\sqrt{x} & \\quad \\text{ if } x \\ge 4 \\end{aligned} \\right.\\]has an inverse $f^{-1}.$ Find the value of $f^{-1}(-5) + f^{-1}(-4) + \\dots + f^{-1}(4) + f^{-1}(5).$",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the given function $f(x)$ and its components $g(x)$ and $h(x)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the range of $g(x)$ for $x<4$? How about the range of $h(x)$ for $x\\geq4$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What are the inverses of $g(x)$ and $h(x)$? How did you obtain them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we compute $f^{-1}(x)$ based on the given function and its inverses?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Given the values $-5,-4,\\dots,4,5$, how can we use the inverses to find their corresponding values under $f^{-1}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the expression representing $f^{-1}(-5)+f^{-1}(-4)+\\dots+f^{-1}(4)+f^{-1}(5)$? Can you simplify it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final result of $f^{-1}(-5)+f^{-1}(-4)+\\dots+f^{-1}(4)+f^{-1}(5)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

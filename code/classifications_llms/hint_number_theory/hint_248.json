@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_248",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Donna has $n$ boxes of doughnuts. Each box contains $13$ doughnuts.\n\nAfter eating one doughnut, Donna is able to rearrange the remaining doughnuts into bags so that each bag contains $9$ doughnuts, and none are left over. What is the smallest possible value of $n$?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given scenario and what are we trying to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Let's start with the equation $13n\\equiv 1\\pmod 9$. Can you explain what it means for a number to be congruent modulo another number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Why did we express the number of doughnuts eaten as a congruence?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we simplify the congruence $13n\\equiv 1\\pmod 9$? What approach did we use?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did we find the inverse of $13$ modulo $9$? Can you explain the steps?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the significance of finding $n\\equiv 7\\pmod 9$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other possible values of $n$ that satisfy the equation? If so, why did we choose the smallest possible value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you explain why $n=7$ is the smallest possible value of $n$ that satisfies the given conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Why is it important to check our answer? How do we check if $n=7$ is indeed the correct value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any similar problems where we might encounter congruences and need to find the smallest possible value of a variable?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,99 @@
+{
+  "problem_id": "hint_545",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "The equation of the line shown can be written as $y=mx+b$.  Find $mb$.\n[asy]\nsize(100,0);\nadd(shift(-5,-5)*grid(10,10));\ndraw((-5,0)--(5,0),linewidth(2));\ndraw((0,-5)--(0,5),linewidth(2));\nlabel(\"\",(5,0),E);\nlabel(\"\",(0,5),N);\ndraw((-3,-5) -- (2,5),blue,Arrows);\n[/asy]\nEach grid square in the diagram shown is 1 unit by 1 unit.",
+  "n_questions": 12,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "r",
+    "f",
+    "b",
+    "b",
+    "f",
+    "r",
+    "b",
+    "b",
+    "f"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you define the equation of a line in the format y = mx + b?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you identify the variables m and b in the given equation of the line?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Given the graph, what information can we gather about the line's slope (m) and y-intercept (b)?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How does the slope of a line relate to its inclination on the graph?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine the slope (m) based on the graph's rise and run?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "What is the y-coordinate of the point where the graph intersects the y-axis? How does it relate to the y-intercept (b)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you find the slope (m) and y-intercept (b) of the line shown on the graph using the given equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we interpret the values of m and b in the context of the graph?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 9,
+      "question": "What does the value of b represent in terms of the graph's position on the y-axis?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 10,
+      "question": "Can you express the equation of the line shown on the graph in slope-intercept form (y = mx + b)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "What are the values of m and b in the slope-intercept form based on the given equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "How can we interpret the result mb in the context of the graph's slope and y-intercept?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    }
+  ],
+  "classifier": "llm"
+}

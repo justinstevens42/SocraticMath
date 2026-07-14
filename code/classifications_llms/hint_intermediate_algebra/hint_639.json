@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_639",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find all real values of $x$ that satisfy $\\frac{x(x+1)}{(x-4)^2} \\ge 12.$ (Give your answer in interval notation.)",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "r",
+    "f",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we start solving the inequality $\\frac{x(x+1)}{(x-4)^2} \\ge 12$? What should be our first step?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What are some different methods we can use to solve this type of inequality?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If we choose to multiply both sides of the inequality by $(x-4)^2$, what do we need to consider?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Why can we safely multiply both sides by $(x-4)^2$ in this case? What makes it appropriate to use this method?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "We have obtained a quadratic equation after multiplying both sides. How can we factorize it to find the solutions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are the factors we found, and how can we use them to verify our solutions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of other types of equations where similar reasoning and steps might be required?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

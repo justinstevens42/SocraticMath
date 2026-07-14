@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_828",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Steve has an isosceles triangle with base 8 inches and height 10 inches. He wants to cut it into eight pieces that have equal areas, as shown below. To the nearest hundredth of an inch what is the number of inches in the greatest perimeter among the eight pieces? [asy]\nsize(150);\ndefaultpen(linewidth(0.7));\ndraw((0,0)--(8,0));\nfor(int i = 0; i < 9; ++i){\ndraw((4,10)--(i,0));\n}\ndraw((0,-0.5)--(8,-0.5),Bars(5));\nlabel(\"$8''$\",(0,-0.5)--(8,-0.5),S);\n[/asy]",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of an isosceles triangle? How do we know that Steve's triangle is isosceles?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the formula for the area of a triangle? How can we use this formula to find the area of Steve's triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If Steve wants to cut his triangle into 8 pieces with equal areas, how should he go about doing this? Can we use the formula for the area of a triangle to help us?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we divide the base of the triangle into 8 equal segments? Can we use a ruler or other measuring tools to help us?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is a perimeter? How can we calculate the perimeter of a triangle? Can we use the Pythagorean theorem to help us?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we find the maximum perimeter among the 8 pieces that Steve wants to cut his triangle into? Can we use algebra or other mathematical tools to solve this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How does the value of the maximum perimeter depend on the dimensions of the original triangle? Can we generalize this result to other isosceles triangles?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Are there any other ways to cut an isosceles triangle into 8 pieces with equal areas? How do these methods compare to the one used by Steve?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

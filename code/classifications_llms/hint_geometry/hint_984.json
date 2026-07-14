@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_984",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "In triangle $ABC$, $BC = 8$.  The length of median $AD$ is 5.  Let $M$ be the largest possible value of $AB^2 + AC^2$, and let $m$ be the smallest possible value.  Find $M - m$.",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given triangle and its properties?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What do we know about the length of median AD and the side length BC? How are they related?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How does the information about the median and side lengths help us determine the lengths of BD and CD?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the significance of the projection point P and the value of x?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Based on the Pythagorean theorem, what equations can we set up to represent AB^2 and AC^2 in terms of x and h?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we combine the equations for AB^2 and AC^2 to express the sum of their values?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we use the equation involving the length of the median to simplify the expression for AB^2 + AC^2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the maximum and minimum possible value for AB^2 + AC^2 based on the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the difference between the maximum and minimum values of AB^2 + AC^2 (M - m)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

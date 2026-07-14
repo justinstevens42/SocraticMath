@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_18",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Karl was attempting to calculate economic figures. He found the following equation to be true:\\[fp-w=10000\\]If $f=5$ and $w=5+125i$, what is $p$?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you define the equation fp - w = 10000 in terms of economic figures?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for a given equation to be true in the context of economic figures?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If f = 5 and w = 5 + 125i, what does this tell us about the variables f and w?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the given values of f and w to solve for the variable p?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there any mathematical operations that need to be performed on the equation fp - w = 10000 to isolate the variable p?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you walk me through the steps of solving the equation for p using the given values of f and w?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final value of p based on the calculations made using the given values?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you explain the significance of the obtained value of p in the context of economic calculation?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other scenarios in economics where similar equations and calculations might be used?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

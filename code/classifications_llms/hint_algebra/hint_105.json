@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_105",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What value of $x$ will give the minimum value of $2x^2 - 12x + 3$?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "f",
+    "r",
+    "f",
+    "b",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the relationship between the value of $x$ and the expression $2x^2 - 12x + 3$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you identify any patterns or characteristics of the expression $2x^2 - 12x + 3$ that might help determine the minimum value?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How does changing the value of $x$ affect the value of the expression $2x^2 - 12x + 3$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Are there any restrictions on the possible values of $x$ in this problem? Why or why not?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "What does it mean for a function to have a minimum value? How is it related to the concept of a vertex?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you visualize the graph of the function $y = 2x^2 - 12x + 3$? What does the shape of the graph tell us about its minimum value and the corresponding value of $x$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "How can we find the $x$-value that corresponds to the minimum value of the function algebraically?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any other methods or techniques that can be used to find the minimum value of a quadratic function like $2x^2 - 12x + 3$? How do they compare to each other?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Can you generalize the approach to finding the minimum value for other quadratic functions? Are there any similarities or differences in the steps and reasoning involved?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "How does finding the minimum value of $2x^2 - 12x + 3$ relate to real-life scenarios or problem-solving situations?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

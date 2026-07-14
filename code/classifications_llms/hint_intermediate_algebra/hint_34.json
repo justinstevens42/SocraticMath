@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_34",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "For a finite sequence $A=(a_1,a_2,\\dots,a_n)$ of numbers, the Cesaro sum of $A$ is defined to be\n\\[\\frac{S_1+\\cdots+S_n}{n},\\]where $S_k=a_1+\\cdots+a_k$ and $1\\leq k\\leq n$.\n\nIf the Cesaro sum of the 99-term sequence $(a_1,\\dots,a_{99})$ is 1000,  what is the Cesaro sum of the 100-term sequence $(1,a_1,\\dots,a_{99})$?",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the concept of Cesaro sum and how it is calculated for a finite sequence?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the definition of Cesaro sum for a sequence with $n$ terms? How is it related to the partial sums of the sequence?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Given the Cesaro sum of a 99-term sequence is 1000, what equation can we set up using the definition of Cesaro sum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we express the Cesaro sum of the 99-term sequence in terms of its individual terms $a_1, a_2, \\dots, a_{99}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the equation from the previous question to solve for the value of $99a_1 + 98a_2 + \\dots + 2a_{98} + a_{99}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "If we want to find the Cesaro sum of the 100-term sequence $(1, a_1, a_2, \\dots, a_{99})$, how can we modify the equation from question 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the Cesaro sum of the 100-term sequence $(1, a_1, a_2, \\dots, a_{99})$ given that the Cesaro sum of the 99-term sequence is 1000?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

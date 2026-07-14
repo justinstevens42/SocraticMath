@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_757",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What is the minimum value of $5x^2-20x+1357$?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "r",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you define the concept of the minimum value of a quadratic expression?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What do you know about the shape of a quadratic graph? How does it relate to finding the minimum value?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you identify the coefficients of the quadratic expression and explain their roles in determining the minimum value?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Is there a general strategy or formula for finding the minimum value of a quadratic expression?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How would you approach finding the minimum value in this specific quadratic expression, $5x^2-20x+1357$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any special properties or characteristics of this expression that could help us determine its minimum value?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "Can we apply any algebraic transformations or techniques to simplify the expression and make it easier to find the minimum value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What steps would you take to find the vertex, or minimum point, of the quadratic graph represented by this expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we verify that the value we find is indeed the minimum value of the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Are there any real-world situations or applications where finding the minimum value of a quadratic expression is useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

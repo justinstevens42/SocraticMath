@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_271",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "The projection of $\\begin{pmatrix} 0 \\\\ 1 \\\\ 4 \\end{pmatrix}$ onto a certain vector $\\mathbf{w}$ is $\\begin{pmatrix} 1 \\\\ -1/2 \\\\ 1/2 \\end{pmatrix}.$  Find the projection of $\\begin{pmatrix} 3 \\\\ 3 \\\\ -2 \\end{pmatrix}$ onto $\\mathbf{w}.$",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of projection of a vector onto another vector?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How is the projection of a vector onto a certain vector computed?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the relationship between the projection of a vector onto a certain vector and a nonzero scalar multiple of that vector?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use this relationship to find the projection of a vector onto a certain vector given the projection of another vector onto that vector?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we determine the scalar multiple of a vector that another vector is a projection of?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can this technique be applied to vectors in higher dimensions?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

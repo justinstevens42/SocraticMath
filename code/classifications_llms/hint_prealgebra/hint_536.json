@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_536",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "A zoo has a menagerie containing four pairs of different animals, one male and one female for each. The zookeeper wishes to feed the animals in a specific pattern: each time he feeds a single animal, the next one he feeds must be a different gender. If he starts by feeding the male giraffe, how many ways can he feed all the animals?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the specific pattern that the zookeeper wants to follow when feeding the animals?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "If the zookeeper starts by feeding the male giraffe, how many females can he feed next?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Once the zookeeper selects a female to feed, how many males can he feed next?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "After feeding a male, how many females are left to be fed?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "If the zookeeper continues this pattern until all the animals are fed, how many males and females are left to be fed at each step?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many total ways can the zookeeper feed all the animals if he starts with the male giraffe?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

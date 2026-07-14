@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_789",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Let $x,$ $y,$ $z$ be positive real number such that $xyz = \\frac{2}{3}.$  Compute the minimum value of\n\\[x^2 + 6xy + 18y^2 + 12yz + 4z^2.\\]",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem using the Socratic questioning method?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Are you familiar with the AM-GM inequality and how it can be applied to find minimum values?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we apply AM-GM inequality directly to the terms in the given expression, and what power of the variables should we aim for?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is splitting every term except $y^2$ in half a good strategy for applying AM-GM inequality in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we apply AM-GM inequality to the split terms and simplify the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you determine the minimum value of the expression based on the inequality and find the values of $x$, $y$, and $z$ that achieve this minimum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you identify any other types of problems where the AM-GM inequality could be applied in a similar manner to find minimum values?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

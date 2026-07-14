@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_390",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Given that $m \\angle A= 60^\\circ$, $BC=12$ units, $\\overline{BD} \\perp \\overline{AC}$, $\\overline{CE} \\perp \\overline{AB}$ and $m \\angle DBC = 3m \\angle ECB$, the length of segment $EC$ can be expressed in the form $a(\\sqrt{b}+\\sqrt{c})$ units where $b$ and $c$ have no perfect-square factors.  What is the value of $a+b+c$?\n\n[asy]\ndraw((0,0)--(8,.7)--(2.5,5)--cycle);\ndraw((0,0)--(4.2,3.7));\ndraw((8,.7)--(1.64,3.2));\nlabel(\"$B$\",(0,0),W);\nlabel(\"$C$\",(8,.7),E);\nlabel(\"$D$\",(4.2,3.7),NE);\nlabel(\"$E$\",(1.64,3.2),NW);\nlabel(\"$A$\",(2.5,5),N);\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given information and the angles in the diagram?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between angles $\\angle DBC$ and $\\angle ECB$? How can we express this relationship mathematically?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the value of angle $\\angle ACE$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What can we infer about angles $\\angle BFE$ and $\\angle FBE$ based on the vertical angles and the fact that $\\angle BEF$ and $\\angle CDF$ are right angles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What can we conclude about $\\triangle BDC$ and $\\triangle ABD$ in terms of their angle measurements?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we find the length of side $BC$ and express it in terms of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Using the given information and the fact that $\\triangle ABC$ is a right triangle, how can we find the length of side $AB$ and $EC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the area of $\\triangle ABC$? How can we express it in terms of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Using the area of $\\triangle ABC$ and the length of $AB$, how can we find the length of $EC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Finally, what is the value of $a+b+c$ in the expression for $EC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

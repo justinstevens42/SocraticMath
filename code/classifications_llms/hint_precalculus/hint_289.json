@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_289",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Let $x$ and $y$ be real numbers such that\n\\[\\frac{\\sin x}{\\cos y} + \\frac{\\sin y}{\\cos x} = 1 \\quad \\text{and} \\quad \\frac{\\cos x}{\\sin y} + \\frac{\\cos y}{\\sin x} = 6.\\]Compute\n\\[\\frac{\\tan x}{\\tan y} + \\frac{\\tan y}{\\tan x}.\\]",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the given equations and what is the unknown we are trying to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we rewrite the given equations in terms of sine and cosine functions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "By dividing the two equations, what relationship do we find between $\\sin x$, $\\sin y$, $\\cos x$, and $\\cos y$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How does this relationship help us find $\\tan x \\tan y$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "By multiplying the given equations, how can we simplify the resulting expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What substitution can we use to represent $\\sin x \\cos x$ in terms of $\\tan x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we use this substitution to find an expression for $\\frac{\\tan x}{\\tan y} + \\frac{\\tan y}{\\tan x}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How does the relationship between $\\tan x \\tan y$ and $\\tan^2 x + \\tan^2 y$ help us find the final expression we need to evaluate?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the final result of $\\frac{\\tan x}{\\tan y} + \\frac{\\tan y}{\\tan x}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

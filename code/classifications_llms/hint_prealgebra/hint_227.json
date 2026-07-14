@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_227",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find $XY$ in the triangle below.\n\n\n[asy]\nunitsize(1inch);\npair P,Q,R;\nP = (0,0);\nQ= (1,0);\nR = (0,1);\ndraw (P--Q--R--P,linewidth(0.9));\ndraw(rightanglemark(Q,P,R,3));\nlabel(\"$X$\",P,S);\nlabel(\"$Y$\",Q,S);\nlabel(\"$Z$\",R,N);\nlabel(\"$12\\sqrt{2}$\",R/2,W);\nlabel(\"$45^\\circ$\",(0.7,0),N);\n[/asy]",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "r",
+    "r",
+    "r",
+    "r",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the relationship between angle Z and the other two angles in the triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the value of angle Z?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What can we conclude about the length of XY based on the angle Z?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Is there any other information or properties of the triangle that can help us find the length of XY?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can we apply any trigonometric concept or theorem to solve for XY?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How does the length of XY relate to the lengths of the other sides of the triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Can we use any other geometrical concepts or theorems to find the length of XY?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "Is there any special relationship between the sides or angles in a right-angled triangle that can help us?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ],
+  "classifier": "llm"
+}

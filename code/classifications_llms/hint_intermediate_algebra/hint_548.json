@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_548",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find the quadratic polynomial $p(x)$ such that $p(-7) = 0,$ $p(4) = 0,$ and $p(5) = -36.$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the conditions given in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What form will the quadratic polynomial $p(x)$ take if $p(-7) = 0$ and $p(4) = 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the condition $p(5) = -36$ to find the constant that appears in the quadratic expression for $p(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Given that the quadratic polynomial is of the form $p(x) = c(x+7)(x-4),$ can we determine the value of $c$ using any other condition given in the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the final expression for the quadratic polynomial $p(x)$? How can we verify that it satisfies all the conditions given in the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of another problem that involves finding a quadratic polynomial given certain conditions, and how would you use a similar approach to solve it?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

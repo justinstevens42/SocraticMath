@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_230",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "In the figure shown, segment $AB$ is parallel to segment $YZ$. If $AZ = 42$ units, $BQ = 12$ units, and $QY = 24$ units, what is the length of segment $QZ$? [asy]\nimport olympiad; import geometry; size(150); defaultpen(linewidth(0.8));\npair Y = (0,0), Z = (16,0), A = (0,8), B = (6,8);\ndraw(A--B--Y--Z--cycle);\nlabel(\"$A$\",A,W); label(\"$B$\",B,E); label(\"$Y$\",Y,W); label(\"$Z$\",Z,E);\npair Q = intersectionpoint(A--Z,B--Y);\nlabel(\"$Q$\",Q,E);\n[/asy]",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain why segment AB is parallel to segment YZ?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What do the given lengths AQ, QZ, and AZ represent in the figure?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the relationship between triangle ABQ and triangle ZYQ?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is the ratio of sides in triangle ABQ to triangle ZYQ 1:2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the given information to find the length of segment QZ?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain the reasoning behind setting up the equation $\\dfrac{3 \\cdot QZ}{2} = 42$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final length of segment QZ and how did you arrive at this answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

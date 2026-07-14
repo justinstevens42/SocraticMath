@@ -1,0 +1,50 @@
+{
+  "problem_id": "hint_113",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Let $m$ be the smallest positive, three-digit integer congruent to 5 (mod 11). Let $n$ be the smallest positive, four-digit integer congruent to 5 (mod 11). What is $n-m$?",
+  "n_questions": 5,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the conditions given in the problem? How can we express $m$ and $n$ in terms of congruence and the number 11?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the smallest three-digit integer congruent to 5 modulo 11? Can you explain the steps involved in finding $m$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "In a similar manner, how can we find the smallest four-digit integer congruent to 5 modulo 11? Can you describe the steps required to find $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Now that we have values for both $m$ and $n$, how can we find their difference? What is the expression for $n - m$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you calculate the value of $n - m$ based on the values of $m$ and $n$ that we have found? What is the result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

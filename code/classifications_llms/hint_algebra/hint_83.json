@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_83",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "What is the length of the segment of the number line whose endpoints satisfy $|x-\\sqrt[5]{16}|=3$?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "b",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you rephrase the given equation in a simpler way?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How would you interpret the expression $|x - \\sqrt[5]{16}| = 3$ geometrically?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What does the equation tell you about the possible values of $x$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Can you identify the two potential values for $x$ based on the given equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How would you find the distance between these two values on the number line?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there any relationship between the distance on the number line and the absolute value equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Can you generalize your findings to other similar absolute value equations?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

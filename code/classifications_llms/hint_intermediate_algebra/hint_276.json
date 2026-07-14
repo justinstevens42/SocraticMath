@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_276",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "For what values of $x$ is \\[\\frac{x-10x^2+25x^3}{8-x^3}\\]nonnegative?  Answer as an interval.",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step in computing the expression $\\frac{x-10x^2+25x^3}{8-x^3}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How did we factor $x$ out of the numerator? Can we always do this?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How did we recognize the square of a binomial in the numerator, and why did we choose to use it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can we factor $8-x^3$ further? If so, how?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did we build the sign chart for the expression? Can you explain each step in the process?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Why is the expression equal to 0 at $x=0$ and $x=\\frac{1}{5}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How would the solution to the inequality change if the denominator $x^2+2x+4$ had a zero in the real numbers? Can you give an example?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

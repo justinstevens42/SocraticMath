@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_61",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What is the volume, in cubic inches, of a rectangular box, whose faces have areas of $24$ square inches, $16$ square inches and $6$ square inches?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the dimensions of the rectangular box that we are dealing with?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How did we arrive at the equations $lw=24$, $wh=16$, and $lh=6$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Why did we choose to multiply all three equations together?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What does the equation $l^2w^2h^2=2^8\\cdot3^2$ represent?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Why did we take the square root of both sides of the equation $l^2w^2h^2=2^8\\cdot3^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the final volume of the rectangular box, and how did we arrive at that answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

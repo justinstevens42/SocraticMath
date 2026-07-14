@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_561",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Simplify $\\frac{1}{330} + \\frac{19}{30}$.",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "b",
+    "r",
+    "r",
+    "r",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step in simplifying the expression $\\frac{1}{330} + \\frac{19}{30}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How do you find the common multiple of the denominators in the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What methods can you use to simplify fractions with different denominators?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do you determine which factors in the numerator and denominator can be cancelled out?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why cancelling out common factors works in fraction simplification?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Are there any potential pitfalls to be aware of when cancelling out common factors in fractions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Can you give an example of a similar problem where cancelling out common factors can simplify the expression?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

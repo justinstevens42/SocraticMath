@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_816",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The function $f$ is not defined for $x = 0,$ but for all non-zero real numbers $x,$\n\\[f(x) + 2f \\left( \\frac{1}{x} \\right) = 3x.\\]Find the real solutions to $f(x) = f(-x).$  Enter the real solutions, separated by commas.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "f",
+    "b",
+    "f"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does the equation $f(x) + 2f \\left( \\frac{1}{x} \\right) = 3x$ tell us about the relationship between $f(x)$ and $f \\left( \\frac{1}{x} \\right)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Why is $f(x)$ not defined for $x = 0$? How does this affect our understanding of the function?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we obtain an expression for $f(x)$ using the given equation and the substitution $x \\rightarrow \\frac{1}{x}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the equation $f(x) = f(-x)$ telling us? What does it mean in terms of symmetry about the x-axis?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "By substituting $f(x) = \\frac{2 - x^2}{x}$ into the equation $f(x) = f(-x)$, what solution(s) for $x$ do you obtain?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are these values consistent with the given conditions of the problem? Can you explain why?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    }
+  ],
+  "classifier": "llm"
+}

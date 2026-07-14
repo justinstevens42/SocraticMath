@@ -1,0 +1,50 @@
+{
+  "problem_id": "hint_214",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "A right circular cone sits on a table, pointing up. The cross-section triangle, perpendicular to the base, has a vertex angle of 60 degrees. The diameter of the cone's base is $12\\sqrt{3}$ inches. A sphere is placed inside the cone so that it is tangent to the sides of the cone and sits on the table. What is the volume, in cubic inches, of the sphere? Express your answer in terms of $\\pi$.",
+  "n_questions": 5,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the cross-section triangle's vertex angle, and what does this imply about the triangle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How is the circle inscribed in the cone's cross-section circle, and where does it touch the circle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you show why $OE=DB/\\sqrt{3}$ in the diagram, and why does this mean that the radius of the sphere is 6 inches?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the formula for finding the volume of a sphere, in terms of its radius?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you compute the volume of the sphere using the given information, and express the answer in terms of $\\pi$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_471",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "Compute the sum of the squares of the roots of the equation \\[x^{2018} +44x^{2015} + 3x^3 + 404 = 0.\\]",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many roots does the equation have? Can you explain why?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the sum of the squares of the roots of the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you describe what Vieta's formulas are and how they can help us in this case?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why the sum of all the terms $r_ir_j$ is equal to $0$ according to Vieta's formulas?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Based on the equation and Vieta's formulas, what would be the expression for the sum of the squares of the roots?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How does squaring both sides of an equation affect the terms on each side?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Can you show how the expression for the sum of the squares simplifies after squaring and applying Vieta's formulas?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the final value for the sum of the squares of the roots? Can you explain your reasoning?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

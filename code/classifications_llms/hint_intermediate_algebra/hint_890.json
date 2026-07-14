@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_890",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find the number of functions $f : \\mathbb{R} \\to \\mathbb{R}$ such that\n\\[f(x + f(y)) = x + y\\]for all real numbers $x$ and $y.$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we begin to approach this problem? Can we make any initial assumptions or observations?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "If we substitute $x = -f(y)$ into the given functional equation, what does the equation simplify to? What does this tell us about $f(0)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "With the expression $f(y) = y - f(0)$, can we make any further deductions about the nature of the function $f(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "After substituting $f(0) = 0$ into the transformed functional equation, what is the resulting equation? What does this imply about the solution for $f(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can we verify that the function $f(x) = x$ satisfies the given functional equation? Does this provide us with any additional solutions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other types of functions or equations that exhibit similar characteristics or can be approached using similar reasoning?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

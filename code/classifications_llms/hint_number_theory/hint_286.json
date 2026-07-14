@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_286",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "How many positive factors does 30 have?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "f",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How is the number of factors of a given integer related to its prime factorization?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Using the prime factorization of 30, how can we determine the number of factors it has?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many factors of 30 are multiples of 2? Of 3? Of 5?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can a factor of 30 have powers of 2, 3, and 5 simultaneously? Why or why not?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "If we are given the prime factorization of an integer, can we always determine the number of factors it has? Why or why not?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we determine if an integer is prime or composite using the concept of factors?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

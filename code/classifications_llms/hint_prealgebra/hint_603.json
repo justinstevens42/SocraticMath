@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_603",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "The graph shows the total  distance Sam drove from    6 a.m to 11 a.m.  How many  miles per hour is the car's  average speed for the period  from 6 a.m. to 11 a.m.?\n\n[asy]\nunitsize(0.2inch);\ndraw((0,0)--(5.5,0));\ndraw((0,0)--(0,8.5));\ndraw((1,0)--(1,8.5));\ndraw((2,0)--(2,8.5));\ndraw((3,0)--(3,8.5));\ndraw((4,0)--(4,8.5));\ndraw((5,0)--(5,8.5));\ndraw((0,1)--(5.5,1));\ndraw((0,8)--(5.5,8));\ndraw((0,7)--(5.5,7));\ndraw((0,6)--(5.5,6));\ndraw((0,5)--(5.5,5));\ndraw((0,4)--(5.5,4));\ndraw((0,3)--(5.5,3));\ndraw((0,2)--(5.5,2));\ndraw((0,0)--(1,2)--(2,3)--(3,5)--(4,6)--(5,8));\ndot((0,0));\ndot((1,2));\ndot((2,3));\ndot((3,5));\ndot((4,6));\ndot((5,8));\nlabel(\"6\",(0,-0.5),S);\nlabel(\"7\",(1,-0.5),S);\nlabel(\"8\",(2,-0.5),S);\nlabel(\"9\",(3,-0.5),S);\nlabel(\"10\",(4,-0.5),S);\nlabel(\"11\",(5,-0.5),S);\nlabel(\"0\",(-0.5,0),W);\nlabel(\"40\",(-0.5,2),W);\nlabel(\"80\",(-0.5,4),W);\nlabel(\"120\",(-0.5,6),W);\nlabel(\"160\",(-0.5,8),W);\nlabel(\"Time of Day (a.m.)\",(2.7,-2),S);\nlabel(\"Total distance\",(-0.5,9),N);\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "r",
+    "r",
+    "r",
+    "r",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the graph shown? What information does it represent?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you identify the time interval shown on the graph? How can you determine the length of the interval?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Based on the graph, what is the total distance Sam drove from 6 a.m. to 11 a.m.? How did you calculate it?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can you determine the average speed for a given time period?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Using the information provided, what is the formula to calculate average speed? How would you apply it in this scenario?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What units are used to measure average speed? How can you make sure your answer is in the correct units?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain why the average speed is calculated by dividing distance by time?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "Are there any assumptions we are making when calculating the average speed in this situation?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Are there any limitations or factors that could affect the accuracy of our calculated average speed?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any other scenarios in which average speed would be calculated in a similar way?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

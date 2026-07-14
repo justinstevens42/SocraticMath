@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_629",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Suppose that the graph of \\[2x^2 + y^2 + 8x - 10y + c = 0\\]consists of a single point. (In this case, we call the graph a degenerate ellipse.) Find $c.$",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what the first step would be in solving this equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What methods do you know for solving equations like this? Can you explain each method?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you were to complete the square in this equation, what would be the next step? How would you do it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why does completing the square help us rewrite the equation in standard form? What are the characteristics that make it suitable for this method?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the resulting equation after completing the square? How does it help us determine the value of $c$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other types of equations where completing the square might be a useful approach? What similarities exist in the thinking and steps involved?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

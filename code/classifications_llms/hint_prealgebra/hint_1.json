@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_1",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Find the area in square feet of a square with a perimeter of 32ft.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you calculate the length of each side of the square if you know its perimeter is 32ft?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain why dividing the perimeter by 4 gives you the length of each side?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What formula can we use to find the area of a square? How does it relate to the length of each side?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Why is it important to square the length of one side to find the area of the square?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How would you calculate the area of this specific square using the formula we discussed?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other methods you can think of to find the area of a square? How do they compare to our previous approach?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_382",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "How many square units are in the area of the triangle whose vertices are the $x$ and $y$ intercepts of the curve $y = (x-3)^2 (x+2)$?",
+  "n_questions": 10,
+  "labels": [
+    "b",
+    "b",
+    "f",
+    "b",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the $x$ and $y$ intercepts of the curve $y = (x-3)^2 (x+2)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the $x$ intercepts of the curve by setting $y$ to zero?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the significance of the $x$ intercepts in terms of the graph of the curve and the triangle's vertices?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the $y$ intercept of the curve?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between the $x$ and $y$ intercepts and the area of the triangle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "How can we calculate the area of a triangle using the coordinates of its vertices?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can we express the coordinates of the triangle's vertices in terms of the intercepts of the curve?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Once we have the coordinates of the triangle's vertices, how can we calculate the length of its base and height?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we calculate the area of the triangle using the base and height?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the final result of the area of the triangle in terms of square units?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

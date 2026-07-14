@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_233",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find the leading coefficient in the polynomial $-3(x^4 - x^3 + x) + 7(x^4 + 2) - 4(2x^4 + 2x^2 + 1)$ after it is simplified.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "f",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you identify the leading term in each of the three polynomial expressions given? What is the leading term in each, and how did you determine that?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How would you begin to simplify the given expression? What steps or operations do you think are required?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What happens when you distribute the coefficients of each term within the parentheses?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "After distributing the coefficients, what are the like terms that can be combined? Can you simplify the expression further by combining any like terms?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did you determine the leading term in the simplified expression? What role does the degree of each term play in identifying the leading term?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "Can you identify the leading coefficient in the simplified expression? How does the leading coefficient relate to the original coefficients of the polynomials?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the significance of the leading coefficient in a polynomial? How does it affect the shape, behavior, and properties of the polynomial graph?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

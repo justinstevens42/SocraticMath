@@ -1,0 +1,50 @@
+{
+  "problem_id": "hint_347",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "What is the greatest possible three-digit number that is divisible by 3 and divisible by 6?",
+  "n_questions": 5,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what it means for a number to be divisible by 3?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do you determine whether a number is divisible by 6?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Are there any strategies you can use to find the greatest possible three-digit number that is divisible by both 3 and 6?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How do you know that the number you found is indeed the greatest possible number that satisfies the given conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of other examples where you might need to find the greatest possible number that satisfies certain conditions? How might you approach these types of problems?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

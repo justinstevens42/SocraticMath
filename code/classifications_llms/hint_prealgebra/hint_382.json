@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_382",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "How many multiples of 10 are between 9 and 101?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How do you determine the first and last multiples of 10 in the given range?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the pattern in the list of multiples of 10 between the first and last numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can you use this pattern to determine the number of multiples of 10 in the range?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you come up with a formula to calculate the number of multiples of any integer between two given numbers?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "Are there any other methods you can use to solve this problem? How do they compare to the method used here?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Can you generalize this problem to find the number of multiples of any integer between two given numbers?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

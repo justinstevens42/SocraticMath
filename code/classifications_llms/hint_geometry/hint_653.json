@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_653",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What is the radius of the circle inscribed in triangle $ABC$ if $AB = AC=7$ and $BC=6$? Express your answer in simplest radical form.",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "b",
+    "r",
+    "b",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the formula for the area of a triangle using the semiperimeter and the radius of its inscribed circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the semiperimeter of triangle ABC using the given side lengths?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain the formula for the semiperimeter of a triangle in your own words?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "In this case, what is the value of the semiperimeter of triangle ABC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the formula for the area of triangle ABC using the given side lengths?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we find the area of triangle ABC using the semiperimeter and the radius of its inscribed circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "What is the relationship between the area of a triangle and the radius of its inscribed circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "How can we rearrange the formula for area to solve for the radius?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Using the given side lengths, what is the area of triangle ABC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Substituting the values into the formula, what is the radius of the inscribed circle in triangle ABC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

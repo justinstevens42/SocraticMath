@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_222",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Circle $A$ has its center at $A(4, 4)$ and has a radius of 4 units. Circle $B$ has its center at $B(12, 4)$ and has a radius of 4 units. What is the area of the gray region bound by the circles and the $x$-axis? Express your answer in terms of $\\pi$. [asy]\nimport olympiad; size(150); defaultpen(linewidth(0.8));\nxaxis(0,16,Ticks(\"%\",1.0));\nyaxis(0,8,Ticks(\"%\",1.0));\nfill((4,4)--(12,4)--(12,0)--(4,0)--cycle,gray(0.7));\nfilldraw(circle((4,4),4),fillpen=white);\nfilldraw(circle((12,4),4),fillpen=white);\ndot(\"$A$\",(4,4),S); dot(\"$B$\",(12,4),S);\n[/asy]",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "r",
+    "b",
+    "r",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the position of Circle A and Circle B?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How do you determine the area of the gray region?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the formula for the area of a circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do you find the equation of a circle given its center and radius?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How do you determine the intersection points of the two circles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the formula for the area of a sector of a circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "If the radius of Circle A is increased, how will the gray region be affected?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Can you generalize the formula for the area of the gray region for two circles with centers at point A and B and with radii r1 and r2, respectively?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "How could you approach this problem if we added a third circle intersecting the first two?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

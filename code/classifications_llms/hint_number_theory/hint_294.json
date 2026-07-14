@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_294",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "What is the least positive integer $n$ such that $4125$ is a factor of $n!$?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "f",
+    "f",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the prime factorization of 4125?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Why do we need to find the prime factorization of 4125?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What are the necessary factors that n! must have based on the prime factorization of 4125?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "What is the significance of 11 in the prime factorization of 4125 in determining the lower bound of n?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "How many fives are in the prime factorization of 11!, 12!, 13!, and 14! respectively?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How does the number of fives in the prime factorization of n! change as n increases?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "Why is 15 the least positive integer that satisfies the conditions of the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of other similar problems that involve finding the least positive integer with specific prime factors in its factorial?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

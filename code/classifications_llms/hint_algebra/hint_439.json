@@ -1,0 +1,92 @@
+{
+  "problem_id": "hint_439",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Let $a\\star b = a^b+ab$. If $a$ and $b$ are positive integers greater than or equal to 2 and $a\\star b =15$, find $a+b$.",
+  "n_questions": 11,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "f",
+    "f",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the operation \"$\\star$\" does to two given numbers $a$ and $b$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we represent the given equation using the defined operation \"$\\star$\"?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you think of any other ways to represent the equation $a\\star b = 15$ without using the operation \"$\\star$\"?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What are the possible values that $a$ and $b$ can take based on the conditions given in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "If we substitute different values of $a$ and $b$ into the equation, what patterns or observations do you notice?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there a systematic way to approach this problem and find all possible solutions for $a$ and $b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can you use the given equation to express the sum $a+b$ in terms of $a$ and $b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any restrictions on the values of $a$ and $b$ that we need to consider when searching for the solution?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 9,
+      "question": "Can you explain why the operation \"$\\star$\" includes terms like $a^b$ and $ab$ in its definition?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 10,
+      "question": "Is there a connection between the properties of exponents and arithmetic that can help us find a solution to the equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 11,
+      "question": "Can you think of any other scenarios or mathematical problems where a similar line of thinking could be applied?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

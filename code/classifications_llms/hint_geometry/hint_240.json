@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_240",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "In rectangle $ADEH$, points $B$ and  $C$  trisect $\\overline{AD}$, and points $G$ and  $F$ trisect $\\overline{HE}$. In addition,  $AH=AC=2$. What is the area of  quadrilateral $WXYZ$ shown in the figure?\n\n[asy]\nunitsize(1cm);\npair A,B,C,D,I,F,G,H,U,Z,Y,X;\nA=(0,0);\nB=(1,0);\nC=(2,0);\nD=(3,0);\nI=(3,2);\nF=(2,2);\nG=(1,2);\nH=(0,2);\nU=(1.5,1.5);\nZ=(2,1);\nY=(1.5,0.5);\nX=(1,1);\ndraw(A--D--I--H--cycle,linewidth(0.7));\ndraw(H--C,linewidth(0.7));\ndraw(G--D,linewidth(0.7));\ndraw(I--B,linewidth(0.7));\ndraw(A--F,linewidth(0.7));\nlabel(\"$A$\",A,SW);\nlabel(\"$B$\",B,S);\nlabel(\"$C$\",C,S);\nlabel(\"$D$\",D,SE);\nlabel(\"$E$\",I,NE);\nlabel(\"$F$\",F,N);\nlabel(\"$G$\",G,N);\nlabel(\"$H$\",H,NW);\nlabel(\"$W$\",U,N);\nlabel(\"$X$\",X,W);\nlabel(\"$Y$\",Y,S);\nlabel(\"$Z$\",Z,E);\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given figure? What do you know about the lengths of the sides and the diagonals?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can you use the fact that points $B$ and $C$ trisect $\\overline{AD}$, and points $G$ and $F$ trisect $\\overline{HE}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you show that parallelograms $ABEF$ and $CDGH$ are actually rhombuses? What properties of the sides and angles do rhombuses have?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can you use the fact that $AH=AC=2$ to find the length of the diagonals of square $WXYZ$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can you show that $XW$ is equal to half the length of $XF$? What is the length of $XF$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the area of $WXYZ$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

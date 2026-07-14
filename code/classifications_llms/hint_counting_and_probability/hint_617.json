@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_617",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "How many ways are there to divide a group of 6 friends among the basketball team, the soccer team, and the track team?  (Each team could have anywhere from 0 to 6 of the friends on it.  Assume the friends are distinguishable.)",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "f",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the initial step in determining the number of ways to divide a group of friends among three teams?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for the friends to be distinguishable in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain why there are three options for each friend to be placed on a team?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the significance of raising three to the sixth power in determining the total number of ways the friends can be divided among the three teams?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Is it possible to divide the group of friends in such a way that one team has all six friends on it? If so, how many ways are there to do this?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "What are some other scenarios in which the principle of counting and probability could be applied in similar ways?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

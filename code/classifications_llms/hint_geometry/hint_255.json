@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_255",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "In triangle $ABC$, $\\angle ABC = 90^\\circ$ and $AD$ is an angle bisector.  If $AB = 90,$ $BC = x$, and $AC = 2x - 6,$ then find the area of $\\triangle ADC$. Round your answer to the nearest integer.",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "b",
+    "r",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What are the given conditions in the problem? How can they be used to find the area of triangle ADC?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the value of x in this problem? What equation can we use?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How did we factorize the equation and find the value of x? Why did we disregard the negative value of x?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain the Angle Bisector Theorem and how we used it to find DC?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What is the formula for finding the area of a triangle? How did we apply it to find the area of ADC?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other application of the Angle Bisector Theorem in geometry?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

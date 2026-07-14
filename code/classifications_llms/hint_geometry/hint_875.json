@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_875",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find the number of square units in the area of the shaded region. [asy]\nsize(200);\ndraw((0,0)--(30,0)--(30,30)--(0, 30)--cycle);\ndot((30,0));dot((0,0));dot((10,0));dot((30,20));dot((30,30)); dot((20,30));dot((0,30));dot((0,10));\nfilldraw((0,0)--(10,0)--(30,20)--(30,30)--(20,30)--(0,10)--(0,0)--cycle, lightgray);\ndraw((0,0)--(60,0),EndArrow);\ndraw((0,0)--(-30,0),EndArrow);\ndraw((0,0)--(0,50),EndArrow);\ndraw((0,0)--(0,-30),EndArrow);\nlabel(\"(0,0)\",(0,0), SW, fontsize(8));\nlabel(\"(10,0)\",(10,0), S, fontsize(8));\nlabel(\"(30,0)\",(30,0), S, fontsize(8));\nlabel(\"(30,20)\",(30,20), E, fontsize(8));\nlabel(\"(20,30)\",(20,30), N, fontsize(8));\nlabel(\"(0,30)\",(0,30), W, fontsize(8));\nlabel(\"(30,30)\",(30,30), NE, fontsize(8));\nlabel(\"(0,10)\",(0,10), W, fontsize(8));\n[/asy]",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "f",
+    "r",
+    "e",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in finding the area of the shaded region?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the area of a square? What are the dimensions of this square?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we calculate the area of a triangle? What are the dimensions of these triangles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why do we subtract the areas of the triangles from the area of the square? What does that represent?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "What is the formula for finding the area of a square? How can we apply that formula here?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other ways we could find the area of the shaded region?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other math concepts that are related to finding the area of this figure?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "How can we visually verify that the shaded region has an area of 500 square units?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

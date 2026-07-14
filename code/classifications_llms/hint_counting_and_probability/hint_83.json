@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_83",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "How many ways are there to put 4 indistinguishable balls into 2 indistinguishable boxes?",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of \"indistinguishable\" objects in combinatorics?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does the fact that the balls are indistinguishable affect the number of ways to put them into boxes?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain the difference between distinguishable and indistinguishable objects in this context?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How many ways are there to put one indistinguishable ball into two indistinguishable boxes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many ways are there to put two indistinguishable balls into two indistinguishable boxes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you describe the general method for counting the number of ways to put n indistinguishable balls into m indistinguishable boxes?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "How does the concept of combinations relate to this problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

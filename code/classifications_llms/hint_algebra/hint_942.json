@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_942",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find the sum of the first six terms in the geometric sequence $\\frac12,\\frac14,\\frac18,\\dots$. Express your answer as a common fraction.",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "r",
+    "r",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a geometric sequence and how is it different from an arithmetic sequence?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you calculate the common ratio in this geometric sequence?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can you find the first term and the common ratio in a geometric sequence given any two terms?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the formula for the nth term in a geometric sequence?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can you find the sum of a geometric sequence up to a certain term using the formula for the nth term?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can you find the sum of an infinite geometric sequence if it converges?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "In this particular geometric sequence, what is the first term and the common ratio?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "How can you find the value of the sixth term in this geometric sequence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "After finding the values of the first six terms, how can you calculate their sum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you express the sum of the first six terms as a common fraction? If so, what is the final result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_905",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Evaluate $\\left|\\frac12 - \\frac38i\\right|$.",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "r",
+    "b",
+    "r",
+    "r",
+    "r",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of absolute value in complex numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do we find the absolute value of a complex number in rectangular form?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the rectangular form of the complex number $\\frac12 - \\frac38i$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How do we convert a complex number in rectangular form into polar form?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the polar form of the complex number $\\frac12 - \\frac38i$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the definition of modulus in polar form?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How do we find the modulus of a complex number in polar form?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "How do we use the modulus to find the absolute value of a complex number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of another complex number and find its absolute value using the methods we just discussed?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "In what real-life situations might we need to calculate the absolute value of a complex number?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

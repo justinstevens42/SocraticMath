@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_745",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "When a positive integer is expressed in base 7, it is $AB_7$, and when it is expressed in base 5, it is $BA_5$.  What is the positive integer in decimal?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what it means for a positive integer to be expressed in a certain base?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the value of the number $AB_7$ in decimal?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the value of the number $BA_5$ in decimal?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the equation $7A + B = 5B + A$ to solve for the values of $A$ and $B$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why must $B$ be a multiple of 3 in order to solve for $A$ and $B$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you provide an example of another problem involving different bases that can be solved using similar methods?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

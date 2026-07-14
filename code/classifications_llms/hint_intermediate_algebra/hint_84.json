@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_84",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Let $f(x) = 4x^4+12x^3-9x^2+x+3$ and $d(x) = x^2+3x-2$. If $f(x) = q(x)d(x) + r(x)$ for some polynomials $q(x)$ and $r(x)$ where $\\deg r < \\deg d$, calculate $q(1)+r(-1)$.",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given polynomial function $f(x)$ and the divisor polynomial function $d(x)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for $f(x)$ to be equal to $q(x)d(x) + r(x)$ for some polynomials $q(x)$ and $r(x)$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the degree of $r(x)$? Why is it necessary for $\\deg r < \\deg d$ in this division?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do we perform the polynomial long division using the given functions $f(x)$ and $d(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain the steps involved in the polynomial long division process shown in the example?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do we determine the quotient polynomial $q(x)$ and the remainder polynomial $r(x)$ from the polynomial long division?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What are the values of $q(1)$ and $r(-1)$ in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How do we calculate $q(1)+r(-1)$ using the quotient and remainder polynomials?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the result of $q(1)+r(-1)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

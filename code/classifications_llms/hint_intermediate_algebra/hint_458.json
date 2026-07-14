@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_458",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find the smallest solution to the equation \\[\\frac{2x}{x-2} + \\frac{2x^2-24}{x} = 11.\\]",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step in solving this equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What are some different methods that you know can be used to solve equations like this?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you choose to multiply both sides of the equation by $x(x-2)$, what do you hope to achieve by doing so?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why are we specifically looking for rational roots in this equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How did you determine that $x=6$ is a solution to the equation? Can you explain the process of performing the polynomial division?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are the other solutions to the equation $2x^3 - 13x^2 - 2x + 48 = 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Given the solutions $x = \\frac{1 \\pm \\sqrt{65}}{4}$, why is $\\frac{1-\\sqrt{65}}{4}$ considered the smallest root of the original equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

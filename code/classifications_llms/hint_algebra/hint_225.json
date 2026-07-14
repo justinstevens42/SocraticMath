@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_225",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The quadratic $x^2+1300x+1300$ can be written in the form $(x+b)^2+c$, where $b$ and $c$ are constants. What is $\\frac{c}{b}$?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you express the quadratic equation $x^2+1300x+1300$ in the form $(x+b)^2+c$? If not, what would you need to do to achieve this form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What does the form $(x+b)^2$ represent in terms of algebraic expansion? How does it relate to the original quadratic equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "By comparing coefficients, can you determine the value of $b$ in the expression $(x+b)^2$ for the given quadratic equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What does the term $c$ represent in the expression $(x+b)^2+c$? How does it relate to the original quadratic equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can you determine the value of $c$ in the expression $(x+b)^2+c$ for the given quadratic equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Once you have found the values of $b$ and $c$, how can you determine the ratio $\\frac{c}{b}$? What does this ratio represent in terms of the quadratic equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

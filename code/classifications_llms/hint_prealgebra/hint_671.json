@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_671",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "A jar is filled with red, orange and yellow jelly beans.  The probability of randomly selecting a red jelly bean from this jar is $0.2$, and the probability of randomly selecting an orange jelly bean from this jar is $0.5$.  What is the probability of randomly selecting a yellow jelly bean from this jar?",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the first step in solving this probability problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Are there any other possible outcomes when randomly selecting a jelly bean from the jar? If so, what are they?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What must be true for the sum of the probabilities of each possibility?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we express the probability of selecting a yellow jelly bean in terms of the given probabilities?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why setting up an equation with the probabilities is necessary in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What can you conclude from solving the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other scenarios where setting up an equation and solving for a probability might be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_613",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "The set of vectors $\\mathbf{v}$ such that\n\\[\\mathbf{v} \\cdot \\mathbf{v} = \\mathbf{v} \\cdot \\begin{pmatrix} 10 \\\\ -40 \\\\ 8 \\end{pmatrix}\\]forms a solid in space.  Find the volume of this solid.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "f",
+    "b",
+    "f",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the equation given and what does it represent?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "If we let $\\mathbf{v} = \\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix}$, what is the equation in terms of $x$, $y$, and $z$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you identify any patterns or familiar terms in the equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we rewrite the equation in a form that resembles the equation of a sphere?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What does it mean for the set of vectors $\\mathbf{v}$ to satisfy the equation of a sphere?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "If we find the radius of this sphere, what formula can we use to calculate its volume?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can we apply the formula to find the volume of the solid defined by the set of vectors satisfying the given equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

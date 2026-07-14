@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_874",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Five points $A$, $B$, $C$, $D$, and $O$ lie on a flat field.  $A$ is directly north of $O$, $B$ is directly west of $O$, $C$ is directly south of $O$, and $D$ is directly east of $O$. The  distance between $C$ and $D$ is 140 m.  A hot-air balloon is positioned in the air at $H$ directly above $O$. The balloon is held in place by four ropes $HA$, $HB$, $HC$, and $HD$.  Rope $HC$ has length 150 m and rope $HD$ has length 130 m. How high is the balloon above the field (that is, the length of $OH$)? [asy]\nsize(200);\npair A, B, C, D, O, H, W, X, Y, Z;\nO=(0,0);\nA=(1,1);\nD=(1.5,-.3);\nB=(-1.5,.3);\nC=(-1,-1);\nH=(0,2.5);\nW=(5/3)*(A+D);\nX=(5/3)*(A+B);\nY=(-1)*(W);\nZ=(-1)*(X);\ndraw(W--X--Y--Z--W);\ndraw(A--C);\ndraw(B--D);\ndraw(O--H, linewidth(1));\ndraw(A--H, dashed);\ndraw(B--H, dashed);\ndraw(C--H, dashed);\ndraw(D--H, dashed);\ndot(A);\ndot(B);\ndot(C);\ndot(D);\ndot(O);\ndot(H);\nlabel(\"A\", A, NE);\nlabel(\"B\", B, SW);\nlabel(\"C\", C, SE);\nlabel(\"D\", D, NE);\nlabel(\"O\", O, SE);\nlabel(\"H\", H, NW);\n[/asy]",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the given points and their locations on the field?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How are the distances between the points and the balloon represented?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the height of the balloon above the field?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What can we observe about the orientation of the ropes and the distances between the balloon and each point?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can the Pythagorean Theorem be applied in this scenario?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What are the equations that represent the relationships between the distances involved?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we combine the equations to eliminate variables and solve for the height?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the final expression for the height of the balloon above the field?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we simplify the expression for the height if required?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_1030",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Quadrilateral $CDEF$ is a parallelogram. Its area is $36$ square units. Points $G$ and $H$ are the midpoints of sides $CD$ and $EF,$ respectively. What is the area of triangle $CDJ?$ [asy]\ndraw((0,0)--(30,0)--(12,8)--(22,8)--(0,0));\ndraw((10,0)--(12,8));\ndraw((20,0)--(22,8));\nlabel(\"$I$\",(0,0),W);\nlabel(\"$C$\",(10,0),S);\nlabel(\"$F$\",(20,0),S);\nlabel(\"$J$\",(30,0),E);\nlabel(\"$D$\",(12,8),N);\nlabel(\"$E$\",(22,8),N);\nlabel(\"$G$\",(11,5),W);\nlabel(\"$H$\",(21,5),E);\n[/asy]",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem? What do you think we should do first?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How do we know that points G and H are midpoints? What properties or characteristics do we use to determine this?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What can we conclude about the angles DHE and FHJ? Can you explain why they are equal?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the fact that the lines CD and EF are parallel to determine the relationship between the angles DEH and HFJ?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does the fact that triangles DEH and JFH have two equal angles and a corresponding side equal allow us to conclude that they are congruent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What do we know about the areas of triangles DEH and JFH? How can we use this information to find the area of triangle CDJ?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain why the area of triangle CDJ is equal to the area of the parallelogram CDEF? Does this result surprise you?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_818",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "The three roots of the cubic $ 30 x^3 - 50x^2 + 22x - 1$ are distinct real numbers strictly between $ 0$ and $ 1$.  If the roots are $p$, $q$, and $r$, what is the sum\n\\[ \\frac{1}{1-p} + \\frac{1}{1-q} +\\frac{1}{1-r} ?\\]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain why the given polynomial's roots are between 0 and 1?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we express the polynomial with roots $p, q,$ and $r$ using Vieta's formulas?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the relationship between the roots of the polynomial and the roots of its inverse polynomial?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why the constant term of the inverse polynomial is 1?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What can we conclude about the coefficients of the inverse polynomial based on the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we determine the sum of the fractions $\\frac{1}{1-p}, \\frac{1}{1-q},$ and $\\frac{1}{1-r}$ using Vieta's formulas?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

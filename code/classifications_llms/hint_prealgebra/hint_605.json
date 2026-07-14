@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_605",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "What is the largest five-digit integer whose digits have a product equal to the product $(7)(6)(5)(4)(3)(2)(1)$?",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step in finding the largest five-digit integer whose digits have a product equal to $(7)(6)(5)(4)(3)(2)(1)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Why do we want the digits to the left to be as large as possible?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the prime factorization of $(7)(6)(5)(4)(3)(2)(1)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the largest single-digit number that can be formed from the prime factorization?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we determine the next largest digit?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are the remaining digits after we have found the two largest digits?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How do we order the digits from largest to smallest to form the largest five-digit integer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

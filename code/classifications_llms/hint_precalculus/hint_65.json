@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_65",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "If $\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix} = 4,$ then find\n\\[\\begin{vmatrix} a & 7a + 3b \\\\ c & 7c  +3d \\end{vmatrix}.\\]",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "b",
+    "r",
+    "b",
+    "f",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the properties and characteristics of determinants that we need to consider when approaching this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the given information about the determinant of the matrix to find the value of the determinant in the question?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can we break down the given matrix into smaller parts to simplify the computation of the determinant?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How does expanding the determinant help us in finding the value of the determinant in the question?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can we apply any rules or properties of determinants to simplify the computation further?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Are there any alternative approaches or methods we can use to find the determinant in the question?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How do the values of a, b, c, and d affect the value of the determinant in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "Can we generalize the steps and techniques used in this problem to solve similar problems involving determinants?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

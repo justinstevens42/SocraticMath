@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_193",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
+  "problem": "Compute the smallest base-10 positive integer greater than 5 that is a palindrome when written in both base 2 and 4.",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a palindrome number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain what it means for a number to be written in a certain base?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine if a number is a palindrome in base 2?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine if a number is a palindrome in base 4?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the smallest possible base-10 positive integer greater than 5 that is a palindrome in base 2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the smallest possible base-10 positive integer greater than 5 that is a palindrome in base 4?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Is it possible for an integer to be a palindrome in both base 2 and 4?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "Why did we start by testing palindromic sequences in base 4?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How did we determine the answer to the given problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of other problems that require analyzing numbers in different bases?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

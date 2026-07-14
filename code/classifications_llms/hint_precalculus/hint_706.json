@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_706",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "The quantity $\\tan 7.5^\\circ$ can be expressed in the form\n\\[\\tan 7.5^\\circ = \\sqrt{a} - \\sqrt{b} + \\sqrt{c} - d,\\]where $a \\ge b \\ge c \\ge d$ are positive integers.  Find $a + b + c + d.$",
+  "n_questions": 10,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step to solve this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What formula or concept can we use to express $\\tan 7.5^\\circ$ in terms of other trigonometric functions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we apply the half-angle formula to express $\\tan 7.5^\\circ$ in terms of $\\sin 15^\\circ$ and $\\cos 15^\\circ$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What are the values of $\\sin 15^\\circ$ and $\\cos 15^\\circ$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you show the steps to simplify the expression $\\frac{1 - \\cos 15^\\circ}{\\sin 15^\\circ}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Why do we multiply the numerator and denominator by $\\sqrt{6} + \\sqrt{2}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How do we simplify the expression after multiplying?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How does $\\tan 7.5^\\circ$ relate to the values of $a$, $b$, $c$, and $d$ in the given expression?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 9,
+      "question": "What is the final result for the expression $\\tan 7.5^\\circ$ in terms of $\\sqrt{a}$, $\\sqrt{b}$, $\\sqrt{c}$, and $d$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the sum of $a$, $b$, $c$, and $d$ in this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

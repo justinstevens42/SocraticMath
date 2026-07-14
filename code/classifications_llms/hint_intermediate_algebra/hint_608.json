@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_608",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Let $a,$ $b,$ $c$ be the roots of $3x^3 - 3x^2 + 11x - 8 = 0.$  Find $ab + ac + bc.$",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is Vieta's formulas and how does it relate to this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain what it means for a polynomial to have roots?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the given polynomial equation to determine its roots?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How many roots does a degree 3 polynomial have and why?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between the sum, product, and pairwise products of the roots of a polynomial equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we use Vieta's formulas to express $ab + ac + bc$ in terms of the coefficients of the polynomial equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the sum of the roots of the given polynomial equation and how does this help us find $ab + ac + bc$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you generalize the methods used in this problem to find the sum and product of the roots of a polynomial equation with any degree and coefficients?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

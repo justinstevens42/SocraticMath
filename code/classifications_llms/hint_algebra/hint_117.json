@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_117",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "If $x$, $y$, and $z$ are positive numbers satisfying \\[\nx+\\frac{1}{y}=4,\\ \\ \\ y+\\frac{1}{z}=1,\\text{ and }z+\\frac{1}{x}=\\frac{7}{3},\n\\]find the value of $xyz$.",
+  "n_questions": 10,
+  "labels": [
+    "b",
+    "b",
+    "f",
+    "b",
+    "f",
+    "e",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can we manipulate the given equations to isolate variables and make progress towards finding the value of $xyz$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "If we focus on the first equation, what strategy can we use to eliminate the fractions and simplify the expression?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How does rewriting the equations in terms of fractions help us in solving the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "After manipulating the equations, can you identify any relationships or patterns among $x$, $y$, and $z$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other equations or systems of equations that you can think of that have similar properties or can be solved using similar steps?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "How can we combine or relate the three equations to eliminate variables and find a solution for $xyz$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we use substitution or elimination methods to solve for $x$, $y$, and $z$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can we find a solution for $x$, $y$, and $z$ that satisfies all three given equations simultaneously?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Once we find the values of $x$, $y$, and $z$, how can we calculate the value of $xyz$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

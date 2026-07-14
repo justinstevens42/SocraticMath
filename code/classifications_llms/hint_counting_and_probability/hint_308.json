@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_308",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Three tiles are marked X and two other tiles are marked O. The five tiles are randomly arranged in a row. What is the probability that the arrangement reads XOXOX?",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "r",
+    "e",
+    "b",
+    "e",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you define probability in this context?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Why are there 10 possible positions for the three X's in the arrangement?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain why each of the factors in the probability expression involves multiplying different fractions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean when we say that the tiles are selected without replacement? How does this affect the calculation of the probability?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of any other situation where selecting items without replacement would affect the probability calculation?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "How does the concept of combinations (as shown in the calculation $\\binom{5}{3}$) relate to the probability of this specific arrangement?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "If we wanted to calculate the probability of a different arrangement, how would we modify the calculation?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Is there any other way to approach this problem and calculate the probability of the XOXOX arrangement?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "How would the probability change if there were a different number of X's and O's in the original set of tiles?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any real-life scenarios where understanding probability and counting would be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_1010",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Both $a$ and $b$ are positive integers and $b > 1$. When $a^b$ is the greatest possible value less than 399, what is the sum of $a$ and $b$?",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "When finding the value of $a^b$ that is less than 399, what is the first value of $a$ that we should consider?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "For each value of $a$, what values of $b$ should we consider to find the largest possible $a^b$ less than 399?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the largest perfect square less than 399? How does it help us determine the largest value of $a$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Are there any perfect cubes or higher powers that fall within the range we are looking at? How can we identify them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why we can skip checking for fourth powers and higher in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What is the largest value of $a$ for which there is no perfect power less than 399? How does it help us answer the question?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Finally, what is the sum of the largest $a$ and its corresponding value of $b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

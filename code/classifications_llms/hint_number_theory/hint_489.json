@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_489",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find the value of $x$ such that the four-digit number $\\underline{x15x}$ is divisible by 18.",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the condition for a number to be divisible by 18?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the divisibility of a number by 3?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the divisibility of a number by 2?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What does the four-digit number $\\underline{x15x}$ tell us about the value of $x$ in order for it to be divisible by 18?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the divisibility rules for 2 and 3 to narrow down the possible values of $x$ in $\\underline{x15x}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Based on the divisibility rules, what is the possible range of values for $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any additional conditions that $x$ must satisfy in order for $\\underline{x15x}$ to be divisible by 18?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can we eliminate any values of $x$ based on the additional conditions or rules of divisibility?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the final value of $x$ that satisfies all the conditions and makes $\\underline{x15x}$ divisible by 18?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

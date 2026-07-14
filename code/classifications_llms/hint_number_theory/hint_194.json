@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_194",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Let $T$ be a positive integer whose only digits are 0s and 1s. If $X = T \\div 12$ and $X$ is an integer, what is the smallest possible value of $X$?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "f",
+    "r",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the significance of $T$ being divisible by 12 in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine if a number is divisible by 3 or 4?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Why does $T$ need to end in 00 in order to be divisible by 4?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there any other numbers that satisfy the conditions of being divisible by 12 and only consisting of 0s and 1s?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other number theory problems where divisibility plays a crucial role? How would you approach solving them?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

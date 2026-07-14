@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_834",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "For a nonnegative integer $n$, let $r_9(n)$ stand for the remainder left when $n$ is divided by $9.$ For example, $r_9(25)=7.$\n\nWhat is the $22^{\\text{nd}}$ entry in an ordered list of all nonnegative integers $n$ that satisfy $$r_9(5n)\\le 4~?$$(Note that the first entry in this list is $0$.)",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the condition $r_9(5n)\\le 4$ to rewrite the inequality using modular arithmetic?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "By multiplying both sides of the inequality by 2, what do we obtain and why is this step reversible?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we express the solution set in terms of congruences modulo 9?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you identify the pattern in the solution set and determine the 22nd nonnegative integer that satisfies the condition?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there a general rule we can derive from this example that can be applied to similar problems in number theory?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

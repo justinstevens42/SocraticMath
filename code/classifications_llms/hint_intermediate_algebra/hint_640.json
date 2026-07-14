@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_640",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Let $f(x)$ be a polynomial with real, nonnegative coefficients.  If $f(6) = 24$ and $f(24) = 1536,$ find the largest possible value of $f(12).$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we express the given polynomial $f(x)$ in terms of its coefficients?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What information do we have about the values of $f(x)$ at certain points?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can we use the given information to form equations involving the coefficients of $f(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What mathematical tool or inequality can we use to determine the largest possible value of $f(12)$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we apply Cauchy-Schwarz inequality to the given equations involving the coefficients of $f(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the maximum value of $f(12)$ based on the Cauchy-Schwarz inequality, and what polynomial achieves this maximum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

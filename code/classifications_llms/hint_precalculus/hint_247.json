@@ -1,0 +1,99 @@
+{
+  "problem_id": "hint_247",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Let\n\\[f(x) = (\\arccos x)^3 + (\\arcsin x)^3.\\]Find the range of $f(x).$  All functions are in radians.",
+  "n_questions": 12,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "r",
+    "r",
+    "b",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of the range of a function?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the domain of the function $\\arccos x$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the range of the function $\\arccos x$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the domain of the function $\\arcsin x$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the range of the function $\\arcsin x$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we combine the ranges of $\\arccos x$ and $\\arcsin x$ to find the range of $f(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you find any restrictions on $x$ for which $\\arccos x$ and $\\arcsin x$ are defined?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "What is the relationship between $\\arccos x$ and $\\arcsin x$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "Can we simplify the expression $f(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the minimum possible value of $(\\arccos x)^3$ and $(\\arcsin x)^3$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "What is the maximum possible value of $(\\arccos x)^3$ and $(\\arcsin x)^3$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "How can we combine the minimum and maximum values to find the range of $f(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_246",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The longest side of a right triangle is 5 meters and the shortest side is 3 meters. What is the area of the triangle in square meters?",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How do we determine the length of the missing side of a right triangle when we know the lengths of the other two sides?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you describe what a Pythagorean triple is and how it relates to right triangles?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What formula can we use to find the length of the missing side in a right triangle if we know the lengths of the other two sides?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the area of a right triangle? What do we need to know in order to calculate the area?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How did we determine that the lengths of the two legs of the triangle are 3 meters and 4 meters?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there another method we could have used to find the length of the missing side in this triangle? How would we go about using that method?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "In general, what are some strategies we can use to find missing sides or angles in right triangles?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any real-life situations where knowledge of right triangles and their properties would be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

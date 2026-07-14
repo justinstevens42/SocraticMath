@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_476",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The solutions to $z^4 = -16i$ can be expressed in the form\n\\begin{align*}\nz_1 &= r_1 (\\cos \\theta_1 + i \\sin \\theta_1), \\\\\nz_2 &= r_2 (\\cos \\theta_2 + i \\sin \\theta_2), \\\\\nz_3 &= r_3 (\\cos \\theta_3 + i \\sin \\theta_3), \\\\\nz_4 &= r_4 (\\cos \\theta_4 + i \\sin \\theta_4),\n\\end{align*}where $r_k > 0$ and $0^\\circ \\le \\theta_k < 360^\\circ.$  Find $\\theta_1 + \\theta_2 + \\theta_3 + \\theta_4,$ in degrees.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step we should take to find the solutions to $z^4 = -16i$ in the given form?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for a complex number to be expressed in the form $r(\\cos \\theta + i \\sin \\theta)$? How does this relate to the values of $r_k$ and $\\theta_k$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for two complex numbers to be equal? How does this concept help us find the values of $r_k$ and $\\theta_k$ in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you find the general form of the four roots of the equation $z^4 = -16i$? How do these solutions relate to the values of $r_k$ and $\\theta_k$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How would you calculate the sum $\\theta_1 + \\theta_2 + \\theta_3 + \\theta_4$? What values would you substitute into this equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any generalizations or patterns that you notice when finding the sum of the angles $\\theta_1 + \\theta_2 + \\theta_3 + \\theta_4$ for different equations?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

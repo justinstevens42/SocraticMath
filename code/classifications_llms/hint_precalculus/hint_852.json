@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_852",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Three of the vertices of parallelogram $ABCD$ are $A = (3,-1,2),$ $B = (1,2,-4),$ and $C = (-1,1,2).$  Find the coordinates of $D.$",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does it mean for a quadrilateral to be a parallelogram?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What are the properties of midpoints of diagonals of a quadrilateral, and how can they help us find the coordinates of the fourth vertex of a parallelogram?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Using the given coordinates of three vertices of parallelogram $ABCD$, how can we find the midpoint of $\\overline{AC}$ and $\\overline{BD}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is the midpoint of $\\overline{AC}$ also the midpoint of $\\overline{BD}$ in a parallelogram?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "With the midpoint of $\\overline{BD}$ being $(1,0,2)$ and the coordinates of vertex $B$ being $(1,2,-4)$, what is the coordinate of vertex $D$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How would we confirm that the coordinates we found for vertex $D$ actually satisfies the properties of a parallelogram?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other methods we could use to find the coordinates of vertex $D$ in a parallelogram, and how do they compare to the method we used?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

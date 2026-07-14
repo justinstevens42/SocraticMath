@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_547",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Find the sum of all positive integers such that their expression in base $7$ digits is the reverse of their expression in base $16$ digits. Express your answer in base $10$.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you restate the problem statement in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we represent a base 7 number that has d+1 digits in either base 7 or base 16?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Using the equation derived from the problem statement, what is the necessary condition for a sum of positive integers in base 7 and base 16 to be equal?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the upper bound for d based on the observation that the powers of 16 are larger than the powers of 7?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What are the possible values of d and how do we obtain them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "For each possible value of d, can we determine the values of $a_0, a_1,$ and $a_2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the sum of all positive integers that meet the necessary condition?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,36 @@
+{
+  "problem_id": "hint_153",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "A telephone pole is supported by a steel cable which extends from the top of the pole to a point on the ground 3 meters from its base. When Leah walks 2.5 meters from the base of the pole toward the point where the cable is attached to the ground, her head just touches the cable. Leah is 1.5 meters tall. How many meters tall is the pole?",
+  "n_questions": 3,
+  "labels": [
+    "f",
+    "f",
+    "f"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the scenario and the problem that needs to be solved?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is given in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is being asked for in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_854",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Let $A := \\mathbb{Q} \\setminus \\{0,1\\}$ denote the set of all rationals other than 0 and 1. A function $f : A \\rightarrow \\mathbb{R}$ has the property that for all $x \\in A$,\n\\[\nf\\left( x\\right) + f\\left( 1 - \\frac{1}{x}\\right) = \\log\\lvert x\\rvert.\n\\]Compute the value of $f(2007)$.  Enter your answer in the form \"$\\log(a)$\", where $a$ is some number.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given function and what is the property it satisfies?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you rewrite the given equation using the function and its property?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the definition of the function $g(x)$? How is it related to the original function $f(x)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Can you substitute $g(x)$ and $g(g(x))$ into the equation? What do you get?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can you solve the system of equations to find an expression for $f(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you substitute the value of $x=2007$ into the expression for $f(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

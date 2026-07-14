@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_315",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "In the diagram, $AOB$ is a sector of a circle with $\\angle AOB=60^\\circ.$ $OY$ is drawn perpendicular to $AB$ and intersects $AB$ at $X.$  What is the length of $XY\n?$ [asy]\ndraw((0,0)--(12,0),black+linewidth(1));\ndraw((0,0)--(10.3923,-6)..(12,0)..(10.3923,6)--(0,0),black+linewidth(1));\ndraw((10.3923,-6)--(10.3923,6),black+linewidth(1));\nlabel(\"$O$\",(0,0),W);\nlabel(\"$A$\",(10.3923,6),N);\nlabel(\"$B$\",(10.3923,-6),S);\nlabel(\"$X$\",(10.3923,0),NW);\nlabel(\"$Y$\",(12,0),E);\nlabel(\"12\",(0,0)--(10.3923,6),NW);\nlabel(\"12\",(0,0)--(10.3923,-6),SW);\n[/asy]",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the diagram depicting?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the length of OY?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the length of XY?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How do we know that triangle OAB is isosceles?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "What is the value of angle OAB?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What type of triangle is OAX?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we find the length of AX and OX?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the length of OX?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the length of XY?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

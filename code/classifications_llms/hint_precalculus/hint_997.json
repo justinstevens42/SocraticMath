@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_997",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The real numbers $a$ and $b$ satisfy\n\\[\\begin{pmatrix} 2 \\\\ a \\\\ -7 \\end{pmatrix} \\times \\begin{pmatrix} 5 \\\\ 4 \\\\ b \\end{pmatrix} = \\mathbf{0}.\\]Enter the ordered pair $(a,b).$",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of the cross product between two vectors?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine if the cross product of two vectors is the zero vector?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Based on the given information, what can we conclude about the vectors $\\begin{pmatrix} 2 \\\\ a \\\\ -7 \\end{pmatrix}$ and $\\begin{pmatrix} 5 \\\\ 4 \\\\ b \\end{pmatrix}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Can you express the cross product equation between these two vectors using the components of the vectors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine if two vectors are proportional?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we find the values of $a$ and $b$ that satisfy the equation $\\begin{pmatrix} 2 \\\\ a \\\\ -7 \\end{pmatrix} \\times \\begin{pmatrix} 5 \\\\ 4 \\\\ b \\end{pmatrix} = \\mathbf{0}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any restrictions or conditions for the values of $a$ and $b$ in this equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "By solving the proportion $\\frac{5}{2} = \\frac{4}{a} = \\frac{b}{-7}$, what are the values of $a$ and $b$ that satisfy the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you provide an explanation why the values $(a,b) = \\left( \\frac{8}{5}, -\\frac{35}{2} \\right)$ are valid solutions?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "Are there any other possible solutions?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_886",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "The sum of an infinite geometric series is $27$ times the series that results if the first three terms of the original series are removed. What is the value of the series' common ratio?",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "b",
+    "b",
+    "r",
+    "r",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what an infinite geometric series is, and how it differs from a finite geometric series?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How would you calculate the sum of an infinite geometric series?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the relationship between the sum of an infinite geometric series and the series that results when the first three terms are removed?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Can you write an equation that represents the given information about the sum of the series?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the equation you obtained? How would you solve it to find the common ratio?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any restrictions or conditions on the common ratio that you need to consider in order to find a valid solution?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain why the given equation allows us to find the common ratio of the series?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "Have you considered any alternative approaches or methods that could be used to find the common ratio?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "What is the value you obtained for the common ratio, and how can you verify that it satisfies the given condition?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any other scenarios or problems where a similar approach or line of thinking may be applicable?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_896",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Triangle $AHI$ is equilateral. We know $\\overline{BC}$, $\\overline{DE}$ and $\\overline{FG}$ are all parallel to $\\overline{HI}$ and $AB = BD = DF = FH$. What is the ratio of the area of trapezoid $FGIH$ to the area of triangle $AHI$? Express your answer as a common fraction.\n\n[asy]\nunitsize(0.2inch);\ndefaultpen(linewidth(0.7));\nreal f(real y)\n{\n  return (5*sqrt(3)-y)/sqrt(3);\n}\ndraw((-5,0)--(5,0)--(0,5*sqrt(3))--cycle);\ndraw((-f(5*sqrt(3)/4),5*sqrt(3)/4)--(f(5*sqrt(3)/4),5*sqrt(3)/4));\ndraw((-f(5*sqrt(3)/2),5*sqrt(3)/2)--(f(5*sqrt(3)/2),5*sqrt(3)/2));\ndraw((-f(15*sqrt(3)/4),15*sqrt(3)/4)--(f(15*sqrt(3)/4),15*sqrt(3)/4));\nlabel(\"$A$\",(0,5*sqrt(3)),N);\nlabel(\"$B$\",(-f(15*sqrt(3)/4),15*sqrt(3)/4),WNW);\nlabel(\"$C$\",(f(15*sqrt(3)/4),15*sqrt(3)/4),ENE);\nlabel(\"$D$\",(-f(5*sqrt(3)/2),5*sqrt(3)/2),WNW);\nlabel(\"$E$\",(f(5*sqrt(3)/2),5*sqrt(3)/2),ENE);\nlabel(\"$F$\",(-f(5*sqrt(3)/4),5*sqrt(3)/4),WNW);\nlabel(\"$G$\",(f(5*sqrt(3)/4),5*sqrt(3)/4),ENE);\nlabel(\"$H$\",(-5,0),W);\nlabel(\"$I$\",(5,0),E);[/asy]",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "f",
+    "b",
+    "r",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given figure and its components? What are the points and lines involved?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What do we know about triangle AHI? What type of triangle is it?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What do the parallel lines BC, DE, and FG indicate about the relationship between the corresponding segments?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What do we know about the lengths of AB, BD, DF, and FH? How do they compare to each other?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Can you determine the ratio of the areas of trapezoid FGIH and triangle AHI? If so, what is it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How did you find the ratio of the areas? What property or concept did you use?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain why triangle AFG is similar to triangle AHI? What property or rule allows us to establish this similarity?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "How did you use the similarity of triangles AFG and AHI to determine the area ratio?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

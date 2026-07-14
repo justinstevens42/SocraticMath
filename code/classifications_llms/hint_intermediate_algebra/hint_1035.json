@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_1035",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "What is the equation of the oblique asymptote of the graph of $\\frac{2x^2+7x+10}{2x+3}$?\n\nEnter your answer in the form $y = mx + b.$",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "r",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the process of polynomial long division and how is it used to solve the equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How did we determine the equation of the oblique asymptote in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain why the division resulted in a remainder of 4? How does this relate to the graph of the function?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What does the equation of the oblique asymptote tell us about the behavior of the graph as x approaches infinity or negative infinity?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Are there any other methods or techniques that can be used to find the equation of the oblique asymptote?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other rational functions where polynomial long division can be used to find the equation of the oblique asymptote, or is it specific to this function?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

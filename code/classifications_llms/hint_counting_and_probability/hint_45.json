@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_45",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 1",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "When three standard dice are tossed, the numbers $a,b,c$ are obtained. Find the probability that $abc = 1$.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the probability of throwing a 1 on a standard six-sided die?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "When three dice are tossed, what is the total number of possible outcomes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the number of outcomes where all three dice show 1?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is the probability of each die showing 1 multiplied together to find the probability of all three dice showing 1?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the probability of obtaining the desired outcome, where all three dice show 1?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other scenarios where the concept of probability and counting can be applied in a similar way?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

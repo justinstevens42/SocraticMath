@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_979",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Find the smallest positive integer $k$ such that $\nz^{10} + z^9 + z^6+z^5+z^4+z+1\n$ divides $z^k-1$.",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the steps involved in factoring the given polynomial $z^{10} + z^9 + z^6+z^5+z^4+z+1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What led you to add and subtract $z^2$ and $z^3$ in order to factor the polynomial?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How did you find the roots of the quadratic equation $z^4 - z^2 + 1 = 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What are the roots of the polynomial $z^6 + z^5 + z^4 + z^3 + z^2 + z + 1 = 0$ in terms of their trigonometric form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between the roots of $z^6 + z^5 + z^4 + z^3 + z^2 + z + 1 = 0$ and the roots of $z^7 = 1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we determine the form of the roots of the equation $z^k - 1 = 0$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "What are the requirements for $k$ to be a multiple of both 12 and 7?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Based on these requirements, what is the smallest positive integer $k$ that satisfies them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

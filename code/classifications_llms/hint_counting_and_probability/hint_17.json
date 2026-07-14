@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_17",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "A 2 by 2003 rectangle consists of unit squares as shown below.  The middle unit square of each row is shaded.  If a rectangle from the figure is chosen at random, what is the probability that the rectangle does not include a shaded square?  Express your answer as a common fraction. [asy]\nsize(7cm);\ndefaultpen(linewidth(0.7));\ndotfactor=4;\nint i,j;\n\nfill((6,0)--(7,0)--(7,2)--(6,2)--cycle,gray);\n\nfor(i=0;i<=3;++i)\n\n{\n\ndraw((i,0)--(i,2));\n\ndraw((i+5,0)--(i+5,2));\n\ndraw((i+10,0)--(i+10,2));\n\n}\nfor(j=0;j<=2;++j)\n\n{\n\ndraw((0,j)--(3.3,j));\n\ndraw((0,j)--(3.3,j));\n\ndraw((4.7,j)--(8.3,j));\n\ndraw((4.7,j)--(8.3,j));\n\ndraw((9.7,j)--(13,j));\n\ndraw((9.7,j)--(13,j));\n\n}\n\nreal x;\n\nfor(x=3.7;x<=4.3;x=x+0.3)\n\n{\n\ndot((x,0));\n\ndot((x,2));\n\ndot((x+5,0));\n\ndot((x+5,2));\n\n}[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of a rectangle in this context? How many sides does a rectangle have?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How many rectangles are contained in the bottom row of the figure? Can you explain why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many rectangles in the bottom row contain a shaded square? Can you explain why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you calculate the total number of rectangles in the figure using the information from the bottom row? How?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the probability of choosing a rectangle that includes a shaded square based on the information we have calculated?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many rectangles are contained in the top row and the bottom row combined? Can you explain why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you calculate the total number of rectangles in the figure by using the information from the top row?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How does the number of rectangles containing a shaded square in the bottom row relate to the number of rectangles containing a shaded square in the top row?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the probability of choosing a rectangle that does not include a shaded square based on the information from the top row?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can you calculate the total probability of choosing a rectangle that does not include a shaded square from both rows?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

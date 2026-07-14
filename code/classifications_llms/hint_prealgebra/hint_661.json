@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_661",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "The figure shown represents a plot of land and is drawn using a scale in which 1 cm equals 2 miles. One square mile is 640 acres. How large is the actual plot of land, in acres? [asy]\ndraw((0,0)--(15,0)--(10,10)--(0,10)--cycle);\ndraw((0,1)--(1,1)--(1,0));\ndraw((0,9)--(1,9)--(1,10));\nlabel(\"15 cm\",(7.5,0),S);\nlabel(\"10 cm\",(0,5),W);\nlabel(\"10 cm\",(5,10),N);\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "f",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the formula for finding the area of a trapezoid?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the scale 1 cm = 2 miles to convert the area from cm to miles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the conversion factor between square miles and acres?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the conversion factor to convert the area from miles to acres?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the final result of the conversion, and in what units is it expressed?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the same method to convert other areas given in different units to acres?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

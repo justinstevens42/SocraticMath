@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_700",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Determine the number of positive integers $a$ less than $12$ such that the congruence $ax\\equiv 1\\pmod{12}$ has a solution in $x$.",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what it means for the congruence $ax \\equiv 1 \\pmod{12}$ to have a solution in $x$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine whether a given positive integer $a$ is invertible modulo $12$? What does it mean for an integer to be invertible modulo $n$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Are there any restrictions on $a$ that we need to consider in order for it to be invertible modulo $12$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the set of positive integers $a$ less than $12$ that satisfy the condition $\\gcd(12, a) = 1$? Why is it important to calculate the greatest common divisor in this context?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you determine the values of $a$ that satisfy the condition $\\gcd(12, a) = 1$? How many are there?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any additional conditions or considerations we need to take into account when determining the number of possible values for $a$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

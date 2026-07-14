@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_947",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Let $\\mathbf{D}$ be a matrix representing a dilation with scale factor $k > 0,$ and let $\\mathbf{R}$ be a matrix representing a rotation about the origin by an angle of $\\theta$ counter-clockwise.  If\n\\[\\mathbf{R} \\mathbf{D} = \\begin{pmatrix} 8 & -4 \\\\ 4 & 8 \\end{pmatrix},\\]then find $\\tan \\theta.$",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what a dilation and a rotation are in linear transformations?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How would you represent a dilation with scale factor $k$ using a matrix? Can you provide an example?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How would you represent a rotation about the origin by an angle $\\theta$ using a matrix? Can you provide an example?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Given that $\\mathbf{R}\\mathbf{D} = \\begin{pmatrix} 8 & -4 \\\\ 4 & 8 \\end{pmatrix}$, what does this equation tell us about the composition of the dilation and rotation matrices?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the equation $\\mathbf{R}\\mathbf{D} = \\begin{pmatrix} k \\cos \\theta & -k \\sin \\theta \\\\ k \\sin \\theta & k \\cos \\theta \\end{pmatrix}$ to find values of $k$ and $\\theta$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are the equations that relate the elements of the matrices $\\mathbf{R}\\mathbf{D}$ and $\\begin{pmatrix} k \\cos \\theta & -k \\sin \\theta \\\\ k \\sin \\theta & k \\cos \\theta \\end{pmatrix}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we solve the system of equations $k \\cos \\theta = 8$ and $k \\sin \\theta = 4$ to find the values of $k$ and $\\theta$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the relationship between $\\tan \\theta$ and the values of $k$ and $\\theta$ that we found?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Is the angle $\\theta$ unique or can there be multiple solutions? Can you explain why?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any other scenarios where we might encounter compositions of dilation and rotation matrices with known values?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

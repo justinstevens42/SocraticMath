@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_698",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Here are two functions: $$\\begin{array}{ccc}\nf(x) & = & 3x^2-2x+ 4\\\\\ng(x) & = & x^2-kx-6\n\\end{array}$$ If $f(10) - g(10) = 10,$ what is the value of $k?$",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does the expression $f(10)$ represent? Can you explain its meaning in the context of the function $f(x)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Similarly, what does the expression $g(10)$ represent? Can you explain its meaning in the context of the function $g(x)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "If we substitute $x=10$ into the functions $f(x)$ and $g(x)$, what do we get? Can you simplify the expressions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Given that $f(10) - g(10) = 10$, what can we infer about the values of $f(10)$ and $g(10)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Using the information obtained from the previous question, what equation can we set up to find the value of $k$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we simplify the equation obtained in the previous question? What steps can we take to isolate the variable $k$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "After simplifying and solving the equation, what is the final value of $k$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

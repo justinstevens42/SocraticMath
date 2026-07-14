@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_431",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Matt's four cousins are coming to visit. There are four identical rooms that they can stay in. If any number of the cousins can stay in one room, how many different ways are there to put the cousins in the rooms?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the different possibilities for how many cousins can stay in each of the four identical rooms?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How many ways are there to put all four cousins in the same room? Why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "For the case of three cousins in one room and one in another, how many ways are there to choose which cousin will be in a different room than the others?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "When there are two cousins in each of two different rooms, how many ways are there to arrange them? Why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "For the case of two cousins in one room and one cousin each in two other rooms, how many ways are there to choose which two cousins stay in the same room?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other similar counting problems that might involve considering different combinations of objects in a set of identical containers?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

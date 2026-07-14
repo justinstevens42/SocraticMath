@@ -1,0 +1,50 @@
+{
+  "problem_id": "hint_966",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "When $0.42\\overline{153}$ is expressed as a fraction in the form $\\frac{x}{99900}$, what is the value of $x$?",
+  "n_questions": 5,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "f",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the process of converting the repeating decimal $0.42\\overline{153}$ to a fraction in the form $\\frac{x}{99900}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the significance of subtracting $x$ from $1000x$ in the process?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain why we chose $\\frac{x}{99900}$ as the form of the fraction?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How does the resulting fraction $\\frac{42111}{99900}$ relate to the original repeating decimal $0.42\\overline{153}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of other repeating decimals that can be converted to fractions using similar methods?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

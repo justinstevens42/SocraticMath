@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_315",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Compute $\\dbinom{7}{4}$.",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is $\\dbinom{n}{k}$ and how does it relate to the concept of \"choosing\"?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "In the formula $\\dbinom{n}{k}=\\dfrac{n!}{k!(n-k)!}$, what does each part of the equation represent?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Why does $\\dbinom{n}{k}$ equal the number of ways to choose a set of k objects from a total of n objects?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "If we wanted to choose 4 objects from a set of 7 objects, how many different sets of 4 objects could we choose?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How would the answer change if we wanted to choose 3 objects instead of 4?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Is there a different way to express $\\dbinom{n}{k}$ that could help us understand its properties better?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "What is the relationship between $\\dbinom{n}{k}$ and the binomial theorem? How can we use this relationship to expand binomial expressions?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

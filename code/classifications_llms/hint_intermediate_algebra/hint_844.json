@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_844",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Two positive real numbers have geometric mean $\\sqrt{3}$ and harmonic mean $\\frac{3}{2}.$  Enter the two numbers, separated by commas.",
+  "n_questions": 10,
+  "labels": [
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How did you determine that the product of the two numbers is 3? Is there another way to find this value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the significance of the geometric mean of two numbers? How does it relate to the values given in the problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How did you calculate the harmonic mean of the two numbers? What does this value represent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Based on the equation $\\frac{2ab}{a + b} = \\frac{3}{2}$, can you think of any other approach to finding the sum of the two numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why Vieta's formulas are applied here? What do the coefficients in the quadratic equation represent?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How did you factorize the quadratic equation? What factors did you obtain?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How do you determine the two numbers from the factors of the quadratic equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other problems where similar steps and reasoning can be applied?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "Why are the numbers 1 and 3 the solutions to this problem? How can we verify that these values satisfy the given conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

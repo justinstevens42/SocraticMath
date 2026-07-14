@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_181",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Point $C$ is the midpoint of $\\overline{AB}$, point $D$ is the midpoint of $\\overline{AC}$, point $E$ is the midpoint of $\\overline{AD}$, and point $F$ is the midpoint of $\\overline{AE}$. If $AF=3$, what is the number of units in the length of $\\overline{AB}$?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "f",
+    "f",
+    "f",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the relationship between point C and points A and B?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the length of segment AD?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How does point D relate to points A and C?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the significance of point E being the midpoint of segment AD?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "What does point F being the midpoint of segment AE tell us about the lengths of segments AF and AE?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the information given to find the length of segment AB?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Is there a pattern or rule that we can apply to find the length of segment AB?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "Can we generalize the relationship between the lengths of segment AF and segment AB?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

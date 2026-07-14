@@ -1,0 +1,50 @@
+{
+  "problem_id": "hint_242",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Determine the sum of all prime numbers $p$ for which there exists no integer solution in $x$ to the congruence $3(6x+1)\\equiv 4\\pmod p$.",
+  "n_questions": 5,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given congruence and what are we looking for in terms of prime numbers?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we simplify the congruence to make it easier to solve?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for an integer to be invertible modulo p? What does it tell us about the existence of a solution for x?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What are the prime factors of 18? Why are these prime moduli for which an x cannot exist?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we determine the sum of all prime numbers p for which there exists no integer solution for x?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

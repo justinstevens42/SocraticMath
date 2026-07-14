@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_680",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "In triangle $ABC$, $AB = 3$, $BC = 4$, $AC = 5$, and $BD$ is the angle bisector from vertex $B$.  If $BD = k \\sqrt{2}$, then find $k$.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given problem and provide a diagram to help illustrate the scenario?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the definition of an angle bisector, and how does it relate to the given problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How does the fact that $\\angle ABC = 90^\\circ$ help us in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why quadrilateral $BPDQ$ is a square?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How does knowing $BD = k\\sqrt{2}$ help us in finding the length of the square $BPDQ$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "What is the similarity relationship between triangles $AQD$ and $DPC$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "Can you derive and explain the equation $\\frac{3-x}{x} = \\frac{x}{4-x}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "By solving the equation, what is the length of the square $BPDQ$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the value of $BD$ in terms of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the final answer for $k$ in the given problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

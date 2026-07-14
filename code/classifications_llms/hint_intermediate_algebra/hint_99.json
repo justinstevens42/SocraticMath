@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_99",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "The ellipse $x^2+4y^2=4$ and the hyperbola $x^2-m(y+2)^2 = 1$ are tangent. Compute $m.$",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the given equations that describe the ellipse and hyperbola?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we eliminate the variable $x$ to solve the two equations simultaneously?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the resulting equation after eliminating $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why does this equation need to have exactly one solution for $y$ for the ellipse and hyperbola to be tangent?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the discriminant of the resulting equation and why does it need to be zero?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we solve the equation from the previous step to find the value of $m$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final value of $m$ that satisfies the condition of the tangent ellipse and hyperbola?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_839",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "Two different prime numbers between $4$ and $18$ are chosen. When their sum is subtracted from their product, which of the following numbers could be obtained? $$\n\\text A. \\ \\ 21 \\qquad \\text B. \\ \\ 60 \\qquad \\text C. \\ \\ 119 \\qquad \\text D. \\ \\ 180 \\qquad \\text E. \\ \\ 231\n$$",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "f",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you state the problem and the given conditions in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the range of prime numbers between 4 and 18?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the product and sum of two prime numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Is the result of subtracting the sum from the product always an odd number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between the numbers obtained and the prime numbers chosen?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "How can we determine which of the given numbers could be obtained?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the method to find the product and sum of two prime numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "Can you explain why the answer must be an odd number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "How can we determine the lower and upper limits for the answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you verify if any of the given numbers satisfy the conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

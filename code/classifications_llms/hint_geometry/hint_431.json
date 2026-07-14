@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_431",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find the number of square units in the area of the triangle.\n\n[asy]size(125);\ndraw( (-10,-2) -- (2,10), Arrows);\ndraw( (0,-2)-- (0,10) ,Arrows);\ndraw( (5,0) -- (-10,0),Arrows);\n\nlabel(\"$l$\",(2,10), NE);\nlabel(\"$x$\", (5,0) , E);\nlabel(\"$y$\", (0,-2) , S);\nfilldraw( (-8,0) -- (0,8) -- (0,0) -- cycle, lightgray);\ndot( (-2, 6)); dot( (-6, 2)); label( \"(-2, 6)\", (-2, 6), W, fontsize(10)); label( \"(-6, 2)\", (-6, 2), W, fontsize(10));\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "e",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe how to find the slope of the line passing through the two points in the given diagram?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How did you determine that the slope is 1 in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Why did you add 2 to both the x and y coordinates of (-2,6) to find the point (0,8)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why did you subtract 2 from the x and y coordinates of (-6,2) to find the point (-8,0)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did you determine that the triangle formed has legs of length 8?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the formula for the area of a right triangle? How did you apply it in this case?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other way to find the area of the triangle in the given diagram?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "How would the area change if the slope of the line passing through the two points was different?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "How would the area change if the distance between the two points was different?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "How would the area change if the triangle was rotated?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

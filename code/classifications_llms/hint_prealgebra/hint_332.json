@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_332",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Let $2^x$ be the greatest power of $2$ that is a factor of $144$, and let $3^y$ be the greatest power of $3$ that is a factor of $144$. Evaluate the following expression: $$\\left(\\frac15\\right)^{y - x}$$",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what we're trying to evaluate in this expression?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What do we know about the factors of 144? How can we use that information to find the values of x and y?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we express 144 using powers of 2 and 3? Can you rewrite 144 as a product of powers of 2 and 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why can't we use a higher power of 2 or 3 in the factorization of 144? What is the significance of the remainders when dividing 144 by higher powers of 2 and 3?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Based on the factorization, what are the values of x and y?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we rewrite the given expression using the values of x and y?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the value of $\\left(\\frac{1}{5}\\right)^{-2}$? How can we simplify this expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

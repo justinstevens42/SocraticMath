@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_1001",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "A very large number $x$ is equal to $2^23^34^45^56^67^78^89^9$. What is the smallest positive integer that, when multiplied with $x$, produces a product that is a perfect square?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given number expressed as a product of prime factors?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "In order for the product to be a perfect square, what property must the exponents of the prime factors have?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Which prime factors already have even exponents and can be ignored in our search?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Which prime factors still need to have their exponents increased in order to make the product a perfect square?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "If we increase the exponent of each remaining prime factor by one, what would the new expression be?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the smallest positive integer that, when multiplied by the given number, produces a perfect square product?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

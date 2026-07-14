@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_472",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "If $\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix} = 5,$ then find\n\\[\\begin{vmatrix} a - c & b - d \\\\ c & d \\end{vmatrix}.\\]",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "b",
+    "r",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in finding the determinant of the matrix $\\begin{vmatrix} a - c & b - d \\\\ c & d \\end{vmatrix}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the significance of the determinant $\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix}$ being equal to 5 in relation to the given matrix?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How does the determinant change when we subtract $c$ from $a$ and $d$ from $b$ in the given matrix?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why the equation $(a - c)d - (b - d)c$ is equal to the determinant of the given matrix?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the geometric interpretation of the determinant of a matrix?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "In general, what properties or transformations affect the determinant of a matrix?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other examples where a similar thought process and steps can be used to determine the determinant of a matrix?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

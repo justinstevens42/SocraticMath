@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_4",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Let $\\mathbf{a} = \\begin{pmatrix} 7 \\\\ -4 \\\\ -4 \\end{pmatrix}$ and $\\mathbf{c} = \\begin{pmatrix} -2 \\\\ -1 \\\\ 2 \\end{pmatrix}.$  Find the vector $\\mathbf{b}$ such that $\\mathbf{a},$ $\\mathbf{b},$ and $\\mathbf{c}$ are collinear, and $\\mathbf{b}$ bisects the angle between $\\mathbf{a}$ and $\\mathbf{c}.$\n\n[asy]\nunitsize(0.5 cm);\n\npair A, B, C, O;\n\nA = (-2,5);\nB = (1,3);\nO = (0,0);\nC = extension(O, reflect(O,B)*(A), A, B);\n\ndraw(O--A,Arrow(6));\ndraw(O--B,Arrow(6));\ndraw(O--C,Arrow(6));\ndraw(interp(A,C,-0.1)--interp(A,C,1.1),dashed);\n\nlabel(\"$\\mathbf{a}$\", A, NE);\nlabel(\"$\\mathbf{b}$\", B, NE);\nlabel(\"$\\mathbf{c}$\", C, NE);\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the definition of collinear vectors and how it relates to the given problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the equation of the line passing through vectors $\\mathbf{a}$ and $\\mathbf{c}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we parameterize this line using the parameter $t$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we express vector $\\mathbf{b}$ in terms of its components using the parameterized form of the line?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What does it mean for $\\mathbf{b}$ to bisect the angle between $\\mathbf{a}$ and $\\mathbf{c}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we express the angle between $\\mathbf{a}$ and $\\mathbf{b}$ using the dot product and vector magnitudes?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can we express the angle between $\\mathbf{b}$ and $\\mathbf{c}$ using the dot product and vector magnitudes?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "How can we set up an equation using the dot products to solve for the value of $t$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the final value of $t$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you find the coordinates of vector $\\mathbf{b}$ using the value of $t$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_74",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find the smallest digit $d$ so that $437{,}d03$ is divisible by 9.",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe why the sum of the digits of a number must be a multiple of 9 for it to be divisible by 9?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we use this rule to determine the digit needed in the number $437{,}d03$ to make it divisible by 9?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Based on the known digits summing to 17, what can we determine about the value of $d$ in order for the sum to be a multiple of 9?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Is there any possible value for $d$ that will not make the sum a multiple of 9? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does the fact that 18 is the smallest multiple of 9 greater than 17 help us determine the value of $d$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other examples where we need to consider the sum of the digits to check for divisibility by a certain number?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

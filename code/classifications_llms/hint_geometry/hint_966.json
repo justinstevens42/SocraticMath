@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_966",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "A spherical soap bubble lands on a horizontal wet surface and forms a hemisphere of the same volume. Given the radius of the hemisphere is $3\\sqrt[3]{2}$ cm, find the radius of the original bubble.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "f",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what the given problem is asking you to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the volume formula for a sphere? How about for a hemisphere?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can you relate the volumes of the hemisphere and the original sphere?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "In the equation $\\frac{4}{3}\\pi R^3 = \\frac{2}{3}\\pi r^3$, what does $R$ represent? What does $r$ represent?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can you solve for $R$ using the given information that $r = 3\\sqrt[3]{2}$ cm?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain the significance of the result and how it relates to the original problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

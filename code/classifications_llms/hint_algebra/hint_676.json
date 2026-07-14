@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_676",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "If a rectangular prism has a length of $l$, a width of $w$, and a height of $h$, then the length of its diagonal is equal to $\\sqrt{l^2 + w^2 + h^2}$. Suppose $l = 3$ and $h = 12$; if the length of the diagonal is $13$, what is the width?",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the formula for finding the length of the diagonal of a rectangular prism?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "In this case, what are the given values for the length and height? Can we use them to find the width?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the given values and the formula to set up an equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the equation we can create using the formula and the given values?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Now that we have the equation, how can we solve for the width?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What steps can we take to isolate the variable and solve the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Apply the steps you discussed in question 6 to find the value of the width.",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Does the width you found make sense in the context of a rectangular prism?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other scenarios where the length of the diagonal can be calculated similarly?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

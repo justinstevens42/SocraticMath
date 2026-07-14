@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_107",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Below is the graph of $y = a \\csc bx$ for some positive constants $a$ and $b.$  Find $a.$\n\n[asy]import TrigMacros;\n\nsize(500);\n\nreal g(real x)\n{\n\treturn 2*csc(x/3);\n}\n\ndraw(graph(g,-6*pi + 0.01, -3*pi - 0.01),red);\ndraw(graph(g,-3*pi + 0.01,-0.01),red);\ndraw(graph(g,0.01,3*pi - 0.01),red);\ndraw(graph(g,3*pi + 0.01,6*pi - 0.01),red);\nlimits((-6*pi,-5),(6*pi,5),Crop);\ndraw((-3*pi,-5)--(-3*pi,5),dashed);\ndraw((3*pi,-5)--(3*pi,5),dashed);\ntrig_axes(-6*pi,6*pi,-5,5,pi/2,1);\nlayer();\nrm_trig_labels(-11, 11, 2);\n\nlabel(\"$1$\", (0,1), E);\nlabel(\"$2$\", (0,2), E);\nlabel(\"$3$\", (0,3), E);\nlabel(\"$4$\", (0,4), E);\nlabel(\"$-1$\", (0,-1), E);\nlabel(\"$-2$\", (0,-2), E);\nlabel(\"$-3$\", (0,-3), E);\nlabel(\"$-4$\", (0,-4), E);\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "r",
+    "b",
+    "f"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the shape of the graph of the function $y = a \\csc bx$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does the value of $a$ affect the graph of the function? Can you explain why?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "In the given graph, where is the function positive and where is it negative?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean for the minimum value of $y = a \\csc bx,$ where $y$ is positive, to be $a$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine the value of $a$ from the given graph?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other properties or characteristics of the graph that can help us determine the value of $a$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    }
+  ],
+  "classifier": "llm"
+}

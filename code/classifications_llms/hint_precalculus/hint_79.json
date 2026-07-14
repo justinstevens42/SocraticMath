@@ -1,0 +1,50 @@
+{
+  "problem_id": "hint_79",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "Find the numerical value of\n\\[\\frac{\\sin 18^\\circ \\cos 12^\\circ + \\cos 162^\\circ \\cos 102^\\circ}{\\sin 22^\\circ \\cos 8^\\circ + \\cos 158^\\circ \\cos 98^\\circ}.\\]",
+  "n_questions": 5,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the initial step in finding the numerical value of the given expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can we simplify the given expression using trigonometric identities?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How does the angle addition formula help us simplify the expression further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the final result of the expression after simplification?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you apply the same simplification method to similar trigonometric expressions?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_532",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Bonnie makes the frame of a cube out of 12 pieces of wire that are each six inches long. Meanwhile Roark uses 1-inch-long pieces of wire to make a collection of unit cube frames that are not connected to each other. The total volume of Roark's cubes is the same as the volume of Bonnie's cube. What is the ratio of the total length of Bonnie's wire to the total length of Roark's wire? Express your answer as a common fraction. [asy]\nsize(50);\ndraw((0,0)--(4,0)--(4,4)--(0,4)--cycle);\ndraw((3,1)--(7,1)--(7,5)--(3,5)--cycle);\ndraw((0,0)--(3,1));\ndraw((4,0)--(7,1));\ndraw((4,4)--(7,5));\ndraw((0,4)--(3,5));\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information about Bonnie's and Roark's wire lengths and volumes?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the total length of Bonnie's wire? And how can we find the total volume of Bonnie's cube?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Let's focus on Roark's cubes. How can we find the total wire length of Roark's cubes? And how can we find the total volume of Roark's cubes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How do Bonnie's and Roark's wire lengths and volumes relate to each other? Is there a mathematical relationship between them?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Can we calculate the ratio of Bonnie's wire length to Roark's wire length using the information we have? How?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we simplify the ratio? If so, what is the simplified ratio?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_18",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "The greatest common divisor of two positive integers is $(x+5)$ and their least common multiple is $x(x+5)$, where $x$ is a positive integer. If one of the integers is 50, what is the smallest possible value of the other one?",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the greatest common divisor of two positive integers, and how does it relate to their factors?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does the least common multiple of two positive integers relate to their factors?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the formula for the product of the greatest common divisor and the least common multiple of two positive integers, and how is it derived?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "In this problem, what is the greatest common divisor of the two positive integers, and what can we infer about its relationship with the factor $x+5$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How do we use the fact that one of the integers is 50 to find the smallest possible value of the other integer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are the divisors of 50, and how do they help us determine the smallest possible value of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How do we show that $x=5$ is a possible value for the unknown integer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the smallest possible value of the other integer, and is this value unique? If not, what other values are possible?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_803",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "Nine stones are arranged in a straight line. They are counted from  left to right as $1,2,3, \\ldots, 9$, and then from right to left, so that the stone previously counted as 8 is counted as 10. The pattern is continued to the left until the stone previously counted as 1 is counted as 17. The pattern then reverses so that the stone originally counted as 2 is counted as 18, 3 as 19, and so on. The counting continues in this manner. Which of the original stones is counted as 99? Express your answer as a single digit which corresponds to the first digit assigned to that stone.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain how the stones are arranged and counted in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many stones are there in total before the counting pattern repeats?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine which stone is counted as a given number, based on the counting pattern?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you find a pattern or rule that relates the number a stone is counted as to the original stone number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Given that stone number 3 is counted as 99, how can we use the pattern or rule to find this out?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there a way we can generalize the pattern or rule to find which stone is counted as any given number?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other numbers that you could use the pattern or rule to determine which stone they correspond to?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_973",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Given that $x - \\frac{1}{x} = 4$, what is $x^3 - \\frac{1}{x^3}$?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we rewrite the expression $x^3 - \\frac{1}{x^3}$ in terms of $x - \\frac{1}{x}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the factorization of $x^2 + x\\left(\\frac{1}{x}\\right) + \\frac{1}{x^2}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we simplify $\\left(x^2 - 2x\\left(\\frac{1}{x}\\right) + \\frac{1}{x^2}\\right)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the difference of cubes formula to find the factorization of $x^3 - \\frac{1}{x^3}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we verify that $\\left(x - \\frac{1}{x}\\right)\\cdot\\left(\\left(x - \\frac{1}{x}\\right)^2+3\\right)$ is the correct factorization?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we use a similar approach to find the factorization of other expressions that involve a difference of cubes?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

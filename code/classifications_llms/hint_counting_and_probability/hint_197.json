@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_197",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "A pirate is searching for buried treasure on 6 islands. On each island, there is a $\\frac{1}{4}$ chance that the island has buried treasure and no traps, a $\\frac{1}{12}$ chance that the island has traps but no treasure, and a $\\frac{2}{3}$ chance that the island has neither traps nor treasure. What is the probability that while searching all 6 islands, the pirate will encounter exactly 3 islands with treasure, and none with traps?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "f",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem we are trying to solve?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the chances of finding treasure or traps on each island?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many islands does the pirate need to search to encounter exactly 3 islands with treasure and none with traps?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the total number of possible ways to choose 3 islands from 6?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the probability of choosing 3 islands that have treasure and the remaining ones have neither treasure nor traps?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do we calculate the overall probability of the pirate encountering exactly 3 islands with treasure and none with traps?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How do the given probabilities affect the final result? Is there any other information we need to consider?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "Can we use a similar approach to calculate the probability of the pirate encountering different numbers of islands with treasure or traps?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

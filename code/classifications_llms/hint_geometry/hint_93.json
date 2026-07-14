@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_93",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "A cylindrical glass is half full of lemonade. The ratio of lemon juice to water in the lemonade is 1:11. If the glass is 6 inches tall and has a diameter of 2 inches, what is the volume of lemon juice in the glass? Express your answer as a decimal to the nearest hundredth.",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "b",
+    "r",
+    "f",
+    "b",
+    "r",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in calculating the volume of the liquid in the glass?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How did you determine the height of the liquid in the glass?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What formula did you use to calculate the volume of the liquid in the glass?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How did you determine the ratio of lemon juice to water in the lemonade?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How did you calculate the volume of lemon juice in the glass?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Why did you multiply the volume of the liquid by 1/12 to find the volume of lemon juice?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain why the ratio of lemon juice to the liquid is 1:12?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "How did you arrive at the final answer of 0.79 for the volume of lemon juice in the glass?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

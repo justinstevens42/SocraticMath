@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_615",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Let $\\mathbf{a}$ and $\\mathbf{b}$ be orthogonal vectors.  If $\\operatorname{proj}_{\\mathbf{a}} \\begin{pmatrix} 3 \\\\ -3 \\end{pmatrix} = \\begin{pmatrix} -\\frac{3}{5} \\\\ -\\frac{6}{5} \\end{pmatrix},$ then find $\\operatorname{proj}_{\\mathbf{b}} \\begin{pmatrix} 3 \\\\ -3 \\end{pmatrix}.$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "f",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in finding $\\operatorname{proj}_{\\mathbf{a}} \\begin{pmatrix} 3 \\\\ -3 \\end{pmatrix}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for two vectors to be orthogonal?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we find a vector orthogonal to $\\mathbf{a}$ given $\\operatorname{proj}_{\\mathbf{a}} \\begin{pmatrix} 3 \\\\ -3 \\end{pmatrix}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How does the orthogonality of $\\mathbf{a}$ and $\\mathbf{b}$ help us find $\\operatorname{proj}_{\\mathbf{b}} \\begin{pmatrix} 3 \\\\ -3 \\end{pmatrix}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why $\\begin{pmatrix} \\frac{18}{5} \\\\ -\\frac{9}{5} \\end{pmatrix}$ is a scalar multiple of $\\mathbf{b}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "What can we conclude about the projection of $\\begin{pmatrix} 3 \\\\ -3 \\end{pmatrix}$ onto $\\mathbf{b}$ based on the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

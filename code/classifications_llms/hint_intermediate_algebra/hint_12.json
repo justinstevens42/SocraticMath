@@ -1,0 +1,50 @@
+{
+  "problem_id": "hint_12",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 1",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find the sum of all the integer solutions of  $x^4 - 25x^2 + 144 = 0$.",
+  "n_questions": 5,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Could you explain the reasoning behind making the substitution $y = x^2$? How does this help simplify the quartic equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "After making the substitution, we obtain the quadratic equation $y^2 - 25y + 144 = 0$. How did you determine that factoring the quadratic was a possible approach?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What are the solutions for $y$ that you found by factoring the quadratic equation? And how did you ensure that these solutions are correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Now we substitute $x^2$ back for $y$. How did you arrive at the possible values of $x$ being $-3, 3, -4, 4$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Finally, what is the sum of all integer solutions for $x$? How did you arrive at this answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

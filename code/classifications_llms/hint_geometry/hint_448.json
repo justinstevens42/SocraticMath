@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_448",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "A square pyramid has a base edge of 32 inches and an altitude of 1 foot. A square pyramid whose altitude is one-fourth of the original altitude is cut away at the apex of the original pyramid. The volume of the remaining frustum is what fractional part of the volume of the original pyramid?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the volume of the original pyramid?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the relationship between the altitude of the original pyramid and the altitude of the frustum?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the volume of the frustum using the given information about the ratios of the corresponding side lengths?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What fraction of the volume of the original pyramid does the removed piece represent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we calculate the volume of the remaining frustum based on the fraction we found in the previous question?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other similar geometric problems where we can use similar reasoning and steps to find the fractional part of a volume?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

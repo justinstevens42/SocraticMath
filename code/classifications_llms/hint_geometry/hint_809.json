@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_809",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The dimensions of a triangle are tripled to form a new triangle. If the area of the new triangle is 54 square feet, how many square feet were in the area of the original triangle?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the concept of similar triangles and how the side ratios determine their similarity?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does tripling the dimensions of a triangle affect its area?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Why is the ratio of the areas of similar triangles squared? Can you provide an example to illustrate this?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the given information about the area of the new triangle to find the area of the original triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "In general, if a triangle is scaled by a factor of $k$, how does it affect the area of the triangle? Can you express this relationship mathematically?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other scenarios where a similar approach can be used to find the area of a shape?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

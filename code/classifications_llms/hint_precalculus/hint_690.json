@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_690",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Let $\\mathbf{a},$ $\\mathbf{b},$ and $\\mathbf{c}$ be three mutually orthogonal unit vectors, such that\n\\[\\mathbf{a} = p (\\mathbf{a} \\times \\mathbf{b}) + q (\\mathbf{b} \\times \\mathbf{c}) + r (\\mathbf{c} \\times \\mathbf{a})\\]for some scalars $p,$ $q,$ and $r,$ and $\\mathbf{a} \\cdot (\\mathbf{b} \\times \\mathbf{c}) = 1.$  Find $p + q + r.$",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the three given mutually orthogonal unit vectors?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the expansion of vector $\\mathbf{a}$ in terms of $\\mathbf{b}$ and $\\mathbf{c}$ with scalars $p$, $q$, and $r$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How do we use the dot product to solve for $q$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the final result for $q$ and what does this represent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we use the dot product to solve for $r$? What relation do we use?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the final result for $r$ and what does this represent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How do we use the dot product to solve for $p$? What relation do we use?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the final result for $p$ and what does this represent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the value of $p + q + r$? What does this represent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

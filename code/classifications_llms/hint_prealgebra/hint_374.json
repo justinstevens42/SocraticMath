@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_374",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Six balls, numbered 2, 3, 4, 5, 6, 7, are placed in a hat.  Each ball is equally likely to be chosen.  If one ball is chosen, what is the probability that the number on the selected ball is a prime number?",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of a prime number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you identify the prime numbers among the numbers 2, 3, 4, 5, 6, and 7?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many prime numbers are in the given set?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "If one ball is chosen randomly, what is the total number of possible outcomes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many of those outcomes would result in selecting a prime number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you express the probability of choosing a prime number as a fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Upon simplifying the fraction, what is the final probability of selecting a prime number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

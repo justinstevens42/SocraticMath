@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_89",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Consider the function\n\\[f(x) = \\max \\{-11x - 37, x - 1, 9x + 3\\}\\]defined for all real $x.$  Let $p(x)$ be a quadratic polynomial tangent to the graph of $f$ at three distinct points with $x$-coordinates $x_1,$ $x_2,$ $x_3.$  Find $x_1 + x_2 + x_3.$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving the given problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the quadratic polynomial that is tangent to three distinct points on the graph of the given function?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the relationship between the coefficients of the quadratic polynomial and the coordinates of the tangent points?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the values of $x_1,$ $x_2,$ and $x_3$ using the given equations and information about the tangent lines?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we combine the equations to eliminate the quadratic term and solve for the sum of $x_1,$ $x_2,$ and $x_3$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other situations where determining the tangent points between a function and a quadratic polynomial is useful, and how would you approach those problems using similar steps and reasoning?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,36 @@
+{
+  "problem_id": "hint_721",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "In the diagram, four circles of radius 1 with centers $P$, $Q$, $R$, and $S$ are tangent to one another and to the sides of $\\triangle ABC$, as shown. [asy]\nsize(200);\npair A, B, C, P, Q, R, S;\nR=(0,0);\nQ=(-2,0);\nS=(2,0);\nP=(1,1.732);\nB=(-5.73,-1);\nC=(3.732,-1);\nA=(1.366,3.098);\ndraw(A--B--C--A);\ndraw(circle(P, 1));\ndraw(circle(Q, 1));\ndraw(circle(R, 1));\ndraw(circle(S, 1));\nlabel(\"A\", A, N);\nlabel(\"B\", B, SW);\nlabel(\"C\", C, SE);\ndot(P);\ndot(Q);\ndot(R);\ndot(S);\nlabel(\"P\", P, N);\nlabel(\"Q\", Q, SW);\nlabel(\"R\", R, SW);\nlabel(\"S\", S, SE);\n[/asy]\n\nFind the perimeter of triangle $ABC$.",
+  "n_questions": 3,
+  "labels": [
+    "f",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what is happening in the diagram? What is the relationship between the circles and the triangle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the fact that the circles are tangent to each other and to the sides of the triangle to find the lengths of the sides of the triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain why the line segments joinin",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ],
+  "classifier": "llm"
+}

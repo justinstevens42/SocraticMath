@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_715",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "In triangle $ABC,$ $\\angle C = \\frac{\\pi}{2}.$  Find\n\\[\\arctan \\left( \\frac{a}{b + c} \\right) + \\arctan \\left( \\frac{b}{a + c} \\right).\\]",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "b",
+    "r",
+    "f",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step to solve this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can we apply the addition formula for tangent in this scenario?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the purpose of using the addition formula for tangent in this context?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Why do we have $a^2 + b^2 = c^2$ in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How do we determine the range of $\\arctan \\left( \\frac{a}{b + c} \\right) + \\arctan \\left( \\frac{b}{a + c} \\right)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why the sum of two arctangents equals $\\frac{\\pi}{4}$ in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you suggest any other problems or scenarios where the addition formula for tangent is applicable?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

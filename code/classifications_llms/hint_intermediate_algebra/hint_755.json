@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_755",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The function $f(x)$ satisfies\n\\[3f(x) - 2 f \\left( \\frac{1}{x} \\right) = x\\]for all $x \\neq 0.$  Find $f(4).$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given equation for the function $f(x)$? How is it defined for all $x \\neq 0$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the value of $f(4)$ using the given equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What happens when we substitute $x = 4$ into the equation? What is the resulting equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What happens when we substitute $x = \\frac{1}{4}$ into the equation? What is the resulting equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we solve this system of equations to find the value of $f(4)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the final value of $f(4)$, and how did we arrive at this result using the given equations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

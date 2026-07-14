@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_276",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "What is the smallest four-digit positive integer that is divisible by 47?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the main idea behind the given approach of subtracting the remainder obtained by dividing 1000 by 47 from 1000?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Why does subtracting the remainder lead us to an integer divisible by 47? Is this a general property or specific to this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How does subtracting 13 from 1000 guarantee that the resulting number is still divisible by 47?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why adding 47 to 987 will give us the smallest four-digit integer divisible by 47?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Is there any other way we can find the smallest four-digit integer divisible by 47, apart from this specific approach? If so, what is it and how does it work?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of a similar problem where we can apply a similar thought process and steps to find the solution? Can you explain the similarities and differences between that problem and this one?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

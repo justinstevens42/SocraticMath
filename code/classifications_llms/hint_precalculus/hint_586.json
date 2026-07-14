@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_586",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Convert the point $( -2, -2 \\sqrt{3}, -1)$ in rectangular coordinates to cylindrical coordinates.  Enter your answer in the form $(r,\\theta,z),$ where $r > 0$ and $0 \\le \\theta < 2 \\pi.$",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How do we convert a point from rectangular coordinates to cylindrical coordinates?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What are the equations that relate the rectangular and cylindrical coordinates? Can you write them down?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Do you notice any patterns or relationships between the values of $x$, $y$, and $z$ in rectangular coordinates and the values of $r$, $\\theta$, and $z$ in cylindrical coordinates?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the value of $r$ in cylindrical coordinates for this given point?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we find the value of $\\theta$ in cylindrical coordinates for this given point?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we use trigonometric functions to find the value of $\\theta$? If so, which trigonometric functions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Based on the values we calculated for $r$ and $\\theta$, can you determine the cylindrical coordinates for this point?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any restrictions on the values of $r$ and $\\theta$ in cylindrical coordinates? If so, what are they?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "Can you convert the given point in rectangular coordinates to cylindrical coordinates using the formulas we discussed?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any other examples where we might need to convert points from rectangular to cylindrical coordinates using similar steps and concepts?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

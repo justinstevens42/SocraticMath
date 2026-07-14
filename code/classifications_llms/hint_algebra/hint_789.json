@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_789",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Anton has two species of ants, Species A and Species B, in his ant farm. The two species are identical in appearance, but Anton knows that every day, there are twice as many ants of Species A than before, while there are three times as many ants of Species B. On Day 0, Anton counts that there are 30 ants in his ant farm. On Day 5, Anton counts that there are 3281 ants in his ant farm. How many of these are of Species A?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the problem in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What information is given about the growth rate of the two ant species?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we represent the number of ants of species A and species B on Day 0?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What equations can we set up to represent the growth of the two ant species over time?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we solve the system of equations to find the number of ants of species A and B on Day 5?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What steps can we take to solve the system of equations efficiently?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we use the given information to set up an equation for the total number of ants on Day 5?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we substitute the values obtained from solving the system of equations into the equation for the total number of ants to find the number of ants of species A?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other scenarios where similar problem-solving and steps could be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

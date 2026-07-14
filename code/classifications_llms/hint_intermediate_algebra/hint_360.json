@@ -1,0 +1,50 @@
+{
+  "problem_id": "hint_360",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "For a polynomial $p(x),$ define its munificence as the maximum value of $|p(x)|$ on the interval $-1 \\le x \\le 1.$  For example, the munificence of the polynomial $p(x) = -x^2 + 3x - 17$ is 21, since the maximum value of $|-x^2 + 3x - 17|$ for $-1 \\le x \\le 1$ is 21, occurring at $x = -1.$\n\nFind the smallest possible munificence of a monic quadratic polynomial.",
+  "n_questions": 5,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is \"munificence\" and how is it defined for a polynomial?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you give an example of a polynomial and calculate its munificence using the given definition?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Let's consider a monic quadratic polynomial of the form $f(x) = x^2 + bx + c$. Can you determine the constraints on $b$ and $c$ based on the munificence of $f(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the Triangle Inequality to find a lower bound for the munificence $M$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "By considering the quadratic $f(x) = x^2 - \\frac{1}{2}$, can you show that the smallest possible munificence of a monic quadratic polynomial is $\\frac{1}{2}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

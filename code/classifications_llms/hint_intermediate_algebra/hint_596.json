@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_596",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Let $z$ and $w$ be complex numbers such that $|z + 1 + 3i| = 1$ and $|w - 7 - 8i| = 3.$  Find the smallest possible value of $|z - w|.$",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "f",
+    "f",
+    "f",
+    "b",
+    "f"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the Triangle Inequality? How is it applied to find the lower bound for $|z - w|$ in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Why is the circle centered at $a$ with radius 1 relevant to this problem? How does it relate to the condition $|z + 1 + 3i| = 1$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Why is the circle centered at $b$ with radius 3 relevant to this problem? How does it relate to the condition $|w - 7 - 8i| = 3$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How many possible intersection points are there between the two circles? How does this relate to the lower bound of $|z - w|$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How do we know that the lower bound is attainable? How do we find the actual value of $|z - w|$ that achieves the lower bound?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you visualize the geometric interpretation of this problem? How does it help us understand the relationship between the given conditions and the desired quantity $|z - w|$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    }
+  ],
+  "classifier": "llm"
+}

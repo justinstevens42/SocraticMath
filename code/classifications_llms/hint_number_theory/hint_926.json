@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_926",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Find the integer $n$, $4 \\le n \\le 8$, such that \\[n \\equiv 7882 \\pmod{5}.\\]",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does it mean for an integer $n$ to be congruent to $7882$ modulo $5$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "In this problem, what range of values are we considering for $n$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for two numbers to be congruent modulo $5$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What do we know about the possible remainder when an integer is divided by $5$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine the remainder of $7882$ when divided by $5$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Based on the given information, what can we deduce about the value of $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the only integer between $4$ and $8$ that has a remainder of $2$ when divided by $5$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_680",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What common fraction is exactly half-way between $\\frac{2}{3}$ and $\\frac{4}{5}$?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what \"half-way between\" means in terms of fractions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the average of two fractions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Why do we multiply the sum of the fractions by $\\frac{1}{2}$ to find the average?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why $\\frac{11}{15}$ is the fraction that is exactly half-way between $\\frac{2}{3}$ and $\\frac{4}{5}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there any other methods you can think of to find the fraction that is half-way between two given fractions?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Can you come up with another example where finding a fraction that is half-way between two given fractions can be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

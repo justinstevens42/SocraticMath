@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_566",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "In $\\triangle PQR,$ the sum of $\\angle P$ and $\\angle Q$ is $60^\\circ.$ What is the measure of $\\angle R?$",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the relationship between the three angles in a triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you express the relationship using an equation or formula?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the sum of angles $\\angle P$ and $\\angle Q$ in $\\triangle PQR$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "If we know the sum of two angles in a triangle, how can we find the measure of the third angle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the relationship between the three angles in a triangle to find the measure of angle $\\angle R$ in $\\triangle PQR$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other triangle where we are given the sum of two angles and need to find the measure of the third angle? How can we apply the same process to solve it?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

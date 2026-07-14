@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_1045",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Evaluate\n\\[\\begin{vmatrix} y + 1 & y & y \\\\ y & y + 1 & y \\\\ y & y & y + 1 \\end{vmatrix}.\\]",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "r",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step in evaluating the determinant of this matrix?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can we expand the determinant using the properties of determinants?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain how we can expand the determinant using cofactor expansion along the first row?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the determinant of a 2x2 matrix? How can we apply that here?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What properties of determinants can we use to simplify the expanded determinant expression?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you verify the final result matches the one obtained by expanding the determinant directly?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

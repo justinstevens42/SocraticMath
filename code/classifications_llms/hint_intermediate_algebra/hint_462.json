@@ -1,0 +1,50 @@
+{
+  "problem_id": "hint_462",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "If $x^5 - x^4 + x^3 - px^2 + qx + 4$ is divisible by $(x + 2)(x - 1),$ find the ordered pair $(p,q).$",
+  "n_questions": 5,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the Factor Theorem and how does it apply to this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the Factor Theorem to find the ordered pair (p,q)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What are the values of x that make the polynomial divisible by (x + 2) and (x - 1)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How do we set up equations using the values of x from step 3 to solve for p and q?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "By solving the equations from step 4, what is the ordered pair (p,q) that satisfies the conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

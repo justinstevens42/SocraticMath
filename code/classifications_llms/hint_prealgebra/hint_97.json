@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_97",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Of the 36 students in Richelle's class, 12 prefer chocolate pie, 8 prefer apple, and 6 prefer blueberry.  Half of the remaining students prefer cherry pie and half prefer lemon.  For Richelle's pie graph showing this data, how many degrees should she use for cherry pie?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "f",
+    "r",
+    "b",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total number of students in Richelle's class?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many students prefer chocolate pie, apple pie, and blueberry pie, respectively?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the formula for calculating the number of degrees for each category in a pie graph?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How many students prefer cherry or lemon pie?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why are these ten students divided into equal parts of 5 each?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "What is the total number of degrees in a pie graph?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How would you calculate the number of degrees for the lemon pie category?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Is it necessary for Richelle to include a key or legend in her pie graph? Why or why not?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of other types of graphs that would be useful for displaying this data?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "Why is it important to present data in an organized and visually appealing way?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

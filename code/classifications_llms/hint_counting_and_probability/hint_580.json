@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_580",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Four red candies and three green candies can be combined to make many different flavors. Flavors are different if the percent red is different, so 3 red / 0 green is the same flavor as 2 red / 0 green; and likewise 4 red / 2 green is the same flavor as 2 red / 1 green. If a flavor is to be made using some or all of the seven candies, how many different flavors are possible?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "f",
+    "b",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of a \"flavor\" in this context?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we represent the number of red candies and green candies in a flavor? What notation can we use?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many different combinations of red and green candies can we have?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can we have zero red candies in a flavor? How about zero green candies? Why or why not?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How many total potential ratios can we have between red and green candies?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any specific ratios that are not allowed? Why?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "How can we account for the over-counted ratios? Which ratios are considered duplicates?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "By subtracting the duplicates, how many unique ratios or flavors are left?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

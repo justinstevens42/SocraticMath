@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_38",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "A printer prints 17 pages per minute. How many minutes will it take to print 200 pages? Express your answer to the nearest whole number.",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you approach solving this problem step by step?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the given rate at which the printer prints pages? Can you express it in terms of pages per minute?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the quantity you are trying to find in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can you use the given rate and the desired quantity to set up a proportion or equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the appropriate operation to apply in order to solve the equation or proportion?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you evaluate the expression $\\frac{200 \\text{ pages}}{17 \\text{ pages per minute}}$ to find the answer? What is the result rounded to the nearest whole number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any assumptions or limitations in this problem that need to be considered?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

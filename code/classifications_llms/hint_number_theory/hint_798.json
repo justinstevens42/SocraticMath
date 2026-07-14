@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_798",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What is the remainder when $333^{333}$ is divided by $11$?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "f",
+    "f",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain why we are using the property that $a \\equiv b \\pmod{m}$ implies $a^c \\equiv b^c \\pmod{m}$ in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How did we determine that $333 \\equiv 3 \\pmod{11}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the significance of $3^5 \\equiv 1 \\pmod{11}$ in the calculation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Why did we choose to express $333^{333}$ as $3^{5 \\cdot 66 + 3}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How does the property $1^{66} \\cdot 27 \\equiv \\boxed{5} \\pmod{11}$ help us find the remainder?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other similar problems where we can apply the same reasoning and steps?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

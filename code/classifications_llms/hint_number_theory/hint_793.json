@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_793",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "If $a,b,c$ are integers from the set of positive integers less than $7$ such that \\begin{align*}\nabc&\\equiv 1\\pmod 7,\\\\\n5c&\\equiv 2\\pmod 7,\\\\\n6b&\\equiv 3+b\\pmod 7,\n\\end{align*}then what is the remainder when $a+b+c$ is divided by $7$?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "f",
+    "e",
+    "e",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the given congruences mean in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How did you use the second congruence to find the value of c?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What was your strategy for solving the third congruence and finding the value of b?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How did you apply the first congruence to determine the value of a?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why is it important to find the remainders of a, b, and c when divided by 7 in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "If the given congruences had different moduli, how would that affect the solution approach?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of other similar problems that involve solving a system of congruences?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "How does the concept of remainders help in solving modular equations?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ],
+  "classifier": "llm"
+}

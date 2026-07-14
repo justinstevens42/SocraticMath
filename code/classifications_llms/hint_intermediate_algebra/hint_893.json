@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_893",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "When the polynomial $x^4 - 6x^3 + 16x^ 2 - 25x + 10$ is divided by $x^2 - 2x + k,$ the remainder is $x + a.$  Enter the ordered pair $(k,a).$",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "To start, can you explain what the problem is asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Looking at the long division, what would be the degree of the polynomial $x^2 - 2x + k$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Why is the first term of the quotient $x^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How do we determine the second term of the quotient?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why is it important to subtract the product of the divisor and the quotient term chosen from the dividend at each step?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What can we conclude from the fact that the remainder is $(2k - 9)x + (k^2 - 8k + 10)?$ How does this relate to the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How do we determine the values of $k$ and $a$ that satisfy the condition of the remainder being $x + a$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you explain the steps you took to solve for $k$ and $a$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the final result for the ordered pair $(k,a)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you provide a brief summary of what we have learned from this problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

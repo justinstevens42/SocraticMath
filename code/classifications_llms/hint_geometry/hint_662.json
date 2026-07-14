@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_662",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Given that the diagonals of a rhombus are always perpendicular bisectors of each other, what is the area of a rhombus with side length $\\sqrt{89}$ units and diagonals that differ by 6 units?",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "f",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain why the diagonals of a rhombus are always perpendicular bisectors of each other?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the fact that the diagonals of a rhombus are perpendicular bisectors to solve for the area of a rhombus?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you describe the steps to set up an equation to find the length of the diagonals?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What are the lengths of the legs of the right triangles formed by the diagonals of the rhombus?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the Pythagorean theorem to solve the equation involving the lengths of the diagonals?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "After factoring the quadratic equation, how do we determine which solution is valid for the length of the diagonal?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we calculate the area of the rhombus using the length of one of the right triangle's legs?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you explain why we need to multiply the area of one right triangle by 4 to get the total area of the rhombus?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 9,
+      "question": "Are there any similar problems or concepts in geometry that can be approached using similar logical steps and reasoning?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_456",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Let $a$ and $b$ be positive real numbers such that each of the equations $x^2 + ax + 2b = 0$ and $x^2 + 2bx + a = 0$ has real roots.  Find the smallest possible value of $a + b.$",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "r",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step to solve each quadratic equation in terms of real roots?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Are there any restrictions on the values of $a$ and $b$ in order for both equations to have real roots?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we derive the inequalities $a^2 \\ge 8b$ and $4b^2 \\ge 4a$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean for $b^2$ to be greater than or equal to $a$? How does this relate to the discriminant?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What happens if $b^2$ is less than $a$ in terms of the discriminant?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we find the smallest possible value of $a + b$ based on the derived inequalities and restrictions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

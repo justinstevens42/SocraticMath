@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_284",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find the distance between the planes $x + 2y - 2z + 1 = 0$ and $2x + 4y - 4z + 5 = 0.$",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "r",
+    "b",
+    "f",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the formula for finding the distance from a point to a plane? How does it apply in this case?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Why did we choose the point (-1, 0, 0) on the first plane? Is there a reason why this point is useful for our calculations?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How do we compute the numerator of the distance formula? What does it represent in the context of the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the significance of the denominator in the distance formula? Why do we need to use the square root of the sum of squares of the coefficients?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you describe the steps involved in simplifying the numerator and the denominator of the distance formula in this situation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Why do both planes have the same normal vector? How does this fact contribute to the conclusion that the planes are parallel?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other methods or formulas that can be used to find the distance between planes? How do they compare to what we've done here?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any real-life scenarios where finding the distance between planes could be relevant? How would you approach those situations mathematically?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

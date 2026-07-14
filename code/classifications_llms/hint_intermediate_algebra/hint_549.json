@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_549",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find the area of the ellipse given by $x^2 + 6x + 4y^2 - 8y + 9 = 0.$",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "b",
+    "r",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the equation of the ellipse in standard form? How can we rearrange it to fit the standard form equation of an ellipse?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What are the coefficients of the squared terms? How can we use these coefficients to determine the semi-major and semi-minor axes of the ellipse?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we use completing the square in both x and y to rewrite the equation in a more useful form? What is the significance of the constants in this new equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How does the new equation allow us to determine the center of the ellipse? How does it help us identify the semi-major and semi-minor axes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the formula for the area of an ellipse? How can we use the semi-major and semi-minor axes to calculate the area?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Are there any limitations or restrictions on using this formula? Are there any assumptions that we need to be aware of?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Applying the formula, what is the area of the ellipse in question? Can you show the steps to arriving at this value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other equations or situations where a similar thought process and steps might be used to find the area? How might those equations or situations relate to this example?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

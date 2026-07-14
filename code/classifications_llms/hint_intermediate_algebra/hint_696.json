@@ -1,0 +1,99 @@
+{
+  "problem_id": "hint_696",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The arithmetic mean, geometric mean, and harmonic mean of $a$, $b$, $c$ are $8$, $5$, $3$ respectively. What is the value of $a^2+b^2+c^2$?",
+  "n_questions": 12,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what information we can gather from the given arithmetic mean, geometric mean, and harmonic mean values of $a$, $b$, and $c$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the given arithmetic mean to find the value of $a+b+c$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What does the geometric mean of $a$, $b$, and $c$ tell us about their product $abc$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the value of $abc$ based on the given geometric mean?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What does the harmonic mean of $a$, $b$, and $c$ tell us about their reciprocals $\\frac{1}{a}$, $\\frac{1}{b}$, and $\\frac{1}{c}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the harmonic mean to find the sum of the reciprocals $\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can we simplify the expression $\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}$ based on the information we have?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What equation can we set up using the simplified expression for $\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we solve this equation to find a relationship between $ab+bc+ca$ and $abc$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can we use this relationship to find $a^2+b^2+c^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "What steps do we need to take to calculate $a^2+b^2+c^2$ based on the information we have?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "What is the final result for $a^2+b^2+c^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

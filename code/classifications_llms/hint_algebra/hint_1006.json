@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_1006",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find the center of the circle with equation $x^2 - 6x + y^2 + 2y = 9$.",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the center of a circle, and how is it represented in the equation of a circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "In the given equation, can you identify the terms that represent the center of the circle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we transform the given equation to a standard form to identify the center?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What steps can we take to complete the square for both the x and y terms in order to express the given equation in standard form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Once the equation is in standard form, what are the x and y coordinates of the center of the circle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why completing the square helps identify the center of the circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of other equations of circles where a similar approach can be used to find the center?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

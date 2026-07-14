@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_158",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "A circle with radius 4 cm is tangent to three sides of a rectangle, as shown. The area of the rectangle is twice the area of the circle. What is the length of the longer side of the rectangle, in centimeters? Express your answer in terms of $\\pi$.\n\n[asy]\nimport graph;\ndraw((0,0)--(30,0)--(30,20)--(0,20)--cycle);\ndraw(Circle((10,10),10));\n[/asy]",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between the circle and the rectangle in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we express the area of the circle and the area of the rectangle in terms of their respective dimensions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the equation we can set up based on the given information and the expressions we just found?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we simplify this equation and solve for the unknown dimension of the rectangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we check our answer to ensure it satisfies the conditions of the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can we generalize this problem to other shapes and configurations?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

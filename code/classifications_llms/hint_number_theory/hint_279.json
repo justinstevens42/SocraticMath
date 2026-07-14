@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_279",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Jenna collects stamps.  She puts the same number of stamps on each page and then inserts each page into one of her two stamp books.  One of her stamp books has a total of 840 stamps.  The other has 1008.  What is the largest number of stamps that Jenna could be putting on each page?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "f",
+    "f",
+    "e",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what is meant by \"gcd$(840, 1008)$\"?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do we know that the number of stamps Jenna puts on each page must divide the number of stamps she puts into each book?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Why is finding the greatest common divisor important in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Can you think of any other situations where finding the greatest common divisor might be useful in solving a problem?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "Is it possible for Jenna to put more than 168 stamps on each page and still satisfy the conditions given in the problem? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "If Jenna had 3 stamp books instead of 2, how would that change the problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

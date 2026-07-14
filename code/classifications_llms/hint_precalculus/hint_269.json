@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_269",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Convert the point $(\\rho,\\theta,\\phi) = \\left( 3, \\frac{5 \\pi}{12}, 0 \\right)$ in spherical coordinates to rectangular coordinates.",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "r",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in converting a point from spherical coordinates to rectangular coordinates?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What are the different components that make up a point in spherical coordinates?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How do you use $\\rho$, $\\theta$, and $\\phi$ to determine the rectangular coordinates?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Why is the value of $\\rho$ important in determining the value of $z$ in rectangular coordinates?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain the trigonometric functions involved in converting $\\rho$, $\\theta$, and $\\phi$ to $x$, $y$, and $z$ in rectangular coordinates?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other points in spherical coordinates that we can convert to rectangular coordinates using similar steps and trigonometric functions?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

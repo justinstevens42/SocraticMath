@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_361",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "What is the value of $\\displaystyle\\frac{109^2-100^2}{9}$?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you identify any patterns or relationships in the numerator $\\displaystyle 109^{2} -100^{2}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you simplify the numerator further by factoring or applying any known algebraic identities?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can you simplify the expression $\\displaystyle\\frac{109^{2} -100^{2}}{9}$ using the quotient property of exponents?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Are there any common factors between the numerator and the denominator that can be canceled out?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you express the expression $\\displaystyle\\frac{109^{2} -100^{2}}{9}$ in a simplified form using division and subtraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there any significance or meaning behind the simplified expression obtained?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Can you verify the result obtained for the expression $\\displaystyle\\frac{109^{2} -100^{2}}{9}$ by performing the arithmetic operation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any similar numerical expressions that can be simplified using a similar approach?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

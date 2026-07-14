@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_286",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Compute $\\sin 45^\\circ$.",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "f",
+    "f",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the concept of sine and how it relates to a point on the unit circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the coordinates of point $P$ on the unit circle that is $45^\\circ$ counterclockwise from $(1,0)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the relationship between angle $POD$ and angle $DPX$ in triangle $POD$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the lengths of sides $DO$ and $DP$ in triangle $POD$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do the coordinates of point $P$ help us compute the value of $\\sin 45^\\circ$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other triangles or angles where the concept of sine is involved in a similar way?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

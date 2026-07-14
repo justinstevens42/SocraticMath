@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_731",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Eleanor is making chocolate chip cookies for her friends. If she divides the cookies equally among $11$ of her friends, she'll have $4$ cookies left over. If she divides the cookies equally among $7$ of her friends, she'll have $1$ cookie left over. Assuming that Eleanor made fewer than $100$ cookies, what is the sum of the possible numbers of cookies that she could have made?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe how Eleanor's cookie count relates to the number of her friends in each scenario?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Are there any patterns or relationships that you notice from the given information?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we express the number of cookies Eleanor made using mathematical expressions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Based on the given conditions, can you write two equations to represent the scenarios?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What values can be substituted into the equations to satisfy both conditions while keeping the number of cookies less than 100?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are the possible values for the number of cookies Eleanor made in each scenario?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the sum of these possible values?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

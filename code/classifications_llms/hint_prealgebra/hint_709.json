@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_709",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "When $0.\\overline{36}$ is expressed as a common fraction in lowest terms, what is the sum of the numerator and denominator?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the first step in solving this problem of expressing $0.\\overline{36}$ as a common fraction in lowest terms?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you think of any other ways to represent a repeating decimal as a fraction? What are the differences between these methods?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Why is it possible to express $0.\\overline{36}$ as a fraction? Are there any patterns or features that make it suitable for this method?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How did you determine the numerator and denominator of the fraction $0.\\overline{36}$ as $\\frac{4}{11}$? What process or reasoning did you use?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can you verify that $\\frac{4}{11}$ is the correct fraction for $0.\\overline{36}$? What steps or calculations can you perform to check its accuracy?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other decimal numbers or situations where a similar thought process and steps may be used to express them as fractions?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

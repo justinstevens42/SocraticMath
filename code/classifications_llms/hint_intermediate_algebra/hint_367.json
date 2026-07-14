@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_367",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Let $a$ and $b$ be positive real numbers such that $a + b = 1.$  Find set of all possible values of $\\frac{1}{a} + \\frac{1}{b}.$",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the AM-HM inequality states?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does the AM-HM inequality relate to the expression in the problem, $\\frac{1}{a} + \\frac{1}{b}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the significance of the condition $a + b = 1$ in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Can you describe the situation when the equality condition of the AM-HM inequality is met?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How does the value of $\\frac{1}{a} + \\frac{1}{b}$ change as $a$ approaches 0 and $b$ approaches 1?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Based on the previous reasoning, what can we conclude about the set of all possible values of $\\frac{1}{a} + \\frac{1}{b}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

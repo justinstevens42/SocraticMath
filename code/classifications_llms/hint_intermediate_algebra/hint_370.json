@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_370",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The hyperbolas \\[\\frac{x^2}{4} - \\frac{y^2}{9} = 1\\]and \\[\\frac{y^2}{18} - \\frac{x^2}{N} = 1\\]have the same asymptotes. Find $N.$",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How do we determine the asymptotes of a hyperbola in general?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What are the asymptotes of the first hyperbola, $\\frac{x^2}{4} - \\frac{y^2}{9} = 1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What are the asymptotes of the second hyperbola, $\\frac{y^2}{18} - \\frac{x^2}{N} = 1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "In order for two hyperbolas to have the same asymptotes, what condition must be satisfied?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we express the equation of the asymptotes of the first hyperbola?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we express the equation of the asymptotes of the second hyperbola?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "By comparing the equations of the asymptotes of the two hyperbolas, can we determine the value of $N$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Using the condition for the hyperbolas to have the same asymptotes, what is the value of $N$ in the second hyperbola equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

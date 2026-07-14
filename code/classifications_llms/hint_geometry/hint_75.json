@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_75",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "The areas of three of the faces of a right, rectangular prism are $24 \\hspace{.6mm} \\mathrm{cm}^2$, $32 \\hspace{.6mm} \\mathrm{cm}^2$, and $48 \\hspace{.6mm} \\mathrm{cm}^2$. What is the volume of the prism, in cubic centimeters?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "f",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can the dimensions of the prism be represented using variables?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What equations can we form based on the given information and the representation of the dimensions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we solve the system of equations to find the values of the variables?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine the volume of the prism using the values of the variables?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the relationship between the given areas of the prism's faces and the volume of the prism?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other scenarios where you might encounter a similar problem-solving approach?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

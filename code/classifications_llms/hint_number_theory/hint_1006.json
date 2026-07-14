@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_1006",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Find the 6-digit repetend in the decimal representation of $\\frac 3{13}.$",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "r",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How do we typically convert a fraction into a decimal representation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is a repetend? How do we determine the length of the repetend in a decimal representation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you describe the long division algorithm for finding the decimal representation of a fraction?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we verify that a decimal representation has a repeating block of digits?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "In general, what can we say about the length of the repetend for the decimal representation of $\\frac{1}{n}$ for any positive integer $n$?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other methods for finding the repetend of a decimal representation?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

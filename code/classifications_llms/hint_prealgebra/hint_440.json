@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_440",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The 5-digit number $52\\,28\\square$ is a multiple of 6.  Which digit is represented by $\\square$?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How do we know that $52\\,28\\square$ is a multiple of 6?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "To be a multiple of 6, what other conditions must $52\\,28\\square$ meet?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What can we say about the digit represented by $\\square$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Since $52\\,28\\square$ is a multiple of 2, what properties must $\\square$ have?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Since $52\\,28\\square$ is a multiple of 3, what property must the sum of its digits have?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What range of sums can we get by replacing $\\square$ with an even digit?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Which of these possible sums is divisible by 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What can we conclude about the digit represented by $\\square$ based on this information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we verify our answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_654",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Simplify the fraction by rationalizing the denominator: $$\\frac{4}{\\sqrt{108}+2\\sqrt{12}+2\\sqrt{27}}.$$",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "r",
+    "b",
+    "r",
+    "e",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what it means to rationalize the denominator in a fraction?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How would you usually handle a fraction with a radical in the denominator if rationalizing wasn't necessary?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you identify the types of radicals present in the denominator of this fraction?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How would you go about simplifying the expression if the denominator consisted of just one radical?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What are the steps involved in simplifying the given fraction by rationalizing the denominator?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can you determine what factors or expressions need to be multiplied in order to rationalize each radical in the denominator?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Why is it important to rationalize the denominator in this case? What benefit does it bring to the expression?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "What does it mean for a simplified fraction to be in its simplest radical form?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other instances where rationalizing the denominator may be necessary or helpful in mathematics?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,92 @@
+{
+  "problem_id": "hint_713",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Find the sum of the solutions to\n\\[\\frac{1}{\\sin x} + \\frac{1}{\\cos x} = 2 \\sqrt{2}\\]in the interval $0 \\le x \\le 2 \\pi.$",
+  "n_questions": 11,
+  "labels": [
+    "f",
+    "b",
+    "f",
+    "r",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is our main objective in this problem? What are we trying to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we rewrite the given equation using trigonometric functions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "By substituting $a$ and $b$ as $\\cos x$ and $\\sin x$ respectively, we obtained a new equation. Can you explain why we made this substitution? What does it help us achieve?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "In the new equation, we squared both sides to eliminate the square roots. Why did we do this? Are there any potential pitfalls when squaring both sides of an equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "By manipulating the equation, we ended up with a quadratic equation in terms of $ab$. How did we obtain this quadratic equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain the process of factoring the quadratic equation and obtaining the values of $ab$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "For each value of $ab$, what does it represent in terms of the original trigonometric values of $\\cos x$ and $\\sin x$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "How can we find the actual values of $\\cos x$ and $\\sin x$ for each value of $ab$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Finally, how do we obtain the values of $x$ from the values of $\\cos x$ and $\\sin x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What are the possible values of $x$ that satisfy the original equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "If we want to find the sum of all the solutions, how do we combine these individual solutions together?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

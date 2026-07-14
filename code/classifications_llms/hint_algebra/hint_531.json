@@ -1,0 +1,106 @@
+{
+  "problem_id": "hint_531",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "If $13^{3n}=\\left(\\frac{1}{13}\\right)^{n-24}$, find $n$.",
+  "n_questions": 13,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you start to simplify the equation $13^{3n}=\\left(\\frac{1}{13}\\right)^{n-24}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you think of any properties of exponents or rules of exponents that might be useful in solving this equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is your understanding of the relationship between positive and negative exponents?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you rewrite the equation using positive exponents only?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "By comparing the bases and the exponents on both sides of the equation, can you identify any properties or rules that can help simplify the equation further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the property or rule that allows us to simplify $a^n\\cdot a^m$ into $a^{n+m}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can you apply that property to simplify the equation $13^{3n}=\\left(\\frac{1}{13}\\right)^{n-24}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "After simplifying the equation as much as possible, what does the equation look like now?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What can you say about the bases on both sides of the equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 10,
+      "question": "Can you express the equation in a different way using logarithms?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "How can you use logarithms to solve for $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "What is the relationship between logarithms and exponents that allows us to solve an equation like this?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 13,
+      "question": "After solving for $n$, what do you find as the value for $n$ in the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

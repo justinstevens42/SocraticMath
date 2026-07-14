@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_701",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Given that $BDEF$ is a square and $AB = BC = 1$, find the number of square units in the area of the regular octagon.\n\n[asy]\nreal x = sqrt(2);\npair A,B,C,D,E,F,G,H;\nF=(0,0); E=(2,0); D=(2+x,x); C=(2+x,2+x);\nB=(2,2+2x); A=(0,2+2x); H=(-x,2+x); G=(-x,x);\ndraw(A--B--C--D--E--F--G--H--cycle);\ndraw((-x,0)--(2+x,0)--(2+x,2+2x)--(-x,2+2x)--cycle);\nlabel(\"$B$\",(-x,2+2x),NW); label(\"$D$\",(2+x,2+2x),NE); label(\"$E$\",(2+x,0),SE); label(\"$F$\",(-x,0),SW);\nlabel(\"$A$\",(-x,x+2),W); label(\"$C$\",(0,2+2x),N);\n[/asy]",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the properties of a regular octagon?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What can you observe about the given figure?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the area of the regular octagon in terms of the square units?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we compute the area of the isosceles triangles in the figure?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we compute the area of the square $BDEF$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we find the side length of the square $BDEF$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we determine the area of the octagon by subtracting the areas of the triangles from the area of the square?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the final expression for the area of the octagon in terms of $\\sqrt{2}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you simplify the expression to find the numerical value of the area of the regular octagon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

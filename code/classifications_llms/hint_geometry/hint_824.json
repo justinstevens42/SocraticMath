@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_824",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The diagonal of a particular square is 5 inches.  The diameter of a particular circle is also 5 inches.  By how many square inches is the area of the circle greater than the area of square?  Express your answer as a decimal to the nearest tenth. [asy]\ndraw((0,0)--(2,0)--(2,2)--(0,2)--cycle);\ndraw((2,0)--(0,2));\n\ndraw(circle((4.5,1),1.414));\ndraw((2+3.5,0)--(0+3.5,2));\n[/asy]",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between the diagonal of the square and the diameter of the circle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the area of the square using the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the formula for finding the area of a circle? How can we apply it in this case?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we express the area of the circle in terms of square inches?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do we calculate the difference between the areas of the circle and the square?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we round the final answer to the nearest tenth?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

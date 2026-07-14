@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_532",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Find the integer $n,$ $0 \\le n \\le 180,$ such that $\\cos n^\\circ = \\cos 758^\\circ.$",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "r",
+    "r",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of the cosine function in trigonometry?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does the period of a trigonometric function relate to its graph and values?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the relationship between the cosine of an angle and the cosine of its supplement?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the identity $\\cos(360^\\circ-\\theta)=\\cos \\theta$ to simplify the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What other trigonometric identities can we use to simplify the expression $\\cos 758^\\circ$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we apply the concept of reference angles to solve this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How does the intermediate value theorem guarantee that there is only one solution for $n$ in the given interval?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "Can we use a calculator or trigonometric table to find the value of $\\cos 38^\\circ$? How does this relate to the concept of exact solutions in trigonometry?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

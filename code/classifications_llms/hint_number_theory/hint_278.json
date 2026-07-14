@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_278",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find the greatest common divisor of $40304$ and $30203$.",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "e",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the Euclidean Algorithm and how does it apply to finding the greatest common divisor of two numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain step by step how the Euclidean Algorithm was used to find the greatest common divisor of 40304 and 30203?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What other methods are there for finding the greatest common divisor of two numbers? How do they compare to the Euclidean Algorithm?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 4,
+      "question": "How can the concept of greatest common divisor be used in solving real-world problems?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of a scenario where finding the greatest common divisor is necessary or useful?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "How does the greatest common divisor relate to other number theory concepts such as prime factorization and least common multiple?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

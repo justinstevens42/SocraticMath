@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_135",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "A point $P$ is randomly placed in the interior of the right triangle below.  What is the probability that the area of triangle $PBC$ is less than half of the area of triangle $ABC$?  Express your answer as a common fraction. [asy]\nsize(7cm);\ndefaultpen(linewidth(0.7));\npair A=(0,5), B=(8,0), C=(0,0), P=(1.5,1.7);\ndraw(A--B--C--cycle);\ndraw(C--P--B);\nlabel(\"$A$\",A,NW);\nlabel(\"$B$\",B,E);\nlabel(\"$C$\",C,SW);\nlabel(\"$P$\",P,N);\ndraw((0,0.4)--(0.4,0.4)--(0.4,0));[/asy]",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information in the problem? Can you restate the problem in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the area of triangle $ABC$? What formula can we use?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the formula for the area of triangle $PBC$? How is it related to the area of triangle $ABC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we express the condition \"the area of triangle $PBC$ is less than half of the area of triangle $ABC$\" mathematically using the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What do we know about the location of point $P$ in relation to the dashed line? How does that relate to the condition we expressed in the previous question?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "What do we know about the triangle $ADE$? How can we use that information to find the ratio of its area to the area of triangle $ABC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "If the ratio of the area of triangle $ADE$ to the area of triangle $ABC$ is $\\frac{1}{4}$, what does that tell us about the ratio of the area of trapezoid $DEBC$ to the area of triangle $ABC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we use this ratio to find the probability that the area of triangle $PBC$ is less than half of the area of triangle $ABC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_939",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "How many prime numbers are divisible by $39$ ?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a prime number? Can you provide a definition for prime numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Is the number $39$ a prime number? If not, can you find its factors?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can a prime number be divisible by $39$? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "If a number is divisible by $39$, what can we say about its factors?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Are there any prime numbers that are divisible by $39$? Explain your reasoning.",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any examples of numbers that are divisible by $39$ and are not prime? Can you determine their factors?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

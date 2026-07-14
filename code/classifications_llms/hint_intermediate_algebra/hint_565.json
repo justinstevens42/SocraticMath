@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_565",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Find the coefficient of $x^{70}$ in the expansion of\n\\[(x - 1)(x^2 - 2)(x^3 - 3) \\dotsm (x^{11} - 11)(x^{12} - 12).\\]",
+  "n_questions": 9,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the degree of the given polynomial?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "To find the coefficient of $x^{70}$, what missing power of $x$ should we aim for?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many factors do we need to choose from to get a power of $x^{70}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What are the possible pairs of missing powers of $x$ if we choose two factors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we calculate the contribution to the coefficient of $x^{70}$ for the case where two factors have missing powers of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are the possible triples of missing powers of $x$ if we choose three factors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How do we calculate the contribution to the coefficient of $x^{70}$ for the case where three factors have missing powers of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Why are there no ways to get a power of $x^{70}$ if four or more factors have missing powers of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the final value of the coefficient of $x^{70}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

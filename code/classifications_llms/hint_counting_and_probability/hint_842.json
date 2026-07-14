@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_842",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "George has an unfair six-sided die. The probability that it rolls a 6 is $\\frac{1}{2}$, and the probability that it rolls any other number is $\\frac{1}{10}$. What is the expected value of the number shown when this die is rolled? Express your answer as a decimal.",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "f",
+    "f",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of expected value?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How is expected value calculated in this scenario?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Why is the die considered \"unfair\"?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the probability of rolling a number other than 6?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How did we determine the probability of rolling a 6?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "Can we use expected value to predict the outcome of a single roll with certainty? Why or why not?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "What other scenarios might require the use of expected value?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

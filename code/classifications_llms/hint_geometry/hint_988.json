@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_988",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "A street has parallel curbs 40 feet apart. A crosswalk bounded by two parallel stripes crosses the street at an angle. The length of the curb between the stripes is 15 feet and each stripe is 50 feet long. Find the distance, in feet, between the stripes.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you identify any shapes or figures mentioned in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can you relate the given information to the shapes or figures?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What formula can you use to find the area of a parallelogram?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you express the area of the crosswalk in terms of the distance between the stripes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can you solve for the distance between the stripes using the formula for area?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

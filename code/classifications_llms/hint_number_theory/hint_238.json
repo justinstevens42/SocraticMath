@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_238",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What is the least positive integer that satisfies the following conditions?\n\na) When divided by 2, the remainder is 1.\n\nb) When divided by 3, the remainder is 2.\n\nc) When divided by 4, the remainder is 3.\n\nd) When divided by 5, the remainder is 4.",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "f",
+    "e",
+    "r",
+    "e",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the main idea behind solving this type of problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you identify any patterns or relationships between the given remainders and the divisors?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What do you think would happen if the number of congruences and remainders were increased?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 4,
+      "question": "How can we use modular arithmetic to simplify the solution process?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of any real-world applications for this type of problem?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "How can we confirm that our solution is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Is there a formula or algorithm that can be used to solve similar problems?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "How can we generalize this problem to find the least positive integer that satisfies any given set of congruences and remainders?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

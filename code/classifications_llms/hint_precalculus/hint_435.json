@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_435",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Convert the point $(\\rho,\\theta,\\phi) = \\left( 2, \\pi, \\frac{\\pi}{4} \\right)$ in spherical coordinates to rectangular coordinates.",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the given spherical coordinates and what do they represent?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How do we convert spherical coordinates to rectangular coordinates?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the formula for $x$ in terms of $\\rho,$ $\\theta,$ and $\\phi?$",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the formula for $y$ in terms of $\\rho,$ $\\theta,$ and $\\phi?$",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the formula for $z$ in terms of $\\rho,$ $\\theta,$ and $\\phi?$",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How do we apply the formulas to compute the rectangular coordinates for the given spherical coordinates?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final answer in rectangular coordinates?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of a real-world scenario where understanding spherical and rectangular coordinates could be useful?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "How could we check our answer to ensure the conversion was done correctly?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

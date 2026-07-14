@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_784",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Find the point on the line\n\\[y = \\frac{x + 5}{2}\\]that is closest to the point $(6,1).$",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "r",
+    "r",
+    "b",
+    "r",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what it means to find the point on a line closest to a given point?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "In this problem, what information do we have about the line and the given point?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the direction vector of the line using the given points?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why do we use the direction vector to project the vector from the given point to the closest point?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How do we calculate the projection of the vector onto the direction vector?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you describe the steps involved in calculating the projection in this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What does the projection represent in terms of finding the closest point on the line?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "How can we use the projection to find the coordinates of the closest point on the line?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you explain how the projection helps us determine the closest point?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any other scenarios where finding the closest point on a line may be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

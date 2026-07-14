@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_357",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "In the diagram, $QRS$ is a straight line. What is the measure of $\\angle RPS,$ in degrees? [asy]\npair Q=(0,0);\npair R=(1.3,0);\npair SS=(2.3,0);\npair P=(.8,1);\n\ndraw(P--Q--R--SS--P--R);\n\nlabel(\"$Q$\",Q,S);\nlabel(\"$R$\",R,S);\nlabel(\"$S$\",SS,S);\nlabel(\"$P$\",P,N);\n\nlabel(\"$48^\\circ$\",Q+(.12,.05),NE);\nlabel(\"$67^\\circ$\",P-(.02,.15),S);\nlabel(\"$38^\\circ$\",SS+(-.32,.05),NW);\n\n[/asy]",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "f",
+    "e",
+    "e",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you identify the given information in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What geometric property is used to find $\\angle QPS$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain why $\\angle RPS=\\angle QPS-\\angle QPR$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can you find $\\angle QPR$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of another way to find $\\angle RPS$ using the given angles?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "If $\\angle QPS$ was unknown, is it possible to find $\\angle RPS$? How?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "What is the measure of $\\angle QPR$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Is it necessary for $QRS$ to be a straight line to find $\\angle RPS$? Why or why not?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Can you generalize the process used to find $\\angle RPS$ to solve similar problems?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

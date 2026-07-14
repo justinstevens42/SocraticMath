@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_906",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Define $a$ $\\$$ $b$ to be $a(b + 1) + ab$. What is the value of $(-2)$ $\\$$ $3$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the expression $a(b + 1) + ab$ represents?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How would you simplify the expression $a(b + 1) + ab$ using the distributive property?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Given that $a = -2$ and $b = 3$, what is the value of $a(b + 1) + ab$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you substitute the given values into the expression and calculate the final result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Is there any other way to represent the expression $a(b + 1) + ab$ without using parentheses?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other values for $a$ and $b$ that would result in a different value for $a(b + 1) + ab$?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

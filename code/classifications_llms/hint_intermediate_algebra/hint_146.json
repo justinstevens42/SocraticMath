@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_146",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The function $f(x)$ satisfies\n\\[f(x - y) = f(x) f(y)\\]for all real numbers $x$ and $y,$ and $f(x) \\neq 0$ for all real numbers $x.$  Find $f(3).$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what the given functional equation means using your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Let’s plug in some values for x and y and see what happens. If x = 0 and y = 0, what is f(0)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What if y = -x? What can we simplify the functional equation to in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you think of any other values of x and y that would simplify the functional equation or make it easier to solve?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How could we use the fact that f(x) is never equal to 0 to help us solve for f(3)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Taking a step back, what kind of function satisfies the given functional equation? Are there any other functions you know of that may satisfy it?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

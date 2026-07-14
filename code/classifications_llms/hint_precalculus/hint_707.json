@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_707",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Find all values of $x$ so that $\\arccos x > \\arcsin x.$",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the relationship between $\\arccos x$ and $\\arcsin x$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "At what value of $x$ do $\\arccos x$ and $\\arcsin x$ intersect?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Since $\\arccos x$ is a decreasing function and $\\arcsin x$ is an increasing function, what can we conclude about their values for $x < \\frac{1}{\\sqrt{2}}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "On which interval(s) is $\\arccos x > \\arcsin x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did you determine the solution interval for $x$ in $\\arccos x > \\arcsin x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other trigonometric inequalities where similar reasoning and steps can be applied?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_111",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "A pirate is counting the loot he has stolen from S.S. AOPS, on which everything is counted in base 5.  A treasure chest contains $3124_{5}$ dollars worth of jewelry, $3122_{5}$ dollars worth of gold coins, and $124_{5}$ dollars worth of rubbing alcohol.  What is the total dollar amount that this pirate has accumulated? Express your answer in base 10.",
+  "n_questions": 10,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step to find the total dollar amount in base 10 for the loot?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "In base 5, what are the place values for each digit?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we convert each base 5 number to base 10?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Why do we need to convert the base 5 numbers to base 10 in order to find the total dollar amount?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain the process of converting $3124_{5}$ to base 10 using the given formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain the process of converting $3122_{5}$ to base 10 using the given formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain the process of converting $124_{5}$ to base 10 using the given formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How do we calculate the sum of these converted numbers to find the total dollar amount?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Is there any similarity between this problem and previous equations we discussed in Number Theory?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any other situations where converting numbers between different bases is useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

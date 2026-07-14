@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_341",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find $x$ such that $\\lfloor x \\rfloor + x = \\dfrac{13}{3}$. Express $x$ as a common fraction.",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "b",
+    "f",
+    "f",
+    "b",
+    "e",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the notation $\\lfloor x \\rfloor$ represents in the given equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How would you start solving the equation $\\lfloor x \\rfloor + x = \\dfrac{13}{3}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Are there any restrictions on the values that $x$ can take in this equation? Why or why not?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What does the equation $\\lfloor x \\rfloor + x = \\dfrac{13}{3}$ suggest about the relationship between the integer part of $x$ and the fractional part of $x$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of any strategies or methods that can be used to find the solution to this equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How would you represent the given equation visually or geometrically to help understand its solution?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "If you assume that $x$ is an integer, what would the equation become and what possible values of $x$ could satisfy it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Could there be any other values of $x$ that satisfy the equation $\\lfloor x \\rfloor + x = \\dfrac{13}{3}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can you verify if the solution you find is correct in the original equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any other equations or mathematical problems where considering the integer and fractional parts separately might be useful in finding a solution?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

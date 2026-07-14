@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_538",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "A small square is entirely contained in a larger square, as shown. The side length of the small square is 3 units and the side length of the larger square is 7 units. What is the number of square units in the area of the black region?\n\n[asy]\nfill((0,0)--(21,0)--(21,21)--(0,21)--cycle,black);\nfill((9,4)--(9,13)--(18,13)--(18,4)--cycle,white);\n[/asy]",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "r",
+    "f",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of the area of a square?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we calculate the area of the larger square in this scenario?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What about the area of the smaller square? How can we calculate that?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean for a figure to be \"entirely contained\" within another figure?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can we find the area of the black region using the areas of the larger and smaller squares?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we express the area of the black region as a difference of the two square areas? If so, what is the difference?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Why is the formula for finding the area of a square applicable to both squares in this situation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "How do we determine the dimensions (side lengths) of the smaller square in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 9,
+      "question": "Are there any other ways you can think of to find the area of the black region?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_924",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "A circle is circumscribed around $ABCD$ as follows: [asy]\npair pA, pB, pC, pD, pO;\npO = (0, 0);\npA = pO + dir(-40);\npB = pO + dir(40);\npC = pO + dir(130);\npD = pO + dir(190);\ndraw(pA--pB--pC--pA);\ndraw(pA--pD--pC--pA);\nlabel(\"$A$\", pA, SE);\nlabel(\"$B$\", pB, NE);\nlabel(\"$C$\", pC, NW);\nlabel(\"$D$\", pD, SW);\ndraw(circle(pO, 1));\nlabel(\"$30^\\circ$\", pA + dir(150) * .45);\nlabel(\"$40^\\circ$\", pC + dir(-20) * .35);\n[/asy] How many degrees are in $\\angle CAB + \\angle ACD$?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the angles formed by arcs AB and CD in terms of the given information?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What can you conclude about the central angles formed by arcs AB and CD?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can you relate the central angles to the angles within the circle, specifically angles ACB and CAD?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What relationships can you identify between angles ACB and CAD and the angles formed by arcs BC and DA?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can you determine the sum of angles CAB and ACD?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you generalize this approach to finding the sum of angles in other similar configurations?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "What is the final result, and how does it relate to the given problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

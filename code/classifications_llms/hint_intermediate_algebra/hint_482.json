@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_482",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Find constants $A,$ $B,$ and $C$ so that\n\\[\\frac{x^2 - 7}{(x - 2)(x - 3)(x - 5)} = \\frac{A}{x - 2} + \\frac{B}{x - 3} + \\frac{C}{x - 5}.\\]Enter the ordered triple $(A,B,C).$",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the goal of this problem? What do we want to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we start solving this problem? What approach should we take?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Why do we multiply both sides by $(x - 2)(x - 3)(x - 5)$? What does this allow us to do?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "After multiplying both sides, what do we get? Can you simplify the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What values can we substitute for $x$ to help us find the constants $A,$ $B,$ and $C$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Let's set $x = 2.$ What does that tell us about the constant $A$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Let's set $x = 3.$ What can we determine about the constant $B$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Let's set $x = 5.$ What does that tell us about the constant $C$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Based on the values we found for $A,$ $B,$ and $C,$ what is the ordered triple $(A,B,C)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you explain the significance of this ordered triple in the original equation?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_625",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "IM",
+  "problem_type_name": "Improvisations",
+  "problem": "Find the absolute value of the difference of single-digit integers $A$ and $B$ such that  $$ \\begin{array}{c@{}c@{\\;}c@{}c@{}c@{}c} & & & B& B & A_6\\\\ & & & \\mathbf{4} & \\mathbf{1} & B_6\\\\& & + & A & \\mathbf{1} & \\mathbf{5_6}\\\\ \\cline{2-6} & & A & \\mathbf{1} & \\mathbf{5} & \\mathbf{2_6} \\\\ \\end{array} $$Express your answer in base $6$.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step taken when solving the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "In which column did you begin your calculations? Is there a specific reason you chose to start there?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "If $A_6+B_6+5_6$ had equaled $22_6$ instead of $12_6$, what would that have meant for the values of $A_6$ and $B_6$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is it impossible for $A_6+B_6$ to equal $13_6$? Can this be generalized to other base systems?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the significance of the fact that $B_6$ equals $2_6$ in the solution? Could there have been other values that worked?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other methods you could have used to solve the problem? How do you know that this method is the most efficient?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

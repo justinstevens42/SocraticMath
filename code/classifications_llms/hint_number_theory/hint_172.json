@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_172",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find the largest prime factor of $15^3+10^4-5^5$.",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "r",
+    "r",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we find the largest prime factor of a given number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the process for factoring a number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can we factor out common factors before finding the largest prime factor? Why or why not?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can we use divisibility rules to determine potential prime factors of the given number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How does the prime factorization of a number help us find its largest prime factor?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can we use the Sieve of Eratosthenes to find prime factors of the given number? If so, how?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ],
+  "classifier": "llm"
+}

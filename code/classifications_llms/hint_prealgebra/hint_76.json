@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_76",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Evaluate \\begin{align*}\n\\left(c^c-c(c-1)^c\\right)^c\n\\end{align*} when $c=3$.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "r",
+    "e",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step in evaluating the given expression when c = 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you simplify the expression inside the parentheses before raising it to the power of c?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Why do we need to carry out exponentiation before multiplication and subtraction in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you generalize the steps used to evaluate this expression to other problems involving powers and parentheses?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "How can we check our answer to make sure it is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there other ways to approach this problem using different algebraic techniques?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

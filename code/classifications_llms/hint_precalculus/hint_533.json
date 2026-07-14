@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_533",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Let $\\mathcal{T}$ be the set of ordered triples $(x,y,z)$ of nonnegative real numbers that lie in the plane $x+y+z=1.$ Let us say that $(x,y,z)$ supports $(a,b,c)$ when exactly two of the following are true: $x\\ge a, y\\ge b, z\\ge c.$ Let $\\mathcal{S}$ consist of those triples in $\\mathcal{T}$ that support $\\left(\\frac 12,\\frac 13,\\frac 16\\right).$  Find the area of $\\mathcal{S}$ divided by the area of $\\mathcal{T}.$",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the set $\\mathcal{T}$? What are the conditions for a point to belong to $\\mathcal{T}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How would you define the relationship of support between two points in $\\mathcal{T}$? Can you explain the conditions for a point to support another point?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the specific point that we are interested in, which is supported by $\\left(\\frac{1}{2},\\frac{1}{3},\\frac{1}{6}\\right)$? Can you visualize this point in $\\mathcal{T}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How does the plane $x=\\frac{1}{2}$ intersect triangle $\\mathcal{T}$? Can you explain the geometric implications of this intersection?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you apply the same line of reasoning to the planes $y=\\frac{1}{3}$ and $z=\\frac{1}{6}$? What shapes do they create in $\\mathcal{T}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do the shapes $\\mathcal{A}$, $\\mathcal{B}$, and $\\mathcal{C}$ relate to triangle $\\mathcal{T}$? Can you determine their areas in terms of the area of $\\mathcal{T}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the desired area $\\mathcal{S}$? How do you calculate its area in terms of the areas of $\\mathcal{A}$, $\\mathcal{B}$, and $\\mathcal{C}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Using the information about the areas of $\\mathcal{A}$, $\\mathcal{B}$, and $\\mathcal{C}$, can you find the ratio $\\frac{\\text{Area of }\\mathcal{S}}{\\text{Area of }\\mathcal{T}}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

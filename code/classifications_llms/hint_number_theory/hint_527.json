@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_527",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "For the opening home game of the baseball season, the Madd Batters minor league baseball team offered the following incentives to its fans:\n\nEvery 75th fan who entered the stadium got a coupon for a free hot dog.\n\nEvery 30th fan who entered the stadium got a coupon for a free cup of soda.\n\nEvery 50th fan who entered the stadium got a coupon for a free bag of popcorn.\n\nThe stadium holds 4000 fans and was completely full for this game. How many of the fans at the game were lucky enough to receive all three free items?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you identify the three different incentives offered to fans at the baseball game?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for a fan to be \"lucky enough to receive all three free items\"?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the common multiples of 75, 30, and 50?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the least common multiple (LCM) of 75, 30, and 50?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why is the LCM an important concept in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How many common multiples of 75, 30, and 50 are there that are less than or equal to 4000?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we count the number of common multiples using the LCM?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "Can you calculate the number of common multiples using this method?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other situations or problems where finding the LCM and counting common multiples would be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

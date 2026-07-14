@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_316",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Compute\n\\[\\sum_{n = 1}^\\infty \\frac{1}{n(n + 2)}.\\]",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the term \"sum of fractions\" means?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Why did we use partial fractions to rewrite the given series?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain how we arrived at the expression $\\frac{1}{n(n+2)} = \\frac{1/2}{n} - \\frac{1/2}{n+2}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How did we determine the values of $\\frac{1}{2}$ for the numerators in the partial fraction decomposition?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain the purpose of splitting the series into individual terms?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "From the partial fraction decomposition, how did we rewrite the original series in a simplified form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain the pattern we see in the resulting series after simplification?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How did we know to stop at $n=2$ when adding up the terms in the series?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of other series where partial fractions could be used to simplify them in a similar way?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "What is the final sum of the given series and can you explain how you arrived at that result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

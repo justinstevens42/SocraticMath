@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_134",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The matrix\n\\[\\begin{pmatrix} 3 & -1 \\\\ c & d \\end{pmatrix}\\]is its own inverse.  Enter the ordered pair $(c,d).$",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem? What does it mean for a matrix to be its own inverse?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for two matrices to be equal? How does this help us in finding the values of $c$ and $d$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How do we multiply two matrices? Can you perform the multiplication $\\begin{pmatrix} 3 & -1 \\\\ c & d \\end{pmatrix} \\begin{pmatrix} 3 & -1 \\\\ c & d \\end{pmatrix}$ and simplify the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What are the different elements in the resulting matrix after simplification? How can we equate this matrix to the identity matrix $\\mathbf{I}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "By comparing the elements, what values can we determine for $c$ and $d$? How do these values satisfy the equation $\\begin{pmatrix} 3 & -1 \\\\ c & d \\end{pmatrix} \\begin{pmatrix} 3 & -1 \\\\ c & d \\end{pmatrix} = \\mathbf{I}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other situations where a matrix could be its own inverse? How would you approach solving similar problems with matrices being their own inverses?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

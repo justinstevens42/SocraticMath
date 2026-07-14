@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_148",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The average of the numbers 23 and $x$ is 27. What is the positive difference between 23 and $x$? (Recall that the average of two numbers is their sum divided by 2).",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the equation that represents the given problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain what it means for two numbers to have an average?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Using the equation, what is the sum of 23 and x? How did you find this?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How did you isolate the variable x in the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you check your solution by plugging in 31 for x? Does it satisfy the original equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there another method you can think of to solve this problem? How does it compare to the method used above?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

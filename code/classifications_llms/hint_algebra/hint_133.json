@@ -1,0 +1,99 @@
+{
+  "problem_id": "hint_133",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "If $6a^2 + 5a + 4 = 3,$ then what is the smallest possible value of $2a + 1$?",
+  "n_questions": 12,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "r",
+    "f",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the goal of the problem? Can you rephrase it in a simpler way?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you identify the main variables and terms in the equation $6a^2 + 5a + 4 = 3$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Have you encountered similar equations before? If yes, what strategies did you use to solve them?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How would you begin solving this equation? Can you explain the steps involved?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you simplify the equation by combining like terms or rearranging the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there a specific method you would choose to solve this equation? Why?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How would you isolate the variable $a$ in this equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you solve the quadratic equation $6a^2 + 5a + 4 = 3$ using factoring? If yes, what would be the factored form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "If factoring is not feasible in this case, what other methods can you think of to solve the equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 10,
+      "question": "What is the significance of finding the solutions to the equation $6a^2 + 5a + 4 = 3$ in relation to finding the smallest possible value of $2a + 1$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 11,
+      "question": "After obtaining the solutions to the equation, how would you find the smallest possible value of $2a + 1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "Can you generalize the strategies used in this problem to solve similar equations?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

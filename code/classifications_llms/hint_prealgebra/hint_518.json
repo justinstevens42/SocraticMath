@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_518",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "In the diagram, what is the value of $x$? [asy]\nsize(120);\ndraw(Circle((0,0),1));\ndraw((0,0)--(.5,sqrt(3)/2));\ndraw((0,0)--(sqrt(3)/2,.5));\ndraw((0,0)--(sqrt(3)/2,-.5));\ndraw((0,0)--(-1,0));\nlabel(\"$4x^\\circ$\",(0,0),NNW); label(\"$5x^\\circ$\",(0,0),SSW);\nlabel(\"$2x^\\circ$\",(.3,0));label(\"$x^\\circ$\",(.3,.3));\n\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the sum of angles around any point, according to the given information?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you identify all the angles in the diagram and express them in terms of $x$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Based on the given information, can you form an equation involving $x$ to solve for its value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How did you determine that the sum of the angles is equal to $360^\\circ$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain the steps you took to solve the equation $12x = 360$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Why is it necessary to divide both sides of the equation by 12?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final value of $x$ that you obtained, and how does it correspond to the angle in the diagram?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other situations or diagrams where the concept of sum of angles around a point could be applied?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "How would the solution process change if the angles in the diagram were given as ratios or expressions instead of degrees?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "Can you find any patterns or relationships among the angles in the diagram?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

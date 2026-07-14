@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_434",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find the matrix $\\mathbf{P}$ such that for any vector $\\mathbf{v},$ $\\mathbf{P} \\mathbf{v}$ is the projection of $\\mathbf{v}$ onto the vector $\\begin{pmatrix} 2 \\\\ -2 \\\\ -1 \\end{pmatrix}.$",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "r",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of a projection onto a vector?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain how the dot product is used to find the projection of a vector onto a given vector?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How is the formula for the projection matrix derived from the definition of projection?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What are the properties of the projection matrix, such as its symmetry and idempotence?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the projection matrix to solve problems involving projections onto a given vector?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other applications of projection matrices in mathematics or other fields?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

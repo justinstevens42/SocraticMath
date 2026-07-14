@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_548",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "In 2010, the sum of the year's digits is $3$.  What is the first year after 2010 in which the sum of the digits is 3 again?",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you define the sum of the digits of a year?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What information is provided in the problem statement regarding the sum of the digits?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you determine the sum of the digits for the year 2010? If so, please explain how.",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "In order to find the first year after 2010 with a digit sum of 3, what range of years should we consider? Can you provide a specific upper limit?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "If we consider the range of years before the year 3000, what possibilities exist for the first digit of the year that would result in a digit sum of 3? List them.",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Among the possibilities identified in the previous question, which years have a digit sum of 3 and are in the future? Please list them.",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Out of the years mentioned in the previous question, which is the first year after 2010? Explain your reasoning.",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other number or year-related problems where similar thinking and steps may be applicable?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

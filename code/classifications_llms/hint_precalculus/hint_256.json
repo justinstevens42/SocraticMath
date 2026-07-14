@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_256",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Compute\n\\[\\frac{1}{\\cos 80^\\circ} - \\frac{\\sqrt{3}}{\\sin 80^\\circ}.\\]",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the initial step in computing the expression $\\frac{1}{\\cos 80^\\circ} - \\frac{\\sqrt{3}}{\\sin 80^\\circ}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the angle subtraction formula to simplify the expression in the numerator?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can we further simplify the expression in the numerator using the angle addition formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we express the denominator in terms of $\\sin 20^\\circ$ using the angle addition formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the final result after simplifying the expression using the previously derived formulas?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we apply similar techniques to other trigonometric expressions with angles in the same family as $80^\\circ$?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

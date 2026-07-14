@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_837",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "A sequence $(a_1,b_1)$, $(a_2,b_2)$, $(a_3,b_3)$, $\\ldots$ of points in the coordinate plane satisfies\n\\[(a_{n + 1}, b_{n + 1}) = (\\sqrt {3}a_n - b_n, \\sqrt {3}b_n + a_n)\\]for $n = 1,2,3,\\ldots$.  Suppose that $(a_{100},b_{100}) = (2,4)$. What is $a_1 + b_1$?  Express your answer using exponential notation.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the relationship between $(a_{n + 1}, b_{n + 1})$ and $(a_n, b_n)$ in the given sequence?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we express $z_{n + 1}$ in terms of $z_n$ using the complex number $a_n + b_n i$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for two complex numbers to be multiplied together, and how does that apply to the expression $(\\sqrt{3} + i) z_n$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we simplify the expression $(\\sqrt{3} + i)^{99}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the value of $z_1$ in terms of $2$ and $i$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we calculate the sum of $a_1$ and $b_1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

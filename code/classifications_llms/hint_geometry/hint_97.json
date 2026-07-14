@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_97",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The side length of the regular hexagon is 10 cm. What is the number of square centimeters in the area of the shaded region? Express your answer in simplest radical form.\n\n[asy]\nsize(100);\n\npair A,B,C,D,E,F;\nA = dir(0); B = dir(60); C = dir(120); D = dir(180); E = dir(240); F = dir(300);\n\nfill(B--C--E--F--cycle,heavycyan);\n\ndraw(A--B--C--D--E--F--A);\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of a regular hexagon?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How many sides does a regular hexagon have? What are the angles of a regular hexagon?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you describe how the triangular regions are formed within the hexagon?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What can we say about the angles of these triangular regions?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine the area of each triangular region?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the relationship between the base and height of each triangular region?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the length of each side of the triangular region? How can we find this length?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "If the side length of the hexagon is 10 cm, what is the length of the height of each triangular region?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we calculate the area of the shaded region?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you simplify the result into simplest radical form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_39",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find the least positive integer $x$ that satisfies $x+4609 \\equiv 2104 \\pmod{12}$.",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "f",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does it mean for two integers to be congruent modulo a given integer?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we rewrite the given congruence in a simplified form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the significance of finding the least positive integer that satisfies the given congruence?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we use modular arithmetic to efficiently find the value of $x$ that satisfies the congruence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there any alternative methods we can use to solve the congruence, and if so, how do they compare to the modular arithmetic approach?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any real-world applications where modular arithmetic and congruences might be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

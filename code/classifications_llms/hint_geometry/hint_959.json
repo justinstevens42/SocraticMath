@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_959",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "In the figure, $PA$ is tangent to semicircle $SAR$, $PB$ is tangent to semicircle $RBT$, and $SRT$ is a straight line.  If arc $AS$ is $58^\\circ$ and arc $BT$ is $37^\\circ$, then find $\\angle APB$, in degrees.\n\n[asy]\nimport graph;\n\nunitsize(1.5 cm);\n\npair A, B, P, R, S, T;\npair[] O;\nreal[] r;\n\nr[1] = 1;\nr[2] = 0.8;\n\nS = (-2*r[1],0);\nO[1] = (-r[1],0);\nR = (0,0);\nO[2] = (r[2],0);\nT = (2*r[2],0);\nA = O[1] + dir(180 - 58)*r[1];\nB = O[2] + dir(37)*r[2];\nP = extension(A, A + rotate(90)*(A - O[1]), B, B + rotate(90)*(B - O[2]));\n\ndraw(S--T);\ndraw(arc(O[1],r[1],0,180));\ndraw(arc(O[2],r[2],0,180));\ndraw(A--P--B);\n\nlabel(\"$A$\", A, NW);\nlabel(\"$B$\", B, NE);\nlabel(\"$P$\", P, N);\nlabel(\"$R$\", R, dir(270));\nlabel(\"$S$\", S, SW);\nlabel(\"$T$\", T, SE);\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given figure and label its important components?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What information is given about the angles in the figure?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we relate the angles in the semicircles to the angle $\\angle APB$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain how we can find angle $\\angle APB$ using the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there any other angles that we need to find in order to solve the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you propose a plan or approach to find angle $\\angle APB$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

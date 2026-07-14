@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_953",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Evaluate the expression\n\\[\n  \\frac{121 \\left( \\frac{1}{13} - \\frac{1}{17} \\right) \n          + 169 \\left( \\frac{1}{17} - \\frac{1}{11} \\right) + 289 \\left( \\frac{1}{11} - \\frac{1}{13} \\right)}{\n        11 \\left( \\frac{1}{13} - \\frac{1}{17} \\right) \n          + 13 \\left( \\frac{1}{17} - \\frac{1}{11} \\right) + 17 \\left( \\frac{1}{11} - \\frac{1}{13} \\right)} \\, .\n\\]",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain how the expression can be simplified step by step?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What happens when we substitute the given variables (a = 11, b = 13, c = 17) into the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you group the terms in the expression with the same reciprocal together? What does this show?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we rewrite the numerator of the expression using the difference of squares?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What can we do with the terms in the numerator to simplify the expression further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why the numerator simplifies to the denominator times the sum of the variables (S)? What does this tell us?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we find the value of S (the sum of the variables a, b, and c)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Finally, what is the value of the expression when we substitute the given values for a, b, and c?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

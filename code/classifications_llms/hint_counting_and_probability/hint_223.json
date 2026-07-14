@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_223",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "A fair 6-sided die is rolled.  If the roll is even, then you win that amount of dollars (so that, for example, if you roll 4, then you win $\\$4$).  If the roll is odd, you win nothing.  What is the expected value of your winnings? Express your answer as a dollar value.",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "b",
+    "f",
+    "r",
+    "r",
+    "r",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does it mean to calculate the expected value of the winnings?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the probability of rolling an odd number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What are the possible outcomes and respective probabilities for winning $\\$2$, $\\$4$, and $\\$6$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How do we calculate the expected value when there are different outcomes with different probabilities?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Why do we multiply each outcome by its probability?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why we add the products of each outcome and its probability to find the expected value?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Is there a possibility of losing money in this scenario? If so, how would that impact the calculations?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "What would happen to the expected value if the probabilities or winnings were different?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other scenarios where calculating expected value would be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

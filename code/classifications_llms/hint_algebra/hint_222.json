@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_222",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "If $y = \\displaystyle\\frac{1}{3x+1}$, what is the value of $x$ when $y = 1$?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "r",
+    "f",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you simplify the equation $y = \\displaystyle\\frac{1}{3x+1}$? What does it look like in a simpler form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the value of $x$ when $y = 1$? What does setting $y$ to 1 do to the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can we manipulate the equation to isolate $x$ on one side? What steps can we take to achieve this?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean for a fraction to equal 1? How can we use this information to solve the equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What happens to the denominator $3x+1$ when $y = 1$? How does this help us find the value of $x$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other equations where isolating a variable involves similar steps and thinking? How are they similar or different from this example?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

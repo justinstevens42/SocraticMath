@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_333",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Each of five, standard, six-sided dice is rolled once. What is the probability that there is at least one pair but not a three-of-a-kind (that is, there are two dice showing the same value, but no three dice show the same value)?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total number of possible outcomes when rolling five standard, six-sided dice?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "In order to have at least one pair but not a three-of-a-kind, what are the possible scenarios?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Let's analyze the first scenario: having one pair and the other three dice all showing different numbers. How many ways can we pick the number for the pair and the specific dice that show that number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Out of the other three dice, how many ways can we select values so that none of them match each other or the pair?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many total outcomes are there for this first scenario?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Now, let's examine the second scenario: having two pairs and the fifth die showing a different value. How many ways can we choose the two numbers that form the pairs?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How many ways can we pick a value for the fifth die so that it doesn't match any of the pairs?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Considering the number of ways to arrange the five dice, how many total outcomes are there for this second scenario?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the sum of the outcomes from both scenarios?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the probability of rolling a pair without rolling a three-of-a-kind?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_877",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "If $f(x)$ and $g(x)$ are polynomials such that $f(x) + g(x) = -2 + x,$ then what is $g(x)$ if $f(x) = x^3 - 2x - 2$?",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "b",
+    "b",
+    "f",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does it mean for two polynomials to be added together?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the sum of two polynomials when given their sum?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the given sum of the polynomials $f(x)$ and $g(x)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we extract the polynomial $g(x)$ from the given sum $-2 + x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What steps can we take to isolate $g(x)$ in the given equation $f(x) + g(x) = -2 + x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you identify any patterns or relationships between the coefficients of $f(x)$ and $g(x)$ that would help find a solution?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "How does the given equation relate to the concept of polynomial addition and solving for an unknown polynomial?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other scenarios or equations where similar reasoning and steps might be applicable?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

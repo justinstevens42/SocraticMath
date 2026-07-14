@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_268",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Let \\[f(x) =\n\\begin{cases}\n3x + 5 &\\text{if }x<-3, \\\\\n7-4x&\\text{if }x\\ge -3.\n\\end{cases}\n\\]Find $f(5)$.",
+  "n_questions": 9,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "f",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step you would take to find $f(5)$ using the given function definition?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain the function definition in your own words? What does it tell you about $f(x)$ for different values of $x$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can you determine which part of the function definition applies to $x = 5$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "If $x < -3$, what would the value of $f(x)$ be? How does that relate to finding $f(5)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Now consider the case when $x \\geq -3$. What is the value of $f(x)$ in this scenario?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How would you combine the two cases to find $f(5)$? Can you represent it as a single expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other values of $x$ for which you can use this function definition to find $f(x)$?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Is the function defined for all possible values of $x$? If not, why? How does that affect finding $f(5)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 9,
+      "question": "What is the final result of evaluating $f(5)$? How did you determine that?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

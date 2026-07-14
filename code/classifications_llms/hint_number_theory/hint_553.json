@@ -1,0 +1,50 @@
+{
+  "problem_id": "hint_553",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find $120_4\\times13_4\\div2_4$. Express your answer in base 4.",
+  "n_questions": 5,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step in finding the value of $120_4\\div2_4$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Why is it easier to find $120_4\\div2_4$ and then multiply by $13_4$ rather than doing the calculations in the original order?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the quotient when dividing $120_4$ by $2_4$? How did you arrive at that quotient?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain the process of multiplying $13_4$ by $30_4$? What is the product?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the final answer when performing $120_4\\times13_4\\div2_4$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

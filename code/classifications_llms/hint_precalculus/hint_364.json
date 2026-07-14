@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_364",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "The line segment connecting $(-2,7)$ and $(3,11)$ can be parameterized by the equations\n\\begin{align*}\nx &= at + b, \\\\\ny &= ct + d,\n\\end{align*}where $0 \\le t \\le 1,$ and $t = 0$ corresponds to the point $(-2,7).$  Find $a^2 + b^2 + c^2 + d^2.$",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "r",
+    "f",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what a parameterized equation represents in terms of the line segment connecting two points?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the given points $(-2,7)$ and $(3,11)$ to determine the parameterized equation of the segment?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How do we find a, b, c, and d for the parameterized equation using the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why we use t values in the range of [0,1] to parameterize the line segment?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What do a, b, c, and d represent in the parameterized equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "How do we use the parameterized equation to find the length and midpoint of the line segment?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "How can we generalize the process of parameterizing a line segment using given points to other segments or shapes in a coordinate plane?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

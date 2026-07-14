@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_673",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Two distinct integers, $x$ and $y$, are randomly chosen from the set $\\{1,2,3,4,5,6,7,8,9,10\\}$.  What is the probability that $xy-x-y$ is even?",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "f",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does it mean for an expression to be even? How can we determine if an expression is even or odd?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the expression $(x-1)(y-1)$ representing? Can we relate it to the given expression $xy - x - y$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Why does expanding $(x-1)(y-1)$ help us analyze the given expression?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we ensure that $(x-1)(y-1)$ is odd? What conditions on $x$ and $y$ need to be satisfied?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why do both $x-1$ and $y-1$ need to be odd in order for $(x-1)(y-1)$ to be odd?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How many even integers are there in the set $\\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\\}$? How many pairs of even integers can be formed?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How many pairs of integers can be formed in total from the given set?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you calculate the probability that $xy - x - y$ is even using the information you've discovered?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

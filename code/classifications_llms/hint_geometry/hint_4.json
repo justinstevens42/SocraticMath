@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_4",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "A fly is on the edge of a ceiling of a circular room with a radius of 58 feet. The fly walks straight across the ceiling to the opposite edge, passing through the center of the circle. It then walks straight to another point on the edge of the circle but not back through the center. The third part of the journey is straight back to the original starting point. If the third part of the journey was 80 feet long, how many total feet did the fly travel over the course of all three parts?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the fly's journey in terms of the shape it traces?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Why is the triangle formed by the fly's journey a right triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain why one side of the triangle is a diameter of the circular room?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the length of the diameter of the circular room?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "If one leg of the right triangle is 80 feet long, can you calculate the length of the other leg?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How did you use the Pythagorean theorem to find the length of the other leg?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "To calculate the total distance traveled by the fly, what do you need to do with the lengths of the three sides of the triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the total distance traveled by the fly over all three parts of its journey?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

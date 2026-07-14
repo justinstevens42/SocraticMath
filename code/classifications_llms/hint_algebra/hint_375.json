@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_375",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "Find the positive real number $x$ such that $\\lfloor x \\rfloor \\cdot x = 70$. Express $x$ as a decimal.",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the notation $\\lfloor x \\rfloor$ represents in this question?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How would you interpret the equation $\\lfloor x \\rfloor \\cdot x = 70$ in words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What do you think are the possible values for $\\lfloor x \\rfloor$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you think of any restrictions on the value of $x$ given the equation $\\lfloor x \\rfloor \\cdot x = 70$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How would you approach solving this equation to find the positive real number $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What steps would you take to isolate $x$ in the equation? Could you explain your reasoning for each step?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Once you have isolated $x$, how would you express it as a decimal?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any other possible solutions to the equation $\\lfloor x \\rfloor \\cdot x = 70$? If so, what are they?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any real-life scenarios where this type of equation would be applicable? How would you approach solving them?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

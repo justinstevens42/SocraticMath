@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_480",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "How many square units are in the area of the pentagon shown here   with sides of length 15, 20, 27, 24 and 20 units?\n\n[asy]\npair a,b,c,d,e;\na=(0,0);\nb=(24,0);\nc=(24,27);\nd=(5.3,34);\ne=(0,20);\ndraw((0,0)--(24,0)--(24,27)--(5.3,34)--(0,20)--cycle);\ndraw((4.8,32.7)--(6.1,32.2)--(6.6,33.5));\nlabel(\"24\",(12,0),S);\nlabel(\"27\",(24,13.5),E);\nlabel(\"20\",(15,30.5),NE);\nlabel(\"15\",(2.6,27),NW);\nlabel(\"20\",(0,10),W);\ndraw((1.5,0)--(1.5,1.5)--(0,1.5));\ndraw((22.5,0)--(22.5,1.5)--(24,1.5));\n[/asy]",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How is the given pentagon divided into two separate shapes?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the formula for finding the area of a triangle? How can we apply it to the given right triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the formula for finding the area of a trapezoid? How can we apply it to the given trapezoid?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can we find the total area by adding the areas of the right triangle and trapezoid? Why or why not?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the total area of the right triangle? How did you calculate it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the total area of the trapezoid? How did you calculate it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final step to find the total area of the pentagon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any other methods or formulas that can be used to find the area of this pentagon?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other types of polygons where a similar approach could be used to find the area?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

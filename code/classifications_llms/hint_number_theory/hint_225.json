@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_225",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "What is the remainder when $2007$ is divided by $81$?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "e",
+    "r",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the concept of remainders and how they relate to division?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does long division work and what steps are involved in using it to solve this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Are there any shortcuts or tricks that can be used to solve this problem without using long division?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 4,
+      "question": "How does the value of the divisor affect the remainder in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of other examples where finding remainders is important or useful in mathematics?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "How might knowing the remainder in this problem help in solving related problems involving division and remainders?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

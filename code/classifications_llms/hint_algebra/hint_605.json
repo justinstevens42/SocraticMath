@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_605",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "The equation $y=-16t^2+22t+45$ describes the height (in feet) of a ball thrown upwards at $22$ feet per second from $45$ feet above the ground. Find the time (in seconds) when the ball will hit the ground. Express your answer as a common fraction.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem? What do you think we should do first?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What methods do you know that can be used to solve this type of problem? Can you list them?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you choose to solve by factoring, how would you go about finding the appropriate factors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why do you think factoring is a suitable method for solving this equation? What characteristics make it suitable?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you factor the equation? How would you verify that your factors are correct and lead to the right solution?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other types of equations where similar thinking and steps might be used to solve them?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

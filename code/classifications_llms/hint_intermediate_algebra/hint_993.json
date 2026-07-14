@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_993",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Given that $-1 - 4\\sqrt{2}$ is a root of the equation \\[x^3 + ax^2 + bx + 31 = 0\\]and that $a$ and $b$ are rational numbers, compute $a.$",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does it mean for $-1 - 4\\sqrt{2}$ to be a root of the equation? Can you explain the concept of a root in algebraic terms?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the fact that $-1 + 4\\sqrt{2}$ is also a root to determine the third root of the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What method or formula can we use to find the product of the roots of a polynomial equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you apply Vieta's formulas to find the product of the three roots of the given equation? What is the product of the roots?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the product of the roots to find the remaining root of the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "According to Vieta's formulas, how can we express the sum of the three roots in terms of the coefficients of the polynomial? Can you calculate this sum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we determine the value of $a$ using the sum and product of the roots?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you summarize the steps and calculations needed to find the value of $a$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

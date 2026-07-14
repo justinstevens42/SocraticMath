@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_47",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The graph of the quadratic $y = ax^2 + bx + c$ is a parabola that passes through the points $(-1,7)$, $(5,7)$, and $(6,10)$.  What is the $x$-coordinate of the vertex of the parabola?",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you define a parabola and its vertex in relation to this quadratic equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What key information can we gather from the given points on the graph?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain the significance of the points where the parabola intersects the x-axis?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the given points to determine the coefficients (a, b, and c) of the quadratic equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What mathematical relationship connects the x-coordinate of the vertex and the coefficients (a, b, c) of a quadratic equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we use this relationship to find the x-coordinate of the vertex in this specific problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any alternative methods or formulas we could use to find the vertex of a parabola given three points on its graph?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any real-world applications that involve finding the vertex of a parabolic curve?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

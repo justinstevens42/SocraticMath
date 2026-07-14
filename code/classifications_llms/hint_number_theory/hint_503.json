@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_503",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The integer $x$ has 12 positive factors. The numbers 12 and 15 are factors of $x$. What is $x$?",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "b",
+    "r",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what factors are and how they relate to the concept of divisibility?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for a number to have 12 positive factors? Can you provide an example of such a number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Given that 12 and 15 are factors of $x$, what can you say about the prime factorization of $x$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can you find the least common multiple (LCM) of 12 and 15? Can you explain the process?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why is it necessary to consider the LCM in finding the value of $x$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How does the number of factors relate to the prime factorization of a number? Can you explain this using the concept of exponents?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other numbers that have exactly 12 factors? If so, how could you find the prime factorization of those numbers?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

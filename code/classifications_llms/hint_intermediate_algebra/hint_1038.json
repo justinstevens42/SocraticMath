@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_1038",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Let $a,b,c,d,e,f,g$ and $h$ be distinct elements in the set \\[\n\\{-7,-5,-3,-2,2,4,6,13\\}.\n\\]What is the minimum possible value of \\[\n(a+b+c+d)^{2} + (e+f+g+h)^{2}?\n\\]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given set of distinct elements?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you calculate the sum of all the elements in the set?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can you express the value of the sum of $a+b+c+d$ in terms of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the value of $e+f+g+h$ in terms of $x$ and the sum of the elements?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you write the expression $(a+b+c+d)^2 + (e+f+g+h)^2$ using $x$ and the sum of the elements?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can you simplify the expression $(a+b+c+d)^2 + (e+f+g+h)^2$ using algebraic manipulations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the minimum possible value of $(a+b+c+d)^2 + (e+f+g+h)^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can this minimum value be achieved, and if so, how?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Is there any specific choice of the elements in the set that allows us to achieve the minimum value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How does the value of the expression change with different choices for $a,b,c,d,e,f,g,$ and $h$?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

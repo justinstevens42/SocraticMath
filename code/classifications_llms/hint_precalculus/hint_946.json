@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_946",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "In triangle $ABC,$ the midpoint of $\\overline{BC}$ is $(1,5,-1),$ the midpoint of $\\overline{AC}$ is $(0,4,-2),$ and the midpoint of $\\overline{AB}$ is $(2,3,4).$  Find the coordinates of vertex $A.$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the significance of the given points being the midpoints of the sides of triangle $ABC$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the coordinates of the midpoint of a line segment given the coordinates of its endpoints?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What geometric property implies that points $A,$ $E,$ $D,$ and $F$ form a parallelogram?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the coordinates of the midpoint of line segment $EF$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Since $A$ is the intersection of diagonals $AD$ and $EF,$ what conclusion can we draw about the coordinates of point $A$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other situations where finding midpoints or using properties of parallelograms can help us determine the coordinates of a point?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

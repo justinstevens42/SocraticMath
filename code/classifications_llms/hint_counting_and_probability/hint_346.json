@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_346",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Lark has forgotten her locker combination. It is a sequence of three numbers, each in the range from 1 to 30, inclusive. She knows that the first number is odd, the second number is even, and the third number is a multiple of 3. How many combinations could possibly be Lark's?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the range of numbers for each of the three digits in Lark's locker combination?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many odd numbers are there in the given range of numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many even numbers are there in the given range of numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many multiples of 3 are there in the given range of numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the formula to calculate the total number of combinations when there are different options for each digit?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Using the formula, calculate the total number of combinations for Lark's locker combination.",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final answer for the total number of possible combinations for Lark's locker combination?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

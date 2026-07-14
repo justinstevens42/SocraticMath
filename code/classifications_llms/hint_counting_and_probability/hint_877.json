@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_877",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Four distinct points, $A$, $B$, $C$, and $D$, are to be selected from $1996$ points evenly spaced around a circle. All quadruples are equally likely to be chosen. What is the probability that the chord $\\overline{AB}$ intersects the chord $\\overline{CD}$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "f",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe how to select four distinct points from a total of 1996 equally spaced points around a circle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many different clockwise orderings of the selected points are there?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for the chord AB to intersect the chord CD? Can you explain it in your own words?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Out of the six possible clockwise orderings, how many satisfy the intersection condition?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why do only certain orderings satisfy the intersection condition? Can you identify any patterns or observations?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "What is the probability that a randomly selected quadruple of points satisfies the intersection condition? Explain how you arrived at your answer.",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

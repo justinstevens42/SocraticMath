@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_885",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Simplify $(2x^3)^3$.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "e",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step to simplify the expression $(2x^3)^3$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain the concept of exponentiation and how it applies in this expression?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How would you simplify $(2x^3)^3$ using the multiplication property of exponents?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is it important to know the rules of exponents when simplifying expressions?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "What is the result when you simplify $(2x^3)^3$ using the multiplication property of exponents?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other examples where the multiplication property of exponents can be applied to simplify expressions?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

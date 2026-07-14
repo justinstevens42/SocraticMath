@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_600",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "On the Saturday of a weekend softball tournament, Team A plays Team B and Team C plays Team D. Then on Sunday, the two Saturday winners play for first and second places while the two Saturday losers play for third and fourth places. There are no ties. One possible ranking of the team from first place to fourth place at the end of the tournament is the sequence ACBD. What is the total number of possible four-team ranking sequences at the end of the tournament?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the possible rankings for the first and second places?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What conditions restrict the possible combinations for the first and second places?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many different possibilities are there for the first and second places?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many different possibilities are there for the third and fourth places?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we calculate the total number of possible rankings for all four teams?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why we need to multiply the number of possibilities for the first and second places by the number of possibilities for the third and fourth places?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final answer for the total number of possible four-team ranking sequences at the end of the tournament?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

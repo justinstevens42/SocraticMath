@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_727",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "In triangle $ABC$, $AB = 10$ and $AC = 17$.  Let $D$ be the foot of the perpendicular from $A$ to $BC$.  If $BD:CD = 2:5$, then find $AD$.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "f",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "In solving this problem, do you know any different methods that can be used?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "If you choose to use the Pythagorean theorem, how would you apply it to find the lengths of BD and CD?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is it appropriate to use the Pythagorean theorem in this problem? What characteristics of the given triangle make it suitable for this method?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Once you have the expressions for BD^2 and CD^2, how would you use the given ratio BD:CD to set up an equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other types of geometric problems where similar reasoning and steps might be used to find a solution?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

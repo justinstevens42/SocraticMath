@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_348",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Simplify: $$\\dfrac{\\sqrt{338}}{\\sqrt{288}}+\\dfrac{\\sqrt{150}}{\\sqrt{96}}.$$Express your answer as a common fraction.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you simplify $\\sqrt{338}$ and $\\sqrt{288}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you simplify $\\sqrt{150}$ and $\\sqrt{96}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "After simplifying the square roots, what can you do next?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you cancel any terms in the expression? If so, which ones and why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is your final answer, and can you express it as a common fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any similar expressions that can be simplified using the same steps and techniques?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

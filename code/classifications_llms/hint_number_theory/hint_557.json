@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_557",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "What is the units digit when $5^4$ is multiplied out?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "f",
+    "r",
+    "r",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the units digit of 5 when multiplied by itself once (i.e., $5^1$)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the pattern in the units digit of 5 when we multiply it by itself multiple times (e.g., $5^2$, $5^3$, $5^4$, etc.)?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you generalize a rule for finding the units digit of any positive integer power of 5 based on the pattern observed?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we prove this rule using mathematical induction?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "If the units digit of $5^4$ is the same as the units digit of $5^3$, what can we say about the relation between the units digit of $5^n$ and $5^{(n+1)}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Are there any exceptions to this pattern? Can you think of any cases where the units digit does not follow the rule we observed?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

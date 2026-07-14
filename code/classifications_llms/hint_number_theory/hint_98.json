@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_98",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "For all composite integers $n$, what is the largest integer that always divides into the difference between $n$ and the cube of $n$?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain why we are considering the expression $n^3 - n$ and its factors?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How did we factorize $n^3 - n$ as $n(n^2 - 1)$? Can you explain the steps involved?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Why did we mention that among any three consecutive integers, one must be divisible by 2 and one must be divisible by 3?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How does this understanding help us determine that 6 always divides into $n^3 - n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you provide an example where $n^3 - n$ is divisible by 6? How did you arrive at this example?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you find an example where $n^3 - n$ is not divisible by 6?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the largest integer that always divides into the difference between $n$ and the cube of $n$? How did you come to this conclusion?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

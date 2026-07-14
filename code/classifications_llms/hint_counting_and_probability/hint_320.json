@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_320",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "In the row of Pascal's triangle that starts with 1 and then 12, what is the fourth number?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what Pascal's triangle is and how it is constructed?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does the row of Pascal's triangle that starts with 1 and then 12 relate to combinations or binomial coefficients?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What does the notation $\\binom{12}{3}$ mean and how is it calculated?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What are the factors in the numerator and denominator of $\\binom{12}{3}$ and how are they related to the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you provide a step-by-step explanation of how to calculate $\\binom{12}{3}$ using the factorial notation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other patterns or properties of Pascal's triangle that can be observed from this problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

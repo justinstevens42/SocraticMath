@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_522",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "If\n\\[\\tan x = \\frac{2ab}{a^2 - b^2},\\]where $a > b > 0$ and $0^\\circ < x < 90^\\circ,$ then find $\\sin x$ in terms of $a$ and $b.$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "f"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given equation and what is the desired quantity to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you rewrite $\\tan x$ in terms of the opposite and adjacent sides of a right triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What side lengths can we associate with $2ab$ and $a^2 - b^2$ in the context of a right triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the Pythagorean theorem to relate $a^2 + b^2$ to the side lengths of this right triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you write an expression for $\\sin x$ in terms of the side lengths above?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How does the requirement that $a > b > 0$ and $0^\\circ < x < 90^\\circ$ constrain the possible values of the sides of the right triangle, and what implications does this have for our answer?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    }
+  ],
+  "classifier": "llm"
+}

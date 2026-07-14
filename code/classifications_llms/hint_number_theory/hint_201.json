@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_201",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "What is the units digit of $3^{2004}$?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "f",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving the problem of finding the units digit of $3^{2004}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between the units digit of $3^4$ and the units digit of $3^{2004}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can you express $3^{2004}$ in terms of $(3^4)^{501}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is it helpful to express $3^{2004}$ as $(3^4)^{501}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "What is the units digit of $3^4$, and how does it relate to the units digit of $3^{2004}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other similar problems where you can apply similar reasoning and steps to find the units digit?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

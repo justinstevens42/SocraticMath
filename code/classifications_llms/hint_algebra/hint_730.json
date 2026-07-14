@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_730",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Let $C = (3, 5)$ be the midpoint of $AB,$ where $A = (1, 8)$ and $B = (x, y).$ What is the value of $xy$?",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the concept of a midpoint?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the coordinates of a midpoint given the coordinates of the endpoints?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Applying the midpoint formula, what equation can we set up using the values given for $C$, $A$, and $B$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we solve the equation to find the values of $x$ and $y$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the resulting equation after substituting the values for $C$, $A$, and $B$ into the midpoint formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you solve the equation to find the values of $x$ and $y$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Once you find the values of $x$ and $y$, how can you calculate the value of $xy$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

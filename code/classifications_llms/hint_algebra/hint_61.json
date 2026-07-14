@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_61",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "What is the greatest possible positive integer value of $x$ if $\\displaystyle\\frac{x^4}{x^2} < 10$?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does the inequality $\\displaystyle\\frac{x^4}{x^2} < 10$ represent? Can you describe it in words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for the value of $x$ to be a positive integer? How does that relate to the problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you simplify the left side of the inequality $\\displaystyle\\frac{x^4}{x^2}$? What does it become?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Based on the simplified expression, can you determine any limits or boundaries on the possible values of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What happens if you consider different positive integer values for $x$? Can you find any specific examples that satisfy the inequality?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there any pattern or trend that emerges when you try different positive integer values for $x$? Can you use that to help find the greatest possible value of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Is it possible to have an infinitely large positive integer value for $x$ that satisfies the inequality? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other similar problems where similar reasoning and steps might be useful in finding the solution?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

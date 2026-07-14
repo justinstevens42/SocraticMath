@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_235",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What is the second number in the row of Pascal's triangle that has 43 numbers?",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many numbers are in the row of Pascal's triangle that starts with 1, 42?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between the number of numbers in a row and its starting number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain why the row that starts with 1, 42 has 43 numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you generalize the relationship between the starting number and the number of numbers in a row?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you find the second number in the row of Pascal's triangle that starts with 1, 42?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How does the position of a number in the row relate to its value or calculation method?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Can you determine the values of other numbers in the row based on the patterns you observe?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

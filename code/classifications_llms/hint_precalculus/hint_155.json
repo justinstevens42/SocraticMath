@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_155",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "If $\\tan \\theta = 4,$ then find $\\tan 3 \\theta.$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the given equation, $\\tan \\theta = 4$, represents?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean to find $\\tan 3 \\theta$ and why is it important in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you recall any trigonometric identities or formulas that relate angles like $\\theta$ and $3 \\theta$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the triple angle formula for tangent to express $\\tan 3 \\theta$ in terms of $\\tan \\theta$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What steps do we need to take to apply the triple angle formula in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we simplify the expression and calculate the value of $\\tan 3 \\theta$ using the information given?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

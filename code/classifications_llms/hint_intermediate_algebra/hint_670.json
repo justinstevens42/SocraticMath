@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_670",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Determine the exact value of the series\n\\[\\frac{1}{5 + 1} + \\frac{2}{5^2 + 1} + \\frac{4}{5^4 + 1} + \\frac{8}{5^8 + 1} + \\frac{16}{5^{16} + 1} + \\dotsb.\\]",
+  "n_questions": 9,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we determine the exact value of the series?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the concept of telescoping series and how does it relate to finding the exact value?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What happens when we add up the first few terms of the series? Can we simplify the resulting fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we express the sum of the first $n$ terms of the series in terms of $5^{2^n} - 1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does the difference $\\frac{1}{5^{2^n} + 1} - \\frac{1}{5^{2^n} - 1}$ help in telescoping the series?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the relationship between $\\frac{2^n}{5^{2^n} + 1}$ and $\\frac{2^n}{5^{2^n} - 1}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we rewrite the given series using telescoping sums?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the pattern in the telescoping series and how does it lead to the final result of $\\frac{1}{4}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other examples or applications where telescoping sums can be useful in determining exact values?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

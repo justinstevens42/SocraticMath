@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_569",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "$ABCD$ is a regular tetrahedron (right triangular pyramid).  If $M$ is the midpoint of $\\overline{CD}$, then what is $\\cos \\angle AMB$?",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a regular tetrahedron and what are its defining properties?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How is the angle $\\angle AMB$ related to the tetrahedron and the given information?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the foot of the altitude from point A to face BCD?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the centroid of a triangle and how is it related to the foot of the altitude?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we express $\\cos \\angle AMB$ using geometric relationships between points A, M, and G?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the length of GM in terms of BM?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How do we simplify the expression $\\frac{GM}{AM}$ to find $\\cos \\angle AMB$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Why is $\\cos \\angle AMB$ equal to $\\frac{1}{3}$ in this case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Are there any other similar geometric problems where we can apply similar thinking and steps?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

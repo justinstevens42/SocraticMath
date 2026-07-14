@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_356",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "An $\\textit{abundant number}$ is a positive integer, the sum of whose distinct proper factors is greater than the number. (The $\\textit{proper factors}$ of a number are all of its factors except the number itself.) How many numbers less than 25 are abundant numbers?",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what an abundant number is in your own words?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Why can't a prime number be abundant?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you identify all the numbers less than 25 that are factors of any of the given numbers (12, 18, 20, 24)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How would you calculate the sum of the proper factors of each of these numbers? Can you demonstrate for one of them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you compare the sum of the proper factors of each number with the number itself to determine if it is abundant or not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any patterns or observations you can make about the numbers that are abundant?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other strategies or approaches to determine if a number is abundant or not?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Can you find any abundant numbers between 25 and 50, and apply similar reasoning to find their sum?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

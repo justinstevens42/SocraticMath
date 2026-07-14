@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_559",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "A line is expressed in the form\n\\[\\begin{pmatrix} 1 \\\\ 3 \\end{pmatrix} \\cdot \\left( \\begin{pmatrix} x \\\\ y \\end{pmatrix} - \\begin{pmatrix} -2 \\\\ 8 \\end{pmatrix} \\right) = 0.\\]The equation of the line can be expressed in the form $y = mx + b.$  Enter the ordered pair $(m,b).$",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "e",
+    "f",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the first step to solve this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you think of any other ways to express a line equation besides the given form?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 3,
+      "question": "Why is it important to expand and simplify the expression in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What significance does the dot product have in the equation of a line?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How did you determine the values of $m$ and $b$ in the final form of the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other examples where the dot product can be used to represent a geometric relationship?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

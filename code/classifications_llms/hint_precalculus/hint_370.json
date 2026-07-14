@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_370",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Let $P$ be a point inside triangle $ABC$ such that\n\\[\\overrightarrow{PA} + 2 \\overrightarrow{PB} + 3 \\overrightarrow{PC} = \\mathbf{0}.\\]Find the ratio of the area of triangle $ABC$ to the area of triangle $APC.$",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given problem in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What information are you given in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What are you trying to find in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Let's define some vectors to simplify the equation. Can you define the vectors $\\mathbf{a}, \\mathbf{b}, \\mathbf{c}, \\mathbf{p}$ in terms of the points $A, B, C, P$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Using the given equation $\\overrightarrow{PA} + 2 \\overrightarrow{PB} + 3 \\overrightarrow{PC} = \\mathbf{0}$, can you solve for the vector $\\mathbf{p}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Show that the vector $\\frac{3}{2} \\mathbf{p} - \\frac{1}{2} \\mathbf{b}$ lies on line $BP$ and $AC$ by showing that the coefficients on both sides of the equation add up to 1.",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you isolate $\\mathbf{p}$ in the equation $\\mathbf{p} = \\frac{1}{3} \\mathbf{b} + \\frac{2}{3} \\mathbf{e}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What can you conclude about the ratio of $BP:PE$ using the equation from step 7?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you find the ratio of the areas of triangles $ABE$ and $APE$ in terms of $BE$ and $PE$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "By using the ratios found in step 9 and considering triangle $CBE$ and $CPE$, what can you deduce about the ratio of the areas of triangles $ABC$ and $APC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

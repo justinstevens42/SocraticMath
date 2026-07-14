@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_53",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Let $\\mathcal{C}$ be the hyperbola $y^2 - x^2 = 1$.  Given a point $P_0$ on the $x$-axis, we construct a sequence of points $(P_n)$ on the $x$-axis in the following manner: let $\\ell_n$ be the line with slope 1 passing passing through $P_n$, then $P_{n+1}$ is the orthogonal projection of the point of intersection of $\\ell_n$ and $\\mathcal C$ onto the $x$-axis. (If $P_n = 0$, then the sequence simply terminates.)\n\nFind the number of starting positions $P_0$ on the $x$-axis such that $P_0 = P_{2008}$.  Your answer should use exponential notation, in simplest form.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the steps involved in finding the sequence of points $(P_n)$ on the $x$-axis?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How is the line $\\ell_n$ defined, and why is it used in the construction of the sequence?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What equations are used to find the coordinates of $P_{n+1}$ in terms of $P_n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What relationship can be observed between $x_{n+1}$ and $x_n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can the sequence be represented using trigonometric functions and angles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the significance of choosing $\\theta_0$ in the range of $(0, \\pi)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "How is the double-angle formula used to find $\\cot \\theta_{n+1}$ in terms of $\\cot \\theta_n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we determine the condition for $P_0$ to equal $P_{2008}$ using the equation $2^{2008} \\theta_0 - \\theta_0 = k \\pi$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we relate $\\theta_0$ to the number of starting positions on the $x$-axis?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the final answer to the problem, expressed in exponential notation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

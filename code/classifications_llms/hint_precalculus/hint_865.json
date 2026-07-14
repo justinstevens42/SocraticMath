@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_865",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find a unit vector that is orthogonal to both $\\begin{pmatrix} 1 \\\\ 1 \\\\ 0 \\end{pmatrix}$ and $\\begin{pmatrix} 1 \\\\ 0 \\\\ 2 \\end{pmatrix}.$",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the two vectors that we are given, and what is the relationship between them?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the definition of a unit vector, and why do we want to find one that is orthogonal to the given vectors?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How do we compute the cross product of two vectors, and what is the resulting vector geometrically?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the magnitude of the vector we obtained from the cross product, and why do we divide by this magnitude to obtain a unit vector?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we know that the vector we obtained is orthogonal to both of the given vectors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other ways to find a vector that is orthogonal to two given vectors, and what are the advantages and disadvantages of these methods?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Can we visualize the resulting vector in three-dimensional space, and what is its significance in geometry and physics?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_810",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Given that $\\binom{17}{7}=19448$, $\\binom{17}{8}=24310$ and $\\binom{17}{9}=24310$, calculate $\\binom{19}{9}$.",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of the binomial coefficient $\\binom{n}{k}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain the significance of Pascal's identity in relation to binomial coefficients?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we apply Pascal's identity to calculate $\\binom{19}{9}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "By applying Pascal's identity twice, can you show how $\\binom{19}{9}$ can be expressed in terms of $\\binom{17}{7}$, $\\binom{17}{8}$, and $\\binom{17}{9}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Now that we know the value of $\\binom{19}{9}$ can be expressed in terms of those other coefficients, how can we substitute the given values to calculate it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Based on the calculation we just made, what is the value of $\\binom{19}{9}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

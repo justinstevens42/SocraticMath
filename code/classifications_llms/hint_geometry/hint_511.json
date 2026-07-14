@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_511",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "In the diagram, each of the three identical circles touch the other two.  The circumference of each circle is 36.  What is the perimeter of the shaded region? [asy]\n\ndefaultpen(1);\n\npath p = (1, 0){down}..{-dir(30)}dir(-60){dir(30)}..{dir(-30)}((2, 0) + dir(-120)){-dir(-30)}..{up}(1, 0)--cycle;\nfill(p, gray(0.75));\n\ndraw(unitcircle);\ndraw(shift(2 * dir(-60)) * unitcircle);\ndraw(shift(2) * unitcircle);\n[/asy]",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given diagram of the three identical circles and the shaded region?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How do we know that the line segments joining the centers of each circle are of equal length?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What type of triangle do these line segments form, and how do we know?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the significance of the fact that this triangle is equilateral?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can we find the length of each circular arc that encloses the shaded region?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the relationship between the central angle of each arc and the circumference of the corresponding circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "What is the length of each arc, and how did we calculate it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the perimeter of the shaded region, and how did we calculate it using the lengths of the three arcs?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other examples of geometric shapes or problems where a similar approach could be used to find the perimeter or area?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

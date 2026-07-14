@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_646",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "A Senate committee has 5 Democrats and 5 Republicans. Assuming all politicians are distinguishable, in how many ways can they sit around a circular table without restrictions?  (Two seatings are considered the same if one is a rotation of the other.)",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total number of politicians in the Senate committee and what is the composition of Democrats and Republicans?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the difference between a circular table and a regular rectangular table when it comes to seating arrangements?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If there were no restrictions, how many ways could the politicians be seated around the circular table?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many times is each valid arrangement counted when determining the total number of possible seatings?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we adjust the total number of possible seatings to account for rotations of the same arrangement?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the final answer to the problem and how does it compare to the total number of ways to seat the politicians without considering the circular table restriction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can we apply the same approach to solve problems involving seating arrangements with different numbers of people or constraints on who can sit next to whom?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

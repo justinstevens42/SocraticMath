@@ -1,0 +1,113 @@
+{
+  "problem_id": "hint_120",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "What is the maximum possible value of the greatest common divisor of two consecutive terms of the sequence $a_n = n! + n$, where $n \\ge 0$?",
+  "n_questions": 14,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what consecutive terms are in a sequence?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we represent the sequence $a_n = n! + n$ in mathematical notation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the purpose of finding the greatest common divisor (gcd) of two consecutive terms?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain what the Euclidean Algorithm is and how it is related to finding the gcd?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What does it mean for two numbers to be relatively prime?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we apply the Euclidean Algorithm to find the gcd of $a_n$ and $a_{n+1}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What happens when we subtract $(n+1)a_n$ from $a_{n+1}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we simplify the expression $-(n-1)(n+1)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you explain why we can ignore the factor of $n-1$ when calculating the gcd?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What are the different cases we need to consider based on the value of $n+1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "Why is it important to consider whether $n+1$ is prime or composite?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "How do Wilson's Theorem and the factorization of $n!$ help us determine the gcd in certain cases?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 13,
+      "question": "Can you provide an example to illustrate each case and calculate the corresponding gcd?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 14,
+      "question": "What is the largest possible value of the gcd based on our findings?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

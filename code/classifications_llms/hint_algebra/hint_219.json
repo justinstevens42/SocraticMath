@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_219",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "What is the inverse of $f(x)=4-5x$?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you define the inverse of a function?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the process for finding the inverse of a given function?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain why the inverse of a function and the original function \"undo\" each other?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Is it always possible to find the inverse of a function? Why or why not?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "In the function $f(x)=4-5x$, what would be the general approach to finding its inverse?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How would you begin the process of finding the inverse of $f(x)=4-5x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What steps would you take to solve for $x$ in terms of $y$ in the equation $y=4-5x$ in order to find the inverse?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Once you have the equation for the inverse function, how would you confirm that it is indeed the inverse?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you determine the domain and range of the original function and its inverse?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Are there any restrictions or conditions for a function to have an inverse?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_963",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "The arithmetic progressions $\\{2, 5, 8, 11, \\ldots\\}$ and $\\{3, 10, 17, 24, \\ldots \\}$ have some common values. What is the largest value less than 500 that they have in common?",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are arithmetic progressions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you describe in your own words how to find common terms between two arithmetic progressions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What do the congruences $a\\equiv 2\\pmod 3$ and $a\\equiv 3\\pmod 7$ mean in the context of this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How do we use the Chinese Remainder Theorem to solve the system of congruences?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the smallest common term that satisfies the two congruences?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we find all the common terms between the two arithmetic progressions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How do we use the fact that any common term is of the form $17+21m$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the largest common term less than 500?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_400",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Compute\n\\[\\csc \\frac{\\pi}{14} - 4 \\cos \\frac{2 \\pi}{7}.\\]",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step in simplifying the expression $\\csc \\frac{\\pi}{14} - 4 \\cos \\frac{2 \\pi}{7}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can we rewrite $\\csc \\frac{\\pi}{14}$ in terms of sine and cosine functions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How does the double-angle formula apply to $\\sin \\frac{\\pi}{7}$ and $\\cos \\frac{\\pi}{7}$ in the expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we simplify the numerator by using the product-to-sum and double angle formulas?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the final expression after simplifying the numerator?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How does the final expression evaluate to the value of 2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

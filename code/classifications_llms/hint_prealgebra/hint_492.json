@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_492",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Suppose we flip four coins simultaneously: a penny, a nickel, a dime, and a quarter.  What is the probability that the penny and nickel both come up heads?",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many possible outcomes are there when flipping four coins simultaneously?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "If each coin can land heads or tails, how many possibilities are there for each coin?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many possibilities are there for just the penny and nickel, since we want both to come up heads?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many possibilities are there for the dime and quarter? Why are there 2 possibilities for each?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine the total number of successful outcomes for the penny, nickel, dime, and quarter all coming up heads?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What fraction represents the probability of the penny and nickel both coming up heads out of all the possible outcomes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Is this probability the same as the probability of any other combination of coin outcomes? Why or why not?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of a similar scenario where we can use similar reasoning to determine the probability of an event occurring?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

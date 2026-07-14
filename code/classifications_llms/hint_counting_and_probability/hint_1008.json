@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_1008",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 2",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "Bill can buy jags, jigs and jogs for $\\$1$, $\\$2$ and $\\$7$ each, respectively. What is the largest number of jogs he can purchase if he must buy at least one of each item and will spend exactly $\\$50$?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What items can Bill purchase and what is the cost of each item?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the total amount of money that Bill has available to spend?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "If Bill wants to buy at least one of each item, how much money would be spent on jags, jigs, and jogs?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many different combinations of jags, jigs, and jogs can Bill purchase to spend exactly $50?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can Bill purchase 7 jogs? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the maximum number of jogs that Bill can purchase?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you provide an example of a combination of jags, jigs, and jogs that would allow Bill to spend exactly $50 while buying the largest number of jogs?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

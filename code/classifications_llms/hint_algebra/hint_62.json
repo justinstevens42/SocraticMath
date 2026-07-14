@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_62",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "We have that $\\lceil x \\rceil - \\lfloor x \\rfloor = 0.$ Then, what is $\\lceil x \\rceil - x$?",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the symbols $\\lceil x \\rceil$ and $\\lfloor x \\rfloor$ represent in this context?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How would you define the ceiling function $\\lceil x \\rceil$ and the floor function $\\lfloor x \\rfloor$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Given that $\\lceil x \\rceil - \\lfloor x \\rfloor = 0$, what does this tell us about the relationship between the ceiling and floor values of $x$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Considering the equation $\\lceil x \\rceil - x$, can you simplify it algebraically using the properties of the ceiling function?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the possible range of values for $\\lceil x \\rceil - x$ based on the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any scenarios where this equation might be useful or applicable in real-life situations?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "How can understanding the relationship between $\\lceil x \\rceil$, $\\lfloor x \\rfloor$, and $\\lceil x \\rceil - x$ help us in solving other algebraic problems?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

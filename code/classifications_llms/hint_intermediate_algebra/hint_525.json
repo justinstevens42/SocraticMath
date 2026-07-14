@@ -1,0 +1,50 @@
+{
+  "problem_id": "hint_525",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find $s$ given that \\[3 \\log_2 s = \\log_2 (3s).\\]",
+  "n_questions": 5,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "f"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what a logarithm is and how it differs from an exponential function?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we use logarithmic identities to simplify the given equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for the bases of two logarithmic expressions to match, and how does that help us solve the equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you verify the solution of $s = \\sqrt{3}$ by plugging it back into the original equation and checking if it satisfies the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there any restrictions on the possible values of $s$ in this equation? If so, why is that?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    }
+  ],
+  "classifier": "llm"
+}

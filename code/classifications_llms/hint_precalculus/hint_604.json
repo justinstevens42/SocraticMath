@@ -1,0 +1,50 @@
+{
+  "problem_id": "hint_604",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "It can be shown that for any positive integer $n,$\n\\[\\begin{pmatrix} 1 & 1 \\\\ 1 & 0 \\end{pmatrix}^n = \\begin{pmatrix} F_{n + 1} & F_n \\\\ F_n & F_{n - 1} \\end{pmatrix},\\]where $F_n$ denotes the $n$th Fibonacci number.\n\nCompute $F_{784} F_{786} - F_{785}^2.$",
+  "n_questions": 5,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given formula that relates the power of the matrix $\\begin{pmatrix} 1 & 1 \\\\ 1 & 0 \\end{pmatrix}$ to the Fibonacci numbers?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the formula to find the determinant of $\\begin{pmatrix} 1 & 1 \\\\ 1 & 0 \\end{pmatrix}^{785}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How does the determinant of $\\begin{pmatrix} 1 & 1 \\\\ 1 & 0 \\end{pmatrix}^{785}$ relate to $F_{784} F_{786} - F_{785}^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we simplify the determinant of $\\begin{pmatrix} 1 & 1 \\\\ 1 & 0 \\end{pmatrix}^{785}$ using the given formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the value of $F_{784} F_{786} - F_{785}^2$ that we obtain from applying the formula and simplifying the determinant?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

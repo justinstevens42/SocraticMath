@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_931",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "When two fair 6-sided dice are tossed, the numbers $a$ and $b$ are obtained. What is the probability that the two digit number $ab$ (where $a$ and $b$ are digits) and $a$ and $b$ are all divisible by 3?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the possible outcomes when two fair 6-sided dice are tossed?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we represent the outcomes of rolling two dice using a table or a chart?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine if a number is divisible by 3?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do we apply the concept of divisibility by 3 to the problem of finding the probability that $ab$ is divisible by 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why must 3 divide $b$ in order for $ab$ to be divisible by 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What are the possible values of $a$ that would make $a$ and $b$ both divisible by 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we calculate the probability that $a$ equals 3 or 6, given that we know there are 6 possible outcomes for each die roll?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Using the multiplication principle, how can we calculate the probability that both $a$ and $b$ equal 3 or 6?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Does the probability we have calculated match our intuition about the likelihood of rolling two dice and getting a two-digit number that is divisible by 3? Why or why not?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

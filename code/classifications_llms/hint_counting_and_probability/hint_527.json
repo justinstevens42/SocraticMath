@@ -1,0 +1,99 @@
+{
+  "problem_id": "hint_527",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Call a set of integers \"spacy\" if it contains no more than one out of any three consecutive integers.  How many subsets of $\\{1, 2,\n3, \\dots, 12\\}$, including the empty set, are spacy?",
+  "n_questions": 12,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you define a \"spacy\" set of integers in your own words? Can you give an example of a spacy set?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many subsets can be formed from a set that contains only one element? Is the empty set considered spacy?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "For a set that contains two elements, how many different subsets can be formed? Are all of them spacy?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you find a pattern or rule for determining the number of spacy subsets for sets with three elements?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Based on the given information, what is the number of spacy subsets for a set containing four elements? Can you explain how you arrived at your answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "If a set contains five elements, can you use the information about subsets from the previous questions to determine the number of spacy subsets? Explain your reasoning.",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How do subsets that contain the largest element differ from subsets that don't contain it? Can you determine a relationship between these types of subsets?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Using the relationship you found in the previous question, can you find a recursive formula for calculating the number of spacy subsets for larger sets?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Test your recursive formula by calculating the number of spacy subsets for a set with six elements. Does it match the given value in the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How does the recursive formula for the number of spacy subsets relate to the concept of counting and probability? Can you connect it to any other mathematical principles or techniques?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 11,
+      "question": "Can you identify any limitations or constraints on the recursive formula that may affect its application to extremely large sets?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 12,
+      "question": "What other similar problems or scenarios can you think of that may involve the use of the same reasoning and steps as in this problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

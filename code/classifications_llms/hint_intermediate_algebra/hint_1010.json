@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_1010",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Let $x,$ $y,$ $z$ be positive real numbers such that $xyz = 8.$  Find the minimum value of $x + 2y + 4z.$",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is our objective or goal in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the AM-GM inequality to solve this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain the concept of the AM-GM inequality and how it relates to finding the minimum value?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you identify the variables and constants in the given inequality?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "What is the relationship between $x,$ $y,$ and $z$ given the condition $xyz = 8$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "How can we apply the AM-GM inequality to the variables $x,$ $y,$ and $z$ in this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How did we determine the equality case for the AM-GM inequality?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we use the equality case to find the minimum value of $x + 2y + 4z$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you verify that the minimum value occurs when $x = 4,$ $y = 2,$ and $z = 1?$",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

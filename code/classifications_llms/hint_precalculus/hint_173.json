@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_173",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "If triangle $ABC$ has sides of length $AB = 6,$ $AC = 5,$ and $BC = 4,$ then calculate\n\\[\\frac{\\cos \\frac{A - B}{2}}{\\sin \\frac{C}{2}} - \\frac{\\sin \\frac{A - B}{2}}{\\cos \\frac{C}{2}}.\\]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of the given trigonometric expression: $\\frac{\\cos \\frac{A - B}{2}}{\\sin \\frac{C}{2}} - \\frac{\\sin \\frac{A - B}{2}}{\\cos \\frac{C}{2}}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we simplify the expression by expanding the numerator and denominator?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can we simplify the expression further by factoring or canceling out any common terms in the numerator and denominator?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What can we substitute in for the trigonometric ratios using the given lengths of the triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we apply the Law of Sines to relate the side lengths of the triangle to the given expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we simplify the final expression and calculate the numerical value based on the values obtained from the triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

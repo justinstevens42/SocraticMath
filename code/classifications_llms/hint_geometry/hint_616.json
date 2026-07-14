@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_616",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "A triangle has sides of length 5 and 6 units. The length of the third side is $x$ units, where $x$ is an integer. What is the largest possible perimeter of the triangle?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you identify the given information in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can you use the given information to determine the range of possible values for the length of the third side?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Is it possible for the third side to be negative or zero?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can you determine which value(s) of the third side will result in a valid triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the formula for the perimeter of a triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Using the valid value(s) of the third side, what is the largest possible perimeter of the triangle in this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

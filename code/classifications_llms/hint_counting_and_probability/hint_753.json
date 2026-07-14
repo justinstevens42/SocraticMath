@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_753",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Five socks, colored blue, brown, black, red, and purple are in a drawer. In how many different ways can we choose three socks from the drawer if the order of the socks does not matter?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "r",
+    "b",
+    "b",
+    "r",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total number of socks in the drawer?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain why the order of the socks does not matter?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How many socks do we need to choose?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the mathematical concept that represents choosing a certain number of items from a larger set?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we calculate the number of ways to choose three socks from the five available options?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you apply the formula for calculating combinations in this context to find the answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain how the combination formula is derived and why it represents choosing without regard to order?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "Are there any possible mistakes or limitations in using the combination formula for this problem?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any real-life examples where the concept of combinations is relevant?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "Are there any variations of this problem where the concept of combinations would still apply?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

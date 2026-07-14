@@ -1,0 +1,50 @@
+{
+  "problem_id": "hint_546",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "How many integers between 1000 and 2000 have all three of the numbers 15, 20 and 25 as factors?",
+  "n_questions": 5,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does it mean for a number to have 15, 20, and 25 as factors?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the least common multiple (LCM) of 15, 20, and 25?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How do we find the multiples of 300 between 1000 and 2000?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is it necessary for the numbers between 1000 and 2000 to be divisible by 300 in order to have 15, 20, and 25 as factors?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Are there any other common multiples of 15, 20, and 25 within the range of 1000 to 2000?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

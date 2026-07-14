@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_437",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find $\\tan Y$ in the right triangle shown below.\n\n[asy]\npair X,Y,Z;\nX = (0,0);\nY = (24,0);\nZ = (0,7);\ndraw(X--Y--Z--X);\ndraw(rightanglemark(Y,X,Z,23));\nlabel(\"$X$\",X,SW);\nlabel(\"$Y$\",Y,SE);\nlabel(\"$Z$\",Z,N);\nlabel(\"$25$\",(Y+Z)/2,NE);\nlabel(\"$24$\",Y/2,S);\n[/asy]",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you identify the right angle in the triangle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the Pythagorean Theorem and how is it relevant to this triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What are the lengths of the two sides adjacent to angle $Y$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the Pythagorean Theorem to find the length of the remaining side?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the formula for tangent and how does it relate to the sides of a right triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the lengths we found to determine $\\tan Y$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you simplify the expression for $\\tan Y$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other ways to find the value of $\\tan Y$ in this triangle?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "How does the value of $\\tan Y$ relate to the angles and sides of the triangle?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

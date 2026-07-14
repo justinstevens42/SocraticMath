@@ -1,0 +1,92 @@
+{
+  "problem_id": "hint_786",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Two standard 6-sided dice are rolled.  What is the probability that the sum rolled is a perfect square?",
+  "n_questions": 11,
+  "labels": [
+    "r",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what the term \"probability\" means in this context?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How many possible outcomes are there when rolling two dice?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What are the perfect square sums that we can roll with two dice?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How many pairs of dice rolls result in a sum of 4? Can you list them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "And how many pairs of dice rolls result in a sum of 9? Can you list them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How did you determine that there are 7 pairs of dice rolls that result in a perfect square sum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the total number of possible outcomes when rolling two dice?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can you express the probability of getting a perfect square sum in terms of the total number of possible outcomes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you simplify the probability fraction and express it in its lowest terms?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Based on the calculated probability, is it likely or unlikely to roll a perfect square sum when rolling two dice?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 11,
+      "question": "Can you think of any other scenarios or situations where probability and counting principles can be applied similarly?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

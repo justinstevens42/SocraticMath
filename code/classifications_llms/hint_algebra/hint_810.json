@@ -1,0 +1,92 @@
+{
+  "problem_id": "hint_810",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "If the system of equations\n\n\\begin{align*}\n2x-y&=a,\\\\\n3y-6x &=b.\n\\end{align*}has a solution, find $\\frac{a}{b},$ assuming $b \\neq 0.$",
+  "n_questions": 11,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you identify the number of variables in the given system of equations? What are they?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many equations are there in the system? What is the significance of having an equal number of equations and variables?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Are the given equations linear or nonlinear? How can you determine this?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "If the system has a solution, what does it imply about the lines represented by the equations?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you classify the system as consistent, inconsistent, or dependent? How does this affect the solution?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "If the system has a solution, can you express it as an ordered pair? What would be the meaning of this ordered pair within the context of the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you write the system of equations in matrix form and solve it using matrix operations? How does this approach relate to finding the solution?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Assuming the given system has a solution, can you manipulate the equations to find the values of $a$ and $b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How would you proceed to eliminate one variable and solve for the remaining variable in terms of $a$ and $b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Once you have solved for one variable, how can you determine the value of the other variable?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "How can you express $\\frac{a}{b}$ in terms of the values obtained for the variables?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

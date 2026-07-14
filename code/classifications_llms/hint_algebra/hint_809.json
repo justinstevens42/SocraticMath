@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_809",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Let $f(x)=\\frac{3x^2+5x+8}{x^2-x+4}$ and $g(x)=x-1$. Find $f(g(x))+g(f(x))$, evaluated when $x=1$.",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step to finding $f(g(x))+g(f(x))$ when $x=1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can we evaluate $g(x)$ when $x=1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "After finding the value of $g(x)$, how do we proceed with finding $f(g(x))$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain the process of evaluating $f(g(x))$ when $x=1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we evaluate $f(x)$ when $x=1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the next step after finding $f(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you explain the process of evaluating $g(f(x))$ when $x=1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Finally, how do we find the sum of $f(g(x))$ and $g(f(x))$ when $x=1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

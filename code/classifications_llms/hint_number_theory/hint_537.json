@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_537",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "How many odd whole numbers are factors of 180?",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the concept of \"factors\" and how they relate to whole numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How would you approach determining the factors of a given number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the highest power of 2 that divides 180? Can you explain the process of factoring out this power?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "After factoring out the highest power of 2, what does 180 become? Can you express it in its prime factorization form?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can you determine the odd factors of 180 based on its prime factorization? What is the significance of odd factors in this context?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How many factors does the number 45 have? Can you explain why the formula $(2+1)(1+1)$ is used to calculate the number of factors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What are the odd factors of 45? Can you list them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How many odd factors of 180 can be obtained based on the odd factors of 45? Can you calculate this number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other numbers where a similar approach can be used to find the odd factors? What similarities or differences would you expect in the process?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,50 @@
+{
+  "problem_id": "hint_358",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Find all rational roots of\n\\[4x^4 - 3x^3 - 13x^2 + 5x + 2 = 0\\]Enter all the rational roots, separated by commas.",
+  "n_questions": 5,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the Rational Root Theorem is and how it can help us find rational roots of a polynomial equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Why are we only considering rational roots of the form $\\pm \\frac{a}{b}$, where $a$ divides 2 and $b$ divides 4?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How did you come up with the possible rational roots of $\\pm 1, \\ \\pm 2, \\ \\pm \\frac{1}{2}, \\ \\pm \\frac{1}{4}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What method did you use to check each of these possible roots?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why 2 and $-\\frac{1}{4}$ are the only rational roots of the polynomial equation listed?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

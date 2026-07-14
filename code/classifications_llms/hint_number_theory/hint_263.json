@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_263",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "The number $5\\,41G\\,507\\,2H6$ is divisible by $72.$ If $G$ and $H$ each represent a single digit, what is the sum of all distinct possible values of the product $GH?$ (Count each possible value of $GH$ only once, even if it results from multiple $G,$ $H$ pairs.)",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "f",
+    "r",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain why we need to check divisibility by $8$ and $9$ for the given number $5\\,41G\\,507\\,2H6$ to be divisible by $72$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine if the last three digits, denoted by $2H6$, are divisible by $8$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Based on the divisibility rule for $8$, what values of $H$ are possible in order for $2H6$ to be divisible by $8$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why checking divisibility by $8$ allows us to narrow down the possibilities for $H$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Now, let's focus on checking divisibility by $9$. How can we determine if the entire number, $5\\,41G\\,507\\,2H6$, is divisible by $9$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Could you explain how we can calculate the sum of the digits in $5\\,41G\\,507\\,2H6$ in order to check divisibility by $9$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "For each possible value of $H$, can you find the values of $G$ that make $5\\,41G\\,507\\,2H6$ divisible by $9$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the reasoning behind choosing $36$ as the target sum for divisibility by $9$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 9,
+      "question": "Can you identify the distinct pairs of $G$ and $H$ values that satisfy both divisibility conditions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Finally, how can we calculate the distinct possible values for the product $GH$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

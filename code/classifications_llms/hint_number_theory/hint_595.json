@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_595",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Alicia has $n$ candies, where $n$ is a positive integer with three digits. If she buys $5$ more, she will have a multiple of $8$. If she loses $8$, she will have a multiple of $5$. What is the smallest possible value of $n$?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you restate the problem in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for a number to be a multiple of $8$ or $5$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What do the given congruences tell us about the value of $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the Chinese Remainder Theorem to simplify the congruences?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Why does the Chinese Remainder Theorem work in this case?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What is the general form of the solutions to the congruences in terms of an integer $m$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we find the smallest possible solution with three digits?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Is it possible to have more than one solution for $n$? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of a similar problem involving congruences that can be solved using a similar approach?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

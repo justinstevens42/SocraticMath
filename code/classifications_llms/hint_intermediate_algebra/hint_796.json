@@ -1,0 +1,134 @@
+{
+  "problem_id": "hint_796",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "The circles $C_1$ and $C_2$ are defined by the equations $x^2 + y^2 = 1$ and $(x - 2)^2 + y^2 = 16,$ respectively.  Find the locus of the centers $(a,b)$ of all circles externally tangent to $C_1$ and internally tangent to $C_2.$  Enter your answer in the form\n\\[Pa^2 + Qb^2 + Ra + Sb + T = 0,\\]where all the coefficients are integers, $P$ is positive, and $\\gcd(|P|,|Q|,|R|,|S|,|T|) = 1.$\n\nNote: The word \"locus\" is a fancy word for \"set\" in geometry, so \"the locus of the centers\" means \"the set of the centers\".",
+  "n_questions": 17,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "f",
+    "r",
+    "r",
+    "b",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the problem is asking for in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How would you represent the center of a circle in mathematical notation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What information do we know about the circles $C_1$ and $C_2$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can you define the locus of the centers of all circles externally tangent to $C_1$ and internally tangent to $C_2$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Can you describe what it means for a circle to be externally tangent to another circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you describe what it means for a circle to be internally tangent to another circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can you represent the equations of the circles $C_1$ and $C_2$ using algebraic equations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you explain how you would approach finding the center and radius of a circle tangent to both $C_1$ and $C_2$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 9,
+      "question": "What do you notice about the distance between the center of the circle and the centers of $C_1$ and $C_2$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 10,
+      "question": "How can you express the distance between the center of the circle and the centers of $C_1$ and $C_2$ using algebraic equations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "How can you derive an equation that relates the center of the circle, its radius, and the centers of $C_1$ and $C_2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "Can you explain how you simplified the equation $a^2 - (a - 2)^2 = (r + 1)^2 - (4 - r)^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 13,
+      "question": "How did you express the radius in terms of $a$ in the equation $r = \\frac{4a + 11}{10}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 14,
+      "question": "Can you explain how you substituted the expression for $r$ into the equation $a^2 + b^2 = (r + 1)^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 15,
+      "question": "How did you simplify the equation $a^2 + b^2 = \\left( \\frac{4a + 21}{10} \\right)^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 16,
+      "question": "What is the final equation that represents the locus of the centers of the circles? Can you explain how you obtained this equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 17,
+      "question": "Can you interpret the coefficients in the final equation in terms of the original problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

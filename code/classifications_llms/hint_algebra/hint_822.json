@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_822",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find a nonzero $p$ such that $px^2-12x+4=0$ has only one solution.",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what it means for a quadratic equation to have only one solution?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How many solutions does a quadratic equation typically have?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Considering the quadratic equation given, what can you infer about the discriminant (the part inside the square root in the quadratic formula)?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How does the discriminant relate to the number of solutions of a quadratic equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Given the quadratic equation $px^2-12x+4=0$, can you determine an expression for the discriminant in terms of $p$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "In order for the equation to have only one solution, what should be the relationship between $p$ and the discriminant?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Based on your findings, can you calculate a value for $p$ that ensures the quadratic equation has only one solution?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How would you verify that the quadratic equation $px^2-12x+4=0$ indeed has only one solution when using the calculated value for $p$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other types of quadratic equations where a similar thought process and steps would be useful in finding a specific solution?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

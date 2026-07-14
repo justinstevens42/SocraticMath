@@ -1,0 +1,99 @@
+{
+  "problem_id": "hint_1028",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "An o-Pod MP3 player stores and plays entire songs. Celeste has 10 songs stored on her o-Pod. The time length of each song is different. When the songs are ordered by length, the shortest song is only 30 seconds long and each subsequent song is 30 seconds longer than the previous song. Her favorite song is 3 minutes, 30 seconds long. The o-Pod will play all the songs in random order before repeating any song. What is the probability that she hears the first 4 minutes, 30 seconds of music - there are no pauses between songs - without hearing every second of her favorite song? Express your answer as a common fraction.",
+  "n_questions": 12,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the objective of the problem in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the total number of songs stored on Celeste's o-Pod?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the length of the shortest song on Celeste's o-Pod?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How does the length of each subsequent song compare to the previous song?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "What is the length of Celeste's favorite song?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "Can you describe the order in which songs are played on the o-Pod?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "How many different ways can the 10 songs be ordered on the o-Pod?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the probability of Celeste hearing every second of her favorite song if it is the first song played?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "If Celeste's favorite song is not the first one played, in which other positions can it be played for her to hear it entirely?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How many arrangements are there where Celeste doesn't hear every second of her favorite song within the first 4 minutes, 30 seconds?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "What is the probability that Celeste hears the first 4 minutes, 30 seconds of music without hearing every second of her favorite song?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "How can we calculate the final probability using the information we have?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

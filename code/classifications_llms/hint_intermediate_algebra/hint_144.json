@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_144",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Let $x,$ $y,$ $z$ be real numbers such that $4x^2 + y^2 + 16z^2 = 1.$  Find the maximum value of\n\\[7x + 2y + 8z.\\]",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given condition in the problem? Can you state it in mathematical terms?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the expression that we need to find the maximum value of?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you identify any familiar inequalities that can be used to solve this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we apply Cauchy-Schwarz inequality in this context?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the expression that we obtain after applying Cauchy-Schwarz inequality?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we determine the maximum value of the expression based on the obtained inequality?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What conditions need to be satisfied for the equality to hold in the inequality?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "Can you find the values of $x,$ $y,$ and $z$ that satisfy the equality condition?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the maximum value of the expression $7x + 2y + 8z$ based on the values of $x,$ $y,$ and $z$ that satisfy the equality condition?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

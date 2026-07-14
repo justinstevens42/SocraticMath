@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_955",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "In triangle $ABC$, altitudes $AD$, $BE$, and $CF$ intersect at the orthocenter $H$.  If $\\angle ABC = 49^\\circ$ and $\\angle ACB = 12^\\circ$, then find the measure of $\\angle BHC$, in degrees.",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the relationships between the altitudes of triangle ABC and the orthocenter H?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do we know that triangle ABC is obtuse? Why is this important in determining the location of H?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Why does angle CBE equal 90 degrees minus angle BCE? What does this tell us about the angles in triangle BEC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why does angle BCF equal 90 degrees minus angle CBF? What does this tell us about the angles in triangle BFC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we find angle BHC using the angles we have already determined? What relationship is involved?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we find the measure of any other angles in triangle ABC using similar reasoning?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

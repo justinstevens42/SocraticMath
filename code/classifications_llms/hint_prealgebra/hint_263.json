@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_263",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "In the regular hexagon to the right, how many degrees are in the exterior angle indicated?\n\n[asy]size(101);\ndraw((0,0)--(2,0)--(3,sqrt(3))--(2,2sqrt(3))--(0,2sqrt(3))--(-1,sqrt(3))--cycle);\ndraw((2,0)--(4,0));\npair arrowstart = (2,0) + .75 expi(pi/7);\ndraw(arrowstart--arrowstart + expi(pi/7),BeginArrow);[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "r",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many degrees are there in the sum of the interior angles of a regular hexagon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the measure of each interior angle in a regular hexagon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the measure of an exterior angle of a regular hexagon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How are the measures of the interior and exterior angles related in a regular hexagon?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Why do we subtract the measure of the interior angle from 180 to find the measure of the exterior angle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other regular polygons where we can use similar methods to find the measure of the exterior angle?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

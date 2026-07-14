@@ -1,0 +1,92 @@
+{
+  "problem_id": "hint_635",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Solve for $x$, if $8^{4x-6}=\\left(\\frac{1}{2}\\right)^{x+5}$.",
+  "n_questions": 11,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you simplify the equation by rewriting the bases of the exponents in terms of a common base?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for two exponents to be equal?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we rewrite $8$ and $\\left(\\frac{1}{2}\\right)$ in terms of a common base?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "After rewriting the bases, what does the new equation look like?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you identify any exponent properties or laws that can help simplify the equation further?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we eliminate the variable from the exponents to find the value of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Once we have eliminated the variable, what does the final equation look like?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we solve the simplified equation to find the value of $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you explain the steps and reasoning behind solving the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Are there any alternative methods or strategies that can be used to solve this type of exponential equation?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 11,
+      "question": "Can you think of any other similar equations where similar thinking and steps might be useful in finding the solution?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

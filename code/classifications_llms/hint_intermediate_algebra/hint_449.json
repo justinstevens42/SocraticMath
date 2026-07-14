@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_449",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Compute \\[\\dfrac{2^3-1}{2^3+1}\\cdot\\dfrac{3^3-1}{3^3+1}\\cdot\\dfrac{4^3-1}{4^3+1}\\cdot\\dfrac{5^3-1}{5^3+1}\\cdot\\dfrac{6^3-1}{6^3+1}.\\]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given expression? Can you simplify it at all?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we use sum and difference of cubes to factor the expression?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the pattern we notice in the resulting factorization?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we simplify the resulting product by using this pattern?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can we express the final product in a simplified form? What is it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other applications for this factoring method?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

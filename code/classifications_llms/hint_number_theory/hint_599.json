@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_599",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "If $n$ is $1$ less than a multiple of $50$, then what is the remainder when $n^2+2n+3$ is divided by $50$?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given problem in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for a number to be \"1 less than a multiple of 50\"?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What does the notation \"≡\" (congruence) signify, and how does it relate to dividing by 50?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "If we know that $n\\equiv -1\\pmod{50}$, how can we use this information to find the remainder when $n^2+2n+3$ is divided by 50?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What do we mean when we say that two numbers are \"congruent modulo 50\"?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we simplify the expression $n^2+2n+3$ given the congruence $n\\equiv -1\\pmod{50}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the remainder when $n^2+2n+3$ is divided by 50 based on the simplification?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of other similar problems where the concept of congruence and finding remainders modulo a certain number can be applied?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

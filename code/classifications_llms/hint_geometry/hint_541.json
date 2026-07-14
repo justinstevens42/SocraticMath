@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_541",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "In the diagram, two pairs of identical isosceles triangles are cut off of square $ABCD$, leaving rectangle $PQRS$. The total area cut off is $200 \\text{ m}^2$. What is the length of $PR$, in meters? [asy]\nsize(5cm);\n\npair a = (0, 1); pair b = (1, 1); pair c = (1, 0); pair d = (0, 0);\npair s = (0, 0.333); pair p = (0.667, 1); pair q = (1, 0.667); pair r = (0.333, 0);\n\n// Thicken pen\ndefaultpen(linewidth(1));\n\n// Fill triangles\npath tri1 = a--p--s--cycle;\npath tri2 = p--q--b--cycle;\npath tri3 = q--c--r--cycle;\npath tri4 = s--r--d--cycle;\nfill(tri1, gray(0.75));fill(tri2, gray(0.75));\nfill(tri3, gray(0.75));fill(tri4, gray(0.75));\n\n// Draw rectangles\ndraw(a--b--c--d--cycle); draw(p--q--r--s--cycle);\n\n// Labels\nlabel(\"$A$\", a, NW); label(\"$B$\", b, NE); label(\"$C$\", c, SE); label(\"$D$\", d, SW);\nlabel(\"$P$\", p, N); label(\"$Q$\", q, E); label(\"$R$\", r, S); label(\"$S$\", s, W);\n\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the initial setup of the problem and identify all the given information?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many pairs of identical triangles are being cut off from square ABCD?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What are the dimensions of the rectangle PQRS in terms of x and y?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the area of each isosceles triangle cut off, and what is their total area?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the Pythagorean theorem to find PR?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the final answer and units for the length of PR?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

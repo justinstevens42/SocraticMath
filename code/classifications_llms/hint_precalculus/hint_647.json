@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_647",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Let $\\mathbf{a},$ $\\mathbf{b},$ and $\\mathbf{c}$ be nonzero vectors, no two of which are parallel, such that\n\\[(\\mathbf{a} \\times \\mathbf{b}) \\times \\mathbf{c} = \\frac{1}{3} \\|\\mathbf{b}\\| \\|\\mathbf{c}\\| \\mathbf{a}.\\]Let $\\theta$ be the angle between $\\mathbf{b}$ and $\\mathbf{c}.$  Find $\\sin \\theta.$",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given equation and what are the quantities involved?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What do the cross products, dot products, and vector triple product represent in this context?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we rewrite the equation using the vector triple product formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What can we deduce from the fact that $\\mathbf{a},$ $\\mathbf{b},$ and $\\mathbf{c}$ are nonzero vectors and no two of them are parallel?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we simplify the equation further using the dot product properties?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What information can we gather from the equation $\\mathbf{b} \\cdot \\mathbf{c} + \\frac{1}{3} \\|\\mathbf{b}\\| \\|\\mathbf{c}\\| = 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we relate $\\mathbf{b} \\cdot \\mathbf{c}$ to the angle between $\\mathbf{b}$ and $\\mathbf{c}$ using the cosine formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the value of $\\cos \\theta$ based on the previous step?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we find $\\sin \\theta$ using the relationship between $\\sin \\theta$ and $\\cos \\theta$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the final value of $\\sin \\theta$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

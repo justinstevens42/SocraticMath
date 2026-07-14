@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_58",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Let $\\alpha$ and $\\beta$ be real numbers.  Find the minimum value of\n\\[(2 \\cos \\alpha + 5 \\sin \\beta - 8)^2 + (2 \\sin \\alpha + 5 \\cos \\beta - 15)^2.\\]",
+  "n_questions": 10,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we rewrite the expression $(2 \\cos \\alpha + 5 \\sin \\beta - 8)^2 + (2 \\sin \\alpha + 5 \\cos \\beta - 15)^2$ in terms of $x$ and $y$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the range of values that $(2 \\cos \\alpha + 5 \\sin \\beta - 8)^2 + (2 \\sin \\alpha + 5 \\cos \\beta - 15)^2$ can have?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we rewrite $x^2 + y^2$ in terms of $\\alpha$ and $\\beta$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the relationship between $x^2 + y^2$ and $(2 \\cos \\alpha + 5 \\sin \\beta - 8)^2 + (2 \\sin \\alpha + 5 \\cos \\beta - 15)^2$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How do the points $P$ ($8,15$), $O$ $(0,0)$, and $Q$ $(x,y)$ relate to each other geometrically?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "How can we represent the inequality $OQ + PQ \\ge OP$ algebraically using the coordinates of $P$, $O$, and $Q$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the minimum value that $PQ$ can have?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we use the minimum value of $PQ$ to establish a lower bound for $(2 \\cos \\alpha + 5 \\sin \\beta - 8)^2 + (2 \\sin \\alpha + 5 \\cos \\beta - 15)^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "When does equality occur in the inequality $PQ \\ge 10$ and what values of $\\alpha$ and $\\beta$ correspond to this?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the minimum value of $(2 \\cos \\alpha + 5 \\sin \\beta - 8)^2 + (2 \\sin \\alpha + 5 \\cos \\beta - 15)^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

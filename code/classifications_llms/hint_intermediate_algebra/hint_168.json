@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_168",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The equation of a parabola is $y^2 + 6y + 2x + 5 = 0.$  Find the vertex of the parabola.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "f",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you begin solving this problem, and what is the first step in finding the vertex of the parabola?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you identify any specific techniques or strategies that can be used to find the vertex of a parabola?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If we want to complete the square in order to find the vertex, what term(s) should we focus on when completing the square in this equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the significance of the term being added/subtracted within the completed square form of the equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Based on the equation, can you determine the coordinates of the vertex? If so, what are they and how are they related to the original equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other types of equations where finding the vertex requires similar thinking and steps?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

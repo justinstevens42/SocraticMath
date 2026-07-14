@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_684",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "Let \\[f(x) =\n\\begin{cases}\n9x+4 &\\text{if }x\\text{ is an integer}, \\\\\n\\lfloor{x}\\rfloor+5 &\\text{if }x\\text{ is not an integer}.\n\\end{cases}\n\\]Find $f(\\sqrt{29})$.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you define the given function $f(x)$ based on the provided expression?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you identify the two different cases in the definition of $f(x)$ based on the given conditions?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How would you compute the value of $f(\\sqrt{29})$ using the definition of $f(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the value of the expression $f(\\sqrt{29})$ if $\\sqrt{29}$ is an integer? Why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What happens when $\\sqrt{29}$ is not an integer? How would you compute the value of $f(\\sqrt{29})$ in that case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you simplify the expression $\\lfloor{\\sqrt{29}}\\rfloor+5$? How does it relate to the final value of $f(\\sqrt{29})$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other types of numbers for which we need to consider different cases when finding $f(x)$? If so, can you provide examples and explain the process?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_301",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Let $\\mathbf{M}$ be a matrix, and let $\\mathbf{v}$ and $\\mathbf{w}$ be vectors, such that\n\\[\\mathbf{M} \\mathbf{v} = \\begin{pmatrix} 1 \\\\ -5 \\end{pmatrix} \\quad \\text{and} \\quad \\mathbf{M} \\mathbf{w} = \\begin{pmatrix} 7 \\\\ 2 \\end{pmatrix}.\\]Compute $\\mathbf{M} (-2 \\mathbf{v} + \\mathbf{w}).$",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given problem asking us to compute?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain what it means for a matrix to act on a vector? How does this affect the computation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we distribute the matrix multiplication $\\mathbf{M}(-2 \\mathbf{v} + \\mathbf{w})$? Can you explain each step of the distribution process?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How do we compute the result of $-2 \\mathbf{M} \\mathbf{v}$? What does it mean to multiply a matrix by a scalar?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we compute the result of $\\mathbf{M} \\mathbf{w}$? What does the result represent in terms of vectors and matrices?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "By substituting the given values of $\\mathbf{M} \\mathbf{v}$ and $\\mathbf{M} \\mathbf{w}$, can you compute the final value of $\\mathbf{M} (-2 \\mathbf{v} + \\mathbf{w})$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you interpret the final vector $\\begin{pmatrix} 5 \\\\ 12 \\end{pmatrix}$ in the context of the problem? What does it represent?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any other similar problems where matrix-vector multiplication can be utilized in a similar way?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Are there alternative methods to compute the expression $\\mathbf{M} (-2 \\mathbf{v} + \\mathbf{w})$? How do they differ from the method shown in this problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

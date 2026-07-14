@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_198",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "Let\n\\[\\mathbf{A} = \\begin{pmatrix} 0 & 0 & 1 \\\\ 1 & 0 & 0 \\\\ 0 & 1 & 0 \\end{pmatrix}.\\]Compute $\\mathbf{A}^{100}.$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the initial value of $\\mathbf{A}$ and what does raising it to the power of 100 mean?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How do we compute $\\mathbf{A}^2$? Can you describe the process?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What does $\\mathbf{A}^2$ represent? Are there any patterns or observations we can make?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the information from $\\mathbf{A}^2$ to compute $\\mathbf{A}^3$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you find a relationship between $\\mathbf{A}^3$ and the identity matrix $\\mathbf{I}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Based on the pattern we observed, what will $\\mathbf{A}^{100}$ be? Can you explain why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

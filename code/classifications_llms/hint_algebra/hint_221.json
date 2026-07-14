@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_221",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "The height of a ball when it is thrown off a cliff can be represented by the equation $h=45-7t-6t^2$, where $t$ is time in seconds. In how many seconds will the ball reach a height of 25 feet?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we interpret the equation $h=45-7t-6t^2$ in the context of the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does the coefficient of $t^2$ tell us about the shape of the trajectory of the ball?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What does the coefficient of $t$ tell us about the initial velocity of the ball and its direction?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the time when the ball reaches a height of 25 feet using this equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can we solve this equation by factoring, or do we need to use another method? Why?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What steps can we take to solve this equation and find the time it takes for the ball to reach 25 feet?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we verify our answer to ensure it is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any other equations in physics or other fields that can be solved using similar steps and reasoning?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

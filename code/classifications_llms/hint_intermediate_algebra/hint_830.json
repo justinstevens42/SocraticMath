@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_830",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "Find the sum of all the solutions to $2^{|x|} + 3|x| = 18.$",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "f",
+    "f",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Describe the first step in solving this equation using the Socratic questioning method.",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What are some different methods that can be used to solve equations like this?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you were to use the method of graphing, how would you find the solutions to the equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Why is it useful to pair the solutions as $x$ and $-x$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of any other properties or characteristics of the equation that could help in finding the sum of the solutions?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other equations that can be solved using similar steps and thinking? Can you provide an example?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

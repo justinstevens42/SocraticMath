@@ -1,0 +1,113 @@
+{
+  "problem_id": "hint_112",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "In triangle $ABC,$ $a = 7,$ $b = 9,$ and $c = 4.$  Let $I$ be the incenter.\n\n[asy]\nunitsize(0.8 cm);\n\npair A, B, C, D, E, F, I;\n\nB = (0,0);\nC = (7,0);\nA = intersectionpoint(arc(B,4,0,180),arc(C,9,0,180));\nI = incenter(A,B,C);\n\ndraw(A--B--C--cycle);\ndraw(incircle(A,B,C));\n\nlabel(\"$A$\", A, N);\nlabel(\"$B$\", B, SW);\nlabel(\"$C$\", C, SE);\ndot(\"$I$\", I, NE);\n[/asy]\n\nThen\n\\[\\overrightarrow{I} = x \\overrightarrow{A} + y \\overrightarrow{B} + z \\overrightarrow{C},\\]where $x,$ $y,$ and $z$ are constants such that $x + y + z = 1.$  Enter the ordered triple $(x,y,z).$",
+  "n_questions": 14,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the incenter of a triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do we find the angle bisectors of a triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Why does the angle bisector of an angle bisect the opposite side in a triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the Angle Bisector Theorem to find the incenter of a triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we express the position of the incenter in terms of the vertices of the triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What is the relationship between the incenter and the sides of a triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can we use the given side lengths to find the position of point $C$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How do we isolate $\\overrightarrow{C}$ in terms of $\\overrightarrow{E}$ and $\\overrightarrow{D}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Why is the given equation equivalent to $\\frac{13}{20} \\overrightarrow{D} + \\frac{7}{20} \\overrightarrow{A} = \\frac{11}{20} \\overrightarrow{E} + \\frac{9}{20} \\overrightarrow{B}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How can we use the fact that $\\overrightarrow{I}$ lies on the angle bisectors to determine its position in terms of $\\overrightarrow{A}$, $\\overrightarrow{B}$, and $\\overrightarrow{C}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "What is the final expression we obtain for $\\overrightarrow{I}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "How do we use this expression to find the values of $x$, $y$, and $z$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 13,
+      "question": "How can we check that our answer is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 14,
+      "question": "What can we say about the incenter of any triangle based on our observations in this problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_339",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Let $\\bold{v} = \\begin{pmatrix} 5 \\\\ -3 \\end{pmatrix}$ and $\\bold{w} = \\begin{pmatrix} 11 \\\\ -2 \\end{pmatrix}$.  Find the area of the parallelogram with vertices $\\bold{0}$, $\\bold{v}$, $\\bold{w}$, and $\\bold{v} + \\bold{w}$.",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "r",
+    "r",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a parallelogram?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do we find the area of a parallelogram?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you describe the properties of vector addition and subtraction?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do we use vectors to determine the sides of a parallelogram?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the cross product of two vectors and how is it related to area?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the cross product to find the area of the parallelogram with vertices $(0,0)$, $(5,-3)$, $(11,-2)$, and $(16,-5)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "If we change the order of the vertices, will the area be the same?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of any real life applications where calculating the area of a parallelogram is necessary?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

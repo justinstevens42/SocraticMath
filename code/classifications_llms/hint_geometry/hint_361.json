@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_361",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "A spherical scoop of vanilla ice cream with radius of 2 inches is dropped onto the surface of a dish of hot chocolate sauce. As it melts, the ice cream spreads out uniformly forming a cylindrical region 8 inches in radius. Assuming the density of the ice cream remains constant, how many inches deep is the melted ice cream? Express your answer as a common fraction.",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the volume of the ice cream sphere in the given problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How does the ice cream spread out as it melts? What shape does it form?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you calculate the volume of the cylindrical region formed by the melted ice cream?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can you set up an equation using the volumes of the ice cream sphere and the cylindrical region?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the value of the height (h) in the equation? What does it represent?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can you solve the equation to find the value of h?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final answer for the depth of the melted ice cream? Express it as a common fraction.",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

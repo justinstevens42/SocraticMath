@@ -1,0 +1,92 @@
+{
+  "problem_id": "hint_195",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Let $f : \\mathbb{R} \\to \\mathbb{R}$ be a function such that\n\\[f(f(x) + y) = f(x^2 - y) + 4f(x) y\\]for all real numbers $x$ and $y.$\n\nLet $n$ be the number of possible values of $f(3),$ and let $s$ be the sum of all possible values of $f(3).$  Find $n \\times s.$",
+  "n_questions": 11,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the given functional equation is asking for in simpler terms?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for a function to be even? How does this relate to the given functional equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What can we conclude about the possible values of $f(x)$ based on the equation $f(x)(x^2 - f(x)) = 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How did we determine that the functions $f(x) = 0$ and $f(x) = x^2$ are both solutions to the given functional equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you find any additional functions that satisfy the given functional equation? If so, could you describe them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How does the equation $f(f(x)) = f(x^2) + 4a^2 f(x)$ help us analyze the possible values of $f(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Given that $f(0) = 0$, can you determine any other key properties or characteristics of the solutions to the functional equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we conclude that there are only two possible functions that satisfy the given functional equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the value of $n$ in the problem, and how did you determine this?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the value of $s$ in the problem, and how did you determine this?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "Finally, how can we calculate the product $n \\times s$ to find the final answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

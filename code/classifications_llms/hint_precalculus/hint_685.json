@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_685",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "On the complex plane, the parallelogram formed by the points 0, $z,$ $\\frac{1}{z},$ and $z + \\frac{1}{z}$ has area $\\frac{35}{37}.$  If the real part of $z$ is positive, let $d$ be the smallest possible value of $\\left| z + \\frac{1}{z} \\right|.$  Compute $d^2.$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the steps involved in finding the area of the parallelogram on the complex plane?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How did we arrive at the equation $\\left|\\sin 2 \\theta\\right| = \\frac{35}{37}$? What does this tell us about the triangle formed?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the expression for $\\left| z + \\frac{1}{z} \\right|$? Can you break it down into its components?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we simplify the expression $\\left( r^2 + \\frac{1}{r^2} \\right) + 2 \\cos 2 \\theta$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What values can $\\cos 2 \\theta$ take? How does this affect our final expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we minimize the expression $\\left| z + \\frac{1}{z} \\right|$? What is the significance of the value obtained for $d^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

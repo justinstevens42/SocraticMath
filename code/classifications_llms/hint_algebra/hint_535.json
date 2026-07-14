@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_535",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Evaluate $\\log_2 (4^2)$.",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of the logarithm function and how does it relate to exponential functions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we rewrite the expression $\\log_2 (4^2)$ using the properties of logarithms?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What property of exponents allows us to simplify the expression further?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can we apply the power rule of logarithms to simplify this expression even more?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the value of $4^2$ and how does it relate to the logarithmic expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we evaluate $\\log_2$ of a power of 4 using the definition of logarithms?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What does the resulting value of $\\log_2 (4^2)$ represent in terms of powers of 2?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

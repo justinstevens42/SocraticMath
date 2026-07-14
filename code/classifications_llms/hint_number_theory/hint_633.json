@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_633",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "The letters of the alphabet are given numeric values based on the two conditions below.\n\n$\\bullet$  Only the numeric values of $-2,$ $-1,$ $0,$ $1$ and $2$ are used.\n\n$\\bullet$  Starting with A and going through Z, a numeric value is assigned to each letter according to the following pattern: $$\n1, 2, 1, 0, -1, -2, -1, 0, 1, 2, 1, 0, -1, -2, -1, 0,\\ldots\n$$\n\nTwo complete cycles of the pattern are shown above. The letter A has a value of $1,$ B has a value of $2,$ F has a value of $-2$ and Z has a value of $2.$ What is the sum of the numeric values of the letters in the word ``numeric''?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What method is used to assign numeric values to the letters of the alphabet?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How long is one cycle of the numeric value pattern?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How do we determine the numeric value of a letter based on its position within the alphabet?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you identify the position of each letter in the word \"numeric\"?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the numeric value of each letter in the word \"numeric\"?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do we calculate the sum of the numeric values of the letters in the word \"numeric\"?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the sum of the numeric values of the letters in the word \"numeric\"?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

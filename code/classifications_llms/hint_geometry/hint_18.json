@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_18",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "In right triangle $DEF$, we have $\\sin D = \\frac{5}{13}$ and $\\sin E = 1$.  Find $\\sin F$.",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "f",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of a right triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between the sine and cosine of an acute angle in a right triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the given information about $\\sin D$ and $\\sin E$ to find $\\sin F$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Why can we assume that $\\angle E = 90^\\circ$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the Pythagorean theorem to find the length of the sides of the right triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we use any other trigonometric identities to find $\\sin F$? How do they compare with the method used in this problem?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "How can we check that our answer for $\\sin F$ is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

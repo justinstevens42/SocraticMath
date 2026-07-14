@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_68",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "A domino is a rectangular tile composed of two squares. An integer is represented on both squares, and each integer 0-9 is paired with every integer 0-9 exactly once to form a complete set. A $\\textit{double}$ is a domino that has the same integer on both of its squares. What is the probability that a domino randomly selected from a set will be a $\\textit{double}$? Express your answer as a common fraction.",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How is a domino defined and composed?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many squares does a domino have?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What integers are represented on the squares of a domino?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How many integers are paired with each integer in a complete set of dominos?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain what a \"double\" domino is?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "How many double pairings are there in a complete set of dominos?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the total number of pairings in a complete set of dominos?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you calculate the probability of selecting a double domino from a set?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the final probability expressed as a common fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

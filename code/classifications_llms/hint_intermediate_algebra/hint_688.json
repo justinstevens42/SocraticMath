@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_688",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "The coefficients of the polynomial\n\\[a_{10} x^{10} + a_9 x^9 + a_8 x^8 + \\dots + a_2 x^2 + a_1 x + a_0 = 0\\]are all integers, and its roots $r_1,$ $r_2,$ $\\dots,$ $r_{10}$ are all integers.  Furthermore, the roots of the polynomial\n\\[a_0 x^{10} + a_1 x^9 + a_2 x^8 + \\dots + a_8 x^2 + a_9 x + a_{10} = 0\\]are also $r_1,$ $r_2,$ $\\dots,$ $r_{10}.$  Find the number of possible multisets $S = \\{r_1, r_2, \\dots, r_{10}\\}.$\n\n(A multiset, unlike a set, can contain multiple elements.  For example, $\\{-2, -2, 5, 5, 5\\}$ and $\\{5, -2, 5, 5, -2\\}$ are the same multiset, but both are different from $\\{-2, 5, 5, 5\\}.$  And as usual, $a_{10} \\neq 0$ and $a_0 \\neq 0.$)",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "r",
+    "r",
+    "f",
+    "b",
+    "b",
+    "f",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a polynomial? Can you give an example?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What are the coefficients of a polynomial? Are they always integers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the degree of a polynomial and how is it calculated?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is an integer root of a polynomial? Can you give an example?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can a polynomial have multiple integer roots?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How is the second polynomial related to the first polynomial in terms of the roots?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "How can we use the fact that $\\frac{1}{r}$ is an integer to determine the possible values of $r$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How many possible multisets of roots are there for each possible value of $k$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Why do we need to consider both 1 and -1 as integer roots of $p(x)$ to find the possible multisets?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of another example where the concept of integer roots and multisets is relevant?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

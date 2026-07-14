@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_647",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Let $\\alpha$ and $\\beta$ be complex numbers such that $\\alpha + \\beta$ and $i(\\alpha - 2 \\beta)$ are both positive real numbers.  If $\\beta = 3 + 2i,$ compute $\\alpha.$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the given complex numbers in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you express $\\alpha$ and $\\beta$ in terms of $x$ and $y$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we solve for $\\alpha$ and $\\beta$ using the equations $x = \\alpha + \\beta$ and $y = i (\\alpha - 2 \\beta)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What are the values of $x$ and $y$ in this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we substitute the values of $x$ and $y$ to find the values of $\\alpha$ and $\\beta$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the final value of $\\alpha$ after substituting the values of $x$ and $y$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_199",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "What is the remainder when $5^{137}$ is divided by 8?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "f",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you begin solving this problem? Can you describe the first step?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Are there any patterns you can observe when calculating small powers of 5 modulo 8?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Based on the patterns you noticed, can you make any predictions about the remainder when larger powers of 5 are divided by 8?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why do the odd powers of 5 seem to have a consistent remainder when divided by 8? What about the even powers?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can you apply the patterns you've observed to determine the remainder when $5^{137}$ is divided by 8?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other similar problems or situations where modular arithmetic and patterns can help you find remainders?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

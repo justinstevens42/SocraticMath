@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_926",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Two angles of a triangle measure 30 and 45 degrees. If the side of the triangle opposite the 30-degree angle measures $6\\sqrt2$ units, what is the sum of the lengths of the two remaining sides? Express your answer as a decimal to the nearest tenth.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the given angles of the triangle and their measures?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we use these given angles to find lengths of the sides of the triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "In triangle ADB, why is it a 45-45-90 triangle? How does this help us find the length of AD and BD?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "In triangle CDB, why is it a 30-60-90 triangle? How does this help us find the length of BC and CD?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the sum of the lengths of sides AC and BC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we express the answer as a decimal to the nearest tenth?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

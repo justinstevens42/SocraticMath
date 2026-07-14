@@ -1,0 +1,50 @@
+{
+  "problem_id": "hint_454",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "What is the greatest common divisor of 1407 and 903?",
+  "n_questions": 5,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first step in solving this problem using the Euclidean algorithm?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain the logic behind subtracting the smaller number from the larger number in each step?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How do you determine when to stop the algorithm and declare the current remainder as the greatest common divisor?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Is there any relationship between the remainders in each step and the greatest common divisor?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of any other numbers for which you could use the Euclidean algorithm to compute the greatest common divisor in a similar way?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

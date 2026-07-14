@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_671",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Charlyn walks completely around the boundary of a square whose sides are each 5 km long. From any point on her path she can see exactly 1 km horizontally in all directions. What is the area of the region consisting of all points Charlyn can see during her walk, expressed in square kilometers and rounded to the nearest whole number?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the shape that Charlyn is walking around?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How long are the sides of the square?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean when it says Charlyn can see exactly 1 km horizontally in all directions from any point on her path?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Can you describe the portion of the viewable region that is inside the square? How would you calculate its area?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How about the portion of the viewable region that is outside the square? Can you describe it and calculate its area?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the total area of the viewable region?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

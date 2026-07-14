@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_514",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "The Fibonacci sequence is defined $F_1 = F_2 = 1$ and $F_n = F_{n - 1} + F_{n - 2}$ for all $n \\ge 3.$\n\nThe Fibonacci numbers $F_a,$ $F_b,$ $F_c$ form an increasing arithmetic sequence.  If $a + b + c = 2000,$ compute $a.$",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the Fibonacci sequence and how is it defined?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does the sequence relate to the problem at hand?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for $F_a$, $F_b$, $F_c$ to form an increasing arithmetic sequence and what is the significance of this?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Why must $(a,b,c)$ be of the form $(n,n+2,n+3)$ for some positive integer $n$, and what is the exception to this?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we get from $F_c - F_b = F_b - F_a$ to the equation $F_a = F_{b-2}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do we use the equation from question 5 to solve for $a$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other interesting patterns or properties of the Fibonacci sequence or arithmetic sequences in general that are relevant to this problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

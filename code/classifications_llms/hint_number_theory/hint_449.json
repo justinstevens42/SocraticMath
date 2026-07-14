@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_449",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Find the greatest common divisor of 9118, 12173, and 33182.",
+  "n_questions": 9,
+  "labels": [
+    "b",
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in finding the greatest common divisor of these three numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Are there any obvious factors that you can identify for any of the given integers?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "If prime factorization seems challenging for these numbers, have you considered using the Euclidean algorithm? Can you explain how this algorithm works?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Why does the Euclidean algorithm allow us to find the greatest common divisor?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Could you demonstrate the application of the Euclidean algorithm to find the greatest common divisor of 9118 and 12,173?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why we can simplify the problem by finding the greatest common divisor of 9118 and 3055 instead of 9118 and 12,173?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can you use long division to verify that 611 is divisible by 47?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any other techniques or algorithms that can be used to find the greatest common divisor of multiple numbers?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "What is the final result for the greatest common divisor of 9118, 12173, and 33182?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

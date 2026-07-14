@@ -1,0 +1,155 @@
+{
+  "problem_id": "hint_163",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "The area of trapezoid $ABCD$ is $164 \\text{cm}^2$.  The altitude is $8 \\text{cm}$, $AB$ is $10 \\text{cm}$, and $CD$ is $17 \\text{cm}$.  What is $BC$, in centimeters? [asy]\n/* AMC8 2003 #21 Problem */\nsize(2inch,1inch);\ndraw((0,0)--(31,0)--(16,8)--(6,8)--cycle);\ndraw((11,8)--(11,0), linetype(\"8 4\"));\ndraw((11,1)--(12,1)--(12,0));\nlabel(\"$A$\", (0,0), SW);\nlabel(\"$D$\", (31,0), SE);\nlabel(\"$B$\", (6,8), NW);\nlabel(\"$C$\", (16,8), NE);\nlabel(\"10\", (3,5), W);\nlabel(\"8\", (11,4), E);\nlabel(\"17\", (22.5,5), E);\n[/asy]",
+  "n_questions": 20,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "b",
+    "f",
+    "f",
+    "r",
+    "b",
+    "f",
+    "b",
+    "r",
+    "b",
+    "f",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you draw a diagram to represent the given trapezoid with its dimensions labeled?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the area of a trapezoid?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the formula for the area of a trapezoid?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you calculate the area of the trapezoid using the given dimensions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What can you conclude from the calculated area of the trapezoid?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "What are the other important dimensions of the trapezoid?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "How can we find the lengths of the altitudes from the bases of the trapezoid?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "Can you calculate the lengths of the altitudes using the given dimensions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What can you conclude from the calculated lengths of the altitudes?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 11,
+      "question": "Can we split the trapezoid into two triangles to calculate their individual areas?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 12,
+      "question": "How can we find the areas of the two triangles?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 13,
+      "question": "Can you calculate the areas of the two triangles using the calculated lengths of the altitudes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 14,
+      "question": "What can you conclude from the calculated areas of the triangles?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 15,
+      "question": "How can we calculate the area of the rectangle formed by the bases and the altitudes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 16,
+      "question": "Can you calculate the area of the rectangle using the calculated areas of the triangles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 17,
+      "question": "What can you conclude from the calculated area of the rectangle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 18,
+      "question": "How can we find the remaining side length of the trapezoid?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 19,
+      "question": "Can you calculate the remaining side length using the calculated areas and the given altitude?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 20,
+      "question": "What is the final answer for the length of side BC in centimeters?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

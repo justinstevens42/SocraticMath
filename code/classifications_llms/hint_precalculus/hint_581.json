@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_581",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Let\n\\[\\mathbf{A} = \\renewcommand{\\arraystretch}{1.5} \\begin{pmatrix} \\frac{\\sqrt{3}}{2} & 0 & -\\frac{1}{2} \\\\ 0 & -1 & 0 \\\\ \\frac{1}{2} & 0 & \\frac{\\sqrt{3}}{2} \\end{pmatrix} \\renewcommand{\\arraystretch}{1}.\\]Compute $\\mathbf{A}^{2018}.$",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of matrix multiplication and how does it apply to computing powers of a matrix?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the result of computing $\\mathbf{A}^2$? How did we obtain this result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the result of computing $\\mathbf{A}^3$? How did we obtain this result?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Is there a pattern in the powers of $\\mathbf{A}$ that we computed? If so, can we determine a formula to express $\\mathbf{A}^n$ in terms of $n$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Based on the pattern we observed, what is $\\mathbf{A}^6$? Can we prove this result using our formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we generalize our formula to find $\\mathbf{A}^{12}$? Can we prove this result as well?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How does the fact that $\\mathbf{A}^{12}$ is equal to the identity matrix relate to our problem of computing $\\mathbf{A}^{2018}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "How can we use the formula and the properties of matrix multiplication to compute $\\mathbf{A}^{2018}$ efficiently?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Finally, what is the value of $\\mathbf{A}^{2018}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

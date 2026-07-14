@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_249",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Let $f : \\mathbb{R} \\to \\mathbb{R}$ be a function such that\n\\[f(x^2 + yf(z)) = xf(x) + zf(y)\\]for all real numbers $x,$ $y,$ and $z.$\n\nLet $n$ be the number of possible values of $f(5),$ and let $s$ be the sum of all possible values of $f(5).$  Find $n \\times s.$",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the domain and range of the function $f(x)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the given equation to find the possible values of $f(5)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the significance of setting $y=0$ and $x=0$ respectively in the given equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the possible values of $c$ in the equation $f(x) = cx$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why do we need to check the solutions $f(x)=0$ and $f(x)=x$ specifically?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we find any other possible solutions for the given equation? If yes, how?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the significance of solving this problem in terms of understanding the concept of functional equations in mathematics?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

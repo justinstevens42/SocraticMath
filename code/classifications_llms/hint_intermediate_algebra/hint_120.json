@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_120",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "In a certain hyperbola, the center is at $(2,0),$ one focus is at $(2,6),$ and one vertex is at $(2,-3).$  The equation of this hyperbola can be written as\n\\[\\frac{(y - k)^2}{a^2} - \\frac{(x - h)^2}{b^2} = 1.\\]Find $h + k + a + b.$",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "b",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the basic properties of a hyperbola and its equation in general?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What information can we gather from the given center, focus, and vertex of the hyperbola?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How do we determine the distances between the center and the vertex, as well as the center and the focus?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we use these distances and the equation form of a hyperbola to determine the values of $a$ and $b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why do we subtract $a^2$ from $c^2$ to find $b^2$ in the equation form?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What is the significance of each term in the equation of the hyperbola?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How does the equation $\\frac{(y - k)^2}{a^2} - \\frac{(x - h)^2}{b^2} = 1$ relate to the properties of the hyperbola's center, vertex, and focus?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "How can we use the equation to find $h + k + a + b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the final value of $h + k + a + b$ in this specific scenario?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

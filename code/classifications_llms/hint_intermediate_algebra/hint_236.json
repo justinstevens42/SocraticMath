@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_236",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find all real numbers $x$ which satisfy \\[\\frac{x-1}{x-3} \\ge 2.\\](Give your answer in interval notation.)",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "b",
+    "r",
+    "b",
+    "r",
+    "f",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the steps in solving the inequality $\\frac{x-1}{x-3} \\ge 2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How would you go about simplifying the left-hand side of the inequality?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What restrictions, if any, do we need to consider when simplifying the inequality?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Once we have simplified the inequality, what is the next step in finding the solution set?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do we typically represent solution sets for inequalities? Why is interval notation commonly used?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "What would happen if we set the denominator equal to zero? How does this affect the solution set?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "Is it possible for $\\frac{x-1}{x-3}$ to be less than zero? If so, what values of $x$ satisfy this?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you think of other similar inequalities that use rational expressions? How might we approach solving these inequalities using the same method?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

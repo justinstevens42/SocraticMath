@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_133",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "The numbers $a_1,$ $a_2,$ $a_3,$ $b_1,$ $b_2,$ $b_3,$ $c_1,$ $c_2,$ $c_3$ are equal to the numbers $1,$ $2,$ $3,$ $\\dots,$ $9$ in some order.  Find the smallest possible value of\n\\[a_1 a_2 a_3 + b_1 b_2 b_3 + c_1 c_2 c_3.\\]",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What are the possible values for the numbers $a_1,$ $a_2,$ $a_3,$ $b_1,$ $b_2,$ $b_3,$ $c_1,$ $c_2,$ $c_3$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many different ways can you arrange the numbers $1,$ $2,$ $3,$ $\\dots,$ $9$ to fill in $a_1,$ $a_2,$ $a_3,$ $b_1,$ $b_2,$ $b_3,$ $c_1,$ $c_2,$ $c_3$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the sum $a_1 a_2 a_3 + b_1 b_2 b_3 + c_1 c_2 c_3$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the value of $a_1 a_2 a_3$ when $a_1,$ $a_2,$ $a_3$ are equal to $1,$ $2,$ $3$ (in some order)?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we find all possible values of $a_1 a_2 a_3$? What about $b_1 b_2 b_3$ and $c_1 c_2 c_3$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the smallest possible value of $a_1 a_2 a_3 + b_1 b_2 b_3 + c_1 c_2 c_3$? How do you know?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you find a specific arrangement of the numbers $1,$ $2,$ $3,$ $\\dots,$ $9$ to achieve the smallest possible sum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

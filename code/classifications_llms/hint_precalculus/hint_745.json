@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_745",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "There exists a scalar $k$ such that for any vectors $\\mathbf{a},$ $\\mathbf{b},$ and $\\mathbf{c}$ such that $\\mathbf{a} + \\mathbf{b} + \\mathbf{c} = \\mathbf{0},$ the equation\n\\[k (\\mathbf{b} \\times \\mathbf{a}) + \\mathbf{b} \\times \\mathbf{c} + \\mathbf{c} \\times \\mathbf{a} = \\mathbf{0}\\]holds.  Find $k.$",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Do you recognize any properties or identities involving the cross product that might be useful in simplifying the expression?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the fact that $\\mathbf{a} + \\mathbf{b} + \\mathbf{c} = \\mathbf{0}$ to simplify the equation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What happens when we expand the expression and combine like terms?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we apply the properties of the cross product to eliminate the cross products and isolate $k$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the value of $k$ that satisfies the equation? How did you arrive at this conclusion?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other situations where the cross product is involved in solving equations?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_360",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Eleven girls are standing around a circle. A ball is thrown clockwise around the circle. The first girl, Ami, starts with the ball, skips the next three girls and throws to the fifth girl, who then skips the next three girls and throws the ball to the ninth girl. If the throwing pattern continues, including Ami's initial throw, how many total throws are necessary for the ball to return to Ami?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "f",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the initial throw made by Ami? What numerical index does she pass the ball to?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How did you determine the indices of the girls who receive the ball in each subsequent throw?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What pattern do you notice in the indices of the girls who receive the ball? Are there any numbers that are skipped?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How many total throws are necessary for the ball to return to Ami? Can you explain your reasoning for this?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of any other sequences or patterns that could result in the ball returning to Ami in fewer throws? What would the rules be for these sequences?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "What would happen if we had a different number of girls standing in the circle? How would that affect the total number of throws?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

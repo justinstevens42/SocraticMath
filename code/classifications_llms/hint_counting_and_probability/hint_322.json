@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_322",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "The product of the digits of 3214 is 24. How many distinct four-digit positive integers are such that the product of their digits equals 12?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information in the problem? Can you restate it in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the main objective of the problem? What are we trying to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Let's start by considering the digits involved in the product of 12. Which digits can we use and which ones are not usable? Why?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "If we use the digit 6, what are the other three digits we can use to form a number with a product of 12? Can you think of any other numbers that can be formed by reordering these digits?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many ways can we arrange the digits in a four-digit number using the digits 6, 2, and two 1s? Explain why we have to adjust the counting.",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Now, let's consider the case where we have the digit 4. Which digits should accompany the digit 4 to have a product of 12? Can you find any other possible four-digit numbers using these digits?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Similar to the previous case, how many distinct ways can the digits be arranged in a four-digit number using the digits 4, 3, and two 1s? Explain why we have to adjust the counting.",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any other sets of digits that can give us a product of 12? If so, what are they and what are the possible four-digit numbers that can be formed?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Finally, let's combine the results from all three cases. How many distinct four-digit positive integers can we form in total?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

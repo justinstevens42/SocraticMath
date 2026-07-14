@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_317",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "In triangle $ABC$, medians $AD$ and $CE$ intersect at $P$, $PE=1.5$, $PD=2$, and $DE=2.5$.  What is the area of $AEDC$?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step to solve this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What do you know about medians in triangles? How are they related to each other?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the given information about $PE$, $PD$, and $DE$ to find the length of the sides of triangle $PED$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why do we know that triangle $PED$ has a right angle at $P$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the fact that $P$ is the centroid of triangle $ABC$ to find the lengths of $CP$ and $AP$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we compute the area of quadrilateral $AEDC$ using the lengths of its sides?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Based on the given information and the properties of medians, what is the final area of quadrilateral $AEDC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

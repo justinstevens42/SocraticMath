@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_83",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "If $x+7$ is a factor of $cx^3 + 19x^2 - 3cx + 35$, find the constant $c$.",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "f",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the Factor Theorem and how it is related to finding factors of a polynomial?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between a polynomial and its factors? How can we determine if a given expression is a factor of a polynomial?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the Factor Theorem to find the constant $c$ when $x+7$ is a factor of $cx^3 + 19x^2 - 3cx + 35$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean for $x+7$ to be a factor of the polynomial $cx^3 + 19x^2 - 3cx + 35$? How does this information help us in finding the value of $c$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain the steps involved in using the Factor Theorem to solve this problem? What calculations need to be done?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other methods you can think of to solve this problem? How are they different from using the Factor Theorem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_379",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "How many 4-letter words with at least one consonant can be constructed from the letters $A$, $B$, $C$, $D$, and $E$?  (Note that $B$, $C$, and $D$ are consonants, any word is valid, not just English language words, and letters may be used more than once.)",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the problem in your own words? What are we trying to count in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the total number of 4-letter words that can be formed using the letters $A$, $B$, $C$, $D$, and $E$ without any restrictions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we count the number of 4-letter words with no consonants?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What are the possible letters for a word with no consonants? How many choices do we have for each letter?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we calculate the total number of 4-letter words with no consonants using the choices we identified in the previous question?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we calculate the number of 4-letter words with at least one consonant using the information we have so far?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you summarize the steps we have taken so far to arrive at our final answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any other interpretations or approaches to solving this problem that we can explore?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Can you apply the same reasoning and steps to solve similar problems involving different letters or word lengths?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

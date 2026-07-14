@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_762",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find the units digit of $n$ given that $mn = 21^6$ and $m$ has a units digit of 7.",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we determine the units digit of a number when it is multiplied by another number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between the units digit of the product and the units digits of the individual factors?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Given that $m$ has a units digit of 7, what digits can the units digit of $mn$ possibly be?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What property allows us to determine the units digit of $mn$ without explicitly multiplying the two numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we use the given information about $mn$ being equal to $21^6$ to determine the units digit of $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other properties or rules that can help us determine the units digit of $n$ in a similar problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

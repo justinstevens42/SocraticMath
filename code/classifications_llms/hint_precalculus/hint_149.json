@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_149",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "In the diagram below, $\\|\\overrightarrow{OA}\\| = 1,$ $\\|\\overrightarrow{OB}\\| = 1,$ and $\\|\\overrightarrow{OC}\\| = \\sqrt{2}.$  Also, $\\tan \\angle AOC = 7$ and $\\angle BOC = 45^\\circ.$\n\n[asy]\nunitsize(2 cm);\n\npair A, B, C, O;\n\nA = (1,0);\nB = (-0.6,0.8);\nC = (0.2,1.4);\nO = (0,0);\n\ndraw(O--A,Arrow(6));\ndraw(O--B,Arrow(6));\ndraw(O--C,Arrow(6));\n\nlabel(\"$A$\", A, E);\nlabel(\"$B$\", B, NW);\nlabel(\"$C$\", C, N);\nlabel(\"$O$\", O, S);\n[/asy]\n\nThere exist constants $m$ and $n$ so that\n\\[\\overrightarrow{OC} = m \\overrightarrow{OA} + n \\overrightarrow{OB}.\\]Enter the ordered pair $(m,n).$",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you draw a triangle with the given information and label all the sides and angles?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What trigonometric ratio relates the adjacent and opposite sides of angle AOC?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How did we use the triangle to find the cosine of angle AOB?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the dot product of two vectors, and how did we use it in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How did we find the system of equations involving m and n?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you solve the system of equations to find the values of m and n?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What does the pair of values (m,n) represent geometrically?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of other scenarios where you might need to use the dot product to solve a problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

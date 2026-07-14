@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_833",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Find the domain of the function $z(x) = \\sqrt[3]{x - 1} + \\sqrt[3]{8 - x}.$",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e",
+    "e",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you give a brief explanation of what the function $z(x)$ represents?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How do you determine the domain of a function?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the range of the cube root function?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Can you simplify the expression $\\sqrt[3]{x-1} + \\sqrt[3]{8-x}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Are there any values of $x$ that would make the expression under the cube root negative? What impact would this have on the domain of the function?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do you graph $z(x)$?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Is $z(x)$ an odd or even function? How do you know?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Are there any asymptotes for $z(x)$?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Are there any discontinuities for $z(x)$? If so, where and why?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "How would you find the inverse function of $z(x)$?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

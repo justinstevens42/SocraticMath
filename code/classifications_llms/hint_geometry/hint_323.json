@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_323",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find the ratio of the volume of the cone to the volume of the cylinder. Express your answer as a common fraction.\n\n[asy]\nimport solids; size(150); import three; defaultpen(linewidth(0.8)); currentprojection = orthographic(5,0,3);\nrevolution c = cylinder((0,0,0), 1, 3);\nrevolution c2 = cone((0,0,0), 1,1.5);\ndraw(c,black);\ndraw(c2,black);\n\ndraw((1.5,0)--(1.5,2.5),Arrows(TeXHead));\nlabel(\"12\",(1.5,0)--(1.5,2.5),E);\ndraw((-1.5,0)--(-1.5,1.25),Arrows(TeXHead));\nlabel(\"6\",(-1.5,0)--(-1.5,1.25),W);\n\ndraw((0,0)--(1,0),Arrows(TeXHead));\nlabel(\"4\",(0,0)--(1,0),S);\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "f",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How do you calculate the volume of a cone?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How do you calculate the volume of a cylinder?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Given a cone and a cylinder with similar dimensions (same radius and height ratio), what is the relationship between the volumes of the two shapes?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How does the given diagram illustrate the relationship between the cone and cylinder volumes?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "How do you calculate the volume ratio of the cone to the cylinder based on the dimensions provided in the diagram?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can you simplify the volume ratio to a common fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

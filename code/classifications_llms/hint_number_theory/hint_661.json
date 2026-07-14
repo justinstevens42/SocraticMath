@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_661",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Two farmers agree that pigs are worth $\\$300$ and that goats are worth $\\$210$. When one farmer owes the other money, he pays the debt in pigs or goats, with ``change'' received in the form of goats or pigs as necessary. (For example, a $\\$390$ debt could be paid with two pigs, with one goat received in change.) What is the amount of the smallest positive debt that can be resolved in this way?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "f",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem statement asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the given values in the problem, and how do they relate to each other?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the equation that relates the number of pigs and goats to the debt owed?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why does the debt have to be a multiple of 30 in order to be resolved in this way?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What is the significance of the example that shows a debt of $\\$30$ being resolved?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other situations where this type of problem could arise, and how would you approach them using the same method?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

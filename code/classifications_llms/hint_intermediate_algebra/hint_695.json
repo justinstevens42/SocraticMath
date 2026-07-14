@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_695",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Given $w$ and $z$ are complex numbers such that $|w+z|=1$ and $|w^2+z^2|=14,$ find the smallest possible value of $|w^3+z^3|.$",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the goal of the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we express $w^3+z^3$ in terms of $w+z$ and $w^2+z^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the relationship between $(w+z)^2$, $w^2+z^2$, and $wz$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the relationship between $(w+z)^2$, $w^2+z^2$, and $wz$ to express $wz$ in terms of $w+z$ and $w^2+z^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the equation that relates $w^3+z^3$ to $w+z$ and $w^2+z^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the given information in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "How can we use the given information to simplify the equation for $|w^3+z^3|$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the lower bound for $|w^3+z^3|$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How can we show that the lower bound for $|w^3+z^3|$ is achievable?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

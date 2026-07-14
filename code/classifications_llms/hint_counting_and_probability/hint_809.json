@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_809",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Jeff decides to play with a Magic 8 Ball. Each time he asks it a question, it has a 2/5 chance of giving him a positive answer. If he asks it 5 questions, what is the probability that it gives him exactly 2 positive answers?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "r",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a Magic 8 Ball and how does it work?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many possible outcomes are there when Jeff asks the Magic 8 Ball a question?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the probability of getting a positive answer from the Magic 8 Ball?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "If Jeff asks the Magic 8 Ball 5 questions, how many different ways are there for him to get exactly 2 positive answers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we calculate the probability of getting exactly 2 positive answers out of 5 questions using combinatorics?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Why do we use the formula $\\binom{n}{k}$ to calculate the number of ways to choose k items from a set of n items?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How do we calculate the probability of an event happening multiple times using the multiplication principle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "What is the final probability of Jeff getting exactly 2 positive answers from the Magic 8 Ball if we apply the formulas from questions 5 and 7?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

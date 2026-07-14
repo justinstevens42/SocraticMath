@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_576",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 1",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "In quadrilateral $ABCD$, sides $\\overline{AB}$ and $\\overline{BC}$ both have length 10, sides $\\overline{CD}$ and $\\overline{DA}$ both have length 17, and the measure of angle $ADC$ is $60^\\circ$. What is the length of diagonal $\\overline{AC}$? [asy]\ndraw((0,0)--(17,0));\ndraw(rotate(301, (17,0))*(0,0)--(17,0));\npicture p;\ndraw(p, (0,0)--(0,10));\ndraw(p, rotate(115, (0,10))*(0,0)--(0,10));\nadd(rotate(3)*p);\n\ndraw((0,0)--(8.25,14.5), linetype(\"8 8\"));\n\nlabel(\"$A$\", (8.25, 14.5), N);\nlabel(\"$B$\", (-0.25, 10), W);\nlabel(\"$C$\", (0,0), SW);\nlabel(\"$D$\", (17, 0), E);\n[/asy]",
+  "n_questions": 8,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of a quadrilateral, and what are the properties of its sides and angles?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How is the measure of angle $ADC$ related to the other angles in the quadrilateral?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we apply the Law of Cosines to find the length of diagonal $\\overline{AC}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How do we use the given side lengths and angle measure to form the appropriate cosine equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can we simplify the cosine equation using trigonometric identities?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do we solve the equation for the length of diagonal $\\overline{AC}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other methods we could use to find the length of diagonal $\\overline{AC}$ in this quadrilateral?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "How could we generalize this problem and explore other similar cases involving angles and side lengths in quadrilaterals?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

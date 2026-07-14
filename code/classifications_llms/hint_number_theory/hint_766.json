@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_766",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What is the sum of the positive whole number divisors of 210?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "r",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what it means to find the sum of the positive whole number divisors of 210?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the prime factorization of 210?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What are the prime factors of 210 and their respective exponents?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How does the sum of the divisors relate to the prime factorization?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why multiplying the expressions $(1+2)(1+3)(1+5)(1+7)$ gives us the sum of the divisors?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you simplify the expression $(1+2)(1+3)(1+5)(1+7)$ and find the resulting sum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

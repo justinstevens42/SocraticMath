@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_145",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The least common multiple of two numbers is 3780, and the greatest common divisor is 18. Given that one of the numbers is 180, what is the other number?",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the relationship between the greatest common divisor (GCD) and the least common multiple (LCM) of two numbers?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we use the identity $\\gcd(a,b) \\cdot \\text{lcm}[a,b] = ab$ to find the other number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the given GCD in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the given LCM in this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Using the given information, how can we find the value of $ab$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "If one of the numbers is 180, what is the equation we can set up to find the other number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "By substituting the given values into the equation, what is the value of the other number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

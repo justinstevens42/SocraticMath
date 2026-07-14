@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_129",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Given vectors $\\mathbf{v}$ and $\\mathbf{w}$ such that $\\|\\mathbf{v}\\| = 3,$ $\\|\\mathbf{w}\\| = 7,$ and $\\mathbf{v} \\cdot \\mathbf{w} = 10,$ then find $\\|\\operatorname{proj}_{\\mathbf{w}} \\mathbf{v}\\|.$",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "r",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the projection of one vector onto another means geometrically?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does the dot product play a role in finding the projection of one vector onto another?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Given that the dot product of vectors v and w is 10, what does this tell us about the angle between these two vectors?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the norm of vectors v and w to find the norm of the projection of v onto w?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What formula or equation can we use to calculate the norm of the projection of v onto w?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Applying this formula, what is the norm of the projection of v onto w in this case given that ||v|| = 3, ||w|| = 7, and v · w = 10?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

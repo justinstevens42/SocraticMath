@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_604",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "A sphere is inscribed in a cube with edge length 9 inches. Then a smaller cube is inscribed in the sphere. How many cubic inches are in the volume of the inscribed cube? Express your answer in simplest radical form.",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "r"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How does the diameter of the sphere relate to the side length of the big cube?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the formula for the space diagonal of a cube? How does it relate to the side length?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How do you find the length of the space diagonal in this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can you express the side length of the small cube in terms of $\\sqrt{3}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the formula for the volume of a cube? Can you use this formula to find the volume of the small cube in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    }
+  ],
+  "classifier": "llm"
+}

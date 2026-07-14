@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_603",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "How many four-digit positive integers are multiples of 3?",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "r",
+    "r",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the first four-digit multiple of 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What is the last four-digit multiple of 3?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How would you find the number of positive integers between these two multiples, inclusive?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is it necessary to add 1 to the difference between the two multiples?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why the number of positive integers between the first and last multiples of 3 is equal to the difference between the two multiples plus 1?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Is it a coincidence that the number of four-digit multiples of 3 is equal to 9000 divided by 3? Can you think of a scenario where this reasoning might not work?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "If we were looking for the number of multiples of a different number, say 7, would dividing by that number give us the correct answer?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

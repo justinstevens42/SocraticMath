@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_257",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "If the product $(3x^2 - 5x + 4)(7 - 2x)$ can be written in the form $ax^3 + bx^2 + cx + d$, where $a,b,c,d$ are real numbers, then find $8a + 4b + 2c + d$.",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you identify the terms in the expression $(3x^2 - 5x + 4)(7 - 2x)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for an expression to be written in the form $ax^3 + bx^2 + cx + d$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the coefficient of $x^3$ in the product $(3x^2 - 5x + 4)(7 - 2x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What about the coefficients of $x^2$, $x$, and the constant term?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you simplify the expression $(3x^2 - 5x + 4)(7 - 2x)$ and rewrite it in the form $ax^3 + bx^2 + cx + d$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Once you have the expression in the desired form, what values can you identify for $a$, $b$, $c$, and $d$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What would be the value of $8a + 4b + 2c + d$ based on the values you found?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Are there any other methods or approaches that could be used to solve this problem?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "How can this problem help deepen our understanding of algebraic concepts?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

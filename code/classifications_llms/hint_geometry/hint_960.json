@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_960",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "At the MP Donut Hole Factory, Niraek, Theo, and Akshaj are coating spherical donut holes in powdered sugar.  Niraek's donut holes have radius 6 mm, Theo's donut holes have radius 8 mm, and Akshaj's donut holes have radius 10 mm.  All three workers coat the surface of the donut holes at the same rate and start at the same time.  Assuming that the powdered sugar coating has negligible thickness and is distributed equally on all donut holes, how many donut holes will Niraek have covered by the first time all three workers finish their current donut hole at the same time?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the goal of this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the amount of powdered sugar used by each worker to coat their donut holes?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the formula to calculate the surface area of a sphere?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Using the given information, what is the surface area of Niraek's donut holes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How about Theo's and Akshaj's donut holes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "If all three workers finish coating their donut holes at the same time, what can we say about the powdered sugar used?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "How can we find the least common multiple (LCM) of the surface areas of the donut holes?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can we simplify the expression for the LCM further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the final expression for the LCM of the powdered sugar used?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How many donut holes will Niraek have covered by the first time all three workers finish their current donut hole at the same time?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

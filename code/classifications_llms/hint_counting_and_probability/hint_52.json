@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_52",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "How many rows of Pascal's Triangle contain the number $43$?",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what Pascal's Triangle is and how it is constructed?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How does Pascal's Triangle relate to coefficients in the expansion of binomial expressions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the significance of the number 43 in the context of Pascal's Triangle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Why does the number 43 appear in the 43rd row of Pascal's Triangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine the number of rows in Pascal's Triangle that contain the number 43?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why there are no other rows in Pascal's Triangle that contain the number 43, apart from the 43rd row?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other prime numbers that appear in Pascal's Triangle in a similar manner? If so, how can we identify them?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Can you discuss any patterns or observations you notice when counting the occurrences of a specific number in Pascal's Triangle rows?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other applications or real-life situations in which understanding Pascal's Triangle and its properties would be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

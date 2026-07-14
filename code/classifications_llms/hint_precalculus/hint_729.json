@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_729",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The following line is parameterized, so that its direction vector is of the form $\\begin{pmatrix} a \\\\ -1 \\end{pmatrix}.$  Find $a.$\n\n[asy]\nunitsize(0.4 cm);\n\npair A, B, L, R;\nint i, n;\n\nfor (i = -8; i <= 8; ++i) {\n  draw((i,-8)--(i,8),gray(0.7));\n  draw((-8,i)--(8,i),gray(0.7));\n}\n\ndraw((-8,0)--(8,0),Arrows(6));\ndraw((0,-8)--(0,8),Arrows(6));\n\nA = (-2,5);\nB = (1,0);\nL = extension(A, B, (0,8), (1,8));\nR = extension(A, B, (0,-8), (1,-8));\n\ndraw(L--R, red);\n\nlabel(\"$x$\", (8,0), E);\nlabel(\"$y$\", (0,8), N);\n[/asy]",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information in this problem? Can you restate it in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for a vector to be parameterized? How does a direction vector relate to a line?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we find the direction vector of a line given two points on the line? Can you explain the steps involved?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean for the direction vector to be of the form $\\begin{pmatrix} a \\\\ -1 \\end{pmatrix}$? What property does this correspond to in the line?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Can you find the direction vector of the line using the given points $\\begin{pmatrix} -2 \\\\ 5 \\end{pmatrix}$ and $\\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix}$? What calculations are involved?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What does it mean for two vectors to be proportional? How can we find the scalar multiple that relates them?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How can we modify the direction vector to get a $y$-coordinate of $-1$? Can you show the necessary steps?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What value of $a$ corresponds to the modified direction vector $\\begin{pmatrix} 3/5 \\\\ -1 \\end{pmatrix}$? How did you determine this value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Recap: What is the value of $a$ that satisfies the given conditions? Why is this significant in the context of the original problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

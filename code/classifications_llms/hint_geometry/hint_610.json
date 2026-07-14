@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_610",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "A sphere is inscribed in a cube. Given that one edge of the cube is 6 inches, how many cubic inches are in the volume of the inscribed sphere? Express your answer in terms of $\\pi$.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the diameter of the inscribed sphere?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How is the diameter of the sphere related to the edge length of the cube?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the formula for the volume of a sphere?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the formula for the volume of a sphere to find the volume of the inscribed sphere in terms of the radius?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the radius of the inscribed sphere?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we express the volume of the inscribed sphere in terms of $\\pi$ using the formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the final answer in terms of $\\pi$ for the volume of the inscribed sphere?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

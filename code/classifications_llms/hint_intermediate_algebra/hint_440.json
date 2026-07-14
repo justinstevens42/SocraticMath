@@ -1,0 +1,50 @@
+{
+  "problem_id": "hint_440",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "Which type of conic section is described by the equation \\[(x+5)^2 = (4y-3)^2 - 140?\\]Enter \"C\" for circle, \"P\" for parabola, \"E\" for ellipse, \"H\" for hyperbola, and \"N\" for none of the above.",
+  "n_questions": 5,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "f",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the process of expanding and rearranging the given equation to determine the type of conic section?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can you determine the type of conic section based on the coefficients of the x^2 and y^2 terms?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Why do the opposite signs of the coefficients of the x^2 and y^2 terms indicate that this conic section is a hyperbola?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "Are there any other characteristics or terms in the equation that support the determination of a hyperbola?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of any other equations that might have similar characteristics and require similar steps to determine the type of conic section?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

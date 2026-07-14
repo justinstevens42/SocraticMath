@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_609",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Nine people sit down at random seats around a round table. Four of them are math majors, three others are physics majors, and the two remaining people are biology majors. What is the probability that all four math majors sit in consecutive seats?",
+  "n_questions": 9,
+  "labels": [
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the total number of ways that the nine people can sit down at the table?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How many ways are there to choose consecutive seats for the four math majors?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Are there any restrictions on how the other five people can sit down at the table?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the total number of ways the math majors can sit down at the table without any restrictions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many ways are there to choose the seats for the math majors if they cannot sit in consecutive seats?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do you calculate the probability that all four math majors sit in consecutive seats?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other ways to calculate the same probability?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "How does changing the number of math majors or the number of seats at the table affect the probability?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "What other probability concepts can be applied to this problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

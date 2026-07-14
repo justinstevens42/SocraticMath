@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_407",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Let $P(x)$ be a polynomial such that when $P(x)$ is divided by $x - 19,$ the remainder is 99, and when $P(x)$ is divided by $x - 99,$ the remainder is 19.  What is the remainder when $P(x)$ is divided by $(x - 19)(x - 99)$?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the Remainder Theorem is and how it applies to this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the form of the remainder when $P(x)$ is divided by $(x-19)(x-99)$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What can we infer about the degree of the remainder in this case?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the fact that $P(19)=99$ and $P(99)=19$ to solve for the coefficients of the remainder?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why the coefficient of $x$ in the remainder must be $-1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the coefficients we solved for to write the final expression for the remainder?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

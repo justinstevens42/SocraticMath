@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_293",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "There exist constants $a_1,$ $a_2,$ $a_3,$ $a_4,$ $a_5$ such that\n\\[\\cos^5 \\theta = a_1 \\cos \\theta + a_2 \\cos 2 \\theta + a_3 \\cos 3 \\theta + a_4 \\cos 4 \\theta + a_5 \\cos 5 \\theta\\]for all angles $\\theta.$  Find $a_1^2 + a_2^2 + a_3^2 + a_4^2 + a_5^2.$",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you state the equation that we are trying to solve in terms of cosine functions?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we express complex exponential functions in terms of trigonometric functions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Using De Moivre's Theorem, can you simplify the expression for $e^{5 i \\theta}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the factorization of $(e^{i \\theta} + e^{-i \\theta})^5$ in terms of powers of $e^{i \\theta}$ and $e^{-i \\theta}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How did we obtain the coefficients $a_1, a_2, a_3, a_4,$ and $a_5$ after expanding the equation for $\\cos^5 \\theta$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you verify that our expression for $\\cos^5 \\theta$ is equivalent to the original equation given?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the sum of the squares of the coefficients $a_1, a_2, a_3, a_4,$ and $a_5$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

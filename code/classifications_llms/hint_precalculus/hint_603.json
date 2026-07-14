@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_603",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Let $D$ be the determinant of the matrix whose column vectors are $\\mathbf{a},$ $\\mathbf{b},$ and $\\mathbf{c}.$  Find the determinant of the matrix whose column vectors are $\\mathbf{a} + \\mathbf{b},$ $\\mathbf{b} + \\mathbf{c},$ and $\\mathbf{c} + \\mathbf{a},$ in terms of $D.$",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the steps involved in finding the determinant of a given matrix with column vectors $\\mathbf{a},$ $\\mathbf{b},$ and $\\mathbf{c}$ using the determinant formula $\\mathbf{a} \\cdot (\\mathbf{b} \\times \\mathbf{c})$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the determinant of the matrix whose column vectors are $\\mathbf{a} + \\mathbf{b},$ $\\mathbf{b} + \\mathbf{c},$ and $\\mathbf{c} + \\mathbf{a}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we compute the determinant of the matrix $\\mathbf{a} + \\mathbf{b},$ $\\mathbf{b} + \\mathbf{c},$ and $\\mathbf{c} + \\mathbf{a}$ using the given determinant formula?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you expand the cross product $(\\mathbf{b} + \\mathbf{c}) \\times (\\mathbf{c} + \\mathbf{a})$ and simplify the resulting expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What happens when we take the dot product between the expanded cross product and $(\\mathbf{a} + \\mathbf{b})$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Why do most of the dot products vanish in the resulting expression for $(\\mathbf{a} + \\mathbf{b}) \\cdot ((\\mathbf{b} + \\mathbf{c}) \\times (\\mathbf{c} + \\mathbf{a}))$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we relate the dot products involving $\\mathbf{a} \\cdot (\\mathbf{b} \\times \\mathbf{c})$ and $\\mathbf{b} \\cdot (\\mathbf{c} \\times \\mathbf{a})$ to the determinant $D$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the simplified expression for $(\\mathbf{a} + \\mathbf{b}) \\cdot ((\\mathbf{b} + \\mathbf{c}) \\times (\\mathbf{c} + \\mathbf{a}))$ in terms of $D$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How does this expression for the determinant of the matrix $\\mathbf{a} + \\mathbf{b},$ $\\mathbf{b} + \\mathbf{c},$ and $\\mathbf{c} + \\mathbf{a}$ relate to the determinant $D$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you summarize the steps and reasoning involved in finding the determinant of the matrix $\\mathbf{a} + \\mathbf{b},$ $\\mathbf{b} + \\mathbf{c},$ and $\\mathbf{c} + \\mathbf{a}$ in terms of $D$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_27",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What is the least three-digit positive integer that has 2, 5 and 7 as factors?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "e",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you restate the problem in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean to say that 2, 5, and 7 are pairwise relatively prime?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Why do we need to find the least three-digit positive integer that is divisible by 2, 5, and 7?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Can you think of any other examples where it is necessary to find the least common multiple of some given numbers?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "How did we use the fact that 2, 5, and 7 are pairwise relatively prime to find the solution?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is 140 the only possible solution to this problem? Why or why not?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

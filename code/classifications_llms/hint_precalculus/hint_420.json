@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_420",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Given vectors $\\mathbf{a}$ and $\\mathbf{b}$ such that $\\|\\mathbf{a}\\| = 6,$ $\\|\\mathbf{b}\\| = 8,$ and $\\|\\mathbf{a} + \\mathbf{b}\\| = 11.$  Find $\\cos \\theta,$ where $\\theta$ is the angle between $\\mathbf{a}$ and $\\mathbf{b}.$",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we find the dot product of vectors $\\mathbf{a}$ and $\\mathbf{b}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain how to use the dot product formula to find the dot product of $\\mathbf{a}$ and $\\mathbf{b}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What do we know about the magnitudes of $\\mathbf{a}$ and $\\mathbf{b}$? How can we use this information?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the given information about $\\|\\mathbf{a} + \\mathbf{b}\\|$ to find the dot product of $\\mathbf{a}$ and $\\mathbf{b}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the relationship between the dot product and the cosine of the angle between two vectors?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can we use the dot product and the magnitudes of $\\mathbf{a}$ and $\\mathbf{b}$ to find $\\cos \\theta$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

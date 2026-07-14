@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_531",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Three circles of radius 1 are externally tangent to each other and internally tangent to a larger circle. What is the radius of the large circle? Express your answer as a common fraction in simplest radical form.\n\n[asy]\ndraw(Circle((0,-0.58),2.15),linewidth(0.7));\ndraw(Circle((-1,0),1),linewidth(0.7));\ndraw(Circle((1,0),1),linewidth(0.7));\ndraw(Circle((0,-1.73),1),linewidth(0.7));\n[/asy]",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the initial setup of the problem? What are the geometric objects involved and how are they related to each other?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we use symmetry to simplify the problem? What observations can we make about the angles in the triangle formed?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the relationship between the lengths AC and OC in the triangle AOC? How can we use this relationship to find OC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the length OD? What other lengths do we need to consider and how can we calculate them?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the final result for the radius of the large circle? Can we simplify the expression further?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other geometric properties or theorems that can be applied to this problem? How do they relate to the given information?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Can you visualize the arrangement of the circles and verify that the radius we calculated is correct?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

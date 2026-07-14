@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_580",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Two identical rectangular crates are packed with cylindrical pipes, using different methods. Each pipe has diameter 10 cm.  A side view of the first four rows of each of the two different methods of packing is shown below.\n\n[asy]\ndraw(circle((1,1),1),black+linewidth(1));\ndraw(circle((3,1),1),black+linewidth(1));\ndraw(circle((5,1),1),black+linewidth(1));\ndraw(circle((7,1),1),black+linewidth(1));\ndraw(circle((9,1),1),black+linewidth(1));\ndraw(circle((11,1),1),black+linewidth(1));\ndraw(circle((13,1),1),black+linewidth(1));\ndraw(circle((15,1),1),black+linewidth(1));\ndraw(circle((17,1),1),black+linewidth(1));\ndraw(circle((19,1),1),black+linewidth(1));\ndraw(circle((1,3),1),black+linewidth(1));\ndraw(circle((3,3),1),black+linewidth(1));\ndraw(circle((5,3),1),black+linewidth(1));\ndraw(circle((7,3),1),black+linewidth(1));\ndraw(circle((9,3),1),black+linewidth(1));\ndraw(circle((11,3),1),black+linewidth(1));\ndraw(circle((13,3),1),black+linewidth(1));\ndraw(circle((15,3),1),black+linewidth(1));\ndraw(circle((17,3),1),black+linewidth(1));\ndraw(circle((19,3),1),black+linewidth(1));\ndraw(circle((1,5),1),black+linewidth(1));\ndraw(circle((3,5),1),black+linewidth(1));\ndraw(circle((5,5),1),black+linewidth(1));\ndraw(circle((7,5),1),black+linewidth(1));\ndraw(circle((9,5),1),black+linewidth(1));\ndraw(circle((11,5),1),black+linewidth(1));\ndraw(circle((13,5),1),black+linewidth(1));\ndraw(circle((15,5),1),black+linewidth(1));\ndraw(circle((17,5),1),black+linewidth(1));\ndraw(circle((19,5),1),black+linewidth(1));\ndraw(circle((1,7),1),black+linewidth(1));\ndraw(circle((3,7),1),black+linewidth(1));\ndraw(circle((5,7),1),black+linewidth(1));\ndraw(circle((7,7),1),black+linewidth(1));\ndraw(circle((9,7),1),black+linewidth(1));\ndraw(circle((11,7),1),black+linewidth(1));\ndraw(circle((13,7),1),black+linewidth(1));\ndraw(circle((15,7),1),black+linewidth(1));\ndraw(circle((17,7),1),black+linewidth(1));\ndraw(circle((19,7),1),black+linewidth(1));\ndraw((0,15)--(0,0)--(20,0)--(20,15),black+linewidth(1));\ndot((10,9));\ndot((10,11));\ndot((10,13));\nlabel(\"Crate A\",(10,0),S);\n[/asy]\n\n[asy]\ndraw(circle((1,1),1),black+linewidth(1));\ndraw(circle((3,1),1),black+linewidth(1));\ndraw(circle((5,1),1),black+linewidth(1));\ndraw(circle((7,1),1),black+linewidth(1));\ndraw(circle((9,1),1),black+linewidth(1));\ndraw(circle((11,1),1),black+linewidth(1));\ndraw(circle((13,1),1),black+linewidth(1));\ndraw(circle((15,1),1),black+linewidth(1));\ndraw(circle((17,1),1),black+linewidth(1));\ndraw(circle((19,1),1),black+linewidth(1));\ndraw(circle((2,2.75),1),black+linewidth(1));\ndraw(circle((4,2.75),1),black+linewidth(1));\ndraw(circle((6,2.75),1),black+linewidth(1));\ndraw(circle((8,2.75),1),black+linewidth(1));\ndraw(circle((10,2.75),1),black+linewidth(1));\ndraw(circle((12,2.75),1),black+linewidth(1));\ndraw(circle((14,2.75),1),black+linewidth(1));\ndraw(circle((16,2.75),1),black+linewidth(1));\ndraw(circle((18,2.75),1),black+linewidth(1));\ndraw(circle((1,4.5),1),black+linewidth(1));\ndraw(circle((3,4.5),1),black+linewidth(1));\ndraw(circle((5,4.5),1),black+linewidth(1));\ndraw(circle((7,4.5),1),black+linewidth(1));\ndraw(circle((9,4.5),1),black+linewidth(1));\ndraw(circle((11,4.5),1),black+linewidth(1));\ndraw(circle((13,4.5),1),black+linewidth(1));\ndraw(circle((15,4.5),1),black+linewidth(1));\ndraw(circle((17,4.5),1),black+linewidth(1));\ndraw(circle((19,4.5),1),black+linewidth(1));\ndraw(circle((2,6.25),1),black+linewidth(1));\ndraw(circle((4,6.25),1),black+linewidth(1));\ndraw(circle((6,6.25),1),black+linewidth(1));\ndraw(circle((8,6.25),1),black+linewidth(1));\ndraw(circle((10,6.25),1),black+linewidth(1));\ndraw(circle((12,6.25),1),black+linewidth(1));\ndraw(circle((14,6.25),1),black+linewidth(1));\ndraw(circle((16,6.25),1),black+linewidth(1));\ndraw(circle((18,6.25),1),black+linewidth(1));\ndraw((0,15)--(0,0)--(20,0)--(20,15),black+linewidth(1));\ndot((10,9));\ndot((10,11));\ndot((10,13));\nlabel(\"Crate B\",(10,0),S);\n[/asy]\n\nAfter the crates have been packed with 200 pipes each, what is the positive difference in the total heights (in cm) of the two packings?",
+  "n_questions": 10,
+  "labels": [
+    "b",
+    "f",
+    "f",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the height of the packing in Crate A, and how is it determined?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How is the packing arranged in Crate A? How many rows are there and how many pipes are packed in each row?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How does the packing arrangement in Crate B differ from Crate A?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we find the distance between each consecutive pair of horizontal lines in Crate B?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What shape do the centers of three pairwise touching pipes in consecutive rows form? How is this shape useful in finding the distance between the horizontal lines?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "What is the height of the equilateral triangle formed by the centers of the three pairwise touching pipes in each row?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How can we use the height of the equilateral triangle to find the distance between the horizontal lines in Crate B?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the total height of the packing in Crate B?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the positive difference in the total heights of the two packings?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you calculate the numerical value of the positive difference in the total heights?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

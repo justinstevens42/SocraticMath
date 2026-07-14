@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_1011",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Let $n$ be a positive integer and $a,b$ be invertible integers modulo $n$ such that $a\\equiv b^{-1}\\pmod n$. What is the remainder when $ab$ is divided by $n$?",
+  "n_questions": 7,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what it means for two integers, $a$ and $b$, to be invertible modulo $n$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we express $a \\equiv b^{-1} \\pmod n$ using modular arithmetic notation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Given the congruence $a \\equiv b^{-1} \\pmod n$, what does it tell us about the relationship between $a$ and $b$ modulo $n$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What does it mean for an integer $x$ to be congruent to $y$ modulo $n$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Given the congruence $ab \\equiv b^{-1}b \\equiv 1 \\pmod n$, what can we conclude about $ab$ modulo $n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How would you determine the remainder when $ab$ is divided by $n$ based on the congruence we have?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any scenarios where similar reasoning and steps might be used to determine remainders in modulo arithmetic?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

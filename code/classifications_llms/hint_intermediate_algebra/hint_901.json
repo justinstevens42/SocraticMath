@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_901",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The function $f(x)$ satisfies\n\\[f(x + y) = f(x) f(y)\\]for all real numbers $x$ and $y.$  If $f(2) = 3,$ find $f(6).$",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the equation that defines the function $f(x)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you give an example of two real numbers $x$ and $y$ for which $f(x+y) \\neq f(x) f(y)$ ?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Is $f(0) = 1$ true? If yes, why? If not, what would $f(0)$ be?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the value of $f(1)$? Can you prove it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Given that $f(2) = 3$, what is the value of $f(4)$? How did you get to your answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "With $f(2) = 3$, what is the value of $f(6)$? Can you explain step by step using the given equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other function that satisfies the same equation? What are their similarities and differences compared to $f(x)$?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

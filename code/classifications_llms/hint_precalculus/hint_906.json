@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_906",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Let $\\overline{AD},$ $\\overline{BE},$ $\\overline{CF}$ be the altitudes of acute triangle $ABC.$  If\n\\[9 \\overrightarrow{AD} + 4 \\overrightarrow{BE} + 7 \\overrightarrow{CF} = \\mathbf{0},\\]then compute $\\angle ACB,$ in degrees.\n\n[asy]\nunitsize (0.6 cm);\n\npair A, B, C, D, E, F, H;\n\nA = (2,5);\nB = (0,0);\nC = (8,0);\nD = (A + reflect(B,C)*(A))/2;\nE = (B + reflect(C,A)*(B))/2;\nF = (C + reflect(A,B)*(C))/2;\n\ndraw(A--B--C--cycle);\ndraw(A--D);\ndraw(B--E);\ndraw(C--F);\n\nlabel(\"$A$\", A, N);\nlabel(\"$B$\", B, SW);\nlabel(\"$C$\", C, SE);\nlabel(\"$D$\", D, S);\nlabel(\"$E$\", E, NE);\nlabel(\"$F$\", F, NW);\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the given information in this problem? What are the altitudes of triangle ABC and how are they represented as vectors?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does it mean for the sum of these vectors to be zero? How does this relate to the orthocenter of the triangle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Why can we create triangle PQR using the given vectors? How does this relate to the orthocenter and the altitudes of triangle ABC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we show that triangle PQR and triangle ABC are similar? What similarities between the triangles allow us to make this conclusion?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we express the ratios of the sides of triangle ABC using the given vectors? What do these ratios tell us about the triangle's side lengths?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we determine the value of cosine C using the ratios of triangle ABC's side lengths? What does this tell us about angle C?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,92 @@
+{
+  "problem_id": "hint_324",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Suppose that we are given 40 points equally spaced around the perimeter of a square, so that four of them are located at the vertices and the remaining points divide each side into ten congruent segments.  If $P$, $Q$, and $R$ are chosen to be any three of these points which are not collinear, then how many different possible positions are there for the centroid of $\\triangle PQR$?",
+  "n_questions": 11,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many equally spaced points are there around the perimeter of the square?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the coordinates of the vertices of the square?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many congruent segments divide each side of the square?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why the centroid of triangle PQR must lie in the interior of the square?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "What is the formula for finding the coordinates of the centroid of a triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why the coordinates of the centroid must be of the form (m/3, n/3) where m and n are integers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How many possible positions are there for the centroid of triangle PQR?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you explain why every point of the form (m/3, n/3) could be a centroid?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you identify the cases that divide the points into different possible positions for the centroid?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How many possible positions are there for the centroid in each case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "Can you calculate the total number of possible positions for the centroid using the number of positions in each case?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

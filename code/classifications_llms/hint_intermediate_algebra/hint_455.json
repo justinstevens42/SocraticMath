@@ -1,0 +1,92 @@
+{
+  "problem_id": "hint_455",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Given that $x^2 + y^2 = 14x + 6y + 6,$ find the largest possible value of $3x + 4y.$",
+  "n_questions": 11,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the equation given? How can we approach this problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the largest possible value of $3x+4y$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Let $z=3x+4y$. Why do we substitute $z$ into the given equation? What is the purpose of doing this substitution?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How do we simplify the given equation after we substitute $z$ into it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why do we write this equation as a quadratic in $x$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do we ensure that this quadratic has real roots? What does this condition tell us?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "How do we find the discriminant of this quadratic? Why should the discriminant be nonnegative in order for the quadratic to have real roots?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the inequality that we obtain by setting the discriminant greater than or equal to zero? How do we simplify this inequality?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the range of possible values of $z$ that satisfies this inequality? How do we find this range?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "How do we determine the largest possible value of $z$ from the range we obtained in the previous question? How do we find the corresponding values of $x$ and $y$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "What is the largest possible value of $3x+4y$ obtained in the previous question?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

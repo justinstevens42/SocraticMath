@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_123",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What is the base-10 integer 515 when expressed in base 6?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How do you know that the largest power of 6 less than 515 is $6^3=216$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How does knowing the largest power of 6 less than 515 help you determine the digit in the $6^3$ place of the base-6 representation of 515?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "After determining the digit in the $6^3$ place, how do you find the remaining digits of the base-6 representation of 515?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Is there only one way to convert a base-10 integer to a base-6 integer? If not, what are some different methods that could be used?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "How does the process of converting a base-10 integer to a base-6 integer relate to the concept of place value in our number system?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other situations in which converting between different bases might be useful or necessary in solving a problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_419",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Triangle $ABC$ is an obtuse, isosceles triangle. Angle $A$ measures 20 degrees. What is number of degrees in the measure of the largest interior angle of triangle $ABC$?\n\n[asy]\ndraw((-20,0)--(0,8)--(20,0)--cycle);\nlabel(\"$20^{\\circ}$\",(-13,-0.7),NE);\nlabel(\"$A$\",(-20,0),W);\nlabel(\"$B$\",(0,8),N);\nlabel(\"$C$\",(20,0),E);\n\n[/asy]",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Why is triangle ABC considered an obtuse triangle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How do we determine the measure of angle A in triangle ABC?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What do we know about triangle ABC? Can we conclude anything about its sides or angles?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "What is the relationship between angles A and B in an isosceles triangle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we find the measure of angle B in triangle ABC?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the sum of the interior angles in a triangle? How can we use this information to find the measure of angle C in triangle ABC?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "Given that angle C measures 20 degrees, can you determine the measure of angle B?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Is angle B the largest interior angle in triangle ABC? Why or why not?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How does the fact that triangle ABC is isosceles impact the measure of its interior angles?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any other properties or relationships that can help us determine the measure of the largest interior angle in triangle ABC?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_364",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Mr. Jones has 6 children. Assuming that the gender of each child is determined independently and with equal likelihood of male and female, what is the probability that Mr. Jones has more sons than daughters or more daughters than sons?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem trying to determine?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Could you explain the concept of complementary probability?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How many possible ways can the genders of Mr. Jones' children be determined?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "In how many of those ways does Mr. Jones have exactly 3 sons and 3 daughters?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we use complementary counting to find the number of ways in which Mr. Jones has more children of one gender than the other?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the final probability of Mr. Jones having more sons than daughters or more daughters than sons?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

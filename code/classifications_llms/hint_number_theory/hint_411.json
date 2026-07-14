@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_411",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "As $n$ ranges over the positive integers, what is the maximum possible value for the greatest common divisor of $11n+3$ and $6n+1$?",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving the problem using the Euclidean Algorithm?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Are you familiar with what the Euclidean Algorithm is and how it works?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Why do we subtract $(11n+3) - (6n+1)$ in the first step? What is the purpose of this subtraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How does the Euclidean Algorithm help us find the greatest common divisor?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Why do we express the greatest common divisor as $\\gcd(n-1, 7)$ in the final step?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other situations where the Euclidean Algorithm might be useful in finding greatest common divisors?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "Are there any values of $n$ for which the greatest common divisor would not be 1 or 7? If so, what are they and why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

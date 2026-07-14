@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_937",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "A diagonal of a polygon is a segment joining two nonconsecutive vertices of the polygon. How many diagonals does a regular octagon have?",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "b",
+    "r",
+    "b",
+    "e",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what a diagonal is in the context of a polygon?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How many vertices does a regular octagon have?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many pairs of nonconsecutive vertices can you create in a regular octagon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many diagonals does each pair of nonconsecutive vertices create?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you come up with a formula or equation to express the number of diagonals in terms of the number of vertices?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How can you derive the formula for the number of diagonals in a regular octagon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you prove that the formula holds true for any regular octagon?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Are there any special properties or characteristics of the regular octagon that allow us to apply this formula?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of any other polygons where the same formula can be used to find the number of diagonals?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "How does understanding the formula for counting diagonals help us analyze or solve problems involving regular polygons?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

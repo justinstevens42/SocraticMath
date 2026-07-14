@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_399",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "For each integer $n \\ge 2$, let $A(n)$ be the area of the region in the coordinate plane defined by the inequalities $1\\le x \\le n$ and $0\\le y \\le x \\left\\lfloor \\sqrt x \\right\\rfloor$, where $\\left\\lfloor \\sqrt x \\right\\rfloor$ is the greatest integer not exceeding $\\sqrt x$. Find the number of values of $n$ with $2\\le n \\le 1000$ for which $A(n)$ is an integer.",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of $A(n)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How is $\\left\\lfloor \\sqrt x \\right\\rfloor$ defined?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What is the range of $n$ we need to consider?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How can we calculate the area of the trapezoid for $k^2 \\leq x \\leq (k+1)^2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the formula for the area of the trapezoid for $k^2 \\leq x < n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the area of the graph for $1 \\leq x \\leq n$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the main criterion we need to satisfy to make $A(n)$ an integer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we calculate $k[2k(n^2 - k^4) + k - 1]$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What are the possible values of $k$ and how many integers do they contribute to $A(n)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What is the total number of integers we seek?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

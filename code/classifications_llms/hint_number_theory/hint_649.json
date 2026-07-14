@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_649",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Natasha has more than $\\$1$ but less than $\\$10$ worth of dimes. When she puts her dimes in stacks of 3, she has 1 left over. When she puts them in stacks of 4, she has 1 left over. When she puts them in stacks of 5, she also has 1 left over. How many dimes does Natasha have?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the range of possible values for the number of dimes Natasha has?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we rephrase the stacking data using modular arithmetic?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "According to the Chinese Remainder Theorem, what condition must be satisfied for a number to be a solution to the system of equivalences?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the Chinese Remainder Theorem to find a solution for the system of equivalences?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Based on the system of equivalences, what is the smallest possible value for the number of dimes Natasha has?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do we know that there are no other numbers within the given range that satisfy the system of equivalences?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of any other situations or problems where we can apply the Chinese Remainder Theorem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

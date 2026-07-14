@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_581",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 5",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "The inhabitants of the island of Jumble use the standard Kobish alphabet ($20$ letters, A through T).  Each word in their language is $4$ letters or less, and for some reason, they insist that all words contain the letter A at least once. How many words are possible?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you restate the problem in your own words? What are the constraints and requirements?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How can we approach this problem? Can we use a similar strategy of considering the opposite, like in the example provided?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Let's start with one-letter words. How many words are possible and how many of them contain the letter A?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Moving on to two-letter words, what is the total number of words and the number of words without the letter A?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Using the same approach, what are the numbers of three-letter and four-letter words without the letter A?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we then find the total number of words that satisfy the given condition?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you summarize your findings and provide the final answer to the problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

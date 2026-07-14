@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_533",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The positive four-digit integers that use each of the four digits $1,$ $2,$ $3,$ and $4$ exactly once are ordered from least to greatest. What is the $15^{\\text{th}}$ integer in the list?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "f",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the problem asking us to count?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many digits are we working with and how many different permutations can we make with these digits?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How many permutations begin with the digit 1? How did we arrive at this number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many permutations begin with the digit 2? How did we arrive at this number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many permutations begin with the digit 3? How did we arrive at this number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How could we continue finding all permutations until we get to the 15th integer in the ordered list?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How do we know that listing out the permutations in order from least to greatest will give us the 15th integer in the list?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 8,
+      "question": "Could we apply the same approach to finding the nth integer in a list of permutations using a different set of digits?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

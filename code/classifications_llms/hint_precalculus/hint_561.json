@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_561",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Find the matrix $\\mathbf{M},$ with real entries, such that\n\\[\\mathbf{M}^3 - 4 \\mathbf{M}^2 + 5 \\mathbf{M} = \\begin{pmatrix} 10 & 20 \\\\ 5 & 10 \\end{pmatrix}.\\]",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "r",
+    "f",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the goal of this problem? How can we find the matrix $\\mathbf{M}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Is there any property or equation that relates $\\mathbf{M}$ to $\\mathbf{M}^3 - 4 \\mathbf{M}^2 + 5 \\mathbf{M}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can we express $\\mathbf{M}$ as a matrix with real entries? If yes, how can we represent it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How do we square a matrix $\\mathbf{M}$? What is the result?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How do we multiply a matrix $\\mathbf{M}$ by a scalar? How can we apply this to $\\mathbf{M}^2$ and $\\mathbf{M}$ in the given expressions?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can we identify any patterns or relationships in the resulting equations?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "How can we express these equations in terms of the elements of the matrix $\\mathbf{M}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What does it mean for two matrices to be equal? How can we use this equality to find the values of $a$ and $c$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the final solution for $\\mathbf{M}$? How does it satisfy the given equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_522",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 2",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Adam has $15$ of a certain type of rare coin and is interested in knowing how much this collection is worth.  He discovers that $5$ of these coins are worth $12$ dollars in total. Assuming that the value of each coin is the same, how many dollars is his entire collection worth?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How many coins does Adam have in total?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the value of 5 coins in dollars?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "If the value of each coin is the same, how can we determine the value of the entire collection?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why can we multiply the value of 5 coins by 3 to find the total value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why the total value of the collection is 36 dollars based on the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any other scenarios where we can use a similar approach to find the total value of a collection based on a given subset?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_647",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Two distinct numbers are selected simultaneously and at random from the set $\\{1, 2, 3, 4, 5\\}$. What is the probability that their product is an even number? Express your answer as a common fraction.",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the event we are interested in? Can you restate it in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain why we are using complementary counting for this problem? How does it help us find the probability of the event we want?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How many pairs of distinct numbers can be selected from the set $\\{1, 2, 3, 4, 5\\}$? Can you explain how you arrived at this number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many pairs of odd numbers can be selected from the set? Can you explain how you arrived at this number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How do these numbers help us find the probability of having an odd product?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why we subtract the probability of an odd product from 1 to find the probability of an even product?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 7,
+      "question": "What is the final probability of the product being an even number? Can you explain how you arrived at this fraction?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

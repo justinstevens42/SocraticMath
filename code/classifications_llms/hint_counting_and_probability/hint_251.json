@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_251",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "The lottery in our state consists of two drawings.  First, a MegaBall is picked from among 27 numbered balls.  Second, five WinnerBalls are picked from among 44 numbered balls. To win the lottery, you must pick the MegaBall number correctly and also pick the numbers on the five WinnerBalls (but you don't need to get the order right for the WinnerBalls).  What is the probability that the ticket I hold has the winning numbers?",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "r",
+    "e",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of probability and how does it apply to the lottery?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How many possible outcomes are there for the MegaBall drawing?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many possible outcomes are there for the WinnerBall drawing?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the total number of possible combinations for the MegaBall and WinnerBall numbers?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the probability of selecting the correct MegaBall and all five WinnerBall numbers in the correct order?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the probability of selecting the correct MegaBall and all five WinnerBall numbers in any order?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How does the order of the WinnerBall numbers affect the probability of winning?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "Is it possible to increase the probability of winning by purchasing more lottery tickets? Why or why not?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "How does the concept of independent events relate to the probability of each drawing in the lottery?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 10,
+      "question": "What other real-life situations can be modeled using the techniques of counting and probability?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

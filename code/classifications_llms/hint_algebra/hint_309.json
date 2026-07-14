@@ -1,0 +1,50 @@
+{
+  "problem_id": "hint_309",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 3",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Let $f(x) = 2x - 3$ and $g(x) = x + 1$. What is the value of $f(1 + g(2))$?",
+  "n_questions": 5,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what $g(2)$ means in this context?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What will be the result of evaluating $g(2)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Once you have determined the value of $g(2)$, what is the next step to find the value of $1 + g(2)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How would you evaluate $f(1 + g(2))$ using the given functions $f(x)$ and $g(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What is the result of evaluating $f(1 + g(2))$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

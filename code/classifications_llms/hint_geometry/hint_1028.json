@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_1028",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The measure of each exterior angle of a regular polygon is $30$ degrees. What is the sum of the measures of the interior angles, in degrees?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you define a regular polygon?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between the measure of each exterior angle and the sum of all exterior angles in a polygon?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the given information about the measure of each exterior angle to determine the number of sides in the polygon?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain the formula for finding the sum of the interior angles of an n-sided polygon?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Applying the formula, what is the sum of the interior angles for a polygon with 12 sides?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Is there any other way to verify the sum of the interior angles using different reasoning or formulas?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_503",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "If we express $x^2 - 5x$ in the form $a(x - h)^2 + k$, then what is $k$?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "b",
+    "f",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain how we can express $x^2 - 5x$ in the form $a(x - h)^2 + k$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the value of $k$ in the expression $a(x - h)^2 + k$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What role does the term $-5x$ play in the given expression $x^2 - 5x$ when we try to express it in the form $a(x - h)^2 + k$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Can you provide an example of a similar algebraic expression where we can easily determine the value of $k$ using the given form?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "How does expressing $x^2 - 5x$ in the form $a(x - h)^2 + k$ help us in analyzing the equation or expression?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other situations or applications where expressing an expression in this form could be helpful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

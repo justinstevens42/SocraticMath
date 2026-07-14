@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_457",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The same amount of steel used to create eight solid steel balls, each with a radius of 1 inch, is used to create one larger steel ball. What is the radius of the larger ball?\n\n[asy]\nsize(150);\nfilldraw(circle((0,0),1),gray);\nfilldraw(circle((.9,-.8),1),gray);\nfilldraw(circle((1.8,.9),1),gray);\nfilldraw(circle((2,0),1),gray);\nfilldraw(circle((2,-.4),1),gray);\nfilldraw(circle((3,-.4),1),gray);\nfilldraw(circle((4.8,-.4),1),gray);\nfilldraw(circle((3.2,.5),1),gray);\n\ndraw((6,.7)--(8,.7),Arrow);\n\nfilldraw(circle((11,.2),2),gray);\n[/asy]",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the equation representing the amount of steel used to create one ball with a radius of 1 inch?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can we find the amount of steel used to create eight balls with a radius of 1 inch each?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the total amount of steel used to create eight balls with a radius of 1 inch each?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we represent the amount of steel used to create one larger ball with an unknown radius?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What equation can we set up to solve for the radius of the larger ball?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we solve the equation to find the radius of the larger ball?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the radius of the larger ball based on the solution to the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

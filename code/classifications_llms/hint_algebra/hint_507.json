@@ -1,0 +1,99 @@
+{
+  "problem_id": "hint_507",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Solve for $x$: $\\frac{5x}{(x+3)} - \\frac3{(x+3)} = \\frac1{(x+3)}$",
+  "n_questions": 12,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step to solve this equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "To solve this equation, do you know any different methods that can be used?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you choose to multiply both sides of the equation by $(x+3)$, what do you get? Why is multiplying by $(x+3)$ a good choice?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you simplify the equation after multiplying both sides by $(x+3)$? What does the equation look like now?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What values of $x$ make the denominator $(x+3)$ equal to zero? Why do we need to avoid these values?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "After simplifying the equation, what is the resulting polynomial equation? Can you factorize it?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "If you factorize the polynomial equation, what are the factors? How can you use these factors to find the solutions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Can you check if the solutions obtained from factoring the polynomial equation are valid by substituting them back into the original equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Are there any other methods you can think of to solve similar types of equations? How do these methods compare to the one used here?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "How can you generalize the steps used to solve this equation? Can you apply these steps to solve other rational equations?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 11,
+      "question": "Can you explain the connection between the solutions to the equation and the graphical representation of the rational function $\\frac{5x}{(x+3)} - \\frac3{(x+3)} = \\frac1{(x+3)}$?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 12,
+      "question": "Can you think of any real-world applications where rational equations like this can be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

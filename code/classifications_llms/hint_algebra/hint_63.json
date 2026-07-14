@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_63",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "A ball travels on a parabolic path in which the height (in feet) is given by the expression $-16t^2+32t+15$, where $t$ is the time after launch. What is the maximum height of the ball, in feet?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "r",
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain how we can determine the maximum height of the ball based on the given expression?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Are there any specific steps or techniques we need to use to find the maximum height of the ball in this case?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we recognize the maximum height point in a parabolic path equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "In this particular equation, what are the coefficients and variables that represent the height and time respectively?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "Can you identify any patterns or relationships between the coefficients and the shape of the parabolic path?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "What does the negative coefficient in the equation (-16) indicate about the shape of the parabolic path?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "How can we determine the time at which the ball reaches its maximum height based on the given expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Once we have the time at which the ball reaches its maximum height, how can we find the actual maximum height in feet?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Are there any real-life applications or situations where understanding the maximum height of a ball's trajectory is important?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any other mathematical concepts or equations that might involve determining maximum or minimum points?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

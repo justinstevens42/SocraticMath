@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_191",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Suppose $77\\cdot 88\\cdot 99 \\equiv n\\pmod{20}$, where $0\\le n<20$.\n\nWhat is the value of $n$?",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "r",
+    "b",
+    "e",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain the first step in solving this congruence?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What methods do you know for solving congruences? Are there any different methods you can think of for this particular congruence?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you choose to reduce the factors modulo 20, how would you go about finding the appropriate reductions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why is it possible to reduce the factors modulo 20 in this congruence? Are there any characteristics that make it suitable for this method?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What are the reduced values of the factors? How do these values verify that your solution is correct?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other types of congruences that might require similar thinking and steps in solving?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "What is the value of n in the congruence $77\\cdot 88\\cdot 99 \\equiv n\\pmod{20}$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

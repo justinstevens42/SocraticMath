@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_152",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "In a certain hyperbola, the center is at $(-2,0),$ one focus is at $(-2 + \\sqrt{34},0),$ and one vertex is at $(-5,0).$  The equation of this hyperbola can be written as\n\\[\\frac{(x - h)^2}{a^2} - \\frac{(y - k)^2}{b^2} = 1.\\]Find $h + k + a + b.$",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of a hyperbola? How is it different from other conic sections?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you identify the key information given in the problem? What are the coordinates of the center, vertex, and focus of the hyperbola?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the given information to determine the equation of the hyperbola in the form $\\frac{(x - h)^2}{a^2} - \\frac{(y - k)^2}{b^2} = 1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What do the values of $h$ and $k$ represent in the equation? How can we determine these values based on the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine the values of $a$ and $b$ in the equation? What is the relationship between $a$, $b$, and the distance between the center and the vertex and focus?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we calculate the sum of $h + k + a + b$ based on the known values? What does this sum represent in the context of the hyperbola?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

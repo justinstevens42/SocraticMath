@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_842",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "The solution to the inequality\n\\[y = -x^2 + ax + b \\le 0\\]is $(-\\infty,-3] \\cup [5,\\infty).$  Find the vertex of the parabola $y = -x^2 + ax + b.$",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "r",
+    "r",
+    "b",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the meaning of the provided solution to the inequality $y=-x^2+ax+b\\leq0$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How does finding the vertex of the parabola $y=-x^2+ax+b$ relate to solving the inequality?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Do you know a formula or method to find the vertex of a parabola?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the general form of a quadratic equation, and how can it be used to find the vertex?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How is the vertex related to the zeros, or roots, of a quadratic equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "Can you explain why the vertex of the parabola in this problem is at $(1,16)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you identify any other key features of the parabola, such as its axis of symmetry or maximum/minimum value?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Are there any other methods or strategies that can be used to solve inequalities involving quadratics?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "What happens if the inequality has only one solution, or no real solutions?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

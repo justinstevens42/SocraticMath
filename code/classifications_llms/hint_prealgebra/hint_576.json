@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_576",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "An equilateral triangle and a square are inscribed in a circle as shown. $ABC$ is isosceles. The triangle and square share a common vertex. What is the number of degrees in the measure of the angle indicated by the question mark?\n\n[asy]\n\nimport markers; defaultpen(linewidth(0.8));\n\npair A,B,C,D,E,F,G;\n\ndraw(unitcircle);\n\nA=(-1,0);\nB=(0,-1);\nC=(1,0);\nD=(0,1);\n\ndraw(A--B--C--D--A);\n\nE=(-0.9,-0.45);\nF=(0.9,-0.45);\n\ndraw(D--E--F--D);\n\nG=(-0.76,-0.23);\n\nmarkangle(Label(\"?\"),n=1,radius=10,D,G,A,marker(stickframe(n=0),true));\n\nlabel(\"$A$\",(-0.5,-0.34));\nlabel(\"$B$\",(0.5,-0.34));\nlabel(\"$C$\",B,S);\n\n[/asy]",
+  "n_questions": 9,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given information in the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you identify any known angles in the diagram?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the measure of angle XYZ?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What can we conclude about angle XYZ based on it being part of a square?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine the measure of angle YXZ?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can we use any properties or relationships to find the measure of angle XZY?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the sum of the angles in triangle XYZ?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 8,
+      "question": "How can we find the measure of angle XZY using the information we have?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the measure of angle XZY in degrees?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

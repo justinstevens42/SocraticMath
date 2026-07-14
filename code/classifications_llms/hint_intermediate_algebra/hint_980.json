@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_980",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "For each value of $x,$ $f(x)$ is defined to be the minimum value of the three numbers $2x + 2,$ $\\frac{1}{2} x + 1,$ and $-\\frac{3}{4} x + 7.$  Find the maximum value of $f(x).$",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step to finding the maximum value of $f(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What are the equations of the three lines that define $f(x)$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Where do these lines intersect? What are the coordinates of these intersection points?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine whether $f(x)$ is increasing or decreasing on different intervals?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "On what interval(s) is $f(x)$ increasing? On what interval(s) is $f(x)$ decreasing?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the maximum value of $f(x)$? At what point does it occur?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

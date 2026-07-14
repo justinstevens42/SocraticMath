@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_387",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "A rectangular box has a volume of $4320$ cubic inches and a surface area of $1704$ square inches. The sum of the lengths of its $12$ edges is $208$ inches. What would be the volume of the box, in cubic inches, if its length, width and height were each increased by one inch?",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step to solve this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How would you approach finding the volume of the box based on the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "If you were to represent the dimensions of the box algebraically, what variables would you use?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you find an equation that relates the volume, surface area, and sum of the lengths of the edges of the box?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How would you use the equation to solve for the dimensions of the box?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "If the length, width, and height of the box were each increased by one inch, how would it impact the volume equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What steps would you take to find the new volume of the box after increasing the dimensions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

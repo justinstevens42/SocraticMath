@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_298",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "Find the units digit of the sum, $$ 1! + 2! + 3! + \\cdots + 2006!. $$",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain what the units digit of a number refers to?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "What is the units digit of 1 factorial? How about 2 factorial? Can you generalize the units digit pattern for factorials?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What is the units digit of the sum $1! + 2!$? Can you explain why?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How would you find the units digit of the sum $1! + 2! + 3!$? Can you see a pattern emerging?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you find the units digit of the sum $1! + 2! + 3! + 4!$? Can you generalize the pattern you observed?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the units digit of $2006!$? Can you explain why it has this units digit?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How would you find the units digit of the sum $1! + 2! + 3! + \\cdots + 2006!$? Can you apply the pattern you have observed to simplify this sum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What is the units digit of the simplified sum? Can you explain why this is the units digit of the original sum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Can you think of other similar sums involving factorials where finding the units digit might be useful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

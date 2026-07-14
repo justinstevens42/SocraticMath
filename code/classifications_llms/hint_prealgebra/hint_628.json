@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_628",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 4",
+  "problem_type": "AC",
+  "problem_type_name": "Accidentals",
+  "problem": "Three coplanar circles intersect as shown. What is the maximum number of points on the circles that a line passing through all three circles can touch?\n\n[asy]import graph;\ndraw(Circle((-9,9),15));\ndraw(Circle((0,-9),15));\ndraw(Circle((9,9),15));\n[/asy]",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what coplanar means?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How would you define the intersection of two circles?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain how three coplanar circles can intersect?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the maximum number of points at which a line can intersect 1 circle?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Why should the maximum number of points on the circles that a line passing through all three circles can touch be 6?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other geometric shapes that intersect in a similar way?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

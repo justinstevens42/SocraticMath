@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_911",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find the matrix that corresponds to rotating about the origin by an angle of $120^\\circ$ counter-clockwise.",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "r",
+    "f",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the transformation of rotating about the origin? What happens to the points on the coordinate plane when we rotate them counter-clockwise by an angle of $120^\\circ$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How does knowing the transformation of specific points, like $\\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix}$ and $\\begin{pmatrix} 0 \\\\ 1 \\end{pmatrix}$, help us find the matrix representation of the rotation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If we want to represent the rotation as a matrix, what properties or characteristics should the matrix have?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Based on the given information, can you determine the entries of the matrix that represents the rotation? How can you relate the transformed coordinates to the matrix entries?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we verify that the matrix we found actually represents the desired rotation? Is there a way to check if the matrix appropriately maps the given points to their transformed positions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of other types of transformations that can be represented by matrices? How might we approach finding the corresponding matrices for those transformations?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

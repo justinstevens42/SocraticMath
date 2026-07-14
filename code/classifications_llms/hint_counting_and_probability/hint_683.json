@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_683",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "My school's math club has 6 boys and 8 girls.  I need to select a team to send to the state math competition.  We want 6 people on the team.  In how many ways can I select the team without restrictions?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "f",
+    "r",
+    "e",
+    "r",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of \"combinations\" in counting and probability?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How many students are there total in the school's math club?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "What is the difference between a combination and a permutation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "If we were to choose a team of 6 with one boy and five girls, how many ways could this be done?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why the order in which we choose the students doesn't matter in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "If we added a restriction that two particular boys must be on the team, how would this change the answer?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

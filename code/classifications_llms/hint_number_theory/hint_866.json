@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_866",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Marsha has two numbers, $a$ and $b$.  When she divides $a$ by 70 she gets a remainder of 64.  When she divides $b$ by 105 she gets a remainder of 99.  What remainder does she get when she divides $a+b$ by 35?",
+  "n_questions": 10,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the given problem asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain the meaning of a remainder in division?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the given information to write equations involving $a$ and $b$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the relationship between the remainders and the divisors in the equations for $a$ and $b$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "How can we express the sum $a+b$ in terms of $n$ and $m$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the relationship between $2n+3m$ and the quotient obtained when $(2n+3m)$ is divided by 7?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Why is $35(2n+3m+4)$ a multiple of 35?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we determine the remainder when $(2n+3m+4)$ is divided by 7?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "How does finding the remainder when $(2n+3m+4)$ is divided by 7 help us find the remainder when $a+b$ is divided by 35?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of other problems where using modular arithmetic to find remainders would be helpful?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

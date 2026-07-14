@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_257",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 5",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "A circle is inscribed  in a square, then a square is inscribed  in this circle, and finally, a circle is inscribed  in this square. What is the ratio of the area of the smaller circle to the area of the larger square?",
+  "n_questions": 9,
+  "labels": [
+    "b",
+    "f",
+    "b",
+    "b",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the steps you would take to solve this problem, starting from the given information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What do you notice about the relationship between the circle and the square in the given image?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we determine the radius of the smaller circle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the side length of the smaller square?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why the radius of the larger circle is equal to half the length of the diagonal of the smaller square?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 6,
+      "question": "What is the relationship between the side length of the larger square and the radius of the larger circle?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "How can we calculate the area of the smaller circle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we calculate the area of the larger square?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Finally, what is the ratio of the area of the smaller circle to the area of the larger square?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

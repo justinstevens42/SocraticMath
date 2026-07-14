@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_457",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "A math teacher requires Noelle to do one homework assignment for each of the first five homework points she wants to earn; for each of the next five homework points, she needs to do two homework assignments; and so on, so that to earn the $n^{\\text{th}}$ homework point, she has to do $n\\div5$ (rounded up) homework assignments. For example, when she has 11 points, it will take $12\\div5=2.4\\rightarrow3$ homework assignments to earn her $12^{\\text{th}}$ point. What is the smallest number of homework assignments necessary to earn a total of 25 homework points?",
+  "n_questions": 8,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you understand the given problem and summarize what is being asked?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How does the math teacher determine the number of homework assignments required for each homework point?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "Can you explain the pattern that the teacher is using to determine the number of homework assignments needed?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "If Noelle has earned 11 homework points, how many homework assignments does she need to do to earn her 12th point? How did you calculate that?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you generalize the pattern for earning each subsequent homework point after 5, in terms of the number of homework assignments required?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many homework assignments are needed to earn a total of 25 homework points? Explain how you arrived at your answer.",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can you think of other scenarios or examples where a similar pattern might be used to determine the number of assignments needed to achieve a certain goal?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "How would the problem change if the number of homework points needed for each subsequent set of homework assignments was different (e.g., instead of 5, it was 3)?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

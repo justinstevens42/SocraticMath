@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_197",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Find the distance between the vertices of the hyperbola\n\\[\\frac{y^2}{27} - \\frac{x^2}{11} = 1.\\]",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is a hyperbola and how does it differ from other conic sections?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we identify the vertices of a hyperbola given its equation in standard form?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Using the given equation, what are the coordinates of the center of the hyperbola and how can we derive this information?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How do the values of $a$ and $b$ relate to the shape, size, and orientation of the hyperbola?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Given that $a^2 = 27$ and $b^2 = 11,$ what is the distance between the vertices of the hyperbola and how do we calculate this value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the significance of the distance between the vertices in the context of hyperbolas and why is it important to calculate it accurately?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

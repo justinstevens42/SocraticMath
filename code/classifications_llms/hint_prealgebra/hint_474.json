@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_474",
+  "domain": "prealgebra",
+  "type": "Prealgebra",
+  "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Malcolm can run a race at a speed of 6 minutes per mile, while Joshua runs at 8 minutes per mile. In a 10-mile race, how many minutes after Malcolm crosses the finish line will Joshua cross the finish line if they start the race together?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "f",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How long does Malcolm take to run 1 mile?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How long does Joshua take to run 1 mile?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How many miles do they need to run in total for the race?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "If they start the race together, how many minutes does it take for Malcolm to finish the race?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many minutes does it take for Joshua to finish the race?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How many minutes after Malcolm crosses the finish line will Joshua cross the finish line?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

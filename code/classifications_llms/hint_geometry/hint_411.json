@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_411",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Square $BCFE$ is inscribed in right triangle $AGD$, as shown below. If $AB = 28$ units and $CD = 58$ units, what is the area of square $BCFE$?\n\n[asy]\ndraw((9,15.6)--(10.7,14.6)--(11.7,16.3));\ndraw((0,0)--(10,17.3)--(40,0)--cycle);\ndraw((7,0)--(19,0)--(19,12.1)--(7,12.1)--cycle);\nlabel(\"$A$\",(0,0),SW);\nlabel(\"$B$\",(7,0),S);\nlabel(\"$C$\",(19,0),S);\nlabel(\"$D$\",(40,0),SE);\nlabel(\"$E$\",(7,12.1),NW);\nlabel(\"$F$\",(19,12.1),NE);\nlabel(\"$G$\",(10,17.3),N);\n[/asy]",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "f",
+    "r",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you explain how triangle $AGD$ and square $BCFE$ are related?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What do we know about the angles in triangles $AEB$ and $FDC$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we use these angle relationships to find the side length of the square?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "What is the equation that relates the side length of the square to the lengths of segments $AB$ and $CD$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you solve this equation to find the value of the side length?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How do we use the side length to find the area of the square?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other ways to approach this problem?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

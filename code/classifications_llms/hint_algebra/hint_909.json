@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_909",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Moving along a particular line in the Cartesian plane, when the $x$-value increases by 3 units, the $y$-value increases by 7 units. When the $x$-value increases by 9 units, by how many units will the $y$-value increase?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the relationship between the changes in $x$ and $y$ values as you move along the line in the Cartesian plane?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "If the $x$-value increase is 3 units, what is the corresponding increase in the $y$-value? How did you determine this?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "When the $x$-value increases by 9 units, can you predict how much the $y$-value will increase? What reasoning or strategy can you use to figure this out?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Is there a pattern or rule that relates the changes in $x$ and $y$ values that you can apply in this scenario?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you generalize this rule for any given line in the Cartesian plane? How would you express it mathematically?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other scenarios or examples where a similar relationship between $x$ and $y$ values can be applied? How would you approach solving those problems using the same line of thinking?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

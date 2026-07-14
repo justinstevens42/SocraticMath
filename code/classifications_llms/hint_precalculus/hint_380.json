@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_380",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Find the curve defined by the equation\n\\[r = 4 \\tan \\theta \\sec \\theta.\\](A) Line\n(B) Circle\n(C) Parabola\n(D) Ellipse\n(E) Hyperbola\n\nEnter the letter of the correct option.",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "e",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we rewrite the equation in terms of trigonometric functions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What happens if we substitute $\\theta = \\frac{\\pi}{4}$ into the equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we eliminate $\\theta$ from the equation and express $x$ and $y$ in terms of $r$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What type of shape is described by the equation $x^2 = 4y$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does the shape of the curve change if we adjust the value of the constant 4 in the equation?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Can we find any specific points or properties of the curve to further confirm our answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Are there any other methods or techniques we can use to determine the type of curve defined by the equation?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

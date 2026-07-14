@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_42",
+  "domain": "geometry",
+  "type": "Geometry",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "In triangle $ABC$, we have that $E$ and $F$ are midpoints of sides $\\overline{AC}$ and $\\overline{AB}$, respectively. The area of $\\triangle ABC$ is 24 square units. How many square units are in the area of $\\triangle CEF$?",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "f",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the given problem and provide a visual representation of the triangle and the midpoints of its sides?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What is the relationship between the areas of triangles $ABC$ and $CEF$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 3,
+      "question": "How can we use the fact that $E$ and $F$ are midpoints to determine the area of triangle $CEF$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Can you explain why the area of triangle $AFC$ is half the area of triangle $ABC$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "By what factor is the area of triangle $CEF$ related to the area of triangle $AFC$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How would the area of triangle $CEF$ change if the location of the midpoints $E$ and $F$ were to change?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

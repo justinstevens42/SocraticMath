@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_422",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "Palindromic primes are two-digit prime numbers such that the number formed when the digits are reversed is also prime. What is the sum of all palindromic primes less than 50?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "b",
+    "f",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you define a palindromic prime number?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you identify all the two-digit prime numbers less than 50?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Why do we only need to consider the prime numbers whose tens digit is odd?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "How would you check if the number formed when the digits are reversed is also prime?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "What are the palindromic prime numbers less than 50 based on the given criteria?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you calculate the sum of all the palindromic primes less than 50?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

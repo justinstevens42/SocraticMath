@@ -1,0 +1,78 @@
+{
+  "problem_id": "hint_45",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 2",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "What is the value of $\\log_{10}{4}+2\\log_{10}{5}+3\\log_{10}{2}+6\\log_{10}{5}+\\log_{10}{8}$?",
+  "n_questions": 9,
+  "labels": [
+    "r",
+    "r",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of logarithm and how does it relate to exponentiation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How does the identity $a\\log_b{x}=\\log_b{x^a}$ apply to the given expression?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How can we simplify the expression by applying the above identity to each term individually?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How does the identity $\\log_b{x}+\\log_b{y}=\\log_b{xy}$ help us simplify the expression further?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can we rearrange the terms in the expression using the properties of logarithms?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we rewrite the expression as a single logarithm using the properties previously discussed?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What values do the bases and exponents take on in the simplified expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we evaluate $\\log_{10}{10^8}$ using the definition of logarithms?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What is the final value of the given expression?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

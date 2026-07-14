@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_360",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "A rectangle has a perimeter of 30 units and its dimensions are whole numbers. What is the maximum possible area of the rectangle in square units?",
+  "n_questions": 6,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "f",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step you would take to solve this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "What are some different strategies you know of for finding the maximum area of a rectangle with a given perimeter?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If you were to use the method of trial and error, what would be your initial guess for the dimensions of the rectangle?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "Why does the rectangle's perimeter being a whole number affect the possible dimensions?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 5,
+      "question": "What is the maximum area you have found so far for this rectangle? How did you determine that it is the maximum?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you think of any other problems where finding the maximum area requires similar thinking and steps?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

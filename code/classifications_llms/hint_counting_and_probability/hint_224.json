@@ -1,0 +1,92 @@
+{
+  "problem_id": "hint_224",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 3",
+  "problem_type": "ET",
+  "problem_type_name": "Etudes",
+  "problem": "Two fair, six-sided dice are rolled.  What is the probability that the sum of the two numbers showing is less than 11?",
+  "n_questions": 11,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what the problem is asking in your own words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many possible outcomes are there when rolling two fair, six-sided dice?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Can you list all the possible outcomes and their corresponding sums?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many of these outcomes have a sum less than 11?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Can you explain why we are finding the probability of the sum being greater than or equal to 11 instead?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How did you determine that there are only 3 pairs of rolls that result in a sum greater than or equal to 11?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "How did you calculate the total number of possible pairs of rolls?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "Why do we use the concept of complementary probabilities in this problem?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 9,
+      "question": "How did you calculate the probability of the sum being not less than 11?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "Can you explain why we subtract the probability found in step 9 from 1 to get the probability of the sum being less than 11?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "What is the final probability that the sum of the numbers showing is less than 11?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

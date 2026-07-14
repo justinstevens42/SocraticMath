@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_637",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 2",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Compute $\\dbinom{50}{2}$.",
+  "n_questions": 10,
+  "labels": [
+    "r",
+    "r",
+    "f",
+    "r",
+    "e",
+    "e",
+    "e",
+    "e",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What does $\\dbinom{50}{2}$ represent in terms of counting or probability?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "Can you explain the formula used to compute $\\dbinom{50}{2}$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How would you interpret the numbers 50 and 2 in the expression $\\dbinom{50}{2}$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 4,
+      "question": "Could you provide an intuitive explanation of why we divide by $2!$ and $48!$ in the formula?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Can you think of a real-world scenario where $\\dbinom{50}{2}$ would be applicable?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 6,
+      "question": "Is there a way to verify the result obtained for $\\dbinom{50}{2}$ using alternative combinatorial methods?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 7,
+      "question": "How would the expression $\\dbinom{50}{2}$ change if we wanted to choose 3 objects instead of 2 from a set of 50?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 8,
+      "question": "Are there any limitations or assumptions we need to consider when using $\\dbinom{50}{2}$ to solve a counting problem?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 9,
+      "question": "Can you generalize the formula for $\\dbinom{n}{r}$ and explain its significance in counting and probability?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "How does the concept of binomial coefficients relate to other mathematical concepts, such as binomial expansions or Pascal's triangle?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_428",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 4",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "The parabola with equation $y=ax^2+bx+c$ is graphed below:\n\n[asy]\nxaxis(-3,7);\n\nyaxis(-5,32);\n\nreal g(real x)\n\n{\n\nreturn 4(x-2)^2-4;\n}\n\ndraw(graph(g,-1,5));\ndot((2,-4));\nlabel(\"Vertex: $(2,-4)$\", (2,-4), SE);\ndot((4,12));\nlabel(\"$(4,12)$\", (4,12), E);\n[/asy]\n\nThe zeros of the quadratic $ax^2 + bx + c$ are at $x=m$ and $x=n$, where $m>n$. What is $m-n$?",
+  "n_questions": 6,
+  "labels": [
+    "r",
+    "r",
+    "r",
+    "r",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the basic shape and direction of the graph of a parabola with equation $y=ax^2+bx+c$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the coordinates of the vertex of a parabola given its equation in the form $y=ax^2+bx+c$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "What does it mean for a quadratic equation to have zeros at $x=m$ and $x=n$, where $m>n$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How does the vertex of the parabola relate to the zeros of the quadratic equation?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "If the vertex of the parabola is $(2,-4)$ and one of the zeros is $(4,12)$, what can we determine about the other zero?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we calculate the difference between the zeros of a quadratic equation when given the coordinates of the vertex and one zero?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

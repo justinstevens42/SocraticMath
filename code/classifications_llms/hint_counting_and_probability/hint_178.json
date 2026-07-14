@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_178",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 1",
+  "problem_type": "FN",
+  "problem_type_name": "First Notes",
+  "problem": "Compute without using a calculator: $9!/8!$",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "r",
+    "b",
+    "r",
+    "b",
+    "f",
+    "f"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How would you describe the given expression in words?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What does the notation \"!\" represent in this context?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "Can you simplify the expression further? If so, how?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How does the factorial function work? Can you explain it?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "What happens when we cancel out the common terms in the numerator and denominator?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Can you identify any patterns or relationships in the expression that might simplify the calculation?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "What does the simplified expression $9$ represent in the context of the problem?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    }
+  ],
+  "classifier": "llm"
+}

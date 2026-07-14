@@ -1,0 +1,85 @@
+{
+  "problem_id": "hint_778",
+  "domain": "algebra",
+  "type": "Algebra",
+  "level": "Level 5",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "A point $(3\\sqrt{5},d+3)$ is $3d$ units away from the origin. What is the smallest possible value of $d$?",
+  "n_questions": 10,
+  "labels": [
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "f",
+    "b",
+    "b",
+    "e",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe what the first step should be in solving this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can we determine the distance between a point and the origin? Are there any formulas or methods that can help us?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "If we assume the point is $(x, y)$, how can we express the distance between the point and the origin in terms of $x$ and $y$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 4,
+      "question": "How can we use the given information, $(3\\sqrt{5}, d+3)$ being $3d$ units away from the origin, to set up an equation or inequality?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we manipulate the equation or inequality to solve for $d$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Are there any restrictions or conditions on the possible values of $d$ in this problem? If so, how can we identify them?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "What is the range of possible values for $d$ based on the equation or inequality we derived?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "How can we determine the smallest possible value of $d$ from the range of solutions?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "Is there a geometric interpretation or intuition behind the solution for $d$ in this problem? If so, what is it?",
+      "label": "e",
+      "label_name": "extension"
+    },
+    {
+      "index": 10,
+      "question": "Can you think of any extension problems or variations where a similar approach or line of thinking could be applied?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

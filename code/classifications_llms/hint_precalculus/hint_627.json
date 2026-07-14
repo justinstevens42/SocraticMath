@@ -1,0 +1,92 @@
+{
+  "problem_id": "hint_627",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "Let $a,$ $b,$ $c,$ $d$ be nonzero integers such that\n\\[\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}^2 = \\begin{pmatrix} 7 & 0 \\\\ 0 & 7 \\end{pmatrix}.\\]Find the smallest possible value of $|a| + |b| + |c| + |d|.$",
+  "n_questions": 11,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe the first step in solving this problem?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "How can we represent the matrix multiplication and set it equal to the given matrix?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "What can we deduce from the equation $a^2 + bc = bc + d^2 = 7$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What do we know about $ab + bd$ and $ac + cd$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we determine the value of $a + d$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "How can we minimize $|a| + |b| + |c| + |d|$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What are the possible values of $|a|$ and $|d|$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What happens when $|a| = |d| = 1$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 9,
+      "question": "What happens when $|a| = |d| = 2$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 10,
+      "question": "What if $|a| = |d| \\ge 3$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 11,
+      "question": "What is the minimum value of $|a| + |b| + |c| + |d|$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

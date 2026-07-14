@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_323",
+  "domain": "intermediate_algebra",
+  "type": "Intermediate Algebra",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "Let $f_0(x)=x+|x-100|-|x+100|$, and for $n\\geq 1$, let $f_n(x)=|f_{n-1}(x)|-1$. For how many values of $x$ is $f_{100}(x)=0$?",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "f",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the definition of the function $f_n(x)$ in terms of $f_{n-1}(x)$? How is this recursive relationship established?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "If $f_{n-1}(x) = \\pm k$, what is the value of $f_n(x)$? How does this help us in understanding the behavior of the function $f_n(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How does the value of $f_n(x)$ change if $f_{n-1}(x)$ is not equal to $\\pm k$? What does this tell us about the possible solutions to the equation $f_n(x) = 0$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How can we determine the value of $f_0(x)$ for a given value of $x$? Can we express $f_0(x)$ using mathematical expressions based on the definition of $f_n(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How does the graph of $y = f_0(x)$ look like? What are the key points or intervals where $f_0(x)$ has a specific value?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What is the significance of the numbers $-100$ and $100$ in the definition of $f_0(x)$? How do they affect the solutions to the equation $f_{100}(x) = 0$?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 7,
+      "question": "How many solutions are there to the equation $f_{100}(x) = 0$? Can you explain why based on the properties of the function $f_n(x)$ and the values of $f_0(x)$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

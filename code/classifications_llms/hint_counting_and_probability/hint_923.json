@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_923",
+  "domain": "counting_and_probability",
+  "type": "Counting & Probability",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "How many different lines pass through at least two points in this 3-by-3 grid of lattice points shown?\n\n[asy]\nsize(30);\ndot((0,0));\ndot((1,0));\ndot((2,0));\ndot((0,1));\ndot((1,1));\ndot((2,1));\ndot((0,2));\ndot((1,2));\ndot((2,2));\n[/asy]",
+  "n_questions": 7,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "Can you describe in your own words what the problem is asking us to find?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "How many points are on the grid? How many lines can we draw using two of these points?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Are there any lines that don't pass through at least two points on the grid? If so, how many are there?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How many lines pass through just two points on the grid? How do we count these lines?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How many lines pass through exactly three points on the grid? How do we count these lines?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "Why do we have to subtract twice the number of lines that go through three points in order to get the correct answer?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Can we apply the same approach to find the number of lines that pass through at least two points on a larger grid? How would the calculations change?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

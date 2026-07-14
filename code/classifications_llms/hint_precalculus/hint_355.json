@@ -1,0 +1,57 @@
+{
+  "problem_id": "hint_355",
+  "domain": "precalculus",
+  "type": "Precalculus",
+  "level": "Level 4",
+  "problem_type": "CH",
+  "problem_type_name": "Chords",
+  "problem": "For some constants $a$ and $c,$\n\\[\\begin{pmatrix} a \\\\ -1 \\\\ c \\end{pmatrix} \\times \\begin{pmatrix} 7 \\\\ 3 \\\\ 5 \\end{pmatrix} = \\begin{pmatrix} -11 \\\\ -16 \\\\ 25 \\end{pmatrix}.\\]Enter the ordered pair $(a,c).$",
+  "n_questions": 6,
+  "labels": [
+    "f",
+    "b",
+    "b",
+    "b",
+    "b",
+    "b"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the purpose of taking the cross product of the given vectors?",
+      "label": "f",
+      "label_name": "feature-pointing"
+    },
+    {
+      "index": 2,
+      "question": "What are the components of the resulting vector?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "How can we compare the components of the resulting vector to the given equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What equations can we form by comparing the components of the resulting vector to the components of the given equation?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "How can we solve the system of equations formed in question 4?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 6,
+      "question": "What values can we determine for $a$ and $c$ from solving the system of equations?",
+      "label": "b",
+      "label_name": "bottom-out"
+    }
+  ],
+  "classifier": "llm"
+}

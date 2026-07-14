@@ -1,0 +1,71 @@
+{
+  "problem_id": "hint_1023",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 3",
+  "problem_type": "FP",
+  "problem_type_name": "First Pieces",
+  "problem": "What is the smallest prime whose digits sum to $19$?",
+  "n_questions": 8,
+  "labels": [
+    "b",
+    "b",
+    "b",
+    "r",
+    "r",
+    "b",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "What is the digit sum for the largest possible 2-digit prime number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Why is a 3-digit number required to have a digit sum of 19 for a prime number?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 3,
+      "question": "Why is the first digit of the smallest prime number whose digits sum to 19 1?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "What is the significance of checking if a number is divisible by integers up to its square root?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 5,
+      "question": "Why is it sufficient to check for divisibility by only 2, 3, 5, 7, 11, and 13?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How do we know that 199 is not divisible by 2, 3, 5, 7, 11, and 13?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "What is the pattern in the alternating digit sum of 199, and how does it help determine that 199 isn't divisible by 11?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 8,
+      "question": "What other methods could be used to determine if a number is prime?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}

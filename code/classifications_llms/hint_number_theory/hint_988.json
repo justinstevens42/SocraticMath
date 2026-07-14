@@ -1,0 +1,64 @@
+{
+  "problem_id": "hint_988",
+  "domain": "number_theory",
+  "type": "Number Theory",
+  "level": "Level 5",
+  "problem_type": "SP",
+  "problem_type_name": "Showpieces",
+  "problem": "The number $1000!$ has a long tail of zeroes. How many zeroes are there?  (Reminder: The number $n!$ is the product of the integers from 1 to $n$.  For example, $5!=5\\cdot 4\\cdot3\\cdot2\\cdot 1= 120$.)",
+  "n_questions": 7,
+  "labels": [
+    "b",
+    "r",
+    "b",
+    "b",
+    "r",
+    "b",
+    "e"
+  ],
+  "classified_questions": [
+    {
+      "index": 1,
+      "question": "How can we determine the number of zeroes at the end of $1000!$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 2,
+      "question": "Why do we only need to count the number of factors of $5$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 3,
+      "question": "How do we count how many times $5$ appears in the prime factorization of $1000!$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 4,
+      "question": "How do we determine the number of multiples of $5$, $25$, $125$, and $625$ in $1000!$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 5,
+      "question": "Why do we need to add an extra factor of $5$ for multiples of $25$, $125$, and $625$?",
+      "label": "r",
+      "label_name": "principle-stating"
+    },
+    {
+      "index": 6,
+      "question": "How do we find the multiples of $625$ in $1000!$?",
+      "label": "b",
+      "label_name": "bottom-out"
+    },
+    {
+      "index": 7,
+      "question": "Is it possible to determine the number of zeroes at the end of any given factorial using similar methods? If so, how?",
+      "label": "e",
+      "label_name": "extension"
+    }
+  ],
+  "classifier": "llm"
+}
