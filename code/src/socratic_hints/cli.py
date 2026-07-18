@@ -3,8 +3,9 @@
 Usage (from anywhere, via uv):
     uv run socratic-hints classify      # label every chain, write files + CSV
     uv run socratic-hints analyze       # learn matrices, KL, similarity, plots
+    uv run socratic-hints test          # one-vs-rest permutation significance tests
     uv run socratic-hints evaluate      # rubric vs Cursor's hand-labeled gold
-    uv run socratic-hints all           # classify + analyze + evaluate
+    uv run socratic-hints all           # classify + analyze + test + evaluate
 """
 
 from __future__ import annotations
@@ -28,6 +29,7 @@ from .kl import (
 )
 from .parse import iter_domain_records, load_hint_file
 from .problem_types import PROBLEM_TYPE_NAMES, PROBLEM_TYPES
+from .significance import one_vs_rest_tests
 from .taxonomy import HINT_NAMES, HINT_TYPES
 from .transitions import (
     learn_domain,
@@ -513,6 +515,104 @@ def cmd_analyze_types(args: argparse.Namespace) -> None:
 
 
 # --------------------------------------------------------------------------
+# significance tests
+# --------------------------------------------------------------------------
+
+def cmd_test(args: argparse.Namespace) -> None:
+    """Problem-level permutation tests: each domain vs the rest.
+
+    Prints a detailed report for ``--target`` (which transitions differ and
+    by how much) plus a one-vs-rest table for every domain, and writes
+    ``significance_one_vs_rest.csv`` / ``significance_summary.json``.
+    """
+    target = getattr(args, "target", "counting_and_probability")
+    n_perm = getattr(args, "n_perm", 10_000)
+    seed = getattr(args, "seed", 0)
+    prior_strength = getattr(args, "prior_strength", 1.0)
+
+    sequences = _sequences_by("domain")
+    if target not in sequences:
+        raise SystemExit(
+            f"Unknown domain '{target}'. Choices: {', '.join(sorted(sequences))}"
+        )
+
+    print(
+        f"Problem-level permutation tests: {n_perm} permutations, seed={seed}, "
+        f"prior strength {prior_strength} (symmetric prior) ..."
+    )
+    results = one_vs_rest_tests(
+        sequences, n_perm=n_perm, seed=seed, prior_strength=prior_strength
+    )
+
+    res = results[target]
+    print(
+        f"\n[{target} vs rest]  "
+        f"problems {res['n_problems']} vs {res['n_rest_problems']}, "
+        f"transitions {res['n_transitions']} vs {res['n_rest_transitions']}"
+    )
+    print(f"  G     = {res['g']:8.2f}   perm p = {res['p_g']:.4g}")
+    print(f"  symKL = {res['sym_kl']:8.5f}   perm p = {res['p_kl']:.4g}")
+    print("  per-'from'-row breakdown (G, perm p):")
+    for i, t in enumerate(HINT_TYPES):
+        print(f"    from {t}:  G = {res['g_rows'][i]:7.2f}   p = {res['p_g_rows'][i]:.4g}")
+
+    def mle(c: np.ndarray) -> np.ndarray:
+        row = c.sum(axis=1, keepdims=True)
+        return c / np.where(row > 0, row, 1.0)
+
+    p_target = mle(np.array(res["counts"]))
+    p_rest = mle(np.array(res["rest_counts"]))
+    print(f"\n  MLE transition probabilities ({target} | rest, diff):")
+    print("          " + "".join(f"{'->' + t:<24}" for t in HINT_TYPES))
+    for i, t in enumerate(HINT_TYPES):
+        cells = "  ".join(
+            f"{p_target[i, j]:.3f}|{p_rest[i, j]:.3f} ({p_target[i, j] - p_rest[i, j]:+.3f})"
+            for j in range(len(HINT_TYPES))
+        )
+        print(f"  from {t}: {cells}")
+
+    print("\nOne-vs-rest for every domain (Holm-adjusted across the 7 tests):")
+    print(
+        f"  {'domain':<28} {'G':>9} {'p(G)':>10} {'Holm':>10} "
+        f"{'symKL':>9} {'p(KL)':>10} {'Holm':>10}"
+    )
+    for d, r in results.items():
+        print(
+            f"  {d:<28} {r['g']:9.2f} {r['p_g']:10.4g} {r['p_g_holm']:10.4g} "
+            f"{r['sym_kl']:9.5f} {r['p_kl']:10.4g} {r['p_kl_holm']:10.4g}"
+        )
+    print(f"  (smallest reportable p-value is {1 / (1 + n_perm):.4g})")
+
+    config.OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    csv_path = config.OUTPUT_DIR / "significance_one_vs_rest.csv"
+    with csv_path.open("w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow(
+            ["domain", "n_problems", "n_transitions",
+             "g", "p_g", "p_g_holm", "sym_kl", "p_kl", "p_kl_holm"]
+        )
+        for d, r in results.items():
+            writer.writerow(
+                [d, r["n_problems"], r["n_transitions"],
+                 f"{r['g']:.4f}", f"{r['p_g']:.6g}", f"{r['p_g_holm']:.6g}",
+                 f"{r['sym_kl']:.6f}", f"{r['p_kl']:.6g}", f"{r['p_kl_holm']:.6g}"]
+            )
+
+    summary = {
+        "method": "problem-level one-vs-rest permutation test",
+        "target": target,
+        "n_perm": n_perm,
+        "seed": seed,
+        "prior_strength": prior_strength,
+        "hint_types": HINT_TYPES,
+        "domains": results,
+    }
+    json_path = config.OUTPUT_DIR / "significance_summary.json"
+    json_path.write_text(json.dumps(summary, indent=2), encoding="utf-8")
+    print(f"\nWrote {csv_path.name} and {json_path.name} to {config.OUTPUT_DIR}")
+
+
+# --------------------------------------------------------------------------
 # problem-type histograms
 # --------------------------------------------------------------------------
 
@@ -728,9 +828,28 @@ def main(argv: list[str] | None = None) -> None:
     p_ty.add_argument("--prior-strength", type=float, default=1.0,
                       help="Scales both Dirichlet priors (default 1.0).")
 
+    def add_test_args(p: argparse.ArgumentParser) -> None:
+        p.add_argument("--target", default="counting_and_probability",
+                       help="Domain given the detailed report "
+                            "(default: counting_and_probability).")
+        p.add_argument("--n-perm", type=int, default=10_000, dest="n_perm",
+                       help="Number of permutations (default 10000).")
+        p.add_argument("--seed", type=int, default=0,
+                       help="RNG seed for reproducible permutations (default 0).")
+        p.add_argument("--prior-strength", type=float, default=1.0,
+                       help="Symmetric-prior strength for the symKL statistic "
+                            "(default 1.0).")
+
+    p_te = sub.add_parser(
+        "test",
+        help="Permutation test: does a domain's transition structure differ "
+             "from the other domains?",
+    )
+    add_test_args(p_te)
+
     sub.add_parser("evaluate", help="Compare rubric to the hand-labeled gold set.")
 
-    p_all = sub.add_parser("all", help="Run classify + analyze + analyze-types + evaluate.")
+    p_all = sub.add_parser("all", help="Run classify + analyze + analyze-types + test + evaluate.")
     p_all.add_argument("--prior-strength", type=float, default=1.0)
 
     # ---- LLM variants (write to classifications_llms / outputs_llms) ----
@@ -750,13 +869,17 @@ def main(argv: list[str] | None = None) -> None:
                            help="Problem-type analysis on the LLM classifications.")
     p_tyl.add_argument("--prior-strength", type=float, default=1.0)
 
+    p_tel = sub.add_parser("test-llm", help="Permutation test on the LLM classifications.")
+    add_test_args(p_tel)
+
     sub.add_parser("evaluate-llm", help="Compare LLM labels to the gold set.")
 
     sub.add_parser("plot-types", help="Problem-type histograms (regex labels).")
     sub.add_parser("plot-types-llm", help="Problem-type histograms (LLM labels).")
 
     p_alll = sub.add_parser(
-        "all-llm", help="Run classify-llm + analyze-llm + analyze-types-llm + evaluate-llm."
+        "all-llm",
+        help="Run classify-llm + analyze-llm + analyze-types-llm + test-llm + evaluate-llm.",
     )
     p_alll.add_argument("--prior-strength", type=float, default=1.0)
     p_alll.add_argument("--model", default=None)
@@ -770,12 +893,18 @@ def main(argv: list[str] | None = None) -> None:
         cmd_analyze(args)
     elif args.command == "analyze-types":
         cmd_analyze_types(args)
+    elif args.command == "test":
+        cmd_test(args)
+    elif args.command == "test-llm":
+        config.use_llm_paths()
+        cmd_test(args)
     elif args.command == "evaluate":
         cmd_evaluate(args)
     elif args.command == "all":
         cmd_classify(args)
         cmd_analyze(args)
         cmd_analyze_types(args)
+        cmd_test(args)
         cmd_evaluate(args)
     elif args.command == "classify-llm":
         cmd_classify_llm(args)
@@ -796,6 +925,7 @@ def main(argv: list[str] | None = None) -> None:
         cmd_classify_llm(args)
         cmd_analyze(args)
         cmd_analyze_types(args)
+        cmd_test(args)
         cmd_evaluate_llm(args)
 
 
